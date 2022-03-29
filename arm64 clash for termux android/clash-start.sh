@@ -27,12 +27,8 @@ tail -200f clash-linux-armv8-v1.8.0.log
 }
 
 echo 说明
-echo 一、此脚本支持chromium浏览器，所以需要安装chromium浏览器，如果有兴趣可以自己DIY别的浏览器。
-echo 二、是否执行IP更新？IP更新从云端更新IP配置以解决封锁问题！第一次使用务必先更新IP。
-echo 三、按1选择ip1更新，以此类推一共有6个IP，若ip1不好用再按2～6选ip2～ip6更新。
-echo 四、如果更新后都用不了，请自己编辑修改clash.cmd脚本。
-echo 五、或者在当前目录中放置自定义的config.yaml文件，执行 7 也可以。
-echo "1、ip1更新 2、ip2更新 3、ip3更新 4、ip4更新 5、ip5更新 6、ip6更新 7、config.yaml文已经放到目录表面，直接执行："
+echo 一、此脚本支持 android OS 需要配合 termux 使用
+echo "1、ip1更新 2、ip2更新 3、ip3更新 4、ip4更新 5、ip5更新 6、ip6更新 7、随机执行："
 read choice
 if [ $choice -eq 1 ];then
 # ./wget --connect-timeout=15 --no-check-certificate "https://gitlab.com/free9999/ipupdate/-/raw/master/clash/config.yaml" -O ".config/clash/config.yaml"
