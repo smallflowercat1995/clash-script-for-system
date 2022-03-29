@@ -5,168 +5,33 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇬🇧 https://git.io/v9999_ip5_英国_88, server: 51.68.205.180, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇬🇧 https://git.io/v9999_ip5_英国_84, server: 172.99.190.149, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 🇬🇧 https://git.io/v9999_ip5_英国_62, server: 172.99.190.205, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 🇬🇧 https://git.io/v9999_ip5_英国_52, server: 172.99.190.149, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇬🇧 https://git.io/v9999_ip5_英国_42, server: 172.99.190.205, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇬🇧 https://git.io/v9999_ip5_英国_39, server: 172.99.190.149, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇬🇧 https://git.io/v9999_ip5_英国_35, server: 172.99.190.205, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: 🇬🇧 https://git.io/v9999_ip5_英国_31, server: 172.99.190.149, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 🇬🇧 https://git.io/v9999_ip5_英国_29, server: 172.99.190.149, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇬🇧 https://git.io/v9999_ip5_英国_23, server: 172.99.190.205, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇬🇧 https://git.io/v9999_ip5_英国_20, server: 172.99.190.39, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 🇬🇧 https://git.io/v9999_ip5_英国_173, server: 172.99.190.188, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇬🇧 https://git.io/v9999_ip5_英国_164, server: 172.99.190.149, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 🇬🇧 https://git.io/v9999_ip5_英国_130, server: 172.99.190.39, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 🇬🇧 https://git.io/v9999_ip5_英国_102, server: 172.99.190.188, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 🇨🇦 https://git.io/v9999_ip5_加拿大_85, server: 134.195.196.193, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇨🇦 https://git.io/v9999_ip5_加拿大_32, server: 134.195.196.193, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 🇨🇦 https://git.io/v9999_ip5_加拿大_25, server: 134.195.196.193, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 🇨🇦 https://git.io/v9999_ip5_加拿大_244, server: 134.195.196.147, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇨🇦 https://git.io/v9999_ip5_加拿大_229, server: 134.195.196.147, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇨🇦 https://git.io/v9999_ip5_加拿大_222, server: 134.195.196.193, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 🇨🇦 https://git.io/v9999_ip5_加拿大_199, server: 134.195.196.200, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇨🇦 https://git.io/v9999_ip5_加拿大_178, server: 134.195.196.193, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇨🇦 https://git.io/v9999_ip5_加拿大_168, server: 134.195.196.193, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇨🇦 https://git.io/v9999_ip5_加拿大_13, server: 134.195.196.147, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 🇫🇷 https://git.io/v9999_ip5_法国_6, server: 145.239.1.100, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 🇫🇷 https://git.io/v9999_ip5_法国_245, server: 145.239.1.100, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 🇫🇷 https://git.io/v9999_ip5_法国_103, server: 149.202.82.172, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: https://github.com/Alvin9999/new-pac/wiki clash ip5, server: 45.66.157.206, port: 12345, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 直连
-      - 🇬🇧 https://git.io/v9999_ip5_英国_88
-      - 🇬🇧 https://git.io/v9999_ip5_英国_84
-      - 🇬🇧 https://git.io/v9999_ip5_英国_62
-      - 🇬🇧 https://git.io/v9999_ip5_英国_52
-      - 🇬🇧 https://git.io/v9999_ip5_英国_42
-      - 🇬🇧 https://git.io/v9999_ip5_英国_39
-      - 🇬🇧 https://git.io/v9999_ip5_英国_35
-      - 🇬🇧 https://git.io/v9999_ip5_英国_31
-      - 🇬🇧 https://git.io/v9999_ip5_英国_29
-      - 🇬🇧 https://git.io/v9999_ip5_英国_23
-      - 🇬🇧 https://git.io/v9999_ip5_英国_20
-      - 🇬🇧 https://git.io/v9999_ip5_英国_173
-      - 🇬🇧 https://git.io/v9999_ip5_英国_164
-      - 🇬🇧 https://git.io/v9999_ip5_英国_130
-      - 🇬🇧 https://git.io/v9999_ip5_英国_102
-      - 🇨🇦 https://git.io/v9999_ip5_加拿大_85
-      - 🇨🇦 https://git.io/v9999_ip5_加拿大_32
-      - 🇨🇦 https://git.io/v9999_ip5_加拿大_25
-      - 🇨🇦 https://git.io/v9999_ip5_加拿大_244
-      - 🇨🇦 https://git.io/v9999_ip5_加拿大_229
-      - 🇨🇦 https://git.io/v9999_ip5_加拿大_222
-      - 🇨🇦 https://git.io/v9999_ip5_加拿大_199
-      - 🇨🇦 https://git.io/v9999_ip5_加拿大_178
-      - 🇨🇦 https://git.io/v9999_ip5_加拿大_168
-      - 🇨🇦 https://git.io/v9999_ip5_加拿大_13
-      - 🇫🇷 https://git.io/v9999_ip5_法国_6
-      - 🇫🇷 https://git.io/v9999_ip5_法国_245
-      - 🇫🇷 https://git.io/v9999_ip5_法国_103
+      - https://github.com/Alvin9999/new-pac/wiki clash ip5
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇬🇧 https://git.io/v9999_ip5_英国_88
-      - 🇬🇧 https://git.io/v9999_ip5_英国_84
-      - 🇬🇧 https://git.io/v9999_ip5_英国_62
-      - 🇬🇧 https://git.io/v9999_ip5_英国_52
-      - 🇬🇧 https://git.io/v9999_ip5_英国_42
-      - 🇬🇧 https://git.io/v9999_ip5_英国_39
-      - 🇬🇧 https://git.io/v9999_ip5_英国_35
-      - 🇬🇧 https://git.io/v9999_ip5_英国_31
-      - 🇬🇧 https://git.io/v9999_ip5_英国_29
-      - 🇬🇧 https://git.io/v9999_ip5_英国_23
-      - 🇬🇧 https://git.io/v9999_ip5_英国_20
-      - 🇬🇧 https://git.io/v9999_ip5_英国_173
-      - 🇬🇧 https://git.io/v9999_ip5_英国_164
-      - 🇬🇧 https://git.io/v9999_ip5_英国_130
-      - 🇬🇧 https://git.io/v9999_ip5_英国_102
-      - 🇨🇦 https://git.io/v9999_ip5_加拿大_85
-      - 🇨🇦 https://git.io/v9999_ip5_加拿大_32
-      - 🇨🇦 https://git.io/v9999_ip5_加拿大_25
-      - 🇨🇦 https://git.io/v9999_ip5_加拿大_244
-      - 🇨🇦 https://git.io/v9999_ip5_加拿大_229
-      - 🇨🇦 https://git.io/v9999_ip5_加拿大_222
-      - 🇨🇦 https://git.io/v9999_ip5_加拿大_199
-      - 🇨🇦 https://git.io/v9999_ip5_加拿大_178
-      - 🇨🇦 https://git.io/v9999_ip5_加拿大_168
-      - 🇨🇦 https://git.io/v9999_ip5_加拿大_13
-      - 🇫🇷 https://git.io/v9999_ip5_法国_6
-      - 🇫🇷 https://git.io/v9999_ip5_法国_245
-      - 🇫🇷 https://git.io/v9999_ip5_法国_103
+      - https://github.com/Alvin9999/new-pac/wiki clash ip5
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 直连
       - 🔰 节点选择
-      - 🇬🇧 https://git.io/v9999_ip5_英国_88
-      - 🇬🇧 https://git.io/v9999_ip5_英国_84
-      - 🇬🇧 https://git.io/v9999_ip5_英国_62
-      - 🇬🇧 https://git.io/v9999_ip5_英国_52
-      - 🇬🇧 https://git.io/v9999_ip5_英国_42
-      - 🇬🇧 https://git.io/v9999_ip5_英国_39
-      - 🇬🇧 https://git.io/v9999_ip5_英国_35
-      - 🇬🇧 https://git.io/v9999_ip5_英国_31
-      - 🇬🇧 https://git.io/v9999_ip5_英国_29
-      - 🇬🇧 https://git.io/v9999_ip5_英国_23
-      - 🇬🇧 https://git.io/v9999_ip5_英国_20
-      - 🇬🇧 https://git.io/v9999_ip5_英国_173
-      - 🇬🇧 https://git.io/v9999_ip5_英国_164
-      - 🇬🇧 https://git.io/v9999_ip5_英国_130
-      - 🇬🇧 https://git.io/v9999_ip5_英国_102
-      - 🇨🇦 https://git.io/v9999_ip5_加拿大_85
-      - 🇨🇦 https://git.io/v9999_ip5_加拿大_32
-      - 🇨🇦 https://git.io/v9999_ip5_加拿大_25
-      - 🇨🇦 https://git.io/v9999_ip5_加拿大_244
-      - 🇨🇦 https://git.io/v9999_ip5_加拿大_229
-      - 🇨🇦 https://git.io/v9999_ip5_加拿大_222
-      - 🇨🇦 https://git.io/v9999_ip5_加拿大_199
-      - 🇨🇦 https://git.io/v9999_ip5_加拿大_178
-      - 🇨🇦 https://git.io/v9999_ip5_加拿大_168
-      - 🇨🇦 https://git.io/v9999_ip5_加拿大_13
-      - 🇫🇷 https://git.io/v9999_ip5_法国_6
-      - 🇫🇷 https://git.io/v9999_ip5_法国_245
-      - 🇫🇷 https://git.io/v9999_ip5_法国_103
+      - https://github.com/Alvin9999/new-pac/wiki clash ip5
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 直连
       - ♻️ 自动选择
-      - 🇬🇧 https://git.io/v9999_ip5_英国_88
-      - 🇬🇧 https://git.io/v9999_ip5_英国_84
-      - 🇬🇧 https://git.io/v9999_ip5_英国_62
-      - 🇬🇧 https://git.io/v9999_ip5_英国_52
-      - 🇬🇧 https://git.io/v9999_ip5_英国_42
-      - 🇬🇧 https://git.io/v9999_ip5_英国_39
-      - 🇬🇧 https://git.io/v9999_ip5_英国_35
-      - 🇬🇧 https://git.io/v9999_ip5_英国_31
-      - 🇬🇧 https://git.io/v9999_ip5_英国_29
-      - 🇬🇧 https://git.io/v9999_ip5_英国_23
-      - 🇬🇧 https://git.io/v9999_ip5_英国_20
-      - 🇬🇧 https://git.io/v9999_ip5_英国_173
-      - 🇬🇧 https://git.io/v9999_ip5_英国_164
-      - 🇬🇧 https://git.io/v9999_ip5_英国_130
-      - 🇬🇧 https://git.io/v9999_ip5_英国_102
-      - 🇨🇦 https://git.io/v9999_ip5_加拿大_85
-      - 🇨🇦 https://git.io/v9999_ip5_加拿大_32
-      - 🇨🇦 https://git.io/v9999_ip5_加拿大_25
-      - 🇨🇦 https://git.io/v9999_ip5_加拿大_244
-      - 🇨🇦 https://git.io/v9999_ip5_加拿大_229
-      - 🇨🇦 https://git.io/v9999_ip5_加拿大_222
-      - 🇨🇦 https://git.io/v9999_ip5_加拿大_199
-      - 🇨🇦 https://git.io/v9999_ip5_加拿大_178
-      - 🇨🇦 https://git.io/v9999_ip5_加拿大_168
-      - 🇨🇦 https://git.io/v9999_ip5_加拿大_13
-      - 🇫🇷 https://git.io/v9999_ip5_法国_6
-      - 🇫🇷 https://git.io/v9999_ip5_法国_245
-      - 🇫🇷 https://git.io/v9999_ip5_法国_103
+      - https://github.com/Alvin9999/new-pac/wiki clash ip5
   - name: 🎯 直连
     type: select
     proxies:
@@ -805,5 +670,43 @@ rules:
  - DOMAIN-KEYWORD,yunpan,🎯 直连
  - DOMAIN-KEYWORD,Thunder,🎯 直连
  - DOMAIN-KEYWORD,XLLiveUD,🎯 直连
+ - DOMAIN-SUFFIX,265.com,🎯 直连
+ - DOMAIN-SUFFIX,2mdn.net,🎯 直连
+ - DOMAIN-SUFFIX,alt1-mtalk.google.com,🎯 直连
+ - DOMAIN-SUFFIX,alt2-mtalk.google.com,🎯 直连
+ - DOMAIN-SUFFIX,alt3-mtalk.google.com,🎯 直连
+ - DOMAIN-SUFFIX,alt4-mtalk.google.com,🎯 直连
+ - DOMAIN-SUFFIX,alt5-mtalk.google.com,🎯 直连
+ - DOMAIN-SUFFIX,alt6-mtalk.google.com,🎯 直连
+ - DOMAIN-SUFFIX,alt7-mtalk.google.com,🎯 直连
+ - DOMAIN-SUFFIX,alt8-mtalk.google.com,🎯 直连
+ - DOMAIN-SUFFIX,app-measurement.com,🎯 直连
+ - DOMAIN-SUFFIX,c.android.clients.google.com,🎯 直连
+ - DOMAIN-SUFFIX,cache.pack.google.com,🎯 直连
+ - DOMAIN-SUFFIX,clickserve.dartsearch.net,🎯 直连
+ - DOMAIN-SUFFIX,clientservices.googleapis.com,🎯 直连
+ - DOMAIN-SUFFIX,crl.pki.goog,🎯 直连
+ - DOMAIN-SUFFIX,dl.google.com,🎯 直连
+ - DOMAIN-SUFFIX,dl.l.google.com,🎯 直连
+ - DOMAIN-SUFFIX,fonts.googleapis.com,🎯 直连
+ - DOMAIN-SUFFIX,fonts.gstatic.com,🎯 直连
+ - DOMAIN-SUFFIX,googletagmanager.com,🎯 直连
+ - DOMAIN-SUFFIX,googletagservices.com,🎯 直连
+ - DOMAIN-SUFFIX,gtm.oasisfeng.com,🎯 直连
+ - DOMAIN-SUFFIX,imasdk.googleapis.com,🎯 直连
+ - DOMAIN-SUFFIX,mtalk.google.com,🎯 直连
+ - DOMAIN-SUFFIX,ocsp.pki.goog,🎯 直连
+ - DOMAIN-SUFFIX,recaptcha.net,🎯 直连
+ - DOMAIN-SUFFIX,safebrowsing-cache.google.com,🎯 直连
+ - DOMAIN-SUFFIX,safebrowsing.googleapis.com,🎯 直连
+ - DOMAIN-SUFFIX,settings.crashlytics.com,🎯 直连
+ - DOMAIN-SUFFIX,ssl-google-analytics.l.google.com,🎯 直连
+ - DOMAIN-SUFFIX,ssl.gstatic.com,🎯 直连
+ - DOMAIN-SUFFIX,toolbarqueries.google.com,🎯 直连
+ - DOMAIN-SUFFIX,tools.google.com,🎯 直连
+ - DOMAIN-SUFFIX,tools.l.google.com,🎯 直连
+ - DOMAIN-SUFFIX,update.googleapis.com,🎯 直连
+ - DOMAIN-SUFFIX,www-googletagmanager.l.google.com,🎯 直连
+ - DOMAIN-SUFFIX,www.gstatic.com,🎯 直连
  - GEOIP,CN,🎯 直连
  - MATCH,🔰 节点选择
