@@ -1,0 +1,2 @@
+# need `pkg install cronie termux-services` and  `sv-enable crond` and  exit termux  and `crontab termux-cronfile`
+0 * * * * cd $HOME/arm64\ clash\ for\ termux\ android && /usr/bin/env bash clash-update.sh

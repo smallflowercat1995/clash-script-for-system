@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# for termux arm64 startup init  
+IFSBAK=$IFS
+IFS=$'\n'
+# need install Termux:Boot android apk and  create directory '~/.termux/boot' and  `cp -r termux-startupinit ~/.termux/boot/`
+termux-wake-lock
+cd $HOME/arm64\ clash\ for\ termux\ android && /usr/bin/env bash clash-update.sh 
+IFS=$IFSBAK
