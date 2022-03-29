@@ -5,19 +5,19 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇺🇸 https://git.io/v9999 美国CDN ip6, server: www.digitalocean.com, port: 443, type: vmess, uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: clash3.v2rayfree1.xyz}}}
-  - {name: 🇺🇸 https://git.io/v9999 美国CDN ip6 2, server: 104.21.209.112, port: 443, type: vmess, uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: clash3.v2rayfree1.xyz}}}
-  - {name: 🇺🇸 https://git.io/v9999 美国CDN ip6 3, server: 104.17.97.246, port: 443, type: vmess, uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: clash3.v2rayfree1.xyz}}}
-  - {name: 🇺🇸 https://git.io/v9999 美国CDN ip6 4, server: cf1.521024.xyz, port: 443, type: vmess, uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: clash3.v2rayfree1.xyz}}}
-  - {name: 🇺🇸 https://git.io/v9999 美国CDN ip6 5, server: 104.16.190.180, port: 443, type: vmess, uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: clash3.v2rayfree1.xyz}}}
-  - {name: 🇺🇸 https://git.io/v9999 美国CDN ip6 6, server: 104.20.169.236, port: 443, type: vmess, uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: clash3.v2rayfree1.xyz}}}
+  - {name: 🇺🇸 https://git.io/v9999 美国CDN ip6, server: cf1.521024.xyz, port: 443, type: vmess, uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: clash3.v2rayfree1.xyz}}}
+  - {name: 🇺🇸 https://git.io/v9999 美国CDN ip6 2, server: 104.16.143.7, port: 443, type: vmess, uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: clash3.v2rayfree1.xyz}}}
+  - {name: 🇺🇸 https://git.io/v9999 美国CDN ip6 3, server: 104.20.131.67, port: 443, type: vmess, uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: clash3.v2rayfree1.xyz}}}
+  - {name: 🇺🇸 https://git.io/v9999 美国CDN ip6 4, server: 104.24.88.80, port: 443, type: vmess, uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: clash3.v2rayfree1.xyz}}}
+  - {name: 🇺🇸 https://git.io/v9999 美国CDN ip6 5, server: icook.tw, port: 443, type: vmess, uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: clash3.v2rayfree1.xyz}}}
+  - {name: 🇺🇸 https://git.io/v9999 美国CDN ip6 6, server: cdn.xia.me, port: 443, type: vmess, uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: clash3.v2rayfree1.xyz}}}
   - {name: 🇺🇸 https://git.io/v9999 美国CDN ip6 7, server: cf.521024.xyz, port: 443, type: vmess, uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: clash3.v2rayfree1.xyz}}}
-  - {name: 🇺🇸 https://git.io/v9999 美国CDN ip6 8, server: 104.19.42.37, port: 443, type: vmess, uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: clash3.v2rayfree1.xyz}}}
-  - {name: 🇺🇸 https://git.io/v9999 美国CDN ip6 9, server: icook.tw, port: 443, type: vmess, uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: clash3.v2rayfree1.xyz}}}
-  - {name: 🇺🇸 https://git.io/v9999 美国CDN ip6 10, server: cdn.xia.me, port: 443, type: vmess, uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: clash3.v2rayfree1.xyz}}}
-  - {name: 🇺🇸 https://git.io/v9999 美国CDN ip6 11, server: 104.19.183.198, port: 443, type: vmess, uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: clash3.v2rayfree1.xyz}}}
-  - {name: 🇺🇸 https://git.io/v9999 美国CDN ip6 12, server: 104.16.195.23, port: 443, type: vmess, uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: clash3.v2rayfree1.xyz}}}
-  - {name: 🇺🇸 https://git.io/v9999 美国CDN ip6 13, server: 104.19.103.228, port: 443, type: vmess, uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: clash3.v2rayfree1.xyz}}}
+  - {name: 🇺🇸 https://git.io/v9999 美国CDN ip6 8, server: 104.18.240.134, port: 443, type: vmess, uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: clash3.v2rayfree1.xyz}}}
+  - {name: 🇺🇸 https://git.io/v9999 美国CDN ip6 9, server: 104.18.236.50, port: 443, type: vmess, uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: clash3.v2rayfree1.xyz}}}
+  - {name: 🇺🇸 https://git.io/v9999 美国CDN ip6 10, server: 104.19.119.250, port: 443, type: vmess, uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: clash3.v2rayfree1.xyz}}}
+  - {name: 🇺🇸 https://git.io/v9999 美国CDN ip6 11, server: 104.17.141.79, port: 443, type: vmess, uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: clash3.v2rayfree1.xyz}}}
+  - {name: 🇺🇸 https://git.io/v9999 美国CDN ip6 12, server: www.digitalocean.com, port: 443, type: vmess, uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: clash3.v2rayfree1.xyz}}}
+  - {name: 🇺🇸 https://git.io/v9999 美国CDN ip6 13, server: 104.19.92.3, port: 443, type: vmess, uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: clash3.v2rayfree1.xyz}}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -730,5 +730,43 @@ rules:
  - DOMAIN-KEYWORD,yunpan,🎯 直连
  - DOMAIN-KEYWORD,Thunder,🎯 直连
  - DOMAIN-KEYWORD,XLLiveUD,🎯 直连
+ - DOMAIN-SUFFIX,265.com,🎯 直连
+ - DOMAIN-SUFFIX,2mdn.net,🎯 直连
+ - DOMAIN-SUFFIX,alt1-mtalk.google.com,🎯 直连
+ - DOMAIN-SUFFIX,alt2-mtalk.google.com,🎯 直连
+ - DOMAIN-SUFFIX,alt3-mtalk.google.com,🎯 直连
+ - DOMAIN-SUFFIX,alt4-mtalk.google.com,🎯 直连
+ - DOMAIN-SUFFIX,alt5-mtalk.google.com,🎯 直连
+ - DOMAIN-SUFFIX,alt6-mtalk.google.com,🎯 直连
+ - DOMAIN-SUFFIX,alt7-mtalk.google.com,🎯 直连
+ - DOMAIN-SUFFIX,alt8-mtalk.google.com,🎯 直连
+ - DOMAIN-SUFFIX,app-measurement.com,🎯 直连
+ - DOMAIN-SUFFIX,c.android.clients.google.com,🎯 直连
+ - DOMAIN-SUFFIX,cache.pack.google.com,🎯 直连
+ - DOMAIN-SUFFIX,clickserve.dartsearch.net,🎯 直连
+ - DOMAIN-SUFFIX,clientservices.googleapis.com,🎯 直连
+ - DOMAIN-SUFFIX,crl.pki.goog,🎯 直连
+ - DOMAIN-SUFFIX,dl.google.com,🎯 直连
+ - DOMAIN-SUFFIX,dl.l.google.com,🎯 直连
+ - DOMAIN-SUFFIX,fonts.googleapis.com,🎯 直连
+ - DOMAIN-SUFFIX,fonts.gstatic.com,🎯 直连
+ - DOMAIN-SUFFIX,googletagmanager.com,🎯 直连
+ - DOMAIN-SUFFIX,googletagservices.com,🎯 直连
+ - DOMAIN-SUFFIX,gtm.oasisfeng.com,🎯 直连
+ - DOMAIN-SUFFIX,imasdk.googleapis.com,🎯 直连
+ - DOMAIN-SUFFIX,mtalk.google.com,🎯 直连
+ - DOMAIN-SUFFIX,ocsp.pki.goog,🎯 直连
+ - DOMAIN-SUFFIX,recaptcha.net,🎯 直连
+ - DOMAIN-SUFFIX,safebrowsing-cache.google.com,🎯 直连
+ - DOMAIN-SUFFIX,safebrowsing.googleapis.com,🎯 直连
+ - DOMAIN-SUFFIX,settings.crashlytics.com,🎯 直连
+ - DOMAIN-SUFFIX,ssl-google-analytics.l.google.com,🎯 直连
+ - DOMAIN-SUFFIX,ssl.gstatic.com,🎯 直连
+ - DOMAIN-SUFFIX,toolbarqueries.google.com,🎯 直连
+ - DOMAIN-SUFFIX,tools.google.com,🎯 直连
+ - DOMAIN-SUFFIX,tools.l.google.com,🎯 直连
+ - DOMAIN-SUFFIX,update.googleapis.com,🎯 直连
+ - DOMAIN-SUFFIX,www-googletagmanager.l.google.com,🎯 直连
+ - DOMAIN-SUFFIX,www.gstatic.com,🎯 直连
  - GEOIP,CN,🎯 直连
  - MATCH,🔰 节点选择
