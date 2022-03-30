@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 clear
-kill -9 `ps -ef | grep -v grep | grep clash-linux-armv8-v1.8.0 | awk '{print $2}'`
-kill -9 `ps -ef | grep -v grep | grep chromium | awk '{print $2}'`
+# kill -9 `ps -ef | grep -v grep | grep clash-linux-armv8-v1.8.0 | awk '{print $2}'`
+# kill -9 `ps -ef | grep -v grep | grep chromium | awk '{print $2}'`
 # rm -rfv ".config/clash"
 rm -rfv "*.log"
 echo "开始吧小老弟！"

@@ -1,7 +1,10 @@
 #!/usr/bin/env bash
 clear
-kill -9 `ps -ef | grep -v grep | grep clash-darwin-amd64-v1.8.0 | awk '{print $2}'`
-kill -9 `ps -ef | grep -v grep | grep chrom* | awk '{print $2}'`
+# kill -9 `ps -ef | grep -v grep | grep clash-darwin-amd64-v1.8.0 | awk '{print $2}'`
+killall clash-darwin-amd64-v1.8.0
+# kill -9 `ps -ef | grep -v grep | grep chrom* | awk '{print $2}'`
+killall Google\ Chrome
+killall tail
 # rm -rfv ".config/clash"
 rm -rfv "*.log"
 echo "开始吧小老弟！"
