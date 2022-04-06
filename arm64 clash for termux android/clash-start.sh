@@ -1,8 +1,9 @@
-#!/usr/bin/env bash
+#!$PREFIX/bin/env bash
 clear
-# kill -9 `ps -ef | grep -v grep | grep clash-linux-armv8-v1.8.0 | awk '{print $2}'`
-# kill -9 `ps -ef | grep -v grep | grep chromium | awk '{print $2}'`
-# rm -rfv ".config/clash"
+
+killall clash-linux-armv8-v1.8.0
+killall tail
+
 rm -rfv "*.log"
 echo "开始吧小老弟！"
 echo "当前目录`pwd`"
@@ -13,16 +14,16 @@ startclash(){
 echo 等待软件启动，请稍候...
 nohup ./clash-linux-armv8-v1.8.0 -d .config/clash/ > clash-linux-armv8-v1.8.0.log 2>&1 &
 echo '正在清理网络环境' && \
-	sudo settings delete global http_proxy && \
-	sudo settings delete global global_http_proxy_host && \
-	sudo settings delete global global_http_proxy_port
+        sudo settings delete global http_proxy && \
+        sudo settings delete global global_http_proxy_host && \
+        sudo settings delete global global_http_proxy_port
 sudo settings put global http_proxy 127.0.0.1:7890
 nohup am start -a android.intent.action.VIEW -d https://www.google.com > intent.log 2>&1 &
 trap "echo '正在终止。。。' && \
-	sudo settings delete global http_proxy && \
-	sudo settings delete global global_http_proxy_host && \
-	sudo settings delete global global_http_proxy_port && \
-	trap INT" INT
+        sudo settings delete global http_proxy && \
+        sudo settings delete global global_http_proxy_host && \
+        sudo settings delete global global_http_proxy_port && \
+        trap INT" INT
 tail -200f clash-linux-armv8-v1.8.0.log
 }
 
@@ -60,11 +61,11 @@ pool=(1 2 3 4 5 6)
 num=${#pool[*]}
 pn=${pool[$((RANDOM%num+1))]}
 echo $pn
-if [ "$pn" = "" ]; then
-	cp -r -v config1.yaml ".config/clash/config.yaml"
-else
-	cp -r -v config$pn.yaml ".config/clash/config.yaml"
-fi
+	if [ "$pn" = "" ]; then
+	        cp -r -v config1.yaml ".config/clash/config.yaml"
+	else
+	        cp -r -v config$pn.yaml ".config/clash/config.yaml"
+	fi
 echo 已经7启动程序！
 startclash
 else
