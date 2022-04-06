@@ -1,8 +1,7 @@
-
 cls.
 @echo off
 color 0a
-%1 start "" mshta vbscript:CreateObject("Shell.Application").ShellExecute("cmd.exe","/c %~s0 ::","","runas",1)(window.close)&&exit
+rem %1 start "" mshta vbscript:CreateObject("Shell.Application").ShellExecute("cmd.exe","/c %~s0 ::","","runas",1)(window.close)&&exit
 CD /D "%~dp0"
 taskkill /f /t /im "clash-windows*"  >NUL 2>NUL
 taskkill /f /t /im "chrome*"  >NUL 2>NUL
@@ -67,7 +66,7 @@ set pmax=6
 set /a pmod=%pmax%-%pmin%
 set /a pnum=%RANDOM% %% %pmod%+%pmin%
 echo config%pnum%.yaml
-copy /Y config%pn%.yaml ".config\clash\config.yaml"
+copy /Y config%pnum%.yaml ".config\clash\config.yaml"
 echo.&echo.已经7，请按回车键或空格键启动程序！&pause >NUL 2>NUL
 goto startclash
 
@@ -76,12 +75,12 @@ goto startclash
 start "" "%~dp0clash-windows-386.exe"  -d .config\clash\ >nul 2>&1
 
 echo 等待软件启动，请稍候...
-IF EXIST %~dp0Browser\chrome.exe (
-    start %~dp0Browser\chrome.exe --user-data-dir=%~dp0chrome-user-data --proxy-server=http://127.0.0.1:7890 https://www.duckduckgo.com/?q=GoClashB
+IF EXIST "%~dp0Browser\chrome.exe" (
+    start "%~dp0Browser\chrome.exe" --user-data-dir="%~dp0chrome-user-data" --proxy-server="http://127.0.0.1:7890" "https://www.duckduckgo.com/?q=GoClashB"
 ) ELSE (
 	%SystemRoot%\System32\reg.exe query "HKLM\Software\Microsoft\Windows\CurrentVersion\App Paths\chrome.exe" >nul 2>&1
 	IF  not errorlevel 1 (
-    start chrome.exe --user-data-dir=%~dp0Browser\chrome-user-data  --proxy-server=http://127.0.0.1:7890 https://www.duckduckgo.com/?q=GoClashB
+    start chrome.exe --user-data-dir="%~dp0Browser\chrome-user-data"  --proxy-server="http://127.0.0.1:7890" "https://www.duckduckgo.com/?q=GoClashB"
 	) else (
 		echo Chrome浏览器不存在或没有正确安装，请尝试重新安装Chrome浏览器
 	)
