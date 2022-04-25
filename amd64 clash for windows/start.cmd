@@ -16,7 +16,7 @@ copy /Y Country.mmdb ".config\clash\"
 @echo 一、此脚本支持Chrome浏览器，所以需要安装Chrome浏览器，如果有兴趣可以自己DIY别的浏览器。
 
 set choice=
-set /p choice=  "1、ip1更新 2、ip2更新 3、ip3更新 4、ip4更新 5、ip5更新 6、ip6更新 7、随机执行:"
+set /p choice=  "1、ip1更新 2、ip2更新 3、ip3更新 4、ip4更新 5、ip5更新 6、ip6更新 7、ip7更新 8、随机执行:"
 IF NOT "%Choice%"=="" SET Choice=%Choice:~0,1%
 if /i "%choice%"=="1" goto ip1
 if /i "%choice%"=="2" goto ip2
@@ -25,49 +25,55 @@ if /i "%choice%"=="4" goto ip4
 if /i "%choice%"=="5" goto ip5
 if /i "%choice%"=="6" goto ip6
 if /i "%choice%"=="7" goto ip7
+if /i "%choice%"=="8" goto ip8
 if /i "%choice%"=="?" echo.&echo."** what's up? **" &pause >NUL 2>NUL
 
 rem wget --connect-timeout=5 --no-check-certificate 
 :ip1
-curl "https://gitlab.com/free9999/ipupdate/-/raw/master/clash/config.yaml" -o ".config\clash\config.yaml"
+curl -H "Connection: keep-alive" -L -k "https://gitlab.com/free9999/ipupdate/-/raw/master/clash/config.yaml" -o ".config\clash\config.yaml"
 echo.&echo.已经1，请按回车键或空格键启动程序！&pause >NUL 2>NUL
 goto startclash
 
 :ip2
-curl "https://gitlab.com/free9999/ipupdate/-/raw/master/clash/3/config.yaml" -o ".config\clash\config.yaml"
+curl -H "Connection: keep-alive" -L -k "https://gitlab.com/free9999/ipupdate/-/raw/master/clash/3/config.yaml" -o ".config\clash\config.yaml"
 echo.&echo.已经2，请按回车键或空格键启动程序！&pause >NUL 2>NUL
 goto startclash
 
 :ip3
-curl "https://gitlab.com/free9999/ipupdate/-/raw/master/clash/2/config.yaml" -o ".config\clash\config.yaml"
+curl -H "Connection: keep-alive" -L -k "https://gitlab.com/free9999/ipupdate/-/raw/master/clash/2/config.yaml" -o ".config\clash\config.yaml"
 echo.&echo.已经3，请按回车键或空格键启动程序！&pause >NUL 2>NUL
 goto startclash
 
 :ip4
-curl "https://cdn.jsdelivr.net/gh/Alvin9999/pac2@latest/clash/config.yaml" -o ".config\clash\config.yaml"
+curl -H "Connection: keep-alive" -L -k "https://cdn.jsdelivr.net/gh/Alvin9999/pac2@latest/clash/config.yaml" -o ".config\clash\config.yaml"
 echo.&echo.已经4，请按回车键或空格键启动程序！&pause >NUL 2>NUL
 goto startclash
 
 
 :ip5
-curl "https://cdn.jsdelivr.net/gh/Alvin9999/pac2@latest/clash/3/config.yaml" -o ".config\clash\config.yaml"
+curl -H "Connection: keep-alive" -L -k "https://cdn.jsdelivr.net/gh/Alvin9999/pac2@latest/clash/3/config.yaml" -o ".config\clash\config.yaml"
 echo.&echo.已经5，请按回车键或空格键启动程序！&pause >NUL 2>NUL
 goto startclash
 
 
 :ip6
-curl "https://cdn.jsdelivr.net/gh/Alvin9999/pac2@latest/clash/2/config.yaml" -o ".config\clash\config.yaml"
+curl -H "Connection: keep-alive" -L -k "https://cdn.jsdelivr.net/gh/Alvin9999/pac2@latest/clash/2/config.yaml" -o ".config\clash\config.yaml"
 echo.&echo.已经6，请按回车键或空格键启动程序！&pause >NUL 2>NUL
 goto startclash
 
 :ip7
+curl -H "Connection: keep-alive" -L -k "https://cdn.jsdelivr.net/gh/jsvpn/jsproxy@dev/baitai/20200329/1302338.md" -o ".config\clash\config.yaml"
+echo.&echo.已经7，请按回车键或空格键启动程序！&pause >NUL 2>NUL
+goto startclash
+
+:ip8
 set pmin=1
-set pmax=6
+set pmax=7
 set /a pmod=%pmax%-%pmin%
 set /a pnum=%RANDOM% %% %pmod%+%pmin%
 echo config%pnum%.yaml
 copy /Y config%pnum%.yaml ".config\clash\config.yaml"
-echo.&echo.已经7，请按回车键或空格键启动程序！&pause >NUL 2>NUL
+echo.&echo.已经8，请按回车键或空格键启动程序！&pause >NUL 2>NUL
 goto startclash
 
 
