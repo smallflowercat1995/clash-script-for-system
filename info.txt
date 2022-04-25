@@ -1,0 +1,20 @@
+clash     : wget --no-check-certificate https://cdn.jsdelivr.net/gh/Alvin9999/pac2@latest/clash/2/config.yaml
+clash     : wget --no-check-certificate https://cdn.jsdelivr.net/gh/Alvin9999/pac2@latest/clash/3/config.yaml
+clash     : wget --no-check-certificate https://cdn.jsdelivr.net/gh/Alvin9999/pac2@latest/clash/config.yaml
+clash     : wget --no-check-certificate https://gitlab.com/free9999/ipupdate/-/raw/master/clash/2/config.yaml
+clash     : wget --no-check-certificate https://gitlab.com/free9999/ipupdate/-/raw/master/clash/3/config.yaml
+clash     : wget --no-check-certificate https://gitlab.com/free9999/ipupdate/-/raw/master/clash/config.yaml
+clashB    : wget --no-check-certificate https://cdn.jsdelivr.net/gh/jsvpn/jsproxy@dev/baitai/20200329/1302338.md
+
+SS-plugin : wget --no-check-certificate https://cdn.jsdelivr.net/gh/Alvin9999/pac2@latest/SS-Kcptun/ssconfig.txt
+SS-plugin : wget --no-check-certificate https://gitlab.com/free9999/ipupdate/-/raw/master/SS-Kcptun/ssconfig.txt
+SSR       : wget --no-check-certificate https://cdn.jsdelivr.net/gh/Alvin9999/pac2@latest/ssconfig.txt
+SSR       : wget --no-check-certificate https://gitlab.com/free9999/ipupdate/-/raw/master/ssr/ssconfig.txt
+
+v2free    : wget --no-check-certificate https://cdn.jsdelivr.net/gh/jsvpn/jsproxy@dev/yule/20200325/1299699.md
+
+v2ray     : wget --ca-certificate=ca-bundle.crt -c https://gitlab.com/free9999/ipupdate/-/raw/master/v2rayN/guiNConfig.json
+v2ray     : wget --no-check-certificate https://cdn.jsdelivr.net/gh/Alvin9999/PAC@latest/2/guiNConfig.json
+v2ray     : wget --no-check-certificate https://cdn.jsdelivr.net/gh/Alvin9999/PAC@latest/guiNConfig.json
+v2ray     : wget --no-check-certificate https://gitlab.com/free9999/ipupdate/-/raw/master/v2rayN/2/guiNConfig.json
+v2rayB    : wget --no-check-certificate https://cdn.jsdelivr.net/gh/jsvpn/jsproxy@dev/cbnews/20200809/1366909.md
