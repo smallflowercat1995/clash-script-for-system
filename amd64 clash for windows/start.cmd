@@ -14,6 +14,7 @@ copy /Y Country.mmdb ".config\clash\"
 
 @echo 说明
 @echo 一、此脚本支持Chrome浏览器，所以需要安装Chrome浏览器，如果有兴趣可以自己DIY别的浏览器。
+@echo 二、使用时请将防火墙关闭，并允许专用网络和公用网络
 
 set choice=
 set /p choice=  "1、ip1更新 2、ip2更新 3、ip3更新 4、ip4更新 5、ip5更新 6、ip6更新 7、ip7更新 8、随机执行:"
