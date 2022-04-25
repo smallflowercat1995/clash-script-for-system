@@ -1,0 +1,3 @@
+开始删除记录2022-04-25 15:23:06
+rm -rf "./._info.txt"
+rm -rf "./._ca-bundle.crt"
