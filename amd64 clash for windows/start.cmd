@@ -15,6 +15,7 @@ copy /Y Country.mmdb ".config\clash\"
 @echo 说明
 @echo 一、此脚本支持Chrome浏览器，所以需要安装Chrome浏览器，如果有兴趣可以自己DIY别的浏览器。
 @echo 二、使用时请将防火墙关闭，并允许专用网络和公用网络
+@echo 三、也可以将谷歌浏览器程序放到 Google\Chrome\Application\ 路径中，这样即使没有安装 chrome 也可以直接使用，自行意会吧
 
 set choice=
 set /p choice=  "1、ip1更新 2、ip2更新 3、ip3更新 4、ip4更新 5、ip5更新 6、ip6更新 7、ip7更新 8、随机执行:"
@@ -82,12 +83,13 @@ goto startclash
 start "" "%~dp0clash-windows-386.exe"  -d .config\clash\ >nul 2>&1
 
 echo 等待软件启动，请稍候...
-IF EXIST "%~dp0Browser\chrome.exe" (
-    start "%~dp0Browser\chrome.exe" --user-data-dir="%~dp0chrome-user-data" --proxy-server="http://127.0.0.1:7890" "https://www.duckduckgo.com/?q=GoClashB"
+IF EXIST "%~dp0Google\Chrome\Application\chrome.exe" (
+    start Google\Chrome\Application\chrome.exe --user-data-dir=..\..\..\chrome-user-data --proxy-server="http://127.0.0.1:7890" "https://www.duckduckgo.com/?q=GoClashB"
 ) ELSE (
+	echo Chrome浏览器不在 Google\Chrome\Application\ 中，检查系统中是否安装Chrome
 	%SystemRoot%\System32\reg.exe query "HKLM\Software\Microsoft\Windows\CurrentVersion\App Paths\chrome.exe" >nul 2>&1
 	IF  not errorlevel 1 (
-    start chrome.exe --user-data-dir="%~dp0Browser\chrome-user-data"  --proxy-server="http://127.0.0.1:7890" "https://www.duckduckgo.com/?q=GoClashB"
+    start chrome.exe --user-data-dir="%~dp0chrome-user-data"  --proxy-server="http://127.0.0.1:7890" "https://www.duckduckgo.com/?q=GoClashB"
 	) else (
 		echo Chrome浏览器不存在或没有正确安装，请尝试重新安装Chrome浏览器
 	)
