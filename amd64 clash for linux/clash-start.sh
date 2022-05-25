@@ -2,8 +2,8 @@
 clear
 # kill -9 `ps -ef | grep -v grep | grep clash-linux-amd64-v1.8.0 | awk '{print $2}'`
 killall clash-linux-amd64-v1.8.0
-# kill -9 `ps -ef | grep -v grep | grep chrom* | awk '{print $2}'`
-killall chrome
+# kill -9 `ps -ef | grep -v grep | grep chromium* | awk '{print $2}'`
+killall chromium
 killall tail
 # rm -rfv ".config/clash"
 rm -rfv "*.log"
@@ -15,20 +15,20 @@ cp -r Country.mmdb ".config/clash/"
 startclash(){
 echo 等待软件启动，请稍候...
 nohup ./clash-linux-amd64-v1.8.0 -d .config/clash/ > clash-linux-amd64-v1.8.0.log 2>&1 &
-if [ -e /usr/bin/chrome ];then 
+if [ -e /snap/bin/chromium ];then
 echo "true"
-nohup /usr/bin/chrome --user-data-dir=chrome-user-data --proxy-server=http://127.0.0.1:7890 https://www.duckduckgo.com/?q=GoClashB > chrome.log 2>&1 &
-elif [ -e /snap/bin/chrome ];then
+nohup snap run chromium --user-data-dir=chrome-user-data --proxy-server=http://127.0.0.1:7890 https://www.duckduckgo.com/?q=GoClashB > chrome.log 2>&1 &
+elif [ -e /usr/bin/chromium ];then
 echo "true"
-nohup snap run chrome --user-data-dir=chrome-user-data --proxy-server=http://127.0.0.1:7890 https://www.duckduckgo.com/?q=GoClashB > chrome.log 2>&1 &
+nohup /usr/bin/chromium --user-data-dir=chrome-user-data --proxy-server=http://127.0.0.1:7890 https://www.duckduckgo.com/?q=GoClashB > chrome.log 2>&1 &
 else 
-echo Chrome浏览器不存在或没有正确安装，请尝试重新安装Chrome浏览器
+echo chromium浏览器不存在或没有正确安装，请尝试重新安装chromium浏览器
 fi
 tail -200f clash-linux-amd64-v1.8.0.log
 }
 
 echo 说明
-echo 一、此脚本支持chrome浏览器，所以需要安装chrome浏览器，如果有兴趣可以自己DIY别的浏览器。
+echo 一、此脚本支持chromium浏览器，所以需要安装chromium浏览器，如果有兴趣可以自己DIY别的浏览器。
 echo "1、ip1更新 2、ip2更新 3、ip3更新 4、ip4更新 5、ip5更新 6、ip6更新 7、ip7更新 8、随机执行:"
 read choice 
 if [ $choice -eq 1 ];then
