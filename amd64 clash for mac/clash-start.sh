@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 clear
-# kill -9 `ps -ef | grep -v grep | grep clash-darwin-amd64-v1.8.0 | awk '{print $2}'`
-killall clash-darwin-amd64-v1.8.0
+# kill -9 `ps -ef | grep -v grep | grep clash-darwin-amd64-v3 | awk '{print $2}'`
+killall clash-darwin-amd64-v3
 # kill -9 `ps -ef | grep -v grep | grep chrom* | awk '{print $2}'`
 killall Google\ Chrome
 killall tail
@@ -14,14 +14,14 @@ cp -r Country.mmdb ".config/clash/"
 
 startclash(){
 echo 等待软件启动，请稍候...
-nohup ./clash-darwin-amd64-v1.8.0 -d .config/clash/ > clash-darwin-amd64-v1.8.0.log 2>&1 &
+nohup ./clash-darwin-amd64-v3 -d .config/clash/ > clash-darwin-amd64-v3.log 2>&1 &
 if [ -e /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome ];then 
 echo "true"
 nohup /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --user-data-dir=chrome-user-data --proxy-server=http://127.0.0.1:7890 https://www.duckduckgo.com/?q=GoClashB > chrome.log 2>&1 &
 else 
 echo Chrome浏览器不存在或没有正确安装，请尝试重新安装Chrome浏览器
 fi
-tail -200f clash-darwin-amd64-v1.8.0.log
+tail -200f clash-darwin-amd64-v3.log
 }
 
 echo 说明

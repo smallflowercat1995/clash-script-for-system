@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 clear
-# kill -9 `ps -ef | grep -v grep | grep clash-linux-amd64-v1.8.0 | awk '{print $2}'`
-killall clash-linux-amd64-v1.8.0
+# kill -9 `ps -ef | grep -v grep | grep clash-linux-amd64-v3 | awk '{print $2}'`
+killall clash-linux-amd64-v3
 # kill -9 `ps -ef | grep -v grep | grep chromium* | awk '{print $2}'`
 killall chromium
 killall tail
@@ -14,7 +14,7 @@ cp -r Country.mmdb ".config/clash/"
 
 startclash(){
 echo 等待软件启动，请稍候...
-nohup ./clash-linux-amd64-v1.8.0 -d .config/clash/ > clash-linux-amd64-v1.8.0.log 2>&1 &
+nohup ./clash-linux-amd64-v3 -d .config/clash/ > clash-linux-amd64-v3.log 2>&1 &
 if [ -e /snap/bin/chromium ];then
 echo "true"
 nohup snap run chromium --user-data-dir=chrome-user-data --proxy-server=http://127.0.0.1:7890 https://www.duckduckgo.com/?q=GoClashB > chrome.log 2>&1 &
@@ -24,7 +24,7 @@ nohup /usr/bin/chromium --user-data-dir=chrome-user-data --proxy-server=http://1
 else 
 echo chromium浏览器不存在或没有正确安装，请尝试重新安装chromium浏览器
 fi
-tail -200f clash-linux-amd64-v1.8.0.log
+tail -200f clash-linux-amd64-v3.log
 }
 
 echo 说明

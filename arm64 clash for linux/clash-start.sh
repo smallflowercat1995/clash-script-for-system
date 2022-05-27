@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 clear
-# kill -9 `ps -ef | grep -v grep | grep clash-linux-armv8-v1.8.0 | awk '{print $2}'`
-killall clash-linux-armv8-v1.8.0
+# kill -9 `ps -ef | grep -v grep | grep clash-linux-armv8 | awk '{print $2}'`
+killall clash-linux-armv8
 # kill -9 `ps -ef | grep -v grep | grep chromium | awk '{print $2}'`
 killall chromium
 killall tail
@@ -14,7 +14,7 @@ cp -r Country.mmdb ".config/clash/"
 
 startclash(){
 echo 等待软件启动，请稍候...
-nohup ./clash-linux-armv8-v1.8.0 -d .config/clash/ > clash-linux-armv8-v1.8.0.log 2>&1 &
+nohup ./clash-linux-armv8 -d .config/clash/ > clash-linux-armv8.log 2>&1 &
 if [ -e /usr/bin/chromium ];then 
 echo "true"
 nohup /usr/bin/chromium --user-data-dir=chromium-user-data --proxy-server=http://127.0.0.1:7890 https://www.duckduckgo.com/?q=GoClashB > chromium.log 2>&1 &
@@ -24,7 +24,7 @@ nohup snap run chromium --user-data-dir=chromium-user-data --proxy-server=http:/
 else 
 echo Chrome浏览器不存在或没有正确安装，请尝试重新安装Chrome浏览器
 fi
-tail -200f clash-linux-armv8-v1.8.0.log
+tail -200f clash-linux-armv8.log
 }
 
 echo 说明
