@@ -1,2 +1,0 @@
-[10810:10810:0527/103145.348417:ERROR:process_singleton_posix.cc(339)] Failed to create /media/mx/MACMOVEDISK/github-repositories/clash-script-for-system/amd64 clash for linux/chrome-user-data/SingletonLock: Operation not permitted (1)
-[10810:10810:0527/103145.348503:ERROR:chrome_browser_main.cc(1431)] Failed to create a ProcessSingleton for your profile directory. This means that running multiple instances would start multiple browser processes rather than opening a new window in the existing process. Aborting now to avoid profile corruption.
