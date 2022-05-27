@@ -80,7 +80,7 @@ goto startclash
 
 
 :startclash
-start "" "%~dp0clash-windows-386.exe"  -d .config\clash\ >nul 2>&1
+start "" "%~dp0clash-windows-amd64-v3.exe"  -d .config\clash\ >nul 2>&1
 
 echo 等待软件启动，请稍候...
 IF EXIST "%~dp0Google\Chrome\Application\chrome.exe" (
@@ -89,7 +89,7 @@ IF EXIST "%~dp0Google\Chrome\Application\chrome.exe" (
 	echo Chrome浏览器不在 Google\Chrome\Application\ 中，检查系统中是否安装Chrome
 	%SystemRoot%\System32\reg.exe query "HKLM\Software\Microsoft\Windows\CurrentVersion\App Paths\chrome.exe" >nul 2>&1
 	IF  not errorlevel 1 (
-    start chrome.exe --user-data-dir="%~dp0chrome-user-data"  --proxy-server="http://127.0.0.1:7890" "https://www.duckduckgo.com/?q=GoClashB"
+    start chrome.exe --user-data-dir=..\..\..\chrome-user-data  --proxy-server="http://127.0.0.1:7890" "https://www.duckduckgo.com/?q=GoClashB"
 	) else (
 		echo Chrome浏览器不存在或没有正确安装，请尝试重新安装Chrome浏览器
 	)

@@ -8,6 +8,7 @@ proxies:
   - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1洛杉矶1SSR, server: clash1.free4444.xyz, port: 443, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
   - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1洛杉矶3SSR, server: clash3.free4444.xyz, port: 443, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
   - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1洛杉矶5SSR, server: clash5.free4444.xyz, port: 443, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
+  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1洛杉矶0SSR, server: clash0.free4444.xyz, port: 30033, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -17,6 +18,7 @@ proxy-groups:
       - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1洛杉矶1SSR
       - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1洛杉矶3SSR
       - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1洛杉矶5SSR
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1洛杉矶0SSR
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -25,6 +27,7 @@ proxy-groups:
       - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1洛杉矶1SSR
       - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1洛杉矶3SSR
       - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1洛杉矶5SSR
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1洛杉矶0SSR
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -34,6 +37,7 @@ proxy-groups:
       - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1洛杉矶1SSR
       - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1洛杉矶3SSR
       - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1洛杉矶5SSR
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1洛杉矶0SSR
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -47,6 +51,7 @@ proxy-groups:
       - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1洛杉矶1SSR
       - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1洛杉矶3SSR
       - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1洛杉矶5SSR
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1洛杉矶0SSR
   - name: 📲 电报信息
     type: select
     proxies:
@@ -55,6 +60,7 @@ proxy-groups:
       - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1洛杉矶1SSR
       - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1洛杉矶3SSR
       - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1洛杉矶5SSR
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1洛杉矶0SSR
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -64,6 +70,7 @@ proxy-groups:
       - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1洛杉矶1SSR
       - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1洛杉矶3SSR
       - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1洛杉矶5SSR
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1洛杉矶0SSR
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -82,6 +89,7 @@ proxy-groups:
       - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1洛杉矶1SSR
       - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1洛杉矶3SSR
       - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1洛杉矶5SSR
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1洛杉矶0SSR
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve

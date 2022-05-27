@@ -1,7 +1,7 @@
 #!$PREFIX/bin/env bash
 clear
 
-killall clash-linux-armv8-v1.8.0
+killall clash-linux-armv8
 killall tail
 
 rm -rfv "*.log"
@@ -12,7 +12,7 @@ cp -r -v Country.mmdb ".config/clash/"
 
 startclash(){
 echo 等待软件启动，请稍候...
-nohup ./clash-linux-armv8-v1.8.0 -d .config/clash/ > clash-linux-armv8-v1.8.0.log 2>&1 &
+nohup ./clash-linux-armv8 -d .config/clash/ > clash-linux-armv8.log 2>&1 &
 echo '正在清理网络环境' && \
         sudo settings delete global http_proxy && \
         sudo settings delete global global_http_proxy_host && \
@@ -24,7 +24,7 @@ trap "echo '正在终止。。。' && \
         sudo settings delete global global_http_proxy_host && \
         sudo settings delete global global_http_proxy_port && \
         trap INT" INT
-tail -200f clash-linux-armv8-v1.8.0.log
+tail -200f clash-linux-armv8.log
 }
 
 echo 说明
