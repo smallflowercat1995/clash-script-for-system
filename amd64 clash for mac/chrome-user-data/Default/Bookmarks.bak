@@ -1,5 +1,5 @@
 {
-   "checksum": "bb44b22774a4757cd6b39fb75f9e0b90",
+   "checksum": "2ed6fdb12851cee3be88eaf413c54e33",
    "roots": {
       "bookmark_bar": {
          "children": [ {
@@ -179,15 +179,15 @@
             "name": "purntab",
             "type": "folder"
          }, {
-            "date_added": "13298111301814405",
-            "guid": "c621bf1a-f29e-4422-ba37-8678518f0edb",
-            "id": "35",
-            "name": "YouTube",
+            "date_added": "13298111531726126",
+            "guid": "2e38c4a1-0b54-4478-b49b-a6d69f44181b",
+            "id": "37",
+            "name": "clash免费节点 - YouTube",
             "type": "url",
-            "url": "https://www.youtube.com/"
+            "url": "https://www.youtube.com/results?search_query=clash%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9&sp=EgQIAxAB"
          } ],
          "date_added": "13290043392091624",
-         "date_modified": "13298111306169737",
+         "date_modified": "13298111531726126",
          "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
          "id": "1",
          "name": "Bookmarks bar",

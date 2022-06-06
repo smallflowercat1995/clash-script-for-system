@@ -78,20 +78,24 @@ copy /Y config%pnum%.yaml ".config\clash\config.yaml"
 echo.&echo.已经8，请按回车键或空格键启动程序！&pause >NUL 2>NUL
 goto startclash
 
-
 :startclash
 start "" "%~dp0clash-windows-amd64-v3.exe"  -d .config\clash\ >nul 2>&1
 
+rem "..\..\..\chrome-user-data"
+
 echo 等待软件启动，请稍候...
 IF EXIST "%~dp0Google\Chrome\Application\chrome.exe" (
-    start Google\Chrome\Application\chrome.exe --user-data-dir=..\..\..\chrome-user-data --proxy-server="http://127.0.0.1:7890" "https://www.duckduckgo.com/?q=GoClashB"
+	echo Chrome浏览器在 "%~dp0Google\Chrome\Application\" 中
+	start Google\Chrome\Application\chrome.exe --user-data-dir="%~dp0chrome-user-data" --proxy-server="http://127.0.0.1:7890" "https://www.duckduckgo.com/?q=GoClashB"
 ) ELSE (
-	echo Chrome浏览器不在 Google\Chrome\Application\ 中，检查系统中是否安装Chrome
+	echo Chrome浏览器不在 "%~dp0Google\Chrome\Application\" 中,请检查 "%~dp0Google\Chrome\Application\" 中是否存在 chrome.exe
 	%SystemRoot%\System32\reg.exe query "HKLM\Software\Microsoft\Windows\CurrentVersion\App Paths\chrome.exe" >nul 2>&1
 	IF  not errorlevel 1 (
-    start chrome.exe --user-data-dir=..\..\..\chrome-user-data  --proxy-server="http://127.0.0.1:7890" "https://www.duckduckgo.com/?q=GoClashB"
+		echo Chrome浏览器在 "C:\Program Files\Google\Chrome\Application\" 中
+    		start chrome.exe --user-data-dir="%~dp0chrome-user-data"  --proxy-server="http://127.0.0.1:7890" "https://www.duckduckgo.com/?q=GoClashB"
 	) else (
-		echo Chrome浏览器不存在或没有正确安装，请尝试重新安装Chrome浏览器
+		echo Chrome浏览器不存在或没有正确安装,"C:\Program Files\Google\Chrome\Application\chrome.exe",请尝试重新安装Chrome浏览器
 	)
 )
+
 rem echo.&echo.已经执行，请按回车键或空格键关闭此窗口！&pause >NUL 2>NUL
