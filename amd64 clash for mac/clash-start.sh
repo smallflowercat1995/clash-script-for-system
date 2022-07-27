@@ -6,9 +6,10 @@ killall clash-darwin-amd64-v3
 killall Google\ Chrome
 killall tail
 # rm -rfv ".config/clash"
+PWD=`pwd`
 rm -rfv "*.log"
 echo "开始吧小老弟！"
-echo "当前目录`pwd`"
+echo "当前目录${PWD}"
 mkdir -p ".config/clash"
 cp -r Country.mmdb ".config/clash/"
 
@@ -17,7 +18,7 @@ echo 等待软件启动，请稍候...
 nohup ./clash-darwin-amd64-v3 -d .config/clash/ > clash-darwin-amd64-v3.log 2>&1 &
 if [ -e /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome ];then 
 echo "true"
-nohup /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --user-data-dir=chrome-user-data --proxy-server=http://127.0.0.1:7890 https://www.duckduckgo.com/?q=GoClashB > chrome.log 2>&1 &
+nohup /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --user-data-dir="${PWD}/chrome-user-data" --proxy-server=http://127.0.0.1:7890 https://www.duckduckgo.com/?q=GoClashB > chrome.log 2>&1 &
 else 
 echo Chrome浏览器不存在或没有正确安装，请尝试重新安装Chrome浏览器
 fi
