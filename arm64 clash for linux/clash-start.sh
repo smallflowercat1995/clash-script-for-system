@@ -6,9 +6,10 @@ kill -9 `ps -ef | grep -v grep | grep chromium* | awk '{print $2}'`
 # killall chromium
 killall tail
 # rm -rfv ".config/clash"
+PWD=`pwd`
 rm -rfv "*.log"
 echo "开始吧小老弟！"
-echo "当前目录`pwd`"
+echo "当前目录${PWD}"
 mkdir -p ".config/clash"
 cp -r Country.mmdb ".config/clash/"
 
@@ -17,16 +18,17 @@ echo 等待软件启动，请稍候...
 nohup ./clash-linux-armv8 -d .config/clash/ > clash-linux-armv8.log 2>&1 &
 if [ -e /snap/bin/chromium ];then
 echo "true"
-nohup snap run chromium --user-data-dir=/media/psf/MACMOVEDISK/chrome-user-data --proxy-server=http://127.0.0.1:7890 https://www.duckduckgo.com/?q=GoClashB > chrome.log 2>&1 &
+nohup snap run chromium --user-data-dir="${PWD}/chrome-user-data" --proxy-server=http://127.0.0.1:7890 https://www.duckduckgo.com/?q=GoClashB > chrome.log 2>&1 &
 elif [ -e /usr/bin/chromium ];then
 echo "true"
-nohup /usr/bin/chromium --user-data-dir=/media/psf/MACMOVEDISK/chrome-user-data --proxy-server=http://127.0.0.1:7890 https://www.duckduckgo.com/?q=GoClashB > chrome.log 2>&1 &
+nohup /usr/bin/chromium --user-data-dir="${PWD}/chrome-user-data" --proxy-server=http://127.0.0.1:7890 https://www.duckduckgo.com/?q=GoClashB > chrome.log 2>&1 &
 elif [ -e /usr/lib64/chromium-browser/chromium-browser ];then
 echo "true"
-nohup /usr/lib64/chromium-browser/chromium-browser --user-data-dir=/media/psf/MACMOVEDISK/chrome-user-data --proxy-server=http://127.0.0.1:7890 https://www.duckduckgo.com/?q=GoClashB > chrome.log 2>&1 &
+nohup /usr/lib64/chromium-browser/chromium-browser --user-data-dir="${PWD}/chrome-user-data" --proxy-server=http://127.0.0.1:7890 https://www.duckduckgo.com/?q=GoClashB > chrome.log 2>&1 &
 else 
 echo chromium浏览器不存在或没有正确安装，请尝试重新安装chromium浏览器
 fi
+unset PWD
 tail -200f clash-linux-armv8.log
 }
 
