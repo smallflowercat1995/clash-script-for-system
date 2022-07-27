@@ -1,1 +1,0 @@
-pl.extend(ke.particles.tr_input.view,{displaySaveValue:function(t,e){ke.ext.util.storageUtil.requestBackgroundOption("getVal",["saved_val"],(function(a){e||a?pl(".translation-input").val(e||a).caretToEnd():$(".translation-input").focus(),t(pl.empty(e||a))}))}});

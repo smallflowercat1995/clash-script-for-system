@@ -1,1 +1,0 @@
-pl.extend(ke.ui_views.visibility,{ctrl:function(i,e,t,n,s){var l=s||150;pl.type(i,"undef")?t||n("slideUp",1):($(e)[i](l),setTimeout((function(){"slideDown"===i&&$(e).css("height","auto")}),l+10))}});

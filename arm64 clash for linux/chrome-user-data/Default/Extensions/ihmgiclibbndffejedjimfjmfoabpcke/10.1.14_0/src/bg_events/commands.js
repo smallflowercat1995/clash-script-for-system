@@ -1,1 +1,0 @@
-pl.extend(ke.app.handlers._processEventHandlers.app.commands,{sendAnalyticsEvent:function(e,n){"undefined"!=typeof ga&&ga("send","event",e.cat,e.event,e.subevent)}});

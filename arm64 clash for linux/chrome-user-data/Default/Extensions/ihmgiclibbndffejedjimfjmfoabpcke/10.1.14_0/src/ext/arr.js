@@ -1,1 +1,0 @@
-pl.extend(ke.ext.arr,{delete:function(n,e){var r=pl.inArray(e,n);return~r&&n.splice(r,1),!1},clone:function(n){var e=new Array(n.length);return pl.each(n,(function(n,r){e[n]=r})),e},pushUnique:function(n,e){return~pl.inArray(e,n)||n.push(e),n}});

@@ -1,3 +1,0 @@
-$(window).ready(function () {
-  localizeHtmlPage();
-});

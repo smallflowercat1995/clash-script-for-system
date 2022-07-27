@@ -1,1 +1,0 @@
-pl.extend(ke.ext.time,{beautify:function(e){return new Date(e).toLocaleString().replace(/(\:([0-9]+))(\:([0-9]+))/,"$1")}});
