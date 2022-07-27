@@ -1,0 +1,48 @@
+/* overriding display:none from content tooltip styles */
+.TnITTtw-tooltip-main-wrap.force-visible {
+    display: block !important;
+}
+.TnITTtw-help-selected-wrap {
+    border: none !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    width: 337px !important;
+}
+
+.TnITTtw-left-particle {
+    width: 337px !important;
+}
+
+.TnITTtw-help-inside-layout {
+    height: 300px !important;
+    border-radius: 0 !important;
+}
+
+.TnITTtw-help-inside-layout {
+    height: 300px !important;
+    background: #FFF !important;
+    border-radius: 0px !important;
+}
+
+.TnITTtw-trVisibleLayout {
+    height: 272px !important;
+}
+
+.TnITTtw-tr-scrollbar {
+    left: 328px !important;
+    top: 0px !important;
+    height: 272px !important;
+}
+
+.TnITTtw-with-ht .TnITTtw-trVisibleLayout {
+    height: 195px !important;
+}
+
+.TnITTtw-with-ht .TnITTtw-tr-scrollbar {
+    height: 189px !important;
+}
+
+.TnITTtw-translate-human {
+    margin-top: -60px !important;
+    width: 317px !important;
+}

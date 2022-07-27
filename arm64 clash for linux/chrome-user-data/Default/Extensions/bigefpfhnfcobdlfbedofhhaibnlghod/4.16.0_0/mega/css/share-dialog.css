@@ -1,0 +1,440 @@
+
+.mega-dialog.share-dialog{
+	border-radius:var(--border-radius);
+	height:auto;
+	min-height:10px;
+	overflow:hidden;
+	width:560px
+}
+.mega-dialog.share-dialog .share-dialog-bottom{
+	-webkit-padding-end:0;
+	background:var(--surface-grey-1);
+	padding-inline-end:0
+}
+.mega-dialog.share-dialog .share-dialog-top-body{
+	padding-bottom:16px;
+	position:relative
+}
+.mega-dialog.share-dialog .share-dialog-bottom-body{
+	padding-top:24px;
+	position:relative
+}
+.mega-dialog.share-dialog .share-dialog-permissions-menu{
+	transition:opacity .2s
+}
+.share-dialog-top-body .share-dialog-shared-item{
+	display:inline-block;
+	height:48px;
+	width:100%
+}
+.ru .share-dialog-top-body .share-dialog-shared-item{
+	max-width:65%
+}
+.share-dialog-top-body .share-dialog-copy-link-wrapper{
+	-webkit-padding-end:4px;
+	display:none;
+	float:right;
+	padding-inline-end:4px;
+	vertical-align:middle
+}
+.share-dialog-top-body .share-dialog-copy-link-msg{
+	-webkit-padding-end:4px;
+	padding-inline-end:4px;
+	padding-top:12px;
+	text-align:right
+}
+.share-dialog-top-body .copy-link-icon{
+	-webkit-padding-start:8px;
+	background-image:url(../images/mega/fm-main-sprite.png?v=7d3634e3f4c954e9);
+	background-position:-15px -4824px;
+	background-repeat:no-repeat;
+	height:16px;
+	padding-inline-start:8px;
+	width:16px
+}
+.share-dialog-top-body .copy-link-icon,.share-dialog-top-body .copy-link-txt{
+	display:inline-block;
+	vertical-align:middle
+}
+.share-dialog-top-body .share-dialog-folder-icon{
+	-webkit-margin-end:6px;
+	display:inline-block;
+	height:48px;
+	margin-inline-end:6px;
+	vertical-align:middle;
+	width:48px
+}
+.share-dialog-top-body .share-dialog-folder-info-block{
+	display:inline-block;
+	max-width:calc(100% - 60px);
+	vertical-align:middle
+}
+.share-dialog-top-body .share-dialog-folder-name{
+	color:var(--text-color-high);
+	line-height:18px;
+	overflow:hidden;
+	padding-bottom:2px;
+	text-overflow:ellipsis;
+	white-space:nowrap
+}
+.share-dialog-top-body .share-dialog-folder-info{
+	font:var(--text-body2);
+	letter-spacing:0;
+	width:300px
+}
+.share-dialog-bottom-body .share-dialog-access-title{
+	-webkit-margin-end:12px;
+	color:var(--text-color-high);
+	font-family:var(--text-font-family-semibold);
+	letter-spacing:0;
+	margin-bottom:16px;
+	margin-inline-end:12px
+}
+.share-dialog-bottom-body .share-dialog-access-list{
+	max-height:300px;
+	overflow:hidden;
+	padding:0;
+	position:relative
+}
+.share-dialog-bottom-body .share-dialog-access-list .jspVerticalBar{
+	right:6px
+}
+.rtl .share-dialog-bottom-body .share-dialog-access-list .jspVerticalBar{
+	left:6px;
+	right:auto
+}
+.share-dialog-bottom-body .share-dialog-access-add{
+	margin-left:-9px;
+	margin-top:12px
+}
+.share-dialog-bottom-body .share-dialog-access-node{
+	align-items:center;
+	display:flex;
+	height:32px;
+	justify-content:space-between
+}
+.share-dialog-access-node .access-node-info-block{
+	display:inline-block;
+	vertical-align:middle;
+	width:428px
+}
+.share-dialog-access-node .access-node-avatar{
+	border-radius:4px;
+	display:inline-block;
+	height:24px;
+	line-height:24px;
+	vertical-align:middle;
+	width:24px
+}
+.share-dialog-access-node .access-node-username{
+	color:var(--text-color-high);
+	display:inline-block;
+	font-size:14px;
+	letter-spacing:0;
+	line-height:20px;
+	max-width:80%;
+	overflow:hidden;
+	padding:0 8px;
+	text-overflow:ellipsis;
+	vertical-align:middle;
+	white-space:nowrap
+}
+.share-dialog-access-node .access-node-status{
+	display:inline-block;
+	vertical-align:middle
+}
+.share-dialog-access-node .access-node-status .nw-contact-status{
+	margin:0
+}
+.share-dialog-access-node .access-node-permission-wrapper{
+	cursor:pointer;
+	display:inline-block
+}
+.share-dialog-access-node.owner .access-node-permission-wrapper{
+	cursor:default
+}
+.share-dialog-access-node.owner .access-node-permission:hover{
+	background:none;
+	cursor:default
+}
+.share-dialog-access-node .access-node-permission i{
+	--icon-size:24px;
+	--mask-color:var(--text-color-medium);
+	display:none;
+	transition:var(--transition-color)
+}
+.share-dialog-access-node .access-node-permission.active i,.share-dialog-access-node .access-node-permission:hover i{
+	--mask-color:var(--text-color-high)
+}
+.share-dialog-access-node .access-node-permission.full-access .full-access,.share-dialog-access-node .access-node-permission.owner .owner,.share-dialog-access-node .access-node-permission.read-and-write .read-and-write,.share-dialog-access-node .access-node-permission.read-only .read-only{
+	display:block
+}
+.share-dialog-access-node .access-node-remove{
+	--icon-size:24px;
+	--mask-color:var(--text-color-medium);
+	-webkit-margin-end:20px;
+	-webkit-margin-start:3px;
+	cursor:pointer;
+	display:inline-block;
+	margin-inline-end:20px;
+	margin-inline-start:3px;
+	opacity:0
+}
+.share-dialog-access-node .access-node-remove:hover{
+	--mask-color:var(--text-color-high)
+}
+.share-dialog-access-node:not(.owner):hover .access-node-remove{
+	cursor:pointer;
+	opacity:1
+}
+.share-add-dialog-bottom-body .cancel-add-share,.share-dialog-bottom-body .remove-share{
+	-webkit-margin-end:12px;
+	margin-inline-end:12px
+}
+.share-dialog-bottom-body .remove-share.disabled{
+	display:none
+}
+.mega-dialog.dialog-template-main.share-dialog>footer .footer-container{
+	padding:16px 48px
+}
+.mega-dialog.share-dialog .share-dialog-bottom-msg{
+	background:var(--surface-grey-1);
+	padding:8px 0 16px;
+	text-align:center
+}
+.mega-dialog.share-add-dialog{
+	background:var(--surface-main);
+	border-radius:var(--border-radius);
+	height:auto;
+	overflow:hidden;
+	width:432px;
+	z-index:1100
+}
+.mega-dialog.share-add-dialog .content-block{
+	padding:0
+}
+.mega-dialog.share-add-dialog .content-block.imported{
+	background:var(--surface-grey-1);
+	padding:24px 48px
+}
+.mega-dialog.share-add-dialog .share-add-dialog-bottom{
+	background:var(--surface-grey-1);
+	border-radius:0 0 var(--border-radius) var(--border-radius)
+}
+.mega-dialog.share-add-dialog header h2 .selected-num{
+	-webkit-margin-start:10px;
+	background:var(--surface-grey-2);
+	border-radius:9px;
+	box-sizing:border-box;
+	display:inline-block;
+	height:18px;
+	line-height:18px;
+	margin-inline-start:10px;
+	margin-top:-3px;
+	min-width:18px;
+	padding:0 5px;
+	text-align:center;
+	vertical-align:middle
+}
+.mega-dialog.share-add-dialog header h2 .selected-num span{
+	font-size:10px;
+	font-weight:600;
+	text-align:center;
+	vertical-align:top
+}
+.share-add-dialog-bottom .multiple-input-warning{
+	font:var(--text-body2);
+	margin:6px 0;
+	text-align:center
+}
+.share-add-dialog-bottom .share-message{
+	background:var(--surface-grey-1);
+	border-radius:4px;
+	box-sizing:border-box;
+	margin-top:11px
+}
+.share-add-dialog-bottom .share-message textarea{
+	color:var(--text-color-high);
+	font-size:13px;
+	padding:0 9px
+}
+.share-add-dialog-bottom .share-message textarea::placeholder{
+	color:var(--text-color-low)
+}
+.share-add-dialog-bottom .share-message textarea:focus::placeholder{
+	color:transparent
+}
+.share-add-dialog-bottom .share-message .share-message-hidden{
+	padding:0 9px;
+	z-index:-100
+}
+.share-add-dialog-bottom .share-add-dialog-buttons-wrapper{
+	display:flex;
+	height:38px;
+	justify-content:flex-end;
+	margin-top:14px
+}
+.share-add-dialog-bottom .add-share{
+	-webkit-margin-start:8px;
+	margin-inline-start:8px
+}
+.share-add-dialog-bottom .multiple-input i{
+	--icon-size:24px;
+	--mask-color:var(--text-color-medium)
+}
+.mega-dialog.share-add-dialog .horizontal-contacts-list{
+	background:var(--surface-grey-1);
+	border:1px solid var(--stroke-grey-2);
+	border-radius:8px;
+	box-sizing:border-box;
+	height:80px;
+	margin:0 48px 8px;
+	padding:0
+}
+.mega-dialog.share-add-dialog .horizontal-contacts-list .selected-contact-card{
+	height:60px;
+	width:62px
+}
+.mega-dialog.share-add-dialog .horizontal-contacts-list .selected-contact-card .remove-contact-bttn{
+	cursor:pointer
+}
+.mega-dialog.share-add-dialog .horizontal-contacts-list .selected-contact-card .small-rounded-avatar img{
+	height:36px;
+	width:36px
+}
+.mega-dialog.share-add-dialog .horizontal-contacts-list .selected-contact-card .user-card-name.light{
+	max-width:calc(100% - 10px)
+}
+.mega-dialog.share-add-dialog .horizontal-contacts-list div.ps>.ps__scrollbar-x-rail>.ps__scrollbar-x{
+	border-radius:2px;
+	bottom:2px;
+	height:4px
+}
+.mega-dialog.share-add-dialog .contacts-search-header{
+	margin:0 35px 12px 48px
+}
+.mega-dialog.share-add-dialog .contacts-search-header input{
+	background:var(--surface-grey-2);
+	color:var(--text-color-high)
+}
+.mega-dialog.share-add-dialog .contacts-search-header input::placeholder{
+	color:var(--text-color-low)
+}
+.mega-dialog.share-add-dialog .contacts-search-header input:focus::placeholder{
+	color:var(--color-text-white-medium)
+}
+.mega-dialog.share-add-dialog .contacts-search-scroll{
+	height:240px !important;
+	min-height:240px
+}
+.mega-dialog.share-add-dialog .contacts-search-subsection{
+	padding:0 48px
+}
+.mega-dialog.share-add-dialog .contacts-search-subsection .contacts-search-list{
+	-webkit-padding-end:12px;
+	padding-inline-end:12px;
+	width:336px
+}
+.mega-dialog.share-add-dialog .contacts-search-list .contacts-info.body{
+	border-bottom:none;
+	height:32px;
+	padding:4px 0
+}
+.mega-dialog.share-add-dialog .contacts-list-header{
+	margin:0
+}
+.mega-dialog.share-add-dialog .contacts-search-list .small-rounded-avatar{
+	height:24px;
+	line-height:24px;
+	overflow:hidden;
+	width:24px
+}
+.mega-dialog.share-add-dialog .contacts-search-list .small-rounded-avatar img{
+	height:24px;
+	width:24px
+}
+.mega-dialog.share-add-dialog .contacts-search-list .user-card-tick-wrap{
+	height:16px;
+	right:0;
+	width:16px
+}
+.rtl .mega-dialog.share-add-dialog .contacts-search-list .user-card-tick-wrap{
+	left:0;
+	right:auto
+}
+.mega-dialog.share-add-dialog .contacts-search-list .selected .user-card-tick-wrap{
+	background:var(--checkbox-fill-active);
+	border:transparent
+}
+.mega-dialog.share-add-dialog .contacts-search-list .small-icon.mid-green-tick{
+	background-position:-86px -623px
+}
+.mega-dialog.share-add-dialog .contacts-search-list .user-card-data{
+	-webkit-padding-start:32px;
+	padding-inline-start:32px;
+	padding-top:4px
+}
+.mega-dialog.share-add-dialog .contacts-search-list .user-card-data .user-card-name{
+	max-width:80%
+}
+.mega-dialog.share-add-dialog .contacts-search-list .user-card-data .user-card-name:hover,.mega-dialog.share-add-dialog .contacts-search-list .user-card-data .user-card-name strong{
+	color:var(--text-color-high)
+}
+.mega-dialog.share-add-dialog .contacts-search-list .user-card-status{
+	-webkit-margin-start:5px;
+	display:inline;
+	margin-inline-start:5px
+}
+.mega-dialog.share-add-dialog .contacts-search-list .user-card-status span{
+	display:none
+}
+.mega-dialog.share-add-dialog .chat-contactspicker-no-contacts .fm-empty-contacts-bg{
+	-webkit-margin-end:12px;
+	margin-inline-end:12px;
+	margin-top:63px
+}
+.mega-dialog.share-add-dialog .chat-contactspicker-no-contacts .fm-empty-cloud-txt.small{
+	margin-top:16px
+}
+.mega-dialog.share-add-dialog .chat-contactspicker-no-contacts .fm-empty-description.small{
+	-webkit-padding-start:20px;
+	-webkit-padding-end:32px;
+	padding:1px 0 38px;
+	padding-inline-end:32px;
+	padding-inline-start:20px
+}
+.mega-dialog.share-add-dialog .chat-contactspicker-no-contacts.searching{
+	align-items:center;
+	display:flex;
+	flex-direction:column;
+	height:240px;
+	justify-items:center
+}
+.mega-dialog.share-add-dialog .chat-contactspicker-no-contacts.searching .fm-empty-contacts-bg{
+	background-image:url(../images/mega/dialog-sprite.png?v=57a6bd1346996955);
+	background-position:0 -7103px;
+	background-repeat:no-repeat;
+	background-size:auto;
+	height:96px;
+	margin:43px auto 0;
+	width:96px
+}
+.mega-dialog.share-add-dialog .chat-contactspicker-no-contacts.searching .fm-empty-cloud-txt.small{
+	margin-top:0;
+	padding:0
+}
+@media only screen and (max-height:768px){
+.share-add-dialog-bottom .multiple-input{
+	max-height:72px
+}
+.mega-dialog.share-add-dialog .contacts-search-scroll{
+	height:176px !important;
+	min-height:176px
+}
+.mega-dialog.share-add-dialog .chat-contactspicker-no-contacts.searching{
+	height:176px
+}
+.mega-dialog.share-add-dialog .chat-contactspicker-no-contacts.searching .fm-empty-contacts-bg{
+	margin:16px auto 0
+}
+}

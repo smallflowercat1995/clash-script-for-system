@@ -1,0 +1,20 @@
+{
+   "chromesysAllowFileAccess": {
+      "message": "Να επιτρέπεται η πρόσβαση σε διευθύνσεις URL αρχείων"
+   },
+   "chromesysDownloadLocation": {
+      "message": "Τοποθεσία λήψης"
+   },
+   "chromesysDownloadsSection": {
+      "message": "Λήψεις"
+   },
+   "chromesysShowAdvSettings": {
+      "message": "Εμφάνιση σύνθετων ρυθμίσεων…"
+   },
+   "extName": {
+      "message": "Chrono Download Manager"
+   },
+   "uilangName": {
+      "message": "Greek"
+   }
+}

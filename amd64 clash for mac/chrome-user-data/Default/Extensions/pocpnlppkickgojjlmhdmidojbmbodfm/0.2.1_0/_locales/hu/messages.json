@@ -1,0 +1,556 @@
+{
+   "apierrmsg_aborted": {
+      "message": "A művelet megszakadt."
+   },
+   "apierrmsg_device_list_error": {
+      "message": "Nem található USB-meghajtó vagy SD-kártya."
+   },
+   "apierrmsg_device_list_error_on_hub": {
+      "message": "Nem található USB-meghajtó."
+   },
+   "apierrmsg_device_list_error_workspace_hardware": {
+      "message": "Nem található USB-meghajtó."
+   },
+   "apierrmsg_device_write_error": {
+      "message": "Nem lehet írni a kiválasztott pendrive-ra vagy SD-kártyára. Előfordulhat, hogy az eszköz írási engedélyét visszavonták, vagy domainrendszergazdája letiltotta az USB-háttértárba való írás lehetőségét."
+   },
+   "apierrmsg_download_cancelled": {
+      "message": "Letöltés megszakítva."
+   },
+   "apierrmsg_download_hash_mismatch": {
+      "message": "A fájl érvénytelen."
+   },
+   "apierrmsg_download_interrupted": {
+      "message": "A letöltés megszakadt. Ellenőrizze a hálózati kapcsolatot, és próbálkozzon újra."
+   },
+   "apierrmsg_file_invalid": {
+      "message": "Érvénytelen fájl."
+   },
+   "apierrmsg_operation_already_in_progress": {
+      "message": "A művelet már folyamatban van."
+   },
+   "apierrmsg_unknown": {
+      "message": "Ismeretlen hiba: $1.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "apierrmsg_unsupported_operation": {
+      "message": "Nem támogatott művelet."
+   },
+   "apierrmsg_unzip_error": {
+      "message": "A fájl kicsomagolása nem sikerült. Ellenőrizze, hogy van-e elegendő tárhely az eszközön, majd próbálkozzon újra."
+   },
+   "apierrmsg_unzip_invalid_archive": {
+      "message": "Érvénytelen ZIP-fájl."
+   },
+   "apierrmsg_url_invalid": {
+      "message": "A fájl nem található."
+   },
+   "apierrmsg_verification_failed": {
+      "message": "A képfájl ellenőrzése nem sikerült."
+   },
+   "app_description": {
+      "message": "Helyreállítási adathordozót hozhat létre Chromebookjához."
+   },
+   "app_description_on_hub": {
+      "message": "Helyreállítási USB-meghajtót hozhat létre az OnHubhoz."
+   },
+   "app_description_workspace_hardware": {
+      "message": "Helyreállítási USB-meghajtót hozhat létre a Meet Compute Systemhez."
+   },
+   "app_name": {
+      "message": "Chromebook helyreállítási segédprogram"
+   },
+   "app_name_on_hub": {
+      "message": "OnHub helyreállítási segédprogram"
+   },
+   "app_name_workspace_hardware": {
+      "message": "Meet Compute System helyreállítási segédprogram"
+   },
+   "app_short_name": {
+      "message": "Helyreállít"
+   },
+   "cancel_button_text": {
+      "message": "Mégse"
+   },
+   "chrome_app_deprecation_message": {
+      "message": "Ahogyan a \u003Ca href=\"https://blog.chromium.org/2020/08/changes-to-chrome-app-support-timeline.html\" target=\"_blank\" tabindex=\"0\">Chromium blogon\u003C/a> nyilvánosan bejelentettük, a Google 2021 júniusában megszünteti a Chrome-alkalmazások támogatását. Használja a \u003Ca href=\"https://chrome.google.com/webstore/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm\" target=\"_blank\">Chromebook-helyreállítási segédprogram bővítményt\u003C/a> és a hozzá tartozó \u003Ca href=\"http://www.google.com/chromeos/recovery\" target=\"_blank\">dokumentációt\u003C/a> eszköze vagy eszközei helyreállításához."
+   },
+   "chrome_app_deprecation_message_on_hub": {
+      "message": "Ahogyan a \u003Ca href=\"https://blog.chromium.org/2020/08/changes-to-chrome-app-support-timeline.html\" target=\"_blank\" tabindex=\"0\">Chromium blogon\u003C/a> nyilvánosan bejelentettük, a Google 2021 júniusában megszünteti a Chrome-alkalmazások támogatását. Használja az \u003Ca href=\"https://chrome.google.com/webstore/detail/onhub-recovery-utility/fmgkgdalfapcmjnanilfcpkhkhedmpdm\" target=\"_blank\">OnHub-helyreállítási segédprogram bővítményt\u003C/a> és a hozzá tartozó \u003Ca href=\"https://support.google.com/onhub/answer/6274977\" target=\"_blank\">dokumentációt\u003C/a> eszköze vagy eszközei helyreállításához."
+   },
+   "complete_bullet1": {
+      "message": "A Chromebook helyreállításához csatlakoztassa a helyreállítási adathordozót Chromebookjához."
+   },
+   "complete_bullet1_on_hub": {
+      "message": "Válassza le az OnHub tápkábelét, és helyezze be az USB-meghajtót az eszköz hátoldalán. Tartsa nyomva a helyreállító gombot, és közben csatlakoztassa a tápkábelt. Továbbra is tartsa nyomva a helyreállító gombot körülbelül 15 másodpercig, illetve amíg az USB-meghajtón lévő tevékenységjelző fény villogni nem kezd."
+   },
+   "complete_bullet1_workspace_hardware": {
+      "message": "A Meet Compute System helyreállításához kövesse a \u003Ca href=\"http://support.google.com/meethardware/answer/10562922#zippy=%2Cstep-enter-recovery-mode\" target=\"_blank\">Google Meet Hardware compute box helyreállításával foglalkozó szakasz harmadik lépését (Helyreállítási mód megnyitása)\u003C/a>."
+   },
+   "complete_bullet2": {
+      "message": "A helyreállítás után a segédprogram használatával törölheti a helyreállítási adathordozó tartalmát."
+   },
+   "complete_bullet2_on_hub": {
+      "message": "Az OnHub végrehajtja a helyreállítási folyamatot, ami több percet is igénybe vehet. Az OnHub a helyreállítást követően újraindul. Ezután Ön az OnHub beállítását a Google On alkalmazás segítségével végezheti el."
+   },
+   "complete_bullet2_workspace_hardware": {
+      "message": "Ha törölni szeretné a pendrive-ot, miután végzett, indítsa el a Meet Compute System helyreállítási segédprogramot, kattintson a \u003Cb>Beállítások\u003C/b>, majd a \u003Cb>Helyreállítási adathordozó tartalmának törlése\u003C/b> lehetőségre."
+   },
+   "complete_message": {
+      "message": "Most már eltávolíthatja helyreállítási adathordozóját."
+   },
+   "complete_message_on_hub": {
+      "message": "Most már eltávolíthatja helyreállítási USB-meghajtóját."
+   },
+   "complete_message_workspace_hardware": {
+      "message": "Most már eltávolíthatja a pendrive-ot."
+   },
+   "complete_title": {
+      "message": "Sikerült! Helyreállítási adathordozója elkészült"
+   },
+   "complete_title_on_hub": {
+      "message": "Sikerült! Helyreállítási USB-meghajtója elkészült"
+   },
+   "complete_title_workspace_hardware": {
+      "message": "Sikerült! Helyreállítási USB-meghajtója elkészült"
+   },
+   "completed": {
+      "message": "kész"
+   },
+   "confirm_cancelled_message_html": {
+      "message": "Megszakítva. Ha szeretné újból megpróbálni, kattintson a „Létrehozás most” lehetőségre.\u003Cbr>\u003Cbr>A helyreállítási adathordozó tartalmának törléséhez kattintson a jobb felső sarokban található fogaskerék ikonra."
+   },
+   "confirm_cancelled_message_html_on_hub": {
+      "message": "Megszakítva. Ha szeretné újból megpróbálni, kattintson a „Létrehozás most” lehetőségre.\u003Cbr>\u003Cbr>A helyreállítási USB-meghajtó tartalmának törléséhez kattintson a jobb felső sarokban található fogaskerék ikonra."
+   },
+   "confirm_cancelled_message_html_workspace_hardware": {
+      "message": "Megszakítva. Ha szeretné újból megpróbálni, kattintson a „Létrehozás most” lehetőségre.\u003Cbr>\u003Cbr>A helyreállítási USB-meghajtó tartalmának törléséhez kattintson a jobb felső sarokban található fogaskerék ikonra."
+   },
+   "confirm_hide_advanced_settings_message": {
+      "message": "Speciális beállítások elrejtése"
+   },
+   "confirm_message_html": {
+      "message": "\u003Cb>Fontos:\u003C/b> A helyreállítási adathordozóról az összes adat és partíció törlődik."
+   },
+   "confirm_message_html_on_hub": {
+      "message": "\u003Cb>Fontos:\u003C/b> A helyreállítási USB-meghajtóról az összes adat és partíció törlődik."
+   },
+   "confirm_message_html_workspace_hardware": {
+      "message": "\u003Cb>Fontos:\u003C/b> A pendrive-on található összes adat törlődik"
+   },
+   "confirm_show_advanced_settings_message": {
+      "message": "Speciális beállítások megjelenítése"
+   },
+   "confirm_title": {
+      "message": "Helyreállító képfájl létrehozása"
+   },
+   "continue_button_text": {
+      "message": "Tovább"
+   },
+   "create_another_button_text": {
+      "message": "Másik létrehozása"
+   },
+   "create_now_button_text": {
+      "message": "Létrehozás most"
+   },
+   "dev_app_description": {
+      "message": "A Chromebook helyreállítási segédprogram fejlesztői verziója."
+   },
+   "dev_app_description_on_hub": {
+      "message": "Az OnHub helyreállítási segédprogram fejlesztői verziója."
+   },
+   "dev_app_description_workspace_hardware": {
+      "message": "A Meet Compute System helyreállítási segédprogram fejlesztői verziója."
+   },
+   "dev_app_name": {
+      "message": "Chromebook helyreállítási segédprogram (Dev)"
+   },
+   "dev_app_name_on_hub": {
+      "message": "OnHub helyreállítási segédprogram (Dev)"
+   },
+   "dev_app_name_workspace_hardware": {
+      "message": "Meet Compute System helyreállítási segédprogram (Dev)"
+   },
+   "done_button_text": {
+      "message": "Kész"
+   },
+   "erase_complete_bullet1": {
+      "message": "Az USB-meghajtó vagy SD-kártya előkészítése a formázásra megtörtént."
+   },
+   "erase_complete_bullet1_on_hub": {
+      "message": "Az USB-meghajtó előkészítése a formázásra megtörtént."
+   },
+   "erase_complete_bullet1_workspace_hardware": {
+      "message": "Az USB-meghajtó előkészítése a formázásra megtörtént."
+   },
+   "erase_complete_bullet2": {
+      "message": "Formázás az operációs rendszer által kínált formázási eszköz segítségével."
+   },
+   "erase_complete_title": {
+      "message": "A helyreállítási adathordozó tartalmának törlése megtörtént."
+   },
+   "erase_complete_title_on_hub": {
+      "message": "A helyreállítási USB-meghajtó tartalmának törlése megtörtént."
+   },
+   "erase_complete_title_workspace_hardware": {
+      "message": "A helyreállítási USB-meghajtó tartalmának törlése megtörtént."
+   },
+   "erase_confirm_message": {
+      "message": "A helyreállítási adathordozóról törlődik a helyreállító képfájl és az összes partíció."
+   },
+   "erase_confirm_message_on_hub": {
+      "message": "A helyreállítási USB-meghajtóról törlődik a helyreállító képfájl és az összes partíció."
+   },
+   "erase_confirm_message_workspace_hardware": {
+      "message": "A helyreállítási USB-meghajtóról törlődik a helyreállító képfájl és az összes partíció."
+   },
+   "erase_now_button_text": {
+      "message": "Törlés most"
+   },
+   "erase_progress_text": {
+      "message": "Ne távolítsa el a helyreállítási adathordozót."
+   },
+   "erase_progress_text_on_hub": {
+      "message": "Ne távolítsa el a helyreállítási USB-meghajtót."
+   },
+   "erase_progress_text_workspace_hardware": {
+      "message": "Ne távolítsa el a helyreállítási USB-meghajtót."
+   },
+   "erase_progress_title": {
+      "message": "A helyreállítási adathordozó tartalmának törlése folyamatban van"
+   },
+   "erase_progress_title_on_hub": {
+      "message": "A helyreállítási USB-meghajtó tartalmának törlése folyamatban van"
+   },
+   "erase_progress_title_workspace_hardware": {
+      "message": "A helyreállítási USB-meghajtó tartalmának törlése folyamatban van"
+   },
+   "erase_select_target_detecting": {
+      "message": "Észlelés…"
+   },
+   "erase_select_target_high_capacity_warning_html": {
+      "message": "\u003Cb>Ellenőrizze:\u003C/b> A megfelelő meghajtót választotta?"
+   },
+   "erase_select_target_no_devices_found": {
+      "message": "Nem található USB-meghajtó vagy SD-kártya"
+   },
+   "erase_select_target_no_devices_found_on_hub": {
+      "message": "Nem található USB-meghajtó"
+   },
+   "erase_select_target_no_devices_found_workspace_hardware": {
+      "message": "Nem található USB-meghajtó"
+   },
+   "erase_select_target_select_device": {
+      "message": "Válassza ki a helyreállítási adathordozót, amelynek törölni szeretné a tartalmát."
+   },
+   "erase_select_target_select_device_on_hub": {
+      "message": "Válassza ki a helyreállítási USB-meghajtót, amelynek törölni szeretné a tartalmát."
+   },
+   "erase_select_target_select_device_placeholder": {
+      "message": "Kiválasztás"
+   },
+   "erase_select_target_select_device_workspace_hardware": {
+      "message": "Válassza ki a helyreállítási USB-meghajtót, amelynek törölni szeretné a tartalmát."
+   },
+   "erase_title": {
+      "message": "Helyreállítási adathordozó tartalmának törlése"
+   },
+   "erase_title_on_hub": {
+      "message": "Helyreállítási USB-meghajtó tartalmának törlése"
+   },
+   "erase_title_workspace_hardware": {
+      "message": "Helyreállítási USB-meghajtó tartalmának törlése"
+   },
+   "errmsg_please_try_again": {
+      "message": "Próbálja újra."
+   },
+   "errmsg_recovery_config_download_failure": {
+      "message": "A konfigurációs fájl letöltése nem sikerült. Kizárólag az offline funkciók lesznek hozzáférhetők."
+   },
+   "get_started_button_text": {
+      "message": "Kezdés"
+   },
+   "gigabyte_abbreviation": {
+      "message": "GB"
+   },
+   "go_back_button_text": {
+      "message": "Vissza"
+   },
+   "hours_remaining": {
+      "message": "$1 óra van hátra.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "hwid_invalid_model": {
+      "message": "Érvénytelen modellszám. Ellenőrizze a megadott információkat."
+   },
+   "hwid_keep_typing": {
+      "message": "Egyelőre nem található modell, gépeljen tovább."
+   },
+   "hwid_keep_typing_workspace_hardware": {
+      "message": "Nem található modell"
+   },
+   "hwid_match_found": {
+      "message": "Van egyezés"
+   },
+   "hwid_match_found_and_checksum_verified": {
+      "message": "Van egyezés ugyanezzel a modellnévvel"
+   },
+   "learn_more_link_text": {
+      "message": "További információ"
+   },
+   "learn_more_link_url": {
+      "message": "http://www.google.com/chromeos/recovery"
+   },
+   "learn_more_link_url_on_hub": {
+      "message": "https://support.google.com/onhub/answer/6274977"
+   },
+   "learn_more_link_url_workspace_hardware": {
+      "message": "http://support.google.com/meethardware/answer/10562922"
+   },
+   "loading_config_text": {
+      "message": "Előkészítés…"
+   },
+   "menu_item_erase_recovery_media": {
+      "message": "Helyreállítási adathordozó tartalmának törlése"
+   },
+   "menu_item_erase_recovery_media_on_hub": {
+      "message": "Helyreállítási USB-meghajtó tartalmának törlése"
+   },
+   "menu_item_erase_recovery_media_workspace_hardware": {
+      "message": "Helyreállítási USB-meghajtó tartalmának törlése"
+   },
+   "menu_item_send_feedback": {
+      "message": "Visszajelzés küldése"
+   },
+   "menu_item_use_local_image": {
+      "message": "Helyi lemezkép használata"
+   },
+   "minutes_remaining": {
+      "message": "$1 perc van hátra.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "of": {
+      "message": "/"
+   },
+   "recovery_channel_beta": {
+      "message": "Béta"
+   },
+   "recovery_channel_dev": {
+      "message": "Dev"
+   },
+   "recovery_channel_ltc": {
+      "message": "Hosszú távú terméktámogatásra kijelölve (csak vállalkozások)"
+   },
+   "recovery_channel_lts": {
+      "message": "Hosszú távú terméktámogatás (csak vállalkozások)"
+   },
+   "recovery_channel_stable": {
+      "message": "Stabil"
+   },
+   "seconds_remaining": {
+      "message": "$1 másodperc van hátra.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "select_channel_placeholder": {
+      "message": "Helyreállítási csatorna kiválasztása"
+   },
+   "select_image_select_by_hwid_link_text": {
+      "message": "A modellszám közvetlen beírása"
+   },
+   "select_image_select_from_list_link_text": {
+      "message": "Modell kiválasztása listából"
+   },
+   "select_image_select_manufacturer_placeholder": {
+      "message": "Válasszon gyártót"
+   },
+   "select_image_select_product_placeholder": {
+      "message": "Válasszon terméket"
+   },
+   "select_image_select_product_placeholder_on_hub": {
+      "message": "Válasszon modellt"
+   },
+   "select_image_select_product_placeholder_workspace_hardware": {
+      "message": "Válasszon modellt"
+   },
+   "select_image_text": {
+      "message": "A helyreállításhoz adja meg a Chromebook modellszámát, amely a helyreállítási képernyőn található."
+   },
+   "select_image_text_on_hub": {
+      "message": "Írja be az OnHub modellszámát."
+   },
+   "select_image_text_workspace_hardware": {
+      "message": "Adja meg a Meet Compute System modellszámát"
+   },
+   "select_image_this_chromebooks_model_number": {
+      "message": "Ennél a Chromebooknál a következőt adja meg:"
+   },
+   "select_image_this_chromebooks_model_number_on_hub": {
+      "message": "Ennél az OnHubnál a következőt adja meg:"
+   },
+   "select_image_this_chromebooks_model_number_workspace_hardware": {
+      "message": "Ennél a Meet Compute Systemnél a következőt adja meg:"
+   },
+   "select_image_title": {
+      "message": "A Chromebook azonosítása"
+   },
+   "select_image_title_on_hub": {
+      "message": "Az OnHub azonosítása"
+   },
+   "select_image_title_workspace_hardware": {
+      "message": "A Meet Compute System azonosítása"
+   },
+   "select_target_detecting": {
+      "message": "Észlelés…"
+   },
+   "select_target_high_capacity_warning_html": {
+      "message": "\u003Cb>Ellenőrizze:\u003C/b> A megfelelő adathordozót választotta?"
+   },
+   "select_target_high_capacity_warning_html_on_hub": {
+      "message": "\u003Cb>Ellenőrizze:\u003C/b> A megfelelő USB-meghajtót választotta?"
+   },
+   "select_target_high_capacity_warning_html_workspace_hardware": {
+      "message": "\u003Cb>Ellenőrizze:\u003C/b> A megfelelő USB-meghajtót választotta?"
+   },
+   "select_target_low_capacity_error": {
+      "message": "Az adathordozónak legalább 8 GB méretűnek kell lennie."
+   },
+   "select_target_low_capacity_error_on_hub": {
+      "message": "Az USB-meghajtónak legalább 8 GB méretűnek kell lennie."
+   },
+   "select_target_low_capacity_error_workspace_hardware": {
+      "message": "Az USB-meghajtónak legalább 8 GB méretűnek kell lennie."
+   },
+   "select_target_no_devices_found": {
+      "message": "Nem található USB-meghajtó vagy SD-kártya"
+   },
+   "select_target_no_devices_found_on_hub": {
+      "message": "Nem található USB-meghajtó"
+   },
+   "select_target_no_devices_found_workspace_hardware": {
+      "message": "Nem található USB-meghajtó"
+   },
+   "select_target_select_device": {
+      "message": "Válassza ki a használni kívánt adathordozót."
+   },
+   "select_target_select_device_on_hub": {
+      "message": "Válassza ki a használni kívánt USB-meghajtót."
+   },
+   "select_target_select_device_placeholder": {
+      "message": "Kiválasztás"
+   },
+   "select_target_select_device_workspace_hardware": {
+      "message": "Válassza ki a használni kívánt USB-meghajtót."
+   },
+   "select_target_title": {
+      "message": "USB-meghajtó vagy SD-kártya csatlakoztatása"
+   },
+   "select_target_title_on_hub": {
+      "message": "USB-meghajtó csatlakoztatása"
+   },
+   "select_target_title_workspace_hardware": {
+      "message": "USB-meghajtó csatlakoztatása"
+   },
+   "stage_complete": {
+      "message": "Befejezve"
+   },
+   "stage_download": {
+      "message": "Letöltés…"
+   },
+   "stage_downloadverify": {
+      "message": "Letöltés ellenőrzése…"
+   },
+   "stage_unpack": {
+      "message": "Kicsomagolás…"
+   },
+   "stage_unzip": {
+      "message": "Kicsomagolás…"
+   },
+   "stage_verify": {
+      "message": "Ellenőrzés…"
+   },
+   "stage_verifydownload": {
+      "message": "Letöltés ellenőrzése…"
+   },
+   "stage_verifywrite": {
+      "message": "Ellenőrzés…"
+   },
+   "stage_write": {
+      "message": "Írás…"
+   },
+   "step": {
+      "message": "Aktuális lépés:"
+   },
+   "unsupported_text": {
+      "message": "Sajnos az Ön által használt platform jelenleg nem támogatott. További információ a \u003Ca href=\"http://www.google.com/chromeos/recovery\" target=\"_blank\">Chromebook súgójában\u003C/a> található."
+   },
+   "unsupported_text_mac": {
+      "message": "Sajnos a Mac csak M37 vagy újabb verziójú Chrome-mal támogatott. Kérjük, frissítse a Chrome-ot M37-re. Emiatt elképzelhető, hogy a \u003Ca href=\"https://support.google.com/chromebook/answer/1086915\" target=\"_blank\">Béta csatornára kell váltania\u003C/a>."
+   },
+   "unsupported_text_on_hub": {
+      "message": "Sajnos az Ön által használt platform jelenleg nem támogatott. További információ az \u003Ca href=\"https://support.google.com/onhub/answer/6274977\" target=\"_blank\">OnHub súgójában\u003C/a> található."
+   },
+   "unsupported_title": {
+      "message": "Az Ön által használt platform jelenleg nem támogatott"
+   },
+   "unsupported_title_linux": {
+      "message": "A Linux jelenleg nem támogatott"
+   },
+   "unsupported_title_mac": {
+      "message": "A Mac jelenleg nem támogatott"
+   },
+   "unsupported_title_win": {
+      "message": "A Windows jelenleg nem támogatott"
+   },
+   "usupported_text_workspace_hardware": {
+      "message": "Sajnos az Ön platformja jelenleg nem támogatott.  További információt a \u003Ca href=\"http://support.google.com/meethardware/answer/10562922\" target=\"_blank\">Google Meet-hardver súgójában\u003C/a> találhat."
+   },
+   "warning_offline": {
+      "message": "Az eszköz offline állapotban van. Kizárólag az offline funkciók lesznek hozzáférhetők."
+   },
+   "welcome_text": {
+      "message": "Egy olyan 8 GB-os vagy nagyobb kapacitású USB-meghajtóra vagy SD-kártyára lesz szüksége, amelynek törölhető a tartalma."
+   },
+   "welcome_text_on_hub": {
+      "message": "Egy olyan 8 GB-os vagy nagyobb kapacitású USB-meghajtóra lesz szüksége, amelynek törölhető a tartalma."
+   },
+   "welcome_text_workspace_hardware": {
+      "message": "Egy olyan 8 GB-os vagy nagyobb kapacitású USB-meghajtóra lesz szüksége, amelynek törölhető a tartalma. SD-kártyát is használhat, ha az eszköz rendelkezik SD-kártyához való porttal."
+   },
+   "welcome_title": {
+      "message": "Helyreállítási adathordozó létrehozása Chromebookhoz"
+   },
+   "welcome_title_on_hub": {
+      "message": "Helyreállítási USB-meghajtó létrehozása az OnHubhoz"
+   },
+   "welcome_title_workspace_hardware": {
+      "message": "Helyreállítási USB-meghajtó létrehozása a Meet Compute Systemhez"
+   },
+   "write_message": {
+      "message": "Ne távolítsa el a helyreállítási adathordozót."
+   },
+   "write_message_on_hub": {
+      "message": "Ne távolítsa el a helyreállítási USB-meghajtót."
+   },
+   "write_message_workspace_hardware": {
+      "message": "Ne távolítsa el a pendrive-ot."
+   },
+   "write_title": {
+      "message": "A helyreállító képfájl létrehozása folyamatban van"
+   }
+}

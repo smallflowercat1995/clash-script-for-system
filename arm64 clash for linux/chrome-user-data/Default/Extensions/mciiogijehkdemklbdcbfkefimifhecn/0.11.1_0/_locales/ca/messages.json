@@ -1,0 +1,20 @@
+{
+   "chromesysAllowFileAccess": {
+      "message": "Permet l'accés als URL de fitxer"
+   },
+   "chromesysDownloadLocation": {
+      "message": "Ubicació de baixades"
+   },
+   "chromesysDownloadsSection": {
+      "message": "Baixades"
+   },
+   "chromesysShowAdvSettings": {
+      "message": "Mostra la configuració avançada..."
+   },
+   "extName": {
+      "message": "Chrono Download Manager"
+   },
+   "uilangName": {
+      "message": "Catalan"
+   }
+}

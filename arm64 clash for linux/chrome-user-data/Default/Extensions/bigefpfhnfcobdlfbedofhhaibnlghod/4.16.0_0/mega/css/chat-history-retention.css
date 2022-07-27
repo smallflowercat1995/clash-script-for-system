@@ -1,0 +1,72 @@
+.mega-dialog.msg-retention-dialog{
+	font:var(--text-font-family);
+	width:430px
+}
+.mega-dialog.msg-retention-dialog p{
+	text-align:center
+}
+.mega-dialog.msg-retention-dialog .form{
+	display:flex;
+	flex-wrap:nowrap;
+	justify-content:center;
+	margin-top:16px
+}
+.mega-dialog.msg-retention-dialog .form-section{
+	margin-top:6px;
+	position:relative;
+	width:100%
+}
+.mega-dialog.msg-retention-dialog .form-section-radio{
+	display:flex;
+	flex-direction:column;
+	height:80px;
+	justify-content:space-between;
+	margin-bottom:51px;
+	margin-top:6px
+}
+.mega-dialog.msg-retention-dialog .form-section-time{
+	-webkit-margin-start:15px;
+	-webkit-padding-end:40px;
+	-webkit-padding-start:10px;
+	background:var(--surface-grey-1);
+	border:1px solid var(--stroke-grey-2);
+	border-radius:4px;
+	color:var(--text-color-medium);
+	height:32px;
+	margin-inline-start:15px;
+	padding-inline-end:40px;
+	padding-inline-start:10px;
+	width:125px
+}
+.mega-dialog.msg-retention-dialog .form-section-placeholder{
+	color:var(--text-color-low);
+	left:46px;
+	pointer-events:none;
+	position:absolute;
+	top:6px
+}
+.rtl .mega-dialog.msg-retention-dialog .form-section-placeholder{
+	left:auto;
+	right:44px
+}
+.mega-dialog.msg-retention-dialog .form-section-time::placeholder{
+	color:var(--text-color-low)
+}
+.mega-dialog.msg-retention-dialog .radio-txt{
+	-webkit-padding-start:36px;
+	cursor:pointer;
+	display:block;
+	padding:5px 0 11px;
+	padding-inline-start:36px;
+	position:relative
+}
+.mega-dialog.msg-retention-dialog .custom-radio{
+	left:6px;
+	margin:0;
+	position:absolute;
+	top:6px
+}
+.rtl .mega-dialog.msg-retention-dialog .custom-radio{
+	left:auto;
+	right:6px
+}

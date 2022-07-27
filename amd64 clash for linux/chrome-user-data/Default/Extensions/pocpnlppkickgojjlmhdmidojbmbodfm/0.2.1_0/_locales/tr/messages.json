@@ -1,0 +1,556 @@
+{
+   "apierrmsg_aborted": {
+      "message": "İşlem kesildi."
+   },
+   "apierrmsg_device_list_error": {
+      "message": "USB sürücü veya SD kart bulunamadı."
+   },
+   "apierrmsg_device_list_error_on_hub": {
+      "message": "USB sürücü bulunamadı."
+   },
+   "apierrmsg_device_list_error_workspace_hardware": {
+      "message": "USB sürücü bulunamadı."
+   },
+   "apierrmsg_device_write_error": {
+      "message": "Seçilen USB flash sürücüye veya SD karta yazılamıyor. Cihazınızdaki yazma izinleri devre dışı olabilir veya alan yöneticiniz, USB depolamaya yazmayı devre dışı bırakmış olabilir."
+   },
+   "apierrmsg_download_cancelled": {
+      "message": "İndirme iptal edildi."
+   },
+   "apierrmsg_download_hash_mismatch": {
+      "message": "Dosya geçersiz."
+   },
+   "apierrmsg_download_interrupted": {
+      "message": "İndirme işlemi kesildi. Lütfen ağ bağlantınızı kontrol edip tekrar deneyin."
+   },
+   "apierrmsg_file_invalid": {
+      "message": "Dosya geçersiz."
+   },
+   "apierrmsg_operation_already_in_progress": {
+      "message": "Şu anda başka bir işlem devam ediyor."
+   },
+   "apierrmsg_unknown": {
+      "message": "Bilinmeyen hata: $1.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "apierrmsg_unsupported_operation": {
+      "message": "Desteklenmeyen işlem."
+   },
+   "apierrmsg_unzip_error": {
+      "message": "Zip dosyası açılamadı. Lütfen cihazınızda yeterli alan olup olmadığını kontrol ettikten sonra tekrar deneyin."
+   },
+   "apierrmsg_unzip_invalid_archive": {
+      "message": "Geçersiz zip dosyası."
+   },
+   "apierrmsg_url_invalid": {
+      "message": "Dosya bulunamadı."
+   },
+   "apierrmsg_verification_failed": {
+      "message": "Görüntü doğrulanamadı."
+   },
+   "app_description": {
+      "message": "Chromebook'unuz için kurtarma medyası oluşturun."
+   },
+   "app_description_on_hub": {
+      "message": "OnHub'ınız için bir kurtarma USB sürücüsü oluşturun."
+   },
+   "app_description_workspace_hardware": {
+      "message": "Meet Bilgi İşlem Sisteminiz için kurtarma USB sürücüsü oluşturun."
+   },
+   "app_name": {
+      "message": "Chromebook Kurtarma Yardımcı Programı"
+   },
+   "app_name_on_hub": {
+      "message": "OnHub Kurtarma Yardımcı Programı"
+   },
+   "app_name_workspace_hardware": {
+      "message": "Meet Bilgi İşlem Sistemi Yardımcı Programı"
+   },
+   "app_short_name": {
+      "message": "Kurtarma"
+   },
+   "cancel_button_text": {
+      "message": "İptal"
+   },
+   "chrome_app_deprecation_message": {
+      "message": "\u003Ca href=\"https://blog.chromium.org/2020/08/changes-to-chrome-app-support-timeline.html\" target=\"_blank\" tabindex=\"0\">Chromium blog\u003C/a> blogunda herkese açık bir şekilde duyurulduğu üzere Google, Haziran 2021'de Chrome Uygulamaları için desteği bırakıyor. Cihazlarınızı kurtarmak için lütfen \u003Ca href=\"https://chrome.google.com/webstore/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm\" target=\"_blank\">Chromebook Kurtarma Yardımcı Programı uzantısını\u003C/a> ve ilgili \u003Ca href=\"http://www.google.com/chromeos/recovery\" target=\"_blank\">documentation\u003C/a> dokümanını kullanın."
+   },
+   "chrome_app_deprecation_message_on_hub": {
+      "message": "\u003Ca href=\"https://blog.chromium.org/2020/08/changes-to-chrome-app-support-timeline.html\" target=\"_blank\" tabindex=\"0\">Chromium blog\u003C/a> blogunda herkese açık bir şekilde duyurulduğu üzere Google, Haziran 2021'de Chrome Uygulamaları için desteği bırakıyor. Cihazlarınızı kurtarmak için lütfen \u003Ca href=\"https://chrome.google.com/webstore/detail/onhub-recovery-utility/fmgkgdalfapcmjnanilfcpkhkhedmpdm\" target=\"_blank\">OnHub Kurtarma Yardımcı Programı uzantısını\u003C/a> ve ilgili \u003Ca href=\"https://support.google.com/onhub/answer/6274977\" target=\"_blank\">documentation\u003C/a> dokümanını kullanın."
+   },
+   "complete_bullet1": {
+      "message": "Chromebook'unuzu kurtarmak için kurtarma medyasını Chromebook'unuza takın."
+   },
+   "complete_bullet1_on_hub": {
+      "message": "OnHub'ınızdaki güç kablosunu çıkarıp USB sürücüyü tekrar cihaza takın. Sıfırlama düğmesini basılı tutarken güç kablosunu takın. Sıfırlama düğmesini yaklaşık 15 saniye veya USB sürücüdeki etkinlik ışığı yanıp sönmeye başlayıncaya kadar basılı tutun."
+   },
+   "complete_bullet1_workspace_hardware": {
+      "message": "Meet Bilgi İşlem Sisteminizi kurtarmak için \u003Ca href=\"http://support.google.com/meethardware/answer/10562922#zippy=%2Cstep-enter-recovery-mode\" target=\"_blank\">Google Meet Hardware bilgi işlem sistemi kutusunu kurtarma, 3. Adım: Geri yükleme moduna girin\u003C/a>'deki talimatları uygulayın"
+   },
+   "complete_bullet2": {
+      "message": "Kurtarma işleminden sonra, bu yardımcı programı kullanarak kurtarma medyanızı silebilirsiniz."
+   },
+   "complete_bullet2_on_hub": {
+      "message": "OnHub'ınız kurtarma işlemini gerçekleştirir. Bu işlem birkaç dakika sürebilir. OnHub'ınız kurtarıldıktan sonra yeniden başlatılır. Daha sonra, OnHub'ınızı ayarlamak için Google On uygulamasını kullanın."
+   },
+   "complete_bullet2_workspace_hardware": {
+      "message": "Tamamladığınızda USB flash sürücüyü silmek için Meet Bilgi İşlem Sistemi Yardımcı Programı'nı başlatın, \u003Cb>Ayarlar\u003C/b>'ı ardından \u003Cb>Kurtarma medyasını sil\u003C/b>'i tıklayın"
+   },
+   "complete_message": {
+      "message": "Kurtarma medyanızı şimdi çıkarabilirsiniz."
+   },
+   "complete_message_on_hub": {
+      "message": "Kurtarma USB sürücünüzü şimdi çıkarabilirsiniz."
+   },
+   "complete_message_workspace_hardware": {
+      "message": "Artık flash sürücüyü çıkarabilirsiniz"
+   },
+   "complete_title": {
+      "message": "Başarılı. Kurtarma medyanız hazır"
+   },
+   "complete_title_on_hub": {
+      "message": "Başarılı. Kurtarma USB sürücünüz hazır"
+   },
+   "complete_title_workspace_hardware": {
+      "message": "Başarılı. Kurtarma USB sürücünüz hazır"
+   },
+   "completed": {
+      "message": "tamamlandı"
+   },
+   "confirm_cancelled_message_html": {
+      "message": "İptal edildi. Tekrar denemek için &rdquo;Şimdi oluştur&rdquo;u tıklayın.\u003Cbr>\u003Cbr>Kurtarma medyanızı silmek için sağ üst köşedeki dişli simgesini tıklayın."
+   },
+   "confirm_cancelled_message_html_on_hub": {
+      "message": "İptal edildi. Tekrar denemek için &rdquo;Şimdi oluştur&rdquo;u tıklayın.\u003Cbr>\u003Cbr>Kurtarma USB sürücünüzü silmek için sağ üst köşedeki dişli simgesini tıklayın."
+   },
+   "confirm_cancelled_message_html_workspace_hardware": {
+      "message": "İptal edildi. Tekrar denemek için &rdquo;Şimdi oluştur&rdquo;u tıklayın.\u003Cbr>\u003Cbr>Kurtarma USB sürücünüzü silmek için sağ üst köşedeki dişli simgesini tıklayın."
+   },
+   "confirm_hide_advanced_settings_message": {
+      "message": "Gelişmiş Ayarları Gizle"
+   },
+   "confirm_message_html": {
+      "message": "\u003Cb>Önemli:\u003C/b> Kurtarma medyanızdaki tüm veriler ve bölümler silinecektir."
+   },
+   "confirm_message_html_on_hub": {
+      "message": "\u003Cb>Önemli:\u003C/b> Kurtarma USB sürücünüzdeki tüm veriler ve bölümler silinecek."
+   },
+   "confirm_message_html_workspace_hardware": {
+      "message": "\u003Cb>Önemli:\u003C/b> Flash sürücünüzdeki her şey silinecek"
+   },
+   "confirm_show_advanced_settings_message": {
+      "message": "Gelişmiş Ayarları Göster"
+   },
+   "confirm_title": {
+      "message": "Kurtarma görüntüsü oluşturun"
+   },
+   "continue_button_text": {
+      "message": "Devam"
+   },
+   "create_another_button_text": {
+      "message": "Başka bir tane oluştur"
+   },
+   "create_now_button_text": {
+      "message": "Şimdi oluştur"
+   },
+   "dev_app_description": {
+      "message": "Chromebook Kurtarma Yardımcı Programı'nın geliştirme sürümü."
+   },
+   "dev_app_description_on_hub": {
+      "message": "OnHub Kurtarma Yardımcı Programı'nın geliştirme sürümü."
+   },
+   "dev_app_description_workspace_hardware": {
+      "message": "Meet Bilgi İşlem Sistemi Kurtarma Yardımcı Programı geliştirme sürümü."
+   },
+   "dev_app_name": {
+      "message": "Chromebook Kurtarma Yardımcı Programı Geliştirme"
+   },
+   "dev_app_name_on_hub": {
+      "message": "OnHub Kurtarma Yardımcı Programı Geliştirme"
+   },
+   "dev_app_name_workspace_hardware": {
+      "message": "Meet Bilgi İşlem Sistemi Yardımcı Programı Dev"
+   },
+   "done_button_text": {
+      "message": "Bitti"
+   },
+   "erase_complete_bullet1": {
+      "message": "USB sürücünüz veya SD kartınız biçimlendirilmek için hazır."
+   },
+   "erase_complete_bullet1_on_hub": {
+      "message": "USB sürücünüz biçimlendirilmek için hazır."
+   },
+   "erase_complete_bullet1_workspace_hardware": {
+      "message": "USB sürücünüz biçimlendirilmek için hazır."
+   },
+   "erase_complete_bullet2": {
+      "message": "İşletim sisteminiz tarafından sağlanan bir biçimlendirme aracı kullanarak biçimlendirin."
+   },
+   "erase_complete_title": {
+      "message": "Kurtarma medyanız silindi."
+   },
+   "erase_complete_title_on_hub": {
+      "message": "Kurtarma USB sürücünüz silindi."
+   },
+   "erase_complete_title_workspace_hardware": {
+      "message": "Kurtarma USB sürücünüz silindi."
+   },
+   "erase_confirm_message": {
+      "message": "Kurtarma medyanızdaki kurtarma görüntüsü ve tüm bölümler silinecektir."
+   },
+   "erase_confirm_message_on_hub": {
+      "message": "Kurtarma USB sürücünüzdeki kurtarma görüntüsü ve tüm bölümler silinecektir."
+   },
+   "erase_confirm_message_workspace_hardware": {
+      "message": "Kurtarma USB sürücünüzdeki kurtarma görüntüsü ve tüm bölümler silinecektir."
+   },
+   "erase_now_button_text": {
+      "message": "Şimdi sil"
+   },
+   "erase_progress_text": {
+      "message": "Kurtarma medyanızı çıkarmayın."
+   },
+   "erase_progress_text_on_hub": {
+      "message": "Kurtarma USB sürücünüzü çıkarmayın."
+   },
+   "erase_progress_text_workspace_hardware": {
+      "message": "Kurtarma USB sürücünüzü çıkarmayın."
+   },
+   "erase_progress_title": {
+      "message": "Kurtarma medyanız siliniyor"
+   },
+   "erase_progress_title_on_hub": {
+      "message": "Kurtarma USB sürücünüz siliniyor"
+   },
+   "erase_progress_title_workspace_hardware": {
+      "message": "Kurtarma USB sürücünüz siliniyor"
+   },
+   "erase_select_target_detecting": {
+      "message": "Algılanıyor"
+   },
+   "erase_select_target_high_capacity_warning_html": {
+      "message": "\u003Cb>Uyarı:\u003C/b> Bu doğru sürücü mü?"
+   },
+   "erase_select_target_no_devices_found": {
+      "message": "USB sürücü veya SD kart bulunamadı"
+   },
+   "erase_select_target_no_devices_found_on_hub": {
+      "message": "USB sürücü bulunamadı"
+   },
+   "erase_select_target_no_devices_found_workspace_hardware": {
+      "message": "USB sürücü bulunamadı"
+   },
+   "erase_select_target_select_device": {
+      "message": "Silmek istediğiniz kurtarma medyasını seçin."
+   },
+   "erase_select_target_select_device_on_hub": {
+      "message": "Silmek istediğiniz kurtarma USB sürücüsünü seçin."
+   },
+   "erase_select_target_select_device_placeholder": {
+      "message": "Seç"
+   },
+   "erase_select_target_select_device_workspace_hardware": {
+      "message": "Silmek istediğiniz kurtarma USB sürücüsünü seçin."
+   },
+   "erase_title": {
+      "message": "Kurtarma medyasını sil"
+   },
+   "erase_title_on_hub": {
+      "message": "Kurtarma USB sürücüsünü sil"
+   },
+   "erase_title_workspace_hardware": {
+      "message": "Kurtarma USB sürücüsünü sil"
+   },
+   "errmsg_please_try_again": {
+      "message": "Lütfen tekrar deneyin."
+   },
+   "errmsg_recovery_config_download_failure": {
+      "message": "Yapılandırma dosyası indirilemedi. Sadece çevrimdışı özellikler kullanılabilecek."
+   },
+   "get_started_button_text": {
+      "message": "Başla"
+   },
+   "gigabyte_abbreviation": {
+      "message": "GB"
+   },
+   "go_back_button_text": {
+      "message": "Geri dön"
+   },
+   "hours_remaining": {
+      "message": "$1 saat kaldı.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "hwid_invalid_model": {
+      "message": "Geçersiz model numarası. Lütfen girişinizi kontrol edin."
+   },
+   "hwid_keep_typing": {
+      "message": "Henüz bir model bulunamadı. Yazmaya devam edin."
+   },
+   "hwid_keep_typing_workspace_hardware": {
+      "message": "Henüz model bulunamadı"
+   },
+   "hwid_match_found": {
+      "message": "Eşleşen bir öğe bulundu"
+   },
+   "hwid_match_found_and_checksum_verified": {
+      "message": "Model adıyla tam olarak eşleşen bir öğe bulundu"
+   },
+   "learn_more_link_text": {
+      "message": "Daha fazla bilgi"
+   },
+   "learn_more_link_url": {
+      "message": "http://www.google.com/chromeos/recovery"
+   },
+   "learn_more_link_url_on_hub": {
+      "message": "https://support.google.com/onhub/answer/6274977"
+   },
+   "learn_more_link_url_workspace_hardware": {
+      "message": "http://support.google.com/meethardware/answer/10562922"
+   },
+   "loading_config_text": {
+      "message": "Hazırlanıyor..."
+   },
+   "menu_item_erase_recovery_media": {
+      "message": "Kurtarma medyasını sil"
+   },
+   "menu_item_erase_recovery_media_on_hub": {
+      "message": "Kurtarma USB sürücüsünü sil"
+   },
+   "menu_item_erase_recovery_media_workspace_hardware": {
+      "message": "Kurtarma USB sürücüsünü sil"
+   },
+   "menu_item_send_feedback": {
+      "message": "Geri bildirim gönderme"
+   },
+   "menu_item_use_local_image": {
+      "message": "Yerel görüntü kullan"
+   },
+   "minutes_remaining": {
+      "message": "$1 dakika kaldı.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "of": {
+      "message": "/"
+   },
+   "recovery_channel_beta": {
+      "message": "Beta"
+   },
+   "recovery_channel_dev": {
+      "message": "Geliştirme"
+   },
+   "recovery_channel_ltc": {
+      "message": "Uzun Süreli Destek Adayı (Yalnızca Enterprise)"
+   },
+   "recovery_channel_lts": {
+      "message": "Uzun Süreli Destek (Yalnızca Enterprise)"
+   },
+   "recovery_channel_stable": {
+      "message": "Sabit"
+   },
+   "seconds_remaining": {
+      "message": "$1 saniye kaldı.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "select_channel_placeholder": {
+      "message": "Bir kurtarma kanalı seçin"
+   },
+   "select_image_select_by_hwid_link_text": {
+      "message": "Model numarasını doğrudan girin"
+   },
+   "select_image_select_from_list_link_text": {
+      "message": "Listeden bir model seçin"
+   },
+   "select_image_select_manufacturer_placeholder": {
+      "message": "Üretici seçin"
+   },
+   "select_image_select_product_placeholder": {
+      "message": "Bir ürün seçin"
+   },
+   "select_image_select_product_placeholder_on_hub": {
+      "message": "Bir model seçin"
+   },
+   "select_image_select_product_placeholder_workspace_hardware": {
+      "message": "Bir model seçin"
+   },
+   "select_image_text": {
+      "message": "Kurtarmak için Chromebook'un model numarasını girin. Bu bilgiyi, kurtarma ekranında bulabilirsiniz."
+   },
+   "select_image_text_on_hub": {
+      "message": "OnHub'ınızın model numarasını girin."
+   },
+   "select_image_text_workspace_hardware": {
+      "message": "Meet Bilgi İşlem Sisteminizin model numarasını girin"
+   },
+   "select_image_this_chromebooks_model_number": {
+      "message": "Bu Chromebook için şu numarayı girin:"
+   },
+   "select_image_this_chromebooks_model_number_on_hub": {
+      "message": "Bu OnHub için şu değeri girin:"
+   },
+   "select_image_this_chromebooks_model_number_workspace_hardware": {
+      "message": "Bu Meet Bilgi İşlem Sistemi için şu model numarasını girin:"
+   },
+   "select_image_title": {
+      "message": "Chromebook'unuzu tanımlayın"
+   },
+   "select_image_title_on_hub": {
+      "message": "OnHub'ınızı Tanımlayın"
+   },
+   "select_image_title_workspace_hardware": {
+      "message": "Meet Bilgi İşlem Sisteminizi tanımlayın"
+   },
+   "select_target_detecting": {
+      "message": "Algılanıyor"
+   },
+   "select_target_high_capacity_warning_html": {
+      "message": "\u003Cb>Uyarı:\u003C/b> Bu doğru medya mı?"
+   },
+   "select_target_high_capacity_warning_html_on_hub": {
+      "message": "\u003Cb>Uyarı:\u003C/b> Bu doğru USB sürücü mü?"
+   },
+   "select_target_high_capacity_warning_html_workspace_hardware": {
+      "message": "\u003Cb>Uyarı:\u003C/b> Bu doğru USB sürücü mü?"
+   },
+   "select_target_low_capacity_error": {
+      "message": "Medyanızın boyutu en az 8 GB olmalıdır."
+   },
+   "select_target_low_capacity_error_on_hub": {
+      "message": "USB sürücünüz en az 8 GB olmalıdır."
+   },
+   "select_target_low_capacity_error_workspace_hardware": {
+      "message": "USB sürücünüz en az 8 GB olmalıdır."
+   },
+   "select_target_no_devices_found": {
+      "message": "USB sürücü veya SD kart bulunamadı"
+   },
+   "select_target_no_devices_found_on_hub": {
+      "message": "USB sürücü bulunamadı"
+   },
+   "select_target_no_devices_found_workspace_hardware": {
+      "message": "USB sürücü bulunamadı"
+   },
+   "select_target_select_device": {
+      "message": "Kullanmak istediğiniz medyayı seçin."
+   },
+   "select_target_select_device_on_hub": {
+      "message": "Kullanmak istediğiniz USB sürücüyü seçin."
+   },
+   "select_target_select_device_placeholder": {
+      "message": "Seç"
+   },
+   "select_target_select_device_workspace_hardware": {
+      "message": "Kullanmak istediğiniz USB sürücüyü seçin."
+   },
+   "select_target_title": {
+      "message": "USB flaş sürücünüzü veya SD kartınızı takın"
+   },
+   "select_target_title_on_hub": {
+      "message": "USB flaş sürücünüzü yerleştirin"
+   },
+   "select_target_title_workspace_hardware": {
+      "message": "USB flaş sürücünüzü yerleştirin"
+   },
+   "stage_complete": {
+      "message": "Tamamlandı"
+   },
+   "stage_download": {
+      "message": "İndiriliyor"
+   },
+   "stage_downloadverify": {
+      "message": "İndirme doğrulanıyor"
+   },
+   "stage_unpack": {
+      "message": "Paket açılıyor"
+   },
+   "stage_unzip": {
+      "message": "Paket açılıyor"
+   },
+   "stage_verify": {
+      "message": "Doğrulanıyor"
+   },
+   "stage_verifydownload": {
+      "message": "İndirme doğrulanıyor"
+   },
+   "stage_verifywrite": {
+      "message": "Doğrulanıyor"
+   },
+   "stage_write": {
+      "message": "Yazılıyor"
+   },
+   "step": {
+      "message": "Adım"
+   },
+   "unsupported_text": {
+      "message": "Maalesef platformunuz şu anda desteklenmiyor. Daha fazla bilgi edinmek için lütfen \u003Ca href=\"http://www.google.com/chromeos/recovery\" target=\"_blank\">Chromebook Yardım Merkezi\u003C/a>'ne bakın."
+   },
+   "unsupported_text_mac": {
+      "message": "Maalesef Mac sadece M37 veya sonraki sürümlerde destekleniyor. Lütfen Chrome'unuzu M37 sürümüne güncelleyin. Bu işlem \u003Ca href=\"https://support.google.com/chromebook/answer/1086915\" target=\"_blank\">Beta kanalına geçişi\u003C/a> gerektirebilir."
+   },
+   "unsupported_text_on_hub": {
+      "message": "Maalesef platformunuz şu anda desteklenmiyor. Daha fazla bilgi edinmek için lütfen \u003Ca href=\"https://support.google.com/onhub/answer/6274977\" target=\"_blank\">OnHub Yardım Merkezi\u003C/a>'ne bakın."
+   },
+   "unsupported_title": {
+      "message": "Platformunuz şu anda desteklenmiyor"
+   },
+   "unsupported_title_linux": {
+      "message": "Linux şu anda desteklenmiyor"
+   },
+   "unsupported_title_mac": {
+      "message": "Mac şu anda desteklenmiyor"
+   },
+   "unsupported_title_win": {
+      "message": "Windows şu anda desteklenmiyor"
+   },
+   "usupported_text_workspace_hardware": {
+      "message": "Maalesef platformunuz şu anda desteklenmiyor.  Daha fazla bilgi edinmek için lütfen \u003Ca href=\"http://support.google.com/meethardware/answer/10562922\" target=\"_blank\">Google Meet Hardware Yardım Merkezi\u003C/a>'ne bakın."
+   },
+   "warning_offline": {
+      "message": "Cihaz çevrimdışı. Sadece çevrimdışı özellikler kullanılabilecek."
+   },
+   "welcome_text": {
+      "message": "8 GB veya daha büyük USB flash sürücüye ya da SD karta ihtiyacınız olacaktır. İçindekilerin silinmesinin sorun olmayacağından emin olun."
+   },
+   "welcome_text_on_hub": {
+      "message": "İçindekileri silmenin sorun yaratmayacağı, 8 GB veya daha büyük USB flash sürücüye ihtiyacınız olacak."
+   },
+   "welcome_text_workspace_hardware": {
+      "message": "İçindekileri silmenin sorun yaratmayacağı, 8 GB veya daha büyük USB flash sürücüye ihtiyacınız olacak. Cihazınızda SD yuvası varsa SD kart da kullanabilirsiniz."
+   },
+   "welcome_title": {
+      "message": "Chromebook'unuz için bir kurtarma medyası oluşturun"
+   },
+   "welcome_title_on_hub": {
+      "message": "OnHub'ınız için bir kurtarma USB sürücüsü oluşturun"
+   },
+   "welcome_title_workspace_hardware": {
+      "message": "Meet Bilgi İşlem Sisteminiz için kurtarma USB sürücüsü oluşturun"
+   },
+   "write_message": {
+      "message": "Kurtarma medyanızı çıkarmayın."
+   },
+   "write_message_on_hub": {
+      "message": "Kurtarma USB sürücünüzü çıkarmayın."
+   },
+   "write_message_workspace_hardware": {
+      "message": "USB flash sürücüyü çıkarmayın."
+   },
+   "write_title": {
+      "message": "Kurtarma görüntüsü oluşturuluyor"
+   }
+}

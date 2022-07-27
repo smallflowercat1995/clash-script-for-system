@@ -1,0 +1,42 @@
+[
+  {
+    "version": "1.1.0",
+    "notify": true,
+    "show": true,
+    "added": [
+      {
+        "title": "Add Romaji and Hiragana transliteration for Japanese",
+        "desc": "Settings -> Transliteration -> select Romaji/Hiragana for Japanese subtitle"
+      },
+      {
+        "title": "Add Pinyin transliteration for Chinese",
+        "desc": "Settings -> Transliteration -> select Pinyin for Chinese subtitle",
+        "img": "https://languagisfun.com/assets/features/pinyin.png"
+      },
+      {
+        "title": "Detailed Translation (available for English subtitle or English translation at the moment)",
+        "desc": "Want to learn more about a word?\nRight-click on the word, and we'll show detailed translation for you.\nYou can learn synonyms of the word from the reverse translation.",
+        "img": "https://languagisfun.com/assets/features/detailed-translation.png"
+      },
+      {
+        "title": "Hiding sidebar",
+        "desc": "You can now hide the sidebar by clicking the button on the upper right corner of videos",
+        "emphasize": true
+      }
+    ],
+    "update": [
+      {
+        "title": "Improve word segmentation for Chinese and Japanese",
+        "emphasize": true
+      },
+      {
+        "title": "Improve UI for better user-friendly",
+        "emphasize": true
+      },
+      {
+        "title": "You can now change location of subtitles by dragging it",
+        "emphasize": true
+      }
+    ]
+  }
+]

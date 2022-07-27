@@ -1,0 +1,556 @@
+{
+   "apierrmsg_aborted": {
+      "message": "ऑपरेशनमध्ये व्यत्यय आला."
+   },
+   "apierrmsg_device_list_error": {
+      "message": "USB ड्राइव्ह किंवा SD कार्ड शोधता आले नाही."
+   },
+   "apierrmsg_device_list_error_on_hub": {
+      "message": "USB ड्राइव्ह शोधता आले नाही."
+   },
+   "apierrmsg_device_list_error_workspace_hardware": {
+      "message": "USB ड्राइव्ह शोधता आले नाही."
+   },
+   "apierrmsg_device_write_error": {
+      "message": "निवडलेल्या USB फ्लॅश ड्राइव्ह किंवा SD कार्डवर राइट करता आले नाही. तुमच्या डिव्हाइसच्या राइट परवानग्या बंद केलेल्या असू शकतात किंवा तुमच्या डोमेन अ‍ॅडमिनिस्ट्रेटरने USB स्टोरेजवर राइट करणे बंद केलेले असू शकते."
+   },
+   "apierrmsg_download_cancelled": {
+      "message": "डाउनलोड रद्द झाले."
+   },
+   "apierrmsg_download_hash_mismatch": {
+      "message": "फाइल चुकीची आहे."
+   },
+   "apierrmsg_download_interrupted": {
+      "message": "डाउनलोड करताना व्यत्यय आला. कृपया तुमचे नेटवर्क कनेक्शन तपासा आणि पुन्हा प्रयत्न करा."
+   },
+   "apierrmsg_file_invalid": {
+      "message": "फाइल चुकीची आहे."
+   },
+   "apierrmsg_operation_already_in_progress": {
+      "message": "एक ऑपरेशन आधीपासून प्रगतीपथावर आहे."
+   },
+   "apierrmsg_unknown": {
+      "message": "अज्ञात एरर: $1.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "apierrmsg_unsupported_operation": {
+      "message": "सपोर्ट करत नसलेले ऑपरेशन."
+   },
+   "apierrmsg_unzip_error": {
+      "message": "फाइल अनझिप करता आली नाही. कृपया तुमच्या डिव्हाइसवर पुरेशी जागा आहे का ते तपासा आणि पुन्हा प्रयत्न करा."
+   },
+   "apierrmsg_unzip_invalid_archive": {
+      "message": "चुकीची झिप फाइल."
+   },
+   "apierrmsg_url_invalid": {
+      "message": "फाइल आढळली नाही."
+   },
+   "apierrmsg_verification_failed": {
+      "message": "इमेजची पडताळणी करता आली नाही."
+   },
+   "app_description": {
+      "message": "तुमच्या Chromebook साठी रिकव्हरी मीडिया तयार करा."
+   },
+   "app_description_on_hub": {
+      "message": "तुमच्या OnHub साठी रिकव्हरी USB ड्राइव्ह तयार करा."
+   },
+   "app_description_workspace_hardware": {
+      "message": "तुमच्या Meet Compute System साठी रिकव्हरी USB ड्राइव्‍ह तयार करा."
+   },
+   "app_name": {
+      "message": "Chromebook रिकव्हरी युटिलिटी"
+   },
+   "app_name_on_hub": {
+      "message": "OnHub रिकव्हरी युटिलिटी"
+   },
+   "app_name_workspace_hardware": {
+      "message": "Meet Compute System रिकव्हरी युटिलिटी"
+   },
+   "app_short_name": {
+      "message": "रिकव्हरी"
+   },
+   "cancel_button_text": {
+      "message": "रद्द करा"
+   },
+   "chrome_app_deprecation_message": {
+      "message": "\u003Ca href=\"https://blog.chromium.org/2020/08/changes-to-chrome-app-support-timeline.html\" target=\"_blank\" tabindex=\"0\">Chromium ब्लॉग\u003C/a> यावर सार्वजनिकरीत्या घोषित केल्याप्रमाणे, Google हे जून २०२१ पासून Chrome अ‍ॅप्स ना सपोर्ट करणार नाही. तुमचे(ची) डिव्हाइस रिकव्‍हर करण्यासाठी कृपया \u003Ca href=\"https://chrome.google.com/webstore/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm\" target=\"_blank\">Chromebook Recovery Utility एक्स्टेंशन\u003C/a> आणि संबंधित \u003Ca href=\"http://www.google.com/chromeos/recovery\" target=\"_blank\">दस्तऐवज\u003C/a> वापरा."
+   },
+   "chrome_app_deprecation_message_on_hub": {
+      "message": "\u003Ca href=\"https://blog.chromium.org/2020/08/changes-to-chrome-app-support-timeline.html\" target=\"_blank\" tabindex=\"0\">Chromium ब्लॉग\u003C/a> यावर सार्वजनिकरीत्या घोषित केल्याप्रमाणे, Google हे जून २०२१ पासून Chrome अ‍ॅप्स ना सपोर्ट करणार नाही. तुमचे(ची) डिव्हाइस रिकव्‍हर करण्यासाठी कृपया \u003Ca href=\"https://chrome.google.com/webstore/detail/onhub-recovery-utility/fmgkgdalfapcmjnanilfcpkhkhedmpdm\" target=\"_blank\">OnHub Recovery Utility एक्स्टेंशन\u003C/a> आणि संबंधित \u003Ca href=\"https://support.google.com/onhub/answer/6274977\" target=\"_blank\">दस्तऐवज\u003C/a> वापरा."
+   },
+   "complete_bullet1": {
+      "message": "तुमचे Chromebook रिकव्हर करण्यासाठी, तुमच्या Chromebook मध्ये रिकव्हरी मीडिया प्लग करा."
+   },
+   "complete_bullet1_on_hub": {
+      "message": "तुमच्या OnHub मधून पॉवर केबल अनप्लग करा आणि डिव्‍हाइसच्या मागील बाजूमध्‍ये USB ड्राइव्ह घाला. रीसेट बटण धरून ठेवा आणि पॉवर प्लग इन करा. रीसेट बटण सुमारे १५ सेकंदांपर्यंत किंवा USB ड्राइव्हवरील अ‍ॅक्टिव्हिटी लाइट ब्लिंक होण्यास सुरुवात होईपर्यंत धरून ठेवा."
+   },
+   "complete_bullet1_workspace_hardware": {
+      "message": "तुमची Meet Compute System पुन्हा मिळवण्यासाठी, \u003Ca href=\"http://support.google.com/meethardware/answer/10562922#zippy=%2Cstep-enter-recovery-mode\" target=\"_blank\">तुमचा Google Meet हार्डवेअर कॉंप्यूट बॉक्स पुन्हा मिळवा, तिसरी पायरी: Recovery mode मध्ये प्रवेश करा\u003C/a> यामधील सूचना फॉलो करा"
+   },
+   "complete_bullet2": {
+      "message": "रिकव्हरीनंतर, तुम्ही ही उपयुक्तता वापरून तुमचा रिकव्हरी मीडिया मिटवू शकता."
+   },
+   "complete_bullet2_on_hub": {
+      "message": "तुमचे OnHub रिकव्हरी प्रक्रियेमधून जाईल, ज्यासाठी काही मिनिटे लागू शकतात. तुमचे OnHub रिकव्हर केले गेले की, ते रीबूट होईल. त्यानंतर तुमचे OnHub सेट करण्‍यासाठी, Google On ॲपचा वापर करा."
+   },
+   "complete_bullet2_workspace_hardware": {
+      "message": "पूर्ण झाल्यावर USB फ्लॅश ड्राइव्हवरील मीडिया मिटवण्यासाठी, Meet Compute System रिकव्हरी युटिलिटी सुरू करा, \u003Cb>सेटिंग्ज\u003C/b> वर क्लिक करा आणि त्यानंतर, \u003Cb>रिकव्हरी मीडिया मिटवा\u003C/b> वर क्लिक करा"
+   },
+   "complete_message": {
+      "message": "तुम्ही आता तुमचा रिकव्हरी मीडिया काढून टाकू शकता."
+   },
+   "complete_message_on_hub": {
+      "message": "तुम्ही आता तुमचे रिकव्हरी USB ड्राइव्ह काढून टाकू शकता."
+   },
+   "complete_message_workspace_hardware": {
+      "message": "तुम्ही आता फ्लॅश ड्राइव्ह काढून टाकू शकता"
+   },
+   "complete_title": {
+      "message": "यशस्वी! तुमचा रिकव्हरी मीडिया तयार आहे"
+   },
+   "complete_title_on_hub": {
+      "message": "यशस्वी! तुमचे रिकव्हरी USB ड्राइव्ह तयार आहे"
+   },
+   "complete_title_workspace_hardware": {
+      "message": "यशस्वी! तुमचे रिकव्हरी USB ड्राइव्ह तयार आहे"
+   },
+   "completed": {
+      "message": "पूर्ण झाले"
+   },
+   "confirm_cancelled_message_html": {
+      "message": "रद्द झाले. पुन्हा प्रयत्न करण्यासाठी \"आता तयार करा\" वर क्लिक करा.\u003Cbr>\u003Cbr> तुमचा रिकव्हरी मीडिया मिटवण्यासाठी, सर्वात वर उजवीकडील कोपऱ्यामध्ये गीअर आयकनवर क्लिक करा."
+   },
+   "confirm_cancelled_message_html_on_hub": {
+      "message": "रद्द झाले. पुन्हा प्रयत्न करण्यासाठी \"आता तयार करा\" वर क्लिक करा.\u003Cbr>\u003Cbr> तुमचा रिकव्हरी USB ड्राइव्‍ह मिटवण्यासाठी, सर्वात वर उजवीकडील कोपऱ्यामध्ये गीअर आयकनवर क्लिक करा."
+   },
+   "confirm_cancelled_message_html_workspace_hardware": {
+      "message": "रद्द झाले. पुन्हा प्रयत्न करण्यासाठी \"आता तयार करा\" वर क्लिक करा.\u003Cbr>\u003Cbr> तुमचा रिकव्हरी USB ड्राइव्‍ह मिटवण्यासाठी, सर्वात वर उजवीकडील कोपऱ्यामध्ये गीअर आयकनवर क्लिक करा."
+   },
+   "confirm_hide_advanced_settings_message": {
+      "message": "प्रगत सेटिंग्ज लपवा"
+   },
+   "confirm_message_html": {
+      "message": "\u003Cb>महत्त्वाचे:\u003C/b> तुमच्या रिकव्हरी मीडियावरील सर्व डेटा आणि विभाजने हटवली जातील."
+   },
+   "confirm_message_html_on_hub": {
+      "message": "\u003Cb>महत्त्वाचे:\u003C/b> तुमच्या रिकव्हरी USB ड्राइव्हवरील सर्व डेटा आणि विभाजने हटवली जातील."
+   },
+   "confirm_message_html_workspace_hardware": {
+      "message": "\u003Cb>महत्त्वाचे:\u003C/b> तुमच्या फ्लॅश ड्राइव्हवरील सर्व गोष्टी हटवल्या जातील"
+   },
+   "confirm_show_advanced_settings_message": {
+      "message": "प्रगत सेटिंग्ज दाखवा"
+   },
+   "confirm_title": {
+      "message": "रिकव्हरी इमेज तयार करा"
+   },
+   "continue_button_text": {
+      "message": "पुढे सुरू ठेवा"
+   },
+   "create_another_button_text": {
+      "message": "दुसरे तयार करा"
+   },
+   "create_now_button_text": {
+      "message": "आता तयार करा"
+   },
+   "dev_app_description": {
+      "message": "Chromebook रिकव्हरी युटिलिटी ची विकास आवृत्ती."
+   },
+   "dev_app_description_on_hub": {
+      "message": "OnHub रिकव्हरी युटिलिटी ची विकास आवृत्ती."
+   },
+   "dev_app_description_workspace_hardware": {
+      "message": "Meet Compute System रिकव्हरी युटिलिटी ची विकास आवृत्ती."
+   },
+   "dev_app_name": {
+      "message": "Chromebook रिकव्हरी युटिलिटी विकास"
+   },
+   "dev_app_name_on_hub": {
+      "message": "OnHub रिकव्हरी युटिलिटी विकास"
+   },
+   "dev_app_name_workspace_hardware": {
+      "message": "Meet Compute System रिकव्हरी युटिलिटी विकास"
+   },
+   "done_button_text": {
+      "message": "पूर्ण झाले"
+   },
+   "erase_complete_bullet1": {
+      "message": "तुमचे USB ड्राइव्ह किंवा SD कार्ड फॉरमॅट करण्यासाठी तयार आहे."
+   },
+   "erase_complete_bullet1_on_hub": {
+      "message": "तुमचे USB ड्राइव्ह फॉरमॅट करण्यासाठी तयार आहे."
+   },
+   "erase_complete_bullet1_workspace_hardware": {
+      "message": "तुमचे USB ड्राइव्ह फॉरमॅट करण्यासाठी तयार आहे."
+   },
+   "erase_complete_bullet2": {
+      "message": "तुमच्या ऑपरेटिंग सिस्टमद्वारे पुरवलेला फॉरमॅटिंग टूल वापरून फॉरमॅट करा."
+   },
+   "erase_complete_title": {
+      "message": "तुमचा रिकव्हरी मीडिया मिटवला गेला आहे."
+   },
+   "erase_complete_title_on_hub": {
+      "message": "तुमचे रिकव्हरी USB ड्राइव्ह मिटवले गेले आहे."
+   },
+   "erase_complete_title_workspace_hardware": {
+      "message": "तुमचे रिकव्हरी USB ड्राइव्ह मिटवले गेले आहे."
+   },
+   "erase_confirm_message": {
+      "message": "तुमच्या रिकव्हरी मीडियावरील रिकव्हरी इमेज आणि सर्व वि‍भाजने मिटवली जातील."
+   },
+   "erase_confirm_message_on_hub": {
+      "message": "तुमच्या रिकव्हरी USB ड्राइव्‍हवरील रिकव्हरी इमेज आणि सर्व वि‍भाजने मिटवली जातील."
+   },
+   "erase_confirm_message_workspace_hardware": {
+      "message": "तुमच्या रिकव्हरी USB ड्राइव्‍हवरील रिकव्हरी इमेज आणि सर्व वि‍भाजने मिटवली जातील."
+   },
+   "erase_now_button_text": {
+      "message": "आता मिटवा"
+   },
+   "erase_progress_text": {
+      "message": "तुमचा रिकव्हरी मीडिया काढून टाकू नका."
+   },
+   "erase_progress_text_on_hub": {
+      "message": "तुमचे रिकव्हरी USB ड्राइव्ह काढून टाकू नका."
+   },
+   "erase_progress_text_workspace_hardware": {
+      "message": "तुमचे रिकव्हरी USB ड्राइव्ह काढून टाकू नका."
+   },
+   "erase_progress_title": {
+      "message": "तुमचा रिकव्हरी मीडिया मिटवत आहे"
+   },
+   "erase_progress_title_on_hub": {
+      "message": "तुमचे रिकव्हरी USB ड्राइव्ह मिटवत आहे"
+   },
+   "erase_progress_title_workspace_hardware": {
+      "message": "तुमचे रिकव्हरी USB ड्राइव्ह मिटवत आहे"
+   },
+   "erase_select_target_detecting": {
+      "message": "शोधत आहे"
+   },
+   "erase_select_target_high_capacity_warning_html": {
+      "message": "\u003Cb>चेतावणी:\u003C/b> हे योग्य ड्राइव्ह आहे का?"
+   },
+   "erase_select_target_no_devices_found": {
+      "message": "कोणतीही USB ड्राइव्ह किंवा SD कार्ड आढळली नाहीत"
+   },
+   "erase_select_target_no_devices_found_on_hub": {
+      "message": "कोणतीही USB ड्राइव्ह आढळली नाहीत"
+   },
+   "erase_select_target_no_devices_found_workspace_hardware": {
+      "message": "कोणतीही USB ड्राइव्ह आढळली नाहीत"
+   },
+   "erase_select_target_select_device": {
+      "message": "तुम्हाला मिटवायचा असलेला रिकव्हरी मीडिया निवडा."
+   },
+   "erase_select_target_select_device_on_hub": {
+      "message": "तुम्हाला मिटवायचे असलेले USB ड्राइव्ह निवडा."
+   },
+   "erase_select_target_select_device_placeholder": {
+      "message": "निवडा"
+   },
+   "erase_select_target_select_device_workspace_hardware": {
+      "message": "तुम्हाला मिटवायचे असलेले USB ड्राइव्ह निवडा."
+   },
+   "erase_title": {
+      "message": "रिकव्हरी मीडिया मिटवा"
+   },
+   "erase_title_on_hub": {
+      "message": "रिकव्हरी USB ड्राइव्ह मिटवा"
+   },
+   "erase_title_workspace_hardware": {
+      "message": "रिकव्हरी USB ड्राइव्ह मिटवा"
+   },
+   "errmsg_please_try_again": {
+      "message": "कृपया पुन्हा प्रयत्न करा."
+   },
+   "errmsg_recovery_config_download_failure": {
+      "message": "काँफिगरेशन फाइल डाउनलोड करता आली नाही. फक्त ऑफलाइन वैशिष्ट्ये उपलब्ध असतील."
+   },
+   "get_started_button_text": {
+      "message": "सुरुवात करा"
+   },
+   "gigabyte_abbreviation": {
+      "message": "GB"
+   },
+   "go_back_button_text": {
+      "message": "मागे जा"
+   },
+   "hours_remaining": {
+      "message": "$1 तास शिल्लक आहेत.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "hwid_invalid_model": {
+      "message": "चुकीचा मॉडेल नंबर. कृपया तुमची नोंद तपासा."
+   },
+   "hwid_keep_typing": {
+      "message": "अद्याप कोणतेही मॉडेल आढळले नाही. प्रयत्न करणे सुरू ठेवा."
+   },
+   "hwid_keep_typing_workspace_hardware": {
+      "message": "अद्याप कोणतेही मॉडेल सापडले नाही"
+   },
+   "hwid_match_found": {
+      "message": "जुळणी आढळली"
+   },
+   "hwid_match_found_and_checksum_verified": {
+      "message": "अचूक मॉडेल नावासह एक जुळणी आढळली"
+   },
+   "learn_more_link_text": {
+      "message": "अधिक जाणून घ्या"
+   },
+   "learn_more_link_url": {
+      "message": "http://www.google.com/chromeos/recovery"
+   },
+   "learn_more_link_url_on_hub": {
+      "message": "https://support.google.com/onhub/answer/6274977"
+   },
+   "learn_more_link_url_workspace_hardware": {
+      "message": "http://support.google.com/meethardware/answer/10562922"
+   },
+   "loading_config_text": {
+      "message": "तयार करत आहे ..."
+   },
+   "menu_item_erase_recovery_media": {
+      "message": "रिकव्हरी मीडिया मिटवा"
+   },
+   "menu_item_erase_recovery_media_on_hub": {
+      "message": "रिकव्हरी USB ड्राइव्ह मिटवा"
+   },
+   "menu_item_erase_recovery_media_workspace_hardware": {
+      "message": "रिकव्हरी USB ड्राइव्ह मिटवा"
+   },
+   "menu_item_send_feedback": {
+      "message": "फीडबॅक पाठवा"
+   },
+   "menu_item_use_local_image": {
+      "message": "डिव्हाइसमधील इमेज वापरा"
+   },
+   "minutes_remaining": {
+      "message": "$1 मिनिटे शिल्‍लक आहेत.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "of": {
+      "message": "पैकी"
+   },
+   "recovery_channel_beta": {
+      "message": "बीटा"
+   },
+   "recovery_channel_dev": {
+      "message": "डेव्हलपर"
+   },
+   "recovery_channel_ltc": {
+      "message": "दीर्घकालीन सपोर्टसाठी उमेदवार (फक्त एंटरप्राइझ)"
+   },
+   "recovery_channel_lts": {
+      "message": "दीर्घकालीन सपोर्ट (फक्त एंटरप्राइझ)"
+   },
+   "recovery_channel_stable": {
+      "message": "स्थिर"
+   },
+   "seconds_remaining": {
+      "message": "$1 सेकंद शिल्लक आहेत.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "select_channel_placeholder": {
+      "message": "रिकव्हरी चॅनल निवडा"
+   },
+   "select_image_select_by_hwid_link_text": {
+      "message": "थेट मॉडेल नंबर एंटर करा"
+   },
+   "select_image_select_from_list_link_text": {
+      "message": "सूचीमधून मॉडेल निवडा"
+   },
+   "select_image_select_manufacturer_placeholder": {
+      "message": "निर्माता निवडा"
+   },
+   "select_image_select_product_placeholder": {
+      "message": "उत्पादन निवडा"
+   },
+   "select_image_select_product_placeholder_on_hub": {
+      "message": "मॉडेल निवडा"
+   },
+   "select_image_select_product_placeholder_workspace_hardware": {
+      "message": "मॉडेल निवडा"
+   },
+   "select_image_text": {
+      "message": "रिकव्हर करण्यासाठी Chromebook चा मॉडेल नंबर एंटर करा. तो रिकव्हरी स्क्रीनवर आढळू शकतो."
+   },
+   "select_image_text_on_hub": {
+      "message": "तुमच्या OnHub चा मॉडेल नंबर एंटर करा."
+   },
+   "select_image_text_workspace_hardware": {
+      "message": "तुमच्या Meet Compute System चा मॉडेल नंबर एंटर करा"
+   },
+   "select_image_this_chromebooks_model_number": {
+      "message": "या Chromebook साठी, एंटर करा"
+   },
+   "select_image_this_chromebooks_model_number_on_hub": {
+      "message": "या OnHub साठी, एंटर करा"
+   },
+   "select_image_this_chromebooks_model_number_workspace_hardware": {
+      "message": "या Meet Compute System साठी, एंटर करा"
+   },
+   "select_image_title": {
+      "message": "तुमचे Chromebook ओळखा"
+   },
+   "select_image_title_on_hub": {
+      "message": "तुमचे OnHub ओळखा"
+   },
+   "select_image_title_workspace_hardware": {
+      "message": "तुमची Meet Compute System ओळखा"
+   },
+   "select_target_detecting": {
+      "message": "शोधत आहे"
+   },
+   "select_target_high_capacity_warning_html": {
+      "message": "\u003Cb>चेतावणी:\u003C/b> हा योग्य मीडिया आहे का?"
+   },
+   "select_target_high_capacity_warning_html_on_hub": {
+      "message": "\u003Cb>चेतावणी:\u003C/b> हे योग्य USB ड्राइव्ह आहे का?"
+   },
+   "select_target_high_capacity_warning_html_workspace_hardware": {
+      "message": "\u003Cb>चेतावणी:\u003C/b> हे योग्य USB ड्राइव्ह आहे का?"
+   },
+   "select_target_low_capacity_error": {
+      "message": "तुमचा मीडिया किमान ८ GB चा असणे आवश्यक आहे."
+   },
+   "select_target_low_capacity_error_on_hub": {
+      "message": "तुमचे USB ड्राइव्‍ह किमान ८ GB चे असणे आवश्यक आहे."
+   },
+   "select_target_low_capacity_error_workspace_hardware": {
+      "message": "तुमचे USB ड्राइव्‍ह किमान ८ GB चे असणे आवश्यक आहे."
+   },
+   "select_target_no_devices_found": {
+      "message": "कोणतीही USB ड्राइव्ह किंवा SD कार्ड आढळली नाहीत"
+   },
+   "select_target_no_devices_found_on_hub": {
+      "message": "कोणतीही USB ड्राइव्ह आढळली नाहीत"
+   },
+   "select_target_no_devices_found_workspace_hardware": {
+      "message": "कोणतीही USB ड्राइव्ह आढळली नाहीत"
+   },
+   "select_target_select_device": {
+      "message": "तुम्हाला वापरायचा असलेला मीडिया निवडा."
+   },
+   "select_target_select_device_on_hub": {
+      "message": "तुम्हाला वापरायचे असलेले USB ड्राइव्ह निवडा."
+   },
+   "select_target_select_device_placeholder": {
+      "message": "निवडा"
+   },
+   "select_target_select_device_workspace_hardware": {
+      "message": "तुम्हाला वापरायचे असलेले USB ड्राइव्ह निवडा."
+   },
+   "select_target_title": {
+      "message": "तुमचे USB फ्लॅश ड्राइव्ह किंवा SD कार्ड घाला"
+   },
+   "select_target_title_on_hub": {
+      "message": "तुमचे USB फ्लॅश ड्राइव्ह घाला"
+   },
+   "select_target_title_workspace_hardware": {
+      "message": "तुमचे USB फ्लॅश ड्राइव्ह घाला"
+   },
+   "stage_complete": {
+      "message": "पूर्ण झाले"
+   },
+   "stage_download": {
+      "message": "डाउनलोड होत आहे"
+   },
+   "stage_downloadverify": {
+      "message": "डाउनलोडची पडताळणी करत आहे"
+   },
+   "stage_unpack": {
+      "message": "अनपॅक करत आहे"
+   },
+   "stage_unzip": {
+      "message": "अनपॅक करत आहे"
+   },
+   "stage_verify": {
+      "message": "पडताळणी करत आहे"
+   },
+   "stage_verifydownload": {
+      "message": "डाउनलोडची पडताळणी करत आहे"
+   },
+   "stage_verifywrite": {
+      "message": "पडताळणी करत आहे"
+   },
+   "stage_write": {
+      "message": "माहिती हलवत आहे"
+   },
+   "step": {
+      "message": "पायरी"
+   },
+   "unsupported_text": {
+      "message": "दुर्दैवाने, यावेळी तुमचा प्लॅटफॉर्म सपोर्ट करत नाही. कृपया अधिक माहितीसाठी \u003Ca href=\"http://www.google.com/chromeos/recovery\" target=\"_blank\">Chromebook मदत केंद्र\u003C/a> पहा."
+   },
+   "unsupported_text_mac": {
+      "message": "दुर्दैवाने, Mac फक्त M37 वर किंवा त्यावरील आवृत्तीवर सपोर्ट करते. कृपया तुमचे Chrome हे M37 वर अपडेट करा. यासाठी \u003Ca href=\"https://support.google.com/chromebook/answer/1086915\" target=\"_blank\">बीटा चॅनलवर स्विच करणे\u003C/a> आवश्यक असू शकते."
+   },
+   "unsupported_text_on_hub": {
+      "message": "दुर्दैवाने, यावेळी तुमचा प्लॅटफॉर्म सपोर्ट करत नाही. कृपया अधिक माहितीसाठी \u003Ca href=\"https://support.google.com/onhub/answer/6274977\" target=\"_blank\">OnHub मदत केंद्र\u003C/a> पहा."
+   },
+   "unsupported_title": {
+      "message": "तुमचा प्लॅटफॉर्म सध्या सपोर्ट करत नाही"
+   },
+   "unsupported_title_linux": {
+      "message": "Linux सध्या सपोर्ट करत नाही"
+   },
+   "unsupported_title_mac": {
+      "message": "Mac सध्या सपोर्ट करत नाही"
+   },
+   "unsupported_title_win": {
+      "message": "Windows सध्या सपोर्ट करत नाही"
+   },
+   "usupported_text_workspace_hardware": {
+      "message": "दुर्दैवाने, सध्या तुमच्या प्लॅटफॉर्मला सपोर्ट नाही.  कृपया अधिक माहितीसाठी \u003Ca href=\"http://support.google.com/meethardware/answer/10562922\" target=\"_blank\">Google Meet हार्डवेअर मदत केंद्र\u003C/a> येथे भेट द्या."
+   },
+   "warning_offline": {
+      "message": "डिव्हाइस ऑफलाइन आहे. फक्त ऑफलाइन वैशिष्ट्ये उपलब्ध असतील."
+   },
+   "welcome_text": {
+      "message": "तुम्हाला ८ GB किंवा त्यापेक्षा मोठ्या USB फ्लॅश ड्राइव्ह किंवा SD कार्डची आवश्यकता असेल जे मिटवण्यास तुम्हाला हरकत नसावी."
+   },
+   "welcome_text_on_hub": {
+      "message": "तुम्हाला ८ GB किंवा त्यापेक्षा मोठ्या USB फ्लॅश ड्राइव्हची आवश्यकता असेल जो मिटवण्यास तुम्हाला हरकत नसावी."
+   },
+   "welcome_text_workspace_hardware": {
+      "message": "तुम्हाला ८ GB किंवा त्यापेक्षा मोठ्या USB फ्लॅश ड्राइव्हची आवश्यकता असेल जो मिटवण्यास तुम्हाला हरकत नसावी. तुमच्या डिव्हाइसला SD स्लॉट असल्यास, तुम्ही SD कार्डदेखील वापरू शकता."
+   },
+   "welcome_title": {
+      "message": "तुमच्या Chromebook साठी रिकव्हरी मीडिया तयार करा"
+   },
+   "welcome_title_on_hub": {
+      "message": "तुमच्या OnHub साठी रिकव्हरी USB ड्राइव्ह तयार करा"
+   },
+   "welcome_title_workspace_hardware": {
+      "message": "तुमच्या Meet Compute System साठी रिकव्हरी USB ड्राइव्‍ह तयार करा"
+   },
+   "write_message": {
+      "message": "तुमचा रिकव्हरी मीडिया काढून टाकू नका."
+   },
+   "write_message_on_hub": {
+      "message": "तुमचे रिकव्हरी USB ड्राइव्ह काढून टाकू नका."
+   },
+   "write_message_workspace_hardware": {
+      "message": "USB फ्लॅश ड्राइव्ह काढून टाकू नका."
+   },
+   "write_title": {
+      "message": "रिकव्हरी इमेज तयार करत आहे"
+   }
+}

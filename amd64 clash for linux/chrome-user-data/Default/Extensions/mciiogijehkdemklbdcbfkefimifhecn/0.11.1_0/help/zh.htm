@@ -1,0 +1,193 @@
+﻿
+<div>
+	<section>
+        <p>
+		有些页面上放置有 <span class="mytip-qmark"></span> 提示标志，请将鼠标悬停在上面查看简短的帮助信息。你可以访问我们的<a href="http://faq.chronodownloader.net" target=_blank>网站</a>以查阅常见问题，或者可以在我们的<a href="http://bugs.chronodownloader.net" target=_blank>Bug管理系统</a>中报告问题。
+        </p>
+	</section>
+
+    <section id="batch_desc">
+		<h3>批量描述符</h3>   
+                             
+        <div>
+        <p>
+        批量描述符用来构建批量下载的网址序列，它的定义如下：<br />
+        [<strong>开始</strong>:<strong>结束</strong>] 或<br />[<strong>开始</strong>:<strong>结束</strong>:<strong>步长</strong>]
+        </p>
+        <table class="simpletable">
+            <thead>
+			<tr><th>描述符</th><th>结果</th></tr>
+            </thead>
+            <tbody>
+            <tr><td>[1:100]</td><td>1,2,3,...,99,100</td></tr>
+            <tr><td>[1:100:3]</td><td>1,4,7,...,97,100</td></tr>
+            <tr><td>[a:z]</td><td>a,b,...,z</td></tr>
+            <tr><td>[F:Y]</td><td>F,G,...,Y</td></tr>
+            <tr><td>[01:100]</td><td>01,02,03,...,99,100</td></tr>
+            </tbody>
+        </table>
+        </div>
+    </section>
+				
+	<section id="naming_mask">
+		<h3>命名字段</h3>
+        <p>
+		命名字段可以帮助你方便地设置文件名。下表列出了你可以使用的所有命名字段，方括号里的内容是可选的。
+        </p>
+		<div>
+		<table class="simpletable">
+            <thead>
+			<tr><th>字段</th><th>意义</th></tr>
+            </thead>
+            <tbody>
+			<tr><td>*name*</td><td>文件名</td></tr>
+			<tr><td>*ext*</td><td>扩展名</td></tr>
+			<tr><td>*url*</td><td>网址</td></tr>
+			<tr><td>*host*</td><td>域名</td></tr>
+			<tr><td>*query*</td><td>网址的查询字符串</td></tr>
+			<tr><td>*anchor*</td><td>网址的锚字符串</td></tr>
+			<tr><td>*subdirs*</td><td>网址的子目录字符串</td></tr>
+            <tr><td>*text*</td><td>链接或图片附带的文本内容</td></tr>
+            <tr><td>*title*</td><td>链接或图片的标题属性</td></tr>
+            <tr><td>*page_title*</td><td>下载引用页的网页标题</td></tr>
+			<tr><td>*num*</td><td>计数器，在添加新任务时递增</td></tr>
+			<tr><td>*size*</td><td>文件大小，以字节为单位</td></tr>
+			<tr><td>*refer*</td><td>引用页网址</td></tr>
+			<tr><td>*mime*</td><td>互联网媒体类型</td></tr>
+			<tr><td>*remark*</td><td>备注</td></tr>
+			<tr><td>*hh*</td><td>当前小时，2位数字</td></tr>
+			<tr><td>*mm*</td><td>当前分钟，2位数字</td></tr>
+			<tr><td>*ss*</td><td>当前秒，2位数字</td></tr>
+			<tr><td>*y*</td><td>当前年份，4位数字</td></tr>
+			<tr><td>*m*</td><td>当前月份，2位数字</td></tr>
+			<tr><td>*d*</td><td>当前日期，2位数字</td></tr>
+            <tr><td>*wd*</td><td>当前星期几，1位数字</td></tr>
+			<tr><td>*datetime[,yyyy-MM-dd hh:mm:ss]*</td><td>当前日期时间，可附带格式化字符串，如果该字符串省略，默认将以'yyyy-MM-dd hh:mm:ss'进行格式化</td></tr>
+			<tr><td>*date[,yyyy-MM-dd]*</td><td>当前日期，可附带格式化字符串，如果该字符串省略，默认将以'yyyy-MM-dd'进行格式化</td></tr>
+			<tr><td>*time[,hh:mm:ss]*</td><td>当前时间，可附带格式化字符串，如果该字符串省略，默认将以'hh:mm:ss'进行格式化'</td></tr>
+			<tr><td>*addtime[,yyyy-MM-dd hh:mm:ss]*</td><td>添加任务的日期时间，格式化字符串与*datetime*相同</td></tr>
+            </tbody>
+		</table></div>
+        <p>
+		对与URL相关的字段，你还可以添加前缀<strong>'flat'</strong>来将所有斜线转换成下划线，例如 <em>*flaturl*, *flatsubdirs*</em>.
+		</p>
+        <p>
+        请注意，你设置的文件名允许包含子目录，例如 <em>dirA/dirB/*name*.*ext*</em>.
+        </p>
+	</section>
+				
+	<section id="rule_sys">
+		<h3>规则系统</h3>
+		<div>
+        <p>
+        规则可以用以在下载管理器中过滤任务，和自动为任务设置命名方式。
+        </p>
+        <p>
+        一个条规则的条件可以<strong>引用另一条规则</strong>，方法是将其引用名用<strong>花括号</strong>包起来，例如，预先定义好的规则 <em>r_done_audio</em> 引用了规则 <em>r_done</em>.
+        </p>
+		规则的条件可以使用上述的命名字段来<strong>提取任务的对应信息</strong>，下表列出了额外的可以在规则条件中使用的字段。
+					
+		<table class="simpletable">
+			<thead><tr><th>字段</th><th>意义</th></tr></thead>
+            <tbody>
+			<tr><td>*state*</td><td>任务的当前状态</td></tr>
+			<tr><td>*time_elapsed*</td><td>任务已用时间</td></tr>
+			<tr><td>*progress*</td><td>任务的当前进度</td></tr>
+            </tbody>
+		</table>
+		</div>
+		<div>
+        <p>规则条件还可以通过<strong>方括号</strong>来<strong>引用系统预定义的常量</strong>，例如规则 <em>r_done</em> 引用了常量 <em>[finish]</em>。方括号还可以用来<strong>引用扩展名过滤器</strong>，因为扩展名过滤器被当做正则表达式的字符串常量，例如规则 <em>r_done_audio</em> 引用了扩展名过滤器 <em>[ext_audio]</em>.</p>
+		<p>下表总结了系统预定义的常量（全部为小写）：</p>
+		<table class="simpletable">
+			<thead><tr><th>常量</th><th>意义或取值</th></tr></thead>
+            <tbody>
+			<tr><td>[mon]</td><td>1</td></tr>
+			<tr><td>[tue]</td><td>2</td></tr>
+			<tr><td>[wed]</td><td>3</td></tr>
+			<tr><td>[thu]</td><td>4</td></tr>
+			<tr><td>[fri]</td><td>5</td></tr>
+			<tr><td>[sat]</td><td>6</td></tr>
+			<tr><td>[sun]</td><td>0</td></tr>
+			<tr><td>[download]</td><td>任务状态：下载中</td></tr>
+			<tr><td>[inqueue]</td><td>任务状态：排队中</td></tr>
+			<tr><td>[paused]</td><td>任务状态：暂停</td></tr>
+			<tr><td>[finished]</td><td>任务状态：已完成</td></tr>
+			<tr><td>[interrupted]</td><td>任务状态：中断</td></tr>
+			<tr><td>[now]</td><td>当前时间</td></tr>
+			<tr><td>[today],[today_]</td><td>今天的开始时刻，也就是00:00:00；末尾添加下划线指的是今天的结束时刻，也就是23:59:59. 下面的时间常量都可以在末尾添加下划线</td></tr>
+			<tr><td>[yesterday]</td><td>昨天的开始时刻，即00:00:00</td></tr>
+			<tr><td>[this_week]</td><td>本周的开始时刻</td></tr>
+			<tr><td>[last_week]</td><td>上周的开始时刻</td></tr>
+			<tr><td>[this_month]</td><td>本月的开始时刻</td></tr>
+			<tr><td>[last_month]</td><td>上个月的开始时刻</td></tr>
+			<tr><td>[this_year]</td><td>今年的开始时刻</td></tr>
+			<tr><td>[last_year]</td><td>去年的开始时刻</td></tr>
+			<tr><td>[n_days_ago]</td><td>前'n'天的开始时刻，'n'可以是任意正整数，例如[3_days_ago]</td></tr>
+			<tr><td>[n_weeks_ago]</td><td>前'n'周的开始时刻</td></tr>
+			<tr><td>[n_months_ago]</td><td>前'n'天月的开始时刻</td></tr>
+			<tr><td>[n_years_ago]</td><td>前'n'年的开始时刻</td></tr>
+
+            </tbody>
+		</table>
+		</div>
+		<div>
+        <p>
+		每条规则的条件表达式中往往包含字符串类型的量、数值类型的量和时间类型的量。你可以对数值类型的量进行任意算术运算；使用'+'号连接字符串类型的量；使用'-'号计算两个时间类型的量的差。下表列出了不同类型的量所支持的函数：
+        </p>
+		<table class="simpletable">
+			<thead><tr><th>类型</th><th>函数</th><th>参数</th><th>描述</th></tr></thead>
+						
+            <tbody>
+            <tr><td>字符串</td><td>is</td><td>一个正则表达式字符串</td><td>测试字符串是否完全匹配某个正则表达式，如*url*.is("xxx")</td></tr>
+			<tr><td>字符串</td><td>has</td><td>同上</td><td>测试字符串是否包含子串匹配某个正则表达式，如*url*.has("xxx")</td></tr>
+			<tr><td>字符串</td><td>beginwith</td><td>同上</td><td>测试字符串是否以某字符串作为开始，如*url*.beginwith("xxx")</td></tr>
+			<tr><td>字符串</td><td>endwith</td><td>同上</td><td>测试字符串是否以某字符串作为结尾，如*url*.endwith("xxx")</td></tr>
+						
+
+			<tr><td>时间</td><td>aft</td><td>一个时间类型的量或一个表示时间的字符串</td><td>测试时间是否晚于，如*addtime*.aft("2012-3-11"), *addtime*.aft([now])</td></tr>
+			<tr><td>时间</td><td>b4</td><td>同上</td><td>测试时间是否早于，如*addtime*.b4("2012-3-11")</td></tr>
+			<tr><td>时间</td><td>btwn</td><td>两个时间类型的量或表示时间的字符串</td><td>测试时间是否在...之间，如*addtime*.btwn("2012-3-11","2013-3-11")</td></tr>
+			<tr><td>时间</td><td>is</td><td>一个时间常量字符串</td><td>该辅助函数可以让你仅使用一条语句如*addtime*.is("today")，来完成这样的测试：*addtime*&gt;=[today]&amp;&amp;*addtime*&lt;=[today_]</td></tr>		
+
+            </tbody>
+		</table>
+        <p>
+		下面是其他可能会用到的辅助函数：
+        </p>
+		<table class="simpletable">
+			<thead><tr><th>函数</th><th>参数</th><th>描述</th></tr></thead>
+            <tbody>
+			<tr><td>yearof</td><td>一个时间类型的量或一个表示时间的字符串</td><td>返回一个代表给定参数的年份的数字，如yearof("2012-3-11"), yearof(*addtime*)</td></tr>
+			<tr><td>monthof</td><td>同上</td><td>返回一个代表给定参数的月份的数字</td></tr>
+            <tr><td>dateof</td><td>同上</td><td>返回一个代表给定参数的日期月份的数字</td></tr>
+			<tr><td>dayof</td><td>同上</td><td>返回一个代表给定参数的星期几的数字</td></tr>
+			<tr><td>hourof</td><td>同上</td><td>返回一个代表给定参数的小时的数字</td></tr>
+			<tr><td>minuteof</td><td>同上</td><td>返回一个代表给定参数的分钟的数字</td></tr>
+			<tr><td>secondof</td><td>同上</td><td>返回一个代表给定参数的秒的数字</td></tr>
+			<tr><td>kb</td><td>一个数字</td><td>将千字节换算成字节，如kb(1)=1024</td></tr>
+			<tr><td>mb</td><td>同上</td><td>将兆字节换算成字节，如mb(1)=1024*1024</td></tr>
+			<tr><td>gb</td><td>同上</td><td>将吉字节换算成字节，如gb(1)=1024*1024*1024</td></tr>
+			<tr><td>hour</td><td>同上</td><td>返回一个数字代表x个小时，如[now]-*addtime*&lt;hour(3)意味着任务是在近3小时内添加的</td></tr>
+			<tr><td>min</td><td>同上</td><td>返回一个数字代表x分钟</td></tr>
+			<tr><td>sec</td><td>同上</td><td>返回一个数字代表x秒</td></tr>
+
+            </tbody>
+		</table>
+		</div>
+	</section>
+				
+    <section>
+		<h3>重置按钮</h3>
+		<div>
+            <p>
+			如果Chrono遇到了重大问题，无法继续工作，你可以尝试点击下面的重置按钮，它将清除所有任务和设置，并重新载入Chrono.
+            </p>
+            <div style="margin: 10px;">
+                <button id="dy_panic_reset" title="Reset">
+                    重置
+                    </button>
+            </div>
+		</div>
+	</section>
+</div>

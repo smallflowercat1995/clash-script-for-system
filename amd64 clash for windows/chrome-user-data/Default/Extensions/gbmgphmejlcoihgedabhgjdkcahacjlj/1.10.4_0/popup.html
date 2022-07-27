@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Wallabagger</title>
+    <link rel="stylesheet" href="css/spectre.min.css">
+    <link rel="stylesheet" href="css/spectre-exp.min.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/popup.css">
+</head>
+
+<body>
+    <div class="card" id="main-card">
+
+        <div class="card-image">
+            <img src="img/wallabag-icon-128.png" class="card-image img-responsive" id="card-image" />
+        </div>
+
+        <div class="card-header" id="card-header">
+            <a
+                id="card-title"
+                href="#"
+                title="Go to Wallabag's article page"
+                data-i18n-attr="title|Go_to_Wallabag_s_article_page"
+                data-i18n="Article_s_title">Article's title</a>
+        </div>
+
+        <div class="card-body d-hide" id="card-body">
+            <textarea class="form-input" id="title-input" rows="3"></textarea>
+            <button class="btn btn-link" id="save-title-button" data-i18n="Save">Save</button>
+            <button class="btn btn-link" id="cancel-title-button" data-i18n="Cancel">Cancel</button>
+        </div>
+
+        <div class="card-footer actions">
+            <a
+                class="card-meta"
+                id="entry-url"
+                href="#"
+                title="Go to this article page"
+                data-i18-attr="title|Go_to_this_article_page"
+                data-i18n="Article_s_link">Article's link</a>
+            <div class="action-buttons">
+              <button
+                  class="action-button card-meta icon icon-pencil"
+                  id="edit-icon"
+                  title="Edit the Wallabag title of this article"
+                  ><span
+                    class="sr-only"
+                    data-i18n="Edit_the_Wallabag_title_of_this_article"
+                    data-i18n-attr="title|Edit_the_Wallabag_title_of_this_article"
+                  >Edit_the_Wallabag_title_of_this_article</span></button>
+              <button
+                  id="archived-icon"
+                  data-apicall="SaveArchived"
+                  class="action-button card-meta icon icon-checkmark"
+                  data-isset="false"
+                  data-seticon="icon-checkmark-full"
+                  data-seticon-title="Set_this_article_as_archived_into_Wallabag"
+                  data-unseticon="icon-checkmark"
+                  data-unseticon-title="Unset_this_article_as_archived_into_Wallabag"
+                  title="Set this article as archived into Wallabag"
+                ><span
+                    class="sr-only"
+                    data-i18n="Set_this_article_as_archived_into_Wallabag"
+                    data-i18n-attr="title|Set_this_article_as_archived_into_Wallabag"
+                  >Set_this_article_as_archived_into_Wallabag</span></button>
+              <button
+                  id="starred-icon"
+                  data-apicall="SaveStarred"
+                  data-isset="false"
+                  data-seticon="icon-star-full"
+                  data-seticon-title="Set_this_article_as_starred_into_Wallabag"
+                  data-unseticon="icon-star"
+                  data-unseticon-title="Unset_this_article_as_starred_into_Wallabag"
+                  class="action-button card-meta icon icon-star"
+                  title="Set this article as starred into Wallabag"
+                ><span
+                    class="sr-only"
+                    data-i18n="Set_this_article_as_starred_into_Wallabag"
+                    data-i18n-attr="title|Set_this_article_as_starred_into_Wallabag"
+                  >Set_this_article_as_starred_into_Wallabag</span></button>
+              <button
+                  class="action-button card-meta icon icon-bin"
+                  id="delete-icon"
+                  title="Remove this article from Wallabag"
+                  ><span
+                    class="sr-only"
+                    data-i18n="Remove_this_article_from_Wallabag"
+                    data-i18n-attr="title|Remove_this_article_from_Wallabag"
+                >Remove_this_article_from_Wallabag</span></button>
+            </div>
+        </div>
+
+        <div class="card-footer" id="tags">
+            <div class="form-autocomplete">
+                <div class="form-autocomplete-input form-input" id="tags-input-container">
+                    <span class="card-meta float-left icon icon-tags"></span>
+                    <!--here we add tag chips-->
+                    <input class="form-input" type="text" placeholder="type tags here" id="tags-input"/>
+                </div>
+                <div class="menu d-hide" id="tags-autocomplete-list">
+                    <div class="card-meta form-autocomplete-item" data-i18n="Tags_found">Tags found:</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="toast" id="info-toast" data-i18n="Loading_wallabag_API">Loading wallabag API...</div>
+    <div class="toast toast-danger d-hide" id="error-toast"></div>
+
+    <div class="modal modal-sm" id="delete_confirmation">
+        <div class="modal-overlay"></div>
+        <div class="modal-container">
+            <!-- modal structure here -->
+            <div class="modal-header">
+                <button class="btn btn-clear float-right" id="close-confirmation"></button>
+                <div class="modal-title" data-i18n="Delete_this_article">Delete this article</div>
+            </div>
+            <div class="modal-body">
+                <div class="content">
+                    <!-- content here -->
+                    <h4 class="centered mt-10" data-i18n="Do_you_want_to_remove_this_article_permanently_from_wallabag">Do you want to remove this article permanently from wallabag?</h4>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-link" id="delete-article" data-i18n="Yes_delete_it">Yes, delete it</button>
+                <button class="btn btn-primary" id="cancel-confirmation" data-i18n="No_leave_it">No, leave it</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/common.js"></script>
+    <script src="js/popup.js"></script>
+
+</body>
+</html>

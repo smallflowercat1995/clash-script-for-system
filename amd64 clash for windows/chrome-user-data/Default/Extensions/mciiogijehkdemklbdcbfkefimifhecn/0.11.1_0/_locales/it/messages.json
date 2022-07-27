@@ -1,0 +1,1112 @@
+{
+   "btnAbout": {
+      "message": "Informazioni"
+   },
+   "btnAddPaused": {
+      "message": "Aggiungi in pausa"
+   },
+   "btnApply": {
+      "message": "Applica"
+   },
+   "btnBackToManager": {
+      "message": "Indietro"
+   },
+   "btnCancel": {
+      "message": "Annulla"
+   },
+   "btnClearAll": {
+      "message": "Cancella tutto"
+   },
+   "btnClearFailed": {
+      "message": "Cancella attività interrotte"
+   },
+   "btnClearFinished": {
+      "message": "Cancella attività completate"
+   },
+   "btnClearRemoved": {
+      "message": "Cancella attività dai file mancanti"
+   },
+   "btnCreate": {
+      "message": "Crea"
+   },
+   "btnFAQ": {
+      "message": "Domande frequenti"
+   },
+   "btnGotIt": {
+      "message": "Ho capito!"
+   },
+   "btnGrantPermission": {
+      "message": "Dai l'autorizzazione"
+   },
+   "btnImportChromeHistory": {
+      "message": "Importa la cronologia dei download da Chrome"
+   },
+   "btnLater": {
+      "message": "Più tardi"
+   },
+   "btnLoadPreview": {
+      "message": "Carica anteprima"
+   },
+   "btnOpenManager": {
+      "message": "Apri il gestore"
+   },
+   "btnPopRemoveFile": {
+      "message": "Elimina file"
+   },
+   "btnPopRemoveList": {
+      "message": "Rimuovi dall'elenco"
+   },
+   "btnRate": {
+      "message": "Valuta"
+   },
+   "btnSave": {
+      "message": "Salva"
+   },
+   "btnShareDone": {
+      "message": "L'ho già fatto"
+   },
+   "btnStart": {
+      "message": "Avvia"
+   },
+   "btnStartAll": {
+      "message": "Scarica tutto"
+   },
+   "btnTakeMeThere": {
+      "message": "Indirizzami lì"
+   },
+   "btnUpdateReload": {
+      "message": "Ricarica ora"
+   },
+   "btnUseSystemDialog": {
+      "message": "Utilizzando la finestra di dialogo di sistema..."
+   },
+   "chromesysAllowFileAccess": {
+      "message": "Consenti l'accesso agli URL dei file"
+   },
+   "chromesysBrowser": {
+      "message": "Browser"
+   },
+   "chromesysChange": {
+      "message": "Modifica..."
+   },
+   "chromesysDownloadLocation": {
+      "message": "Percorso di download"
+   },
+   "chromesysDownloadSaveAsPrompt": {
+      "message": "Chiedi dove salvare il file prima di scaricarlo"
+   },
+   "chromesysDownloadsSection": {
+      "message": "Download"
+   },
+   "chromesysFailedGenericDownloadError": {
+      "message": "Errore di download"
+   },
+   "chromesysFailedGenericNetworkError": {
+      "message": "Errore di rete"
+   },
+   "chromesysFailed_CRASH": {
+      "message": "Interruzione anomala"
+   },
+   "chromesysFailed_FILE_ACCESS_DENIED": {
+      "message": "Autorizzazioni insufficienti"
+   },
+   "chromesysFailed_FILE_BLOCKED": {
+      "message": "Bloccati"
+   },
+   "chromesysFailed_FILE_NAME_TOO_LONG": {
+      "message": "Percorso troppo lungo"
+   },
+   "chromesysFailed_FILE_NO_SPACE": {
+      "message": "Disco pieno"
+   },
+   "chromesysFailed_FILE_SAME_AS_SOURCE": {
+      "message": "Già scaricato"
+   },
+   "chromesysFailed_FILE_SECURITY_CHECK_FAILED": {
+      "message": "Scansione virus non riuscita"
+   },
+   "chromesysFailed_FILE_TOO_LARGE": {
+      "message": "File troppo grande"
+   },
+   "chromesysFailed_FILE_TOO_SHORT": {
+      "message": "File troncato"
+   },
+   "chromesysFailed_FILE_TRANSIENT_ERROR": {
+      "message": "Sistema occupato"
+   },
+   "chromesysFailed_FILE_VIRUS_INFECTED": {
+      "message": "Virus rilevato"
+   },
+   "chromesysFailed_NETWORK_TIMEOUT": {
+      "message": "Timeout di rete"
+   },
+   "chromesysFailed_SERVER_BAD_CONTENT": {
+      "message": "Nessun file"
+   },
+   "chromesysFailed_SERVER_CERT_PROBLEM": {
+      "message": "Certificato non valido"
+   },
+   "chromesysFailed_SERVER_CONTENT_LENGTH_MISMATCH": {
+      "message": "File incompleto"
+   },
+   "chromesysFailed_SERVER_FAILED": {
+      "message": "Problema con il server"
+   },
+   "chromesysFailed_SERVER_FORBIDDEN": {
+      "message": "Vietato"
+   },
+   "chromesysFailed_SERVER_UNAUTHORIZED": {
+      "message": "Occorre l'autorizzazione"
+   },
+   "chromesysFailed_SERVER_UNREACHABLE": {
+      "message": "Server non raggiungibile"
+   },
+   "chromesysFailed_USER_CANCELED": {
+      "message": "Operazione annullata"
+   },
+   "chromesysFailed_USER_SHUTDOWN": {
+      "message": "Chiusura"
+   },
+   "chromesysFontSize": {
+      "message": "Dimensioni carattere"
+   },
+   "chromesysLanguageSection": {
+      "message": "Lingua"
+   },
+   "chromesysShowAdvSettings": {
+      "message": "Mostra impostazioni avanzate..."
+   },
+   "chromesysWebStore": {
+      "message": "Chrome Web Store"
+   },
+   "confirmBatchDownload": {
+      "message": "Sembra che stai iniziando un gruppo di download, ecco alcuni esempi:"
+   },
+   "confirmBatchDownloadNaming": {
+      "message": "Per il download in gruppi, assicurarsi che la maschera di denominazione generi nomi diversi. Procedere comunque?"
+   },
+   "confirmBtnYes": {
+      "message": "Sì"
+   },
+   "confirmBtnYesFile": {
+      "message": "Sì, rimuovere anche il/i file(s)"
+   },
+   "confirmCantResumeRestart": {
+      "message": "L'attività $1 non riesce a riprendere, riavviarla?"
+   },
+   "confirmClearTask": {
+      "message": "Vuoi rimuovere $1 elementi?"
+   },
+   "confirmCreateWhenNotExists": {
+      "message": "$1 inesistente. Desideri crearlo?"
+   },
+   "confirmProceed": {
+      "message": "Continuare?"
+   },
+   "confirmRecycleRunning": {
+      "message": "Eliminare le attività in esecuzione?"
+   },
+   "confirmRemoveExtFilter": {
+      "message": "Rimuovere gli elementi selezionati?"
+   },
+   "confirmRemoveRule": {
+      "message": "Rimuovere gli elementi selezionati?"
+   },
+   "confirmRemoveTask": {
+      "message": "Eliminare definitivamente le attività selezionate?"
+   },
+   "confirmReset": {
+      "message": "L'operazione non può essere annullata. Procedere?"
+   },
+   "errorFNameConflict": {
+      "message": "Conflitto di nomi"
+   },
+   "errorFileNotExist": {
+      "message": "File non trovato"
+   },
+   "errorFileOrFolderExists": {
+      "message": "Esiste già un file o una cartella con questo nome"
+   },
+   "errorInvalidNamingMask": {
+      "message": "Nome non valido"
+   },
+   "errorInvalidSubdir": {
+      "message": "Sottodirectory non valida"
+   },
+   "errorInvalidURLs": {
+      "message": "URL non valido"
+   },
+   "errorNoID": {
+      "message": "impossibile aggiungere una nuova attività a Chrono perchè ci sono troppe attività nella manager, eliminane alcune inutilizzate e riprova."
+   },
+   "errorNone": {
+      "message": "Nessun errore"
+   },
+   "errorRemovedFromChrome": {
+      "message": "L'attività potrebbe essere stata rimossa da Chrome."
+   },
+   "errorSingleURLAllowed": {
+      "message": "Inserisci solo un URL"
+   },
+   "errorUnableOpen": {
+      "message": "Impossibile aprire $1."
+   },
+   "errorUnknownReloadPage": {
+      "message": "Qualcosa non ha funzionato. Ricarica la pagina per continuare."
+   },
+   "everyXDays": {
+      "message": "Ogni $1 giorni"
+   },
+   "everyXHours": {
+      "message": "Ogni $1 ore"
+   },
+   "everyXMinutes": {
+      "message": "Ogni $1 minuti"
+   },
+   "extDesc": {
+      "message": "Gestione Download | Download Video | Download di gruppi di Immagini"
+   },
+   "extDescBest": {
+      "message": "Il miglior download manager per Chrome"
+   },
+   "extDescSlogan": {
+      "message": "Scarica e Gestisci il web!"
+   },
+   "extName": {
+      "message": "Chrono Download Manager"
+   },
+   "extsAll": {
+      "message": "Tutti"
+   },
+   "extsApp": {
+      "message": "Applicazione"
+   },
+   "extsArchive": {
+      "message": "Archivio"
+   },
+   "extsAudio": {
+      "message": "Audio"
+   },
+   "extsDocument": {
+      "message": "Documento"
+   },
+   "extsImage": {
+      "message": "Immagine"
+   },
+   "extsNew": {
+      "message": "Nuovo Filtro"
+   },
+   "extsOthers": {
+      "message": "Altro"
+   },
+   "extsVideo": {
+      "message": "Video"
+   },
+   "fieldAddTime": {
+      "message": "Data di creazione"
+   },
+   "fieldAvgSpeed": {
+      "message": "Velocità media"
+   },
+   "fieldDownloadedSize": {
+      "message": "Scaricati"
+   },
+   "fieldElapsedTime": {
+      "message": "Tempo trascorso"
+   },
+   "fieldFileName": {
+      "message": "Nome del file"
+   },
+   "fieldFileSize": {
+      "message": "Dimensioni file"
+   },
+   "fieldFinishTime": {
+      "message": "Ora di fine"
+   },
+   "fieldFolder": {
+      "message": "Cartella"
+   },
+   "fieldNaming": {
+      "message": "Maschera di denominazione"
+   },
+   "fieldProgress": {
+      "message": "Avanzamento"
+   },
+   "fieldRedirection": {
+      "message": "Reindirizzamento"
+   },
+   "fieldReferer": {
+      "message": "Referrer"
+   },
+   "fieldRemainingTime": {
+      "message": "Tempo rimanente"
+   },
+   "fieldRemarks": {
+      "message": "Note"
+   },
+   "fieldSpeed": {
+      "message": "Velocità"
+   },
+   "fieldState": {
+      "message": "Stato"
+   },
+   "fieldThreads": {
+      "message": "Processi"
+   },
+   "fieldType": {
+      "message": "Tipo di file"
+   },
+   "fieldURL": {
+      "message": "URL"
+   },
+   "headExtFilterCaption": {
+      "message": "Nome visualizzato"
+   },
+   "headExtFilterExts": {
+      "message": "Estensione file"
+   },
+   "headExtFilterRefName": {
+      "message": "Nome interno"
+   },
+   "headRulesActive": {
+      "message": "Attiva"
+   },
+   "headRulesAsFilter": {
+      "message": "Come filtro attività"
+   },
+   "headRulesCaption": {
+      "message": "Nome visualizzato"
+   },
+   "headRulesCondition": {
+      "message": "Condizione"
+   },
+   "headRulesRefName": {
+      "message": "Nome interno"
+   },
+   "helpExtFilter": {
+      "message": "* Doppio click per modificare\n* Digita in una riga vuota per aggiungere un nuovo filtro\n* Seleziona le righe e premi ELIMINA per rimuoverle"
+   },
+   "helpRules": {
+      "message": "*Doppio click per modificare\n*Scrivi in una riga vuota per aggiungere una nuova regola\n*Seleziona le righe e clicca su ELIMINA per rimuoverle\n*Se riscontri problemi durante la scrittura delle regole, fai riferimento alla sezione Aiuto "
+   },
+   "hintSearchDownloads": {
+      "message": "Cerca tra i file scaricati"
+   },
+   "labelAutoClear": {
+      "message": "Pianificazione"
+   },
+   "labelBGBlur": {
+      "message": "Sfocatura"
+   },
+   "labelBGChooseFrom": {
+      "message": "Scegli immagine"
+   },
+   "labelBGConstantColor": {
+      "message": "Colore a tinta unita"
+   },
+   "labelBGImageURL": {
+      "message": "URL immagine personalizzato"
+   },
+   "labelBGOpacity": {
+      "message": "Opacità"
+   },
+   "labelChooseDownloadLocation": {
+      "message": "Scegli un percorso di download"
+   },
+   "labelCustomFilter": {
+      "message": "Filtro personalizzato"
+   },
+   "labelDateModified": {
+      "message": "Data modifica"
+   },
+   "labelDownloadToDefaultFolder": {
+      "message": "Scaricare nella cartella predefinita"
+   },
+   "labelEnableFolderSelection": {
+      "message": "Abilita la selezione della cartella"
+   },
+   "labelFolderColon": {
+      "message": "Cartella:"
+   },
+   "labelNewFolder": {
+      "message": "Nuova cartella"
+   },
+   "labelStarred": {
+      "message": "Speciali"
+   },
+   "labelUnableSaveToFolder": {
+      "message": "Impossibile salvare nella posizione"
+   },
+   "labelUseLastLocation": {
+      "message": "Utilizzo dell'ultima posizione"
+   },
+   "menuDAudio": {
+      "message": "Salva audio come..."
+   },
+   "menuDAudioOneClick": {
+      "message": "Scarica l'audio con un click"
+   },
+   "menuDImage": {
+      "message": "Salva immagine con nome..."
+   },
+   "menuDImageOneClick": {
+      "message": "Scarica l'immagine con un click"
+   },
+   "menuDLink": {
+      "message": "Salva link con nome..."
+   },
+   "menuDLinkOneClick": {
+      "message": "Scarica il link con un click"
+   },
+   "menuDVideo": {
+      "message": "Salva video come..."
+   },
+   "menuDVideoOneClick": {
+      "message": "Scarica il video con un click"
+   },
+   "menuGetHelp": {
+      "message": "Assistenza"
+   },
+   "menuOpenManager": {
+      "message": "Apri manager"
+   },
+   "menuReportIssue": {
+      "message": "Segnala un problema"
+   },
+   "msgCannotScanResources": {
+      "message": "Non riesco ad analizzare le risorse di questa pagina"
+   },
+   "msgChooseFolderUnderHome": {
+      "message": "Scegli una cartella nella posizione di download predefinita del browser."
+   },
+   "msgChromeI18nLanguage": {
+      "message": "Chrono utilizza la stessa lingua del tuo browser Chrome."
+   },
+   "msgEmptyDownloadsList": {
+      "message": "Elenco vuoto"
+   },
+   "msgEnableFileAccess": {
+      "message": "Puoi attivare questa funzione spuntando la casella $1 sotto a $2 sulla pagina chrome://extensions."
+   },
+   "msgFolderDisabledNoFileAccess": {
+      "message": "La funzionalità di selezione delle cartelle è disabilitata perché l'accesso ai file locali non è consentito."
+   },
+   "msgFolderDisabledNonWritable": {
+      "message": "La funzionalità di selezione della cartella è disabilitata. Assicurati che il percorso di download predefinito non sia impostato su una cartella di sistema e che la finestra di dialogo Salva con nome del browser sia disattivata."
+   },
+   "msgMultiDownloadsCanceledFilenameConflict": {
+      "message": "I download di $1 sono stati annullati a causa di un conflitto di nomi di file."
+   },
+   "msgPreviewErrorReadFile": {
+      "message": "Errore durante la lettura del file"
+   },
+   "msgPreviewFailed": {
+      "message": "Caricamento dell'anteprima del file non riuscito"
+   },
+   "msgPreviewFileAccess": {
+      "message": "Impossibile caricare l'anteprima del file locale."
+   },
+   "msgPreviewLargeFile": {
+      "message": "Potrebbe volerci del tempo per caricare l'anteprima."
+   },
+   "msgPreviewPdfViewer": {
+      "message": "Chrome PDF Viewer è richiesto per l'anteprima, abilitalo seguendo le istruzioni sottostanti"
+   },
+   "msgRateShare": {
+      "message": "Se hai trovato utile $1, ti preghiamo di votarlo su $2 e condividerlo con i tuoi amici!"
+   },
+   "msgSearchNoResults": {
+      "message": "Nessun risultato trovato"
+   },
+   "msgSelectTaskInfo": {
+      "message": "Nessun elemento selezionato."
+   },
+   "msgSingleDownloadCanceledFilenameConflict": {
+      "message": "Il download di $1 è stato annullato a causa di un conflitto di nomi di file."
+   },
+   "msgTaskAddPaused": {
+      "message": "Attività aggiunta e in pausa"
+   },
+   "msgTaskFinish": {
+      "message": "Download completato"
+   },
+   "msgTaskInterrupt": {
+      "message": "Download non riuscito"
+   },
+   "msgTaskStart": {
+      "message": "Attività aggiunta alla coda"
+   },
+   "msgTextUpdateAvail": {
+      "message": "Carica di nuovo l'estensione per applicare l'aggiornamento."
+   },
+   "msgTextWelcome": {
+      "message": "Prima di iniziare, si consiglia di disattivare la finestra di dialogo 'Salva con nome', deselezionando la casella di controllo sotto $1. \nPer una migliore esperienza utente, puoi anche permettere a Chrono  di accedere all'URL del file tramite la casella $2 sotto $3.\nSe hai qualche domanda, ti preghiamo di consultare la pagina di Aiuto e Domande Frequenti, è possibile anche inviare una e-mail a dev@chronodownloader.net.\nBuon divertimento!"
+   },
+   "msgTitleUpdateAvail": {
+      "message": "Nuova versione disponibile"
+   },
+   "msgTitleWelcome": {
+      "message": "Benvenuto."
+   },
+   "msgUpdated": {
+      "message": "$1 è stata aggiornata."
+   },
+   "optItemBadgeDownloadNum": {
+      "message": "Mostra il numero delle operazioni di download in cima all'icona della barra degli strumenti"
+   },
+   "optItemClearRemoveFile": {
+      "message": "Elimina dal disco"
+   },
+   "optItemClearSearch": {
+      "message": "Pulisci la casella di ricerca quando il filtro viene cambiato"
+   },
+   "optItemClickNotify": {
+      "message": "Cliccando su una notifica"
+   },
+   "optItemConcurrentDownloads": {
+      "message": "Download simultanei"
+   },
+   "optItemDblClickAction": {
+      "message": "Doppio click su un'attività"
+   },
+   "optItemDefAddPaused": {
+      "message": "Aggiungi in pausa"
+   },
+   "optItemDefFolder": {
+      "message": "Percorso predefinito"
+   },
+   "optItemDefNaming": {
+      "message": "Maschera del nome predefinita"
+   },
+   "optItemDownloadClipboard": {
+      "message": "Scarica URL dagli appunti"
+   },
+   "optItemDownloadsPerServer": {
+      "message": "Download per server"
+   },
+   "optItemHideShelf": {
+      "message": "Nascondi la barra dei downloads di Chrome"
+   },
+   "optItemMenuDialog": {
+      "message": "Salva link con nome..."
+   },
+   "optItemMenuOneClick": {
+      "message": "Scarica il link/immagine con un click"
+   },
+   "optItemNameConflict": {
+      "message": "In caso di conflitti sul nome del file"
+   },
+   "optItemNotifyError": {
+      "message": "Mostra una notifica quando si verifica un errore"
+   },
+   "optItemNotifyFinish": {
+      "message": "Mostra una notifica al termine del download"
+   },
+   "optItemNotifyLargePreview": {
+      "message": "Mostra anteprime grandi per le immagini"
+   },
+   "optItemNotifyOneClick": {
+      "message": "Mostra una notifica quando aggiungi un download con un click"
+   },
+   "optItemNotifyProgress": {
+      "message": "Mostra l'avanzamento del download"
+   },
+   "optItemOverrideChrome": {
+      "message": "Sostituisci la pagina dei download di Chrome ed abilita la scorciatoia $1"
+   },
+   "optItemPopClearClose": {
+      "message": "Chiudi popup dopo aver cancellato le attività"
+   },
+   "optItemPopDeleteAction": {
+      "message": "Click sul pulsante 'Elimina'"
+   },
+   "optItemPopLikeButtons": {
+      "message": "Mostra i pulsanti dei social network"
+   },
+   "optItemPopMaxItems": {
+      "message": "Numero massimo di elementi nella lista download"
+   },
+   "optItemPopShowDLFirst": {
+      "message": "Mostra le operazioni di download per prime"
+   },
+   "optItemPreviewAutoplay": {
+      "message": "Riproduzione automatica"
+   },
+   "optItemRecycleCancel": {
+      "message": "Cancella l'attività quando viene cestinata"
+   },
+   "optItemRuleMatchMode": {
+      "message": "Modalità corrispondenza"
+   },
+   "optItemSlideDetailsPanel": {
+      "message": "Passa al pannello dettagli quando clicchi su Attività"
+   },
+   "optItemSoundError": {
+      "message": "Riproduci suono quando si verifica un errore"
+   },
+   "optItemSoundFinish": {
+      "message": "Riproduci suono al termine del download"
+   },
+   "optItemStartInterrupted": {
+      "message": "Il pulsante Avvia può avviare i task interrotti"
+   },
+   "optOptionClearAllNotify": {
+      "message": "Cancella tutte le notifiche"
+   },
+   "optOptionClearNotify": {
+      "message": "Cancella la notifica"
+   },
+   "optOptionDoNothing": {
+      "message": "Nessuna azione"
+   },
+   "optOptionFirstMatch": {
+      "message": "Prima corrispondenza"
+   },
+   "optOptionOpenFile": {
+      "message": "Apri file"
+   },
+   "optOptionOpenFolder": {
+      "message": "Apri cartella"
+   },
+   "optOptionOverwrite": {
+      "message": "Sovrascrivi"
+   },
+   "optOptionPrompt": {
+      "message": "Chiedi"
+   },
+   "optOptionRemAsk": {
+      "message": "Chiedi"
+   },
+   "optOptionRemFile": {
+      "message": "Elimina dal disco senza conferma"
+   },
+   "optOptionRemList": {
+      "message": "Rimuovi dall'elenco"
+   },
+   "optOptionReplace": {
+      "message": "Sostituisci"
+   },
+   "optOptionSkipCancel": {
+      "message": "Salta e annulla"
+   },
+   "optOptionSkipPause": {
+      "message": "Salta e metti in pausa"
+   },
+   "optOptionStartPause": {
+      "message": "Avvia/Pausa"
+   },
+   "optOptionUniquify": {
+      "message": "Rendi unico"
+   },
+   "optSectionBehaviors": {
+      "message": "Comportamento"
+   },
+   "optSectionMenu": {
+      "message": "Menu"
+   },
+   "optSectionMisc": {
+      "message": "Varie"
+   },
+   "optSectionNetwork": {
+      "message": "Rete"
+   },
+   "optSectionNewTaskDialog": {
+      "message": "Nuova attività"
+   },
+   "optSectionNotifications": {
+      "message": "Notifiche"
+   },
+   "optSectionOneClick": {
+      "message": "Scarica con un click"
+   },
+   "optSectionPopup": {
+      "message": "Popup"
+   },
+   "optSectionPreview": {
+      "message": "Anteprima"
+   },
+   "optSectionTaskDefaults": {
+      "message": "Nuovi valori predefiniti attività"
+   },
+   "optionAddTop": {
+      "message": "Aggiungi in cima alla coda"
+   },
+   "optionDisableExtFilters": {
+      "message": "Disattiva filtri estensione"
+   },
+   "optionDontAsk": {
+      "message": "Memorizza la mia scelta"
+   },
+   "optionSearchCaseSensitive": {
+      "message": "Distinzione tra maiuscole e minuscole"
+   },
+   "optionSearchFuzzyMatch": {
+      "message": "Corrispondenza parziale"
+   },
+   "optionShowSize": {
+      "message": "Mostra dimensioni file"
+   },
+   "optionTableAutoResize": {
+      "message": "Forza l'adattamento delle colonne"
+   },
+   "optionTableSyncResize": {
+      "message": "Ridimensiona il contenuto con la colonna"
+   },
+   "phraseAutomatic": {
+      "message": "Automatici"
+   },
+   "phraseEnable": {
+      "message": "Attiva"
+   },
+   "phraseMultiValues": {
+      "message": "Multivalore"
+   },
+   "phraseNever": {
+      "message": "Mai"
+   },
+   "phrasePreview": {
+      "message": "Anteprima"
+   },
+   "phraseRegex": {
+      "message": "Espressione regolare"
+   },
+   "phraseToday": {
+      "message": "Oggi"
+   },
+   "phraseUnknown": {
+      "message": "Sconosciuto"
+   },
+   "phraseUnknownSize": {
+      "message": "Dimensione sconosciuta"
+   },
+   "phraseVersion": {
+      "message": "Versione"
+   },
+   "phraseYesterday": {
+      "message": "Ieri"
+   },
+   "ruleAllTasks": {
+      "message": "Tutte le attività"
+   },
+   "ruleAudio": {
+      "message": "Audio"
+   },
+   "ruleDocument": {
+      "message": "Documento"
+   },
+   "ruleDownloading": {
+      "message": "Download in corso"
+   },
+   "ruleFinished": {
+      "message": "Completati"
+   },
+   "ruleImage": {
+      "message": "Immagine"
+   },
+   "ruleInterrupted": {
+      "message": "Non riuscito"
+   },
+   "ruleNew": {
+      "message": "Nuova regola"
+   },
+   "ruleOther": {
+      "message": "Altro"
+   },
+   "ruleRecent": {
+      "message": "Recenti"
+   },
+   "ruleRecycled": {
+      "message": "Cestino"
+   },
+   "ruleSmallFiles": {
+      "message": "File di piccole dimensioni"
+   },
+   "ruleVideo": {
+      "message": "Video"
+   },
+   "stateDownloading": {
+      "message": "Download in corso"
+   },
+   "stateError": {
+      "message": "Non riuscito"
+   },
+   "stateFileMiss": {
+      "message": "File mancante"
+   },
+   "stateFinished": {
+      "message": "Completati"
+   },
+   "statePaused": {
+      "message": "In pausa"
+   },
+   "stateQueue": {
+      "message": "In attesa"
+   },
+   "statusCopyURL": {
+      "message": "Copiando gli URL..."
+   },
+   "statusCopyURLDone": {
+      "message": "URL copiato negli appunti"
+   },
+   "statusDownloadedSize": {
+      "message": "$1 di $2"
+   },
+   "statusImportDone": {
+      "message": "Importazione riuscita"
+   },
+   "statusImporting": {
+      "message": "Importazione in corso..."
+   },
+   "statusNumDownloading": {
+      "message": "$1 download in corso"
+   },
+   "statusNumItems": {
+      "message": "$1 elementi"
+   },
+   "statusReadClipboard": {
+      "message": "Sto leggendo dagli appunti..."
+   },
+   "statusScheduledAutoClear": {
+      "message": "La cancellazione automatica dell'attività inizierà tra $1 secondo(i)"
+   },
+   "statusSelectedOf": {
+      "message": "$1 elementi selezionati"
+   },
+   "statusTasksCleared": {
+      "message": "$1 elementi rimossi"
+   },
+   "statusTimeLeft": {
+      "message": "$1 rimanenti"
+   },
+   "tipAutoClear": {
+      "message": "Cancella automaticamente le attività dalla lista, ma mantieni i files sul disco"
+   },
+   "tipBGBlur": {
+      "message": "L'effetto Sfocatura potrebbe diminuire la reattività dell'interfaccia grafica"
+   },
+   "tipBGEnable": {
+      "message": "A causa di alcuni problemi di Chrome, abilitare lo sfondo aumenterà di molto l'utilizzo di memoria, tienine conto prima di abilitare questa funzione"
+   },
+   "tipBGURLHasFileAccess": {
+      "message": "Inserire un URL , o il percorso completo di una immagine dal tuo computer con il prefisso 'file:///'"
+   },
+   "tipBGURLNoFileAccess": {
+      "message": "Inserire un URL, o il percorso completo di un immagine dall vostro computer (per i file locali, è necessario abilitare per primo  l'accesso ai file per Chrono , fare clic sul punto interrogativo per vedere come)"
+   },
+   "tipBrowserAction": {
+      "message": "Scarica tutte le risorse di questa pagina"
+   },
+   "tipBtnBackToManager": {
+      "message": "Torna al gestore"
+   },
+   "tipBtnChangeBrowserDownloadsSettings": {
+      "message": "Modifica le impostazioni di download del browser"
+   },
+   "tipBtnChangeDefaultLocation": {
+      "message": "Cambia cartella di destinazione..."
+   },
+   "tipBtnClear": {
+      "message": "Cancella attività"
+   },
+   "tipBtnConfigExtFilters": {
+      "message": "Modifica filtri"
+   },
+   "tipBtnCopyLink": {
+      "message": "Copia link"
+   },
+   "tipBtnDelete": {
+      "message": "Elimina"
+   },
+   "tipBtnHelp": {
+      "message": "Guida"
+   },
+   "tipBtnNewTask": {
+      "message": "Nuova attività"
+   },
+   "tipBtnOpenDefaultLocation": {
+      "message": "Apri cartella dei download"
+   },
+   "tipBtnOpenFile": {
+      "message": "Apri file"
+   },
+   "tipBtnOpenFolder": {
+      "message": "Apri cartella"
+   },
+   "tipBtnOptions": {
+      "message": "Opzioni"
+   },
+   "tipBtnPause": {
+      "message": "Metti in pausa"
+   },
+   "tipBtnPauseAll": {
+      "message": "Metti tutto in pausa"
+   },
+   "tipBtnPopList": {
+      "message": "Vai alla lista dei download"
+   },
+   "tipBtnPopSniffer": {
+      "message": "Passa allo Sniffer"
+   },
+   "tipBtnRecycle": {
+      "message": "Sposta nel cestino"
+   },
+   "tipBtnRestart": {
+      "message": "Riavvia"
+   },
+   "tipBtnRestore": {
+      "message": "Ripristina"
+   },
+   "tipBtnSort": {
+      "message": "Ordina le attività"
+   },
+   "tipBtnStart": {
+      "message": "Avvia"
+   },
+   "tipBtnStartAll": {
+      "message": "Avvia tutto"
+   },
+   "tipExtFilterEnable": {
+      "message": "Attivato come filtro estensione in Chrono Sniffer"
+   },
+   "tipExtFilterRefName": {
+      "message": "Nome interno per il filtro di riferimento in altre espressioni"
+   },
+   "tipNaming": {
+      "message": "Per favore, riferisciti alla pagina Aiuto per l'utilizzo della maschera dei Nomi"
+   },
+   "tipOptItemRuleMatchMode": {
+      "message": "Per favore, nota che solo le Regole attive sono testate per la corrispondenza. Nella modalità Sostituisci, tutte le regole di corrispondenza sono applicate, ma le nuove Regole sovrascriveranno le vecchie."
+   },
+   "tipOptItemSlideDetailsPanel": {
+      "message": "Puoi anche premere Alt+click per aprire il pannello dettagli"
+   },
+   "tipOptNoRuleMatch": {
+      "message": "Applicato quando le regole non corrispondono"
+   },
+   "tipOptSectionOneClick": {
+      "message": "Se attivo, il download inizierà immediatamente cliccando su un link, usando le impostazioni predefinite per le attività (vedi sopra), senza aprire una finestra di dialogo."
+   },
+   "tipOptSectionTaskDefaults": {
+      "message": "Le impostazioni predefinite da applicare quando una nuova attività viene aggiunta, per esempio per \"Scarica con un click\""
+   },
+   "tipRulesActive": {
+      "message": "Solo le regole attive verranno usate per la corrispondenza regole"
+   },
+   "tipRulesAsFilter": {
+      "message": "Mostra come filtro attività nel gestore di download"
+   },
+   "tipRulesRefName": {
+      "message": "Nome interno per le regole di referimento in altre espressioni"
+   },
+   "tipURL": {
+      "message": "Puoi inserire URL multipli separati da nuove linee; Puoi avviare download di gruppo usando i Descrittori di Gruppo"
+   },
+   "tipmsgCopySelectedURLs": {
+      "message": "Puoi premere $1 per copiare gli URLs delle attività selezionate"
+   },
+   "tipmsgDoubleClick": {
+      "message": "È possibile modificare il comportamento del doppio clic sotto $1"
+   },
+   "tipmsgFitColumnWidth": {
+      "message": "Fai doppio click sul ridimensionatore della colonna per adattarla automaticamente al contenuto"
+   },
+   "tipmsgGridSelection": {
+      "message": "Utilizza Ctrl/Shift per selezionare più righe o premi $1 per selezionarle tutte"
+   },
+   "tipmsgNotifications": {
+      "message": "È possibile modificare le impostazioni di suoni e notifiche sotto  $1"
+   },
+   "tipmsgOpenShortcut": {
+      "message": "Il modo più semplice per aprire $1 è premere $2"
+   },
+   "tipmsgSlideDetailsPanel": {
+      "message": "Il pannello a scomparsa dei dettagli può essere disattivato sotto $1"
+   },
+   "tipmsgTaskFilter": {
+      "message": "Trascinare per riordinare i filtri Attività; è possibile anche aggiungere i vostri filtri personalizzati sotto $1"
+   },
+   "titleChangeBG": {
+      "message": "Modifica sfondo"
+   },
+   "titleNewTaskDialog": {
+      "message": "Nuova attività"
+   },
+   "titleOptions": {
+      "message": "Opzioni"
+   },
+   "titleOptionsAbout": {
+      "message": "Informazioni"
+   },
+   "titleOptionsFilter": {
+      "message": "Filtri"
+   },
+   "titleOptionsGeneral": {
+      "message": "Generali"
+   },
+   "titleOptionsHelp": {
+      "message": "Guida"
+   },
+   "titleOptionsInterface": {
+      "message": "Interfaccia utente"
+   },
+   "titleOptionsRules": {
+      "message": "Regole"
+   },
+   "titleQuickSelection": {
+      "message": "Selezione Rapida"
+   },
+   "titleRateShare": {
+      "message": "Vota e condividi!"
+   },
+   "titleSniffer": {
+      "message": "Sniffer"
+   },
+   "titleSwitchUI": {
+      "message": "Cambia modalità di visualizzazione"
+   },
+   "titleTaskProps": {
+      "message": "Proprietà"
+   },
+   "titleTips": {
+      "message": "Suggerimenti"
+   },
+   "titleUpdateLog": {
+      "message": "Log delle modifiche"
+   },
+   "translateContributors": {
+      "message": "bart.found, gianni.mao.95, Giampaolo Arghittu, Salvatore Manzillo, gianfranco.gasponi, il_reverend0, Davide Pepe, Alessandro Digilio etc."
+   },
+   "uilang": {
+      "message": "it"
+   },
+   "uilangName": {
+      "message": "Italian"
+   },
+   "unitBytes": {
+      "message": "$1 byte"
+   },
+   "unitDay": {
+      "message": "$1 giorno"
+   },
+   "unitDays": {
+      "message": "$1 giorni"
+   },
+   "unitHour": {
+      "message": "$1 ora"
+   },
+   "unitHours": {
+      "message": "$1 ore"
+   },
+   "unitMinute": {
+      "message": "$1 min"
+   },
+   "unitMinutes": {
+      "message": "$1 min"
+   },
+   "unitSecond": {
+      "message": "$1 sec"
+   },
+   "unitSeconds": {
+      "message": "$1 sec"
+   }
+}

@@ -1,0 +1,20 @@
+{
+   "chromesysAllowFileAccess": {
+      "message": "Дозволи приступ URL адресама датотека"
+   },
+   "chromesysDownloadLocation": {
+      "message": "Локација преузимања"
+   },
+   "chromesysDownloadsSection": {
+      "message": "Преузимања"
+   },
+   "chromesysShowAdvSettings": {
+      "message": "Прикажи напредна подешавања..."
+   },
+   "extName": {
+      "message": "Chrono Download Manager"
+   },
+   "uilangName": {
+      "message": "Serbian"
+   }
+}

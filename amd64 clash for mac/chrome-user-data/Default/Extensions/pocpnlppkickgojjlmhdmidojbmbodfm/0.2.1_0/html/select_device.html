@@ -1,0 +1,7 @@
+<div ng-controller="recovery.controllers.SelectDeviceController">
+  <div id="content" data-ng-include data-src="selectDeviceController.subView">
+  </div>
+
+  <app-footer forward="app.selectTarget()" back="app.welcome()"
+      disable-forward="!selectDeviceController.canContinue"></app-footer>
+</div>

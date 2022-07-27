@@ -1,0 +1,19 @@
+:root {
+    --font-mono: monospace;
+    --font-sans: sans-serif;
+}
+
+pre, code, textarea {
+    font-family: var(--font-mono);
+}
+
+body {
+    -webkit-text-size-adjust: none;
+    font-family: var(--font-sans);
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}

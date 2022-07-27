@@ -1,0 +1,159 @@
+@font-face{
+	font-family:noto_nashk_regular;
+	font-style:normal;
+	src:url(../fonts/international-text/NotoNaskhArabicUI-Regular.ttf?v=a81b10c6f2bae2a) format("truetype")
+}
+@font-face{
+	font-family:noto_nashk_bold;
+	font-style:normal;
+	src:url(../fonts/international-text/NotoNaskhArabicUI-Bold.ttf?v=71f9de98427b82d5) format("truetype")
+}
+@font-face{
+	font-family:cai_normal;
+	font-style:normal;
+	src:url(../fonts/cairo.ttf?v=768876118d0d1cab) format("truetype")
+}
+@font-face{
+	font-family:cai_bold;
+	font-style:normal;
+	src:url(../fonts/cairo-bold.ttf?v=846db81c8e1c1911) format("truetype")
+}
+@font-face{
+	font-family:cai_light;
+	font-style:normal;
+	src:url(../fonts/cairo-light.ttf?v=3851ed2bb26d76a9) format("truetype")
+}
+body.ar,body.ar a,body.ar div,body.ar form,body.ar h3,body.ar h5,body.ar input,body.ar label,body.ar option,body.ar select,body.ar span,body.ar textarea,body.fa,body.fa a,body.fa form,body.fa input,body.fa label,body.fa option,body.fa select,body.fa textarea{
+	font-family:cai_normal,noto_nashk_regular,source_sans_proregular !important
+}
+body.ar .bottom-page.top-title.mobile span,body.ar .message.user-card-name,body.ar .startpage.square-block.animated.start-animation,body.ar strong,body.fa .message.user-card-name,body.fa strong,body.rtl .bottom-page.large-header.centered-txt .bold,body.rtl .bottom-page.top-title.white-text span,body.rtl .cmd-bg .bottom-page.top-title span,body.rtl .main-mid-pad.big-pad.register1 .main-italic-header,body.rtl .startpage.register.top-button.clickurl,body.rtl .startpage.square-bl-hover .txt .header{
+	font-family:cai_bold,noto_nashk_bold,source_sans_prosemibold !important
+}
+body.rtl .about.top-info,body.rtl .app-instruction-block option,body.rtl .bottom-menu.body .link,body.rtl .bottom-menu .company-info,body.rtl .bottom-page.big-link.scrolldown,body.rtl .bottom-page.bott-pad.angle-pad.blue-bg,body.rtl .bottom-page.business-header,body.rtl .bottom-page.business-text,body.rtl .bottom-page.content-cell,body.rtl .bottom-page.grey-blue-block.top-pad.bott-pad.sync-1,body.rtl .bottom-page.horizontal-centered-bl.huge-pad.arrange-to-top.info.changed-order,body.rtl .bottom-page.large-header.centered-txt,body.rtl .bottom-page.medium-txt.lato,body.rtl .bottom-page.slider-block,body.rtl .bottom-page.slider-button.slide1,body.rtl .bottom-page.top-dark-info.medium,body.rtl .bottom-page.top-description,body.rtl .bottom-page.top-title.mobile,body.rtl .bottom-page.vertical-pull-up,body.rtl .business-cell.business-table-txt,body.rtl .business-mid-header.left-txt-align,body.rtl .business-txt-cols,body.rtl .cmd-bg .bottom-page.horizontal-centered-bl,body.rtl .col-3.inline-block,body.rtl .datepickers-container,body.rtl .download.transfer-wrapper .download.checkbox-txt,body.rtl .fm-left-panel.user-management,body.rtl .fm-right-header-user-management,body.rtl .improved-recovery-steps .button-container,body.rtl .improved-recovery-steps .info-container,body.rtl .inline-block.col-2.cmd-pad .bottom-page.dark-title,body.rtl .inline-block.col-2.cmd-pad .bottom-page.dark-txt,body.rtl .main-mid-pad.third-section .reg-st3-txt-localcurrencyprogram,body.rtl .membership-pad-bl .reg-st3-name-aligner span,body.rtl .membership-st2-info .save-money,body.rtl .mobile.main-block.park-account-change-password,body.rtl .pages-nav-wrap .pages-nav.content-block,body.rtl .recover-account-body-text,body.rtl .rtl-block-if-rtl,body.rtl .subuser-sec-profile-container,body.rtl .top-login-warning,body.rtl .ultra-huge-pad .business-big-header,body.rtl .user-management-view,body.rtl button.no-l-space.create-business-acc-pp span,body.rtl h1.step-main-question{
+	direction:rtl
+}
+body.rtl .bottom-page.blue-block.top-pad.bott-pad.mcmd-pg-p,body.rtl .bus-reg-btn,body.rtl .membership-pad-bl .reg-st3-name-aligner,body.rtl .payment-options-list.primary,body.rtl .register-st3-main-bl .membership-selected-block,body.rtl button.right{
+	direction:ltr
+}
+body.rtl .align-right-if-rtl,body.rtl .big-bott-pad.sync-2 .bottom-page.business-header,body.rtl .big-bott-pad.sync-2 .bottom-page.business-text,body.rtl .big-bott-pad.sync-4 .bottom-page.vertical-centered-cell.left-cell,body.rtl .bottom-page.horizontal-centered-bl.huge-pad.arrange-to-top.info.changed-order .bottom-page.business-text.top-pad,body.rtl .bottom-page.slider-block,body.rtl .business-big-header.left-txt-align,body.rtl .business-cell.business-table-txt,body.rtl .business-mid-header.left-txt-align,body.rtl .horizontal-centered-bl.huge-pad .business-txt-cols .bottom-page.business-header,body.rtl .horizontal-centered-bl.huge-pad .business-txt-cols .bottom-page.business-text,body.rtl .improved-recovery-steps .park-account-checkbox label,body.rtl .inline-block.col-2.cmd-pad .bottom-page.dark-txt{
+	text-align:right;
+	text-align:justify
+}
+body.rtl .about.top-info,body.rtl .horizontal-centered-bl.huge-pad .bottom-page.business-header,body.rtl .horizontal-centered-bl.huge-pad .bottom-page.business-text{
+	text-align:center
+}
+body.rtl .main-mid-pad.third-section .payment-instructions,body.rtl .main-top-info-block .main-top-info-text,body.rtl .payment-section .membership-radio-label,body.rtl .payment-section .payment-method .provider-name{
+	direction:rtl;
+	text-align:left
+}
+body.rtl .info-block.recovery-key,body.rtl .info-block.recovery-key .main-italic-header,body.rtl .info-block.recovery-warning .main-italic-header,body.rtl .mobile .main-mid-pad.third-section .payment-instructions,body.rtl .mobile .main-top-info-block .main-top-info-text,body.rtl .mobile .payment-section .membership-radio-label,body.rtl .mobile .payment-section .payment-method .provider-name{
+	direction:rtl;
+	text-align:unset
+}
+.rtl .top-menu-popup,body.rtl .fm-account-main{
+	direction:rtl
+}
+body.rtl .mega-input.title-ontop .mega-input-title{
+	left:auto;
+	right:4px
+}
+body.rtl .mega-input.title-ontop .message-container{
+	text-align:right
+}
+body.rtl .account.half-sized-block.full-sized-error .message-container,body.rtl .mega-input.title-ontop.halfSize-l .message-container{
+	left:auto;
+	right:4px
+}
+.ar .account.referral-value.euro{
+	vertical-align:middle
+}
+body.rtl .mega-input.title-ontop.with-icon{
+	direction:rtl
+}
+body.rtl .mega-input.title-ontop.with-icon .mega-input-title{
+	right:38px
+}
+body.rtl .mega-input.title-ontop .dialog-input,body.rtl .mega-input.title-ontop input{
+	direction:rtl
+}
+body.rtl .mega-input.title-ontop input.strengthChecker{
+	padding-left:80px;
+	width:100%
+}
+body.rtl .mega-input.title-ontop.strengthChecker .password-status{
+	left:4px;
+	right:auto
+}
+body.rtl .mega-input.title-ontop.strengthChecker.with-icon .password-status{
+	left:38px;
+	right:auto
+}
+body.rtl .mega-input.title-ontop.strengthChecker .password-status{
+	left:4px;
+	right:auto
+}
+body.rtl.mobile .mega-input.title-ontop input.strengthChecker{
+	padding-right:0;
+	width:100%
+}
+body.rtl .mega-input.title-ontop.with-icon .account-pass-lines{
+	margin-top:10px
+}
+body.rtl .half-sized-block.l,body.rtl .mega-input.title-ontop.halfSize-l{
+	float:right
+}
+body.rtl .half-sized-block.r,body.rtl .mega-input.title-ontop.halfSize-r{
+	float:left
+}
+body.rtl .half-sized-block.l{
+	padding:0 0 0 16px
+}
+body.rtl .half-sized-block.r{
+	padding:0 16px 0 0
+}
+body.rtl .mega-input.title-ontop.halfSize-l.with-icon input{
+	width:100%
+}
+body.rtl .mega-input.title-ontop.halfSize-l.with-icon+.halfSize-r input{
+	width:calc(100% - 40px)
+}
+body.ar .wu-stat .wu-total-curr{
+	width:50%
+}
+body.ar .wu-stat .wu-total-speed{
+	width:35%
+}
+body.ar .wu-stat .wu-total-perc{
+	width:15%
+}
+body.ar .improved-recovery-steps .recover-button.yes:before{
+	background-position:-133px -720px
+}
+body.ar .improved-recovery-steps .recover-button.no:before{
+	background-position:-133px -740px
+}
+body.ar .improved-recovery-steps .recover-button.no:before,body.ar .improved-recovery-steps .recover-button.yes:before{
+	background-image:url(../images/mega/recover-account-sprite.png?v=83dadcefcd96b88b);
+	background-repeat:no-repeat;
+	background-size:344px auto;
+	content:"";
+	display:inline-block;
+	height:11px;
+	margin-left:8px;
+	width:20px
+}
+body.ar .improved-recovery-steps .recover-button.no:after,body.ar .improved-recovery-steps .recover-button.yes.mega-button:before,body.ar .improved-recovery-steps .recover-button.yes.red-button:before,body.ar .improved-recovery-steps .recover-button.yes:after{
+	content:none
+}
+body.ar .improved-recovery-steps .checkbox-container .settings-row{
+	overflow-y:hidden
+}
+body.ar .user-management-account-settings .invoice-detail .invoice-button,body.ar .user-management-account-settings .invoice-detail .invoice-container{
+	width:620px
+}
+@media only screen and (-o-min-device-pixel-ratio:3/2),only screen and (-webkit-min-device-pixel-ratio:1.5),only screen and (min--moz-device-pixel-ratio:1.5),only screen and (min-device-pixel-ratio:1.5){
+body.ar .improved-recovery-steps .recover-button.no:before,body.ar .improved-recovery-steps .recover-button.yes:before{
+	background-image:url(../images/mega/recover-account-sprite@2x.png?v=16625400384070f9);
+	background-size:344px auto
+}
+}

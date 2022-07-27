@@ -1,0 +1,36 @@
+<div>
+
+  <section class="instruction">
+    <article>
+      <h1>
+        {{"COMPLETE_TITLE" | translate}}
+        <span ng-show="!app.writeParams.device.local">
+          ({{ app.getDisplayChromeOsVersion() }})
+        </span>
+      </h1>
+
+      <figure>
+        <img class="image" ng-src="../img/success.png" alt="" />
+        <figcaption></figcaption>
+      </figure>
+
+      {{"COMPLETE_MESSAGE" | translate}}
+      <ng-show ng-hide="app.showUserFeedbackForm">
+        <br>
+        <br>
+      </ng-show>
+
+      <ul>
+        <li ng-bind-html="'COMPLETE_BULLET1' | translate"></li>
+        <li ng-bind-html="'COMPLETE_BULLET2' | translate"></li>
+      </ul>
+
+      <div  ng-include="'html/feedback.html'"></div>
+
+    </article>
+  </section>
+
+  <app-footer back="app.reset()" forward="app.sendCrosRecoveryFeedbackAndClose()"
+      forward-text="DONE_BUTTON_TEXT"
+      back-text="CREATE_ANOTHER_BUTTON_TEXT"></app-footer>
+</div>

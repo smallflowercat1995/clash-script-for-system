@@ -1,0 +1,1112 @@
+{
+   "btnAbout": {
+      "message": "เกี่ยวกับ"
+   },
+   "btnAddPaused": {
+      "message": "เพิ่มเฉยๆ"
+   },
+   "btnApply": {
+      "message": "นำไปใช้"
+   },
+   "btnBackToManager": {
+      "message": "กลับ"
+   },
+   "btnCancel": {
+      "message": "ยกเลิก"
+   },
+   "btnClearAll": {
+      "message": "ล้างทั้งหมด"
+   },
+   "btnClearFailed": {
+      "message": "ล้างงานที่ถูกขัดขวางการดาวน์โหลด"
+   },
+   "btnClearFinished": {
+      "message": "ล้างข้อมูลสิ่งที่ต้องทำที่เสร็จแล้ว"
+   },
+   "btnClearRemoved": {
+      "message": "ล้างงานที่ไฟล์สูญหาย"
+   },
+   "btnCreate": {
+      "message": "สร้าง"
+   },
+   "btnFAQ": {
+      "message": "คำถามที่พบบ่อย"
+   },
+   "btnGotIt": {
+      "message": "สำเร็จ!"
+   },
+   "btnGrantPermission": {
+      "message": "ให้สิทธิ์"
+   },
+   "btnImportChromeHistory": {
+      "message": "ประวัติการนำเข้า"
+   },
+   "btnLater": {
+      "message": "ในภายหลัง"
+   },
+   "btnLoadPreview": {
+      "message": "โหลดตัวอย่าง"
+   },
+   "btnOpenManager": {
+      "message": "เปิดตัวจัดการ"
+   },
+   "btnPopRemoveFile": {
+      "message": "และลบไฟล์"
+   },
+   "btnPopRemoveList": {
+      "message": "นำออกจากรายการ"
+   },
+   "btnRate": {
+      "message": "ให้คะแนน"
+   },
+   "btnSave": {
+      "message": "บันทึก"
+   },
+   "btnShareDone": {
+      "message": "ฉันดำเนินการไปแล้ว"
+   },
+   "btnStart": {
+      "message": "เริ่ม"
+   },
+   "btnStartAll": {
+      "message": "ดาวน์โหลดทั้งหมด!"
+   },
+   "btnTakeMeThere": {
+      "message": "พาฉันไปเลย"
+   },
+   "btnUpdateReload": {
+      "message": "โหลดซ้ำเดี๋ยวนี้"
+   },
+   "btnUseSystemDialog": {
+      "message": "โดยใช้ช่องโต้ตอบของระบบ…"
+   },
+   "chromesysAllowFileAccess": {
+      "message": "อนุญาตให้เข้าถึงไฟล์ URL"
+   },
+   "chromesysBrowser": {
+      "message": "เบราว์เซอร์"
+   },
+   "chromesysChange": {
+      "message": "เปลี่ยน..."
+   },
+   "chromesysDownloadLocation": {
+      "message": "ตำแหน่งไฟล์ที่ดาวน์โหลด"
+   },
+   "chromesysDownloadSaveAsPrompt": {
+      "message": "สอบถามที่เก็บไฟล์ก่อนดาวน์โหลด"
+   },
+   "chromesysDownloadsSection": {
+      "message": "ดาวน์โหลด"
+   },
+   "chromesysFailedGenericDownloadError": {
+      "message": "ข้อผิดพลาดในการดาวน์โหลด"
+   },
+   "chromesysFailedGenericNetworkError": {
+      "message": "ข้อผิดพลาดของเครือข่าย"
+   },
+   "chromesysFailed_CRASH": {
+      "message": "ขัดข้อง"
+   },
+   "chromesysFailed_FILE_ACCESS_DENIED": {
+      "message": "สิทธิ์ไม่เพียงพอ"
+   },
+   "chromesysFailed_FILE_BLOCKED": {
+      "message": "ถูกบล็อก"
+   },
+   "chromesysFailed_FILE_NAME_TOO_LONG": {
+      "message": "เส้นทางยาวเกินไป"
+   },
+   "chromesysFailed_FILE_NO_SPACE": {
+      "message": "ดิสก์เต็ม"
+   },
+   "chromesysFailed_FILE_SAME_AS_SOURCE": {
+      "message": "ดาวน์โหลดแล้ว"
+   },
+   "chromesysFailed_FILE_SECURITY_CHECK_FAILED": {
+      "message": "สแกนไวรัสล้มเหลว"
+   },
+   "chromesysFailed_FILE_TOO_LARGE": {
+      "message": "ไฟล์ใหญ่เกินไป"
+   },
+   "chromesysFailed_FILE_TOO_SHORT": {
+      "message": "ไฟล์ไม่สมบูรณ์"
+   },
+   "chromesysFailed_FILE_TRANSIENT_ERROR": {
+      "message": "ระบบกำลังทำงานอื่นอยู่"
+   },
+   "chromesysFailed_FILE_VIRUS_INFECTED": {
+      "message": "ตรวจพบไวรัส"
+   },
+   "chromesysFailed_NETWORK_TIMEOUT": {
+      "message": "ระยะหมดเวลาของเครือข่าย"
+   },
+   "chromesysFailed_SERVER_BAD_CONTENT": {
+      "message": "ไม่มีไฟล์"
+   },
+   "chromesysFailed_SERVER_CERT_PROBLEM": {
+      "message": "ใบรับรองมีปัญหา"
+   },
+   "chromesysFailed_SERVER_CONTENT_LENGTH_MISMATCH": {
+      "message": "ไฟล์ไม่สมบูรณ์"
+   },
+   "chromesysFailed_SERVER_FAILED": {
+      "message": "ปัญหาของเซิร์ฟเวอร์"
+   },
+   "chromesysFailed_SERVER_FORBIDDEN": {
+      "message": "ต้องห้าม"
+   },
+   "chromesysFailed_SERVER_UNAUTHORIZED": {
+      "message": "ต้องขออนุมัติก่อน"
+   },
+   "chromesysFailed_SERVER_UNREACHABLE": {
+      "message": "ไม่สามารถเข้าถึงเซิร์ฟเวอร์"
+   },
+   "chromesysFailed_USER_CANCELED": {
+      "message": "ยกเลิกแล้ว"
+   },
+   "chromesysFailed_USER_SHUTDOWN": {
+      "message": "ปิด"
+   },
+   "chromesysFontSize": {
+      "message": "ขนาดแบบอักษร"
+   },
+   "chromesysLanguageSection": {
+      "message": "ภาษา"
+   },
+   "chromesysShowAdvSettings": {
+      "message": "แสดงการตั้งค่าขั้นสูง..."
+   },
+   "chromesysWebStore": {
+      "message": "Chrome เว็บสโตร์"
+   },
+   "confirmBatchDownload": {
+      "message": "มันดูเหมือนว่าคุณกำลังจะเริ่มต้นการดาวน์โหลดชุดนี่คือตัวอย่างบางส่วน:"
+   },
+   "confirmBatchDownloadNaming": {
+      "message": "สำหรับการดาวน์โหลดแบบกลุ่ม โปรดแน่ใจว่าโครงร่างชื่อจะสร้างชื่อไฟล์ที่แตกต่างกัน ดำเนินการต่อไปหรือไม่ ?"
+   },
+   "confirmBtnYes": {
+      "message": "ใช่"
+   },
+   "confirmBtnYesFile": {
+      "message": "ใช่ยังลบไฟล์ (s)"
+   },
+   "confirmCantResumeRestart": {
+      "message": "งาน $1 ล้มเหลวที่จะกลับมาเริ่มต้นใหม่ได้หรือไม่"
+   },
+   "confirmClearTask": {
+      "message": "คุณแน่ใจไหมว่าต้องการนำ $1 รายการออก"
+   },
+   "confirmCreateWhenNotExists": {
+      "message": "$1 ไม่มีอยู่ คุณต้องการที่จะสร้างหรือไม่?"
+   },
+   "confirmProceed": {
+      "message": "ทำต่อหรือไม่?"
+   },
+   "confirmRecycleRunning": {
+      "message": "รีไซเคิลทำงานงาน (s)?"
+   },
+   "confirmRemoveExtFilter": {
+      "message": "นำรายการที่เลือกออกหรือไม่"
+   },
+   "confirmRemoveRule": {
+      "message": "นำรายการที่เลือกออกหรือไม่"
+   },
+   "confirmRemoveTask": {
+      "message": "ลบงานที่เลือกถาวร?"
+   },
+   "confirmReset": {
+      "message": "ไม่สามารถยกเลิกการทำงานได้ คุณต้องการจะทำต่อหรือไม่"
+   },
+   "errorFNameConflict": {
+      "message": "ข้อขัดแย้งในการตั้งชื่อ"
+   },
+   "errorFileNotExist": {
+      "message": "ไม่พบไฟล์"
+   },
+   "errorFileOrFolderExists": {
+      "message": "มีไฟล์หรือโฟลเดอร์ชื่อนี้อยู่แล้ว"
+   },
+   "errorInvalidNamingMask": {
+      "message": "ชื่อไม่ถูกต้อง"
+   },
+   "errorInvalidSubdir": {
+      "message": "ไดเรกทอรีย่อยไม่ถูกต้อง"
+   },
+   "errorInvalidURLs": {
+      "message": "URL ไม่ถูกต้อง"
+   },
+   "errorNoID": {
+      "message": "ล้มเหลวที่จะเพิ่มงานใหม่ที่จะ Chrono เพราะมีงานมากเกินไปในการจัดการทำความสะอาดที่ไม่ได้ใช้งานและลองอีกครั้ง"
+   },
+   "errorNone": {
+      "message": "ไม่มีข้อผิดพลาด"
+   },
+   "errorRemovedFromChrome": {
+      "message": "งานอาจจะถูกลบออกจากโครม"
+   },
+   "errorSingleURLAllowed": {
+      "message": "โปรดป้อน URL เดียวเท่านั้น"
+   },
+   "errorUnableOpen": {
+      "message": "เปิด $1 ไม่ได้"
+   },
+   "errorUnknownReloadPage": {
+      "message": "เกิดข้อผิดพลาด โปรดโหลดหน้านี้ซ้ำเพื่อทำต่อ"
+   },
+   "everyXDays": {
+      "message": "ทุก $1 วัน"
+   },
+   "everyXHours": {
+      "message": "ทุก $1 ชั่วโมง"
+   },
+   "everyXMinutes": {
+      "message": "ทุก $1 นาที"
+   },
+   "extDesc": {
+      "message": "การจัดการการดาวน์โหลด | ผู้ช่วยดาวน์โหลดวีดีโอ | ผู้ช่วยดาวน์โหลดรูปภาพ"
+   },
+   "extDescBest": {
+      "message": "ผู้จัดการการดาวน์โหลดที่ดีที่สุดสำหรับ Chrome"
+   },
+   "extDescSlogan": {
+      "message": "ดาวน์โหลดและจัดการเว็บ!"
+   },
+   "extName": {
+      "message": "Chrono ตัวจัดการการดาวน์โหลด"
+   },
+   "extsAll": {
+      "message": "ทั้งหมด"
+   },
+   "extsApp": {
+      "message": "แอปพลิเคชัน"
+   },
+   "extsArchive": {
+      "message": "ไฟล์เก็บถาวร"
+   },
+   "extsAudio": {
+      "message": "เสียง"
+   },
+   "extsDocument": {
+      "message": "เอกสาร"
+   },
+   "extsImage": {
+      "message": "รูปภาพ"
+   },
+   "extsNew": {
+      "message": "ตัวกรองใหม่"
+   },
+   "extsOthers": {
+      "message": "อื่นๆ"
+   },
+   "extsVideo": {
+      "message": "วิดีโอ"
+   },
+   "fieldAddTime": {
+      "message": "เวลาที่สร้าง"
+   },
+   "fieldAvgSpeed": {
+      "message": "ความเร็วเฉลี่ย"
+   },
+   "fieldDownloadedSize": {
+      "message": "ดาวน์โหลดแล้ว"
+   },
+   "fieldElapsedTime": {
+      "message": "เวลาที่ผ่านไป"
+   },
+   "fieldFileName": {
+      "message": "ชื่อไฟล์"
+   },
+   "fieldFileSize": {
+      "message": "ขนาดไฟล์"
+   },
+   "fieldFinishTime": {
+      "message": "เวลาที่เสร็จสมบูรณ์"
+   },
+   "fieldFolder": {
+      "message": "โฟลเดอร์"
+   },
+   "fieldNaming": {
+      "message": "โครงร่างชื่อไฟล์"
+   },
+   "fieldProgress": {
+      "message": "ความคืบหน้า"
+   },
+   "fieldRedirection": {
+      "message": "การเปลี่ยนเส้นทาง"
+   },
+   "fieldReferer": {
+      "message": "ผู้อ้างอิง"
+   },
+   "fieldRemainingTime": {
+      "message": "เวลาที่เหลือ"
+   },
+   "fieldRemarks": {
+      "message": "ข้อคิดเห็น"
+   },
+   "fieldSpeed": {
+      "message": "ความเร็ว"
+   },
+   "fieldState": {
+      "message": "สถานะ"
+   },
+   "fieldThreads": {
+      "message": "กระทู้"
+   },
+   "fieldType": {
+      "message": "ประเภทไฟล์"
+   },
+   "fieldURL": {
+      "message": "URL"
+   },
+   "headExtFilterCaption": {
+      "message": "ชื่อที่แสดง"
+   },
+   "headExtFilterExts": {
+      "message": "นามสกุลไฟล์"
+   },
+   "headExtFilterRefName": {
+      "message": "ชื่อภายใน"
+   },
+   "headRulesActive": {
+      "message": "ใช้งาน"
+   },
+   "headRulesAsFilter": {
+      "message": "ในฐานะที่เป็นงานตัวกรอง"
+   },
+   "headRulesCaption": {
+      "message": "ชื่อที่แสดง"
+   },
+   "headRulesCondition": {
+      "message": "เงื่อนไข"
+   },
+   "headRulesRefName": {
+      "message": "ชื่อภายใน"
+   },
+   "helpExtFilter": {
+      "message": "* ดับเบิลคลิกเพื่อแก้ไข \n* ประเภทในแถวที่ว่างเปล่าเพื่อเพิ่มตัวกรองใหม่ \n* แถวเลือกและกด DELETE เพื่อลบออก"
+   },
+   "helpRules": {
+      "message": "* ดับเบิลคลิกเพื่อแก้ไข \n* ประเภทในแถวที่ว่างเปล่าเพื่อเพิ่มกฎใหม่ \n* แถวเลือกและกด DELETE เพื่อลบออก \n* หากคุณมีปัญหาในการเขียนกฎโปรดดูที่ส่วนช่วยเหลือ"
+   },
+   "hintSearchDownloads": {
+      "message": "ค้นสิ่งที่ดาวน์โหลดไว้"
+   },
+   "labelAutoClear": {
+      "message": "กำหนดการ"
+   },
+   "labelBGBlur": {
+      "message": "เบลอ"
+   },
+   "labelBGChooseFrom": {
+      "message": "เลือกรูปภาพ"
+   },
+   "labelBGConstantColor": {
+      "message": "สีทึบ"
+   },
+   "labelBGImageURL": {
+      "message": "URL ของรูปภาพที่กำหนดเอง"
+   },
+   "labelBGOpacity": {
+      "message": "ความทึบ"
+   },
+   "labelChooseDownloadLocation": {
+      "message": "เลือกตำแหน่งดาวน์โหลด"
+   },
+   "labelCustomFilter": {
+      "message": "ตัวกรองที่กำหนดเอง"
+   },
+   "labelDateModified": {
+      "message": "วันที่แก้ไข"
+   },
+   "labelDownloadToDefaultFolder": {
+      "message": "ดาวน์โหลดไปยังโฟลเดอร์เริ่มต้น"
+   },
+   "labelEnableFolderSelection": {
+      "message": "เปิดใช้งานการเลือกโฟลเดอร์"
+   },
+   "labelFolderColon": {
+      "message": "โฟลเดอร์:"
+   },
+   "labelNewFolder": {
+      "message": "โฟลเดอร์ใหม่"
+   },
+   "labelStarred": {
+      "message": "ติดดาวไว้"
+   },
+   "labelUnableSaveToFolder": {
+      "message": "ไม่สามารถบันทึกลงในสถานที่ได้"
+   },
+   "labelUseLastLocation": {
+      "message": "การใช้ตำแหน่งล่าสุด"
+   },
+   "menuDAudio": {
+      "message": "บันทึกวิดีโอเป็น..."
+   },
+   "menuDAudioOneClick": {
+      "message": "คลิ๊กเดียว เพื่อดาวน์โหลดเสียง"
+   },
+   "menuDImage": {
+      "message": "บันทึกรูปภาพเป็น..."
+   },
+   "menuDImageOneClick": {
+      "message": "คลิ๊กเดียว เพื่อดาวน์โหลดภาพ"
+   },
+   "menuDLink": {
+      "message": "บันทึกลิงก์เป็น..."
+   },
+   "menuDLinkOneClick": {
+      "message": "คลิ๊กเดียว เพื่อดาวน์โหลดลิงค์ใ"
+   },
+   "menuDVideo": {
+      "message": "บันทึกวิดีโอเป็น..."
+   },
+   "menuDVideoOneClick": {
+      "message": "คลิ๊กเดียว เพื่อดาวน์โหลดวีดีโอ"
+   },
+   "menuGetHelp": {
+      "message": "รับความช่วยเหลือ"
+   },
+   "menuOpenManager": {
+      "message": "เปิดตัวจัดการ"
+   },
+   "menuReportIssue": {
+      "message": "รายงานปัญหา"
+   },
+   "msgCannotScanResources": {
+      "message": "ไม่สามารถสแกนทรัพยากรสำหรับหน้านี้"
+   },
+   "msgChooseFolderUnderHome": {
+      "message": "โปรดเลือกโฟลเดอร์ภายใต้ตำแหน่งดาวน์โหลดเริ่มต้นของเบราว์เซอร์"
+   },
+   "msgChromeI18nLanguage": {
+      "message": "Chrono ใช้ภาษาเดียวกับเบราว์เซอร์ Chrome ของคุณ"
+   },
+   "msgEmptyDownloadsList": {
+      "message": "รายการที่ว่างเปล่า"
+   },
+   "msgEnableFileAccess": {
+      "message": "คุณสามารถเปิดคุณลักษณะนี้ได้โดยเลือกช่องทำเครื่องหมาย $1 ใต้ $2 ในหน้า chrome://extensions"
+   },
+   "msgFolderDisabledNoFileAccess": {
+      "message": "ฟังก์ชันการเลือกโฟลเดอร์ถูกปิดใช้งานเนื่องจากไม่อนุญาตให้เข้าถึงไฟล์ภายในเครื่อง"
+   },
+   "msgFolderDisabledNonWritable": {
+      "message": "ฟังก์ชันการเลือกโฟลเดอร์ถูกปิดใช้งาน โปรดตรวจสอบให้แน่ใจว่าไม่ได้ตั้งค่าตำแหน่งการดาวน์โหลดเริ่มต้นเป็นโฟลเดอร์ระบบและกล่องโต้ตอบบันทึกเป็นของเบราว์เซอร์ปิดอยู่"
+   },
+   "msgMultiDownloadsCanceledFilenameConflict": {
+      "message": "การดาวน์โหลด $1 ถูกยกเลิกเนื่องจากชื่อไฟล์ขัดแย้งกัน"
+   },
+   "msgPreviewErrorReadFile": {
+      "message": "เกิดข้อผิดพลาดในการอ่านไฟล์"
+   },
+   "msgPreviewFailed": {
+      "message": "ไม่สามารถโหลดตัวอย่างไฟล์ได้"
+   },
+   "msgPreviewFileAccess": {
+      "message": "ไม่สามารถโหลดไฟล์ท้องถิ่นสำหรับดูตัวอย่างได้"
+   },
+   "msgPreviewLargeFile": {
+      "message": "การโหลดหน้าตัวอย่างอาจใช้เวลาสักครู่"
+   },
+   "msgPreviewPdfViewer": {
+      "message": "Chrome PDF Viewer เป็นสิ่งจำเป็นสำหรับการแสดงตัวอย่างกรุณาเปิดโดยใช้คำแนะนำ"
+   },
+   "msgRateShare": {
+      "message": "หากพบว่า $1 มีประโยชน์ โปรดให้คะแนนที่ $2 และแชร์ให้เพื่อนของท่าน!"
+   },
+   "msgSearchNoResults": {
+      "message": "ไม่พบผลลัพธ์"
+   },
+   "msgSelectTaskInfo": {
+      "message": "ไม่ได้เลือกรายการใดเลย"
+   },
+   "msgSingleDownloadCanceledFilenameConflict": {
+      "message": "การดาวน์โหลด $1 ถูกยกเลิกเนื่องจากชื่อไฟล์ขัดแย้งกัน"
+   },
+   "msgTaskAddPaused": {
+      "message": "งานเพิ่มและหยุดชั่วคราว"
+   },
+   "msgTaskFinish": {
+      "message": "ดาวน์โหลดเสร็จสมบูรณ์"
+   },
+   "msgTaskInterrupt": {
+      "message": "ดาวน์โหลดล้มเหลว"
+   },
+   "msgTaskStart": {
+      "message": "งานเพิ่มคิว"
+   },
+   "msgTextUpdateAvail": {
+      "message": "โปรดโหลดส่วนขยายไปยังใช้การปรับปรุง"
+   },
+   "msgTextWelcome": {
+      "message": "ก่อนที่จะเริ่มก็แนะนำให้ปิดของ Chrome \"บันทึกใ ห้เป็น\" โต้ตอบด้วยการล้างช่องภายใต้ $1\nนอกจากนี้คุณยังอาจช่วยให้ Chrono เพื่อเข้าถึง URL ที่ไฟล์เพื่อให้บรรลุประสบการณ์การใช้งานที่ดีซึ่งสามารถเปิดใช้งานโดยช่อง $2 ภายใต้ $3\nหากคุณมีคำถามใด ๆ โปรดตรวจสอบหน้าช่วยเหลือและคำถามที่พบบ่อยหน้านี้คุณยังสามารถส่งอีเมลไปยัง dev@chronodownloader.net\nสนุก!"
+   },
+   "msgTitleUpdateAvail": {
+      "message": "มีเวอร์ชันใหม่แล้ว"
+   },
+   "msgTitleWelcome": {
+      "message": "ยินดีต้อนรับ!"
+   },
+   "msgUpdated": {
+      "message": "อัปเดต $1"
+   },
+   "optItemBadgeDownloadNum": {
+      "message": "แสดงจำนวนของงานการดาวน์โหลดที่ด้านบนของไอคอนแถบเครื่องมือ"
+   },
+   "optItemClearRemoveFile": {
+      "message": "ลบจากดิสก์"
+   },
+   "optItemClearSearch": {
+      "message": "ล้างช่องค้นหาเมื่อมีการเปลี่ยนแปลงตัวกรอง"
+   },
+   "optItemClickNotify": {
+      "message": "คลิกที่การแจ้งเตือน"
+   },
+   "optItemConcurrentDownloads": {
+      "message": "ดาวน์โหลดพร้อมกัน"
+   },
+   "optItemDblClickAction": {
+      "message": "ดับเบิลคลิกที่งาน"
+   },
+   "optItemDefAddPaused": {
+      "message": "เพิ่มเฉยๆ"
+   },
+   "optItemDefFolder": {
+      "message": "ตำแหน่งเริ่มต้น"
+   },
+   "optItemDefNaming": {
+      "message": "โครงร่างชื่อเริ่มต้น"
+   },
+   "optItemDownloadClipboard": {
+      "message": "ดาวน์โหลด URL จากคลิปบอร์ด"
+   },
+   "optItemDownloadsPerServer": {
+      "message": "ดาวน์โหลดต่อเซิร์ฟเวอร์"
+   },
+   "optItemHideShelf": {
+      "message": "ซ่อนการเก็บรักษาการดาวน์โหลดของ Chrome / บาร์"
+   },
+   "optItemMenuDialog": {
+      "message": "บันทึกลิงก์เป็น..."
+   },
+   "optItemMenuOneClick": {
+      "message": "คลิกเดียวดาวน์โหลดลิงก์/ภาพ"
+   },
+   "optItemNameConflict": {
+      "message": "เมื่อความขัดแย้งชื่อไฟล์"
+   },
+   "optItemNotifyError": {
+      "message": "แสดงการแจ้งเตือนเมื่อเกิดข้อผิดพลาด"
+   },
+   "optItemNotifyFinish": {
+      "message": "แสดงการแจ้งเตือนเมื่อการดาวน์โหลดเสร็จสมบูรณ์"
+   },
+   "optItemNotifyLargePreview": {
+      "message": "แสดงตัวอย่างขนาดใหญ่สำหรับภาพ"
+   },
+   "optItemNotifyOneClick": {
+      "message": "แสดงการแจ้งเตือนเมื่อมีการเพิ่มการดาวน์โหลดในคลิกเดียว"
+   },
+   "optItemNotifyProgress": {
+      "message": "แสดงความคืบหน้าของการดาวน์โหลด"
+   },
+   "optItemOverrideChrome": {
+      "message": "แทนที่เดิมหน้าดาวน์โหลดของ Chrome และเปิดใช้งานแป้นพิมพ์ลัด $1"
+   },
+   "optItemPopClearClose": {
+      "message": "ป๊อปอัพหลังจากที่ปิดการล้างงาน"
+   },
+   "optItemPopDeleteAction": {
+      "message": "คลิกที่ปุ่ม 'ลบ'"
+   },
+   "optItemPopLikeButtons": {
+      "message": "แสดงปุ่มสื่อสังคม"
+   },
+   "optItemPopMaxItems": {
+      "message": "รายการสูงสุดในรายการการดาวน์โหลด"
+   },
+   "optItemPopShowDLFirst": {
+      "message": "งานแสดงครั้งแรกในการดาวน์โหลด"
+   },
+   "optItemPreviewAutoplay": {
+      "message": "เล่นอัตโนมัติ"
+   },
+   "optItemRecycleCancel": {
+      "message": "ยกเลิกงานเมื่อมันกลับมาใช้ใหม่"
+   },
+   "optItemRuleMatchMode": {
+      "message": "โหมดจับคู่"
+   },
+   "optItemSlideDetailsPanel": {
+      "message": "สไลด์ในแผงเมื่อคลิกรายละเอียดในงาน"
+   },
+   "optItemSoundError": {
+      "message": "เล่นเสียงเมื่อเกิดข้อผิดพลาด"
+   },
+   "optItemSoundFinish": {
+      "message": "เล่นเสียงเมื่อการดาวน์โหลดเสร็จสมบูรณ์"
+   },
+   "optItemStartInterrupted": {
+      "message": "ปุ่ม เริ่ม สามารถเริ่มขัดจังหวะงานได้"
+   },
+   "optOptionClearAllNotify": {
+      "message": "ล้างการแจ้งเตือนทั้งหมด"
+   },
+   "optOptionClearNotify": {
+      "message": "ล้างการแจ้งเตือน"
+   },
+   "optOptionDoNothing": {
+      "message": "ไม่ต้องทำอะไร"
+   },
+   "optOptionFirstMatch": {
+      "message": "ครั้งแรกที่จับคู่"
+   },
+   "optOptionOpenFile": {
+      "message": "เปิดไฟล์"
+   },
+   "optOptionOpenFolder": {
+      "message": "เปิดโฟลเดอร์"
+   },
+   "optOptionOverwrite": {
+      "message": "เขียนทับ"
+   },
+   "optOptionPrompt": {
+      "message": "ถาม"
+   },
+   "optOptionRemAsk": {
+      "message": "ถาม"
+   },
+   "optOptionRemFile": {
+      "message": "ลบจากดิสก์โดยไม่ต้องมีการยืนยัน"
+   },
+   "optOptionRemList": {
+      "message": "นำออกจากรายการ"
+   },
+   "optOptionReplace": {
+      "message": "แทนที่"
+   },
+   "optOptionSkipCancel": {
+      "message": "ยกเลิกการดาวน์โหลด"
+   },
+   "optOptionSkipPause": {
+      "message": "หยุดดาวน์โหลดชั่วคราว"
+   },
+   "optOptionStartPause": {
+      "message": "เริ่มหรือหยุดเล่นชั่วคราว"
+   },
+   "optOptionUniquify": {
+      "message": "ทำให้มันไม่ซ้ำกัน"
+   },
+   "optSectionBehaviors": {
+      "message": "การทำงาน"
+   },
+   "optSectionMenu": {
+      "message": "เมนู"
+   },
+   "optSectionMisc": {
+      "message": "เบ็ดเตล็ด"
+   },
+   "optSectionNetwork": {
+      "message": "เครือข่าย"
+   },
+   "optSectionNewTaskDialog": {
+      "message": "สิ่งใหม่ที่ต้องทำ"
+   },
+   "optSectionNotifications": {
+      "message": "การแจ้งเตือน"
+   },
+   "optSectionOneClick": {
+      "message": "ดาวน์โหลดในคลิกเดียว"
+   },
+   "optSectionPopup": {
+      "message": "ป๊อปอัป"
+   },
+   "optSectionPreview": {
+      "message": "ดูตัวอย่าง"
+   },
+   "optSectionTaskDefaults": {
+      "message": "เริ่มต้นงานใหม่"
+   },
+   "optionAddTop": {
+      "message": "เพิ่มไปที่บนสุดของคิวงาน"
+   },
+   "optionDisableExtFilters": {
+      "message": "ปิดการกรองเสริม"
+   },
+   "optionDontAsk": {
+      "message": "จดจำตัวเลือกของฉัน"
+   },
+   "optionSearchCaseSensitive": {
+      "message": "พิจารณาตัวพิมพ์เล็กและใหญ่"
+   },
+   "optionSearchFuzzyMatch": {
+      "message": "การจับคู่ Fuzzy"
+   },
+   "optionShowSize": {
+      "message": "แสดงขนาดไฟล์"
+   },
+   "optionTableAutoResize": {
+      "message": "บังคับให้พอดีคอลัมน์"
+   },
+   "optionTableSyncResize": {
+      "message": "ปรับขนาดให้เหมาะสม"
+   },
+   "phraseAutomatic": {
+      "message": "อัตโนมัติ"
+   },
+   "phraseEnable": {
+      "message": "เปิดใช้"
+   },
+   "phraseMultiValues": {
+      "message": "หลายค่า"
+   },
+   "phraseNever": {
+      "message": "ไม่ต้องเลย"
+   },
+   "phrasePreview": {
+      "message": "ดูตัวอย่าง"
+   },
+   "phraseRegex": {
+      "message": "นิพจน์ทั่วไป"
+   },
+   "phraseToday": {
+      "message": "วันนี้"
+   },
+   "phraseUnknown": {
+      "message": "ไม่รู้จัก"
+   },
+   "phraseUnknownSize": {
+      "message": "ไม่ทราบขนาด"
+   },
+   "phraseVersion": {
+      "message": "เวอร์ชัน"
+   },
+   "phraseYesterday": {
+      "message": "เมื่อวานนี้"
+   },
+   "ruleAllTasks": {
+      "message": "งานทั้งหมด"
+   },
+   "ruleAudio": {
+      "message": "เสียง"
+   },
+   "ruleDocument": {
+      "message": "เอกสาร"
+   },
+   "ruleDownloading": {
+      "message": "กำลังดาวน์โหลด"
+   },
+   "ruleFinished": {
+      "message": "เสร็จสิ้น"
+   },
+   "ruleImage": {
+      "message": "รูปภาพ"
+   },
+   "ruleInterrupted": {
+      "message": "ล้มเหลว"
+   },
+   "ruleNew": {
+      "message": "กฎใหม่"
+   },
+   "ruleOther": {
+      "message": "อื่นๆ"
+   },
+   "ruleRecent": {
+      "message": "ล่าสุด"
+   },
+   "ruleRecycled": {
+      "message": "ถังขยะ"
+   },
+   "ruleSmallFiles": {
+      "message": "ไฟล์เล็ก"
+   },
+   "ruleVideo": {
+      "message": "วิดีโอ"
+   },
+   "stateDownloading": {
+      "message": "กำลังดาวน์โหลด"
+   },
+   "stateError": {
+      "message": "ล้มเหลว"
+   },
+   "stateFileMiss": {
+      "message": "ไฟล์สูญหายไป"
+   },
+   "stateFinished": {
+      "message": "เสร็จสิ้น"
+   },
+   "statePaused": {
+      "message": "หยุดชั่วคราว"
+   },
+   "stateQueue": {
+      "message": "กำลังรอ"
+   },
+   "statusCopyURL": {
+      "message": "กำลังคัดลอก URL..."
+   },
+   "statusCopyURLDone": {
+      "message": "URL ที่คัดลอกไปยังคลิปบอร์ด"
+   },
+   "statusDownloadedSize": {
+      "message": "$1 จาก $2"
+   },
+   "statusImportDone": {
+      "message": "นำเข้าเสร็จสมบูรณ์แล้ว"
+   },
+   "statusImporting": {
+      "message": "กำลังนำเข้า..."
+   },
+   "statusNumDownloading": {
+      "message": "$1 กำลังดาวน์โหลด"
+   },
+   "statusNumItems": {
+      "message": "$1 รายการ"
+   },
+   "statusReadClipboard": {
+      "message": "กำลังอ่านคลิปบอร์ด..."
+   },
+   "statusScheduledAutoClear": {
+      "message": "การลบงานอัตโนมัติใน $1 วิ"
+   },
+   "statusSelectedOf": {
+      "message": "เลือกไว้ $1 รายการ"
+   },
+   "statusTasksCleared": {
+      "message": "นำ $1 รายการออกแล้ว"
+   },
+   "statusTimeLeft": {
+      "message": "เหลือ $1"
+   },
+   "tipAutoClear": {
+      "message": "ลบงานอัตโนมัติ แต่เก็บไฟล์ไว้"
+   },
+   "tipBGBlur": {
+      "message": "ผลการเบลอของภาพอาจลดการตอบสนอง GUI"
+   },
+   "tipBGEnable": {
+      "message": "เนื่องจากปัญหาบางอย่างของ Chrome การใช้ภาพพื้นหลังจะเพิ่มปริมาณการใช้ Memory เป็นจำนวนมาก โปรดจดจำสิ่งนี้ไว้ก่อนเปิดใช้งานคุณลักษณะนี้"
+   },
+   "tipBGURLHasFileAccess": {
+      "message": "ป้อน URL เว็บหรือเส้นทางที่เต็มไปด้วยภาพในคอมพิวเตอร์ของคุณนำหน้าด้วย 'file:///'"
+   },
+   "tipBGURLNoFileAccess": {
+      "message": "ป้อน URL เว็บหรือเส้นทางที่เต็มไปด้วยภาพบนเครื่องคอมพิวเตอร์ของคุณ (ไฟล์ท้องถิ่นคุณต้องเปิดใช้งานการเข้าถึงไฟล์สำหรับโครโนครั้งแรกให้คลิกที่เครื่องหมายคำถามเพื่อดูว่า)Chrono"
+   },
+   "tipBrowserAction": {
+      "message": "ดาวน์โหลดทุกอย่างในเว็บนี้"
+   },
+   "tipBtnBackToManager": {
+      "message": "กลับไปหน้าการจัดการ"
+   },
+   "tipBtnChangeBrowserDownloadsSettings": {
+      "message": "เปลี่ยนการตั้งค่าการดาวน์โหลดเบราว์เซอร์"
+   },
+   "tipBtnChangeDefaultLocation": {
+      "message": "เปลี่ยนโฟลเดอร์ปลายทาง..."
+   },
+   "tipBtnClear": {
+      "message": "ล้างข้อมูล"
+   },
+   "tipBtnConfigExtFilters": {
+      "message": "แก้ไขตัวกรอง"
+   },
+   "tipBtnCopyLink": {
+      "message": "คัดลอกลิงก์"
+   },
+   "tipBtnDelete": {
+      "message": "ลบ"
+   },
+   "tipBtnHelp": {
+      "message": "ความช่วยเหลือ"
+   },
+   "tipBtnNewTask": {
+      "message": "สิ่งใหม่ที่ต้องทำ"
+   },
+   "tipBtnOpenDefaultLocation": {
+      "message": "เปิดโฟลเดอร์ดาวน์โหลด"
+   },
+   "tipBtnOpenFile": {
+      "message": "เปิดไฟล์"
+   },
+   "tipBtnOpenFolder": {
+      "message": "เปิดโฟลเดอร์"
+   },
+   "tipBtnOptions": {
+      "message": "ตัวเลือก"
+   },
+   "tipBtnPause": {
+      "message": "หยุดชั่วคราว"
+   },
+   "tipBtnPauseAll": {
+      "message": "หยุดชั่วคราวทั้งหมด"
+   },
+   "tipBtnPopList": {
+      "message": "เปลี่ยนเป็นรายการ"
+   },
+   "tipBtnPopSniffer": {
+      "message": "สลับไปยังตัวดักจับข้อมูล"
+   },
+   "tipBtnRecycle": {
+      "message": "ย้ายไปที่ถังขยะ"
+   },
+   "tipBtnRestart": {
+      "message": "เริ่มต้นใหม่"
+   },
+   "tipBtnRestore": {
+      "message": "กู้คืน"
+   },
+   "tipBtnSort": {
+      "message": "จัดเรียง"
+   },
+   "tipBtnStart": {
+      "message": "เริ่ม"
+   },
+   "tipBtnStartAll": {
+      "message": "เริ่มทั้งหมด"
+   },
+   "tipExtFilterEnable": {
+      "message": "เปิดใช้งานแบบส่วนขยายตัวกรองในตัวดักจับข้อมูล Chrono"
+   },
+   "tipExtFilterRefName": {
+      "message": "ชื่อภายในสำหรับการอ้างอิงกรองในการแสดงออกอื่น ๆ"
+   },
+   "tipNaming": {
+      "message": "โปรดดูที่หน้าช่วยเหลือสำหรับการใช้งานโครงร่างชื่อ"
+   },
+   "tipOptItemRuleMatchMode": {
+      "message": "โปรดทราบว่ากฎการใช้งานเพียง แต่จะมีการทดสอบสำหรับการจับคู่ ในโหมดเปลี่ยนกฎการจับคู่ทั้งหมดจะถูกนำไปใช้ แต่กฎหลังจะเขียนทับคนในอดีต"
+   },
+   "tipOptItemSlideDetailsPanel": {
+      "message": "นอกจากนี้คุณยังสามารถกดปุ่ม Alt และเลือกคลิกที่งานเพื่อเปิดแถบรายละเอียด"
+   },
+   "tipOptNoRuleMatch": {
+      "message": "เมื่อนำมาใช้กฎข้อที่ไม่ตรงกับ"
+   },
+   "tipOptSectionOneClick": {
+      "message": "หากเปิดใช้งาน การดาวน์โหลดจะเริ่มต้นทันทีเมื่อคลิกที่ลิงค์ ด้วยใช้การตั้งค่าเริ่มต้น (ดูด้านบน) โดยไม่ต้องแสดงหน้าต่างแจ้งเตือนการตั้งค่าโครงร่างชื่อ เป็นต้น"
+   },
+   "tipOptSectionTaskDefaults": {
+      "message": "ใช้การตั้งค่าเริ่มต้นเมื่อมีการเพิ่มงานใหม่ เช่น ใช้สำหรับการดาวน์โหลดในคลิกเดียว"
+   },
+   "tipRulesActive": {
+      "message": "กฎการใช้งานเท่านั้นที่จะนำมาใช้สำหรับการจับคู่กฎ"
+   },
+   "tipRulesAsFilter": {
+      "message": "แสดงเป็นงานที่กรองในตัวจัดการดาวน์โหลด"
+   },
+   "tipRulesRefName": {
+      "message": "ชื่อภายในสำหรับการอ้างอิงในการแสดงออกการปกครองอื่น ๆ"
+   },
+   "tipURL": {
+      "message": "คุณสามารถป้อน URL ที่แยกจากกันโดยหลายสายใหม่ คุณสามารถเริ่มต้นการดาวน์โหลดชุดโดยใช้อธิบายชุด"
+   },
+   "tipmsgCopySelectedURLs": {
+      "message": "คุณก็สามารถกด $1 เพื่อคัดลอก URL ที่ของงานที่เลือก (s)"
+   },
+   "tipmsgDoubleClick": {
+      "message": "คุณสามารถเปลี่ยนพฤติกรรมการดับเบิลคลิกที่อายุต่ำกว่า $1"
+   },
+   "tipmsgFitColumnWidth": {
+      "message": "ดับเบิลคลิกที่ Resizer คอลัมน์เพื่อปรับความกว้างของคอลัมน์โดยอัตโนมัติ"
+   },
+   "tipmsgGridSelection": {
+      "message": "ใช้ Ctrl / กดปุ่ม Shift เพื่อเลือกหลายแถวหรือกด $1 เพื่อเลือกแถวทั้งหมด"
+   },
+   "tipmsgNotifications": {
+      "message": "คุณสามารถเปลี่ยนการแจ้งเตือน / การตั้งค่าเสียงภายใต้ $1"
+   },
+   "tipmsgOpenShortcut": {
+      "message": "วิธีที่ง่ายที่สุดที่จะเปิด $1 คือการกด $2"
+   },
+   "tipmsgSlideDetailsPanel": {
+      "message": "รายละเอียดแผงเลื่อนสามารถปิดต่ำกว่า $1"
+   },
+   "tipmsgTaskFilter": {
+      "message": "ลากเพื่อเรียงลำดับตัวกรองงาน; คุณยังสามารถเพิ่มตัวกรองงานที่กำหนดเองของคุณภายใต้ $1"
+   },
+   "titleChangeBG": {
+      "message": "เปลี่ยนพื้นหลัง"
+   },
+   "titleNewTaskDialog": {
+      "message": "สิ่งใหม่ที่ต้องทำ"
+   },
+   "titleOptions": {
+      "message": "ตัวเลือก"
+   },
+   "titleOptionsAbout": {
+      "message": "เกี่ยวกับ"
+   },
+   "titleOptionsFilter": {
+      "message": "ตัวกรอง"
+   },
+   "titleOptionsGeneral": {
+      "message": "ทั่วไป"
+   },
+   "titleOptionsHelp": {
+      "message": "ความช่วยเหลือ"
+   },
+   "titleOptionsInterface": {
+      "message": "ส่วนติดต่อผู้ใช้"
+   },
+   "titleOptionsRules": {
+      "message": "กฎ"
+   },
+   "titleQuickSelection": {
+      "message": "เลือกอย่างรวดเร็ว"
+   },
+   "titleRateShare": {
+      "message": "ให้คะแนนและแชร์!"
+   },
+   "titleSniffer": {
+      "message": "ตัวดักจับข้อมูล"
+   },
+   "titleSwitchUI": {
+      "message": "สวิทช์โหมดการแสดงผล"
+   },
+   "titleTaskProps": {
+      "message": "คุณสมบัติงาน"
+   },
+   "titleTips": {
+      "message": "เคล็ดลับ"
+   },
+   "titleUpdateLog": {
+      "message": "บันทึกการเปลี่ยนแปลง"
+   },
+   "translateContributors": {
+      "message": "Best Narachai Phomee, MisterK, and hs3pln"
+   },
+   "uilang": {
+      "message": "th"
+   },
+   "uilangName": {
+      "message": "Thai"
+   },
+   "unitBytes": {
+      "message": "$1 ไบต์"
+   },
+   "unitDay": {
+      "message": "$1 วัน"
+   },
+   "unitDays": {
+      "message": "$1 วัน"
+   },
+   "unitHour": {
+      "message": "$1 ชั่วโมง"
+   },
+   "unitHours": {
+      "message": "$1 ชั่วโมง"
+   },
+   "unitMinute": {
+      "message": "$1 นาที"
+   },
+   "unitMinutes": {
+      "message": "$1 นาที"
+   },
+   "unitSecond": {
+      "message": "$1 วินาที"
+   },
+   "unitSeconds": {
+      "message": "$1 วินาที"
+   }
+}

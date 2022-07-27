@@ -1,0 +1,20 @@
+{
+   "chromesysAllowFileAccess": {
+      "message": "Luba juurdepääs failide URL-idele"
+   },
+   "chromesysDownloadLocation": {
+      "message": "Allalaadimise asukoht"
+   },
+   "chromesysDownloadsSection": {
+      "message": "Allalaadimised"
+   },
+   "chromesysShowAdvSettings": {
+      "message": "Kuva täpsemad seaded ..."
+   },
+   "extName": {
+      "message": "Chrono Download Manager"
+   },
+   "uilangName": {
+      "message": "Estonian"
+   }
+}

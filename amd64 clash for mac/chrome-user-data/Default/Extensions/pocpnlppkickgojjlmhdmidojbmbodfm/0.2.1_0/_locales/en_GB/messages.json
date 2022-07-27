@@ -1,0 +1,556 @@
+{
+   "apierrmsg_aborted": {
+      "message": "Operation interrupted."
+   },
+   "apierrmsg_device_list_error": {
+      "message": "Unable to find a USB drive or SD card."
+   },
+   "apierrmsg_device_list_error_on_hub": {
+      "message": "Unable to find a USB drive."
+   },
+   "apierrmsg_device_list_error_workspace_hardware": {
+      "message": "Unable to find a USB drive."
+   },
+   "apierrmsg_device_write_error": {
+      "message": "Unable to write to the selected USB flash drive or SD card. Your device's write permissions may be disabled, or your domain administration may have disabled writing to USB storage."
+   },
+   "apierrmsg_download_cancelled": {
+      "message": "Download cancelled."
+   },
+   "apierrmsg_download_hash_mismatch": {
+      "message": "The file is invalid."
+   },
+   "apierrmsg_download_interrupted": {
+      "message": "Download interrupted. Please check your network connection and try again."
+   },
+   "apierrmsg_file_invalid": {
+      "message": "File is invalid."
+   },
+   "apierrmsg_operation_already_in_progress": {
+      "message": "An operation is already in progress."
+   },
+   "apierrmsg_unknown": {
+      "message": "Unknown error: $1.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "apierrmsg_unsupported_operation": {
+      "message": "Unsupported operation."
+   },
+   "apierrmsg_unzip_error": {
+      "message": "Unable to unzip file. Please check if your device has enough space and try again."
+   },
+   "apierrmsg_unzip_invalid_archive": {
+      "message": "Invalid ZIP file."
+   },
+   "apierrmsg_url_invalid": {
+      "message": "File not found."
+   },
+   "apierrmsg_verification_failed": {
+      "message": "Image verification failed."
+   },
+   "app_description": {
+      "message": "Create recovery media for your Chromebook."
+   },
+   "app_description_on_hub": {
+      "message": "Create a recovery USB drive for your OnHub."
+   },
+   "app_description_workspace_hardware": {
+      "message": "Create a recovery USB drive for your Meet compute system."
+   },
+   "app_name": {
+      "message": "Chromebook Recovery Utility"
+   },
+   "app_name_on_hub": {
+      "message": "OnHub Recovery Utility"
+   },
+   "app_name_workspace_hardware": {
+      "message": "Meet compute system Recovery Utility"
+   },
+   "app_short_name": {
+      "message": "Recovery"
+   },
+   "cancel_button_text": {
+      "message": "Cancel"
+   },
+   "chrome_app_deprecation_message": {
+      "message": "As announced publicly on the \u003Ca href=\"https://blog.chromium.org/2020/08/changes-to-chrome-app-support-timeline.html\" target=\"_blank\" tabindex=\"0\">Chromium blog\u003C/a>, Google is dropping support for Chrome Apps in June 2021. Please use the \u003Ca href=\"https://chrome.google.com/webstore/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm\" target=\"_blank\">Chromebook Recovery Utility extension\u003C/a> and related \u003Ca href=\"http://www.google.com/chromeos/recovery\" target=\"_blank\">documentation\u003C/a> to recover your device(s)."
+   },
+   "chrome_app_deprecation_message_on_hub": {
+      "message": "As announced publicly on the \u003Ca href=\"https://blog.chromium.org/2020/08/changes-to-chrome-app-support-timeline.html\" target=\"_blank\" tabindex=\"0\">Chromium blog\u003C/a>, Google is dropping support for Chrome Apps in June 2021. Please use the \u003Ca href=\"https://chrome.google.com/webstore/detail/onhub-recovery-utility/fmgkgdalfapcmjnanilfcpkhkhedmpdm\" target=\"_blank\">OnHub Recovery Utility extension\u003C/a> and related \u003Ca href=\"https://support.google.com/onhub/answer/6274977\" target=\"_blank\">documentation\u003C/a> to recover your device(s)."
+   },
+   "complete_bullet1": {
+      "message": "To recover your Chromebook, plug the recovery media into your Chromebook."
+   },
+   "complete_bullet1_on_hub": {
+      "message": "Unplug the power cable from your OnHub and insert the USB drive into the back of the device. Hold down the reset button and plug in power. Continue to hold the reset button for about 15 seconds or until the activity light on the USB drive starts to blink."
+   },
+   "complete_bullet1_workspace_hardware": {
+      "message": "To recover your Meet compute system, follow the instructions in \u003Ca href=\"http://support.google.com/meethardware/answer/10562922#zippy=%2Cstep-enter-recovery-mode\" target=\"_blank\">Recover your Google Meet hardware compute box, step 3: enter recovery mode\u003C/a>"
+   },
+   "complete_bullet2": {
+      "message": "After recovery, you can erase your recovery media using this utility."
+   },
+   "complete_bullet2_on_hub": {
+      "message": "Your OnHub will go through the recovery process, which can take several minutes. Once your OnHub has been recovered, it will reboot. Then use the Google On app to set up your OnHub."
+   },
+   "complete_bullet2_workspace_hardware": {
+      "message": "To erase the USB flash drive when finished, start the Meet compute system recovery utility, click \u003Cb>Settings\u003C/b> and then click \u003Cb>Erase recovery media\u003C/b>"
+   },
+   "complete_message": {
+      "message": "You can remove your recovery media now."
+   },
+   "complete_message_on_hub": {
+      "message": "You can remove your recovery USB drive now."
+   },
+   "complete_message_workspace_hardware": {
+      "message": "You can remove the flash drive now"
+   },
+   "complete_title": {
+      "message": "Success! Your recovery media is ready"
+   },
+   "complete_title_on_hub": {
+      "message": "Success! Your recovery USB drive is ready"
+   },
+   "complete_title_workspace_hardware": {
+      "message": "Success! Your recovery USB drive is ready"
+   },
+   "completed": {
+      "message": "completed"
+   },
+   "confirm_cancelled_message_html": {
+      "message": "Cancelled. Click on &rdquo;Create now&rdquo; to try again.\u003Cbr>\u003Cbr>To erase your recovery media, click on the gear icon in the top-right corner."
+   },
+   "confirm_cancelled_message_html_on_hub": {
+      "message": "Cancelled. Click on &rdquo;Create now&rdquo; to try again.\u003Cbr>\u003Cbr>To erase your recovery USB drive, click on the gear icon in the top-right corner."
+   },
+   "confirm_cancelled_message_html_workspace_hardware": {
+      "message": "Cancelled. Click on &rdquo;Create now&rdquo; to try again.\u003Cbr>\u003Cbr>To erase your recovery USB drive, click on the gear icon in the top-right corner."
+   },
+   "confirm_hide_advanced_settings_message": {
+      "message": "Hide advanced settings"
+   },
+   "confirm_message_html": {
+      "message": "\u003Cb>Important:\u003C/b> All data and partitions on your recovery media will be deleted."
+   },
+   "confirm_message_html_on_hub": {
+      "message": "\u003Cb>Important:\u003C/b> All data and partitions on your recovery USB drive will be deleted."
+   },
+   "confirm_message_html_workspace_hardware": {
+      "message": "\u003Cb>Important:\u003C/b> Everything on your flash drive will be deleted"
+   },
+   "confirm_show_advanced_settings_message": {
+      "message": "Show advanced settings"
+   },
+   "confirm_title": {
+      "message": "Create a recovery image"
+   },
+   "continue_button_text": {
+      "message": "Continue"
+   },
+   "create_another_button_text": {
+      "message": "Create another"
+   },
+   "create_now_button_text": {
+      "message": "Create now"
+   },
+   "dev_app_description": {
+      "message": "Development version of the Chromebook Recovery Utility."
+   },
+   "dev_app_description_on_hub": {
+      "message": "Development version of the OnHub Recovery Utility."
+   },
+   "dev_app_description_workspace_hardware": {
+      "message": "Development version of the Meet compute system Recovery Utility."
+   },
+   "dev_app_name": {
+      "message": "Chromebook Recovery Utility Dev"
+   },
+   "dev_app_name_on_hub": {
+      "message": "OnHub Recovery Utility Dev"
+   },
+   "dev_app_name_workspace_hardware": {
+      "message": "Meet compute system Recovery Utility Dev"
+   },
+   "done_button_text": {
+      "message": "OK"
+   },
+   "erase_complete_bullet1": {
+      "message": "Your USB drive or SD card is prepared for formatting."
+   },
+   "erase_complete_bullet1_on_hub": {
+      "message": "Your USB drive is prepared for formatting."
+   },
+   "erase_complete_bullet1_workspace_hardware": {
+      "message": "Your USB drive is prepared for formatting."
+   },
+   "erase_complete_bullet2": {
+      "message": "Format using a formatting tool provided by your operating system."
+   },
+   "erase_complete_title": {
+      "message": "Your recovery media has been erased."
+   },
+   "erase_complete_title_on_hub": {
+      "message": "Your recovery USB drive has been erased."
+   },
+   "erase_complete_title_workspace_hardware": {
+      "message": "Your recovery USB drive has been erased."
+   },
+   "erase_confirm_message": {
+      "message": "The recovery image and all partitions on your recovery media will be erased."
+   },
+   "erase_confirm_message_on_hub": {
+      "message": "The recovery image and all partitions on your recovery USB drive will be erased."
+   },
+   "erase_confirm_message_workspace_hardware": {
+      "message": "The recovery image and all partitions on your recovery USB drive will be erased."
+   },
+   "erase_now_button_text": {
+      "message": "Erase now"
+   },
+   "erase_progress_text": {
+      "message": "Don’t remove your recovery media."
+   },
+   "erase_progress_text_on_hub": {
+      "message": "Don’t remove your recovery USB drive."
+   },
+   "erase_progress_text_workspace_hardware": {
+      "message": "Don’t remove your recovery USB drive."
+   },
+   "erase_progress_title": {
+      "message": "Erasing your recovery media"
+   },
+   "erase_progress_title_on_hub": {
+      "message": "Erasing your recovery USB drive"
+   },
+   "erase_progress_title_workspace_hardware": {
+      "message": "Erasing your recovery USB drive"
+   },
+   "erase_select_target_detecting": {
+      "message": "Detecting"
+   },
+   "erase_select_target_high_capacity_warning_html": {
+      "message": "\u003Cb>Warning:\u003C/b> Is this the correct drive?"
+   },
+   "erase_select_target_no_devices_found": {
+      "message": "No USB drives or SD cards found"
+   },
+   "erase_select_target_no_devices_found_on_hub": {
+      "message": "No USB drives found"
+   },
+   "erase_select_target_no_devices_found_workspace_hardware": {
+      "message": "No USB drives found"
+   },
+   "erase_select_target_select_device": {
+      "message": "Select the recovery media that you'd like to erase."
+   },
+   "erase_select_target_select_device_on_hub": {
+      "message": "Select the recovery USB drive that you'd like to erase."
+   },
+   "erase_select_target_select_device_placeholder": {
+      "message": "Select"
+   },
+   "erase_select_target_select_device_workspace_hardware": {
+      "message": "Select the recovery USB drive that you'd like to erase."
+   },
+   "erase_title": {
+      "message": "Erase recovery media"
+   },
+   "erase_title_on_hub": {
+      "message": "Erase recovery USB drive"
+   },
+   "erase_title_workspace_hardware": {
+      "message": "Erase recovery USB drive"
+   },
+   "errmsg_please_try_again": {
+      "message": "Try again."
+   },
+   "errmsg_recovery_config_download_failure": {
+      "message": "Failed to download configuration file. Only offline features will be available."
+   },
+   "get_started_button_text": {
+      "message": "Get started"
+   },
+   "gigabyte_abbreviation": {
+      "message": "GB"
+   },
+   "go_back_button_text": {
+      "message": "Go back"
+   },
+   "hours_remaining": {
+      "message": "$1 hours remaining.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "hwid_invalid_model": {
+      "message": "Invalid model number. Please check your entry."
+   },
+   "hwid_keep_typing": {
+      "message": "No model found yet. Keep typing."
+   },
+   "hwid_keep_typing_workspace_hardware": {
+      "message": "No model found yet"
+   },
+   "hwid_match_found": {
+      "message": "Found a match"
+   },
+   "hwid_match_found_and_checksum_verified": {
+      "message": "Found a match with the exact model name"
+   },
+   "learn_more_link_text": {
+      "message": "Learn more"
+   },
+   "learn_more_link_url": {
+      "message": "http://www.google.com/chromeos/recovery"
+   },
+   "learn_more_link_url_on_hub": {
+      "message": "https://support.google.com/onhub/answer/6274977"
+   },
+   "learn_more_link_url_workspace_hardware": {
+      "message": "http://support.google.com/meethardware/answer/10562922"
+   },
+   "loading_config_text": {
+      "message": "Preparing…"
+   },
+   "menu_item_erase_recovery_media": {
+      "message": "Erase recovery media"
+   },
+   "menu_item_erase_recovery_media_on_hub": {
+      "message": "Erase recovery USB drive"
+   },
+   "menu_item_erase_recovery_media_workspace_hardware": {
+      "message": "Erase recovery USB drive"
+   },
+   "menu_item_send_feedback": {
+      "message": "Send feedback"
+   },
+   "menu_item_use_local_image": {
+      "message": "Use local image"
+   },
+   "minutes_remaining": {
+      "message": "$1 minutes remaining.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "of": {
+      "message": "of"
+   },
+   "recovery_channel_beta": {
+      "message": "Beta"
+   },
+   "recovery_channel_dev": {
+      "message": "Dev"
+   },
+   "recovery_channel_ltc": {
+      "message": "Long-term support candidate (Enterprise only)"
+   },
+   "recovery_channel_lts": {
+      "message": "Long-term support (Enterprise only)"
+   },
+   "recovery_channel_stable": {
+      "message": "Stable"
+   },
+   "seconds_remaining": {
+      "message": "$1 seconds remaining.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "select_channel_placeholder": {
+      "message": "Select a recovery channel"
+   },
+   "select_image_select_by_hwid_link_text": {
+      "message": "Enter a model number directly"
+   },
+   "select_image_select_from_list_link_text": {
+      "message": "Select a model from a list"
+   },
+   "select_image_select_manufacturer_placeholder": {
+      "message": "Select a manufacturer"
+   },
+   "select_image_select_product_placeholder": {
+      "message": "Select a product"
+   },
+   "select_image_select_product_placeholder_on_hub": {
+      "message": "Select a model"
+   },
+   "select_image_select_product_placeholder_workspace_hardware": {
+      "message": "Select a model"
+   },
+   "select_image_text": {
+      "message": "Enter the model number of the Chromebook to recover. It can be found on the recovery screen."
+   },
+   "select_image_text_on_hub": {
+      "message": "Enter your OnHub's model number."
+   },
+   "select_image_text_workspace_hardware": {
+      "message": "Enter the model number of your Meet compute system"
+   },
+   "select_image_this_chromebooks_model_number": {
+      "message": "For this Chromebook, enter"
+   },
+   "select_image_this_chromebooks_model_number_on_hub": {
+      "message": "For this OnHub, enter"
+   },
+   "select_image_this_chromebooks_model_number_workspace_hardware": {
+      "message": "For this Meet compute system, enter"
+   },
+   "select_image_title": {
+      "message": "Identify your Chromebook"
+   },
+   "select_image_title_on_hub": {
+      "message": "Identify your OnHub"
+   },
+   "select_image_title_workspace_hardware": {
+      "message": "Identify your Meet compute system"
+   },
+   "select_target_detecting": {
+      "message": "Detecting"
+   },
+   "select_target_high_capacity_warning_html": {
+      "message": "\u003Cb>Warning:\u003C/b> Is this the correct media?"
+   },
+   "select_target_high_capacity_warning_html_on_hub": {
+      "message": "\u003Cb>Warning:\u003C/b> Is this the correct USB drive?"
+   },
+   "select_target_high_capacity_warning_html_workspace_hardware": {
+      "message": "\u003Cb>Warning:\u003C/b> Is this the correct USB drive?"
+   },
+   "select_target_low_capacity_error": {
+      "message": "Your media must be at least 8 GB."
+   },
+   "select_target_low_capacity_error_on_hub": {
+      "message": "Your USB drive must be at least 8 GB."
+   },
+   "select_target_low_capacity_error_workspace_hardware": {
+      "message": "Your USB drive must be at least 8 GB."
+   },
+   "select_target_no_devices_found": {
+      "message": "No USB drives or SD cards found"
+   },
+   "select_target_no_devices_found_on_hub": {
+      "message": "No USB drives found"
+   },
+   "select_target_no_devices_found_workspace_hardware": {
+      "message": "No USB drives found"
+   },
+   "select_target_select_device": {
+      "message": "Select the media that you'd like to use."
+   },
+   "select_target_select_device_on_hub": {
+      "message": "Select the USB drive that you'd like to use."
+   },
+   "select_target_select_device_placeholder": {
+      "message": "Select"
+   },
+   "select_target_select_device_workspace_hardware": {
+      "message": "Select the USB drive that you'd like to use."
+   },
+   "select_target_title": {
+      "message": "Insert your USB flash drive or SD card"
+   },
+   "select_target_title_on_hub": {
+      "message": "Insert your USB flash drive"
+   },
+   "select_target_title_workspace_hardware": {
+      "message": "Insert your USB flash drive"
+   },
+   "stage_complete": {
+      "message": "Completed"
+   },
+   "stage_download": {
+      "message": "Downloading"
+   },
+   "stage_downloadverify": {
+      "message": "Verifying download"
+   },
+   "stage_unpack": {
+      "message": "Unpacking"
+   },
+   "stage_unzip": {
+      "message": "Unpacking"
+   },
+   "stage_verify": {
+      "message": "Verifying"
+   },
+   "stage_verifydownload": {
+      "message": "Verifying download"
+   },
+   "stage_verifywrite": {
+      "message": "Verifying"
+   },
+   "stage_write": {
+      "message": "Writing"
+   },
+   "step": {
+      "message": "Step"
+   },
+   "unsupported_text": {
+      "message": "Unfortunately, your platform is not supported at this time. Please refer to the \u003Ca href=\"http://www.google.com/chromeos/recovery\" target=\"_blank\">Chromebook Help Centre\u003C/a> for more information."
+   },
+   "unsupported_text_mac": {
+      "message": "Unfortunately, Mac is only supported on M37 or higher. Please update your Chrome to M37. This may require a \u003Ca href=\"https://support.google.com/chromebook/answer/1086915\" target=\"_blank\">switch to Beta channel\u003C/a>."
+   },
+   "unsupported_text_on_hub": {
+      "message": "Unfortunately, your platform is not supported at this time.  Please refer to the \u003Ca href=\"https://support.google.com/onhub/answer/6274977\" target=\"_blank\">OnHub Help Centre\u003C/a> for more information."
+   },
+   "unsupported_title": {
+      "message": "Your platform is currently unsupported"
+   },
+   "unsupported_title_linux": {
+      "message": "Linux is currently unsupported"
+   },
+   "unsupported_title_mac": {
+      "message": "Mac is currently unsupported"
+   },
+   "unsupported_title_win": {
+      "message": "Windows is currently unsupported"
+   },
+   "usupported_text_workspace_hardware": {
+      "message": "Unfortunately, your platform is not supported at this time.  Please refer to the \u003Ca href=\"http://support.google.com/meethardware/answer/10562922\" target=\"_blank\">Google Meet hardware Help Centre\u003C/a> for more information."
+   },
+   "warning_offline": {
+      "message": "Device is offline. Only offline features will be available."
+   },
+   "welcome_text": {
+      "message": "You'll need an 8 GB or larger USB flash drive or SD card that you don't mind erasing."
+   },
+   "welcome_text_on_hub": {
+      "message": "You'll need an 8 GB or larger USB flash drive that you don't mind erasing."
+   },
+   "welcome_text_workspace_hardware": {
+      "message": "You'll need an 8 GB or larger USB flash drive that you don't mind erasing. You can also use an SD card if your device has an SD slot."
+   },
+   "welcome_title": {
+      "message": "Create a recovery media for your Chromebook"
+   },
+   "welcome_title_on_hub": {
+      "message": "Create a recovery USB drive for your OnHub"
+   },
+   "welcome_title_workspace_hardware": {
+      "message": "Create a recovery USB drive for your Meet compute system"
+   },
+   "write_message": {
+      "message": "Don’t remove your recovery media."
+   },
+   "write_message_on_hub": {
+      "message": "Don’t remove your recovery USB drive."
+   },
+   "write_message_workspace_hardware": {
+      "message": "Don’t remove the USB flash drive."
+   },
+   "write_title": {
+      "message": "Creating a recovery image"
+   }
+}

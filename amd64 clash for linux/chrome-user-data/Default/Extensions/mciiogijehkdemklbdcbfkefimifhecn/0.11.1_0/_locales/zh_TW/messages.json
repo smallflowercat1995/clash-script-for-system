@@ -1,0 +1,1112 @@
+{
+   "btnAbout": {
+      "message": "關於"
+   },
+   "btnAddPaused": {
+      "message": "加入並暫停"
+   },
+   "btnApply": {
+      "message": "套用"
+   },
+   "btnBackToManager": {
+      "message": "返回"
+   },
+   "btnCancel": {
+      "message": "取消"
+   },
+   "btnClearAll": {
+      "message": "全部清除"
+   },
+   "btnClearFailed": {
+      "message": "清除已失敗任務"
+   },
+   "btnClearFinished": {
+      "message": "清除已完成的任務"
+   },
+   "btnClearRemoved": {
+      "message": "清除不存在檔案"
+   },
+   "btnCreate": {
+      "message": "建立"
+   },
+   "btnFAQ": {
+      "message": "常見問題"
+   },
+   "btnGotIt": {
+      "message": "我瞭解了！"
+   },
+   "btnGrantPermission": {
+      "message": "授予權限"
+   },
+   "btnImportChromeHistory": {
+      "message": "從Chrome匯入下載紀錄"
+   },
+   "btnLater": {
+      "message": "稍後"
+   },
+   "btnLoadPreview": {
+      "message": "載入預覽畫面"
+   },
+   "btnOpenManager": {
+      "message": "開啟管理器"
+   },
+   "btnPopRemoveFile": {
+      "message": "並刪除檔案"
+   },
+   "btnPopRemoveList": {
+      "message": "從清單中移除"
+   },
+   "btnRate": {
+      "message": "評分"
+   },
+   "btnSave": {
+      "message": "儲存"
+   },
+   "btnShareDone": {
+      "message": "我已經做了"
+   },
+   "btnStart": {
+      "message": "開始"
+   },
+   "btnStartAll": {
+      "message": "全部下載"
+   },
+   "btnTakeMeThere": {
+      "message": "立即前往"
+   },
+   "btnUpdateReload": {
+      "message": "立即重新載入"
+   },
+   "btnUseSystemDialog": {
+      "message": "使用系統對話方塊..."
+   },
+   "chromesysAllowFileAccess": {
+      "message": "允許存取檔案網址"
+   },
+   "chromesysBrowser": {
+      "message": "瀏覽器"
+   },
+   "chromesysChange": {
+      "message": "變更..."
+   },
+   "chromesysDownloadLocation": {
+      "message": "檔案下載儲存位置"
+   },
+   "chromesysDownloadSaveAsPrompt": {
+      "message": "下載每個檔案前先詢問儲存位置"
+   },
+   "chromesysDownloadsSection": {
+      "message": "下載"
+   },
+   "chromesysFailedGenericDownloadError": {
+      "message": "下載錯誤"
+   },
+   "chromesysFailedGenericNetworkError": {
+      "message": "網路錯誤"
+   },
+   "chromesysFailed_CRASH": {
+      "message": "當機"
+   },
+   "chromesysFailed_FILE_ACCESS_DENIED": {
+      "message": "權限不足"
+   },
+   "chromesysFailed_FILE_BLOCKED": {
+      "message": "已封鎖"
+   },
+   "chromesysFailed_FILE_NAME_TOO_LONG": {
+      "message": "路徑名稱過長"
+   },
+   "chromesysFailed_FILE_NO_SPACE": {
+      "message": "磁碟空間已滿"
+   },
+   "chromesysFailed_FILE_SAME_AS_SOURCE": {
+      "message": "已下載"
+   },
+   "chromesysFailed_FILE_SECURITY_CHECK_FAILED": {
+      "message": "病毒掃描失敗"
+   },
+   "chromesysFailed_FILE_TOO_LARGE": {
+      "message": "檔案過大"
+   },
+   "chromesysFailed_FILE_TOO_SHORT": {
+      "message": "檔案已遭截斷"
+   },
+   "chromesysFailed_FILE_TRANSIENT_ERROR": {
+      "message": "系統忙碌中"
+   },
+   "chromesysFailed_FILE_VIRUS_INFECTED": {
+      "message": "系統偵測到病毒"
+   },
+   "chromesysFailed_NETWORK_TIMEOUT": {
+      "message": "網路逾時"
+   },
+   "chromesysFailed_SERVER_BAD_CONTENT": {
+      "message": "沒有檔案"
+   },
+   "chromesysFailed_SERVER_CERT_PROBLEM": {
+      "message": "錯誤的憑證"
+   },
+   "chromesysFailed_SERVER_CONTENT_LENGTH_MISMATCH": {
+      "message": "檔案未完成下載"
+   },
+   "chromesysFailed_SERVER_FAILED": {
+      "message": "伺服器問題"
+   },
+   "chromesysFailed_SERVER_FORBIDDEN": {
+      "message": "已禁止"
+   },
+   "chromesysFailed_SERVER_UNAUTHORIZED": {
+      "message": "需要授權"
+   },
+   "chromesysFailed_SERVER_UNREACHABLE": {
+      "message": "無法連上伺服器"
+   },
+   "chromesysFailed_USER_CANCELED": {
+      "message": "已取消"
+   },
+   "chromesysFailed_USER_SHUTDOWN": {
+      "message": "關閉"
+   },
+   "chromesysFontSize": {
+      "message": "字型大小"
+   },
+   "chromesysLanguageSection": {
+      "message": "語言"
+   },
+   "chromesysShowAdvSettings": {
+      "message": "顯示進階設定..."
+   },
+   "chromesysWebStore": {
+      "message": "Chrome 線上應用程式商店"
+   },
+   "confirmBatchDownload": {
+      "message": "似乎你將要啟動批次下載，在此範例如下："
+   },
+   "confirmBatchDownloadNaming": {
+      "message": "對於批次下載，請確認命名規則確保每項檔案唯一性。是否仍繼續執行？"
+   },
+   "confirmBtnYes": {
+      "message": "是"
+   },
+   "confirmBtnYesFile": {
+      "message": "是，並刪除檔案"
+   },
+   "confirmCantResumeRestart": {
+      "message": "任務$1回復失敗，是否重啟？"
+   },
+   "confirmClearTask": {
+      "message": "確定要移除$1個項目嗎？"
+   },
+   "confirmCreateWhenNotExists": {
+      "message": "$1 不存在。是否要建立？"
+   },
+   "confirmProceed": {
+      "message": "要繼續嗎？"
+   },
+   "confirmRecycleRunning": {
+      "message": "確定要將正在執行任務移至垃圾桶 ?"
+   },
+   "confirmRemoveExtFilter": {
+      "message": "要移除所選取項目嗎？"
+   },
+   "confirmRemoveRule": {
+      "message": "要移除所選取項目嗎？"
+   },
+   "confirmRemoveTask": {
+      "message": "確定永久刪除選取任務?"
+   },
+   "confirmReset": {
+      "message": "這項作業無法還原，確定要繼續嗎？"
+   },
+   "errorFNameConflict": {
+      "message": "命名衝突"
+   },
+   "errorFileNotExist": {
+      "message": "找不到檔案"
+   },
+   "errorFileOrFolderExists": {
+      "message": "已有同名的檔案或資料夾"
+   },
+   "errorInvalidNamingMask": {
+      "message": "名稱無效"
+   },
+   "errorInvalidSubdir": {
+      "message": "子目錄無效"
+   },
+   "errorInvalidURLs": {
+      "message": "網址無效"
+   },
+   "errorNoID": {
+      "message": "由於Chrono內已存有太多任務，以至於無法新增任務，請將未使用任務清除後重試"
+   },
+   "errorNone": {
+      "message": "沒有錯誤"
+   },
+   "errorRemovedFromChrome": {
+      "message": "任務可能已從Chrome中移除"
+   },
+   "errorSingleURLAllowed": {
+      "message": "只能輸入一個網址"
+   },
+   "errorUnableOpen": {
+      "message": "無法開啟「$1」。"
+   },
+   "errorUnknownReloadPage": {
+      "message": "發生問題，請重新載入網頁以繼續進行。"
+   },
+   "everyXDays": {
+      "message": "每隔$1天"
+   },
+   "everyXHours": {
+      "message": "每隔$1小時"
+   },
+   "everyXMinutes": {
+      "message": "每隔$1分"
+   },
+   "extDesc": {
+      "message": "下載管理器 | 影片下載 | 批次圖片下載"
+   },
+   "extDescBest": {
+      "message": "Chrome的最佳下載器"
+   },
+   "extDescSlogan": {
+      "message": "下載及管理整個網路!"
+   },
+   "extName": {
+      "message": "Chrono下載管理器"
+   },
+   "extsAll": {
+      "message": "全部"
+   },
+   "extsApp": {
+      "message": "應用程式"
+   },
+   "extsArchive": {
+      "message": "封存檔"
+   },
+   "extsAudio": {
+      "message": "音訊"
+   },
+   "extsDocument": {
+      "message": "文件"
+   },
+   "extsImage": {
+      "message": "圖片"
+   },
+   "extsNew": {
+      "message": "新篩選器"
+   },
+   "extsOthers": {
+      "message": "其他"
+   },
+   "extsVideo": {
+      "message": "影片"
+   },
+   "fieldAddTime": {
+      "message": "建立時間"
+   },
+   "fieldAvgSpeed": {
+      "message": "平均速度"
+   },
+   "fieldDownloadedSize": {
+      "message": "已下載"
+   },
+   "fieldElapsedTime": {
+      "message": "經過時間"
+   },
+   "fieldFileName": {
+      "message": "檔案名稱"
+   },
+   "fieldFileSize": {
+      "message": "檔案大小"
+   },
+   "fieldFinishTime": {
+      "message": "完成時間"
+   },
+   "fieldFolder": {
+      "message": "資料夾"
+   },
+   "fieldNaming": {
+      "message": "命名規則"
+   },
+   "fieldProgress": {
+      "message": "進度"
+   },
+   "fieldRedirection": {
+      "message": "重新導向"
+   },
+   "fieldReferer": {
+      "message": "參照網址"
+   },
+   "fieldRemainingTime": {
+      "message": "剩餘時間"
+   },
+   "fieldRemarks": {
+      "message": "意見"
+   },
+   "fieldSpeed": {
+      "message": "速度"
+   },
+   "fieldState": {
+      "message": "狀態"
+   },
+   "fieldThreads": {
+      "message": "下載執行緒"
+   },
+   "fieldType": {
+      "message": "檔案類型"
+   },
+   "fieldURL": {
+      "message": "網址"
+   },
+   "headExtFilterCaption": {
+      "message": "顯示名稱"
+   },
+   "headExtFilterExts": {
+      "message": "副檔名"
+   },
+   "headExtFilterRefName": {
+      "message": "內部名稱"
+   },
+   "headRulesActive": {
+      "message": "有效"
+   },
+   "headRulesAsFilter": {
+      "message": "用作任務篩選器"
+   },
+   "headRulesCaption": {
+      "message": "顯示名稱"
+   },
+   "headRulesCondition": {
+      "message": "條件"
+   },
+   "headRulesRefName": {
+      "message": "內部名稱"
+   },
+   "helpExtFilter": {
+      "message": "*雙擊已編輯內容\n*在空白列輸入內容，以新增篩選器\n*欲刪除項目，請選取列並點擊刪除鈕"
+   },
+   "helpRules": {
+      "message": "*雙擊已編輯內容 \n*在空白列輸入內容，以新增篩選器\n*欲刪除項目，請選取列並點擊刪除鈕\n*如果在編輯條件式有問題，盡請參閱\"幫助\""
+   },
+   "hintSearchDownloads": {
+      "message": "搜尋下載內容"
+   },
+   "labelAutoClear": {
+      "message": "設定時間"
+   },
+   "labelBGBlur": {
+      "message": "模糊"
+   },
+   "labelBGChooseFrom": {
+      "message": "選擇圖片"
+   },
+   "labelBGConstantColor": {
+      "message": "純色"
+   },
+   "labelBGImageURL": {
+      "message": "自訂圖片網址"
+   },
+   "labelBGOpacity": {
+      "message": "透明度"
+   },
+   "labelChooseDownloadLocation": {
+      "message": "使用系統對話方塊選擇新的位置"
+   },
+   "labelCustomFilter": {
+      "message": "自訂篩選器"
+   },
+   "labelDateModified": {
+      "message": "修改日期"
+   },
+   "labelDownloadToDefaultFolder": {
+      "message": "下載至預設資料夾"
+   },
+   "labelEnableFolderSelection": {
+      "message": "啟用資料夾選取功能"
+   },
+   "labelFolderColon": {
+      "message": "資料夾："
+   },
+   "labelNewFolder": {
+      "message": "新資料夾"
+   },
+   "labelStarred": {
+      "message": "已加星號"
+   },
+   "labelUnableSaveToFolder": {
+      "message": "儅無法儲存到目標資料夾"
+   },
+   "labelUseLastLocation": {
+      "message": "儲存檔案至上次的位置"
+   },
+   "menuDAudio": {
+      "message": "將音訊另存為..."
+   },
+   "menuDAudioOneClick": {
+      "message": "一鍵下載音訊"
+   },
+   "menuDImage": {
+      "message": "另存圖檔..."
+   },
+   "menuDImageOneClick": {
+      "message": "一鍵下載圖片"
+   },
+   "menuDLink": {
+      "message": "另存連結為..."
+   },
+   "menuDLinkOneClick": {
+      "message": "一鍵下載連結"
+   },
+   "menuDVideo": {
+      "message": "將影片另存為..."
+   },
+   "menuDVideoOneClick": {
+      "message": "一鍵下載影片"
+   },
+   "menuGetHelp": {
+      "message": "查看說明"
+   },
+   "menuOpenManager": {
+      "message": "開啟管理器"
+   },
+   "menuReportIssue": {
+      "message": "回報問題"
+   },
+   "msgCannotScanResources": {
+      "message": "無法掃描該頁面的資源"
+   },
+   "msgChooseFolderUnderHome": {
+      "message": "請選擇位於瀏覽器下載內容資料夾下的路徑。"
+   },
+   "msgChromeI18nLanguage": {
+      "message": "Chrono使用與Chrome瀏覽器相同的語言"
+   },
+   "msgEmptyDownloadsList": {
+      "message": "空白清單檢視"
+   },
+   "msgEnableFileAccess": {
+      "message": "您可以在chrome://extensions頁面上選中$2下的$1複選框來打開此功能。"
+   },
+   "msgFolderDisabledNoFileAccess": {
+      "message": "資料夾選取功能已暫用因為不允許本地檔案訪問。"
+   },
+   "msgFolderDisabledNonWritable": {
+      "message": "資料夾選取功能已暫用，請確保下載內容資料夾被設置成了允許讀寫的路徑（非係統資料夾）并且瀏覽器的另存新檔對話框已被關閉。"
+   },
+   "msgMultiDownloadsCanceledFilenameConflict": {
+      "message": "$1個任務因為檔名衝突而被取消"
+   },
+   "msgPreviewErrorReadFile": {
+      "message": "讀取檔案時發生錯誤"
+   },
+   "msgPreviewFailed": {
+      "message": "無法載入檔案預覽畫面"
+   },
+   "msgPreviewFileAccess": {
+      "message": "無法加載本地檔案進行預覽。"
+   },
+   "msgPreviewLargeFile": {
+      "message": "加載預覽可能需要一段時間。"
+   },
+   "msgPreviewPdfViewer": {
+      "message": "需要啟用Chrome PDF查看器以加載預覽，請按照說明進行操作"
+   },
+   "msgRateShare": {
+      "message": "如果你喜歡$1，請在$2為我們評分，並分享給你的朋友！"
+   },
+   "msgSearchNoResults": {
+      "message": "找不到結果"
+   },
+   "msgSelectTaskInfo": {
+      "message": "未選取任何項目。"
+   },
+   "msgSingleDownloadCanceledFilenameConflict": {
+      "message": "任務$1因為檔名衝突而被取消"
+   },
+   "msgTaskAddPaused": {
+      "message": "任務已新增並暫停"
+   },
+   "msgTaskFinish": {
+      "message": "下載完成"
+   },
+   "msgTaskInterrupt": {
+      "message": "下載失敗"
+   },
+   "msgTaskStart": {
+      "message": "任務已增加至隊列"
+   },
+   "msgTextUpdateAvail": {
+      "message": "請重新載入Chrono，以套用更新。"
+   },
+   "msgTextWelcome": {
+      "message": "在開始前，請完成如下設置以獲取更優質的使用者體驗。\n1、關閉瀏覽器的另存新檔對話框，這樣不用在每次下載前選擇保存位置。具體做法是清除 $1 前的複選框。\n2、讓Chrono取得檔案URL權限以啟用檔案快速預覽功能，具體步驟是：打開$3，找到Chrono下載管理器，勾選 $2 前的複選框。\n如果你有任何問題，請至說明與常見問題頁面尋求協助。"
+   },
+   "msgTitleUpdateAvail": {
+      "message": "現已推出新版本"
+   },
+   "msgTitleWelcome": {
+      "message": "歡迎使用！"
+   },
+   "msgUpdated": {
+      "message": "「$1」已更新。"
+   },
+   "optItemBadgeDownloadNum": {
+      "message": "在通知列圖示顯示正在下載任務數量"
+   },
+   "optItemClearRemoveFile": {
+      "message": "從磁碟刪除"
+   },
+   "optItemClearSearch": {
+      "message": "篩選器變更時，清除搜尋框"
+   },
+   "optItemClickNotify": {
+      "message": "點擊通知"
+   },
+   "optItemConcurrentDownloads": {
+      "message": "同時下載數量"
+   },
+   "optItemDblClickAction": {
+      "message": "雙擊任務"
+   },
+   "optItemDefAddPaused": {
+      "message": "加入並暫停"
+   },
+   "optItemDefFolder": {
+      "message": "預設位置"
+   },
+   "optItemDefNaming": {
+      "message": "預設命名規則"
+   },
+   "optItemDownloadClipboard": {
+      "message": "下載剪貼簿中的連結"
+   },
+   "optItemDownloadsPerServer": {
+      "message": "每台伺服器最大下載數量"
+   },
+   "optItemHideShelf": {
+      "message": "隱藏Chrome的下載列"
+   },
+   "optItemMenuDialog": {
+      "message": "另存連結為..."
+   },
+   "optItemMenuOneClick": {
+      "message": "一鍵下載連結或圖片"
+   },
+   "optItemNameConflict": {
+      "message": "當檔名衝突時"
+   },
+   "optItemNotifyError": {
+      "message": "錯誤發生時，顯示通知"
+   },
+   "optItemNotifyFinish": {
+      "message": "下載完成時，顯示通知"
+   },
+   "optItemNotifyLargePreview": {
+      "message": "顯示圖片大型預覽"
+   },
+   "optItemNotifyOneClick": {
+      "message": "新增一鍵下載任務時，顯示通知"
+   },
+   "optItemNotifyProgress": {
+      "message": "顯示下載進度"
+   },
+   "optItemOverrideChrome": {
+      "message": "取代Chrome預設下載頁面，並啟用$1快捷鍵"
+   },
+   "optItemPopClearClose": {
+      "message": "清除任務後關閉彈出視窗"
+   },
+   "optItemPopDeleteAction": {
+      "message": "點擊\"刪除\"鈕"
+   },
+   "optItemPopLikeButtons": {
+      "message": "顯示社交網站按鈕"
+   },
+   "optItemPopMaxItems": {
+      "message": "下載清單最大顯示項目"
+   },
+   "optItemPopShowDLFirst": {
+      "message": "正在下載任務置頂"
+   },
+   "optItemPreviewAutoplay": {
+      "message": "自動播放影片或音訊"
+   },
+   "optItemRecycleCancel": {
+      "message": "當任務移至垃圾桶時，將其取消"
+   },
+   "optItemRuleMatchMode": {
+      "message": "比對模式"
+   },
+   "optItemSlideDetailsPanel": {
+      "message": "點擊任務時，顯示詳細面板"
+   },
+   "optItemSoundError": {
+      "message": "錯誤發生，播放提示音"
+   },
+   "optItemSoundFinish": {
+      "message": "下載完成時，播放提示音"
+   },
+   "optItemStartInterrupted": {
+      "message": "下載按鈕可啟動已失敗任務"
+   },
+   "optOptionClearAllNotify": {
+      "message": "清除所有通知"
+   },
+   "optOptionClearNotify": {
+      "message": "清除通知"
+   },
+   "optOptionDoNothing": {
+      "message": "不執行任何動作"
+   },
+   "optOptionFirstMatch": {
+      "message": "第一個匹配"
+   },
+   "optOptionOpenFile": {
+      "message": "開啟檔案"
+   },
+   "optOptionOpenFolder": {
+      "message": "開啟資料夾"
+   },
+   "optOptionOverwrite": {
+      "message": "覆寫"
+   },
+   "optOptionPrompt": {
+      "message": "詢問"
+   },
+   "optOptionRemAsk": {
+      "message": "詢問"
+   },
+   "optOptionRemFile": {
+      "message": "從磁碟刪除，但不確認"
+   },
+   "optOptionRemList": {
+      "message": "從清單中移除"
+   },
+   "optOptionReplace": {
+      "message": "取代"
+   },
+   "optOptionSkipCancel": {
+      "message": "取消下載"
+   },
+   "optOptionSkipPause": {
+      "message": "跳過並暫停"
+   },
+   "optOptionStartPause": {
+      "message": "開始或暫停"
+   },
+   "optOptionUniquify": {
+      "message": "自動更改檔名"
+   },
+   "optSectionBehaviors": {
+      "message": "行為"
+   },
+   "optSectionMenu": {
+      "message": "選單"
+   },
+   "optSectionMisc": {
+      "message": "其他"
+   },
+   "optSectionNetwork": {
+      "message": "網路"
+   },
+   "optSectionNewTaskDialog": {
+      "message": "新增任務對話方塊"
+   },
+   "optSectionNotifications": {
+      "message": "通知"
+   },
+   "optSectionOneClick": {
+      "message": "一鍵下載"
+   },
+   "optSectionPopup": {
+      "message": "彈出式視窗"
+   },
+   "optSectionPreview": {
+      "message": "預覽"
+   },
+   "optSectionTaskDefaults": {
+      "message": "新增任務預設設定"
+   },
+   "optionAddTop": {
+      "message": "加入至隊列置頂"
+   },
+   "optionDisableExtFilters": {
+      "message": "停用副檔名篩選"
+   },
+   "optionDontAsk": {
+      "message": "記住我的選擇"
+   },
+   "optionSearchCaseSensitive": {
+      "message": "區分大小寫"
+   },
+   "optionSearchFuzzyMatch": {
+      "message": "模糊比對"
+   },
+   "optionShowSize": {
+      "message": "顯示檔案大小"
+   },
+   "optionTableAutoResize": {
+      "message": "自動分配欄寬"
+   },
+   "optionTableSyncResize": {
+      "message": "同步調整欄寬"
+   },
+   "phraseAutomatic": {
+      "message": "自動"
+   },
+   "phraseEnable": {
+      "message": "啟用"
+   },
+   "phraseMultiValues": {
+      "message": "多重值"
+   },
+   "phraseNever": {
+      "message": "永不"
+   },
+   "phrasePreview": {
+      "message": "預覽"
+   },
+   "phraseRegex": {
+      "message": "規則運算式"
+   },
+   "phraseToday": {
+      "message": "今天"
+   },
+   "phraseUnknown": {
+      "message": "未知"
+   },
+   "phraseUnknownSize": {
+      "message": "未知的大小"
+   },
+   "phraseVersion": {
+      "message": "版本"
+   },
+   "phraseYesterday": {
+      "message": "昨天"
+   },
+   "ruleAllTasks": {
+      "message": "所有任務"
+   },
+   "ruleAudio": {
+      "message": "音訊"
+   },
+   "ruleDocument": {
+      "message": "文件"
+   },
+   "ruleDownloading": {
+      "message": "下載中"
+   },
+   "ruleFinished": {
+      "message": "已完成"
+   },
+   "ruleImage": {
+      "message": "圖片"
+   },
+   "ruleInterrupted": {
+      "message": "失敗"
+   },
+   "ruleNew": {
+      "message": "新增的規則"
+   },
+   "ruleOther": {
+      "message": "其他"
+   },
+   "ruleRecent": {
+      "message": "最近"
+   },
+   "ruleRecycled": {
+      "message": "垃圾桶"
+   },
+   "ruleSmallFiles": {
+      "message": "小型檔案"
+   },
+   "ruleVideo": {
+      "message": "影片"
+   },
+   "stateDownloading": {
+      "message": "下載中"
+   },
+   "stateError": {
+      "message": "失敗"
+   },
+   "stateFileMiss": {
+      "message": "檔案遺失"
+   },
+   "stateFinished": {
+      "message": "已完成"
+   },
+   "statePaused": {
+      "message": "已暫停"
+   },
+   "stateQueue": {
+      "message": "等候中"
+   },
+   "statusCopyURL": {
+      "message": "正在複製連結..."
+   },
+   "statusCopyURLDone": {
+      "message": "已將網址複製到剪貼簿"
+   },
+   "statusDownloadedSize": {
+      "message": "$1，總共 $2"
+   },
+   "statusImportDone": {
+      "message": "已成功匯入"
+   },
+   "statusImporting": {
+      "message": "匯入中..."
+   },
+   "statusNumDownloading": {
+      "message": "$1 下載中"
+   },
+   "statusNumItems": {
+      "message": "$1個項目"
+   },
+   "statusReadClipboard": {
+      "message": "正在讀取剪貼簿..."
+   },
+   "statusScheduledAutoClear": {
+      "message": "$1秒後將自動清除任務"
+   },
+   "statusSelectedOf": {
+      "message": "已選取$1個項目"
+   },
+   "statusTasksCleared": {
+      "message": "已移除$1個項目"
+   },
+   "statusTimeLeft": {
+      "message": "剩餘$1"
+   },
+   "tipAutoClear": {
+      "message": "自動將任務從清單中移除，並保留檔案"
+   },
+   "tipBGBlur": {
+      "message": "模糊效果可能導致GUI反應降低"
+   },
+   "tipBGEnable": {
+      "message": "由於Chrome本身問題，啟用背景後，可能導致軟體占用更多記憶體。"
+   },
+   "tipBGURLHasFileAccess": {
+      "message": "輸入網址，或輸入本機電腦圖片檔案路徑（以file:///为前缀）"
+   },
+   "tipBGURLNoFileAccess": {
+      "message": "輸入網址，或輸入本機電腦圖片檔案路徑(使用本地端檔案時，必須啟用Chrono檔案存取權限，詳請請點擊提示符號)"
+   },
+   "tipBrowserAction": {
+      "message": "下載本頁所有資源"
+   },
+   "tipBtnBackToManager": {
+      "message": "返回管理器"
+   },
+   "tipBtnChangeBrowserDownloadsSettings": {
+      "message": "變更瀏覽器下載設定"
+   },
+   "tipBtnChangeDefaultLocation": {
+      "message": "變更目標資料夾…"
+   },
+   "tipBtnClear": {
+      "message": "清除任務"
+   },
+   "tipBtnConfigExtFilters": {
+      "message": "編輯篩選器"
+   },
+   "tipBtnCopyLink": {
+      "message": "複製連結"
+   },
+   "tipBtnDelete": {
+      "message": "刪除"
+   },
+   "tipBtnHelp": {
+      "message": "說明"
+   },
+   "tipBtnNewTask": {
+      "message": "新增工作"
+   },
+   "tipBtnOpenDefaultLocation": {
+      "message": "開啟下載內容資料夾"
+   },
+   "tipBtnOpenFile": {
+      "message": "開啟檔案"
+   },
+   "tipBtnOpenFolder": {
+      "message": "開啟資料夾"
+   },
+   "tipBtnOptions": {
+      "message": "選項"
+   },
+   "tipBtnPause": {
+      "message": "暫停"
+   },
+   "tipBtnPauseAll": {
+      "message": "全部暫停"
+   },
+   "tipBtnPopList": {
+      "message": "切換為清單"
+   },
+   "tipBtnPopSniffer": {
+      "message": "切換至資源監測器"
+   },
+   "tipBtnRecycle": {
+      "message": "移至垃圾桶"
+   },
+   "tipBtnRestart": {
+      "message": "重新開始"
+   },
+   "tipBtnRestore": {
+      "message": "還原"
+   },
+   "tipBtnSort": {
+      "message": "排序"
+   },
+   "tipBtnStart": {
+      "message": "開始"
+   },
+   "tipBtnStartAll": {
+      "message": "全部開始"
+   },
+   "tipExtFilterEnable": {
+      "message": "在Chrono資源監測器中啟用副檔名篩選器"
+   },
+   "tipExtFilterRefName": {
+      "message": "在其他條件式中引用的內部名稱"
+   },
+   "tipNaming": {
+      "message": "請參閱命名規則說明頁面"
+   },
+   "tipOptItemRuleMatchMode": {
+      "message": "請注意，僅在規則啟用時才會被用作規則匹配。在取代模式下，所有規則都會被套用，但是之後建立的規則將會取代之前的規則。"
+   },
+   "tipOptItemSlideDetailsPanel": {
+      "message": "可以使用Alt + 左鍵，開啟詳細資訊"
+   },
+   "tipOptNoRuleMatch": {
+      "message": "在規則匹配無結果時套用"
+   },
+   "tipOptSectionOneClick": {
+      "message": "如果啟用此選項，當你點擊連結時，將自動下載並套用預設任務設定，不會跳出下載對話框。注意你可能還會看到Chrome內建的文件對話框，請點擊提示查看如何將其關閉。"
+   },
+   "tipOptSectionTaskDefaults": {
+      "message": "下次新增任務時，將套用預設設定，例如：套用一鍵下載"
+   },
+   "tipRulesActive": {
+      "message": "只有啟用的規則才會用於規則匹配"
+   },
+   "tipRulesAsFilter": {
+      "message": "於下載管理器顯示任務篩選器"
+   },
+   "tipRulesRefName": {
+      "message": "在其他條件式中引用該規則所使用的內部名稱"
+   },
+   "tipURL": {
+      "message": "可在新的一行輸入多條網址；可輸入批次下載條件以啟動批次下載"
+   },
+   "tipmsgCopySelectedURLs": {
+      "message": "按$1複製選取項目連結"
+   },
+   "tipmsgDoubleClick": {
+      "message": "變更雙擊動作：$1"
+   },
+   "tipmsgFitColumnWidth": {
+      "message": "雙擊欄位縮放工具，自動調整欄寬"
+   },
+   "tipmsgGridSelection": {
+      "message": "使用Ctrl、Shift選取多個項目，或按$1全選"
+   },
+   "tipmsgNotifications": {
+      "message": "變更通知、音效設定：$1"
+   },
+   "tipmsgOpenShortcut": {
+      "message": "使用快捷鍵$2，快速開啟$1"
+   },
+   "tipmsgSlideDetailsPanel": {
+      "message": "關閉詳細資訊：$1"
+   },
+   "tipmsgTaskFilter": {
+      "message": "拖曳並重新排列任務篩選器；自訂任務篩選器：$1"
+   },
+   "titleChangeBG": {
+      "message": "變更背景"
+   },
+   "titleNewTaskDialog": {
+      "message": "新增工作"
+   },
+   "titleOptions": {
+      "message": "選項"
+   },
+   "titleOptionsAbout": {
+      "message": "關於"
+   },
+   "titleOptionsFilter": {
+      "message": "副檔名篩選器"
+   },
+   "titleOptionsGeneral": {
+      "message": "一般設定"
+   },
+   "titleOptionsHelp": {
+      "message": "說明"
+   },
+   "titleOptionsInterface": {
+      "message": "使用者介面"
+   },
+   "titleOptionsRules": {
+      "message": "規則系統"
+   },
+   "titleQuickSelection": {
+      "message": "快速選取"
+   },
+   "titleRateShare": {
+      "message": "分享與評分"
+   },
+   "titleSniffer": {
+      "message": "資源監測器"
+   },
+   "titleSwitchUI": {
+      "message": "切換顯示模式"
+   },
+   "titleTaskProps": {
+      "message": "任務屬性"
+   },
+   "titleTips": {
+      "message": "提示"
+   },
+   "titleUpdateLog": {
+      "message": "變更紀錄"
+   },
+   "translateContributors": {
+      "message": "David, Coin and michael870523"
+   },
+   "uilang": {
+      "message": "zh-TW"
+   },
+   "uilangName": {
+      "message": "Chinese (Traditional)"
+   },
+   "unitBytes": {
+      "message": "$1個位元組"
+   },
+   "unitDay": {
+      "message": "$1天"
+   },
+   "unitDays": {
+      "message": "$1天"
+   },
+   "unitHour": {
+      "message": "$1小時"
+   },
+   "unitHours": {
+      "message": "$1小時"
+   },
+   "unitMinute": {
+      "message": "$1分鐘"
+   },
+   "unitMinutes": {
+      "message": "$1分鐘"
+   },
+   "unitSecond": {
+      "message": "$1秒"
+   },
+   "unitSeconds": {
+      "message": "$1秒"
+   }
+}

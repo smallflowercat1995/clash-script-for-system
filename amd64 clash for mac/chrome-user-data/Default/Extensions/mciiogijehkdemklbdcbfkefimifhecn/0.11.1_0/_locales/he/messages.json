@@ -1,0 +1,20 @@
+{
+   "chromesysAllowFileAccess": {
+      "message": "אפשר גישה לכתובות אתרים של קבצים"
+   },
+   "chromesysDownloadLocation": {
+      "message": "מקום ההורדה"
+   },
+   "chromesysDownloadsSection": {
+      "message": "הורדות"
+   },
+   "chromesysShowAdvSettings": {
+      "message": "הצג הגדרות מתקדמות..."
+   },
+   "extName": {
+      "message": "Chrono Download Manager"
+   },
+   "uilangName": {
+      "message": "Hebrew"
+   }
+}

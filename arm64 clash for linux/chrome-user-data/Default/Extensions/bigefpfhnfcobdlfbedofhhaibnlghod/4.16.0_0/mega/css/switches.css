@@ -1,0 +1,36 @@
+.mega-switch{
+	background:var(--switch-fill-inactive);
+	border-radius:40px;
+	box-shadow:inset 0 0 0 1px var(--switch-border-inactive);
+	box-sizing:border-box;
+	cursor:pointer;
+	display:inline-block;
+	float:right;
+	height:24px;
+	width:48px
+}
+.rtl .mega-switch{
+	float:left
+}
+.mega-switch.toggle-on{
+	background:var(--switch-fill-active);
+	box-shadow:inset 0 0 0 1px var(--switch-border-active)
+}
+.mega-switch .mega-feature-switch{
+	--mask-color:var(--switch-handle-inactive-icon);
+	background:var(--switch-handle-fill);
+	background-clip:padding-box;
+	border:1px solid var(--switch-handle-border);
+	border-radius:50%;
+	box-sizing:initial;
+	cursor:pointer;
+	height:16px;
+	margin:3px;
+	transition:margin-inline-start .1s ease-in-out;
+	width:16px
+}
+.mega-switch.toggle-on .mega-feature-switch{
+	-webkit-margin-start:27px;
+	--mask-color:var(--switch-handle-active-icon);
+	margin-inline-start:27px
+}

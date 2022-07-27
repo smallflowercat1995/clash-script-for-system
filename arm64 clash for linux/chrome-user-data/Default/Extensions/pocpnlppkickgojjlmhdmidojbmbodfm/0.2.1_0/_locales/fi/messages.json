@@ -1,0 +1,556 @@
+{
+   "apierrmsg_aborted": {
+      "message": "Toiminto keskeytyi."
+   },
+   "apierrmsg_device_list_error": {
+      "message": "USB-muistia tai SD-korttia ei löytynyt."
+   },
+   "apierrmsg_device_list_error_on_hub": {
+      "message": "USB-muistia ei löytynyt."
+   },
+   "apierrmsg_device_list_error_workspace_hardware": {
+      "message": "USB-muistia ei löytynyt."
+   },
+   "apierrmsg_device_write_error": {
+      "message": "Kirjoittaminen valitulle USB-muistitikulle tai SD-kortille ei onnistu. Laitteella ei ehkä ole kirjoituslupia tai verkkotunnuksen järjestelmänvalvoja on voinut estää kirjoittamisen USB-tallennustilaan."
+   },
+   "apierrmsg_download_cancelled": {
+      "message": "Lataus peruttu."
+   },
+   "apierrmsg_download_hash_mismatch": {
+      "message": "Tiedosto ei kelpaa."
+   },
+   "apierrmsg_download_interrupted": {
+      "message": "Lataus keskeytyi. Tarkista verkkoyhteytesi ja yritä uudelleen."
+   },
+   "apierrmsg_file_invalid": {
+      "message": "Tiedosto ei kelpaa."
+   },
+   "apierrmsg_operation_already_in_progress": {
+      "message": "Toiminto on jo käynnissä."
+   },
+   "apierrmsg_unknown": {
+      "message": "Tuntematon virhe: $1.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "apierrmsg_unsupported_operation": {
+      "message": "Toimintoa ei tueta."
+   },
+   "apierrmsg_unzip_error": {
+      "message": "Tiedostoa ei voi purkaa. Tarkista, että laitteella on tarpeeksi tilaa ja yritä uudelleen."
+   },
+   "apierrmsg_unzip_invalid_archive": {
+      "message": "ZIP-tiedosto ei kelpaa."
+   },
+   "apierrmsg_url_invalid": {
+      "message": "Tiedostoa ei löydy."
+   },
+   "apierrmsg_verification_failed": {
+      "message": "Kuvan todennus ei onnistunut."
+   },
+   "app_description": {
+      "message": "Luo palautusväline Chromebookillesi."
+   },
+   "app_description_on_hub": {
+      "message": "Luo palautus-USB-muisti OnHubillesi."
+   },
+   "app_description_workspace_hardware": {
+      "message": "Luo palautus-USB-muisti Meet Compute Systemille."
+   },
+   "app_name": {
+      "message": "Chromebookin palautussovellus"
+   },
+   "app_name_on_hub": {
+      "message": "OnHubin palautussovellus"
+   },
+   "app_name_workspace_hardware": {
+      "message": "Meet Compute Systemin palautussovellus"
+   },
+   "app_short_name": {
+      "message": "Palautus"
+   },
+   "cancel_button_text": {
+      "message": "Peru"
+   },
+   "chrome_app_deprecation_message": {
+      "message": "Kuten \u003Ca href=\"https://blog.chromium.org/2020/08/changes-to-chrome-app-support-timeline.html\" target=\"_blank\" tabindex=\"0\">Chromiumin blogissa\u003C/a> ilmoitettiin, Google lopettaa Chrome-sovellusten tuen kesäkuussa 2021. Tee laitteiden palautus \u003Ca href=\"https://chrome.google.com/webstore/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm\" target=\"_blank\">Chromebookin palautussovellus ‑laajennuksen\u003C/a> ja siihen liittyvän \u003Ca href=\"http://www.google.com/chromeos/recovery\" target=\"_blank\">dokumentaation\u003C/a> avulla."
+   },
+   "chrome_app_deprecation_message_on_hub": {
+      "message": "Kuten \u003Ca href=\"https://blog.chromium.org/2020/08/changes-to-chrome-app-support-timeline.html\" target=\"_blank\" tabindex=\"0\">Chromiumin blogissa\u003C/a> ilmoitettiin, Google lopettaa Chrome-sovellusten tuen kesäkuussa 2021. Tee laitteiden palautus \u003Ca href=\"https://chrome.google.com/webstore/detail/onhub-recovery-utility/fmgkgdalfapcmjnanilfcpkhkhedmpdm\" target=\"_blank\">OnHubin palautussovellus ‑laajennuksen\u003C/a> ja siihen liittyvän \u003Ca href=\"https://support.google.com/onhub/answer/6274977\" target=\"_blank\">dokumentaation\u003C/a> avulla."
+   },
+   "complete_bullet1": {
+      "message": "Palauta Chromebook kytkemällä palautusväline Chromebookiin."
+   },
+   "complete_bullet1_on_hub": {
+      "message": "Irrota OnHubin virtajohto ja aseta USB-muisti laitteen takaosaan. Paina pitkään palautuspainiketta ja kytke virtajohto kiinni. Paina palautuspainiketta vielä noin 15 sekuntia tai kunnes USB-muistin toimintavalo alkaa vilkkua."
+   },
+   "complete_bullet1_workspace_hardware": {
+      "message": "Voit palauttaa Meet Compute Systemin seuraamalla näitä ohjeita: \u003Ca href=\"http://support.google.com/meethardware/answer/10562922#zippy=%2Cstep-enter-recovery-mode\" target=\"_blank\">Recover your Google Meet Hardware compute box, vaihe 3: Enter recovery mode\u003C/a>"
+   },
+   "complete_bullet2": {
+      "message": "Palautuksen jälkeen voit tyhjentää palautusvälineen tällä ohjelmalla."
+   },
+   "complete_bullet2_on_hub": {
+      "message": "OnHubille tehdään palautusprosessi, joka voi kestää useamman minuutin. Kun OnHub on palautettu, se käynnistyy uudelleen. Ota tämän jälkeen OnHub käyttöön Google On ‑sovelluksella."
+   },
+   "complete_bullet2_workspace_hardware": {
+      "message": "Jos haluat tyhjentää USB-muistitikun, kun vaihe on valmis, käynnistä Meet Compute Systemin palautussovellus valitsemalla \u003Cb>Asetukset\u003C/b> ja sitten \u003Cb>Tyhjennä palautusväline\u003C/b>"
+   },
+   "complete_message": {
+      "message": "Voit irrottaa palautusvälineen nyt."
+   },
+   "complete_message_on_hub": {
+      "message": "Voit irrottaa palautus-USB-muistisi nyt."
+   },
+   "complete_message_workspace_hardware": {
+      "message": "Nyt voit poistaa muistitikun"
+   },
+   "complete_title": {
+      "message": "Onnistui! Palautusvälineesi on valmis"
+   },
+   "complete_title_on_hub": {
+      "message": "Onnistui! Palautus-USB-muistisi on valmis"
+   },
+   "complete_title_workspace_hardware": {
+      "message": "Onnistui! Palautus-USB-muistisi on valmis"
+   },
+   "completed": {
+      "message": "valmis"
+   },
+   "confirm_cancelled_message_html": {
+      "message": "Peruttu. Valitse &rdquo;Luo nyt&rdquo; ja yritä uudelleen.\u003Cbr>\u003Cbr>Tyhjennä palautusväline valitsemalla oikeassa yläkulmassa oleva rataskuvake."
+   },
+   "confirm_cancelled_message_html_on_hub": {
+      "message": "Peruttu. Valitse &rdquo;Luo nyt&rdquo; ja yritä uudelleen.\u003Cbr>\u003Cbr>Tyhjennä USB-muisti valitsemalla oikeassa yläkulmassa oleva rataskuvake."
+   },
+   "confirm_cancelled_message_html_workspace_hardware": {
+      "message": "Peruttu. Valitse &rdquo;Luo nyt&rdquo; ja yritä uudelleen.\u003Cbr>\u003Cbr>Tyhjennä USB-muisti valitsemalla oikeassa yläkulmassa oleva rataskuvake."
+   },
+   "confirm_hide_advanced_settings_message": {
+      "message": "Piilota lisäasetukset"
+   },
+   "confirm_message_html": {
+      "message": "\u003Cb>Tärkeää:\u003C/b> Kaikki palautusvälineessä olevat tiedot ja osiot poistetaan."
+   },
+   "confirm_message_html_on_hub": {
+      "message": "\u003Cb>Tärkeää:\u003C/b> Kaikki USB-muistissa olevat tiedot ja osiot poistetaan."
+   },
+   "confirm_message_html_workspace_hardware": {
+      "message": "\u003Cb>Tärkeää:\u003C/b> Kaikki muistitikun sisältö poistetaan"
+   },
+   "confirm_show_advanced_settings_message": {
+      "message": "Näytä lisäasetukset"
+   },
+   "confirm_title": {
+      "message": "Luo palautusnäköistiedosto"
+   },
+   "continue_button_text": {
+      "message": "Jatka"
+   },
+   "create_another_button_text": {
+      "message": "Luo uusi"
+   },
+   "create_now_button_text": {
+      "message": "Luo heti"
+   },
+   "dev_app_description": {
+      "message": "Chromebookin palautussovelluksen kehitysversio"
+   },
+   "dev_app_description_on_hub": {
+      "message": "OnHubin palautussovelluksen kehitysversio"
+   },
+   "dev_app_description_workspace_hardware": {
+      "message": "Meet Compute Systemin palautussovelluksen kehitysversio"
+   },
+   "dev_app_name": {
+      "message": "Chromebookin palautussovellus, kehitysversio"
+   },
+   "dev_app_name_on_hub": {
+      "message": "OnHubin palautussovellus, kehitysversio"
+   },
+   "dev_app_name_workspace_hardware": {
+      "message": "Meet Compute Systemin palautus, kehitysversio"
+   },
+   "done_button_text": {
+      "message": "Valmis"
+   },
+   "erase_complete_bullet1": {
+      "message": "USB-muistisi tai SD-korttisi on valmis alustusta varten."
+   },
+   "erase_complete_bullet1_on_hub": {
+      "message": "USB-muistisi on valmis alustusta varten."
+   },
+   "erase_complete_bullet1_workspace_hardware": {
+      "message": "USB-muistisi on valmis alustusta varten."
+   },
+   "erase_complete_bullet2": {
+      "message": "Alusta käyttämällä käyttöjärjestelmäsi alustustyökalua."
+   },
+   "erase_complete_title": {
+      "message": "Palautusväline on tyhjennetty."
+   },
+   "erase_complete_title_on_hub": {
+      "message": "Palautus-USB-muisti on tyhjennetty."
+   },
+   "erase_complete_title_workspace_hardware": {
+      "message": "Palautus-USB-muisti on tyhjennetty."
+   },
+   "erase_confirm_message": {
+      "message": "Palautusnäköistiedosto ja kaikki palautusvälineen osiot poistetaan."
+   },
+   "erase_confirm_message_on_hub": {
+      "message": "Palautusnäköistiedosto ja kaikki palautus-USB-muistin osiot poistetaan."
+   },
+   "erase_confirm_message_workspace_hardware": {
+      "message": "Palautusnäköistiedosto ja kaikki palautus-USB-muistin osiot poistetaan."
+   },
+   "erase_now_button_text": {
+      "message": "Tyhjennä nyt"
+   },
+   "erase_progress_text": {
+      "message": "Älä irrota palautusvälinettäsi."
+   },
+   "erase_progress_text_on_hub": {
+      "message": "Älä irrota palautus-USB-muistiasi."
+   },
+   "erase_progress_text_workspace_hardware": {
+      "message": "Älä irrota palautus-USB-muistiasi."
+   },
+   "erase_progress_title": {
+      "message": "Palautusvälinettäsi tyhjennetään"
+   },
+   "erase_progress_title_on_hub": {
+      "message": "Palautus-USB-muistiasi tyhjennetään"
+   },
+   "erase_progress_title_workspace_hardware": {
+      "message": "Palautus-USB-muistiasi tyhjennetään"
+   },
+   "erase_select_target_detecting": {
+      "message": "Tunnistetaan"
+   },
+   "erase_select_target_high_capacity_warning_html": {
+      "message": "\u003Cb>Varoitus:\u003C/b> onko tämä oikea asema?"
+   },
+   "erase_select_target_no_devices_found": {
+      "message": "USB-muisti tai SD-kortteja ei löytynyt"
+   },
+   "erase_select_target_no_devices_found_on_hub": {
+      "message": "USB-muisteja ei löytynyt"
+   },
+   "erase_select_target_no_devices_found_workspace_hardware": {
+      "message": "USB-muisteja ei löytynyt"
+   },
+   "erase_select_target_select_device": {
+      "message": "Valitse palautusväline, jonka haluat tyhjentää."
+   },
+   "erase_select_target_select_device_on_hub": {
+      "message": "Valitse palautus-USB-muisti, jonka haluat tyhjentää."
+   },
+   "erase_select_target_select_device_placeholder": {
+      "message": "Valitse"
+   },
+   "erase_select_target_select_device_workspace_hardware": {
+      "message": "Valitse palautus-USB-muisti, jonka haluat tyhjentää."
+   },
+   "erase_title": {
+      "message": "Tyhjennä palautusväline"
+   },
+   "erase_title_on_hub": {
+      "message": "Tyhjennä palautus-USB-muisti"
+   },
+   "erase_title_workspace_hardware": {
+      "message": "Tyhjennä palautus-USB-muisti"
+   },
+   "errmsg_please_try_again": {
+      "message": "Yritä uudelleen."
+   },
+   "errmsg_recovery_config_download_failure": {
+      "message": "Määritystiedoston lataaminen epäonnistui. Vain offline-ominaisuudet ovat käytettävissä."
+   },
+   "get_started_button_text": {
+      "message": "Aloita"
+   },
+   "gigabyte_abbreviation": {
+      "message": "Gt"
+   },
+   "go_back_button_text": {
+      "message": "Palaa takaisin"
+   },
+   "hours_remaining": {
+      "message": "$1 tuntia jäljellä.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "hwid_invalid_model": {
+      "message": "Virheellinen mallinumero. Tarkista syöttämäsi tiedot."
+   },
+   "hwid_keep_typing": {
+      "message": "Mallia ei löytynyt vielä. Jatka tietojen syöttämistä."
+   },
+   "hwid_keep_typing_workspace_hardware": {
+      "message": "Mallia ei löytynyt vielä"
+   },
+   "hwid_match_found": {
+      "message": "Löydettiin osuma."
+   },
+   "hwid_match_found_and_checksum_verified": {
+      "message": "Saman mallin nimen sisältävä osuma löytyi"
+   },
+   "learn_more_link_text": {
+      "message": "Lue lisää"
+   },
+   "learn_more_link_url": {
+      "message": "http://www.google.com/chromeos/recovery"
+   },
+   "learn_more_link_url_on_hub": {
+      "message": "https://support.google.com/onhub/answer/6274977"
+   },
+   "learn_more_link_url_workspace_hardware": {
+      "message": "http://support.google.com/meethardware/answer/10562922"
+   },
+   "loading_config_text": {
+      "message": "Valmistellaan…"
+   },
+   "menu_item_erase_recovery_media": {
+      "message": "Tyhjennä palautusväline"
+   },
+   "menu_item_erase_recovery_media_on_hub": {
+      "message": "Tyhjennä palautus-USB-muisti"
+   },
+   "menu_item_erase_recovery_media_workspace_hardware": {
+      "message": "Tyhjennä palautus-USB-muisti"
+   },
+   "menu_item_send_feedback": {
+      "message": "Lähetä palautetta"
+   },
+   "menu_item_use_local_image": {
+      "message": "Käytä paikallista kuvaa"
+   },
+   "minutes_remaining": {
+      "message": "$1 minuuttia jäljellä.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "of": {
+      "message": "/"
+   },
+   "recovery_channel_beta": {
+      "message": "Betaversio"
+   },
+   "recovery_channel_dev": {
+      "message": "Kehitysversio"
+   },
+   "recovery_channel_ltc": {
+      "message": "Pitkäaikaisen tuen kanava (vain Enterprise-tilit)"
+   },
+   "recovery_channel_lts": {
+      "message": "Pitkäaikainen tuki (vain Enterprise-tilit)"
+   },
+   "recovery_channel_stable": {
+      "message": "Vakaa"
+   },
+   "seconds_remaining": {
+      "message": "$1 sekuntia jäljellä.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "select_channel_placeholder": {
+      "message": "Valitse palautuskanava"
+   },
+   "select_image_select_by_hwid_link_text": {
+      "message": "Lisää mallinumero suoraan"
+   },
+   "select_image_select_from_list_link_text": {
+      "message": "Valitse malli luettelosta"
+   },
+   "select_image_select_manufacturer_placeholder": {
+      "message": "Valitse valmistaja"
+   },
+   "select_image_select_product_placeholder": {
+      "message": "Valitse tuote"
+   },
+   "select_image_select_product_placeholder_on_hub": {
+      "message": "Valitse malli"
+   },
+   "select_image_select_product_placeholder_workspace_hardware": {
+      "message": "Valitse malli"
+   },
+   "select_image_text": {
+      "message": "Lisää Chromebookin mallinumero. Numero löytyy palautusnäytöltä."
+   },
+   "select_image_text_on_hub": {
+      "message": "Lisää OnHubin mallinumero."
+   },
+   "select_image_text_workspace_hardware": {
+      "message": "Lisää Meet Compute Systemin mallinumero"
+   },
+   "select_image_this_chromebooks_model_number": {
+      "message": "Tätä Chromebookia varten lisää"
+   },
+   "select_image_this_chromebooks_model_number_on_hub": {
+      "message": "Tätä OnHubia varten lisää"
+   },
+   "select_image_this_chromebooks_model_number_workspace_hardware": {
+      "message": "Tätä Meet Compute Systemia varten lisää"
+   },
+   "select_image_title": {
+      "message": "Tunnista Chromebookisi"
+   },
+   "select_image_title_on_hub": {
+      "message": "Tunnista OnHubisi"
+   },
+   "select_image_title_workspace_hardware": {
+      "message": "Tunnista Meet Compute Systemisi"
+   },
+   "select_target_detecting": {
+      "message": "Tunnistetaan"
+   },
+   "select_target_high_capacity_warning_html": {
+      "message": "\u003Cb>Varoitus:\u003C/b> Onko tämä oikea väline?"
+   },
+   "select_target_high_capacity_warning_html_on_hub": {
+      "message": "\u003Cb>Varoitus:\u003C/b> Onko tämä oikea USB-muisti?"
+   },
+   "select_target_high_capacity_warning_html_workspace_hardware": {
+      "message": "\u003Cb>Varoitus:\u003C/b> Onko tämä oikea USB-muisti?"
+   },
+   "select_target_low_capacity_error": {
+      "message": "Välineen koon on oltava vähintään 8 Gt."
+   },
+   "select_target_low_capacity_error_on_hub": {
+      "message": "USB-muistin koon on oltava vähintään 8 Gt."
+   },
+   "select_target_low_capacity_error_workspace_hardware": {
+      "message": "USB-muistin koon on oltava vähintään 8 Gt."
+   },
+   "select_target_no_devices_found": {
+      "message": "USB-muisti tai SD-kortteja ei löytynyt"
+   },
+   "select_target_no_devices_found_on_hub": {
+      "message": "USB-muisteja ei löytynyt"
+   },
+   "select_target_no_devices_found_workspace_hardware": {
+      "message": "USB-muisteja ei löytynyt"
+   },
+   "select_target_select_device": {
+      "message": "Valitse väline, jota haluat käyttää."
+   },
+   "select_target_select_device_on_hub": {
+      "message": "Valitse USB-muisti, jota haluat käyttää."
+   },
+   "select_target_select_device_placeholder": {
+      "message": "Valitse"
+   },
+   "select_target_select_device_workspace_hardware": {
+      "message": "Valitse USB-muisti, jota haluat käyttää."
+   },
+   "select_target_title": {
+      "message": "Aseta USB-muisti tai SD-kortti"
+   },
+   "select_target_title_on_hub": {
+      "message": "Aseta USB-muisti"
+   },
+   "select_target_title_workspace_hardware": {
+      "message": "Aseta USB-muisti"
+   },
+   "stage_complete": {
+      "message": "Valmis"
+   },
+   "stage_download": {
+      "message": "Ladataan"
+   },
+   "stage_downloadverify": {
+      "message": "Todennetaan latausta"
+   },
+   "stage_unpack": {
+      "message": "Puretaan pakkausta"
+   },
+   "stage_unzip": {
+      "message": "Puretaan pakkausta"
+   },
+   "stage_verify": {
+      "message": "Todennetaan"
+   },
+   "stage_verifydownload": {
+      "message": "Todennetaan latausta"
+   },
+   "stage_verifywrite": {
+      "message": "Todennetaan"
+   },
+   "stage_write": {
+      "message": "Kirjoitetaan"
+   },
+   "step": {
+      "message": "Vaihe"
+   },
+   "unsupported_text": {
+      "message": "Valitettavasti alustaasi ei tueta tällä hetkellä. Lue lisää \u003Ca href=\"http://www.google.com/chromeos/recovery\" target=\"_blank\">Chromebookin ohjekeskuksesta\u003C/a>."
+   },
+   "unsupported_text_mac": {
+      "message": "Valitettavasti Macia tuetaan vain M37-versiossa ja uudemmissa. Päivitä Chromesi versioon M37. Tämä saattaa edellyttää \u003Ca href=\"https://support.google.com/chromebook/answer/1086915\" target=\"_blank\">vaihtamista betaversioon\u003C/a>."
+   },
+   "unsupported_text_on_hub": {
+      "message": "Valitettavasti alustaasi ei tueta tällä hetkellä. Lue lisää \u003Ca href=\"https://support.google.com/onhub/answer/6274977\" target=\"_blank\">OnHubin ohjekeskuksesta\u003C/a>."
+   },
+   "unsupported_title": {
+      "message": "Alustaasi ei tueta tällä hetkellä"
+   },
+   "unsupported_title_linux": {
+      "message": "Linuxia ei tueta tällä hetkellä"
+   },
+   "unsupported_title_mac": {
+      "message": "Macia ei tueta tällä hetkellä"
+   },
+   "unsupported_title_win": {
+      "message": "Windowsia ei tueta tällä hetkellä"
+   },
+   "usupported_text_workspace_hardware": {
+      "message": "Valitettavasti alustaasi ei tueta tällä hetkellä.  Lue lisää \u003Ca href=\"http://support.google.com/meethardware/answer/10562922\" target=\"_blank\">Google Meet Hardwaren ohjekeskuksesta\u003C/a>."
+   },
+   "warning_offline": {
+      "message": "Laite on offline-tilassa. Vain offline-ominaisuudet ovat käytettävissä."
+   },
+   "welcome_text": {
+      "message": "Tarvitset vähintään 8 Gt:n USB-muistin tai SD-kortin, jonka voit tyhjentää."
+   },
+   "welcome_text_on_hub": {
+      "message": "Tarvitset vähintään 8 Gt:n USB-muistitikun, jonka voit tyhjentää."
+   },
+   "welcome_text_workspace_hardware": {
+      "message": "Tarvitset vähintään 8 Gt:n USB-muistitikun, jonka voit tyhjentää. Voit myös käyttää SD-korttia, jos laitteessa on SD-korttipaikka."
+   },
+   "welcome_title": {
+      "message": "Luo palautustietoväline Chromebookillesi"
+   },
+   "welcome_title_on_hub": {
+      "message": "Luo palautus-USB-muistitikku OnHubillesi"
+   },
+   "welcome_title_workspace_hardware": {
+      "message": "Luo palautus-USB-muisti Meet Compute Systemille"
+   },
+   "write_message": {
+      "message": "Älä irrota palautusvälinettäsi."
+   },
+   "write_message_on_hub": {
+      "message": "Älä irrota palautus-USB-muistiasi."
+   },
+   "write_message_workspace_hardware": {
+      "message": "Älä poista tätä USB-muistitikkua."
+   },
+   "write_title": {
+      "message": "Palautusnäköistiedostoa luodaan"
+   }
+}

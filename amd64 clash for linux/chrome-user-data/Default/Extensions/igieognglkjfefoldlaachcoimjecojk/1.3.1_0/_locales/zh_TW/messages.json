@@ -1,0 +1,467 @@
+{
+   "add_category": {
+      "message": "新增分類"
+   },
+   "add_website": {
+      "message": "新增自訂搜索網站"
+   },
+   "add_website_error": {
+      "message": "配置有誤，請檢測後重試"
+   },
+   "add_website_id": {
+      "message": "網站唯一標識"
+   },
+   "add_website_name": {
+      "message": "網站名稱"
+   },
+   "add_website_ok": {
+      "message": "網站添加成功"
+   },
+   "add_website_parser": {
+      "message": "網站解析代碼"
+   },
+   "add_website_request_method": {
+      "message": "HTTP請求類型"
+   },
+   "add_website_search_keyword": {
+      "message": "搜索驗證關鍵字"
+   },
+   "add_website_search_url": {
+      "message": "網站搜索url地址"
+   },
+   "add_website_searcher": {
+      "message": "網站搜索代碼"
+   },
+   "add_website_shortname": {
+      "message": "網站英文縮寫"
+   },
+   "add_website_type": {
+      "message": "網站分類"
+   },
+   "admin_category_action": {
+      "message": "操作"
+   },
+   "admin_category_title": {
+      "message": "分類管理"
+   },
+   "admin_website_action": {
+      "message": "操作"
+   },
+   "admin_website_title": {
+      "message": "用戶個性化搜索網站管理"
+   },
+   "btn_category_add": {
+      "message": "新增"
+   },
+   "btn_category_edit": {
+      "message": "編輯"
+   },
+   "btn_website_add": {
+      "message": "增加"
+   },
+   "btn_website_edit": {
+      "message": "修改"
+   },
+   "category_acg": {
+      "message": "動漫"
+   },
+   "category_book": {
+      "message": "圖書"
+   },
+   "category_exist": {
+      "message": "分類已存在"
+   },
+   "category_magnet": {
+      "message": "磁力種子"
+   },
+   "category_movie": {
+      "message": "影視"
+   },
+   "category_music": {
+      "message": "音樂"
+   },
+   "category_name": {
+      "message": "分類名稱"
+   },
+   "category_name_label": {
+      "message": "分類名稱"
+   },
+   "category_pan": {
+      "message": "網盤"
+   },
+   "category_scholar": {
+      "message": "學術搜尋"
+   },
+   "category_search_engine": {
+      "message": "搜尋引擎"
+   },
+   "category_system_default": {
+      "message": "系统缺省"
+   },
+   "category_type": {
+      "message": "分類類型"
+   },
+   "category_user_defined": {
+      "message": "用戶自訂"
+   },
+   "category_value": {
+      "message": "分類值"
+   },
+   "category_value_label": {
+      "message": "分類值"
+   },
+   "category_value_placeholder": {
+      "message": "只能包含字母或數位"
+   },
+   "company_search_button": {
+      "message": "公司信息搜索"
+   },
+   "content_size": {
+      "message": "文件大小"
+   },
+   "context_menu_download_text": {
+      "message": "下載所有圖片"
+   },
+   "context_menu_save_as": {
+      "message": "保存為"
+   },
+   "context_menu_search_text": {
+      "message": "easySearch"
+   },
+   "context_menu_settings_text": {
+      "message": "設置"
+   },
+   "created_date": {
+      "message": "收錄時間"
+   },
+   "donate_message": {
+      "message": "感謝您的捐款，幫助easySearch持續開發."
+   },
+   "edit_category": {
+      "message": "編輯分類"
+   },
+   "edit_website": {
+      "message": "修改網站"
+   },
+   "edit_website_error": {
+      "message": "配置有誤，請檢測後重試"
+   },
+   "edit_website_ok": {
+      "message": "網站修改成功"
+   },
+   "error": {
+      "message": "出错啦,请重试!"
+   },
+   "jubt_address_release_page": {
+      "message": "聚BT地址發佈頁"
+   },
+   "jubt_copyright": {
+      "message": "版權聲明"
+   },
+   "jubt_copyright_text": {
+      "message": "聚BT只在流覽器端調用各網站搜索，聚合搜索結果，所有資源均來自相關網站"
+   },
+   "jubt_need_proxy": {
+      "message": "需翻牆"
+   },
+   "jubt_permanent_address": {
+      "message": "聚BT永久地址"
+   },
+   "jubt_title": {
+      "message": "聚BT"
+   },
+   "lines_search_button": {
+      "message": "臺詞搜索"
+   },
+   "more_search_company_desc": {
+      "message": "公司註冊資訊搜索"
+   },
+   "more_search_company_title": {
+      "message": "工商搜索"
+   },
+   "more_search_lines_desc": {
+      "message": "影視、動漫臺詞搜索"
+   },
+   "more_search_lines_title": {
+      "message": "臺詞搜索"
+   },
+   "more_search_reverse_image_desc": {
+      "message": "老司機居家必備神器"
+   },
+   "more_search_reverse_image_title": {
+      "message": "以圖搜圖"
+   },
+   "more_search_scores_desc": {
+      "message": "樂譜、曲譜搜索"
+   },
+   "more_search_scores_title": {
+      "message": "樂譜搜索"
+   },
+   "more_search_title": {
+      "message": "更多搜索"
+   },
+   "need_to_reload": {
+      "message": "有新功能,需要更新後再使用"
+   },
+   "need_to_upgrade": {
+      "message": "有新版本,請升級解鎖更多功能"
+   },
+   "newtab_selector_label": {
+      "message": "頁面CSS選擇代碼"
+   },
+   "newtab_selector_placeholder": {
+      "message": "用於判斷頁面是否裝載完成的CSS Selector"
+   },
+   "newtab_selector_required": {
+      "message": "CSS Selector不能為空!"
+   },
+   "order_by": {
+      "message": "排序"
+   },
+   "order_by_date": {
+      "message": "時間"
+   },
+   "order_by_default": {
+      "message": "缺省"
+   },
+   "order_by_hot": {
+      "message": "熱度"
+   },
+   "order_by_size": {
+      "message": "大小"
+   },
+   "peers": {
+      "message": "用戶數"
+   },
+   "pluginDesc": {
+      "message": "調用自訂網站的搜索功能搜索，聚合搜索結果展現"
+   },
+   "pluginName": {
+      "message": "easySearch"
+   },
+   "popup_menu_contact": {
+      "message": "聯繫方式"
+   },
+   "popup_menu_donate": {
+      "message": "捐助"
+   },
+   "popup_menu_function": {
+      "message": "功能"
+   },
+   "popup_menu_help": {
+      "message": "幫助"
+   },
+   "popup_menu_ixue": {
+      "message": "聚学习"
+   },
+   "popup_menu_jubt": {
+      "message": "聚BT"
+   },
+   "popup_menu_jufuli": {
+      "message": "聚福利"
+   },
+   "popup_menu_jujili": {
+      "message": "要吉利"
+   },
+   "popup_menu_jutools": {
+      "message": "聚工具"
+   },
+   "popup_menu_more": {
+      "message": "更多工具"
+   },
+   "popup_menu_search": {
+      "message": "搜索"
+   },
+   "popup_menu_settings": {
+      "message": "設置"
+   },
+   "popup_menu_version": {
+      "message": "版本"
+   },
+   "popup_settings_category_admin": {
+      "message": "自訂分類"
+   },
+   "popup_settings_engine_number_per_search": {
+      "message": "每次搜索網站數量"
+   },
+   "popup_settings_error": {
+      "message": "保存失敗,請重試! "
+   },
+   "popup_settings_heading": {
+      "message": "選項"
+   },
+   "popup_settings_info": {
+      "message": "登錄中，請稍候... "
+   },
+   "popup_settings_ok": {
+      "message": "保存成功"
+   },
+   "popup_settings_prompt": {
+      "message": "請先設置Wordpress登錄資訊! 點擊此處去設置."
+   },
+   "popup_settings_results_order_by": {
+      "message": "搜索結果排序"
+   },
+   "popup_settings_results_per_engine": {
+      "message": "每個網站搜索結果顯示數量"
+   },
+   "popup_settings_save_button": {
+      "message": "保存"
+   },
+   "popup_settings_validate_date": {
+      "message": "請輸入有效的日期時間 , 例如："
+   },
+   "popup_settings_validate_digits": {
+      "message": "此欄位只能為數字!"
+   },
+   "popup_settings_validate_required": {
+      "message": "欄位不能為空!"
+   },
+   "popup_settings_validate_url": {
+      "message": "請輸入有效的URL位址!"
+   },
+   "popup_settings_website_add": {
+      "message": "新增搜索网站"
+   },
+   "popup_settings_website_admin": {
+      "message": "自定义搜索网站"
+   },
+   "reverse_image_button": {
+      "message": "以圖搜圖"
+   },
+   "reverse_image_upload_prompt": {
+      "message": "點擊上傳或拖動圖片到此處上傳"
+   },
+   "scores_search_button": {
+      "message": "樂譜搜索"
+   },
+   "search_button": {
+      "message": "搜索"
+   },
+   "search_engine_more": {
+      "message": "更多"
+   },
+   "search_engine_source": {
+      "message": "來源"
+   },
+   "search_engine_type": {
+      "message": "類型"
+   },
+   "search_input_placeholder": {
+      "message": "磁力種子,影視,動漫,雲盤资源一站式聚合搜索 ..."
+   },
+   "search_results_load_more": {
+      "message": "小提示:滑鼠滾動載入更多搜索結果 ..."
+   },
+   "seeders": {
+      "message": "做種數"
+   },
+   "shortname_validate": {
+      "message": "只能包含字母或數位,首字母不能為數位"
+   },
+   "system_default_first": {
+      "message": "缺省內置優先"
+   },
+   "user_defined_first": {
+      "message": "用戶自訂優先"
+   },
+   "verify_website_error": {
+      "message": "網站配置有誤，請確認"
+   },
+   "verify_website_ok": {
+      "message": "網站配置正確"
+   },
+   "website_custom_help": {
+      "message": "自定義網站入門文檔"
+   },
+   "website_exist": {
+      "message": "網站已存在"
+   },
+   "website_id_placeholder": {
+      "message": "網址唯一標識，請確認唯一性，建議採用網址為唯一標識，例如: dmhy.anoneko.com"
+   },
+   "website_name_placeholder": {
+      "message": "網站名稱，命名上沒有限制,例如: 動漫花園"
+   },
+   "website_request_method_get_custom": {
+      "message": "GET-自訂"
+   },
+   "website_request_method_get_default": {
+      "message": "GET-缺省"
+   },
+   "website_request_method_get_iframe": {
+      "message": "GET-iframe"
+   },
+   "website_request_method_newtab": {
+      "message": "GET-新標籤頁"
+   },
+   "website_request_method_newtab_iframe": {
+      "message": "GET-新標籤頁-iframe"
+   },
+   "website_search_keyword_encode_label": {
+      "message": "搜索關鍵字編碼"
+   },
+   "website_search_keyword_encode_placeholder": {
+      "message": "不填為缺省,+表示多個單詞間用+連接"
+   },
+   "website_search_keyword_placeholder": {
+      "message": "搜索驗證關鍵字，用於測試驗證配置結果，請務必在網站搜尋網頁面驗證有測試結果"
+   },
+   "website_search_url_placeholder": {
+      "message": "網站搜索結果的URL位址,如果為HTTP請求類型為GET，搜索關鍵字用searchkeyword代替，例如：https://dmhy.anoneko.com/topics/list?keyword=searchkeyword"
+   },
+   "website_search_url_validate": {
+      "message": "必須為URL地址,且必須包含searchkeyword"
+   },
+   "website_searcher_validate": {
+      "message": "HTTP請求類型為POST時,搜索代碼欄位不能為空"
+   },
+   "website_shortname_placeholder": {
+      "message": "網站英文簡寫,只能包含字母或數位,首字母不能為數位，例如: dmhy"
+   },
+   "website_source": {
+      "message": "網站來源"
+   },
+   "website_source_system_default": {
+      "message": "系統缺省"
+   },
+   "website_source_user_defined": {
+      "message": "用戶自訂"
+   },
+   "website_type_acg": {
+      "message": "動漫"
+   },
+   "website_type_ad": {
+      "message": "贊助商廣告"
+   },
+   "website_type_all": {
+      "message": "所有"
+   },
+   "website_type_book": {
+      "message": "圖書"
+   },
+   "website_type_fuli": {
+      "message": "福利資源"
+   },
+   "website_type_magnet": {
+      "message": "磁力種子"
+   },
+   "website_type_movie": {
+      "message": "影視"
+   },
+   "website_type_music": {
+      "message": "音樂"
+   },
+   "website_type_pan": {
+      "message": "雲盤"
+   },
+   "website_type_pic": {
+      "message": "美圖"
+   },
+   "website_type_scholar": {
+      "message": "學術搜尋"
+   },
+   "website_type_search_engine": {
+      "message": "搜尋引擎"
+   }
+}

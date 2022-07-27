@@ -1,0 +1,556 @@
+{
+   "apierrmsg_aborted": {
+      "message": "Darbība pārtraukta."
+   },
+   "apierrmsg_device_list_error": {
+      "message": "Nevar atrast USB disku vai SD karti."
+   },
+   "apierrmsg_device_list_error_on_hub": {
+      "message": "Nevar atrast USB disku."
+   },
+   "apierrmsg_device_list_error_workspace_hardware": {
+      "message": "Nevar atrast USB disku."
+   },
+   "apierrmsg_device_write_error": {
+      "message": "Nevar rakstīt atlasītajā USB zibatmiņas diskā vai SD kartē. Iespējams, ir atspējotas jūsu ierīces rakstīšanas atļaujas vai jūsu domēna administrators ir atspējojis rakstīšanu USB atmiņā."
+   },
+   "apierrmsg_download_cancelled": {
+      "message": "Lejupielāde atcelta."
+   },
+   "apierrmsg_download_hash_mismatch": {
+      "message": "Fails nav derīgs."
+   },
+   "apierrmsg_download_interrupted": {
+      "message": "Lejupielāde ir pārtraukta. Lūdzu, pārbaudiet tīkla savienojumu un mēģiniet vēlreiz."
+   },
+   "apierrmsg_file_invalid": {
+      "message": "Fails nav derīgs."
+   },
+   "apierrmsg_operation_already_in_progress": {
+      "message": "Jau notiek darbība."
+   },
+   "apierrmsg_unknown": {
+      "message": "Nezināma kļūda: $1.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "apierrmsg_unsupported_operation": {
+      "message": "Neatbalstīta darbība."
+   },
+   "apierrmsg_unzip_error": {
+      "message": "Nevar izgūt failu no ZIP arhīva. Lūdzu, pārbaudiet, vai ierīcē ir pietiekami daudz brīvas vietas, un mēģiniet vēlreiz."
+   },
+   "apierrmsg_unzip_invalid_archive": {
+      "message": "Nederīgs ZIP fails."
+   },
+   "apierrmsg_url_invalid": {
+      "message": "Fails nav atrasts."
+   },
+   "apierrmsg_verification_failed": {
+      "message": "Neizdevās verificēt attēlu."
+   },
+   "app_description": {
+      "message": "Izveidojiet atkopšanas datu nesēju Chromebook datoram."
+   },
+   "app_description_on_hub": {
+      "message": "Izveidojiet atkopšanas USB disku OnHub ierīcei."
+   },
+   "app_description_workspace_hardware": {
+      "message": "Izveidojiet atkopšanas USB disku Meet Compute System ierīcei."
+   },
+   "app_name": {
+      "message": "Chromebook atkopšanas utilītprogramma"
+   },
+   "app_name_on_hub": {
+      "message": "OnHub atkopšanas utilītprogramma"
+   },
+   "app_name_workspace_hardware": {
+      "message": "Meet Compute System atkopš. utilītprogramma"
+   },
+   "app_short_name": {
+      "message": "Atkopšana"
+   },
+   "cancel_button_text": {
+      "message": "Atcelt"
+   },
+   "chrome_app_deprecation_message": {
+      "message": "Kā tika publiski paziņots \u003Ca href=\"https://blog.chromium.org/2020/08/changes-to-chrome-app-support-timeline.html\" target=\"_blank\" tabindex=\"0\">Chromium emuārā\u003C/a>, 2021. gada jūnijā Google pārtrauks Chrome lietotņu atbalstu. Lūdzu, izmantojiet \u003Ca href=\"https://chrome.google.com/webstore/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm\" target=\"_blank\">Chromebook atkopšanas utilītprogrammas paplašinājumu\u003C/a> un saistīto \u003Ca href=\"http://www.google.com/chromeos/recovery\" target=\"_blank\">dokumentāciju\u003C/a>, lai atkoptu savas ierīces."
+   },
+   "chrome_app_deprecation_message_on_hub": {
+      "message": "Kā tika publiski paziņots \u003Ca href=\"https://blog.chromium.org/2020/08/changes-to-chrome-app-support-timeline.html\" target=\"_blank\" tabindex=\"0\">Chromium emuārā\u003C/a>, 2021. gada jūnijā Google pārtrauks Chrome lietotņu atbalstu. Lūdzu, izmantojiet \u003Ca href=\"https://chrome.google.com/webstore/detail/onhub-recovery-utility/fmgkgdalfapcmjnanilfcpkhkhedmpdm\" target=\"_blank\">OnHub atkopšanas utilītprogrammas paplašinājumu\u003C/a> un saistīto \u003Ca href=\"https://support.google.com/onhub/answer/6274977\" target=\"_blank\">dokumentāciju\u003C/a>, lai atkoptu savas ierīces."
+   },
+   "complete_bullet1": {
+      "message": "Lai atkoptu Chromebook datoru, pievienojiet tam atkopšanas datu nesēju."
+   },
+   "complete_bullet1_on_hub": {
+      "message": "Atvienojiet barošanas vadu no OnHub ierīces un ievietojiet USB disku ierīces aizmugurē. Turiet nospiestu atiestatīšanas pogu un pievienojiet ierīci strāvas avotam. Turpiniet turēt atiestatīšanas pogu aptuveni 15 sekundes vai tik ilgi, līdz sāk mirgot USB diska darbības indikators."
+   },
+   "complete_bullet1_workspace_hardware": {
+      "message": "Lai atkoptu savu Meet Compute System ierīci, izpildiet norādījumus, kas sniegti šeit: \u003Ca href=\"http://support.google.com/meethardware/answer/10562922#zippy=%2Cstep-enter-recovery-mode\" target=\"_blank\">Google Meet aparatūras sistēmas atkopšana (3. darbība: ieslēdziet atkopšanas režīmu)\u003C/a>."
+   },
+   "complete_bullet2": {
+      "message": "Pēc atkopšanas varat izdzēst datus no atkopšanas datu nesēja, izmantojot šo utilītprogrammu."
+   },
+   "complete_bullet2_on_hub": {
+      "message": "OnHub ierīce tiks atkopta, un tas ilgs dažas minūtes. Tiklīdz atkopšana būs pabeigta, ierīce tiks atkārtoti palaista. Pēc tam izmantojiet lietotni Google On, lai iestatītu OnHub ierīci."
+   },
+   "complete_bullet2_workspace_hardware": {
+      "message": "Lai pēc pabeigšanas dzēstu USB zibatmiņas diska saturu, palaidiet Meet Compute System atkopšanas utilītprogrammu, noklikšķiniet uz \u003Cb>Iestatījumi\u003C/b> un pēc tam uz — \u003Cb>Dzēst datus no atkopšanas datu nesēja\u003C/b>."
+   },
+   "complete_message": {
+      "message": "Varat izņemt atkopšanas datu nesēju."
+   },
+   "complete_message_on_hub": {
+      "message": "Varat izņemt atkopšanas USB disku."
+   },
+   "complete_message_workspace_hardware": {
+      "message": "Tagad varat noņemt zibatmiņas disku."
+   },
+   "complete_title": {
+      "message": "Atkopšanas datu nesējs ir gatavs!"
+   },
+   "complete_title_on_hub": {
+      "message": "Atkopšanas USB disks ir gatavs!"
+   },
+   "complete_title_workspace_hardware": {
+      "message": "Atkopšanas USB disks ir gatavs!"
+   },
+   "completed": {
+      "message": "pabeigts"
+   },
+   "confirm_cancelled_message_html": {
+      "message": "Atcelts. Lai mēģinātu vēlreiz, noklikšķiniet uz &ldquo;Izveidot tūlīt&rdquo;.\u003Cbr>\u003Cbr>Lai dzēstu datus no atkopšanas datu nesēja, augšējā labajā stūrī noklikšķiniet uz zobrata ikonas."
+   },
+   "confirm_cancelled_message_html_on_hub": {
+      "message": "Atcelts. Lai mēģinātu vēlreiz, noklikšķiniet uz &ldquo;Izveidot tūlīt&rdquo;.\u003Cbr>\u003Cbr>Lai dzēstu datus no atkopšanas USB diska, augšējā labajā stūrī noklikšķiniet uz zobrata ikonas."
+   },
+   "confirm_cancelled_message_html_workspace_hardware": {
+      "message": "Atcelts. Lai mēģinātu vēlreiz, noklikšķiniet uz &ldquo;Izveidot tūlīt&rdquo;.\u003Cbr>\u003Cbr>Lai dzēstu datus no atkopšanas USB diska, augšējā labajā stūrī noklikšķiniet uz zobrata ikonas."
+   },
+   "confirm_hide_advanced_settings_message": {
+      "message": "Slēpiet papildu iestatījumus"
+   },
+   "confirm_message_html": {
+      "message": "\u003Cb>Svarīgi!\u003C/b> Visi atkopšanas datu nesējā saglabātie dati un nodalījumi tiks izdzēsti."
+   },
+   "confirm_message_html_on_hub": {
+      "message": "\u003Cb>Svarīgi!\u003C/b> Visi USB diskā saglabātie dati un nodalījumi tiks izdzēsti."
+   },
+   "confirm_message_html_workspace_hardware": {
+      "message": "\u003Cb>Svarīgi!\u003C/b> Tiks izdzēsts viss jūsu zibatmiņas diska saturs."
+   },
+   "confirm_show_advanced_settings_message": {
+      "message": "Rādiet papildu iestatījumus"
+   },
+   "confirm_title": {
+      "message": "Atkopšanas attēla izveide"
+   },
+   "continue_button_text": {
+      "message": "Turpināt"
+   },
+   "create_another_button_text": {
+      "message": "Izveidot vēl vienu"
+   },
+   "create_now_button_text": {
+      "message": "Izveidot tūlīt"
+   },
+   "dev_app_description": {
+      "message": "Chromebook atkopšanas utilītprogrammas izstrādes versija"
+   },
+   "dev_app_description_on_hub": {
+      "message": "OnHub atkopšanas utilītprogrammas izstrādes versija"
+   },
+   "dev_app_description_workspace_hardware": {
+      "message": "Meet Compute System atkopšanas utilītprogrammas izstrādes versija"
+   },
+   "dev_app_name": {
+      "message": "Chromebook atkopšanas utilītprogr. (izstr.)"
+   },
+   "dev_app_name_on_hub": {
+      "message": "OnHub atkopšanas utilītprogramma (izstr.)"
+   },
+   "dev_app_name_workspace_hardware": {
+      "message": "Meet Compute System atkopš. utilīta (izstr.)"
+   },
+   "done_button_text": {
+      "message": "Gatavs"
+   },
+   "erase_complete_bullet1": {
+      "message": "USB disks vai SD karte tiek sagatavota formatēšanai."
+   },
+   "erase_complete_bullet1_on_hub": {
+      "message": "USB disks tiek sagatavots formatēšanai."
+   },
+   "erase_complete_bullet1_workspace_hardware": {
+      "message": "USB disks tiek sagatavots formatēšanai."
+   },
+   "erase_complete_bullet2": {
+      "message": "Veiciet formatēšanu, izmantojot operētājsistēmā pieejamu formatēšanas rīku."
+   },
+   "erase_complete_title": {
+      "message": "Atkopšanas datu nesēja dati ir izdzēsti."
+   },
+   "erase_complete_title_on_hub": {
+      "message": "Atkopšanas USB diska dati ir izdzēsti."
+   },
+   "erase_complete_title_workspace_hardware": {
+      "message": "Atkopšanas USB diska dati ir izdzēsti."
+   },
+   "erase_confirm_message": {
+      "message": "Atkopšanas attēls un visi atkopšanas datu nesēja nodalījumi tiks izdzēsti."
+   },
+   "erase_confirm_message_on_hub": {
+      "message": "Atkopšanas attēls un visi atkopšanas USB diska nodalījumi tiks izdzēsti."
+   },
+   "erase_confirm_message_workspace_hardware": {
+      "message": "Atkopšanas attēls un visi atkopšanas USB diska nodalījumi tiks izdzēsti."
+   },
+   "erase_now_button_text": {
+      "message": "Dzēst tūlīt"
+   },
+   "erase_progress_text": {
+      "message": "Neizņemiet atkopšanas datu nesēju!"
+   },
+   "erase_progress_text_on_hub": {
+      "message": "Neizņemiet atkopšanas USB disku!"
+   },
+   "erase_progress_text_workspace_hardware": {
+      "message": "Neizņemiet atkopšanas USB disku!"
+   },
+   "erase_progress_title": {
+      "message": "Datu dzēšana no atkopšanas datu nesēja"
+   },
+   "erase_progress_title_on_hub": {
+      "message": "Notiek datu dzēšana no atkopšanas USB diska"
+   },
+   "erase_progress_title_workspace_hardware": {
+      "message": "Notiek datu dzēšana no atkopšanas USB diska"
+   },
+   "erase_select_target_detecting": {
+      "message": "Notiek meklēšana"
+   },
+   "erase_select_target_high_capacity_warning_html": {
+      "message": "\u003Cb>Brīdinājums:\u003C/b> vai šis ir pareizais disks?"
+   },
+   "erase_select_target_no_devices_found": {
+      "message": "Netika atrasts neviens USB disks vai SD karte"
+   },
+   "erase_select_target_no_devices_found_on_hub": {
+      "message": "Netika atrasts neviens USB disks"
+   },
+   "erase_select_target_no_devices_found_workspace_hardware": {
+      "message": "Netika atrasts neviens USB disks"
+   },
+   "erase_select_target_select_device": {
+      "message": "Atlasiet atkopšanas datu nesēju, kura datus vēlaties dzēst."
+   },
+   "erase_select_target_select_device_on_hub": {
+      "message": "Atlasiet atkopšanas USB disku, kura datus vēlaties dzēst."
+   },
+   "erase_select_target_select_device_placeholder": {
+      "message": "Atlasīt"
+   },
+   "erase_select_target_select_device_workspace_hardware": {
+      "message": "Atlasiet atkopšanas USB disku, kura datus vēlaties dzēst."
+   },
+   "erase_title": {
+      "message": "Datu dzēšana no atkopšanas datu nesēja"
+   },
+   "erase_title_on_hub": {
+      "message": "Datu dzēšana no USB diska"
+   },
+   "erase_title_workspace_hardware": {
+      "message": "Datu dzēšana no USB diska"
+   },
+   "errmsg_please_try_again": {
+      "message": "Lūdzu, mēģiniet vēlreiz."
+   },
+   "errmsg_recovery_config_download_failure": {
+      "message": "Neizdevās lejupielādēt konfigurācijas failu. Varēs izmantot tikai bezsaistē pieejamās funkcijas."
+   },
+   "get_started_button_text": {
+      "message": "Sākt darbu"
+   },
+   "gigabyte_abbreviation": {
+      "message": "GB"
+   },
+   "go_back_button_text": {
+      "message": "Atpakaļ"
+   },
+   "hours_remaining": {
+      "message": "Vēl $1 h.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "hwid_invalid_model": {
+      "message": "Nederīgs modeļa numurs. Lūdzu, pārbaudiet ievadīto vērtību."
+   },
+   "hwid_keep_typing": {
+      "message": "Vēl nav atrasts neviens modelis. Turpiniet ievadi."
+   },
+   "hwid_keep_typing_workspace_hardware": {
+      "message": "Vēl nav atrasts neviens modelis."
+   },
+   "hwid_match_found": {
+      "message": "Atrasta atbilstība"
+   },
+   "hwid_match_found_and_checksum_verified": {
+      "message": "Atrasta precīza atbilstība ievadītajam modeļa nosaukumam"
+   },
+   "learn_more_link_text": {
+      "message": "Uzzināt vairāk"
+   },
+   "learn_more_link_url": {
+      "message": "http://www.google.com/chromeos/recovery"
+   },
+   "learn_more_link_url_on_hub": {
+      "message": "https://support.google.com/onhub/answer/6274977"
+   },
+   "learn_more_link_url_workspace_hardware": {
+      "message": "http://support.google.com/meethardware/answer/10562922"
+   },
+   "loading_config_text": {
+      "message": "Notiek sagatavošanās…"
+   },
+   "menu_item_erase_recovery_media": {
+      "message": "Dzēst datus no atkopšanas datu nesēja"
+   },
+   "menu_item_erase_recovery_media_on_hub": {
+      "message": "Datu dzēšana no USB diska"
+   },
+   "menu_item_erase_recovery_media_workspace_hardware": {
+      "message": "Datu dzēšana no USB diska"
+   },
+   "menu_item_send_feedback": {
+      "message": "Sūtīt atsauksmes"
+   },
+   "menu_item_use_local_image": {
+      "message": "Izmantot lokālu attēlu"
+   },
+   "minutes_remaining": {
+      "message": "Vēl $1 min.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "of": {
+      "message": "no"
+   },
+   "recovery_channel_beta": {
+      "message": "Beta"
+   },
+   "recovery_channel_dev": {
+      "message": "Izstrāde"
+   },
+   "recovery_channel_ltc": {
+      "message": "Ilglaicīga atbalsta kandidāts (tikai Enterprise)"
+   },
+   "recovery_channel_lts": {
+      "message": "Ilglaicīgs atbalsts (tikai Enterprise)"
+   },
+   "recovery_channel_stable": {
+      "message": "Stabilais"
+   },
+   "seconds_remaining": {
+      "message": "Vēl $1 s.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "select_channel_placeholder": {
+      "message": "Atlasiet kanālu atkopšanai"
+   },
+   "select_image_select_by_hwid_link_text": {
+      "message": "Tieši ievadīt modeļa numuru"
+   },
+   "select_image_select_from_list_link_text": {
+      "message": "Atlasīt modeli no saraksta"
+   },
+   "select_image_select_manufacturer_placeholder": {
+      "message": "Atlasiet ražotāju"
+   },
+   "select_image_select_product_placeholder": {
+      "message": "Atlasiet produktu"
+   },
+   "select_image_select_product_placeholder_on_hub": {
+      "message": "Atlasiet modeli"
+   },
+   "select_image_select_product_placeholder_workspace_hardware": {
+      "message": "Atlasiet modeli"
+   },
+   "select_image_text": {
+      "message": "Lai atkoptu Chromebook datoru, ievadiet tā modeļa numuru. Numurs tiek rādīts atkopšanas ekrānā."
+   },
+   "select_image_text_on_hub": {
+      "message": "Ievadiet OnHub ierīces modeļa numuru."
+   },
+   "select_image_text_workspace_hardware": {
+      "message": "Ievadiet savas Meet Compute System ierīces modeļa numuru."
+   },
+   "select_image_this_chromebooks_model_number": {
+      "message": "Lai norādītu šo Chromebook datoru, ievadiet"
+   },
+   "select_image_this_chromebooks_model_number_on_hub": {
+      "message": "Lai norādītu šo OnHub ierīci, ievadiet"
+   },
+   "select_image_this_chromebooks_model_number_workspace_hardware": {
+      "message": "Lai norādītu šo Meet Compute System ierīci, ievadiet"
+   },
+   "select_image_title": {
+      "message": "Chromebook datora identificēšana"
+   },
+   "select_image_title_on_hub": {
+      "message": "OnHub ierīces identificēšana"
+   },
+   "select_image_title_workspace_hardware": {
+      "message": "Meet Compute System ierīces identificēšana"
+   },
+   "select_target_detecting": {
+      "message": "Notiek meklēšana"
+   },
+   "select_target_high_capacity_warning_html": {
+      "message": "\u003Cb>Brīdinājums:\u003C/b> vai šis ir pareizais datu nesējs?"
+   },
+   "select_target_high_capacity_warning_html_on_hub": {
+      "message": "\u003Cb>Brīdinājums:\u003C/b> vai šis ir pareizais USB disks?"
+   },
+   "select_target_high_capacity_warning_html_workspace_hardware": {
+      "message": "\u003Cb>Brīdinājums:\u003C/b> vai šis ir pareizais USB disks?"
+   },
+   "select_target_low_capacity_error": {
+      "message": "Datu nesēja ietilpībai ir jābūt vismaz 8 GB."
+   },
+   "select_target_low_capacity_error_on_hub": {
+      "message": "USB diska ietilpībai ir jābūt vismaz 8 GB."
+   },
+   "select_target_low_capacity_error_workspace_hardware": {
+      "message": "USB diska ietilpībai ir jābūt vismaz 8 GB."
+   },
+   "select_target_no_devices_found": {
+      "message": "Netika atrasts neviens USB disks vai SD karte"
+   },
+   "select_target_no_devices_found_on_hub": {
+      "message": "Netika atrasts neviens USB disks"
+   },
+   "select_target_no_devices_found_workspace_hardware": {
+      "message": "Netika atrasts neviens USB disks"
+   },
+   "select_target_select_device": {
+      "message": "Atlasiet datu nesēju, kuru vēlaties izmantot."
+   },
+   "select_target_select_device_on_hub": {
+      "message": "Atlasiet USB disku, kuru vēlaties izmantot."
+   },
+   "select_target_select_device_placeholder": {
+      "message": "Atlasīt"
+   },
+   "select_target_select_device_workspace_hardware": {
+      "message": "Atlasiet USB disku, kuru vēlaties izmantot."
+   },
+   "select_target_title": {
+      "message": "USB zibatmiņas diska vai SD kartes ievietošana"
+   },
+   "select_target_title_on_hub": {
+      "message": "USB zibatmiņas diska ievietošana"
+   },
+   "select_target_title_workspace_hardware": {
+      "message": "USB zibatmiņas diska ievietošana"
+   },
+   "stage_complete": {
+      "message": "Pabeigts"
+   },
+   "stage_download": {
+      "message": "Notiek lejupielāde"
+   },
+   "stage_downloadverify": {
+      "message": "Notiek lejupielādes verificēšana"
+   },
+   "stage_unpack": {
+      "message": "Notiek pakotnes atvēršana"
+   },
+   "stage_unzip": {
+      "message": "Notiek pakotnes atvēršana"
+   },
+   "stage_verify": {
+      "message": "Notiek verificēšana"
+   },
+   "stage_verifydownload": {
+      "message": "Notiek lejupielādes verificēšana"
+   },
+   "stage_verifywrite": {
+      "message": "Notiek verificēšana"
+   },
+   "stage_write": {
+      "message": "Notiek rakstīšana"
+   },
+   "step": {
+      "message": "Darbība Nr."
+   },
+   "unsupported_text": {
+      "message": "Diemžēl jūsu platforma pašlaik netiek atbalstīta. Plašāku informāciju, lūdzu, skatiet \u003Ca href=\"http://www.google.com/chromeos/recovery\" target=\"_blank\">Chromebook palīdzības centrā\u003C/a>."
+   },
+   "unsupported_text_mac": {
+      "message": "Diemžēl operētājsistēma Mac tiek atbalstīta tikai versijā M37 un jaunākās versijās. Lūdzu, atjauniniet pārlūku Chrome uz versiju M37. Iespējams, būs \u003Ca href=\"https://support.google.com/chromebook/answer/1086915\" target=\"_blank\">jāpāriet uz beta versiju\u003C/a>."
+   },
+   "unsupported_text_on_hub": {
+      "message": "Diemžēl jūsu platforma pašlaik netiek atbalstīta. Plašāku informāciju, lūdzu, skatiet \u003Ca href=\"https://support.google.com/onhub/answer/6274977\" target=\"_blank\">OnHub palīdzības centrā\u003C/a>."
+   },
+   "unsupported_title": {
+      "message": "Jūsu platforma pašlaik netiek atbalstīta"
+   },
+   "unsupported_title_linux": {
+      "message": "Operētājsistēma Linux pašlaik netiek atbalstīta"
+   },
+   "unsupported_title_mac": {
+      "message": "Operētājsistēma Mac pašlaik netiek atbalstīta"
+   },
+   "unsupported_title_win": {
+      "message": "Operētājsistēma Windows pašlaik netiek atbalstīta"
+   },
+   "usupported_text_workspace_hardware": {
+      "message": "Diemžēl jūsu platforma pašlaik netiek atbalstīta.  Plašāku informāciju skatiet \u003Ca href=\"http://support.google.com/meethardware/answer/10562922\" target=\"_blank\">Google Meet aparatūras palīdzības centrā\u003C/a>."
+   },
+   "warning_offline": {
+      "message": "Ierīce ir bezsaistē. Varēs izmantot tikai bezsaistē pieejamās funkcijas."
+   },
+   "welcome_text": {
+      "message": "Jums būs nepieciešams 8 GB vai lielāks USB zibatmiņas disks vai SD karte, kuras saturu varat dzēst."
+   },
+   "welcome_text_on_hub": {
+      "message": "Jums būs nepieciešams 8 GB vai lielāks USB zibatmiņas disks, kura saturu varat dzēst."
+   },
+   "welcome_text_workspace_hardware": {
+      "message": "Jums būs nepieciešams 8 GB vai lielāks USB zibatmiņas disks, kura saturu varat dzēst. Varat arī izmantot SD karti, ja jūsu ierīcei ir SD kartes slots."
+   },
+   "welcome_title": {
+      "message": "Atkopšanas datu nesēja izveide Chromebook datoram"
+   },
+   "welcome_title_on_hub": {
+      "message": "Atkopšanas USB diska izveide OnHub ierīcei"
+   },
+   "welcome_title_workspace_hardware": {
+      "message": "Atkopšanas USB diska izveide Meet Compute System ierīcei"
+   },
+   "write_message": {
+      "message": "Neizņemiet atkopšanas datu nesēju!"
+   },
+   "write_message_on_hub": {
+      "message": "Neizņemiet atkopšanas USB disku!"
+   },
+   "write_message_workspace_hardware": {
+      "message": "Nenoņemiet USB zibatmiņas disku."
+   },
+   "write_title": {
+      "message": "Notiek atkopšanas attēla izveide"
+   }
+}

@@ -1,0 +1,360 @@
+.cookie-dialog{
+	display:flex;
+	margin:0 !important;
+	max-height:calc(100% - 30px);
+	max-width:596px;
+	text-align:center;
+	width:calc(100% - 30px);
+	z-index:9999 !important
+}
+.mobile .mega-dialog.cookie-dialog{
+	max-width:596px;
+	overflow:visible
+}
+.cookie-dialog .content-block{
+	border-radius:var(--border-radius);
+	display:none;
+	flex-direction:column;
+	font-size:0;
+	min-height:0;
+	width:100%
+}
+.cookie-dialog .content-block.active{
+	display:flex
+}
+.cookie-dialog .scrollable-block{
+	-webkit-overflow-scrolling:touch;
+	overflow:auto;
+	padding:0 48px;
+	position:relative
+}
+.cookie-dialog .step2 .scrollable-block{
+	padding:0 30px
+}
+.cookie-dialog .bottom-buttons{
+	background:var(--surface-grey-1);
+	border-bottom-left-radius:var(--border-radius);
+	border-bottom-right-radius:var(--border-radius);
+	padding:24px 48px;
+	position:relative
+}
+.cookie-dialog .step2 .bottom-buttons{
+	height:60px;
+	padding:14px 30px
+}
+.rtl .cookie-dialog .bottom-buttons .right{
+	float:left
+}
+.rtl .cookie-dialog .bottom-buttons .left{
+	float:right
+}
+.cookie-dialog .bottom-buttons button{
+	-webkit-margin-start:8px;
+	margin-inline-start:8px
+}
+.cookie-dialog .bottom-buttons button.left{
+	-webkit-margin-end:8px;
+	margin:0;
+	margin-inline-end:8px
+}
+.cookie-dialog .scrollable-block.big-pad{
+	padding:62px 50px
+}
+.cookie-dialog .cookie-icon{
+	--width:120px;
+	height:120px;
+	margin:0 auto;
+	width:120px
+}
+.cookie-dialog .header{
+	color:var(--text-color-high);
+	font:var(--text-h2);
+	padding:24px 0 0
+}
+.cookie-dialog .common-info{
+	color:var(--text-color-medium);
+	font:var(--text-body1);
+	padding:30px 0 0
+}
+.cookie-dialog a.green,.cookie-dialog a.green:visited{
+	color:var(--text-color-success);
+	overflow-wrap:break-word
+}
+.cookie-dialog .header.medium{
+	font:var(--text-h2);
+	padding:12px 0
+}
+.cookie-dialog .step2 .header.medium{
+	font:var(--text-h3);
+	padding:29px 0 0
+}
+.cookie-dialog .settings-tip{
+	color:var(--text-color-low);
+	display:none;
+	font-size:13px;
+	line-height:20px;
+	margin:-22px auto 10px;
+	max-width:478px;
+	padding:0 24px
+}
+.cookie-dialog .step2 .settings-tip{
+	margin-top:7px
+}
+.cookie-dialog .settings{
+	border-collapse:collapse;
+	display:table;
+	width:100%
+}
+.cookie-dialog .settings-row{
+	border-top:1px solid var(--stroke-grey-2);
+	display:table-row
+}
+.cookie-dialog .settings-row.hidden{
+	display:none
+}
+.cookie-dialog .settings-row:first-child{
+	border:0
+}
+.cookie-dialog .settings-cell{
+	display:table-cell;
+	line-height:0;
+	padding:12px 0
+}
+.cookie-dialog .settings-cell:first-child{
+	text-align:start;
+	vertical-align:bottom
+}
+.cookie-dialog .settings-cell.saved{
+	background:var(--surface-grey-1);
+	display:none
+}
+.cookie-dialog .settings-header{
+	color:var(--text-color-high);
+	font-family:var(--text-font-family-semibold);
+	font-size:15px;
+	line-height:22px
+}
+.cookie-dialog .settings-text{
+	color:var(--text-color-low);
+	font-size:14px;
+	line-height:22px;
+	padding:10px 0 0
+}
+.cookie-dialog .settings-cell a,.cookie-dialog .settings-cell a:active{
+	color:var(--text-color-low);
+	display:inline-block;
+	font-size:14px;
+	line-height:22px;
+	margin:4px 0;
+	text-decoration:underline
+}
+.cookie-dialog .settings-cell a:visited{
+	color:var(--text-color-low)
+}
+.cookie-dialog .toggle-header{
+	color:var(--text-color-high);
+	display:none;
+	font-family:var(--text-font-family-semibold);
+	font-size:14px;
+	line-height:17px;
+	min-width:82px;
+	padding:2px 10px 10px
+}
+.cookie-dialog .mega-switch,.rtl .cookie-dialog .mega-switch{
+	float:none
+}
+.cookie-dialog .mega-switch.disabled{
+	cursor:default;
+	opacity:.5
+}
+.cookie-dialog .settings-links{
+	margin:10px 0 48px
+}
+.cookie-dialog a.settings-link{
+	-webkit-margin-end:25px;
+	font-family:var(--text-font-family-semibold);
+	margin:10px 0 0;
+	margin-inline-end:25px
+}
+.cookie-dialog a.settings-link,.cookie-dialog a.settings-link:visited{
+	color:var(--text-color-medium)
+}
+.cookie-dialog a.settings-link:active,.cookie-dialog a.settings-link:visited{
+	margin-right:25px
+}
+.cookie-dialog a.settings-link:last-child{
+	-webkit-margin-end:0;
+	margin-inline-end:0
+}
+.cookie-dialog .tabs{
+	display:none;
+	font-size:0;
+	padding:5px 0 0;
+	white-space:nowrap
+}
+.cookie-dialog .settings-tab{
+	background:var(--surface-grey-1);
+	color:var(--text-color-medium);
+	display:inline-block;
+	font-size:14px;
+	height:44px;
+	line-height:44px;
+	vertical-align:top;
+	width:50%
+}
+.cookie-dialog .settings-tab.active{
+	border-bottom:2px solid var(--stroke-success);
+	color:var(--text-color-success);
+	font-family:var(--text-font-family-semibold)
+}
+.active-saved-cookies .settings-tip,.active-saved-cookies .toggle-header{
+	display:block
+}
+.active-saved-cookies .settings-cell.saved{
+	display:table-cell
+}
+.cookie-dialog .info-block{
+	color:var(--text-color-low);
+	font-size:14px;
+	line-height:22px;
+	padding:0 0 52px;
+	text-align:start
+}
+.cookie-dialog .header.small{
+	font:var(--text-h3);
+	padding:0 0 4px
+}
+.cookie-dialog .info-block .category{
+	color:var(--text-color-medium);
+	padding:0 0 7px
+}
+.cookie-dialog .info-block ul{
+	list-style:none;
+	margin:0;
+	padding:0
+}
+.cookie-dialog .info-block li:before{
+	-webkit-margin-end:4px;
+	content:"\2022";
+	display:inline-block;
+	margin-inline-end:4px;
+	vertical-align:top
+}
+.mobile .cookie-dialog .scrollable-block.big-pad{
+	padding:40px 30px 20px
+}
+.mobile .cookie-dialog .scrollable-block{
+	padding:0 20px
+}
+.mobile .cookie-dialog .settings-links{
+	margin-bottom:0
+}
+.mobile .cookie-dialog .toggle-header{
+	display:none
+}
+.mobile .cookie-dialog .settings-cell.saved{
+	background-color:initial
+}
+.mobile .active-saved-cookies .tabs{
+	display:block
+}
+.mobile .cookie-dialog .info-block{
+	padding:10px 0 28px
+}
+.mobile .cookie-dialog .bottom-buttons.pad{
+	padding-bottom:30px
+}
+.mobile .cookie-dialog .bottom-buttons{
+	background-color:initial;
+	box-shadow:none;
+	height:auto;
+	padding:26px 16px 12px
+}
+.mobile .cookie-dialog .bottom-buttons .mega-button{
+	margin-bottom:8px;
+	width:100%
+}
+.mobile .cookie-banner .buttons .mega-button,.mobile .cookie-dialog .bottom-buttons .mega-button{
+	background:linear-gradient(180deg, rgb(255 255 255), rgb(253 253 253));
+	border-radius:4px;
+	box-shadow:0 1px 1px 0 rgb(0 0 0 / .07),inset 0 0 0 1px rgb(226 226 226);
+	color:var(--text-color-medium);
+	line-height:24px;
+	padding:6px 8px;
+	text-decoration:none
+}
+.mobile .cookie-dialog .bottom-buttons .mega-button:before{
+	display:none
+}
+.mobile .cookie-banner .buttons .mega-button.positive,.mobile .cookie-dialog .bottom-buttons .mega-button.positive{
+	background:linear-gradient(180deg, rgb(7 190 177), rgb(0 191 165));
+	box-shadow:0 1px 1px 0 rgba(0 0 0 / .11),inset 0 2px 1px 0 rgba(255 255 255 / .2);
+	color:#fff;
+	line-height:24px;
+	padding:6px 8px
+}
+.mobile .cookie-dialog .bottom-buttons .mega-button.m-lnk{
+	background:none;
+	box-shadow:none;
+	color:#818993;
+	font-size:12px;
+	height:36px;
+	line-height:36px;
+	text-decoration:underline
+}
+.mobile .cookie-dialog .bottom-buttons .mega-button.m-lnk:before{
+	display:none
+}
+@media only screen and (max-width:625px),screen and (max-height:625px){
+.cookie-dialog .header,.cookie-dialog .header.medium{
+	font-family:var(--text-font-family-semibold);
+	font-size:17px
+}
+.cookie-dialog .common-info{
+	font-size:14px;
+	padding:15px 0 0
+}
+.cookie-dialog .header.medium{
+	padding:18px 0
+}
+.cookie-dialog .settings-tip{
+	margin-top:-14px
+}
+.cookie-dialog .settings-header{
+	color:var(--text-color-high);
+	font-size:14px
+}
+.cookie-dialog .settings-row:first-child .settings-cell{
+	padding:12px 0
+}
+.cookie-dialog .settings-text{
+	color:var(--text-color-medium);
+	font-size:13px;
+	line-height:16px;
+	padding:7px 0 0
+}
+.cookie-dialog .settings-cell a,.cookie-dialog .settings-cell a:active{
+	font-size:13px;
+	line-height:17px
+}
+.cookie-dialog .info-block{
+	font-size:12px;
+	line-height:18px;
+	padding:10px 0 52px;
+	text-align:center
+}
+.cookie-dialog .header.small{
+	font-size:14px;
+	padding:0 0 5px
+}
+.cookie-dialog .info-block .category{
+	color:var(--text-color-high);
+	font-size:13px;
+	padding:0 0 16px
+}
+}
+@media (hover:hover){
+.cookie-banner .buttons a:hover,.cookie-dialog a:hover{
+	text-decoration:none
+}
+}

@@ -1,0 +1,1100 @@
+{
+   "btnAbout": {
+      "message": "Névjegy"
+   },
+   "btnAddPaused": {
+      "message": "Szünetelve Hozzáadás"
+   },
+   "btnApply": {
+      "message": "Alkalmaz"
+   },
+   "btnBackToManager": {
+      "message": "Vissza"
+   },
+   "btnCancel": {
+      "message": "Mégse"
+   },
+   "btnClearAll": {
+      "message": "Összes törlése"
+   },
+   "btnClearFailed": {
+      "message": "Megszakított feladatok törlése"
+   },
+   "btnClearFinished": {
+      "message": "Befejezett feladatok törlése"
+   },
+   "btnClearRemoved": {
+      "message": "Hiányzó fájlok törlése"
+   },
+   "btnCreate": {
+      "message": "Létrehozás"
+   },
+   "btnFAQ": {
+      "message": "GYIK"
+   },
+   "btnGotIt": {
+      "message": "Sikerült!"
+   },
+   "btnGrantPermission": {
+      "message": "Engedélyezés"
+   },
+   "btnImportChromeHistory": {
+      "message": "Előzmények importálása"
+   },
+   "btnLater": {
+      "message": "Később"
+   },
+   "btnLoadPreview": {
+      "message": "Előnézet betöltése"
+   },
+   "btnOpenManager": {
+      "message": "Letöltéskezelő megnyitása"
+   },
+   "btnPopRemoveFile": {
+      "message": "És a fájl törlése"
+   },
+   "btnPopRemoveList": {
+      "message": "Eltávolítás a listáról"
+   },
+   "btnRate": {
+      "message": "Értékelés"
+   },
+   "btnSave": {
+      "message": "Mentés"
+   },
+   "btnShareDone": {
+      "message": "Már megtettem"
+   },
+   "btnStart": {
+      "message": "Indítás"
+   },
+   "btnStartAll": {
+      "message": "Az összes letöltése"
+   },
+   "btnTakeMeThere": {
+      "message": "Megnézem"
+   },
+   "btnUpdateReload": {
+      "message": "Betöltés most"
+   },
+   "btnUseSystemDialog": {
+      "message": "Rendszer párbeszédpanelének segítségével..."
+   },
+   "chromesysAllowFileAccess": {
+      "message": "Fájl URL-ekhez való hozzáférés engedélyezése"
+   },
+   "chromesysBrowser": {
+      "message": "Böngésző"
+   },
+   "chromesysChange": {
+      "message": "Módosítás..."
+   },
+   "chromesysDownloadLocation": {
+      "message": "Letöltés helye"
+   },
+   "chromesysDownloadSaveAsPrompt": {
+      "message": "A letöltés előtt kérdezze meg, hová mentse az adott fájlokat"
+   },
+   "chromesysDownloadsSection": {
+      "message": "Letöltések"
+   },
+   "chromesysFailedGenericDownloadError": {
+      "message": "Letöltési hiba"
+   },
+   "chromesysFailedGenericNetworkError": {
+      "message": "Hálózati hiba"
+   },
+   "chromesysFailed_CRASH": {
+      "message": "Összeomlás"
+   },
+   "chromesysFailed_FILE_ACCESS_DENIED": {
+      "message": "Elégtelen engedélyek"
+   },
+   "chromesysFailed_FILE_BLOCKED": {
+      "message": "Letiltva"
+   },
+   "chromesysFailed_FILE_NAME_TOO_LONG": {
+      "message": "Az elérési út túl hosszú"
+   },
+   "chromesysFailed_FILE_NO_SPACE": {
+      "message": "A lemez megtelt"
+   },
+   "chromesysFailed_FILE_SAME_AS_SOURCE": {
+      "message": "Már le lett töltve"
+   },
+   "chromesysFailed_FILE_SECURITY_CHECK_FAILED": {
+      "message": "A víruskeresés nem sikerült"
+   },
+   "chromesysFailed_FILE_TOO_LARGE": {
+      "message": "Túl nagyméretű a fájl"
+   },
+   "chromesysFailed_FILE_TOO_SHORT": {
+      "message": "A fájl csonkult"
+   },
+   "chromesysFailed_FILE_TRANSIENT_ERROR": {
+      "message": "A rendszer foglalt"
+   },
+   "chromesysFailed_FILE_VIRUS_INFECTED": {
+      "message": "Rendszerünk vírust talált"
+   },
+   "chromesysFailed_NETWORK_TIMEOUT": {
+      "message": "Hálózati időtúllépés"
+   },
+   "chromesysFailed_SERVER_BAD_CONTENT": {
+      "message": "Nincs fájl"
+   },
+   "chromesysFailed_SERVER_CERT_PROBLEM": {
+      "message": "Helytelen tanúsítvány"
+   },
+   "chromesysFailed_SERVER_CONTENT_LENGTH_MISMATCH": {
+      "message": "A fájl hiányos"
+   },
+   "chromesysFailed_SERVER_FAILED": {
+      "message": "Szerverhiba"
+   },
+   "chromesysFailed_SERVER_FORBIDDEN": {
+      "message": "Tiltott"
+   },
+   "chromesysFailed_SERVER_UNAUTHORIZED": {
+      "message": "Engedélyt igényel"
+   },
+   "chromesysFailed_SERVER_UNREACHABLE": {
+      "message": "A szerver nem áll rendelkezésre"
+   },
+   "chromesysFailed_USER_CANCELED": {
+      "message": "Megszakítva"
+   },
+   "chromesysFailed_USER_SHUTDOWN": {
+      "message": "Kikapcsolás"
+   },
+   "chromesysFontSize": {
+      "message": "Betűméret"
+   },
+   "chromesysLanguageSection": {
+      "message": "Nyelv"
+   },
+   "chromesysShowAdvSettings": {
+      "message": "Speciális beállítások megjelenítése..."
+   },
+   "chromesysWebStore": {
+      "message": "Chrome webáruház"
+   },
+   "confirmBatchDownload": {
+      "message": "Úgy tűnik kötegelt letöltést szeretne indítani, itt van rá néhány példa:"
+   },
+   "confirmBatchDownloadNaming": {
+      "message": "A kötegelt letöltés érdekében győződjön meg róla, hogy az elnevezési minta különböző fájlneveket generál. Mindenképp folytatja?"
+   },
+   "confirmBtnYes": {
+      "message": "Igen"
+   },
+   "confirmBtnYesFile": {
+      "message": "Fájl törlése"
+   },
+   "confirmCantResumeRestart": {
+      "message": "A $1 feladat sikertelen volt, újraindítja?"
+   },
+   "confirmClearTask": {
+      "message": "Biztosan szeretne eltávolítani $1 elemet?"
+   },
+   "confirmCreateWhenNotExists": {
+      "message": "$1 nem létezik. Létre szeretné hozni?"
+   },
+   "confirmProceed": {
+      "message": "Folytatja?"
+   },
+   "confirmRecycleRunning": {
+      "message": "Áthelyezi a folyamatban lévő feladatokat a szemétbe?"
+   },
+   "confirmRemoveExtFilter": {
+      "message": "Eltávolítja a kijelölt elemeket?"
+   },
+   "confirmRemoveRule": {
+      "message": "Eltávolítja a kijelölt elemeket?"
+   },
+   "confirmRemoveTask": {
+      "message": "Véglegesen törli a kijelölt feladato(ka)t?"
+   },
+   "confirmReset": {
+      "message": "A műveletet nem lehet visszavonni. Folytatja?"
+   },
+   "errorFNameConflict": {
+      "message": "Névadási ütközés"
+   },
+   "errorFileNotExist": {
+      "message": "A fájl nem található"
+   },
+   "errorFileOrFolderExists": {
+      "message": "Már létezik ilyen nevű fájl vagy mappa"
+   },
+   "errorInvalidNamingMask": {
+      "message": "Érvénytelen név"
+   },
+   "errorInvalidSubdir": {
+      "message": "Érvénytelen alkönyvtár"
+   },
+   "errorInvalidURLs": {
+      "message": "Érvénytelen URL"
+   },
+   "errorNoID": {
+      "message": "Nem sikerült hozzáadni az új feladatokat a Chronohoz mert túl sok a feladat a menedzserben, töröljön  néhány nem használt feladatot, és próbálja újra. "
+   },
+   "errorNone": {
+      "message": "Nincs hiba"
+   },
+   "errorRemovedFromChrome": {
+      "message": "A feladatot már törölte a Chrome-ból."
+   },
+   "errorSingleURLAllowed": {
+      "message": "Kérjük, csak egy URL-t adjon meg."
+   },
+   "errorUnableOpen": {
+      "message": "A(z) $1 mappát nem lehet megnyitni."
+   },
+   "errorUnknownReloadPage": {
+      "message": "Hiba történt. A folytatáshoz töltse be újra az oldalt."
+   },
+   "everyXDays": {
+      "message": "Minden $1. napon"
+   },
+   "everyXHours": {
+      "message": "$1 óránként"
+   },
+   "everyXMinutes": {
+      "message": "$1 percenként"
+   },
+   "extDesc": {
+      "message": "Letöltés Kezelő | Videó Letöltő | Kötegelt Kép Letöltő"
+   },
+   "extDescBest": {
+      "message": "A legjobb letöltéskezelő a Chrome-hoz"
+   },
+   "extDescSlogan": {
+      "message": "Töltse le és kezelje a tartalmakat!"
+   },
+   "extName": {
+      "message": "Chrono letöltéskezelő"
+   },
+   "extsAll": {
+      "message": "Összes"
+   },
+   "extsApp": {
+      "message": "Alkalmazás"
+   },
+   "extsArchive": {
+      "message": "Archív"
+   },
+   "extsAudio": {
+      "message": "Hang"
+   },
+   "extsDocument": {
+      "message": "Dokumentum"
+   },
+   "extsImage": {
+      "message": "Kép"
+   },
+   "extsNew": {
+      "message": "Új szűrő"
+   },
+   "extsOthers": {
+      "message": "Egyéb"
+   },
+   "extsVideo": {
+      "message": "Videó"
+   },
+   "fieldAddTime": {
+      "message": "Hozzáadás időpontja"
+   },
+   "fieldAvgSpeed": {
+      "message": "Átlagsebesség"
+   },
+   "fieldDownloadedSize": {
+      "message": "Letöltve"
+   },
+   "fieldElapsedTime": {
+      "message": "Eltelt idő"
+   },
+   "fieldFileName": {
+      "message": "Fájlnév"
+   },
+   "fieldFileSize": {
+      "message": "Fájlméret"
+   },
+   "fieldFinishTime": {
+      "message": "Befejezési idő"
+   },
+   "fieldFolder": {
+      "message": "Mappa"
+   },
+   "fieldNaming": {
+      "message": "Elnevezési minta"
+   },
+   "fieldProgress": {
+      "message": "Folyamat"
+   },
+   "fieldRedirection": {
+      "message": "Átirányítás"
+   },
+   "fieldReferer": {
+      "message": "Forrás"
+   },
+   "fieldRemainingTime": {
+      "message": "Hátralévő idő"
+   },
+   "fieldRemarks": {
+      "message": "Megjegyzések"
+   },
+   "fieldSpeed": {
+      "message": "Sebesség"
+   },
+   "fieldState": {
+      "message": "Állapot"
+   },
+   "fieldThreads": {
+      "message": "Szálak"
+   },
+   "fieldType": {
+      "message": "Fájltípus"
+   },
+   "fieldURL": {
+      "message": "URL"
+   },
+   "headExtFilterCaption": {
+      "message": "Megjelenítendő név"
+   },
+   "headExtFilterExts": {
+      "message": "Fájlkiterjesztés"
+   },
+   "headExtFilterRefName": {
+      "message": "Belső név"
+   },
+   "headRulesActive": {
+      "message": "Aktív"
+   },
+   "headRulesAsFilter": {
+      "message": "Mint feladatszűrő"
+   },
+   "headRulesCaption": {
+      "message": "Megjelenítendő név"
+   },
+   "headRulesCondition": {
+      "message": "Feltétel"
+   },
+   "headRulesRefName": {
+      "message": "Belső név"
+   },
+   "helpExtFilter": {
+      "message": "* Dupla kattintással szerkeszthető.\n* Írjon üres sorba új szűrő hozzáadásához.\n* Válasszon ki sorokat és nyomjon Delete-t a törlésükhöz."
+   },
+   "helpRules": {
+      "message": "* Kattintson duplán a szerkesztéshez.  \n* Írjon üres sorba új szűrő hozzáadásához. \n* Válasszon ki sorokat és nyomjon Delete-t a törlésükhöz.\n* Ha problémája adódik szabályírás közben, kérjük nézze meg a Súgót!"
+   },
+   "hintSearchDownloads": {
+      "message": "Letöltések keresése"
+   },
+   "labelAutoClear": {
+      "message": "Ütemezés"
+   },
+   "labelBGBlur": {
+      "message": "Homályosítás"
+   },
+   "labelBGChooseFrom": {
+      "message": "Kép kiválasztása"
+   },
+   "labelBGConstantColor": {
+      "message": "Egyszínű"
+   },
+   "labelBGImageURL": {
+      "message": "Egyéni kép URL"
+   },
+   "labelBGOpacity": {
+      "message": "Átlátszatlanság"
+   },
+   "labelChooseDownloadLocation": {
+      "message": "Válassza ki a letöltési helyet"
+   },
+   "labelCustomFilter": {
+      "message": "Egyéni szűrő"
+   },
+   "labelDateModified": {
+      "message": "Módosítás dátuma"
+   },
+   "labelDownloadToDefaultFolder": {
+      "message": "Letölti az alapértelmezett mappába"
+   },
+   "labelEnableFolderSelection": {
+      "message": "Mappa kiválasztásának engedélyezése"
+   },
+   "labelFolderColon": {
+      "message": "Mappa:"
+   },
+   "labelNewFolder": {
+      "message": "Új mappa"
+   },
+   "labelStarred": {
+      "message": "Csillagozva"
+   },
+   "labelUnableSaveToFolder": {
+      "message": "Nem sikerült elmenteni a helyet"
+   },
+   "labelUseLastLocation": {
+      "message": "Az utolsó tartózkodási hely használata"
+   },
+   "menuDAudio": {
+      "message": "Hang mentése másként..."
+   },
+   "menuDAudioOneClick": {
+      "message": "Hang letöltése egy kattintással"
+   },
+   "menuDImage": {
+      "message": "Kép mentése másként..."
+   },
+   "menuDImageOneClick": {
+      "message": "Kép letöltése egy kattintással"
+   },
+   "menuDLink": {
+      "message": "Link mentése másként..."
+   },
+   "menuDLinkOneClick": {
+      "message": "Link letöltése egy kattintással"
+   },
+   "menuDVideo": {
+      "message": "Video mentése másként..."
+   },
+   "menuDVideoOneClick": {
+      "message": "Videó letöltése egy kattintással"
+   },
+   "menuGetHelp": {
+      "message": "Segítségkérés"
+   },
+   "menuOpenManager": {
+      "message": "letöltéskezelő megnyitása"
+   },
+   "menuReportIssue": {
+      "message": "Hibabejelentés"
+   },
+   "msgCannotScanResources": {
+      "message": "Ennek az oldalnak nem lehet felkutatni a tartalmait."
+   },
+   "msgChromeI18nLanguage": {
+      "message": "A Chrono ugyanazt a nyelvet használja, mint az Ön Chrome böngészője"
+   },
+   "msgEmptyDownloadsList": {
+      "message": "Üres lista"
+   },
+   "msgEnableFileAccess": {
+      "message": "Ezt a funkciót bekapcsolhatja az $2 $1 -es jelölőnégyzet bejelölésével a chrome://extensions oldalon."
+   },
+   "msgFolderDisabledNonWritable": {
+      "message": "A mappa kiválasztásának funkciója le van tiltva. Győződjön meg arról, hogy az alapértelmezett letöltési hely nincs beállítva egy rendszermappára, és a böngésző Mentés másként párbeszédpanel ki van kapcsolva."
+   },
+   "msgPreviewErrorReadFile": {
+      "message": "Hiba történt a fájl olvasása során"
+   },
+   "msgPreviewFailed": {
+      "message": "Nem lehetett betölteni a fájl előnézetét"
+   },
+   "msgPreviewFileAccess": {
+      "message": "Nem lehet betölteni a helyi fájlt az előnézethez."
+   },
+   "msgPreviewLargeFile": {
+      "message": "Az előnézet betöltéséhez eltarthat egy ideig."
+   },
+   "msgPreviewPdfViewer": {
+      "message": "Az előnézethez Chrome PDF Viewer szükséges, kérjük, kapcsolja be az utasításokat követve"
+   },
+   "msgRateShare": {
+      "message": "Ha a $1 hasznosnak találta, kérjük értékelje a $2, és ossza meg barátaival!"
+   },
+   "msgSearchNoResults": {
+      "message": "Nincs találat"
+   },
+   "msgSelectTaskInfo": {
+      "message": "Nincs kijelölve elem."
+   },
+   "msgTaskAddPaused": {
+      "message": "Feladat hozzáadva, és megállítva "
+   },
+   "msgTaskFinish": {
+      "message": "A letöltés befejeződött"
+   },
+   "msgTaskInterrupt": {
+      "message": "Sikertelen letöltés"
+   },
+   "msgTaskStart": {
+      "message": "Feladat hozzátadva a sorhoz"
+   },
+   "msgTextUpdateAvail": {
+      "message": "A frissítéshez kérem töltse be újra a kiegészítőt."
+   },
+   "msgTextWelcome": {
+      "message": "Mielőtt elkezdené, kérjük, vigye ezt a két további lépést a Chrono jobb tapasztalatának biztosításához.\n1. Kapcsolja ki a Chrome Mentés másként párbeszédablakot, így nem fogja megkérdezni, hogy hol mentse el a fájlt minden egyes letöltéshez. Ehhez törölni kell a jelölőnégyzetet $1 előtt.\n2. Engedélyezd a Chrono számára, hogy hozzáférjen a fájl URL-jeihez a gyors fájlelőnézethez, az $3 -as $2 jelölőnégyzet bejelölésével.\nHa bármilyen kérdése van, kérjük, tekintse meg a Súgó oldalt és a GYIK oldalt."
+   },
+   "msgTitleUpdateAvail": {
+      "message": "Új verzió érhető el"
+   },
+   "msgTitleWelcome": {
+      "message": "Üdvözöljük!"
+   },
+   "msgUpdated": {
+      "message": "A(z) $1 frissítve."
+   },
+   "optItemBadgeDownloadNum": {
+      "message": "Letöltési feladatok számának megjelenítése fent a toolbar ikonon"
+   },
+   "optItemClearRemoveFile": {
+      "message": "Fájl törlése a lemezről"
+   },
+   "optItemClearSearch": {
+      "message": "Kiüríti a kereső dobozt amikor a szűrő megváltozik"
+   },
+   "optItemClickNotify": {
+      "message": "Az értesítésre kattintva"
+   },
+   "optItemConcurrentDownloads": {
+      "message": "Egyidejű letöltések"
+   },
+   "optItemDblClickAction": {
+      "message": "Dupla kattintás a feladaton"
+   },
+   "optItemDefAddPaused": {
+      "message": "Szünetelve hozzáadás"
+   },
+   "optItemDefFolder": {
+      "message": "Alapértelmezett hely"
+   },
+   "optItemDefNaming": {
+      "message": "Alapértelmezett elnevezési minta"
+   },
+   "optItemDownloadClipboard": {
+      "message": "Letöltési URL a vágólapról"
+   },
+   "optItemDownloadsPerServer": {
+      "message": "Szerverenkénti letöltések száma"
+   },
+   "optItemHideShelf": {
+      "message": "A Chrome letöltési sávjának elrejtése"
+   },
+   "optItemMenuDialog": {
+      "message": "Link mentése másként..."
+   },
+   "optItemMenuOneClick": {
+      "message": "Link/kép egykattintásos letöltése"
+   },
+   "optItemNameConflict": {
+      "message": "Fájlnevek ütközése esetén"
+   },
+   "optItemNotifyError": {
+      "message": "Értesítés megjelenítése, ha hiba történt"
+   },
+   "optItemNotifyFinish": {
+      "message": "Értesítés megjelenítése, ha a letöltés befejeződött"
+   },
+   "optItemNotifyLargePreview": {
+      "message": "Nagy előkép megjelenítése a képekről"
+   },
+   "optItemNotifyOneClick": {
+      "message": "Értesítés megjelenítése, ha egykattintásos letöltés lett hozzáadva"
+   },
+   "optItemNotifyProgress": {
+      "message": "Letöltés előrehaladásának mutatása"
+   },
+   "optItemOverrideChrome": {
+      "message": "A Chrome eredeti letöltés oldalának felülbírálása és $1 gyorsbillentyű engedélyezése"
+   },
+   "optItemPopClearClose": {
+      "message": "A feladatok törlése után zárja be a felugró letöltési listát"
+   },
+   "optItemPopDeleteAction": {
+      "message": "Kattints a 'Törlés' gombra"
+   },
+   "optItemPopLikeButtons": {
+      "message": "Mutassa a közösségi média nyomógombjait"
+   },
+   "optItemPopMaxItems": {
+      "message": "Maximum elem a letöltési listában"
+   },
+   "optItemPopShowDLFirst": {
+      "message": "Letöltés alatt álló feladatok az elejére"
+   },
+   "optItemPreviewAutoplay": {
+      "message": "Automatikus lejátszás"
+   },
+   "optItemRecycleCancel": {
+      "message": "Újrahasznosítás esetén a feladat érvénytelenítése"
+   },
+   "optItemRuleMatchMode": {
+      "message": "Egyezési mód"
+   },
+   "optItemSlideDetailsPanel": {
+      "message": "Kicsúszik a Részletek Panel amikor rákattint a feladatra"
+   },
+   "optItemSoundError": {
+      "message": "Hang lejátszása amikor hiba történik"
+   },
+   "optItemSoundFinish": {
+      "message": "Hang lejátszása amikor a letöltés elkészült"
+   },
+   "optItemStartInterrupted": {
+      "message": "Indítás gomb elindíthatja a megszakított feladatokat"
+   },
+   "optOptionClearAllNotify": {
+      "message": "Törölje az összes értesítést"
+   },
+   "optOptionClearNotify": {
+      "message": "Törölje az értesítést"
+   },
+   "optOptionDoNothing": {
+      "message": "Nincs funkciójuk"
+   },
+   "optOptionFirstMatch": {
+      "message": "Első egyezés"
+   },
+   "optOptionOpenFile": {
+      "message": "Fájl megnyitása"
+   },
+   "optOptionOpenFolder": {
+      "message": "Mappa megnyitása"
+   },
+   "optOptionOverwrite": {
+      "message": "Felülírás"
+   },
+   "optOptionPrompt": {
+      "message": "Kérés"
+   },
+   "optOptionRemAsk": {
+      "message": "Kérés"
+   },
+   "optOptionRemFile": {
+      "message": "Törlés a lemezről megerősítés nélkül"
+   },
+   "optOptionRemList": {
+      "message": "Eltávolítás a listáról"
+   },
+   "optOptionReplace": {
+      "message": "Csere"
+   },
+   "optOptionSkipCancel": {
+      "message": "Letöltés megszakítása"
+   },
+   "optOptionSkipPause": {
+      "message": "Szüneteltetés"
+   },
+   "optOptionStartPause": {
+      "message": "Indítása vagy szüneteltetése"
+   },
+   "optOptionUniquify": {
+      "message": "Nevezze át"
+   },
+   "optSectionBehaviors": {
+      "message": "Viselkedés"
+   },
+   "optSectionMenu": {
+      "message": "Menü"
+   },
+   "optSectionMisc": {
+      "message": "Egyéb"
+   },
+   "optSectionNetwork": {
+      "message": "Hálózat"
+   },
+   "optSectionNewTaskDialog": {
+      "message": "Új feladat"
+   },
+   "optSectionNotifications": {
+      "message": "Értesítések"
+   },
+   "optSectionOneClick": {
+      "message": "Egykattintásos letöltés"
+   },
+   "optSectionPopup": {
+      "message": "Előugró ablak"
+   },
+   "optSectionPreview": {
+      "message": "Előnézet"
+   },
+   "optSectionTaskDefaults": {
+      "message": "Új feladat alapértelmezései"
+   },
+   "optionAddTop": {
+      "message": "Hozzáadás a sor elejére"
+   },
+   "optionDisableExtFilters": {
+      "message": "Bővítmény szűrők letiltása"
+   },
+   "optionDontAsk": {
+      "message": "A választás mentése"
+   },
+   "optionSearchCaseSensitive": {
+      "message": "A kis- és nagybetű különböző"
+   },
+   "optionSearchFuzzyMatch": {
+      "message": "Részleges egyezés"
+   },
+   "optionShowSize": {
+      "message": "Fájlméret megjelenítése"
+   },
+   "optionTableAutoResize": {
+      "message": "Átméretezés képernyőhöz igazítva"
+   },
+   "optionTableSyncResize": {
+      "message": "Tartalom egyidejű átméretezése"
+   },
+   "phraseAutomatic": {
+      "message": "Automatikus"
+   },
+   "phraseEnable": {
+      "message": "Engedélyezés"
+   },
+   "phraseMultiValues": {
+      "message": "Több érték"
+   },
+   "phraseNever": {
+      "message": "Soha"
+   },
+   "phrasePreview": {
+      "message": "Előnézet"
+   },
+   "phraseRegex": {
+      "message": "Szabályos kifejezés"
+   },
+   "phraseToday": {
+      "message": "Ma"
+   },
+   "phraseUnknown": {
+      "message": "Ismeretlen"
+   },
+   "phraseUnknownSize": {
+      "message": "Ismeretlen méret"
+   },
+   "phraseVersion": {
+      "message": "Verzió"
+   },
+   "phraseYesterday": {
+      "message": "Tegnap"
+   },
+   "ruleAllTasks": {
+      "message": "Minden feladat"
+   },
+   "ruleAudio": {
+      "message": "Hang"
+   },
+   "ruleDocument": {
+      "message": "Dokumentum"
+   },
+   "ruleDownloading": {
+      "message": "Letöltés folyamatban"
+   },
+   "ruleFinished": {
+      "message": "Befejezett"
+   },
+   "ruleImage": {
+      "message": "Kép"
+   },
+   "ruleInterrupted": {
+      "message": "Sikertelen"
+   },
+   "ruleNew": {
+      "message": "Új szabály"
+   },
+   "ruleOther": {
+      "message": "Egyéb"
+   },
+   "ruleRecent": {
+      "message": "Legújabb"
+   },
+   "ruleRecycled": {
+      "message": "Kuka"
+   },
+   "ruleSmallFiles": {
+      "message": "Kis fájlok"
+   },
+   "ruleVideo": {
+      "message": "Videó"
+   },
+   "stateDownloading": {
+      "message": "Letöltés folyamatban"
+   },
+   "stateError": {
+      "message": "Sikertelen"
+   },
+   "stateFileMiss": {
+      "message": "Hiányzó fájl"
+   },
+   "stateFinished": {
+      "message": "Befejezett"
+   },
+   "statePaused": {
+      "message": "Szünetel"
+   },
+   "stateQueue": {
+      "message": "Várakozás"
+   },
+   "statusCopyURL": {
+      "message": "URL másolása..."
+   },
+   "statusCopyURLDone": {
+      "message": "URL a vágólapra másolva"
+   },
+   "statusDownloadedSize": {
+      "message": "$1, összesen: $2"
+   },
+   "statusImportDone": {
+      "message": "Az importálás sikeresen befejeződött"
+   },
+   "statusImporting": {
+      "message": "Importálás..."
+   },
+   "statusNumDownloading": {
+      "message": "$1 letöltés"
+   },
+   "statusNumItems": {
+      "message": "$1 elem"
+   },
+   "statusReadClipboard": {
+      "message": "Vágólap olvasása..."
+   },
+   "statusScheduledAutoClear": {
+      "message": "Automatikus feladat törlése $1 másodperc múlva indul "
+   },
+   "statusSelectedOf": {
+      "message": "$1 elem kijelölve"
+   },
+   "statusTasksCleared": {
+      "message": "$1 elem eltávolítva"
+   },
+   "statusTimeLeft": {
+      "message": "$1 van hátra"
+   },
+   "tipAutoClear": {
+      "message": "Feladatok automatikus törlése, de a merevlemezen megtartása "
+   },
+   "tipBGBlur": {
+      "message": "Elmosódása hatása csökkenheti a  GUI (Graphic User Interfac) válaszkészséget"
+   },
+   "tipBGEnable": {
+      "message": "Mivel bizonyos Chrome problémák miatt  ,a háttér használat  növeli a memória mennyiségét, ezt vedd figyelembet, mielőtt ezt a funkciót alkalmazná ."
+   },
+   "tipBGURLHasFileAccess": {
+      "message": "Adjon meg egy webes URL-t, vagy egy kép teljes elérési útvonalát a számítógépen előtagként  'file:///'"
+   },
+   "tipBGURLNoFileAccess": {
+      "message": "Adjon meg egy webes URL-t, vagy egy kép teljes elérési útvonalát a számítógépen (ha helyi fájlt, akkor engedélyezze a fájl hozzáférés a Chrononak elsőnek  , kattintson a kérdőjelre, hogy lássa  milyen)"
+   },
+   "tipBrowserAction": {
+      "message": "Az oldal összes elemének letöltése"
+   },
+   "tipBtnBackToManager": {
+      "message": "Vissza a Kezelőhöz"
+   },
+   "tipBtnChangeBrowserDownloadsSettings": {
+      "message": "A böngésző letöltési beállításainak módosítása"
+   },
+   "tipBtnChangeDefaultLocation": {
+      "message": "Célmappa módosítása…"
+   },
+   "tipBtnClear": {
+      "message": "Törlés"
+   },
+   "tipBtnConfigExtFilters": {
+      "message": "Szűrők szerkesztése"
+   },
+   "tipBtnCopyLink": {
+      "message": "Link másolása"
+   },
+   "tipBtnDelete": {
+      "message": "Törlés"
+   },
+   "tipBtnHelp": {
+      "message": "Súgó"
+   },
+   "tipBtnNewTask": {
+      "message": "Új feladat"
+   },
+   "tipBtnOpenDefaultLocation": {
+      "message": "Letöltések mappa megnyitása"
+   },
+   "tipBtnOpenFile": {
+      "message": "Fájl megnyitása"
+   },
+   "tipBtnOpenFolder": {
+      "message": "Mappa megnyitása"
+   },
+   "tipBtnOptions": {
+      "message": "Beállítások"
+   },
+   "tipBtnPause": {
+      "message": "Szünet"
+   },
+   "tipBtnPauseAll": {
+      "message": "Összes szüneteltetése"
+   },
+   "tipBtnPopList": {
+      "message": "Váltás a letöltések listára"
+   },
+   "tipBtnPopSniffer": {
+      "message": "Váltás a Kereső"
+   },
+   "tipBtnRecycle": {
+      "message": "Áthelyezés a kukába"
+   },
+   "tipBtnRestart": {
+      "message": "Újraindítás"
+   },
+   "tipBtnRestore": {
+      "message": "Visszaállítás"
+   },
+   "tipBtnSort": {
+      "message": "Rendezés"
+   },
+   "tipBtnStart": {
+      "message": "Indítás"
+   },
+   "tipBtnStartAll": {
+      "message": "Az összes elindítása"
+   },
+   "tipExtFilterEnable": {
+      "message": "Engedélyez, mint bővítményszűrőt a Chrono Kereső"
+   },
+   "tipExtFilterRefName": {
+      "message": "Belső megnevezés a hivatkozási szűrőhöz egyéb kifejezésekben"
+   },
+   "tipNaming": {
+      "message": "Kérjük, olvassa el Súgóoldalunkat, elnevezési minta használatához ."
+   },
+   "tipOptItemRuleMatchMode": {
+      "message": "Figyelem, csak az aktív szabályokat teszteltek hasonlóságra. A Csere módban, minden hasonlóság  szabály alkalmazva, de ez utóbbi szabályok felülírják a korábbiakat."
+   },
+   "tipOptItemSlideDetailsPanel": {
+      "message": "Alt+gombnyomásra is megnyitható a Részletek ablaktábla."
+   },
+   "tipOptNoRuleMatch": {
+      "message": "Alkalmazva ha nincs egyező Szabály"
+   },
+   "tipOptSectionOneClick": {
+      "message": "Ha engedélyezi, akkor a letöltés a linkre kattintva azonnal elindul alapértelmezett beállításokkal (lásd fent) anélkül, hogy megjelenne a letöltés beállításai ablak."
+   },
+   "tipOptSectionTaskDefaults": {
+      "message": "Alkalmazandó alapbeállítások új feladatok hozzáadásakor, pl. az egykattintásos letöltéshez"
+   },
+   "tipRulesActive": {
+      "message": "Csak az aktív szabályokat lehet ellenőrizni."
+   },
+   "tipRulesAsFilter": {
+      "message": "Feladatszűrőként mutassa a Letöltéskezelőben"
+   },
+   "tipRulesRefName": {
+      "message": "Belső név ennek a szabálynak a más kifejezésekben történő hivatkozására"
+   },
+   "tipURL": {
+      "message": "Beírhat több URL-t elválasztva új vonalakkal; Elindíthatja a kötegelt letöltéseket a Batch Descriptors használatával."
+   },
+   "tipmsgCopySelectedURLs": {
+      "message": "Egyszerűen nyomja meg a $1 billentyűkombinációt , hogy masolja az URL-eket a kiválasztott feladat (ok)-nak"
+   },
+   "tipmsgDoubleClick": {
+      "message": "Megváltoztathatja a dupla kattintás viselkedést  $1 alatt"
+   },
+   "tipmsgFitColumnWidth": {
+      "message": "Kattintson duplán az oszlop szélesség beállításához, hogy beállítsa az oszlop szélességét automatikusan "
+   },
+   "tipmsgGridSelection": {
+      "message": "A Ctrl / Shift használatával  több sort is kiválaszthat, vagy nyomjuk meg a $1 -t , hogy jelölje ki az összes sort"
+   },
+   "tipmsgNotifications": {
+      "message": "Megváltoztatni értesítéseket / hangok beállításait $1alatt"
+   },
+   "tipmsgOpenShortcut": {
+      "message": "A $2 billentyűkombináció megnyithatja az $1-t"
+   },
+   "tipmsgSlideDetailsPanel": {
+      "message": "A csúszó részletek panel kikapcsolható $1  alatt"
+   },
+   "tipmsgTaskFilter": {
+      "message": "Feladat szűrők átrendezése húzással ; egyéni feladat szűrőket is hozzáadhat a $1 alatt"
+   },
+   "titleChangeBG": {
+      "message": "Háttér módosítása"
+   },
+   "titleNewTaskDialog": {
+      "message": "Új feladat"
+   },
+   "titleOptions": {
+      "message": "Beállítások"
+   },
+   "titleOptionsAbout": {
+      "message": "Névjegy"
+   },
+   "titleOptionsFilter": {
+      "message": "Szűrők"
+   },
+   "titleOptionsGeneral": {
+      "message": "Általános"
+   },
+   "titleOptionsHelp": {
+      "message": "Súgó"
+   },
+   "titleOptionsInterface": {
+      "message": "Kezelőfelület"
+   },
+   "titleOptionsRules": {
+      "message": "Szabályok"
+   },
+   "titleQuickSelection": {
+      "message": "Gyors választás"
+   },
+   "titleRateShare": {
+      "message": "Szavazz és megosztás!"
+   },
+   "titleSniffer": {
+      "message": "Kereső"
+   },
+   "titleSwitchUI": {
+      "message": "Megjelenítési mód"
+   },
+   "titleTaskProps": {
+      "message": "Feladat tulajdonságai"
+   },
+   "titleTips": {
+      "message": "Tippek"
+   },
+   "titleUpdateLog": {
+      "message": "Változásnapló"
+   },
+   "translateContributors": {
+      "message": "kisjoska, balodano93, F3dayy, marcell, daniel.gerstenbrand, gabor.sepsi, blazsej78, xTremePower, Gomba László, hlorand, Ádám Szabó, secur2014, Szilárd Maron, sep.rgbg etc."
+   },
+   "uilang": {
+      "message": "hu"
+   },
+   "uilangName": {
+      "message": "Magyar"
+   },
+   "unitBytes": {
+      "message": "$1 bájt"
+   },
+   "unitDay": {
+      "message": "$1 nap"
+   },
+   "unitDays": {
+      "message": "$1 nap"
+   },
+   "unitHour": {
+      "message": "$1 óra"
+   },
+   "unitHours": {
+      "message": "$1 óra"
+   },
+   "unitMinute": {
+      "message": "$1 perc"
+   },
+   "unitMinutes": {
+      "message": "$1 perc"
+   },
+   "unitSecond": {
+      "message": "$1 mp"
+   },
+   "unitSeconds": {
+      "message": "$1 mp"
+   }
+}

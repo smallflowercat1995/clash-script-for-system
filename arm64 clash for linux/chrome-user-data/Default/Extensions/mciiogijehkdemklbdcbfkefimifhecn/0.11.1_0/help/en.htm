@@ -1,0 +1,211 @@
+﻿
+<div>
+	<section>
+        <p>
+		You will find question masks <span class="mytip-qmark"></span> in several places, please hover on them to view brief descriptions.
+		You can find FAQs on our <a href="http://faq.chronodownloader.net" target=_blank>website</a> or report issues in our <a href="http://bugs.chronodownloader.net" target=_blank>bug tracking system</a>.
+        </p>
+	</section>
+
+    <section id="batch_desc">
+		<h3>Batch Descriptors</h3>   
+                             
+        <div>
+        <p>
+        Batch Descriptor is used to construct URLs for batch downloads, it is defined as: <br />
+        [<strong>start</strong>:<strong>end</strong>] or<br />[<strong>start</strong>:<strong>end</strong>:<strong>step</strong>]
+        </p>
+        <p>Examples:</p>
+        <table class="simpletable">
+            <thead>
+			<tr><th>Descriptor</th><th>Results</th></tr>
+            </thead>
+            <tbody>
+            <tr><td>[1:100]</td><td>1,2,3,...,99,100</td></tr>
+            <tr><td>[1:100:3]</td><td>1,4,7,...,97,100</td></tr>
+            <tr><td>[a:z]</td><td>a,b,...,z</td></tr>
+            <tr><td>[F:Y]</td><td>F,G,...,Y</td></tr>
+            <tr><td>[01:100]</td><td>01,02,03,...,99,100</td></tr>
+            </tbody>
+        </table>
+        </div>
+    </section>
+				
+	<section id="naming_mask">
+		<h3>Naming Masks</h3>
+        <p>
+        Naming Masks help you set file name for tasks. Below are all the allowed Naming Masks when specifying file name. Content surrounded
+		by square brackets is optional.
+        </p>
+		<div>
+		<table class="simpletable">
+            <thead>
+			<tr><th>Mask</th><th>Meaning</th></tr>
+            </thead>
+            <tbody>
+			<tr><td>*name*</td><td>File name</td></tr>
+			<tr><td>*ext*</td><td>File extension</td></tr>
+			<tr><td>*url*</td><td>Complete URL</td></tr>
+			<tr><td>*host*</td><td>URL host name</td></tr>
+			<tr><td>*query*</td><td>URL query string</td></tr>
+			<tr><td>*anchor*</td><td>URL anchor string</td></tr>
+			<tr><td>*subdirs*</td><td>URL sub-directories</td></tr>
+            <tr><td>*text*</td><td>Text along with the link or image</td></tr>
+            <tr><td>*title*</td><td>Title attribute of the link or image</td></tr>
+            <tr><td>*page_title*</td><td>Title of the referring page</td></tr>
+			<tr><td>*num*</td><td>A counter that increases whenever a task is added</td></tr>
+			<tr><td>*size*</td><td>Size of the file, measured in Bytes</td></tr>
+			<tr><td>*refer*</td><td>Referrer URL</td></tr>
+			<tr><td>*mime*</td><td>Mime Type</td></tr>
+			<tr><td>*remark*</td><td>Remarks</td></tr>
+			<tr><td>*hh*</td><td>Current hour in 2 digits</td></tr>
+			<tr><td>*mm*</td><td>Current minute in 2 digits</td></tr>
+			<tr><td>*ss*</td><td>Current second in 2 digits</td></tr>
+			<tr><td>*y*</td><td>Current year in 4 digits</td></tr>
+			<tr><td>*m*</td><td>Current month in 2 digits</td></tr>
+			<tr><td>*d*</td><td>Current date in 2 digits</td></tr>
+            <tr><td>*wd*</td><td>Current weekday in 1 digits, see the Time Constants in Rule System section</td></tr>
+			<tr><td>*datetime[,yyyy-MM-dd hh:mm:ss]*</td><td>Current datetime with an optional format string, if the format string is omitted, 
+			the datetime will be formatted as 'yyyy-MM-dd hh:mm:ss' by default</td></tr>
+			<tr><td>*date[,yyyy-MM-dd]*</td><td>Current date with an optional format string, if the format string is omitted, 
+			the date will be formatted as 'yyyy-MM-dd' by default</td></tr>
+			<tr><td>*time[,hh:mm:ss]*</td><td>Current time with an optional format string, if the format string is omitted, 
+			the time will be formatted as 'hh:mm:ss' by default</td></tr>
+			<tr><td>*addtime[,yyyy-MM-dd hh:mm:ss]*</td><td>The datetime when the task is added, the optional format string 
+			is handled in the same way as *datetime*</td></tr>
+            </tbody>
+		</table>
+        </div>
+        <p>
+		For URL values, you can add <strong>'flat'</strong> to convert all the slashes to underscores, <em>e.g. 
+		*flaturl*, *flatsubdirs*</em>.
+        </p>
+        <p>
+        Please note that file names can also include sub-folders, e.g. <em>dirA/dirB/*name*.*ext*</em>.
+        </p>        
+		
+	</section>
+				
+	<section id="rule_sys">
+		<h3>Rule System</h3>
+		<div>
+        <p>
+        A Rule is used for filtering tasks in Download Manager and for automatically setting Naming Masks. 
+        </p>
+        <p>
+        Rule Condition can <strong>reference another Rule</strong> by enclosing its Reference Name in <strong>curly braces</strong>, e.g. the pre-defined Rule <em>r_done_audio</em> references Rule <em>r_done</em> in its condition.
+		</p>
+        <p>
+        Rule Condition can use Naming Masks to <strong>retrieve information</strong> from a task. Besides those listed in above section, below are some more masks that you can use in Rule Conditions.
+		</p>			
+		<table class="simpletable">
+			<thead><tr><th>Mask</th><th>Meaning</th></tr></thead>
+            <tbody>
+			<tr><td>*state*</td><td>Current state of the task</td></tr>
+			<tr><td>*time_elapsed*</td><td>Time already spent for the task</td></tr>
+			<tr><td>*progress*</td><td>Current progress of the task</td></tr>
+            </tbody>
+		</table>
+		</div>
+		<div>
+        <p>
+		Rule Condition can also <strong>reference pre-defined Constants</strong> by <strong>square brackets</strong>, e.g. the Rule <em>r_done</em> references the <em>[finish]</em> Constant as described below. The <strong>square brackets</strong> are also used to <strong>reference Extension Filters</strong>, because Extension Filters are treated as Regular Expression string Constants, e.g. the Rule <em>r_done_audio</em> references the <em>[ext_audio]</em> Extension Filter.</p>
+        <p>
+        The following table summarizes the pre-defined Constants(all in lower-case):
+        </p>
+		<table class="simpletable">
+			<thead><tr><th>Constant</th><th>Meaning/Value</th></tr></thead>
+            <tbody>
+			<tr><td>[mon]</td><td>1</td></tr>
+			<tr><td>[tue]</td><td>2</td></tr>
+			<tr><td>[wed]</td><td>3</td></tr>
+			<tr><td>[thu]</td><td>4</td></tr>
+			<tr><td>[fri]</td><td>5</td></tr>
+			<tr><td>[sat]</td><td>6</td></tr>
+			<tr><td>[sun]</td><td>0</td></tr>
+			<tr><td>[download]</td><td>Task state: downloading</td></tr>
+			<tr><td>[inqueue]</td><td>Task state: waiting in queue</td></tr>
+			<tr><td>[paused]</td><td>Task state: paused</td></tr>
+			<tr><td>[finished]</td><td>Task state: finished</td></tr>
+			<tr><td>[interrupted]</td><td>Task state: interrupted</td></tr>
+			<tr><td>[now]</td><td>Current time</td></tr>
+			<tr><td>[today],[today_]</td><td>The beginning of today, i.e. 00:00:00; the version with a trailing underscore indicates the end of today,
+            i.e. 23:59:59. You can also add a traling underscore to all the Time Constants below</td></tr>
+			<tr><td>[yesterday]</td><td>The beginning of yesterday, i.e. 00:00:00</td></tr>
+			<tr><td>[this_week]</td><td>See above</td></tr>
+			<tr><td>[last_week]</td><td>See above</td></tr>
+			<tr><td>[this_month]</td><td>See above</td></tr>
+			<tr><td>[last_month]</td><td>See above</td></tr>
+			<tr><td>[this_year]</td><td>See above</td></tr>
+			<tr><td>[last_year]</td><td>See above</td></tr>
+			<tr><td>[n_days_ago]</td><td>The beginning of the last 'n' days, 'n' can be replaced by any positive number, e.g. [3_days_ago]</td></tr>
+			<tr><td>[n_weeks_ago]</td><td>See above</td></tr>
+			<tr><td>[n_months_ago]</td><td>See above</td></tr>
+			<tr><td>[n_years_ago]</td><td>See above</td></tr>
+
+            </tbody>
+		</table>
+		</div>
+		<div>
+        <p>
+		There can be string value, numeric value and datetime value in a Rule Condition.
+		You can perform arithmetic calculation on numbers, use <strong>'+'</strong> to concat strings, and use <strong>'-'</strong> to get difference of two datetime values. Below are the functions that you can use on different value types:
+        </p>		
+		<table class="simpletable">
+			<thead><tr><th>Type</th><th>Function</th><th>Parameters</th><th>Description</th></tr></thead>
+						
+            <tbody>
+            <tr><td>string</td><td>is</td><td>a Regular Expression string</td><td>Test if the string matches exactly. E.g. *url*.is("xxx")</td></tr>
+			<tr><td>string</td><td>has</td><td>same as above</td><td>Test if the string contains the sub-string. E.g. *url*.has("xxx")</td></tr>
+			<tr><td>string</td><td>beginwith</td><td>same as above</td><td>Test if the string starts with the sub-string. E.g. *url*.beginwith("xxx")</td></tr>
+			<tr><td>string</td><td>endwith</td><td>same as above</td><td>Test if the string ends with the sub-string. E.g. *url*.endwith("xxx")</td></tr>
+						
+
+			<tr><td>datetime</td><td>aft</td><td>a time value or time string</td><td>Test if the time is later than. E.g. *addtime*.aft("2012-3-11"), *addtime*.aft([now])</td></tr>
+			<tr><td>datetime</td><td>b4</td><td>same as above</td><td>Test if the time is earlier than. E.g. *addtime*.b4("2012-3-11")</td></tr>
+			<tr><td>datetime</td><td>btwn</td><td>two time values or time strings</td><td>Test if the time is between. E.g. *addtime*.btwn("2012-3-11","2013-3-11")</td></tr>
+			<tr><td>datetime</td><td>is</td><td>a Time Constant string</td><td>This is a helper function for testing something like
+			*addtime*&gt;=[today]&amp;&amp;*addtime*&lt;=[today_] in a shorter line, *addtime*.is("today")</td></tr>		
+
+            </tbody>
+		</table>
+        <p>
+		Some more helpful functions:
+        </p>
+		<table class="simpletable">
+			<thead><tr><th>Function</th><th>Parameter</th><th>Description</th></tr></thead>
+            <tbody>
+			<tr><td>yearof</td><td>a time value or time string</td><td>Return a number represents the year of given parameter. E.g. yearof("2012-3-11"), yearof(*addtime*)</td></tr>
+			<tr><td>monthof</td><td>same as above</td><td>Return a number represents the month</td></tr>
+            <tr><td>dateof</td><td>same as above</td><td>Return a number represents the date</td></tr>
+			<tr><td>dayof</td><td>same as above</td><td>Return a number represents the weekday</td></tr>
+			<tr><td>hourof</td><td>same as above</td><td>Return a number represents the hour</td></tr>
+			<tr><td>minuteof</td><td>same as above</td><td>Return a number represents the minute</td></tr>
+			<tr><td>secondof</td><td>same as above</td><td>Return a number represents the second</td></tr>
+			<tr><td>kb</td><td>a number</td><td>Convert KiloBytes to Bytes. E.g. kb(1)=1024</td></tr>
+			<tr><td>mb</td><td>same as above</td><td>Convert MegaBytes to Bytes. E.g. mb(1)=1024*1024</td></tr>
+			<tr><td>gb</td><td>same as above</td><td>Convert GigaBytes to Bytes. E.g. gb(1)=1024*1024*1024</td></tr>
+			<tr><td>hour</td><td>same as above</td><td>Return a number represents x hours. E.g. [now]-*addtime*&lt;hour(3) means task is added within 3 hours</td></tr>
+			<tr><td>min</td><td>same as above</td><td>Return a number represents x minutes</td></tr>
+			<tr><td>sec</td><td>same as above</td><td>Return a number represents x seconds</td></tr>
+
+            </tbody>
+		</table>
+		</div>
+	</section>
+				
+    <section>
+		<h3>Panic Button</h3>
+		<div>
+            <p>
+			If the extension is broken and cannot work anymore, try click the button below. It
+            will clean all tasks and settings, and then reload the extension.
+            </p>
+            <div style="margin: 10px;">
+                <button id="dy_panic_reset" title="Reset">
+                    Reset
+                    </button>
+            </div>
+		</div>
+	</section>
+</div>

@@ -1,0 +1,20 @@
+{
+   "chromesysAllowFileAccess": {
+      "message": "ফাইল URLগুলিতে অ্যাক্সেস মঞ্জুর করুন"
+   },
+   "chromesysDownloadLocation": {
+      "message": "ডাউনলোড অবস্থান"
+   },
+   "chromesysDownloadsSection": {
+      "message": "ডাউনলোডগুলি"
+   },
+   "chromesysShowAdvSettings": {
+      "message": "উন্নত সেটিংস দেখান ..."
+   },
+   "extName": {
+      "message": "Chrono Download Manager"
+   },
+   "uilangName": {
+      "message": "Bengali"
+   }
+}

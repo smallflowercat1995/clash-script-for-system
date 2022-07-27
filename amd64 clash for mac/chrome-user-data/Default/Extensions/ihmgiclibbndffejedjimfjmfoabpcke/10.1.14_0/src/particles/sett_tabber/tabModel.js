@@ -1,0 +1,1 @@
+ke.import("ext.util.storageUtil"),pl.extend(ke.particles.sett_tabber.model,{setTab:function(t){var e=+$(this).data("id");ke.particles.sett_tabber.view.displayCurrentTab(e)}});

@@ -1,0 +1,1097 @@
+{
+   "btnAbout": {
+      "message": "Информация"
+   },
+   "btnAddPaused": {
+      "message": "Добави на пауза"
+   },
+   "btnApply": {
+      "message": "Прилагане"
+   },
+   "btnBackToManager": {
+      "message": "Назад"
+   },
+   "btnCancel": {
+      "message": "Отказ"
+   },
+   "btnClearAll": {
+      "message": "Изчистване на всички"
+   },
+   "btnClearFailed": {
+      "message": "Изчисти прекъснатите задачи"
+   },
+   "btnClearFinished": {
+      "message": "Изтриване на изпълнените задачи"
+   },
+   "btnClearRemoved": {
+      "message": "Изчисти задачите с липсващи файлове"
+   },
+   "btnCreate": {
+      "message": "Създаване"
+   },
+   "btnFAQ": {
+      "message": "ЧЗВ"
+   },
+   "btnGotIt": {
+      "message": "Разбрах!"
+   },
+   "btnGrantPermission": {
+      "message": "Даване на разрешение"
+   },
+   "btnImportChromeHistory": {
+      "message": "История на импортиране"
+   },
+   "btnLater": {
+      "message": "По-късно"
+   },
+   "btnLoadPreview": {
+      "message": "Зареждане на визуализацията"
+   },
+   "btnOpenManager": {
+      "message": "Отвори мениджъра"
+   },
+   "btnPopRemoveFile": {
+      "message": "Изтриване на файла"
+   },
+   "btnPopRemoveList": {
+      "message": "Премахване от списъка"
+   },
+   "btnRate": {
+      "message": "Оценяване"
+   },
+   "btnSave": {
+      "message": "Запазване"
+   },
+   "btnShareDone": {
+      "message": "Вече го направих"
+   },
+   "btnStart": {
+      "message": "Старт"
+   },
+   "btnStartAll": {
+      "message": "Изтегляне на всички"
+   },
+   "btnTakeMeThere": {
+      "message": "Към приложението"
+   },
+   "btnUpdateReload": {
+      "message": "Презареждане сега"
+   },
+   "btnUseSystemDialog": {
+      "message": "чрез системния диалогов прозорец..."
+   },
+   "chromesysAllowFileAccess": {
+      "message": "Да се разреши достъп до URL адресите на файловете"
+   },
+   "chromesysBrowser": {
+      "message": "Браузър"
+   },
+   "chromesysChange": {
+      "message": "Промяна..."
+   },
+   "chromesysDownloadLocation": {
+      "message": "Файлов път"
+   },
+   "chromesysDownloadSaveAsPrompt": {
+      "message": "Извеждане на запитване къде да бъде запазен всеки файл преди изтеглянето му"
+   },
+   "chromesysDownloadsSection": {
+      "message": "Изтегляния"
+   },
+   "chromesysFailedGenericDownloadError": {
+      "message": "Грешка при изтеглянето"
+   },
+   "chromesysFailedGenericNetworkError": {
+      "message": "Грешка в мрежата"
+   },
+   "chromesysFailed_CRASH": {
+      "message": "Срив"
+   },
+   "chromesysFailed_FILE_ACCESS_DENIED": {
+      "message": "Недостатъчни разрешения"
+   },
+   "chromesysFailed_FILE_BLOCKED": {
+      "message": "Блокирано"
+   },
+   "chromesysFailed_FILE_NAME_TOO_LONG": {
+      "message": "Пътят е твърде дълъг"
+   },
+   "chromesysFailed_FILE_NO_SPACE": {
+      "message": "Дискът е пълен"
+   },
+   "chromesysFailed_FILE_SAME_AS_SOURCE": {
+      "message": "Файлът вече е изтеглен"
+   },
+   "chromesysFailed_FILE_SECURITY_CHECK_FAILED": {
+      "message": "Сканирането за вируси не бе успешно"
+   },
+   "chromesysFailed_FILE_TOO_LARGE": {
+      "message": "Файлът е твърде голям"
+   },
+   "chromesysFailed_FILE_TOO_SHORT": {
+      "message": "Файлът е скъсен"
+   },
+   "chromesysFailed_FILE_TRANSIENT_ERROR": {
+      "message": "Системата е заета"
+   },
+   "chromesysFailed_FILE_VIRUS_INFECTED": {
+      "message": "Открит е вирус"
+   },
+   "chromesysFailed_NETWORK_TIMEOUT": {
+      "message": "Времето за изчакване на мрежата изтече"
+   },
+   "chromesysFailed_SERVER_BAD_CONTENT": {
+      "message": "Няма файл"
+   },
+   "chromesysFailed_SERVER_CERT_PROBLEM": {
+      "message": "Невалиден сертификат"
+   },
+   "chromesysFailed_SERVER_CONTENT_LENGTH_MISMATCH": {
+      "message": "Файлът е непълен"
+   },
+   "chromesysFailed_SERVER_FAILED": {
+      "message": "Проблем със сървъра"
+   },
+   "chromesysFailed_SERVER_FORBIDDEN": {
+      "message": "Забранено"
+   },
+   "chromesysFailed_SERVER_UNAUTHORIZED": {
+      "message": "Нуждае се от упълномощаване"
+   },
+   "chromesysFailed_SERVER_UNREACHABLE": {
+      "message": "Няма достъп до сървъра"
+   },
+   "chromesysFailed_USER_CANCELED": {
+      "message": "Отказано"
+   },
+   "chromesysFailed_USER_SHUTDOWN": {
+      "message": "Изключване"
+   },
+   "chromesysFontSize": {
+      "message": "Размер на шрифта"
+   },
+   "chromesysLanguageSection": {
+      "message": "Език"
+   },
+   "chromesysShowAdvSettings": {
+      "message": "Показване на разширените настройки..."
+   },
+   "chromesysWebStore": {
+      "message": "Уеб магазин на Chrome"
+   },
+   "confirmBatchDownload": {
+      "message": "Изглежда искате да започнете партидно сваляне, ето няколко примера:"
+   },
+   "confirmBatchDownloadNaming": {
+      "message": "За партидно сваляне, моля проверете дали Шаблона за имена генерира различни имена. Да продължа ли въпреки това?"
+   },
+   "confirmBtnYes": {
+      "message": "Да"
+   },
+   "confirmBtnYesFile": {
+      "message": "Изтриване на файла"
+   },
+   "confirmCantResumeRestart": {
+      "message": "Задача $1 не може да продължи, да започна ли отначало?"
+   },
+   "confirmCreateWhenNotExists": {
+      "message": "$1 не съществува. Искате ли да го създадете?"
+   },
+   "confirmProceed": {
+      "message": "Искате ли да продължите?"
+   },
+   "confirmRecycleRunning": {
+      "message": "Изтрий активната(ите) задача(и)?"
+   },
+   "confirmRemoveExtFilter": {
+      "message": "Да се премахнат ли избраните елементи?"
+   },
+   "confirmRemoveRule": {
+      "message": "Да се премахнат ли избраните елементи?"
+   },
+   "confirmRemoveTask": {
+      "message": "Трайно премахване на избраните(ата) задачи(а)?"
+   },
+   "confirmReset": {
+      "message": "Операцията не може да бъде отменена. Искате ли да продължите?"
+   },
+   "errorFNameConflict": {
+      "message": "Несъвместимост при наименуването"
+   },
+   "errorFileNotExist": {
+      "message": "Файлът не е намерен"
+   },
+   "errorFileOrFolderExists": {
+      "message": "Вече съществува файл или папка с това име"
+   },
+   "errorInvalidNamingMask": {
+      "message": "Невалидно име"
+   },
+   "errorInvalidSubdir": {
+      "message": "Невалидна поддиректория"
+   },
+   "errorInvalidURLs": {
+      "message": "Невалиден URL адрес"
+   },
+   "errorNoID": {
+      "message": "Не може да добавите нова задача в Chrono, защото има твърде много задачи в мениджъра, изчистете някои неактивни задачи и опитайте отново."
+   },
+   "errorNone": {
+      "message": "Без грешка"
+   },
+   "errorRemovedFromChrome": {
+      "message": "Задачата може да е премахната от Chrome."
+   },
+   "errorSingleURLAllowed": {
+      "message": "Моля, въведете само един URL адрес"
+   },
+   "errorUnableOpen": {
+      "message": "„$1“ не може да се отвори."
+   },
+   "errorUnknownReloadPage": {
+      "message": "Нещо се обърка. Моля, презаредете страницата, за да продължите."
+   },
+   "everyXDays": {
+      "message": "Всеки $1 дни"
+   },
+   "everyXHours": {
+      "message": "Всеки $1 часа"
+   },
+   "everyXMinutes": {
+      "message": "Всеки $1 минути"
+   },
+   "extDesc": {
+      "message": "Мениджър за тегления | Изтегляне на видео | Теглене на изображения"
+   },
+   "extDescBest": {
+      "message": "Най-добрия мениджър за теглене за Chrome"
+   },
+   "extDescSlogan": {
+      "message": "Тегли и управлявай Мрежата!"
+   },
+   "extName": {
+      "message": "Chrono мениджър за сваляния"
+   },
+   "extsAll": {
+      "message": "Всички"
+   },
+   "extsApp": {
+      "message": "Приложение"
+   },
+   "extsArchive": {
+      "message": "Архив"
+   },
+   "extsAudio": {
+      "message": "Аудио"
+   },
+   "extsDocument": {
+      "message": "Документ"
+   },
+   "extsImage": {
+      "message": "Изображение"
+   },
+   "extsNew": {
+      "message": "Нов филтър"
+   },
+   "extsOthers": {
+      "message": "Друго"
+   },
+   "extsVideo": {
+      "message": "Видеоклип"
+   },
+   "fieldAddTime": {
+      "message": "Час на създаване"
+   },
+   "fieldAvgSpeed": {
+      "message": "Средна скорост"
+   },
+   "fieldDownloadedSize": {
+      "message": "Изтеглено"
+   },
+   "fieldElapsedTime": {
+      "message": "Изминало време"
+   },
+   "fieldFileName": {
+      "message": "Име на файла"
+   },
+   "fieldFileSize": {
+      "message": "Размер на файла"
+   },
+   "fieldFinishTime": {
+      "message": "Време на приключване"
+   },
+   "fieldFolder": {
+      "message": "Папка"
+   },
+   "fieldNaming": {
+      "message": "Шаблон на имената"
+   },
+   "fieldProgress": {
+      "message": "Напредък"
+   },
+   "fieldRedirection": {
+      "message": "Пренасочване"
+   },
+   "fieldReferer": {
+      "message": "Препращащ URL адрес"
+   },
+   "fieldRemainingTime": {
+      "message": "Оставащо време"
+   },
+   "fieldRemarks": {
+      "message": "Забележки"
+   },
+   "fieldSpeed": {
+      "message": "Скорост"
+   },
+   "fieldState": {
+      "message": "Състояние"
+   },
+   "fieldThreads": {
+      "message": "Потоци"
+   },
+   "fieldType": {
+      "message": "Файлов тип"
+   },
+   "fieldURL": {
+      "message": "URL адрес"
+   },
+   "headExtFilterCaption": {
+      "message": "Екранно име"
+   },
+   "headExtFilterExts": {
+      "message": "Файлово разширение"
+   },
+   "headExtFilterRefName": {
+      "message": "Вътрешно име"
+   },
+   "headRulesActive": {
+      "message": "Активна"
+   },
+   "headRulesAsFilter": {
+      "message": "Като филтър на задачите"
+   },
+   "headRulesCaption": {
+      "message": "Екранно име"
+   },
+   "headRulesCondition": {
+      "message": "Израз"
+   },
+   "headRulesRefName": {
+      "message": "Вътрешно име"
+   },
+   "helpExtFilter": {
+      "message": "* Кликнете два пъти за редакция.\n* Пишете върху празен ред, за да добавите нов филтър.\n* Изберете ред или редове и натиснете клавиш DELETE за да ги изтриете."
+   },
+   "helpRules": {
+      "message": "* Кликнете два пъти за редакция.\n* Пишете върху празен ред, за да добавите нов филтър.\n* Изберете ред или редове и натиснете клавиш DELETE за да ги изтриете.\n* Ако срещате проблеми при писане на Правила, моля погледнете секцията за помощ."
+   },
+   "hintSearchDownloads": {
+      "message": "Търсене във файловете за изтегляне"
+   },
+   "labelAutoClear": {
+      "message": "Насрочване"
+   },
+   "labelBGBlur": {
+      "message": "Замъгляване"
+   },
+   "labelBGChooseFrom": {
+      "message": "Избор на изображение"
+   },
+   "labelBGConstantColor": {
+      "message": "Плътен цвят"
+   },
+   "labelBGImageURL": {
+      "message": "Персонализиран URL адрес"
+   },
+   "labelBGOpacity": {
+      "message": "Непрозрачност"
+   },
+   "labelChooseDownloadLocation": {
+      "message": "Избиране на местоположение за изтегляне"
+   },
+   "labelCustomFilter": {
+      "message": "Персонализиран филтър"
+   },
+   "labelDateModified": {
+      "message": "Дата на промяна"
+   },
+   "labelDownloadToDefaultFolder": {
+      "message": "Да се изтегли ли файлът в стандартната папка"
+   },
+   "labelEnableFolderSelection": {
+      "message": "Активиране на избора на папка"
+   },
+   "labelFolderColon": {
+      "message": "Папка:"
+   },
+   "labelNewFolder": {
+      "message": "Нова папка"
+   },
+   "labelStarred": {
+      "message": "Със звезда"
+   },
+   "labelUnableSaveToFolder": {
+      "message": "Не може да се запази към местоположението"
+   },
+   "labelUseLastLocation": {
+      "message": "Използва се последното местоположение"
+   },
+   "menuDAudio": {
+      "message": "Запазване на аудиоклипа като..."
+   },
+   "menuDAudioOneClick": {
+      "message": "Изтегляне на звуковия файл с един клик"
+   },
+   "menuDImage": {
+      "message": "Запазване на изображението като..."
+   },
+   "menuDImageOneClick": {
+      "message": "Изтегляне на изображението с един клик"
+   },
+   "menuDLink": {
+      "message": "Запазване на връзката като..."
+   },
+   "menuDLinkOneClick": {
+      "message": "Изтегли връзката с един клик"
+   },
+   "menuDVideo": {
+      "message": "Запазване на видеоклипа като..."
+   },
+   "menuDVideoOneClick": {
+      "message": "Изтегляне на видеото с един клик"
+   },
+   "menuGetHelp": {
+      "message": "Получете помощ"
+   },
+   "menuOpenManager": {
+      "message": "Отвори мениджъра"
+   },
+   "menuReportIssue": {
+      "message": "Подаване на сигнал за проблем"
+   },
+   "msgCannotScanResources": {
+      "message": "Не мога да сканирам ресурсите на тази страница"
+   },
+   "msgChromeI18nLanguage": {
+      "message": "Chrono използва същия език, като вашия Chrome браузър."
+   },
+   "msgEmptyDownloadsList": {
+      "message": "Празен списък"
+   },
+   "msgEnableFileAccess": {
+      "message": "Можете да включите тази функция, като поставите отметка в квадратчето $1 под $2 на страницата chrome://extensions."
+   },
+   "msgFolderDisabledNonWritable": {
+      "message": "Функцията за избор на папка е деактивирана. Моля, уверете се, че местоположението за изтегляне по подразбиране не е зададено на системна папка и диалоговият прозорец \"Запазване като\" на браузъра е изключен."
+   },
+   "msgPreviewErrorReadFile": {
+      "message": "Грешка при четенето на файла"
+   },
+   "msgPreviewFailed": {
+      "message": "Зареждането на визуализацията на файла не бе успешно"
+   },
+   "msgPreviewFileAccess": {
+      "message": "Не може да се зареди преглед на файл."
+   },
+   "msgPreviewLargeFile": {
+      "message": "Може да отнеме известно време, докато заредите визуализацията."
+   },
+   "msgPreviewPdfViewer": {
+      "message": "Преглед на Chrome PDF Viewer се изисква за визуализацията, моля, включете го, като следвате указанията"
+   },
+   "msgRateShare": {
+      "message": "Ако намирате $1 за полезен, моля оценете го в $2 и го споделете с приятелите си!"
+   },
+   "msgSearchNoResults": {
+      "message": "Не са намерени резултати"
+   },
+   "msgSelectTaskInfo": {
+      "message": "Няма избран елемент."
+   },
+   "msgTaskAddPaused": {
+      "message": "Задачата бе добавена и паузирана"
+   },
+   "msgTaskFinish": {
+      "message": "Изтеглянето завърши"
+   },
+   "msgTaskInterrupt": {
+      "message": "Неуспешно изтегляне"
+   },
+   "msgTaskStart": {
+      "message": "Задачата бе добавена към опашката"
+   },
+   "msgTextUpdateAvail": {
+      "message": "Моля, презаредете разширението, за да влезе в сила обновлението."
+   },
+   "msgTextWelcome": {
+      "message": "Преди да започнете, е препоръчително да изключите \"Запази като...\" диалога на Chrome, като махнете отметката под $1.\nМожете също така да дадете  достъп на Chrono  до адреси на файлове, за по-голямо удобство. Това можете да направите с отметка $2 под $3.\nАко имате някакви въпроси, моля, проверете страницата Помощ и често задавани въпроси, а също можете да изпращате електронни писма до dev@chronodownloader.net .\nПриятно ползване!"
+   },
+   "msgTitleUpdateAvail": {
+      "message": "Налице е нова версия"
+   },
+   "msgTitleWelcome": {
+      "message": "Добре дошли!"
+   },
+   "msgUpdated": {
+      "message": "$1 е актуализирано."
+   },
+   "optItemBadgeDownloadNum": {
+      "message": "Показвай броя на активните изтегляния над иконата в лентата за инструменти"
+   },
+   "optItemClearRemoveFile": {
+      "message": "Изтриване от диска"
+   },
+   "optItemClearSearch": {
+      "message": "Изчисти полето за търсене при промяна на филтъра"
+   },
+   "optItemClickNotify": {
+      "message": "При клик върху уведомление"
+   },
+   "optItemConcurrentDownloads": {
+      "message": "Едновременни изтегляния"
+   },
+   "optItemDblClickAction": {
+      "message": "Двойно чукване върху задачата"
+   },
+   "optItemDefAddPaused": {
+      "message": "Добави на пауза"
+   },
+   "optItemDefFolder": {
+      "message": "Стандартно местоположение"
+   },
+   "optItemDefNaming": {
+      "message": "Шаблон за имената по подразбиране"
+   },
+   "optItemDownloadClipboard": {
+      "message": "Свали адреса от клипборда"
+   },
+   "optItemDownloadsPerServer": {
+      "message": "Изтегляния от един сървър"
+   },
+   "optItemHideShelf": {
+      "message": "Скрий лентата за сваляния на Chrome"
+   },
+   "optItemMenuDialog": {
+      "message": "Запазване на връзката като..."
+   },
+   "optItemMenuOneClick": {
+      "message": "Свали връзката/изображението с един клик"
+   },
+   "optItemNameConflict": {
+      "message": "Когато името на файла съществува"
+   },
+   "optItemNotifyError": {
+      "message": "Покажи уведомяване при възникване на грешка"
+   },
+   "optItemNotifyFinish": {
+      "message": "Покажи уведомяване при приключване на изтегляне"
+   },
+   "optItemNotifyLargePreview": {
+      "message": "Показвай големи визуализации на изображенията"
+   },
+   "optItemNotifyOneClick": {
+      "message": "Покажи уведомление при добавяне на задача с един клик"
+   },
+   "optItemNotifyProgress": {
+      "message": "Покажи прогреса на сваляне"
+   },
+   "optItemOverrideChrome": {
+      "message": "Отхвърли оригиналната страница на Chrome за сваляния и позволи клавишната комбинация $1"
+   },
+   "optItemPopClearClose": {
+      "message": "Затвори диалоговия прозорец, след изчистване на задачите"
+   },
+   "optItemPopDeleteAction": {
+      "message": "При натискане на бутона 'Изтрий'"
+   },
+   "optItemPopLikeButtons": {
+      "message": "Покажи бутоните за социалните мрежи"
+   },
+   "optItemPopMaxItems": {
+      "message": "Максимум задачи за показване в списъка"
+   },
+   "optItemPopShowDLFirst": {
+      "message": "Подреждай първо активните задачи"
+   },
+   "optItemPreviewAutoplay": {
+      "message": "Автоматично възпроизвеждане"
+   },
+   "optItemRecycleCancel": {
+      "message": "Откажи задачата, когато е в кошчето"
+   },
+   "optItemRuleMatchMode": {
+      "message": "Режим на съответствие"
+   },
+   "optItemSlideDetailsPanel": {
+      "message": "Покажи панела с детайли при натискане върху задача"
+   },
+   "optItemSoundError": {
+      "message": "Възпроизвеждай звук при възникване на грешка"
+   },
+   "optItemSoundFinish": {
+      "message": "Възпроизвеждай звук при приключване на изтегляне"
+   },
+   "optItemStartInterrupted": {
+      "message": "Бутона \"Започни\", може да стартира прекъснати задачи"
+   },
+   "optOptionClearAllNotify": {
+      "message": "Изчисти всички уведомления"
+   },
+   "optOptionClearNotify": {
+      "message": "Изчисти това уведомление"
+   },
+   "optOptionDoNothing": {
+      "message": "Да не се прави нищо"
+   },
+   "optOptionFirstMatch": {
+      "message": "При първо съвпадение"
+   },
+   "optOptionOpenFile": {
+      "message": "Отваряне на файла"
+   },
+   "optOptionOpenFolder": {
+      "message": "Отваряне на папката"
+   },
+   "optOptionOverwrite": {
+      "message": "Презаписване"
+   },
+   "optOptionPrompt": {
+      "message": "Попитайте ме"
+   },
+   "optOptionRemAsk": {
+      "message": "Попитайте ме"
+   },
+   "optOptionRemFile": {
+      "message": "Изтриването от диска да става без потвърждение"
+   },
+   "optOptionRemList": {
+      "message": "Премахване от списъка"
+   },
+   "optOptionReplace": {
+      "message": "Замяна"
+   },
+   "optOptionSkipCancel": {
+      "message": "Анулиране"
+   },
+   "optOptionSkipPause": {
+      "message": "Пауза на изтеглянето"
+   },
+   "optOptionStartPause": {
+      "message": "Стартиране или пауза"
+   },
+   "optOptionUniquify": {
+      "message": "Направи името уникално"
+   },
+   "optSectionBehaviors": {
+      "message": "Поведение"
+   },
+   "optSectionMenu": {
+      "message": "Меню"
+   },
+   "optSectionMisc": {
+      "message": "Друго"
+   },
+   "optSectionNetwork": {
+      "message": "Мрежа"
+   },
+   "optSectionNewTaskDialog": {
+      "message": "Нова задача"
+   },
+   "optSectionNotifications": {
+      "message": "Известия"
+   },
+   "optSectionOneClick": {
+      "message": "Изтегляне с един клик"
+   },
+   "optSectionPopup": {
+      "message": "Изскачащо съобщение"
+   },
+   "optSectionPreview": {
+      "message": "Визуализация"
+   },
+   "optSectionTaskDefaults": {
+      "message": "Настройки по подразбиране за нова задача"
+   },
+   "optionAddTop": {
+      "message": "Добави най-отпред в опашката"
+   },
+   "optionDisableExtFilters": {
+      "message": "Изключи допълнителните филтри"
+   },
+   "optionDontAsk": {
+      "message": "Изборът ми да се запомни"
+   },
+   "optionSearchCaseSensitive": {
+      "message": "Регистърът на буквите е от значение"
+   },
+   "optionSearchFuzzyMatch": {
+      "message": "Размито съответствие"
+   },
+   "optionShowSize": {
+      "message": "Размер на файла: Показв."
+   },
+   "optionTableAutoResize": {
+      "message": "Събери колоните в екрана"
+   },
+   "optionTableSyncResize": {
+      "message": "Синхронно оразмеряване"
+   },
+   "phraseAutomatic": {
+      "message": "Автоматично"
+   },
+   "phraseEnable": {
+      "message": "Активиране"
+   },
+   "phraseMultiValues": {
+      "message": "Мулти-стойност"
+   },
+   "phraseNever": {
+      "message": "Никога"
+   },
+   "phrasePreview": {
+      "message": "Визуализация"
+   },
+   "phraseRegex": {
+      "message": "Регулярен израз"
+   },
+   "phraseToday": {
+      "message": "Днес"
+   },
+   "phraseUnknown": {
+      "message": "Неизвестно"
+   },
+   "phraseUnknownSize": {
+      "message": "Неизвестен размер"
+   },
+   "phraseVersion": {
+      "message": "Версия"
+   },
+   "phraseYesterday": {
+      "message": "Вчера"
+   },
+   "ruleAllTasks": {
+      "message": "Всички задачи"
+   },
+   "ruleAudio": {
+      "message": "Аудио"
+   },
+   "ruleDocument": {
+      "message": "Документ"
+   },
+   "ruleDownloading": {
+      "message": "Изтегля се"
+   },
+   "ruleFinished": {
+      "message": "Край"
+   },
+   "ruleImage": {
+      "message": "Изображение"
+   },
+   "ruleInterrupted": {
+      "message": "Неуспешно"
+   },
+   "ruleNew": {
+      "message": "Ново правило"
+   },
+   "ruleOther": {
+      "message": "Друго"
+   },
+   "ruleRecent": {
+      "message": "Скорошни"
+   },
+   "ruleRecycled": {
+      "message": "Кошче"
+   },
+   "ruleSmallFiles": {
+      "message": "Малки файлове"
+   },
+   "ruleVideo": {
+      "message": "Видеоклип"
+   },
+   "stateDownloading": {
+      "message": "Изтегля се"
+   },
+   "stateError": {
+      "message": "Неуспешно"
+   },
+   "stateFileMiss": {
+      "message": "Липсващ файл"
+   },
+   "stateFinished": {
+      "message": "Край"
+   },
+   "statePaused": {
+      "message": "На пауза"
+   },
+   "stateQueue": {
+      "message": "Изчаква се"
+   },
+   "statusCopyURL": {
+      "message": "Копиране на адресите..."
+   },
+   "statusCopyURLDone": {
+      "message": "URL адресът е копиран в буферната памет"
+   },
+   "statusDownloadedSize": {
+      "message": "$1 от $2"
+   },
+   "statusImportDone": {
+      "message": "Импортирането е успешно"
+   },
+   "statusImporting": {
+      "message": "Импортира се..."
+   },
+   "statusNumDownloading": {
+      "message": "$1 изтегля се"
+   },
+   "statusNumItems": {
+      "message": "$1 елемента"
+   },
+   "statusReadClipboard": {
+      "message": "Прочитане от паметта..."
+   },
+   "statusScheduledAutoClear": {
+      "message": "Автоматичното изчистване на задачи ще започне след $1 секунди"
+   },
+   "statusSelectedOf": {
+      "message": "Избрани са $1 елемента"
+   },
+   "statusTasksCleared": {
+      "message": "Премахнати са $1 елемента"
+   },
+   "statusTimeLeft": {
+      "message": "Оставащо време: $1"
+   },
+   "tipAutoClear": {
+      "message": "Автоматично изчисти задачите от списъка, но запази файловете на диска"
+   },
+   "tipBGBlur": {
+      "message": "Ефекта на замъгляване може да намали реакциите на потребителския интерфейс"
+   },
+   "tipBGEnable": {
+      "message": "Поради определен проблем в Chrome, използването на фон ще се увеличи използването на паметта драстично, имайте това предвид, преди да включите тази функция."
+   },
+   "tipBGURLHasFileAccess": {
+      "message": "Напишете уеб адрес или пълния път към изображение на вашия компютър, предшествано от 'file:///'"
+   },
+   "tipBGURLNoFileAccess": {
+      "message": "Въвеждане на уеб адрес, или пълния път към изображение на вашия компютър (за локални файлове, трябва да дадете право на достъп на Chrono. Кликнете върху въпросителния знак, за да научите как)"
+   },
+   "tipBrowserAction": {
+      "message": "Свали всички ресурси от тази страница"
+   },
+   "tipBtnBackToManager": {
+      "message": "Назад към мениджъра"
+   },
+   "tipBtnChangeBrowserDownloadsSettings": {
+      "message": "Променете настройките за изтегляне на браузъра"
+   },
+   "tipBtnChangeDefaultLocation": {
+      "message": "Промяна на целевата папка…"
+   },
+   "tipBtnClear": {
+      "message": "Изчистване"
+   },
+   "tipBtnConfigExtFilters": {
+      "message": "Редактиране на филтрите"
+   },
+   "tipBtnCopyLink": {
+      "message": "Копиране на връзката"
+   },
+   "tipBtnDelete": {
+      "message": "Изтриване"
+   },
+   "tipBtnHelp": {
+      "message": "Помощ"
+   },
+   "tipBtnNewTask": {
+      "message": "Нова задача"
+   },
+   "tipBtnOpenDefaultLocation": {
+      "message": "Отваряне на папката за изтегляния"
+   },
+   "tipBtnOpenFile": {
+      "message": "Отваряне на файла"
+   },
+   "tipBtnOpenFolder": {
+      "message": "Отваряне на папката"
+   },
+   "tipBtnOptions": {
+      "message": "Опции"
+   },
+   "tipBtnPause": {
+      "message": "Пауза"
+   },
+   "tipBtnPauseAll": {
+      "message": "Спиране на всички"
+   },
+   "tipBtnPopList": {
+      "message": "Превключване към списък"
+   },
+   "tipBtnPopSniffer": {
+      "message": "Превключи към скенера"
+   },
+   "tipBtnRecycle": {
+      "message": "Преместване в кошчето"
+   },
+   "tipBtnRestart": {
+      "message": "Рестартиране"
+   },
+   "tipBtnRestore": {
+      "message": "Възстановяване"
+   },
+   "tipBtnSort": {
+      "message": "Сортиране"
+   },
+   "tipBtnStart": {
+      "message": "Старт"
+   },
+   "tipBtnStartAll": {
+      "message": "Стартиране на всички"
+   },
+   "tipExtFilterEnable": {
+      "message": "Включен като филтър за разширение в скенера на Chrono"
+   },
+   "tipExtFilterRefName": {
+      "message": "Системно име за референтния филтър при други изрази"
+   },
+   "tipNaming": {
+      "message": "Моля обърнете се към страницата за помощ, при използване на Шаблони за имената."
+   },
+   "tipOptItemRuleMatchMode": {
+      "message": "Моля, имайте предвид, че само активните правила са тествани за съвпадение. В режим \"Промени\", всички съвпадащи Правила се прилагат, но по-новите правила ще презапишат по-старите такива."
+   },
+   "tipOptItemSlideDetailsPanel": {
+      "message": "Можете също да задържите Alt и да кликнете, за да отворите Панела с детайли."
+   },
+   "tipOptNoRuleMatch": {
+      "message": "Приложим когато нито едно Правило не съвпада"
+   },
+   "tipOptSectionOneClick": {
+      "message": "При включване, всички сваляния ще започнат автоматично, с приложени основни настройки (виж по-горе), без извеждане на диалог за въвеждане на име на файл и т.н."
+   },
+   "tipOptSectionTaskDefaults": {
+      "message": "Основни настройки, прилагани при добавяне на нови задачи (например при за изтегляне с един клик)"
+   },
+   "tipRulesActive": {
+      "message": "Само активните Правила ще бъдат използвани при съпоставка"
+   },
+   "tipRulesAsFilter": {
+      "message": "Изведи като филтър на задачите в Мениджъра за сваляния"
+   },
+   "tipRulesRefName": {
+      "message": "Системно име за свързване на правилото в други изрази"
+   },
+   "tipURL": {
+      "message": "Можете да въведете няколко адреса, всеки разделен на нов ред; можете да започнете партидни изтегляния чрез използване на Партидни Описания."
+   },
+   "tipmsgCopySelectedURLs": {
+      "message": "Може само да натиснете $1, за да копирате адреса на избраната(ите) задача(и)"
+   },
+   "tipmsgDoubleClick": {
+      "message": "Можете да промените поведението при двоен клик при $1"
+   },
+   "tipmsgFitColumnWidth": {
+      "message": "Кликнете два пъти върху оразмерителната линия, за да оразмерите ширината на колоните автоматично"
+   },
+   "tipmsgGridSelection": {
+      "message": "Натиснете Ctrl/Shift, за да изберете няколко реда или натиснете $1, за да изберете всички редове"
+   },
+   "tipmsgNotifications": {
+      "message": "Можете да промените уведомленията/звуците при $1"
+   },
+   "tipmsgOpenShortcut": {
+      "message": "Най-лесния начин да отворите $1 е като натиснете $2"
+   },
+   "tipmsgSlideDetailsPanel": {
+      "message": "Плъзгащия се панел с детайли може да бъде изключен при $1"
+   },
+   "tipmsgTaskFilter": {
+      "message": "Провлачете за да пренаредите Филтрите за задачи; можете също да добавите персонализиран Филтър за задачи при $1"
+   },
+   "titleChangeBG": {
+      "message": "Промяна на фона"
+   },
+   "titleNewTaskDialog": {
+      "message": "Нова задача"
+   },
+   "titleOptions": {
+      "message": "Опции"
+   },
+   "titleOptionsAbout": {
+      "message": "Информация"
+   },
+   "titleOptionsFilter": {
+      "message": "Филтри"
+   },
+   "titleOptionsGeneral": {
+      "message": "Общи"
+   },
+   "titleOptionsHelp": {
+      "message": "Помощ"
+   },
+   "titleOptionsInterface": {
+      "message": "Потребителски интерфейс"
+   },
+   "titleOptionsRules": {
+      "message": "Правила"
+   },
+   "titleQuickSelection": {
+      "message": "Бърза селекция"
+   },
+   "titleRateShare": {
+      "message": "Оцени и сподели!"
+   },
+   "titleSniffer": {
+      "message": "Скенер"
+   },
+   "titleSwitchUI": {
+      "message": "Режим на показване"
+   },
+   "titleTaskProps": {
+      "message": "Свойства"
+   },
+   "titleTips": {
+      "message": "Съвети"
+   },
+   "titleUpdateLog": {
+      "message": "Журнал на промените"
+   },
+   "translateContributors": {
+      "message": "Horadrim, Ivo Ivanov, Shteryan Nikolaev etc."
+   },
+   "uilang": {
+      "message": "bg"
+   },
+   "uilangName": {
+      "message": "Bulgarian"
+   },
+   "unitBytes": {
+      "message": "$1 байта"
+   },
+   "unitDay": {
+      "message": "$1 ден"
+   },
+   "unitDays": {
+      "message": "$1 дни"
+   },
+   "unitHour": {
+      "message": "$1 час"
+   },
+   "unitHours": {
+      "message": "$1 часа"
+   },
+   "unitMinute": {
+      "message": "$1 мин"
+   },
+   "unitMinutes": {
+      "message": "$1 минути"
+   },
+   "unitSecond": {
+      "message": "$1 сек"
+   },
+   "unitSeconds": {
+      "message": "$1 секунди"
+   }
+}

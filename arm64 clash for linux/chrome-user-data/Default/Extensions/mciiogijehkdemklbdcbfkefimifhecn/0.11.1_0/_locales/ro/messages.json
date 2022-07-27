@@ -1,0 +1,20 @@
+{
+   "chromesysAllowFileAccess": {
+      "message": "Permite accesul la adresele URL de fișiere"
+   },
+   "chromesysDownloadLocation": {
+      "message": "Locația de descărcare"
+   },
+   "chromesysDownloadsSection": {
+      "message": "Descărcări"
+   },
+   "chromesysShowAdvSettings": {
+      "message": "Afișați setările avansate..."
+   },
+   "extName": {
+      "message": "Chrono Download Manager"
+   },
+   "uilangName": {
+      "message": "Romanian"
+   }
+}

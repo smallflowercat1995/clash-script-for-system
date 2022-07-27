@@ -1,0 +1,434 @@
+
+.search .file-block-scrolling,.search .fm-contacts-blocks-view,.select .file-block-scrolling,.select .out-shared-blocks-scrolling,.select .shared-blocks-scrolling{
+	height:100%
+}
+.contacts-blocks-view,.contacts-details-block,.files-grid-view,.fm-blocks-view,.fm-blocks-view.out-shares-view,.fm-blocks-view.public-links-view,.fm-blocks-view.shared-view,.fm-contacts-blocks-view,.out-shared-blocks-view,.shared-blocks-view,.shared-details-block{
+	border-top:1px solid var(--surface-grey-2);
+	box-sizing:border-box;
+	flex-grow:1;
+	height:100%;
+	min-height:280px;
+	overflow:hidden;
+	padding:0;
+	position:relative
+}
+.fm-right-files-block.emptied .contacts-blocks-view,.fm-right-files-block.emptied .contacts-details-block,.fm-right-files-block.emptied .fm-blocks-view.out-shares-view,.fm-right-files-block.emptied .fm-blocks-view.public-links-view,.fm-right-files-block.emptied .fm-blocks-view.shared-view,.fm-right-files-block.emptied .fm-blocks-view:not(.shared-folder-content),.fm-right-files-block.emptied .fm-contacts-blocks-view,.fm-right-files-block.emptied .out-shared-blocks-view,.fm-right-files-block.emptied .shared-blocks-view{
+	display:none
+}
+.contacts-blocks-scrolling,.file-block-scrolling,.out-shared-blocks-scrolling,.shared-blocks-scrolling{
+	box-sizing:border-box;
+	height:100%;
+	padding-right:14px
+}
+.contacts-blocks-scrolling .jspPane:after,.file-block-scrolling .jspPane:after,.out-shared-blocks-scrolling .jspPane:after,.shared-blocks-scrolling .jspPane:after{
+	clear:both;
+	content:"";
+	display:block;
+	height:12px
+}
+.file-block-scrolling .megaList-content{
+	margin-bottom:24px
+}
+.rtl .file-block-scrolling .megaList-content{
+	direction:rtl
+}
+.contacts-blocks-view .file-icon-area,.fm-blocks-view.contacts-view .file-icon-area,.fm-blocks-view.shared-view .file-icon-area,.shared-blocks-view .file-icon-area{
+	height:160px;
+	width:160px
+}
+.data-block-view{
+	border-radius:10px;
+	box-sizing:border-box;
+	cursor:default;
+	display:inline-block;
+	line-height:0;
+	overflow:hidden;
+	padding:0;
+	position:relative;
+	text-align:center;
+	transition:background-color .1s ease-in-out,box-shadow .1s ease-in-out;
+	width:192px
+}
+.data-block-view.semi-big{
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	padding:4px;
+	width:170px
+}
+.contacts-view .data-block-view{
+	height:220px
+}
+.data-block-view.medium{
+	width:128px
+}
+.fm-blocks-view .data-block-view,.out-shared-blocks-view .data-block-view,.shared-blocks-view .data-block-view{
+	margin:24px 0 0 24px
+}
+.fm-blocks-view.contact-details-view{
+	height:100%;
+	height:calc(100% - 207px)
+}
+.data-block-view:hover{
+	box-shadow:0 0 0 4px var(--stroke-grey-2)
+}
+.data-block-view.dragover,.data-block-view.ui-selected,.data-block-view.ui-selecting{
+	box-shadow:0 0 0 4px var(--secondary-blue)
+}
+.data-block-bg{
+	background:var(--surface-grey-1);
+	border:1px solid var(--stroke-grey-4);
+	border-radius:10px;
+	box-sizing:border-box;
+	display:block;
+	height:192px;
+	overflow:hidden;
+	position:static;
+	text-align:center;
+	transition:background-color .1s ease-in-out,box-shadow .1s ease-in-out;
+	width:192px
+}
+.data-block-view.medium .data-block-bg{
+	height:124px;
+	width:124px
+}
+.data-block-view .data-block-bg img{
+	background:var(--image-background);
+	height:192px;
+	position:relative;
+	vertical-align:middle;
+	width:192px
+}
+.data-block-view.medium .data-block-bg img{
+	height:124px;
+	vertical-align:top;
+	width:124px
+}
+.data-block-view .thumb.video img{
+	height:auto
+}
+.data-block-view.active .data-block-bg,.data-block-view.dragover .data-block-bg,.data-block-view.ui-selected .data-block-bg,.data-block-view.ui-selecting .data-block-bg,.data-block-view:hover .data-block-bg{
+	background-color:var(--stroke-grey-1);
+	border:1px solid var(--stroke-main)
+}
+.data-block-view.active .thumb .indicator{
+	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=100);
+	-moz-opacity:1;
+	-khtml-opacity:1;
+	opacity:1;
+	transition:background-color .1s ease-in-out,box-shadow .1s ease-in-out
+}
+.data-block-view .tiny-button{
+	bottom:8px;
+	float:none;
+	margin:0;
+	position:absolute;
+	right:8px;
+	z-index:100
+}
+.data-block-view .user-card-presence.small{
+	margin:0;
+	right:10px;
+	top:10px
+}
+.data-block-view .file-status-icon.icon-favourite-filled,.data-block-view .file-status-icon.icon-info,.data-block-view .file-status-icon.icon-takedown,.data-block-view .file-status-icon.icon-versions-previous,.data-block-view.linked .icon-link{
+	--icon-size:16px;
+	background-image:none;
+	margin-bottom:4px;
+	margin-right:4px;
+	margin-top:4px
+}
+.data-block-view .file-status-icon.icon-favourite-filled,.data-block-view .file-status-icon.icon-versions-previous{
+	--mask-color:var(--icon-rest)
+}
+.data-block-view .file-status-icon.icon-takedown{
+	--mask-color:var(--secondary-red)
+}
+.data-block-view .file-status-icon.icon-info{
+	--mask-color:var(--secondary-orange)
+}
+.data-block-view:not(.linked) .icon-link{
+	display:none
+}
+.data-block-view.linked .icon-link{
+	--mask-color:var(--icon-rest)
+}
+.data-block-view .file-status-icon.sprite-fm-mono:not(.icon-favourite-filled),.data-block-view .file-status-icon.sprite-fm-mono:not(.icon-info),.data-block-view .file-status-icon.sprite-fm-mono:not(.icon-takedown),.data-block-view .file-status-icon.sprite-fm-mono:not(.icon-versions-previous),.data-block-view.linked .sprite-fm-mono:not(.icon-link){
+	height:0
+}
+.data-block-view .file-status-icon.sprite-fm-mono.icon-favourite-filled,.data-block-view .file-status-icon.sprite-fm-mono.icon-info,.data-block-view .file-status-icon.sprite-fm-mono.icon-takedown,.data-block-view .file-status-icon.sprite-fm-mono.icon-versions-previous,.data-block-view.linked .sprite-fm-mono.icon-link{
+	height:16px
+}
+.shared-folder-info-block{
+	box-sizing:border-box;
+	display:block;
+	font:var(--text-body1);
+	padding:0 0 0 51px;
+	position:relative;
+	text-align:left
+}
+.out-shared-blocks-view .shared-folder-info-block,.shared-blocks-view .shared-folder-info-block{
+	background:var(--surface-grey-2);
+	padding:8px 6px 6px 50px
+}
+.data-block-view .shared-folder-access{
+	--mask-color:var(--icon-rest);
+	background-image:none;
+	float:left;
+	height:16px;
+	margin-right:4px;
+	margin-top:4px;
+	padding:0;
+	width:16px
+}
+.contacts-blocks-scrolling .nw-contact-status{
+	display:block;
+	float:none;
+	height:6px;
+	margin:6px 0 0;
+	position:absolute;
+	right:0;
+	top:0;
+	width:6px;
+	z-index:10
+}
+.data-block-view.ui-selected .file-settings-icon,.data-block-view:hover .file-settings-icon,.properties-name-block:hover .file-settings-icon{
+	background:var(--surface-highlight-2);
+	border-radius:50%;
+	height:26px;
+	opacity:1;
+	width:26px
+}
+.megaList-content .data-block-view.ui-selected .file-settings-icon,.megaList-content .data-block-view:hover .file-settings-icon{
+	background:var(--checkbox-fill-inactive)
+}
+.data-block-view.ui-selected .file-settings-icon i,.data-block-view:hover .file-settings-icon i{
+	--icon-size:24px;
+	--mask-color:var(--icon-rest);
+	height:24px;
+	opacity:1;
+	position:relative;
+	top:1px
+}
+.data-block-view .file-settings-icon i:before{
+	line-height:24px;
+	transition:color .1s ease-in-out
+}
+.data-block-view .file-settings-icon:hover i,.data-block-view.ui-selected .file-settings-icon.active i{
+	--mask-color:var(--icon-active)
+}
+.data-block-indicators{
+	background:var(--surface-highlight-2);
+	border-radius:10px 10px 0 0;
+	display:inline-flex;
+	float:right;
+	height:auto;
+	justify-content:flex-end;
+	left:1px;
+	position:absolute;
+	right:1px;
+	top:1px;
+	z-index:2
+}
+.data-block-bg.thumb .data-block-indicators{
+	border-radius:8px 8px 0 0
+}
+.data-block-bg.video .data-block-indicators{
+	height:24px
+}
+.video-thumb-details{
+	color:var(--stroke-main-inverted);
+	display:none;
+	font:var(--text-body2);
+	left:4px;
+	position:absolute;
+	text-align:left;
+	top:4px;
+	z-index:2
+}
+.data-block-bg.video .video-thumb-details{
+	display:block
+}
+.data-block-bg.video .video-thumb-details i{
+	--mask-color:var(--icon-rest);
+	float:left;
+	margin-top:1px;
+	width:16px
+}
+.data-block-view .contact-chat-buttons{
+	left:0;
+	opacity:0;
+	padding:11px 0 0 2px;
+	position:absolute;
+	top:0;
+	z-index:10
+}
+.data-block-view.ui-selected .contact-chat-buttons,.data-block-view:hover .contact-chat-buttons{
+	opacity:1
+}
+.contacts-view .data-block-view.ui-selected .overlayed,.contacts-view .data-block-view:hover .overlayed{
+	opacity:0
+}
+.out-shared-blocks-view .data-block-view .data-block-bg,.shared-blocks-view .data-block-view .data-block-bg{
+	border-radius:10px 10px 0 0
+}
+.out-shared-blocks-view .data-block-view .file-settings-icon,.shared-blocks-view .data-block-view .file-settings-icon{
+	bottom:64px;
+	right:8px
+}
+.block-view-file-type{
+	background-image:url(../images/mega/files-icons.png?v=6157f55ad6f6add2);
+	background-position:0 -3234px;
+	background-repeat:no-repeat;
+	display:block;
+	height:84px;
+	left:50%;
+	position:absolute;
+	top:45%;
+	transform:translate(-50%, -50%);
+	width:82px
+}
+.fm-recents .data-block-bg:not(.thumb) .block-view-file-type{
+	top:50%
+}
+.block-view-file-type.thumb{
+	background:none;
+	height:156px;
+	margin:-78px 0 0 -78px;
+	width:156px
+}
+.block-view-file-type.word{
+	background-position:0 6px
+}
+.block-view-file-type.web-lang{
+	background-position:0 -114px
+}
+.block-view-file-type.web-data{
+	background-position:0 -234px
+}
+.block-view-file-type.video{
+	background-position:0 -354px
+}
+.block-view-file-type.openoffice{
+	background-position:0 -474px
+}
+.block-view-file-type.keynote{
+	background-position:0 -594px
+}
+.block-view-file-type.numbers{
+	background-position:0 -714px
+}
+.block-view-file-type.vcard{
+	background-position:0 -834px
+}
+.block-view-file-type.torrent{
+	background-position:0 -954px
+}
+.block-view-file-type.text{
+	background-position:0 -1074px
+}
+.block-view-file-type.pages{
+	background-position:0 -1194px
+}
+.block-view-file-type.spreadsheet{
+	background-position:0 -1314px
+}
+.block-view-file-type.recovery{
+	background-position:0 -1434px
+}
+.block-view-file-type.dmg{
+	background-position:0 -1554px
+}
+.block-view-file-type.raw{
+	background-position:0 -1674px
+}
+.block-view-file-type.premiere{
+	background-position:0 -1794px
+}
+.block-view-file-type.powerpoint{
+	background-position:0 -1914px
+}
+.block-view-file-type.megasync{
+	background-position:0 -2034px
+}
+.block-view-file-type.megasync-mac{
+	background-position:0 -2154px
+}
+.block-view-file-type.photoshop{
+	background-position:0 -2274px
+}
+.block-view-file-type.pdf{
+	background-position:0 -2394px
+}
+.block-view-file-type.experience{
+	background-position:0 -2514px
+}
+.block-view-file-type.indesign{
+	background-position:0 -2634px
+}
+.block-view-file-type.image{
+	background-position:0 -2754px
+}
+.block-view-file-type.illustrator{
+	background-position:0 -2874px
+}
+.block-view-file-type.sketch-alt{
+	background-position:0 -2994px
+}
+.block-view-file-type.sketch{
+	background-position:0 -3114px
+}
+.block-view-file-type.generic{
+	background-position:0 -3234px
+}
+.block-view-file-type.font{
+	background-position:0 -3354px
+}
+.block-view-file-type.executable{
+	background-position:0 -3474px
+}
+.block-view-file-type.excel{
+	background-position:0 -3594px
+}
+.block-view-file-type.compressed{
+	background-position:0 -3714px
+}
+.block-view-file-type.cad{
+	background-position:0 -3834px
+}
+.block-view-file-type.audio{
+	background-position:0 -3954px
+}
+.block-view-file-type.aftereffects{
+	background-position:0 -4074px
+}
+.block-view-file-type.threed{
+	background-position:0 -4194px
+}
+.block-view-file-type.folder{
+	background-position:0 -4314px
+}
+.rubbish-bin .block-view-file-type.folder{
+	background-position:0 -4434px
+}
+.block-view-file-type.photo-folder{
+	background-position:0 -4554px
+}
+.rubbish-bin .block-view-file-type.photo-folder{
+	background-position:0 -4674px
+}
+.block-view-file-type.folder.inbound-share,.contact-details-view .block-view-file-type.folder-shared,.contacts-blocks-view .block-view-file-type.folder,.fm-blocks-view.contacts-view .block-view-file-type.folder,.fm-blocks-view.shared-view .block-view-file-type.folder,.shared-blocks-view .block-view-file-type.folder{
+	background-position:0 -4794px
+}
+.block-view-file-type.folder-shared,.out-shared-blocks-view .block-view-file-type.folder{
+	background-position:0 -5034px
+}
+.rubbish-bin .block-view-file-type.folder-shared{
+	background-position:0 -5154px
+}
+.block-view-file-type.puf-folder{
+	background-position:0 -5274px
+}
+.rubbish-bin .block-view-file-type.puf-folder{
+	background-position:0 -5394px
+}

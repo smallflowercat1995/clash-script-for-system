@@ -1,0 +1,2276 @@
+.icon12{
+	--icon-size:12px
+}
+.icon16{
+	--icon-size:16px
+}
+.icon24{
+	--icon-size:24px
+}
+.icon32{
+	--icon-size:32px
+}
+.icon48{
+	--icon-size:48px
+}
+i.icon-red{
+	--mask-color:var(--secondary-red)
+}
+i.icon-green{
+	--mask-color:var(--secondary-green)
+}
+i.icon-blue{
+	--mask-color:var(--secondary-blue)
+}
+i.icon-yellow{
+	--mask-color:var(--secondary-orange)
+}
+i.icon-white{
+	--mask-color:var(--secondary-white)
+}
+i{
+	display:inline-block;
+	flex-grow:0;
+	flex-shrink:0
+}
+.big-icon,.huge-icon,.icon56,.medium-icon,.semi-big-icon,.semi-small-icon,.small-icon,.tiny-icon{
+	background-image:url(../images/mega/new-chat-sprite.png?v=40f37d9cda30e011);
+	background-position:0 -1447px;
+	background-repeat:no-repeat;
+	display:inline-block;
+	height:20px;
+	vertical-align:top;
+	width:20px
+}
+.huge-grey-warning{
+	background-image:url(../images/mega/new-chat-sprite.png?v=40f37d9cda30e011);
+	background-position:center -1838px;
+	background-repeat:no-repeat;
+	display:block;
+	height:184px;
+	margin:21px auto;
+	width:220px
+}
+.tiny-icon{
+	height:16px;
+	width:12px
+}
+.semi-small-icon{
+	height:18px;
+	width:18px
+}
+.medium-icon{
+	height:28px;
+	width:28px
+}
+.semi-big-icon,.small-block .big-icon{
+	height:32px;
+	width:32px
+}
+.big-icon{
+	height:48px;
+	width:48px
+}
+.icon56{
+	height:56px;
+	width:56px
+}
+.semi-huge-icon{
+	display:inline-block;
+	height:64px;
+	width:64px
+}
+.huge-icon{
+	height:140px;
+	width:140px
+}
+.white-medium-plus{
+	background-position:-2px -1447px
+}
+.grey-medium-plus{
+	background-position:-2px -1474px
+}
+.grey-small-plus{
+	background-position:-42px -1474px
+}
+.smiling-face{
+	background-position:-89px -853px;
+	height:22px;
+	width:22px
+}
+.tiny-icon.laughing-face-with-plus{
+	background-position:-125px -498px;
+	height:16px;
+	width:16px
+}
+.hover-colorized:hover .tiny-icon.laughing-face-with-plus,.tiny-icon.laughing-face-with-plus.colorized{
+	background-position:-164px -498px
+}
+.small-icon.laughing-face-with-plus{
+	background-position:-125px -569px
+}
+.small-icon.bold-left-arrow{
+	background-position:-199px -496px
+}
+.small-icon.three-dots{
+	background-position:-200px -533px
+}
+.right-aligned-msg-buttons.total-1 .tiny-icon.laughing-face-with-plus,.small-icon.laughing-face{
+	background-position:-122px -531px;
+	height:22px;
+	width:22px
+}
+.right-aligned-msg-buttons.total-1 .hover-colorized:hover .tiny-icon.laughing-face-with-plus,.small-icon.laughing-face.colorized{
+	background-position:-160px -531px
+}
+.laughing-face{
+	background-position:-89px -853px;
+	height:22px;
+	width:22px
+}
+.tiny-icon.eye{
+	background-position:-50px -1197px;
+	height:14px;
+	width:14px
+}
+.tiny-icon.blue-handset{
+	background-position:-6px -2217px
+}
+.tiny-icon.white-handset{
+	background-position:-46px -2217px
+}
+.tiny-icon.grey-down-arrow{
+	background-position:-8px 4px
+}
+.tiny-icon.icons-sprite.grey-dots{
+	background-position:-160px -831px;
+	width:13px
+}
+.tiny-icon.icons-sprite.grey-arrow{
+	background-position:-162px -1318px;
+	width:13px
+}
+.tiny-icon.icons-sprite.refresh{
+	background-position:-189px -1318px
+}
+.tiny-icon.icons-sprite.top-arrow{
+	background-position:-217px -1317px
+}
+.tiny-icon.grey-minus-icon{
+	background-position:-11px -3609px
+}
+.minimized .tiny-icon.grey-minus-icon,.tiny-icon.grey-plus-icon{
+	background-position:-51px -3609px
+}
+.tiny-icon.green-tick,.tiny-icon.red-cross{
+	background-image:url(../images/mega/top-sprite.png?v=7ef2b23a163ae63a);
+	background-position:-12px -1437px
+}
+.tiny-icon.red-cross{
+	background-position:-12px -1403px
+}
+.tiny-icon.blue-key{
+	background-position:-172px -1237px;
+	width:16px
+}
+.tiny-icon.green-key{
+	background-position:-212px -1237px;
+	width:16px
+}
+.small-icon.tiny-reset{
+	background-position:-170px -896px
+}
+.small-icon.tiny-searching{
+	background-position:-50px -896px
+}
+.small-icon.tiny-pause{
+	background-position:-110px -896px
+}
+.small-icon.tiny-play{
+	background-position:-140px -896px
+}
+.small-icon.tiny-complete{
+	background-position:-80px -896px
+}
+.small-icon.thin-back-icon{
+	background-position:1px -4642px
+}
+.small-icon.gif{
+	background-position:-39px -4641px;
+	height:22px;
+	width:22px
+}
+.small-icon.giphy{
+	background-position:-85px -4642px;
+	width:84px
+}
+.huge-icon.sad-smile{
+	background-position:-3px -4688px;
+	height:100px;
+	width:100px
+}
+.small-icon.white-play{
+	background-position:-3px -1747px
+}
+.small-icon.white-pause{
+	background-position:-47px -1747px
+}
+.small-icon.audio-call{
+	background-position:-4px -38px
+}
+.small-icon.video-call{
+	background-position:-5px -74px
+}
+.small-icon.rounded-grey-plus{
+	background-position:-4px -110px
+}
+.small-icon.rounded-grey-up-arrow{
+	background-position:-4px -146px
+}
+.small-icon.shared-grey-folder{
+	background-position:-4px -182px
+}
+.small-icon.rounded-stop{
+	background-position:-4px -218px
+}
+.small-icon.chat-lock{
+	background-position:-51px -4136px;
+	height:24px;
+	margin-left:-2px;
+	margin-right:1px;
+	width:24px
+}
+.chat-right-area .buttons-block .link-button i.small-icon.chat-lock{
+	margin-top:5px
+}
+.small-icon.grey-letter{
+	background-position:-4px -2154px
+}
+.small-icon.conversations{
+	background-position:-3px -3012px;
+	width:21px
+}
+.small-icon.refresh-circle{
+	background-position:-4px -2074px
+}
+.small-icon.grey-cloud{
+	background-position:-4px -263px
+}
+.small-icon.grey-computer{
+	background-position:-4px -305px
+}
+.small-icon.red-cross{
+	background-position:-3px -462px
+}
+.small-icon.writing-pen{
+	background-position:-53px -347px
+}
+.small-icon.clear-arrow{
+	background-position:-54px -2074px
+}
+.small-icon.quotes{
+	background-position:-3px -389px
+}
+.small-icon.human-profile{
+	background-position:-3px -496px
+}
+.small-icon.eye-icon{
+	background-position:-44px -497px
+}
+.small-icon.conversation-icon{
+	background-position:-44px -533px
+}
+.small-icon.cogwheel-icon{
+	background-position:-44px -577px
+}
+.small-icon.gentleman{
+	background-position:-54px -302px
+}
+.small-icon.dashed-conversation{
+	background-position:-3px -533px
+}
+.small-icon.square-profile{
+	background-position:-3px -663px
+}
+.dropdown-item .small-icon.square-profile.colorized{
+	background-position:-131px -934px;
+	height:22px;
+	margin-top:5px;
+	width:22px
+}
+.small-icon.play-icon{
+	background-position:-2px -703px
+}
+.small-icon.search-icon{
+	background-position:-5px -1287px
+}
+.small-icon.thin-search-icon{
+	background-position:-50px -774px
+}
+.small-icon.rounded-grey-down-arrow{
+	background-position:-3px -2931px
+}
+.small-icon.icons-sprite.grey-chain{
+	background-position:-200px -133px;
+	width:22px
+}
+.small-icon.circle-with-arrow{
+	background-position:-4px -735px
+}
+.small-icon.horizontal-red-handset{
+	background-position:-54px -38px
+}
+.small-icon.grey-triangle{
+	background-position:-52px -146px
+}
+.small-icon.yellow-triangle{
+	background-position:-52px -111px
+}
+.square-button .small-icon{
+	height:22px;
+	width:22px
+}
+.conversations-pane li.active .small-icon.grey-videocam,.small-icon.white-videocam{
+	background-position:-102px -3267px
+}
+.small-icon.grey-videocam{
+	background-position:-212px -3267px
+}
+.small-icon.blue-videocam{
+	background-position:-172px -3267px
+}
+.conversations-pane li.active .small-icon.grey-crossed-mic,.small-icon.white-crossed-mic{
+	background-position:-28px -3268px
+}
+.small-icon.grey-crossed-mic{
+	background-position:-65px -3268px
+}
+.small-icon.grey-call-on-hold{
+	background-position:-86px -1747px
+}
+.small-icon.white-call-on-hold,li.active .small-icon.grey-call-on-hold{
+	background-position:-126px -1747px
+}
+.small-icon.clock-icon{
+	background-position:-2px -3200px
+}
+.small-icon.smile-icon{
+	background-position:-34px -3200px
+}
+.small-icon.leaf-icon{
+	background-position:-66px -3200px
+}
+.small-icon.cutlery-icon{
+	background-position:-98px -3200px
+}
+.small-icon.ball-icon{
+	background-position:-130px -3200px
+}
+.small-icon.bowling-ball-icon{
+	background-position:-162px -3200px
+}
+.small-icon.car-icon{
+	background-position:-2px -3230px
+}
+.small-icon.bulb-icon{
+	background-position:-34px -3230px
+}
+.small-icon.heart-icon{
+	background-position:-66px -3230px
+}
+.small-icon.flag-icon{
+	background-position:-98px -3230px
+}
+.small-icon.tab-icon{
+	background-position:-5px -3829px
+}
+.small-icon.enter-icon{
+	background-position:-43px -3829px
+}
+.small-icon.chat-with-plus{
+	background-position:-50px -736px;
+	width:21px
+}
+.small-icon.thin-search-icon{
+	background-position:-81px -3829px
+}
+.small-icon.conversation-with-plus{
+	background-position:-170px -934px;
+	height:21px;
+	margin:5px 0 0 5px !important;
+	width:22px
+}
+.small-icon.mid-green-tick{
+	background-position:-150px -1017px
+}
+.small-icon.grey-left-arrow,.small-icon.grey-right-arrow{
+	background-position:-121px -1017px
+}
+.small-icon.grey-left-arrow{
+	-webkit-transform:rotate(180deg);
+	-moz-transform:rotate(180deg);
+	-o-transform:rotate(180deg);
+	-ms-transform:rotate(180deg);
+	transform:rotate(180deg)
+}
+.small-icon.arrow-in-square{
+	background-position:-170px -775px
+}
+.small-icon.arrow-in-square.active{
+	background-position:-50px -855px
+}
+.tiny-icon.small-cross{
+	background-position:-184px -1020px
+}
+.tiny-icon.right-arrow{
+	background-position:-205px -898px
+}
+.expanded .tiny-icon.right-arrow,.tiny-icon.down-arrow{
+	background-position:-205px -898px;
+	-webkit-transform:rotate(90deg);
+	-ms-transform:rotate(90deg);
+	transform:rotate(90deg)
+}
+.small-icon.archive{
+	background-position:-54px -262px
+}
+.small-icon.archive.white{
+	background-position:-104px -262px
+}
+.small-icon.unarchive{
+	background-position:-154px -262px
+}
+.small-icon.person{
+	background-position:-54px -292px
+}
+.small-icon.person.white{
+	background-position:-104px -292px
+}
+.small-icon.tiny-down-arrow{
+	background-position:-154px -292px
+}
+.small-icon.tiny-down-arrow.flipped{
+	background-position:-204px -292px
+}
+.small-icon.chatlock{
+	background-position:-54px -262px
+}
+.dropdown-item .small-icon.icons-sprite.reverted-clock{
+	background-position:-200px -1200px
+}
+.dropdown-item:hover .small-icon.icons-sprite.reverted-clock{
+	background-position:-40px -1200px
+}
+.dropdown-item .small-icon.rounded-grey-plus{
+	background-position:-3px -3131px
+}
+.dropdown-item:hover .small-icon.circle-with-arrow{
+	background-position:-4px -1225px
+}
+.dropdown-item:hover .small-icon.rounded-grey-plus{
+	background-position:-3px -3171px
+}
+.dropdown-item .small-icon.search-icon{
+	background-position:-3px -2681px
+}
+.dropdown-item .small-icon.grey-cloud{
+	background-position:-3px -579px;
+	margin-right:8px;
+	width:21px
+}
+.dropdown-item .small-icon.grey-computer{
+	background-position:-3px -2501px
+}
+.small-icon.grey-computer.colorized{
+	background-position:-89px -934px
+}
+.dropdown-item.light i.small-icon.grey-computer.colorized{
+	background-position:-89px -934px;
+	margin:4px 0 0 5px;
+	width:23px
+}
+.dropdown-item .small-icon.rounded-grey-up-arrow{
+	background-position:-3px -620px
+}
+.dropdown-item .small-icon.rounded-grey-down-arrow{
+	background-position:-3px -2721px
+}
+.dropdown-item .small-icon.grey-chain{
+	background-position:-3px -2761px
+}
+.dropdown-item .small-icon.icons-sprite.chain{
+	background-position:-200px -133px;
+	margin:6px 8px 1px -1px;
+	width:22px
+}
+.dropdown-item .small-icon.writing-pen{
+	background-position:-3px -347px
+}
+.dropdown-item:hover .small-icon.conversations{
+	background-position:-3px -3092px
+}
+.dropdown-item:hover .small-icon.grey-chain{
+	background-position:-3px -2881px
+}
+.dropdown-item:hover .small-icon.icons-sprite.chain{
+	background-position:-240px -133px
+}
+.dropdown-item:hover .small-icon.rounded-grey-down-arrow{
+	background-position:-3px -2841px
+}
+.dropdown-item:hover .small-icon.search-icon{
+	background-position:-3px -2801px
+}
+.dropdown-item:hover .small-icon.grey-cloud{
+	background-position:-4px -773px
+}
+.dropdown-item:hover .small-icon.grey-computer{
+	background-position:-4px -815px
+}
+.dropdown-item:hover .small-icon.red-cross{
+	background-position:-3px -926px
+}
+.dropdown-item:hover .small-icon.writing-pen{
+	background-position:-3px -857px
+}
+.dropdown-item:hover .small-icon.quotes{
+	background-position:-3px -899px
+}
+.dropdown-item:hover .small-icon.human-profile{
+	background-position:-3px -986px
+}
+.dropdown-item:hover .small-icon.eye-icon{
+	background-position:-84px -497px
+}
+.dropdown-item:hover .small-icon.conversation-icon{
+	background-position:-84px -533px
+}
+.dropdown-item:hover .small-icon.cogwheel-icon{
+	background-position:-84px -577px
+}
+.dropdown-item:hover .small-icon.gentleman{
+	background-position:-104px -302px
+}
+.dropdown-item:hover .small-icon.dashed-conversation{
+	background-position:-3px -1023px
+}
+.dropdown-item:hover .small-icon.rounded-grey-up-arrow{
+	background-position:-3px -1110px
+}
+.dropdown-item:hover .small-icon.square-profile{
+	background-position:-3px -1153px
+}
+.dropdown-item:hover .small-icon.play-icon{
+	background-position:-2px -1193px
+}
+.dropdown-item .small-icon.audio-call{
+	background-position:-104px -38px
+}
+.dropdown-item:hover .small-icon.audio-call{
+	background-position:-154px -38px
+}
+.dropdown-item .small-icon.video-call{
+	background-position:-104px -74px
+}
+.dropdown-item:hover .small-icon.video-call{
+	background-position:-154px -74px
+}
+.dropdown-item:hover .small-icon.rounded-stop{
+	background-position:-54px -218px
+}
+.dropdown-item.opened .small-icon.context.sortgrid,.dropdown-item:hover .small-icon.context.sortgrid{
+	background-position:-117px -1992px
+}
+.dropdown.body:not(.context) .dropdown-item .small-icon.remove-link{
+	margin:6px 8px 1px -1px
+}
+.dashed-conversation{
+	background-position:1px -1644px
+}
+.call-icon{
+	background-image:url(../images/mega/new-chat-sprite.png?v=40f37d9cda30e011);
+	background-repeat:no-repeat;
+	display:block;
+	height:32px;
+	width:32px
+}
+.call-icon.handset-with-stop{
+	background-position:-58px -2318px
+}
+.call-icon.handset-with-yellow-arrow{
+	background-position:-59px -2268px
+}
+.call-icon.handset-with-up-arrow{
+	background-position:2px -2368px
+}
+.call-icon.handset-with-cross{
+	background-position:2px -2418px
+}
+.call-icon.handset-with-yellow-cross{
+	background-position:-118px -2268px
+}
+.call-icon.horizontal-handset{
+	background-position:2px -2319px
+}
+.call-icon.crossed-handset{
+	background-position:-58px -2368px
+}
+.call-icon.call-started,.call-icon.diagonal-handset{
+	background-position:-58px -2418px
+}
+.call-icon.handset-with-down-arrow{
+	background-position:2px -2268px
+}
+.call-icon.big{
+	height:46px;
+	width:46px
+}
+.call-icon.big.handset-with-stop{
+	background-position:-149px -2737px
+}
+.call-icon.big.handset-with-yellow-arrow{
+	background-position:-149px -2678px
+}
+.call-icon.big.handset-with-up-arrow{
+	background-position:-69px -2677px
+}
+.call-icon.big.handset-with-cross{
+	background-position:-69px -2857px
+}
+.call-icon.big.handset-with-yellow-cross{
+	background-position:-69px -2917px
+}
+.call-icon.big.horizontal-handset{
+	background-position:-69px -2735px
+}
+.call-icon.big.crossed-handset{
+	background-position:-149px -2797px
+}
+.call-icon.big.diagonal-handset{
+	background-position:-149px -2857px
+}
+.call-icon.big.handset-with-down-arrow{
+	background-position:-69px -2797px
+}
+.huge-white-icon{
+	background-image:url(../images/mega/chat-static-sprite.png?v=7f7fec6e606a8d34);
+	background-position:0 0;
+	background-repeat:no-repeat;
+	display:block;
+	height:70px;
+	width:70px
+}
+.huge-white-icon.loupe{
+	background-position:center -195px
+}
+.huge-white-icon.play{
+	background-position:center -104px
+}
+.shared-link.small-icon{
+	background-image:url(../images/mega/chat-static-sprite.png?v=7f7fec6e606a8d34);
+	background-position:0 0;
+	background-repeat:no-repeat;
+	display:inline-block;
+	height:16px;
+	margin:2px 6px 0 0;
+	vertical-align:top;
+	width:16px
+}
+.shared-link.small-icon.vimeo{
+	background-position:-14px 0
+}
+.shared-link.small-icon.youtube{
+	background-position:-14px -40px
+}
+.semi-big-icon.conversations,.small-block .big-icon.conversations{
+	background-position:-161px -3386px
+}
+.semi-big-icon.conversations-blue,.small-block .big-icon.conversations-blue,.small-block button.unread .big-icon.conversations,button.unread .semi-big-icon.conversations{
+	background-position:-201px -3386px
+}
+.semi-big-icon.microphone,.small-block .big-icon.microphone{
+	background-position:-161px -3317px
+}
+.semi-big-icon.crossed-microphone,.small-block .big-icon.crossed-microphone,.small-block button.active .big-icon.microphone,button.active .semi-big-icon.microphone{
+	background-position:-201px -3317px
+}
+.semi-big-icon.videocam,.small-block .big-icon.videocam{
+	background-position:-161px -3446px
+}
+.semi-big-icon.crossed-videocam,.small-block .big-icon.crossed-videocam,.small-block button.active .big-icon.videocam,button.active .semi-big-icon.videocam{
+	background-position:-201px -3446px
+}
+.semi-big-icon.horizontal-red-handset,.small-block .big-icon.horizontal-red-handset{
+	background-position:-161px -3494px
+}
+.semi-big-icon.nwse-resize,.small-block .big-icon.nwse-resize{
+	background-position:-200px -3549px
+}
+.semi-big-icon.nwse-inset-resize,.small-block .big-icon.nwse-inset-resize,.small-block button.active .big-icon.nwse-resize,button.active .semi-big-icon.nwse-resize{
+	background-position:-160px -3549px
+}
+.semi-big-icon.crossed-screenshare,.small-block .big-icon.crossed-screenshare{
+	background-position:-153px -3127px
+}
+.semi-big-icon.screenshare,.small-block .big-icon.screenshare{
+	background-position:-198px -3127px
+}
+.semi-big-icon.white-dots,.small-block .big-icon.white-dots{
+	background-position:-41px -1786px
+}
+.semi-big-icon.grey-lock{
+	background-position:-3px -3710px
+}
+.semi-big-icon.grey-tick{
+	background-position:-3px -3770px
+}
+.big-icon.conversations{
+	background-position:-17px -3375px
+}
+.big-icon.conversations-blue,button.unread .big-icon.conversations{
+	background-position:-87px -3375px
+}
+.big-icon.microphone{
+	background-position:-17px -3305px
+}
+.big-icon.crossed-microphone,button.active .big-icon.microphone{
+	background-position:-87px -3306px
+}
+.big-icon.videocam{
+	background-position:-19px -3435px
+}
+.big-icon.crossed-videocam,button.active .big-icon.videocam{
+	background-position:-89px -3435px
+}
+.big-icon.horizontal-red-handset{
+	background-position:-19px -3485px
+}
+.big-icon.nwse-resize{
+	background-position:-84px -3537px
+}
+.big-icon.crossed-screenshare{
+	background-position:-35px -3118px
+}
+.big-icon.screenshare{
+	background-position:-92px -3118px
+}
+.big-icon.nwse-inset-resize,button.active .big-icon.nwse-resize{
+	background-position:-14px -3537px
+}
+.big-icon.white-dots{
+	background-position:-159px -1733px
+}
+.big-104px-icon{
+	display:inline-block;
+	height:104px;
+	vertical-align:top;
+	width:104px
+}
+.small-icon.membership{
+	background-image:url(../images/mega/top-login-sprite.png?v=33cef2f0849ccdf5);
+	background-position:center -2094px;
+	background-repeat:no-repeat;
+	height:22px;
+	position:relative
+}
+.small-icon.membership.pro4{
+	background-position:center -2124px
+}
+.small-icon.membership.pro1{
+	background-position:center -2154px
+}
+.small-icon.membership.pro2{
+	background-position:center -2184px
+}
+.small-icon.membership.pro3{
+	background-position:center -2214px
+}
+.small-icon.membership.pro100{
+	background-image:url(../images/mega/big-icons.png?v=af0093a3433fb0ee);
+	background-position:-149px -415px;
+	background-repeat:no-repeat;
+	height:22px;
+	position:relative
+}
+.tiny-icon.cog{
+	background-image:url(../images/mega/fm-main-sprite.png?v=7d3634e3f4c954e9);
+	background-position:-17px -10463px
+}
+.medium-icon.rocket{
+	background-image:url(../images/mega/top-sprite.png?v=7ef2b23a163ae63a);
+	background-position:-7px -16px
+}
+.medium-icon.down-arrow{
+	background-image:url(../images/mega/pages-sprite.png?v=d526aeedf2a8cd8);
+	background-position:0 -712px;
+	width:18px
+}
+.medium-icon.icons-img,.semi-big-icon.icons-img{
+	background-image:url(../images/mega/icons-sprite.png?v=48528e60724d858e)
+}
+.medium-icon.icons-img.close{
+	background-position:-47px -687px
+}
+.medium-icon.icons-img.chain{
+	background-position:-237px -129px
+}
+.medium-icon.icons-img.grey-chain{
+	background-position:-197px -129px
+}
+.medium-icon.icons-img.share{
+	background-position:-230px -1005px
+}
+.medium-icon.icons-img.arrow-in-circle{
+	background-position:-47px -631px
+}
+.medium-icon.icons-img.i-in-circle{
+	background-position:-69px -1392px
+}
+.medium-icon.icons-img.remove-to-bin{
+	background-position:-237px -317px
+}
+.medium-icon.icons-img.heart{
+	background-position:-237px -495px
+}
+.medium-icon.icons-img.broken-heart{
+	background-position:-237px -99px
+}
+.medium-icon.icons-img.red-heart{
+	background-position:-111px -825px
+}
+.medium-icon.icons-img.fullscreen.icon-fullscreen-enter{
+	background-position:-95px -580px
+}
+.medium-icon.icons-img.fullscreen.icon-fullscreen-leave{
+	background-position:-141px -580px
+}
+.medium-icon.icons-img.fullscreen{
+	background-position:-95px -580px
+}
+.medium-icon.icons-img.lowscreen{
+	background-position:-141px -580px
+}
+.medium-icon.icons-img.plus{
+	background-position:-149px -1392px
+}
+.medium-icon.icons-img.minus{
+	background-position:-109px -1392px
+}
+.medium-icon.icons-img.refresh{
+	background-position:-237px -347px
+}
+.medium-icon.icons-img.volume{
+	background-position:-222px -777px
+}
+.no-audio .medium-icon.icons-img.volume{
+	background-position:-222px -817px
+}
+.medium-icon.icons-img.volume-muted{
+	background-position:-222px -741px
+}
+.medium-icon.icons-img.icon-play,.medium-icon.icons-img.play{
+	background-position:-42px -537px
+}
+.medium-icon.icons-img.icon-pause,.medium-icon.icons-img.pause{
+	background-position:-93px -630px
+}
+.semi-big-icon.icons-img.pause{
+	background-position:2px -1440px
+}
+.semi-big-icon.icons-img.play{
+	background-position:-208px -1440px
+}
+.semi-big-icon.icons-img.cross{
+	background-position:-158px -1439px
+}
+.semi-big-icon.icons-img.prev{
+	background-position:-48px -1440px
+}
+.semi-big-icon.icons-img.next{
+	background-position:-108px -1440px
+}
+.huge-white-icon.achievement,.mid-white-icon{
+	background-image:url(../images/mega/account-sprite.png?v=b1005bdaf399cdee);
+	height:72px;
+	width:72px
+}
+.huge-white-icon.achievement.ach-create-account{
+	background-position:0 -86px
+}
+.mid-white-icon.ach-create-account{
+	background-position:-2px -74px;
+	background-size:144px auto;
+	display:block;
+	height:56px;
+	width:56px
+}
+.huge-white-icon.achievement.ach-install-megasync{
+	background-position:-104px -86px
+}
+.huge-white-icon.achievement.ach-install-mobile-app{
+	background-position:0 -175px
+}
+.huge-white-icon.achievement.ach-take-tour{
+	background-position:-104px -175px
+}
+.huge-white-icon.achievement.ach-verify-number{
+	background-position:0 -264px
+}
+.huge-white-icon.achievement.ach-invite-friend{
+	background-position:-104px -264px
+}
+.huge-white-icon.achievement.ach-group-chat{
+	background-position:0 -353px
+}
+.huge-white-icon.achievement.ach-share-folder{
+	background-position:-104px -353px
+}
+.big-icon.cloud{
+	background-position:0 -10734px
+}
+.big-icon.cloud,.big-icon.speedometer{
+	background-image:url(../images/mega/fm-main-sprite.png?v=7d3634e3f4c954e9)
+}
+.big-icon.speedometer{
+	background-position:0 -10684px
+}
+.semi-big-icon.cloud-up{
+	background-position:-7px -10390px
+}
+.semi-big-icon.cloud-down,.semi-big-icon.cloud-up{
+	background-image:url(../images/mega/fm-main-sprite.png?v=7d3634e3f4c954e9)
+}
+.semi-big-icon.cloud-down{
+	background-position:-7px -10420px
+}
+.medium-icon.cloud{
+	background-position:-11px -10817px
+}
+.medium-icon.cloud,.medium-icon.speedometer{
+	background-image:url(../images/mega/fm-main-sprite.png?v=7d3634e3f4c954e9);
+	height:24px;
+	width:24px
+}
+.medium-icon.speedometer{
+	background-position:-11px -10851px
+}
+.small-icon.grey-chain{
+	background-position:-3px -2971px
+}
+.small-icon.grey-plus{
+	background-position:-14px -10991px
+}
+.semi-small-icon.file,.small-icon.grey-plus{
+	background-image:url(../images/mega/fm-main-sprite.png?v=7d3634e3f4c954e9)
+}
+.semi-small-icon.file{
+	background-position:-4px -11021px
+}
+.semi-small-icon.folder{
+	background-position:-4px -11047px
+}
+.semi-small-icon.folder,.semi-small-icon.left-arrow{
+	background-image:url(../images/mega/fm-main-sprite.png?v=7d3634e3f4c954e9)
+}
+.semi-small-icon.left-arrow{
+	background-position:-29px -11019px
+}
+.semi-small-icon.right-arrow{
+	background-position:-29px -11045px
+}
+.semi-small-icon.right-arrow,.semi-small-icon.rubbish{
+	background-image:url(../images/mega/fm-main-sprite.png?v=7d3634e3f4c954e9)
+}
+.semi-small-icon.rubbish{
+	background-position:-4px -11073px
+}
+.semi-small-icon.rubbish-arrows{
+	background-position:-3px -11073px
+}
+.semi-small-icon.linked,.semi-small-icon.rubbish-arrows{
+	background-image:url(../images/mega/fm-main-sprite.png?v=7d3634e3f4c954e9)
+}
+.semi-small-icon.linked{
+	background-position:-28px -11071px
+}
+.semi-small-icon.star{
+	background-position:-4px -11097px
+}
+.semi-small-icon.cloud,.semi-small-icon.star{
+	background-image:url(../images/mega/fm-main-sprite.png?v=7d3634e3f4c954e9)
+}
+.semi-small-icon.cloud{
+	background-position:-3px -11895px
+}
+.semi-small-icon.down-arrow{
+	background-position:-29px -11895px
+}
+.semi-small-icon.down-arrow,.semi-small-icon.left-arrow-with-dot{
+	background-image:url(../images/mega/fm-main-sprite.png?v=7d3634e3f4c954e9)
+}
+.semi-small-icon.left-arrow-with-dot{
+	background-position:-2px -11916px
+}
+.semi-small-icon.circle{
+	background-image:url(../images/mega/fm-main-sprite.png?v=7d3634e3f4c954e9);
+	background-position:-3px -11937px
+}
+.huge-icon.achievement{
+	background-image:url(../images/mega/big-achievements.png?v=f0758695a85fed0d)
+}
+.huge-icon.group-chat{
+	background-position:-50px -1074px;
+	height:96px;
+	width:96px
+}
+.huge-icon.crossed-phone{
+	background-position:-74px -2989px;
+	height:70px;
+	width:70px
+}
+.big-icon.grey-play{
+	background-position:-164px -2589px;
+	height:64px;
+	width:64px
+}
+.big-icon.white-pause{
+	background-position:0 -2589px;
+	height:64px;
+	width:64px
+}
+.big-icon.group-chat{
+	background-position:-176px -1075px;
+	height:48px;
+	width:48px
+}
+.huge-icon.lock{
+	background-position:4px -4012px;
+	height:112px;
+	width:112px
+}
+.huge-icon.conversations{
+	background-position:-115px -4012px;
+	height:112px;
+	width:112px
+}
+.huge-icon.email-with-chat{
+	background-position:0 -4182px;
+	height:122px;
+	width:122px
+}
+.huge-icon.email-with-conversations{
+	background-position:0 -4312px;
+	height:122px;
+	width:122px
+}
+.huge-icon.conversations-with-at-sign{
+	background-position:0 -4455px;
+	height:106px;
+	width:111px
+}
+.big-icon.fm-s,.fm-s,.small-icon.fm-s{
+	background-image:url(../images/mega/fm-main-sprite.png?v=7d3634e3f4c954e9)
+}
+.small-icon.info-icon.fm-s{
+	background-position:-26px -12378px
+}
+.small-icon.double-l-arrows.fm-s{
+	background-position:-27px -1680px
+}
+.active .small-icon.double-l-arrows.fm-s,.small-icon.double-r-arrows.fm-s{
+	background-position:4px -1680px
+}
+.small-icon.blue-question.fm-s{
+	background-position:6px -1741px
+}
+.small-icon.verify.fm-s{
+	background-position:-14px -4586px
+}
+.small-icon.small-chain.fm-s{
+	background-position:-13px -4824px
+}
+.ach-create-account .huge-icon.achievement{
+	background-position:-2px 6px
+}
+.ach-install-megasync .huge-icon.achievement{
+	background-position:-152px 6px
+}
+.ach-install-mobile-app .huge-icon.achievement{
+	background-position:-302px 6px
+}
+.ach-take-tour .huge-icon.achievement{
+	background-position:-2px -144px
+}
+.ach-invite-friend .huge-icon.achievement{
+	background-position:-152px -144px
+}
+.ach-verify-number .huge-icon.achievement{
+	background-position:-302px -144px
+}
+.ach-group-chat .huge-icon.achievement{
+	background-position:-2px -294px
+}
+.ach-share-folder .huge-icon.achievement{
+	background-position:-152px -294px
+}
+.green-tick .huge-icon.achievement{
+	background-position:-2px -444px
+}
+.semi-big-icon.cloud{
+	background-image:url(../images/mega/fm-main-sprite.png?v=7d3634e3f4c954e9);
+	background-position:-9px -11163px
+}
+.exceeded .semi-big-icon.cloud{
+	background-position:-9px -11234px
+}
+.semi-big-icon.speedometer{
+	background-image:url(../images/mega/fm-main-sprite.png?v=7d3634e3f4c954e9);
+	background-position:-9px -11128px
+}
+.exceeded .semi-big-icon.speedometer{
+	background-position:-9px -11199px
+}
+.semi-small-icon.tick{
+	background-position:-15px -11322px
+}
+.semi-small-icon.dots,.semi-small-icon.tick{
+	background-image:url(../images/mega/fm-main-sprite.png?v=7d3634e3f4c954e9)
+}
+.semi-small-icon.dots{
+	background-position:-15px -11288px
+}
+.semi-small-icon.rounded-arrow{
+	background-position:-15px -11363px
+}
+.semi-small-icon.exclamation-point,.semi-small-icon.rounded-arrow{
+	background-image:url(../images/mega/fm-main-sprite.png?v=7d3634e3f4c954e9)
+}
+.semi-small-icon.exclamation-point{
+	background-position:-15px -11404px
+}
+.semi-big-icon.grnt-quota,.semi-big-icon.xscheduler{
+	background-image:url(../images/mega/fm-main-sprite.png?v=7d3634e3f4c954e9);
+	height:38px;
+	width:38px
+}
+.semi-big-icon.xscheduler{
+	background-position:-5px -876px
+}
+.semi-big-icon.grnt-quota{
+	background-position:-5px -12796px
+}
+.tiny-icon.membership-status{
+	background-image:url(../images/mega/top-sprite.png?v=7ef2b23a163ae63a);
+	background-position:-10px -979px;
+	width:16px
+}
+.tiny-icon.membership-status.lite{
+	background-position:-10px -999px
+}
+.tiny-icon.membership-status.pro1{
+	background-position:-10px -1019px
+}
+.tiny-icon.membership-status.pro2{
+	background-position:-10px -1039px
+}
+.tiny-icon.membership-status.pro3{
+	background-position:-10px -1059px
+}
+.tiny-icon.membership-status.pro100{
+	background-image:url(../images/mega/big-icons.png?v=af0093a3433fb0ee);
+	background-position:-127px -418px;
+	height:16px;
+	width:16px
+}
+.semi-small-icon.grey-mega{
+	background-position:-10px -326px
+}
+.semi-small-icon.grey-mega,.semi-small-icon.white-mega{
+	background-image:url(../images/mega/top-sprite.png?v=7ef2b23a163ae63a)
+}
+.semi-small-icon.white-mega{
+	background-position:-10px -701px
+}
+.semi-small-icon.yellow-triangle{
+	background-image:url(../images/mega/top-sprite.png?v=7ef2b23a163ae63a);
+	background-position:-10px -1266px
+}
+.semi-small-icon.send-to-contact-menu{
+	background-image:url(../images/mega/send_to_contact_ico.svg?v=d27756577ddc0b45);
+	background-position:0 -4px;
+	background-size:auto;
+	height:24px;
+	width:24px
+}
+.small-icon.dark-grey-plus{
+	background-position:-14px -11545px;
+	height:24px;
+	opacity:.65;
+	width:24px
+}
+.small-icon.dark-grey-plus,.small-icon.small-red-cross{
+	background-image:url(../images/mega/fm-main-sprite.png?v=7d3634e3f4c954e9)
+}
+.small-icon.small-red-cross{
+	background-position:-14px -11625px
+}
+.small-icon.file-upload{
+	background-position:-14px -11585px
+}
+.small-icon.file-upload,.small-icon.folder-upload{
+	background-image:url(../images/mega/fm-main-sprite.png?v=7d3634e3f4c954e9);
+	height:24px;
+	width:24px
+}
+.small-icon.folder-upload{
+	background-position:-14px -11705px
+}
+.small-icon.import-to-cloud{
+	background-position:-13px -4701px
+}
+.small-icon.download-as-zip,.small-icon.import-to-cloud{
+	background-image:url(../images/mega/fm-main-sprite.png?v=7d3634e3f4c954e9)
+}
+.small-icon.download-as-zip{
+	background-position:-13px -4733px
+}
+.small-icon.pause-icon{
+	background-position:-14px -11505px
+}
+.small-icon.pause-icon,.small-icon.play-icon{
+	background-image:url(../images/mega/fm-main-sprite.png?v=7d3634e3f4c954e9)
+}
+.small-icon.play-icon{
+	background-position:-13px -11745px
+}
+.small-icon.refresh-icon{
+	background-image:url(../images/mega/fm-main-sprite.png?v=7d3634e3f4c954e9);
+	background-position:-14px -11665px
+}
+.small-icon.green-arrow{
+	background-position:0 -56px
+}
+.small-icon.blue-arrow,.small-icon.green-arrow{
+	background-image:url(../images/mega/register-big-sprite.png?v=c4d9847b9909de00)
+}
+.small-icon.blue-arrow{
+	background-position:0 -99px
+}
+.small-icon.red-lens{
+	background-position:-192px -585px
+}
+.small-icon.red-lens,.small-icon.red-play{
+	background-image:url(../images/mega/icons-sprite.png?v=48528e60724d858e)
+}
+.small-icon.red-play{
+	background-position:-233px -585px
+}
+.small-icon.small-play-icon{
+	background-position:-148px -634px
+}
+.small-icon.context,.small-icon.small-play-icon{
+	background-image:url(../images/mega/icons-sprite.png?v=48528e60724d858e)
+}
+.small-icon.context.standart-download{
+	background-position:-1px -499px
+}
+.small-icon.context.download-as-zip{
+	background-position:-101px -499px
+}
+.small-icon.context.labels{
+	background-position:-101px -99px
+}
+.small-icon.context.download{
+	background-position:-101px -138px
+}
+.small-icon.context.get-link{
+	background-position:-200px -133px;
+	margin:6px 13px 1px -1px;
+	width:22px
+}
+.small-icon.context.syncmegasync{
+	background-position:-200px -351px;
+	margin:6px 13px 1px -1px;
+	width:22px
+}
+.small-icon.context.remove-link{
+	background-position:-200px -165px;
+	margin:6px 13px 1px -1px;
+	width:22px
+}
+.small-icon.context.embed{
+	background-position:-233px -873px;
+	margin:6px 13px 1px -1px;
+	width:22px
+}
+.small-icon.context.share{
+	background-position:-99px -172px;
+	margin:6px 12px 1px -1px;
+	width:23px
+}
+.small-icon.context.dispute{
+	background-position:-3px -1697px;
+	margin:6px 13px 1px -1px;
+	width:22px
+}
+.small-icon.context.conversation{
+	background-position:-1px -147px;
+	margin-left:-1px
+}
+.small-icon.context.sortgrid{
+	background-position:-89px -1992px;
+	opacity:1
+}
+.opened .small-icon.context.sortgrid{
+	background-position:-117px -1992px
+}
+.small-icon.context.handset{
+	background-position:-1px -333px
+}
+.small-icon.context.videocam{
+	background-position:-1px -365px
+}
+.small-icon.context.writing-pen{
+	background-position:-202px -226px
+}
+.small-icon.context.position-arrows{
+	background-position:-200px -258px;
+	margin:6px 13px 1px -1px;
+	width:22px
+}
+.small-icon.context.cloned-files{
+	background-position:-202px -288px;
+	height:24px;
+	margin-top:4px
+}
+.small-icon.context.plus{
+	background-position:-201px -391px
+}
+.small-icon.context.file-upload{
+	background-position:-201px -429px
+}
+.small-icon.context.folder-upload{
+	background-position:-201px -461px
+}
+.small-icon.context.remove-to-bin{
+	background-position:-200px -322px;
+	margin:6px 13px 1px -1px;
+	width:22px
+}
+.small-icon.context.loupe{
+	background-position:-102px 1px
+}
+.small-icon.context.open-folder{
+	background-position:-2px -1071px
+}
+.small-icon.context.cloud-folder{
+	background-position:-124px -2261px;
+	opacity:.6
+}
+.small-icon.context.info{
+	background-position:-202px -71px
+}
+.small-icon.context.clock{
+	background-position:-200px -1200px;
+	margin:6px 13px 1px 0
+}
+.small-icon.context.clock-with-cross{
+	background-position:-240px -1200px;
+	margin:6px 13px 1px 0
+}
+.small-icon.context.heart{
+	background-position:-202px -499px
+}
+.small-icon.context.broken-heart{
+	background-position:-202px -103px
+}
+.small-icon.context.leave-share{
+	background-position:-100px -539px;
+	margin-right:12px;
+	width:21px
+}
+.small-icon.context.red-cross{
+	background-position:-102px -212px
+}
+.small-icon.context.pause{
+	background-position:-1px -39px
+}
+.small-icon.context.play{
+	background-position:-1px 1px
+}
+.small-icon.context.move-up{
+	background-position:-1px -78px
+}
+.small-icon.context.move-down{
+	background-position:-1px -110px
+}
+.small-icon.context.small-refresh{
+	background-position:-202px 2px
+}
+.small-icon.context.network-diagnostic{
+	background-position:-201px -538px
+}
+.small-icon.context.aim{
+	background-position:-100px -60px;
+	height:22px;
+	margin:5px 13px 1px -1px;
+	width:22px
+}
+.small-icon.context.arrow-in-circle{
+	background-position:-1px -228px
+}
+.small-icon.context.share-folder{
+	background-position:-1px -260px
+}
+.small-icon.context.headset{
+	background-position:-2px -179px
+}
+.small-icon.context.red-stop{
+	background-position:-1px -299px
+}
+.small-icon.icons-sprite.bold-eye{
+	background-position:0 -461px
+}
+.small-icon.icons-sprite.bold-crossed-eye{
+	background-position:1px -1498px
+}
+.small-icon.icons-sprite.tooltip-arrow{
+	background-image:none;
+	background-position:-165px -1354px;
+	border-left:11px solid transparent;
+	border-right:11px solid transparent;
+	border-top:9px solid var(--stroke-main-inverted);
+	height:0;
+	width:0
+}
+.small-icon.icons-sprite.grey-plus{
+	background-position:-200px -391px
+}
+.small-icon.icons-sprite.writing-pencil{
+	background-position:-201px -226px
+}
+.small-icon.grey-key{
+	background-position:-103px -346px
+}
+.small-icon.icons-sprite.writing-pencil{
+	background-position:-201px -226px
+}
+.small-icon.icons-sprite.right-white-arrow{
+	background-position:-33px -1396px
+}
+.small-icon.icons-sprite.red-cross-in-circle{
+	background-position:-237px -1546px;
+	height:22px;
+	width:22px
+}
+.small-icon.icons-sprite.skip{
+	background-position:-231px -1396px
+}
+.dropdown-item:hover .small-icon.icons-sprite.grey-plus{
+	background-position:-240px -391px
+}
+.dropdown-item:hover .small-icon.context.arrow-in-circle{
+	background-position:-41px -228px
+}
+.small-icon.dark-grey-plus{
+	background-image:url(../images/mega/fm-main-sprite.png?v=7d3634e3f4c954e9);
+	background-position:-14px -11544px
+}
+.dropdown-item:hover .small-icon.context.share-folder{
+	background-position:-41px -260px
+}
+.dropdown-item.opened .small-icon.context.headset,.dropdown-item:hover .small-icon.context.headset{
+	background-position:-42px -179px
+}
+.dropdown-item:hover .small-icon.context.red-stop{
+	background-position:-41px -299px
+}
+.dropdown-item:hover .small-icon.context.arrow-in-circle{
+	background-position:-41px -228px
+}
+.dropdown-item:hover .small-icon.context.share-folder{
+	background-position:-41px -260px
+}
+.dropdown-item.opened .small-icon.context.headset,.dropdown-item:hover .small-icon.context.headset{
+	background-position:-42px -179px
+}
+.dropdown-item:hover .small-icon.context.red-stop{
+	background-position:-41px -299px
+}
+.dropdown-item:hover .small-icon.icons-sprite.writing-pencil{
+	background-position:-241px -226px
+}
+.dropdown-item:hover .small-icon.icons-sprite.bold-eye{
+	background-position:-40px -461px
+}
+.dropdown-item:hover .small-icon.icons-sprite.bold-crossed-eye{
+	background-position:-39px -1498px
+}
+.dropdown-item:hover .small-icon.context.download-as-zip{
+	background-position:-141px -499px
+}
+.small-icon.context.az{
+	background-position:0 -1276px
+}
+.small-icon.context.single-clock{
+	background-position:-80px -1277px
+}
+.small-icon.context.status{
+	background-position:-159px -1277px
+}
+.small-icon.context.cloud{
+	background-position:-102px -30px
+}
+.small-icon.context.folder-item{
+	background-position:-100px -291px
+}
+.small-icon.context.shared-folder-item{
+	background-position:0 -260px
+}
+.small-icon.context.puf-folder{
+	background-position:-150px -911px
+}
+.small-icon.context.create-widget{
+	background-position:-82px -1071px
+}
+.small-icon.context.remove-widget{
+	background-position:-162px -1071px
+}
+.small-icon.context.manage-widget{
+	background-position:-202px -1112px
+}
+.dropdown-item:hover .small-icon.context.standart-download{
+	background-position:-41px -499px
+}
+.dropdown-item:hover .small-icon.context.download-as-zip{
+	background-position:-141px -499px
+}
+.dark .dropdown-item .small-icon.context.labels,body.theme-dark .dropdown-item .small-icon.context.labels{
+	background-position:-141px -99px
+}
+.dropdown-item.opened .small-icon.context.download,.dropdown-item:hover .small-icon.context.download{
+	background-position:-141px -138px
+}
+.dropdown-item:hover .small-icon.context.get-link{
+	background-position:-240px -133px
+}
+.dropdown-item:hover .small-icon.context.remove-link{
+	background-position:-240px -165px
+}
+.dropdown-item:hover .small-icon.context.embed{
+	background-position:-233px -909px
+}
+.dropdown-item:hover .small-icon.context.share{
+	background-position:-139px -172px
+}
+.dark .dropdown-item:not(.static) .small-icon.context.conversation,.dropdown-item:hover .small-icon.context.conversation{
+	background-position:-41px -147px
+}
+.dropdown-item.opened .small-icon.context.handset,.dropdown-item:hover .small-icon.context.handset{
+	background-position:-41px -333px
+}
+.dropdown-item:hover .small-icon.context.videocam{
+	background-position:-41px -365px
+}
+.dropdown-item:hover .small-icon.context.writing-pen{
+	background-position:-242px -226px
+}
+.dropdown-item.opened .small-icon.context.position-arrows,.dropdown-item:hover .small-icon.context.position-arrows{
+	background-position:-240px -258px
+}
+.dropdown-item:hover .small-icon.context.cloned-files{
+	background-position:-242px -288px
+}
+.dropdown-item:hover .small-icon.context.plus{
+	background-position:-241px -391px
+}
+.dropdown-item:hover .small-icon.context.file-upload{
+	background-position:-241px -429px
+}
+.dropdown-item:hover .small-icon.context.folder-upload{
+	background-position:-241px -461px
+}
+.dropdown-item:hover .small-icon.context.remove-to-bin{
+	background-position:-240px -322px
+}
+.dropdown-item:hover .small-icon.context.loupe{
+	background-position:-142px 1px
+}
+.dropdown-item:hover .small-icon.context.open-folder{
+	background-position:-42px -1071px
+}
+.dropdown-item:hover .small-icon.context.cloud-folder{
+	background-position:-163px -2261px
+}
+.dropdown-item:hover .small-icon.context.info{
+	background-position:-242px -71px
+}
+.dropdown-item:hover .small-icon.context.clock{
+	background-position:-40px -1200px
+}
+.dropdown-item:hover .small-icon.context.clock-with-cross{
+	background-position:-120px -1200px
+}
+.dark .dropdown-item:not(.static) .small-icon.context.heart,.dropdown-item:hover:not(.static) .small-icon.context.heart{
+	background-position:-242px -499px
+}
+.dropdown-item:hover .small-icon.context.broken-heart{
+	background-position:-242px -103px
+}
+.dropdown-item:hover .small-icon.context.red-cross{
+	background-position:-142px -212px
+}
+.dropdown-item:hover .small-icon.context.pause{
+	background-position:-41px -39px
+}
+.dropdown-item:hover .small-icon.context.play{
+	background-position:-41px 1px
+}
+.dropdown-item:hover .small-icon.context.move-up{
+	background-position:-41px -78px
+}
+.dropdown-item:hover .small-icon.context.move-down{
+	background-position:-41px -110px
+}
+.dropdown-item:hover .small-icon.context.small-refresh{
+	background-position:-242px 2px
+}
+.dropdown-item:hover .small-icon.context.network-diagnostic{
+	background-position:-241px -538px
+}
+.dropdown-item:hover .small-icon.context.leave-share{
+	background-position:-140px -539px
+}
+.dropdown-item:hover .small-icon.context.aim{
+	background-position:-140px -60px
+}
+.dropdown-item.opened .small-icon.context.cloud,.dropdown-item:hover .small-icon.context.cloud{
+	background-position:-142px -30px
+}
+.dropdown-item.opened .small-icon.context.folder-item,.dropdown-item:hover .small-icon.context.folder-item{
+	background-position:-140px -291px
+}
+.dropdown-item.opened .small-icon.context.shared-folder-item,.dropdown-item:hover .small-icon.context.shared-folder-item{
+	background-position:-40px -260px
+}
+.dropdown-item.opened .small-icon.context.puf-folder,.dropdown-item:hover .small-icon.context.puf-folder{
+	background-position:-190px -911px
+}
+.small-icon.context.puf-folder{
+	background-position:-150px -911px
+}
+.dropdown-item:hover .small-icon.context.create-widget{
+	background-position:-122px -1071px
+}
+.dropdown-item:hover .small-icon.context.remove-widget{
+	background-position:-202px -1071px
+}
+.dropdown-item:hover .small-icon.context.manage-widget{
+	background-position:-42px -1112px
+}
+.dark .dropdown-item:not(.static) .small-icon.context.az,body.theme-dark .dropdown-item:not(.static) .small-icon.context.az{
+	background-position:-40px -1277px
+}
+.dark .dropdown-item:not(.static) .small-icon.context.single-clock,.video.thumb .small-icon.icons-sprite.grey-clock,body.theme-dark .dropdown-item:not(.static) .small-icon.context.single-clock{
+	background-position:-120px -1277px
+}
+.dark .dropdown-item:not(.static) .small-icon.context.status,body.theme-dark .dropdown-item:not(.static) .small-icon.context.status{
+	background-position:-199px -1277px
+}
+.context-sprite,i.context-sprite{
+	background-image:url(../images/mega/context-sprite.png?v=c0ef91be037d13ea)
+}
+.small-icon.context-sprite.plusfolder{
+	background-position:0 1px
+}
+.small-icon.context-sprite.plusfile{
+	background-position:-158px 0
+}
+.small-icon.context-sprite.edit-file{
+	background-position:-77px 0;
+	width:22px
+}
+.dropdown-item:hover .small-icon.context-sprite.edit-file{
+	background-position:-117px 0
+}
+.dropdown-item:hover .small-icon.context-sprite.plusfolder{
+	background-position:-40px 1px
+}
+.dropdown-item:hover .small-icon.context-sprite.plusfile{
+	background-position:-198px 0
+}
+.small-icon.context-sprite.lock{
+	background-position:-37px -44px
+}
+.small-icon.context-sprite.calendar{
+	background-position:2px -44px
+}
+.small-icon.context-sprite.light-red-cross{
+	background-position:-74px -44px
+}
+.huge-icon.storage-icon{
+	background-image:url(../images/mega/account-sprite.png?v=b1005bdaf399cdee);
+	background-position:20px -771px;
+	background-repeat:no-repeat
+}
+.huge-icon.storage-icon.full{
+	background-position:20px -651px
+}
+.semi-small-icon.rocket{
+	background-position:-156px -619px
+}
+.semi-huge-icon.green-tick,.semi-small-icon.rocket{
+	background-image:url(../images/mega/account-sprite.png?v=b1005bdaf399cdee)
+}
+.semi-huge-icon.green-tick{
+	background-position:0 -1045px
+}
+.semi-huge-icon.speedometer{
+	background-position:-102px -1407px
+}
+.semi-huge-icon.speedometer,.semi-huge-icon.storage{
+	background-image:url(../images/mega/account-sprite.png?v=b1005bdaf399cdee);
+	height:68px;
+	width:68px
+}
+.semi-huge-icon.storage{
+	background-position:-2px -1406px
+}
+.mega-dialog.achievements .semi-huge-icon.storage{
+	background-position:-2px -88px
+}
+.semi-big-icon.blue-cloud{
+	background-position:-100px -984px
+}
+.semi-big-icon.blue-cloud,.semi-big-icon.green-speedometer{
+	background-image:url(../images/mega/account-sprite.png?v=b1005bdaf399cdee)
+}
+.semi-big-icon.green-speedometer{
+	background-position:-100px -1032px
+}
+.big-104px-icon.speedometer{
+	background-image:url(../images/mega/account-sprite.png?v=b1005bdaf399cdee);
+	background-position:2px -1269px
+}
+.big-104px-icon.speedometer.almost-full{
+	background-position:2px -1139px
+}
+.small-icon.fm-s.green-plus{
+	background-position:3px -4003px
+}
+.big-icon.fm-s.green-plus{
+	background-position:10px -3939px
+}
+.big-icon.almost-full-storage{
+	background-image:url(../images/mega/account-sprite.png?v=b1005bdaf399cdee);
+	background-position:-121px -790px;
+	height:52px;
+	width:52px
+}
+.small-icon.icons-sprite.clock{
+	background-position:-79px -743px;
+	height:22px;
+	width:20px
+}
+.small-icon.icons-sprite.tiny-grey-clock{
+	background-position:-83px -1728px;
+	height:20px;
+	width:20px
+}
+.small-icon.icons-sprite.email{
+	background-position:-3px -1596px;
+	width:22px
+}
+.small-icon.icons-sprite.white-chain{
+	background-position:-3px -1632px;
+	width:22px
+}
+.small-icon.icons-sprite.grey-clock{
+	background-position:-79px -1276px;
+	width:21px
+}
+.medium-icon.icons-sprite.quote1{
+	background-position:-40px -1629px
+}
+.medium-icon.icons-sprite.quote2{
+	background-position:-89px -1629px
+}
+.medium-icon.icons-sprite.big-close{
+	background-position:3px -777px
+}
+.small-icon.icons-sprite.down-arrow{
+	background-position:-78px -832px
+}
+.small-icon.icons-sprite.reverted-clock{
+	background-position:0 -1200px
+}
+.small-icon.icons-sprite.reverted{
+	background-position:-120px -1596px
+}
+.small-icon.icons-sprite.tiny-red-cross{
+	background-position:-84px -1596px
+}
+.small-icon.icons-sprite.tiny-green-tick{
+	background-position:-41px -1546px
+}
+.small-icon.icons-sprite.tiny-grey-tick{
+	background-position:-1px -1546px
+}
+.small-icon.icons-sprite.clock-with-cross{
+	background-position:-80px -1200px
+}
+.small-icon.icons-sprite.stop{
+	background-position:-121px -1546px
+}
+.small-icon.icons-sprite.rubbish-bin-icon{
+	background-position:-40px -745px
+}
+.small-icon.icons-sprite.refresh-arrows{
+	background-position:-79px -780px;
+	height:22px;
+	width:20px
+}
+.small-icon.icons-sprite.reverted-light-clock{
+	background-position:-41px -829px;
+	height:22px;
+	width:20px
+}
+.small-icon.icons-sprite.earth{
+	background-position:-116px -779px;
+	height:22px;
+	width:20px
+}
+.small-icon.icons-sprite.mobile-device{
+	background-position:-116px -743px;
+	height:22px;
+	width:20px
+}
+.small-icon.icons-sprite.revert-small-arrow{
+	background-position:-156px -745px
+}
+.small-icon.icons-sprite.filled-rubbish-bin{
+	background-position:-192px -781px
+}
+.small-icon.icons-sprite.small-cross{
+	background-position:1px -1316px
+}
+.small-icon.icons-sprite.lens{
+	background-position:-205px -1731px
+}
+.icons-sprite,i.icons-sprite,i.small-icon.icons-sprite{
+	background-image:url(../images/mega/icons-sprite.png?v=48528e60724d858e)
+}
+.medium-icon.icons-sprite.mega{
+	background-position:-49px -1004px
+}
+.medium-icon.icons-sprite.big-mega,button .medium-icon.icons-sprite.mega{
+	background-position:2px -1006px
+}
+.medium-icon.icons-sprite.download.big{
+	background-position:0 -953px
+}
+.medium-icon.icons-sprite.download.big.resume{
+	background-position:-55px -953px
+}
+.medium-icon.icons-sprite.download.big.save{
+	background-position:-106px -953px
+}
+.semi-small-icon.icons-sprite.download{
+	background-position:-84px -1925px
+}
+.semi-small-icon.icons-sprite.download.resume{
+	background-position:-12px -1925px
+}
+.semi-small-icon.icons-sprite.download.save{
+	background-position:-49px -1925px
+}
+.medium-icon.icons-sprite.share{
+	background-position:-194px -1006px;
+	margin-right:0;
+	opacity:.6
+}
+.small-icon.icons-sprite.thumb-up{
+	background-position:-139px -1633px
+}
+.small-icon.icons-sprite.dark-down-arrow{
+	background-position:5px -870px
+}
+.small-icon.icons-sprite.mega{
+	background-position:4px -1237px
+}
+.small-icon.icons-sprite.red-down-arrow{
+	background-position:-25px -870px
+}
+.small-icon.icons-sprite.cog{
+	background-position:-158px -1199px
+}
+.paused .small-icon.icons-sprite.red-down-arrow{
+	background-position:-55px -870px
+}
+.small-icon.icons-sprite.green-down-arrow{
+	background-position:-44px -1729px
+}
+.small-icon.icons-sprite.mid-pause{
+	background-position:-86px -872px
+}
+.small-icon.icons-sprite.mid-pause.active{
+	background-position:-146px -871px
+}
+.small-icon.icons-sprite.pause-transfer{
+	background-position:-123px -1729px;
+	cursor:pointer;
+	opacity:.6
+}
+.small-icon.icons-sprite.pause-transfer:hover{
+	opacity:.8
+}
+.small-icon.icons-sprite.pause-transfer.active{
+	background-position:-163px -1729px
+}
+.semi-small-icon.icons-sprite.pause{
+	background-position:-117px -872px
+}
+.active .semi-small-icon.icons-sprite.pause{
+	background-position:-146px -872px
+}
+.small-icon.icons-sprite.red-cross{
+	background-position:-202px -1699px;
+	height:22px
+}
+.semi-small-icon.icons-sprite.folder-with-loupe{
+	background-position:-203px -1549px
+}
+.semi-small-icon.icons-sprite.white-warning{
+	background-position:-236px -1731px
+}
+.small-icon.icons-sprite.share{
+	background-position:-235px -1633px
+}
+.semi-small-icon.icons-sprite.grey-down-arrow{
+	background-position:4px -873px
+}
+.semi-small-icon.icons-sprite.green-tick{
+	background-position:-28px -911px;
+	width:23px
+}
+.small-icon.icons-sprite.arrows-to-bottom{
+	background-position:-84px -1699px
+}
+.active .small-icon.icons-sprite.arrows-to-bottom,.small-icon.icons-sprite.arrows-to-top{
+	background-position:-124px -1699px
+}
+.small-icon.icons-sprite.lime-tick{
+	background-position:-161px -1698px;
+	height:22px;
+	width:23px
+}
+.small-icon.icons-sprite.right-green-arrow{
+	background-position:-14px -2185px;
+	height:14px;
+	width:10px
+}
+.small-icon.icons-sprite.bottom-blue-arrow{
+	background-position:-133px -2182px;
+	width:12px
+}
+.small-icon.icons-sprite.next-arrow,.small-icon.icons-sprite.prev-arrow{
+	background-position:-246px -2051px;
+	opacity:.6;
+	transform:rotate(-90deg)
+}
+.small-icon.icons-sprite.next-arrow.disabled,.small-icon.icons-sprite.prev-arrow.disabled{
+	opacity:.2
+}
+.small-icon.icons-sprite.next-arrow{
+	transform:rotate(90deg)
+}
+.dark .small-icon.icons-sprite.bottom-blue-arrow{
+	background-position:-103px -2182px
+}
+.small-icon.icons-sprite.bold-green-tick{
+	background-position:-126px -2306px
+}
+.small-icon.icons-sprite.white-right-arrow{
+	background-position:-9px -2306px;
+	width:25px
+}
+.semi-big-icon.icons-sprite.grey-right-arrow{
+	background-position:-59px -2300px
+}
+.semi-small-icon.icons-sprite.tiny-clock{
+	background-position:-124px -1160px
+}
+.semi-small-icon.icons-sprite.tiny-star{
+	background-position:-164px -1160px
+}
+.semi-small-icon.icons-sprite.lens{
+	background-position:-179px -873px
+}
+.download.big-icon{
+	background-image:url(../images/mega/download-dialog.png?v=cf6daa0027e27782);
+	background-position:-622px -81px;
+	height:74px;
+	width:74px
+}
+.chrome .download.big-icon{
+	background-position:2px -81px
+}
+.safari .download.big-icon{
+	background-position:-282px -81px
+}
+.ff .download.big-icon{
+	background-position:-412px -81px
+}
+.edge .download.big-icon{
+	background-position:-184px -81px
+}
+.opera .download.big-icon{
+	background-position:-82px -81px
+}
+.ie .download.big-icon{
+	background-position:-522px -81px
+}
+.default-warning .download.big-icon,.medium-icon.right-arrow.icons-sprite{
+	background-position:-708px -76px
+}
+.medium-icon.right-arrow.icons-sprite{
+	background-position:-82px -1312px
+}
+.top-sprite,i.top-sprite{
+	background-image:url(../images/mega/top-sprite.png?v=7ef2b23a163ae63a);
+	background-repeat:no-repeat
+}
+.top-sprite.medium-icon.white-right-arrow{
+	background-position:-5px -2040px
+}
+.register-sprite{
+	background-image:url(../images/mega/register-sprite.png?v=378a84f4453f99d5)
+}
+i.account-icon{
+	background-image:url(../images/mega/top-sprite.png?v=7ef2b23a163ae63a);
+	background-repeat:no-repeat;
+	height:26px;
+	width:26px
+}
+i.account-icon.building{
+	background-position:-6px -1660px
+}
+i.account-icon.phone{
+	background-position:-6px -1620px
+}
+i.account-icon.person{
+	background-position:-6px -1580px
+}
+i.account-icon.email{
+	background-position:-6px -1700px
+}
+i.account-icon.lock{
+	background-position:-6px -1740px
+}
+i.account-icon.globe{
+	background-position:-6px -2072px
+}
+i.account-icon.mobile{
+	background-position:-6px -2112px
+}
+i.account-icon.select-arrow{
+	background-position:-6px -2150px
+}
+i.account-icon.menu{
+	background-position:-5px -59px
+}
+.link-button.active>.small-icon,.link-button.red.active>.small-icon,.link-button.red:hover>.small-icon,.link-button:hover>.small-icon.colorized,.link-button>.small-icon.colorized{
+	opacity:1
+}
+.small-icon.square-profile.colorized{
+	background-position:-131px -934px
+}
+.dropdown-item.light i.small-icon.square-profile.colorized{
+	background-position:-131px -934px;
+	height:22px;
+	margin:4px 0 0 7px;
+	width:22px
+}
+.small-icon.audio-call.colorized{
+	background-position:-90px -775px
+}
+.small-icon.video-call.colorized{
+	background-position:-130px -775px
+}
+.small-icon.rounded-grey-up-arrow.colorized{
+	background-position:-170px -736px
+}
+.small-icon.clear-arrow.colorized{
+	background-position:-130px -736px
+}
+.small-icon.writing-pen.colorized{
+	background-position:-130px -815px
+}
+.small-icon.rounded-plus.colorized{
+	background-position:-50px -816px
+}
+.small-icon.rounded-stop.colorized{
+	background-position:-90px -816px
+}
+.small-icon.horizontal-red-handset.colorized{
+	background-position:-170px -815px;
+	width:21px
+}
+.small-icon.archive.colorized{
+	background-position:-90px -736px
+}
+.small-icon.mute.colorized{
+	background-position:-50px -1017px
+}
+.small-icon.muted.colorized{
+	background-position:-210px -1017px
+}
+.small-icon.grey-cloud.colorized{
+	background-position:-50px -934px;
+	width:22px
+}
+.small-icon.yellow-key.colorized{
+	background-position:-89px -1237px;
+	width:22px
+}
+.small-icon.blue-chain.colorized{
+	background-position:-50px -1236px
+}
+.small-icon.add-shared.colorized{
+	background-position:-50px -1272px;
+	margin-top:-1px;
+	width:25px
+}
+.link-button.light i.small-icon.yellow-key.colorized{
+	margin-left:5px
+}
+.dropdown-item.link-button.light i.small-icon.grey-cloud.colorized{
+	background-position:-50px -934px;
+	margin-top:4px
+}
+.link-button.active>.small-icon,.link-button.red.active>.small-icon,.link-button.red:hover>.small-icon,.link-button:hover>.small-icon.colorized,.link-button>.small-icon.colorized{
+	opacity:1
+}
+.small-icon.square-profile.colorized{
+	background-position:-131px -934px
+}
+.dropdown-item.light i.small-icon.square-profile.colorized{
+	background-position:-131px -934px;
+	height:22px;
+	margin:4px 0 0 7px;
+	width:22px
+}
+.small-icon.audio-call.colorized{
+	background-position:-90px -775px
+}
+.small-icon.video-call.colorized{
+	background-position:-130px -775px
+}
+.small-icon.rounded-grey-up-arrow.colorized{
+	background-position:-170px -736px
+}
+.small-icon.clear-arrow.colorized{
+	background-position:-130px -736px
+}
+.small-icon.writing-pen.colorized{
+	background-position:-130px -815px
+}
+.small-icon.rounded-plus.colorized{
+	background-position:-50px -816px
+}
+.small-icon.rounded-stop.colorized{
+	background-position:-90px -816px
+}
+.small-icon.horizontal-red-handset.colorized{
+	background-position:-170px -815px;
+	width:21px
+}
+.small-icon.archive.colorized{
+	background-position:-90px -736px
+}
+.small-icon.grey-cloud.colorized{
+	background-position:-50px -934px;
+	width:22px
+}
+.dropdown-item.link-button.light i.small-icon.grey-cloud.colorized{
+	background-position:-50px -934px;
+	margin-top:4px
+}
+.big-icons-sprite{
+	background-image:url(../images/mega/big-icons.png?v=af0093a3433fb0ee)
+}
+.big-icon.big-icons-sprite.chain{
+	background-position:1px -1741px
+}
+.big-icon.big-icons-sprite.folder-with-chain{
+	background-position:-46px -1741px
+}
+.big-icon.big-icons-sprite.chat-with-chain{
+	background-position:-94px -1741px
+}
+.big-icon.big-icons-sprite.user-with-chain{
+	background-position:-142px -1741px
+}
+.icon56.big-icons-sprite.coin{
+	background-position:-11px -1794px
+}
+.semi-huge-icon.big-icons-sprite.chain{
+	background-position:-20px -1586px
+}
+.semi-huge-icon.big-icons-sprite.folder-with-chain{
+	background-position:-111px -1588px
+}
+.semi-huge-icon.big-icons-sprite.chat-with-chain{
+	background-position:-20px -1663px
+}
+.semi-huge-icon.big-icons-sprite.user-with-chain{
+	background-position:-111px -1664px
+}
+.small-icon.dialog-sprite.arrows-to-bottom{
+	background-position:-137px -5290px;
+	height:20px;
+	width:20px
+}
+.active .small-icon.dialog-sprite.arrows-to-bottom,.small-icon.dialog-sprite.arrows-to-top{
+	background-position:-137px -5321px;
+	height:20px;
+	width:20px
+}
+.download-complete .bar-table .small-icon.dialog-sprite.arrows-to-bottom,.small-icon.dialog-sprite.dark-cross{
+	background-position:-137px -5352px;
+	height:20px;
+	width:20px
+}
+.small-icon.dialog-sprite.question-mark{
+	background-position:-112px -6983px
+}
+.small-icon.dialog-sprite.chain{
+	background-position:-5px -6982px
+}
+.small-icon.dialog-sprite.key{
+	background-position:-78px -6982px
+}
+.small-icon.dialog-sprite.cog{
+	background-position:-39px -6982px
+}
+.small-icon.dialog-sprite.grey-eye{
+	background-position:-5px -7012px
+}
+.small-icon.dialog-sprite.grey-crossed-eye{
+	background-position:-40px -7012px
+}
+.small-icon.dialog-sprite.white-eye{
+	background-position:-5px -7042px
+}
+.small-icon.dialog-sprite.white-crossed-eye{
+	background-position:-40px -7042px
+}
+.small-icon.dialog-sprite.small-cross{
+	background-position:-112px -7012px
+}
+.small-icon.dialog-sprite.grey-lock{
+	background-position:-37px -4385px
+}
+.medium-icon.dialog-sprite.right-arrow{
+	background-position:-136px -7008px
+}

@@ -1,0 +1,20 @@
+{
+   "chromesysAllowFileAccess": {
+      "message": "Leisti pasiekti failo URL"
+   },
+   "chromesysDownloadLocation": {
+      "message": "Atsisiuntimo vieta"
+   },
+   "chromesysDownloadsSection": {
+      "message": "Atsisiuntimai"
+   },
+   "chromesysShowAdvSettings": {
+      "message": "Rodyti išplėstinius nustatymus..."
+   },
+   "extName": {
+      "message": "Chrono Download Manager"
+   },
+   "uilangName": {
+      "message": "Lithuanian"
+   }
+}

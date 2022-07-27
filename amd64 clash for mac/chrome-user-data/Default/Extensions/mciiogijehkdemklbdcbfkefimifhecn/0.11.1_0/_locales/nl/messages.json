@@ -1,0 +1,1100 @@
+{
+   "btnAbout": {
+      "message": "Over"
+   },
+   "btnAddPaused": {
+      "message": "Gepauzeerd Toevoegen"
+   },
+   "btnApply": {
+      "message": "Toepassen"
+   },
+   "btnBackToManager": {
+      "message": "Terug"
+   },
+   "btnCancel": {
+      "message": "Annuleren"
+   },
+   "btnClearAll": {
+      "message": "Alles wissen"
+   },
+   "btnClearFailed": {
+      "message": "Onderbroken taken wissen"
+   },
+   "btnClearFinished": {
+      "message": "Voltooide taken wissen"
+   },
+   "btnClearRemoved": {
+      "message": "Ontbrekende bestanden wissen"
+   },
+   "btnCreate": {
+      "message": "Maken"
+   },
+   "btnFAQ": {
+      "message": "Veelgestelde vragen"
+   },
+   "btnGotIt": {
+      "message": "Begrepen!"
+   },
+   "btnGrantPermission": {
+      "message": "Toestemming geven"
+   },
+   "btnImportChromeHistory": {
+      "message": "Importgeschiedenis"
+   },
+   "btnLater": {
+      "message": "Later"
+   },
+   "btnLoadPreview": {
+      "message": "Voorbeeld laden"
+   },
+   "btnOpenManager": {
+      "message": "Open Manager"
+   },
+   "btnPopRemoveFile": {
+      "message": "En bestand verwijderen"
+   },
+   "btnPopRemoveList": {
+      "message": "Uit lijst verwijderen"
+   },
+   "btnRate": {
+      "message": "Beoordelen"
+   },
+   "btnSave": {
+      "message": "Opslaan"
+   },
+   "btnShareDone": {
+      "message": "Ik heb dit al gedaan"
+   },
+   "btnStart": {
+      "message": "Starten"
+   },
+   "btnStartAll": {
+      "message": "Alles downloaden"
+   },
+   "btnTakeMeThere": {
+      "message": "Dat wil ik zien"
+   },
+   "btnUpdateReload": {
+      "message": "Nu opnieuw laden"
+   },
+   "btnUseSystemDialog": {
+      "message": "Systeemdialoogvenster..."
+   },
+   "chromesysAllowFileAccess": {
+      "message": "Toegang tot bestand-URL's toestaan"
+   },
+   "chromesysBrowser": {
+      "message": "Browser"
+   },
+   "chromesysChange": {
+      "message": "Wijzigen..."
+   },
+   "chromesysDownloadLocation": {
+      "message": "Downloadlocatie"
+   },
+   "chromesysDownloadSaveAsPrompt": {
+      "message": "Voorafgaand aan een download vragen waar een bestand moet worden opgeslagen"
+   },
+   "chromesysDownloadsSection": {
+      "message": "Downloads"
+   },
+   "chromesysFailedGenericDownloadError": {
+      "message": "Downloadfout"
+   },
+   "chromesysFailedGenericNetworkError": {
+      "message": "Netwerkfout"
+   },
+   "chromesysFailed_CRASH": {
+      "message": "Crash"
+   },
+   "chromesysFailed_FILE_ACCESS_DENIED": {
+      "message": "Onvoldoende rechten"
+   },
+   "chromesysFailed_FILE_BLOCKED": {
+      "message": "Geblokkeerd"
+   },
+   "chromesysFailed_FILE_NAME_TOO_LONG": {
+      "message": "Pad is te lang"
+   },
+   "chromesysFailed_FILE_NO_SPACE": {
+      "message": "Schijf is vol"
+   },
+   "chromesysFailed_FILE_SAME_AS_SOURCE": {
+      "message": "Al gedownload"
+   },
+   "chromesysFailed_FILE_SECURITY_CHECK_FAILED": {
+      "message": "Virusscan is mislukt"
+   },
+   "chromesysFailed_FILE_TOO_LARGE": {
+      "message": "Bestand is te groot"
+   },
+   "chromesysFailed_FILE_TOO_SHORT": {
+      "message": "Bestand afgekapt"
+   },
+   "chromesysFailed_FILE_TRANSIENT_ERROR": {
+      "message": "Systeem is bezet"
+   },
+   "chromesysFailed_FILE_VIRUS_INFECTED": {
+      "message": "Virus gedetecteerd"
+   },
+   "chromesysFailed_NETWORK_TIMEOUT": {
+      "message": "Time-out van netwerk"
+   },
+   "chromesysFailed_SERVER_BAD_CONTENT": {
+      "message": "Geen bestand"
+   },
+   "chromesysFailed_SERVER_CERT_PROBLEM": {
+      "message": "Verkeerd certificaat"
+   },
+   "chromesysFailed_SERVER_CONTENT_LENGTH_MISMATCH": {
+      "message": "Bestand onvolledig"
+   },
+   "chromesysFailed_SERVER_FAILED": {
+      "message": "Serverprobleem"
+   },
+   "chromesysFailed_SERVER_FORBIDDEN": {
+      "message": "Verboden"
+   },
+   "chromesysFailed_SERVER_UNAUTHORIZED": {
+      "message": "Autorisatie vereist"
+   },
+   "chromesysFailed_SERVER_UNREACHABLE": {
+      "message": "Server niet bereikbaar"
+   },
+   "chromesysFailed_USER_CANCELED": {
+      "message": "Geannuleerd"
+   },
+   "chromesysFailed_USER_SHUTDOWN": {
+      "message": "Uitschakeling"
+   },
+   "chromesysFontSize": {
+      "message": "Lettergrootte"
+   },
+   "chromesysLanguageSection": {
+      "message": "Taal"
+   },
+   "chromesysShowAdvSettings": {
+      "message": "Geavanceerde instellingen weergeven..."
+   },
+   "chromesysWebStore": {
+      "message": "Chrome Web Store"
+   },
+   "confirmBatchDownload": {
+      "message": "Het lijkt erop dat je een  batch download gaat starten,  hier zijn enkele voorbeelden:"
+   },
+   "confirmBatchDownloadNaming": {
+      "message": "Voor batch downloaden, moet u ervoor zorgen dat de naamgeving masker verschillende bestandsnamen genereerd. Toch doorgaan?"
+   },
+   "confirmBtnYes": {
+      "message": "Ja"
+   },
+   "confirmBtnYesFile": {
+      "message": "Bestand verwijderen"
+   },
+   "confirmCantResumeRestart": {
+      "message": "Het is niet gelukt om Taak $1 te hervatten, herstarten?"
+   },
+   "confirmClearTask": {
+      "message": "Weet je zeker dat je $1 items wilt verwijderen?"
+   },
+   "confirmCreateWhenNotExists": {
+      "message": "$1 bestaat niet. Wil je deze maken?"
+   },
+   "confirmProceed": {
+      "message": "Doorgaan?"
+   },
+   "confirmRecycleRunning": {
+      "message": "Recycle lopende taak (en)?"
+   },
+   "confirmRemoveExtFilter": {
+      "message": "Wilt u de geselecteerde items verwijderen?"
+   },
+   "confirmRemoveRule": {
+      "message": "Wilt u de geselecteerde items verwijderen?"
+   },
+   "confirmRemoveTask": {
+      "message": "Geselecteerde taak (en) permanent verwijderen?"
+   },
+   "confirmReset": {
+      "message": "De bewerking kan niet ongedaan worden gemaakt. Wilt u doorgaan?"
+   },
+   "errorFNameConflict": {
+      "message": "Naamgevingsconflict"
+   },
+   "errorFileNotExist": {
+      "message": "Bestand niet gevonden"
+   },
+   "errorFileOrFolderExists": {
+      "message": "Er bestaat al een bestand of map met die naam"
+   },
+   "errorInvalidNamingMask": {
+      "message": "Ongeldige naam"
+   },
+   "errorInvalidSubdir": {
+      "message": "Ongeldige subdirectory"
+   },
+   "errorInvalidURLs": {
+      "message": "Ongeldige URL"
+   },
+   "errorNoID": {
+      "message": "Niet gelukt om nieuwe taak toe te voegen aan Chrono omdat er te veel taken staan in de manager, verwijder een aantal van de ongebruikte taken en probeer het opnieuw."
+   },
+   "errorNone": {
+      "message": "Geen fout"
+   },
+   "errorRemovedFromChrome": {
+      "message": "De taak kan zijn verwijderd uit Chrome."
+   },
+   "errorSingleURLAllowed": {
+      "message": "Geef slechts één URL op"
+   },
+   "errorUnableOpen": {
+      "message": "Kan $1 niet openen."
+   },
+   "errorUnknownReloadPage": {
+      "message": "Er iets fout gegaan. Laad de pagina opnieuw om door te gaan."
+   },
+   "everyXDays": {
+      "message": "Elke $1 dagen"
+   },
+   "everyXHours": {
+      "message": "Elke $1 uur"
+   },
+   "everyXMinutes": {
+      "message": "Elke $1 minuten"
+   },
+   "extDesc": {
+      "message": "Download Manager | Video Downloader | Massa Afbeelding Downloader"
+   },
+   "extDescBest": {
+      "message": "De beste download manager voor Chrome"
+   },
+   "extDescSlogan": {
+      "message": "Download en organiseer het Web!"
+   },
+   "extName": {
+      "message": "Chrono Download Manager"
+   },
+   "extsAll": {
+      "message": "Alle"
+   },
+   "extsApp": {
+      "message": "Applicatie"
+   },
+   "extsArchive": {
+      "message": "Archief"
+   },
+   "extsAudio": {
+      "message": "Audio"
+   },
+   "extsDocument": {
+      "message": "Document"
+   },
+   "extsImage": {
+      "message": "Afbeelding"
+   },
+   "extsNew": {
+      "message": "Nieuw Filter"
+   },
+   "extsOthers": {
+      "message": "Overig"
+   },
+   "extsVideo": {
+      "message": "Video"
+   },
+   "fieldAddTime": {
+      "message": "Aanmaaktijd"
+   },
+   "fieldAvgSpeed": {
+      "message": "Gemiddelde snelheid"
+   },
+   "fieldDownloadedSize": {
+      "message": "Gedownload"
+   },
+   "fieldElapsedTime": {
+      "message": "Verstreken tijd"
+   },
+   "fieldFileName": {
+      "message": "Bestandsnaam"
+   },
+   "fieldFileSize": {
+      "message": "Bestandsgrootte"
+   },
+   "fieldFinishTime": {
+      "message": "Eindtijd"
+   },
+   "fieldFolder": {
+      "message": "Map"
+   },
+   "fieldNaming": {
+      "message": "Naamgeving masker"
+   },
+   "fieldProgress": {
+      "message": "Voortgang"
+   },
+   "fieldRedirection": {
+      "message": "Omleiding"
+   },
+   "fieldReferer": {
+      "message": "Verwijzingsbron"
+   },
+   "fieldRemainingTime": {
+      "message": "Resterende tijd"
+   },
+   "fieldRemarks": {
+      "message": "Opmerkingen"
+   },
+   "fieldSpeed": {
+      "message": "Snelheid"
+   },
+   "fieldState": {
+      "message": "Status"
+   },
+   "fieldThreads": {
+      "message": "Threads"
+   },
+   "fieldType": {
+      "message": "Bestandstype"
+   },
+   "fieldURL": {
+      "message": "URL"
+   },
+   "headExtFilterCaption": {
+      "message": "Weergavenaam"
+   },
+   "headExtFilterExts": {
+      "message": "Bestandsextensie"
+   },
+   "headExtFilterRefName": {
+      "message": "Interne naam"
+   },
+   "headRulesActive": {
+      "message": "Actief"
+   },
+   "headRulesAsFilter": {
+      "message": "Zoals Taken Filter"
+   },
+   "headRulesCaption": {
+      "message": "Weergavenaam"
+   },
+   "headRulesCondition": {
+      "message": "Expressie"
+   },
+   "headRulesRefName": {
+      "message": "Interne naam"
+   },
+   "helpExtFilter": {
+      "message": "* Dubbelklik om te bewerken.\n* Type op een lege rij om een nieuw filter toe te voegen.\n* Selecteer rijen en druk op DELETE om deze te verwijderen."
+   },
+   "helpRules": {
+      "message": "* Dubbelklik om te bewerken. \n* Type op lege rij om een ​​nieuwe regel toe te voegen. \n* Kies rijen en druk op DELETE om ze te verwijderen. \n* Als u problemen ondervind bij het schrijven van de Regels, verwijzen wij u naar de Help-sectie."
+   },
+   "hintSearchDownloads": {
+      "message": "Zoeken in downloads"
+   },
+   "labelAutoClear": {
+      "message": "Planning"
+   },
+   "labelBGBlur": {
+      "message": "Vervagen"
+   },
+   "labelBGChooseFrom": {
+      "message": "Afbeelding kiezen"
+   },
+   "labelBGConstantColor": {
+      "message": "Effen kleur"
+   },
+   "labelBGImageURL": {
+      "message": "URL van aangepaste afbeelding"
+   },
+   "labelBGOpacity": {
+      "message": "Transparantie"
+   },
+   "labelChooseDownloadLocation": {
+      "message": "Een downloadlocatie kiezen"
+   },
+   "labelCustomFilter": {
+      "message": "Aangepast filter"
+   },
+   "labelDateModified": {
+      "message": "Datum gewijzigd"
+   },
+   "labelDownloadToDefaultFolder": {
+      "message": "Downloaden naar standaardmap"
+   },
+   "labelEnableFolderSelection": {
+      "message": "Mapkeuze inschakelen"
+   },
+   "labelFolderColon": {
+      "message": "Map:"
+   },
+   "labelNewFolder": {
+      "message": "Nieuwe map"
+   },
+   "labelStarred": {
+      "message": "Met ster"
+   },
+   "labelUnableSaveToFolder": {
+      "message": "Kan niet opslaan op locatie"
+   },
+   "labelUseLastLocation": {
+      "message": "Laatste locatie gebruiken"
+   },
+   "menuDAudio": {
+      "message": "Audio opslaan als..."
+   },
+   "menuDAudioOneClick": {
+      "message": "Download het geluid met één klik"
+   },
+   "menuDImage": {
+      "message": "Afbeelding opslaan als..."
+   },
+   "menuDImageOneClick": {
+      "message": "Download de afbeelding met één klik"
+   },
+   "menuDLink": {
+      "message": "Link opslaan als..."
+   },
+   "menuDLinkOneClick": {
+      "message": "Download de link met één klik"
+   },
+   "menuDVideo": {
+      "message": "Video opslaan als..."
+   },
+   "menuDVideoOneClick": {
+      "message": "Download de video met één klik"
+   },
+   "menuGetHelp": {
+      "message": "Hulp verkrijgen"
+   },
+   "menuOpenManager": {
+      "message": "Open manager"
+   },
+   "menuReportIssue": {
+      "message": "Een probleem melden"
+   },
+   "msgCannotScanResources": {
+      "message": "Kan geen bronnen vinden voor deze pagina"
+   },
+   "msgChromeI18nLanguage": {
+      "message": "Chrono gebruikt dezelfde taal als uw Chrome-browser ."
+   },
+   "msgEmptyDownloadsList": {
+      "message": "Lege takenlijst"
+   },
+   "msgEnableFileAccess": {
+      "message": "U kunt deze functie aanzetten door het selectievakje $1 onder $2 op de chrome://extensions pagina te markeren."
+   },
+   "msgFolderDisabledNonWritable": {
+      "message": "De functionaliteit voor het selecteren van mappen is uitgeschakeld. Zorg ervoor dat de standaard downloadlocatie niet is ingesteld op een systeemmap en dat het dialoogvenster Opslaan als van de browser is uitgeschakeld."
+   },
+   "msgPreviewErrorReadFile": {
+      "message": "Fout bij lezen van bestand"
+   },
+   "msgPreviewFailed": {
+      "message": "Laden van bestandsvoorbeeld is mislukt"
+   },
+   "msgPreviewFileAccess": {
+      "message": "Kan geen lokaal bestand laden voor preview."
+   },
+   "msgPreviewLargeFile": {
+      "message": "Het kan even duren voordat het voorbeeld wordt geladen."
+   },
+   "msgPreviewPdfViewer": {
+      "message": "Chrome PDF Viewer is vereist voor het voorbeeld, zet het aan als u de instructies volgt"
+   },
+   "msgRateShare": {
+      "message": "Als je $1 handig vind, beoordeel het dan op de $2 en deel het met je vrienden!"
+   },
+   "msgSearchNoResults": {
+      "message": "Geen resultaten gevonden"
+   },
+   "msgSelectTaskInfo": {
+      "message": "Er is geen item geselecteerd."
+   },
+   "msgTaskAddPaused": {
+      "message": "Taak toegevoegd en gepauseerd"
+   },
+   "msgTaskFinish": {
+      "message": "Download voltooid"
+   },
+   "msgTaskInterrupt": {
+      "message": "Downloaden mislukt"
+   },
+   "msgTaskStart": {
+      "message": "Taak aan wachtrij toegevoegd"
+   },
+   "msgTextUpdateAvail": {
+      "message": "U moet de Extensie herladen om de update te activeren."
+   },
+   "msgTextWelcome": {
+      "message": "Voor dat u begint, het is aanbevolen dat u de Opslaan als optie van Chrome uitschakelt door in de checkbox het vinkje we te halen bij $1.\nU moet waarschijnlijk Chrono toegang geven tot bestand-URL's voor betere gebruikerservaring. U kunt dit doen bij $2 door naar $3 te gaan.\nAls u nog vragen heeft, kijk dan even bij de Hulp pagina en de FAQ pagina. U kunt ook een mail sturen naar dev@chronodownloader.net.\nVeel plezier met het gebruik van Chrono!"
+   },
+   "msgTitleUpdateAvail": {
+      "message": "Nieuwe versie beschikbaar"
+   },
+   "msgTitleWelcome": {
+      "message": "Welkom!"
+   },
+   "msgUpdated": {
+      "message": "$1 is geüpdatet."
+   },
+   "optItemBadgeDownloadNum": {
+      "message": "Geef aantal taken weer in het werkbalk-icoon"
+   },
+   "optItemClearRemoveFile": {
+      "message": "Verwijderen van harde schijf"
+   },
+   "optItemClearSearch": {
+      "message": "Leeg zoekvak als filter wordt aangepast"
+   },
+   "optItemClickNotify": {
+      "message": "Klikken op een melding"
+   },
+   "optItemConcurrentDownloads": {
+      "message": "Gelijktijdige downloads"
+   },
+   "optItemDblClickAction": {
+      "message": "Dubbelklikken op taak"
+   },
+   "optItemDefAddPaused": {
+      "message": "Gepauzeerde toevoegen"
+   },
+   "optItemDefFolder": {
+      "message": "Standaardlocatie"
+   },
+   "optItemDefNaming": {
+      "message": "Standaard naamgevingsmasker"
+   },
+   "optItemDownloadClipboard": {
+      "message": "Download URL in het klembord"
+   },
+   "optItemDownloadsPerServer": {
+      "message": "Downloads per server"
+   },
+   "optItemHideShelf": {
+      "message": "Verberg Chrome's downloadbalk"
+   },
+   "optItemMenuDialog": {
+      "message": "Link opslaan als..."
+   },
+   "optItemMenuOneClick": {
+      "message": "Download de link/afbeelding met één klik"
+   },
+   "optItemNameConflict": {
+      "message": "Als de bestandsnaam conflicteert"
+   },
+   "optItemNotifyError": {
+      "message": "Toon melding wanneer fout optreedt"
+   },
+   "optItemNotifyFinish": {
+      "message": "Toon melding wanneer een download voltooid is"
+   },
+   "optItemNotifyLargePreview": {
+      "message": "Toon grote preview voor afbeeldingen"
+   },
+   "optItemNotifyOneClick": {
+      "message": "Toon melding bij het toevoegen van een eén-klik download"
+   },
+   "optItemNotifyProgress": {
+      "message": "Toon download voortgang"
+   },
+   "optItemOverrideChrome": {
+      "message": "Chrome's standaard download pagine vervangen en $1 toetsencombinatie inschakelen"
+   },
+   "optItemPopClearClose": {
+      "message": "Sluit pop-up nadat taken verwijderd zijn"
+   },
+   "optItemPopDeleteAction": {
+      "message": "Klik 'Verwijder'-knop"
+   },
+   "optItemPopLikeButtons": {
+      "message": "Toon social media knoppen"
+   },
+   "optItemPopMaxItems": {
+      "message": "Maximale items in download lijst"
+   },
+   "optItemPopShowDLFirst": {
+      "message": "Laat eerst de actieve taken zien"
+   },
+   "optItemPreviewAutoplay": {
+      "message": "Automatisch afspelen"
+   },
+   "optItemRecycleCancel": {
+      "message": "Annuleer de taak als het naar de prullenbak is verplaatst"
+   },
+   "optItemRuleMatchMode": {
+      "message": "Overeenkomstmodus"
+   },
+   "optItemSlideDetailsPanel": {
+      "message": "Laat de details zien wanneer op een taak geklikt wordt"
+   },
+   "optItemSoundError": {
+      "message": "Speel geluid als er een fout optreedt"
+   },
+   "optItemSoundFinish": {
+      "message": "Speel geluid als het downloaden is voltooid"
+   },
+   "optItemStartInterrupted": {
+      "message": "Start knop kan onderbroken taken starten"
+   },
+   "optOptionClearAllNotify": {
+      "message": "Wis alle meldingen"
+   },
+   "optOptionClearNotify": {
+      "message": "Wis die melding"
+   },
+   "optOptionDoNothing": {
+      "message": "Niets doen"
+   },
+   "optOptionFirstMatch": {
+      "message": "Eerst overeenkomend"
+   },
+   "optOptionOpenFile": {
+      "message": "Bestand openen"
+   },
+   "optOptionOpenFolder": {
+      "message": "Map openen"
+   },
+   "optOptionOverwrite": {
+      "message": "Overschrijven"
+   },
+   "optOptionPrompt": {
+      "message": "Vragen"
+   },
+   "optOptionRemAsk": {
+      "message": "Vragen"
+   },
+   "optOptionRemFile": {
+      "message": "Zonder bevestiging van schijf verwijderen"
+   },
+   "optOptionRemList": {
+      "message": "Uit lijst verwijderen"
+   },
+   "optOptionReplace": {
+      "message": "Vervangen"
+   },
+   "optOptionSkipCancel": {
+      "message": "Download annuleren"
+   },
+   "optOptionSkipPause": {
+      "message": "Download onderbreken"
+   },
+   "optOptionStartPause": {
+      "message": "Starten of pauzeren"
+   },
+   "optOptionUniquify": {
+      "message": "Maak uniek"
+   },
+   "optSectionBehaviors": {
+      "message": "Gedrag"
+   },
+   "optSectionMenu": {
+      "message": "Menu"
+   },
+   "optSectionMisc": {
+      "message": "Diversen"
+   },
+   "optSectionNetwork": {
+      "message": "Netwerk"
+   },
+   "optSectionNewTaskDialog": {
+      "message": "Nieuwe taak"
+   },
+   "optSectionNotifications": {
+      "message": "Meldingen"
+   },
+   "optSectionOneClick": {
+      "message": "Eén-Klik Download"
+   },
+   "optSectionPopup": {
+      "message": "Pop-up"
+   },
+   "optSectionPreview": {
+      "message": "Voorbeeld"
+   },
+   "optSectionTaskDefaults": {
+      "message": "Nieuwe taak instellingen"
+   },
+   "optionAddTop": {
+      "message": "Voeg toe bovenaan de wachtrij"
+   },
+   "optionDisableExtFilters": {
+      "message": "Extensie filters uitschakelen."
+   },
+   "optionDontAsk": {
+      "message": "Mijn keuze onthouden"
+   },
+   "optionSearchCaseSensitive": {
+      "message": "Hoofdlettergevoelig"
+   },
+   "optionSearchFuzzyMatch": {
+      "message": "Gedeeltelijke overeenkomst"
+   },
+   "optionShowSize": {
+      "message": "Bestandsgrootte weergeven"
+   },
+   "optionTableAutoResize": {
+      "message": "Forceer passende kolommen"
+   },
+   "optionTableSyncResize": {
+      "message": "Gelijkmatig herschalen"
+   },
+   "phraseAutomatic": {
+      "message": "Automatisch"
+   },
+   "phraseEnable": {
+      "message": "Inschakelen"
+   },
+   "phraseMultiValues": {
+      "message": "Meerdere waarden"
+   },
+   "phraseNever": {
+      "message": "Nooit"
+   },
+   "phrasePreview": {
+      "message": "Voorbeeld"
+   },
+   "phraseRegex": {
+      "message": "Reguliere expressie"
+   },
+   "phraseToday": {
+      "message": "Vandaag"
+   },
+   "phraseUnknown": {
+      "message": "Onbekend"
+   },
+   "phraseUnknownSize": {
+      "message": "Onbekende grootte"
+   },
+   "phraseVersion": {
+      "message": "Versie"
+   },
+   "phraseYesterday": {
+      "message": "Gisteren"
+   },
+   "ruleAllTasks": {
+      "message": "Alle Taken"
+   },
+   "ruleAudio": {
+      "message": "Audio"
+   },
+   "ruleDocument": {
+      "message": "Document"
+   },
+   "ruleDownloading": {
+      "message": "Downloaden"
+   },
+   "ruleFinished": {
+      "message": "Voltooid"
+   },
+   "ruleImage": {
+      "message": "Afbeelding"
+   },
+   "ruleInterrupted": {
+      "message": "Mislukt"
+   },
+   "ruleNew": {
+      "message": "Nieuwe regel"
+   },
+   "ruleOther": {
+      "message": "Overig"
+   },
+   "ruleRecent": {
+      "message": "Recent"
+   },
+   "ruleRecycled": {
+      "message": "Prullenbak"
+   },
+   "ruleSmallFiles": {
+      "message": "Kleine Bestanden"
+   },
+   "ruleVideo": {
+      "message": "Video"
+   },
+   "stateDownloading": {
+      "message": "Downloaden"
+   },
+   "stateError": {
+      "message": "Mislukt"
+   },
+   "stateFileMiss": {
+      "message": "Bestand ontbreekt"
+   },
+   "stateFinished": {
+      "message": "Voltooid"
+   },
+   "statePaused": {
+      "message": "Gepauzeerd"
+   },
+   "stateQueue": {
+      "message": "In de wachtrij"
+   },
+   "statusCopyURL": {
+      "message": "Kopiëren van URL..."
+   },
+   "statusCopyURLDone": {
+      "message": "URL naar klembord gekopieerd"
+   },
+   "statusDownloadedSize": {
+      "message": "$1 van $2"
+   },
+   "statusImportDone": {
+      "message": "Importeren voltooid"
+   },
+   "statusImporting": {
+      "message": "Importeren..."
+   },
+   "statusNumDownloading": {
+      "message": "$1 aan het downloaden"
+   },
+   "statusNumItems": {
+      "message": "$1 items"
+   },
+   "statusReadClipboard": {
+      "message": "Lezen van het klembord..."
+   },
+   "statusScheduledAutoClear": {
+      "message": "Automatische taakontruiming begint in $1 seconden"
+   },
+   "statusSelectedOf": {
+      "message": "$1 items geselecteerd"
+   },
+   "statusTasksCleared": {
+      "message": "$1 items verwijderd"
+   },
+   "statusTimeLeft": {
+      "message": "$1 resterend"
+   },
+   "tipAutoClear": {
+      "message": "Verwijder automatisch taken van de lijst, maar houd ze op je harde schijf"
+   },
+   "tipBGBlur": {
+      "message": "Vervaging effect kan GUI reactievermogen verminderen"
+   },
+   "tipBGEnable": {
+      "message": "Vanwege bepaalde problemen met Chrome wanneer een achtergrond wordt geactiveerd word het geheugengebruik hoger, houdt dit in gedachten voordat u deze functie inschakelt."
+   },
+   "tipBGURLHasFileAccess": {
+      "message": "Voer een web URL of volledige pad van een afbeelding op uw computer voorafgegaan door 'file:///'"
+   },
+   "tipBGURLNoFileAccess": {
+      "message": "Voer een web URL of volledige pad van een afbeelding op uw computer (voor een lokaal bestand, moet u eerst toegang tot bestanden voor Chrono inschakelen, klikt u op het vraagteken om te zien hoe)"
+   },
+   "tipBrowserAction": {
+      "message": "Download alle bestanden op deze pagina"
+   },
+   "tipBtnBackToManager": {
+      "message": "Terug naar Beheerder"
+   },
+   "tipBtnChangeBrowserDownloadsSettings": {
+      "message": "Wijzig de instellingen voor browserdownloads"
+   },
+   "tipBtnChangeDefaultLocation": {
+      "message": "Doelmap wijzigen..."
+   },
+   "tipBtnClear": {
+      "message": "Wissen"
+   },
+   "tipBtnConfigExtFilters": {
+      "message": "Filters bewerken"
+   },
+   "tipBtnCopyLink": {
+      "message": "Link kopiëren"
+   },
+   "tipBtnDelete": {
+      "message": "Verwijderen"
+   },
+   "tipBtnHelp": {
+      "message": "Help"
+   },
+   "tipBtnNewTask": {
+      "message": "Nieuwe taak"
+   },
+   "tipBtnOpenDefaultLocation": {
+      "message": "Map 'Downloads' openen"
+   },
+   "tipBtnOpenFile": {
+      "message": "Bestand openen"
+   },
+   "tipBtnOpenFolder": {
+      "message": "Map openen"
+   },
+   "tipBtnOptions": {
+      "message": "Opties"
+   },
+   "tipBtnPause": {
+      "message": "Pauzeren"
+   },
+   "tipBtnPauseAll": {
+      "message": "Alles pauzeren"
+   },
+   "tipBtnPopList": {
+      "message": "Overschakelen naar lijst"
+   },
+   "tipBtnPopSniffer": {
+      "message": "Schakel over naar Sniffer"
+   },
+   "tipBtnRecycle": {
+      "message": "Prullenbak"
+   },
+   "tipBtnRestart": {
+      "message": "Opnieuw starten"
+   },
+   "tipBtnRestore": {
+      "message": "Herstellen"
+   },
+   "tipBtnSort": {
+      "message": "Sorteren"
+   },
+   "tipBtnStart": {
+      "message": "Starten"
+   },
+   "tipBtnStartAll": {
+      "message": "Alles starten"
+   },
+   "tipExtFilterEnable": {
+      "message": "Geactiveerd als uitbreidingen filter in Chrono Sniffer"
+   },
+   "tipExtFilterRefName": {
+      "message": "Interne naam voor verwijzend filter in andere expressies"
+   },
+   "tipNaming": {
+      "message": "Zie pagina Hulp voor het gebruik van naamgevingsmasker."
+   },
+   "tipOptItemRuleMatchMode": {
+      "message": "Houdt u er rekening mee dat alleen actieve regels worden getest op matching. In de Vervang modus worden alle aangepaste regels toegepast, maar deze regels zal voormalige degenen overschrijven."
+   },
+   "tipOptItemSlideDetailsPanel": {
+      "message": "U kunt ook Alt + klik taak om Details Panel te openen"
+   },
+   "tipOptNoRuleMatch": {
+      "message": "Toegepast wanneer er geen regel overeenkomt"
+   },
+   "tipOptSectionOneClick": {
+      "message": "Indien ingeschakeld, zal onmiddellijk beginnen te downloaden als u klikt op een link, gebruikt de standaard taakinstellingen (zie hierboven), zonder dialoog voor het instellen van Bestandsnaam etc."
+   },
+   "tipOptSectionTaskDefaults": {
+      "message": "Standaard instellingen die worden toegepast bij nieuwe taken, bijv. for Één-Klik downloads"
+   },
+   "tipRulesActive": {
+      "message": "Alleen actief regels zullen worden gebruikt voor Rule matching"
+   },
+   "tipRulesAsFilter": {
+      "message": "Toon als taken filter in de Download Manager"
+   },
+   "tipRulesRefName": {
+      "message": "Interne naam voor verwijzende regel in andere expressies"
+   },
+   "tipURL": {
+      "message": "U kunt meerdere URL's, gescheiden door een nieuwe regel in te voeren; u kunt batch downloads starten met de Batch Descriptors."
+   },
+   "tipmsgCopySelectedURLs": {
+      "message": "You kunt door op $1 te drukken gemakkelijk URL's of taken kopiëren."
+   },
+   "tipmsgDoubleClick": {
+      "message": "U kunt de actie op dubbelklikken veranderen bij $1"
+   },
+   "tipmsgFitColumnWidth": {
+      "message": "Dubbelklik op de kolom grootte wijziger om de breedte automatisch aan te passen."
+   },
+   "tipmsgGridSelection": {
+      "message": "Gebruik Ctrl + Shift om meerdere rijen te selecteren of $1 om alles te selecteren"
+   },
+   "tipmsgNotifications": {
+      "message": "Je kunt de meldingen/geluiden aanpassen onder $1"
+   },
+   "tipmsgOpenShortcut": {
+      "message": "De makkelijkste manier om $1 te openen is door $2 te gebruiken"
+   },
+   "tipmsgSlideDetailsPanel": {
+      "message": "De glijdende informatie paneel kan uitgeschakeld worden gedraaid onder $1"
+   },
+   "tipmsgTaskFilter": {
+      "message": "Slepen om Task Filters herschikken; u kunt ook uw eigen Task Filters toe te voegen onder $1"
+   },
+   "titleChangeBG": {
+      "message": "Achtergrond wijzigen"
+   },
+   "titleNewTaskDialog": {
+      "message": "Nieuwe taak"
+   },
+   "titleOptions": {
+      "message": "Opties"
+   },
+   "titleOptionsAbout": {
+      "message": "Over"
+   },
+   "titleOptionsFilter": {
+      "message": "Filters"
+   },
+   "titleOptionsGeneral": {
+      "message": "Algemeen"
+   },
+   "titleOptionsHelp": {
+      "message": "Help"
+   },
+   "titleOptionsInterface": {
+      "message": "Interface"
+   },
+   "titleOptionsRules": {
+      "message": "Regels"
+   },
+   "titleQuickSelection": {
+      "message": "Snelle selectie"
+   },
+   "titleRateShare": {
+      "message": "Beoordeel en delen!"
+   },
+   "titleSniffer": {
+      "message": "Sniffer"
+   },
+   "titleSwitchUI": {
+      "message": "Weergavemodus"
+   },
+   "titleTaskProps": {
+      "message": "Taak Eigenschappen"
+   },
+   "titleTips": {
+      "message": "Tips"
+   },
+   "titleUpdateLog": {
+      "message": "Wijzigingslogboek"
+   },
+   "translateContributors": {
+      "message": "dalis.kemer, breints92, lankester, dennylenselink, michael.gamesss, Alex van Niel, martijn, joey.wilpen, Kevin Budts etc."
+   },
+   "uilang": {
+      "message": "nl"
+   },
+   "uilangName": {
+      "message": "Dutch"
+   },
+   "unitBytes": {
+      "message": "$1 bytes"
+   },
+   "unitDay": {
+      "message": "$1 dag"
+   },
+   "unitDays": {
+      "message": "$1 dagen"
+   },
+   "unitHour": {
+      "message": "$1 uur"
+   },
+   "unitHours": {
+      "message": "$1 uren"
+   },
+   "unitMinute": {
+      "message": "$1 min"
+   },
+   "unitMinutes": {
+      "message": "$1 min"
+   },
+   "unitSecond": {
+      "message": "$1 sec"
+   },
+   "unitSeconds": {
+      "message": "$1 sec"
+   }
+}

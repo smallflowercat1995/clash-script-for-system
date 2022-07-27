@@ -1,0 +1,109 @@
+
+.new-bottom-pages.credits{
+	overflow:hidden
+}
+.credits-main-pad{
+	gap:50px;
+	align-items:flex-start;
+	display:grid;
+	grid-template-columns:1fr 1fr 1fr;
+	justify-items:center;
+	margin:24px auto -50px;
+	width:100%
+}
+@media only screen and (max-width:968px) and (min-width:320px){
+.credits-main-pad{
+	grid-template-columns:1fr 1fr;
+	max-width:576px
+}
+}
+@media only screen and (max-width:658px) and (min-width:320px){
+.credits-main-pad{
+	grid-template-columns:1fr;
+	max-width:320px
+}
+}
+.credits-block{
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	-webkit-box-shadow:0 0 0 2px #d9d9d9;
+	-moz-box-shadow:0 0 0 2px #d9d9d9;
+	box-shadow:0 0 0 2px #d9d9d9;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+	display:block;
+	float:left;
+	height:100%;
+	margin:0;
+	padding:20px;
+	-webkit-transition:box-shadow .2s ease-in-out;
+	-moz-transition:box-shadow .2s ease-in-out;
+	-o-transition:box-shadow .2s ease-in-out;
+	-ms-transition:box-shadow .2s ease-in-out;
+	transition:box-shadow .2s ease-in-out;
+	width:280px
+}
+.credits-block:hover{
+	-webkit-box-shadow:0 0 0 5px #d42400;
+	-moz-box-shadow:0 0 0 5px #d42400;
+	box-shadow:0 0 0 5px #d42400
+}
+.credits-logo-block{
+	display:block;
+	height:83px
+}
+.credits-logo-block img{
+	width:235px
+}
+.credits-logo-block.icon-scale-h img{
+	float:left;
+	height:45px;
+	padding:9px 7px 9px 0;
+	width:auto
+}
+.credits-description{
+	color:#333;
+	display:block;
+	font-size:14px;
+	line-height:26px
+}
+.credits-title{
+	color:#666;
+	font-size:20px;
+	line-height:31px;
+	padding:5px 0 0
+}
+.credits-info,.credits-title{
+	display:block;
+	font-family:Open Sans Semibold Italic,Arial;
+	letter-spacing:-.1px
+}
+.credits-info{
+	color:#d82d00;
+	font-size:13px;
+	line-height:24px;
+	padding-top:2px
+}
+.nihilogics.credits-logo-block img{
+	margin:-10px 0 0
+}
+.nihilogics.credits-logo-block .credits-info{
+	margin:-20px 0 0
+}
+.standford img{
+	float:left;
+	margin:-3px -180px 0 0
+}
+.to-full-list{
+	background-image:linear-gradient(#eee, #ccc);
+	border:none;
+	border-radius:4px;
+	color:#666;
+	float:right;
+	font-family:source_sans_prosemibold;
+	font-size:14px;
+	margin-top:20px;
+	padding:9px 12px
+}

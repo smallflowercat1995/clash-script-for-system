@@ -1,0 +1,199 @@
+﻿<html class="fs-none">
+<head>
+  <title i18n-text="titleOptions">Options</title>
+  <meta name="google" value="notranslate" />
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+  <script type="text/javascript" src="../libs/jquery-2.1.0.min.js"></script>
+
+<script type="text/javascript" src="options.min.js"></script>
+<link rel="stylesheet" type="text/css" href="options.min.css">
+
+
+</head>
+<body class="chrome-bootstrap">
+  <div class="frame">
+    <div id="settings_nav" class="navigation">
+      <div id="btnBackWrap">
+        <a i18n-title="tipBtnBackToManager" i18n-text="btnBackToManager" id='dy_opendy'>Back</a>
+      </div>
+      
+      <ul class="menu">
+        <li>
+          <a href="#general">
+          </a>
+        </li>
+        <li>
+          <a href="#interface">
+          </a>
+        </li>
+             
+        <li>
+          <a href="#category"  i18n-text="titleOptionsFilter">
+          </a>
+        </li>
+        <li>
+          <a href="#rules">
+          </a>
+        </li>
+      </ul>
+      <ul class="menu">
+        <li>
+          <a href="#help" i18n-text="titleOptionsHelp">
+          </a>
+        </li>
+        <li>
+          <a href="#about" i18n-text="titleOptionsAbout">
+          </a>
+        </li>
+      </ul>
+    </div>
+    
+    <div class="mainview view">
+      <div id="dy_general">
+        <header><h1>General</h1></header>
+        <div class="content">
+        </div>
+      </div>
+      <div id="dy_interface">
+        <header><h1>Interface</h1></header>
+        <div class="content">
+        </div>
+      </div>
+      <div id="dy_network">
+        <header><h1>Network</h1></header>
+        <div class="content">
+        </div>
+      </div>
+      <div id="dy_category">
+        <header><h1 i18n-text="titleOptionsFilter">Filter</h1></header>
+        <div class="content">
+          <div id="cats_grid" class="cfg_grid"></div>
+          <div style="padding-left:500px" i18n-text="helpExtFilter"></div>
+        </div>
+      </div>
+      <div id="dy_rules">
+        <header><h1>Rules</h1></header>
+        <div class="content" style="overflow: initial;">
+          <div id="rules_grid" class="cfg_grid"></div>
+          <div style="padding-left:500px" i18n-text="helpRules"></div>
+        </div>
+      </div>
+      <div id="dy_help">
+        <header><h1 i18n-text="titleOptionsHelp">Help</h1></header>
+        <div id="help_holder" class="content"></div>
+      </div>
+      
+      <div id="dy_about">
+        <header><h1 i18n-text="titleOptionsAbout">About</h1></header>
+        <div class="content">
+          <div id="about-container">
+            <img id="product-logo" src="../icons/logo/32.png" alt="Chrono">
+            <div id="product-description">
+              <h2 i18n-text="extName">Chrono Download Manager</h2>
+              <span i18n-text="extDesc">The best download manager for Chrome Browser</span>
+            </div>
+          </div>
+          <div id="version-container">
+            <span i18n-text="phraseVersion">Version</span>&nbsp;<a id="version-changelog" target="_blank" href="http://bugs.chronodownloader.net/changelog_page.php"><span id="version-number">0.0.1</span></a>
+          </div>
+          <div id="translation_info" style="margin-top: 8px;">
+          </div>
+
+          <div class="share_buttons">
+          </div>
+
+          <div id="about_holder"></div>
+      
+          <div>
+            <table id="opensrc_table" class="simpletable">            
+            <thead>
+              <tr><th>Library</th><th>License</th></tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a target="_blank" href="https://github.com/roykolak/chrome-bootstrap">chrome-bootstrap</a></td>
+                <td><a target="_blank" href="https://github.com/better-history/chrome-bootstrap/blob/master/LICENSE">MIT</a></td>
+              </tr>
+              <tr>
+                <td><a target="_blank" href="https://highlightjs.org/">Highlight.js</a></td>
+                <td><a target="_blank" href="https://github.com/isagalaev/highlight.js/blob/master/LICENSE">BSD</a></td>
+              </tr>
+              <tr>
+                <td><a target="_blank" href="https://github.com/kzahel/iso-extractor">iso-extractor</a></td>
+                <td><a target="_blank" href="http://opensource.org/licenses/mit-license.php">MIT</a></td>
+              </tr>
+              <tr>
+                <td><a target="_blank" href="https://jquery.org/">jQuery</a></td>
+                <td><a target="_blank" href="http://opensource.org/licenses/mit-license.php">MIT</a></td>
+              </tr>
+              <tr>
+                <td><a target="_blank" href="https://www.abeautifulsite.net/jquery-file-tree">jQuery File Tree</a></td>
+                <td><a target="_blank" href="http://opensource.org/licenses/mit-license.php">MIT</a></td>
+              </tr>
+              <tr>
+                <td><a target="_blank" href="http://www.texotela.co.uk/code/jquery/numeric/">jQuery Numeric</a></td>
+                <td><a target="_blank" href="http://opensource.org/licenses/mit-license.php">MIT</a></td>
+              </tr>
+              <tr>
+                <td><a target="_blank" href="http://jqueryui.com/">jQuery UI</a></td>
+                <td><a target="_blank" href="http://opensource.org/licenses/mit-license.php">MIT</a></td>
+              </tr>
+              <tr>
+                <td><a target="_blank" href="http://getmdl.io">Material Design Lite</a></td>
+                <td><a target="_blank" href="https://github.com/google/material-design-lite/blob/mdl-1.x/LICENSE">Apache 2.0</a></td>
+              </tr>
+              <tr>
+                <td><a target="_blank" href="http://dbushell.github.io/Nestable/">Nestable</a></td>
+                <td><a target="_blank" href="http://opensource.org/licenses/mit-license.php">MIT</a></td>
+              </tr>
+              <tr>
+                <td><a target="_blank" href="https://github.com/themasch/node-bencode">node-bencode</a></td>
+                <td><a target="_blank" href="https://github.com/themasch/node-bencode/blob/master/LICENSE.md">MIT</a></td>
+              </tr>
+              <tr>
+                <td><a target="_blank" href="https://github.com/43081j/rar.js/">rar.js</a></td>
+                <td><a target="_blank" href="https://github.com/43081j/rar.js/blob/master/LICENSE">MIT</a></td>
+              </tr>
+              <tr>
+                <td><a target="_blank" href="http://www.laktek.com/2008/10/27/really-simple-color-picker-in-jquery/">Really Simple Color Picker</a></td>
+                <td><a target="_blank" href="https://github.com/laktek/really-simple-color-picker/blob/master/LICENSE">*</a></td>
+              </tr>
+              <tr>
+                <td><a target="_blank" href="https://github.com/cscott/seek-bzip">seek-bzip</a></td>
+                <td><a target="_blank" href="https://github.com/cscott/seek-bzip/blob/master/LICENSE">MIT</a></td>
+              </tr>
+              <tr>
+                <td><a target="_blank" href="https://github.com/arashmanteghi/simptip">Simptip</a></td>
+                <td><a target="_blank" href="https://github.com/arashmanteghi/simptip/blob/master/LICENSE">MIT</a></td>
+              </tr>
+              <tr>
+                <td><a target="_blank" href="https://github.com/mleibman/SlickGrid">SlickGrid</a></td>
+                <td><a target="_blank" href="https://github.com/mleibman/SlickGrid/blob/master/MIT-LICENSE.txt">MIT</a></td>
+              </tr>
+              <tr>
+                <td><a target="_blank" href="http://www.cssflow.com/snippets/toggle-switches">Toggle Switches</a></td>
+                <td><a target="_blank" href="http://opensource.org/licenses/mit-license.php">MIT</a></td>
+              </tr>
+              <tr>
+                <td><a target="_blank" href="http://layout.jquery-dev.net/">UI Layout</a></td>
+                <td><a target="_blank" href="http://opensource.org/licenses/mit-license.php">MIT</a></td>
+              </tr>
+              <tr>
+                <td><a target="_blank" href="https://github.com/workhorsy/uncompress.js">uncompress.js</a></td>
+                <td><a target="_blank" href="https://github.com/workhorsy/uncompress.js/blob/master/LICENSE">MIT</a></td>
+              </tr>
+              <tr>
+                <td><a target="_blank" href="https://github.com/imaya/zlib.js">zlib.js</a></td>
+                <td><a target="_blank" href="https://github.com/imaya/zlib.js/blob/master/LICENSE">MIT</a></td>
+              </tr>
+            </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

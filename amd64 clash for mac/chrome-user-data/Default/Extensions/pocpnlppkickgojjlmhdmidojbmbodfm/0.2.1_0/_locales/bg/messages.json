@@ -1,0 +1,556 @@
+{
+   "apierrmsg_aborted": {
+      "message": "Операцията е прекъсната."
+   },
+   "apierrmsg_device_list_error": {
+      "message": "Не може да бъде намерена USB памет или SD карта."
+   },
+   "apierrmsg_device_list_error_on_hub": {
+      "message": "Не може да бъде намерена USB памет."
+   },
+   "apierrmsg_device_list_error_workspace_hardware": {
+      "message": "Не може да бъде намерена USB памет."
+   },
+   "apierrmsg_device_write_error": {
+      "message": "Записването в избраната USB флаш памет или SD карта не е възможно. Разрешенията за записване на устройството ви може да са деактивирани или администраторът на домейна може да е изключил възможността за записване в USB хранилище."
+   },
+   "apierrmsg_download_cancelled": {
+      "message": "Изтеглянето е анулирано."
+   },
+   "apierrmsg_download_hash_mismatch": {
+      "message": "Файлът е невалиден."
+   },
+   "apierrmsg_download_interrupted": {
+      "message": "Изтеглянето е прекъснато. Проверете връзката си с мрежата и опитайте отново."
+   },
+   "apierrmsg_file_invalid": {
+      "message": "Файлът е невалиден."
+   },
+   "apierrmsg_operation_already_in_progress": {
+      "message": "Вече се извършва операция."
+   },
+   "apierrmsg_unknown": {
+      "message": "Неизвестна грешка: $1.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "apierrmsg_unsupported_operation": {
+      "message": "Неподдържана операция."
+   },
+   "apierrmsg_unzip_error": {
+      "message": "Файлът не може да се разархивира. Проверете дали на устройството ви има достатъчно място и опитайте отново."
+   },
+   "apierrmsg_unzip_invalid_archive": {
+      "message": "Невалиден ZIP файл."
+   },
+   "apierrmsg_url_invalid": {
+      "message": "Файлът не е намерен."
+   },
+   "apierrmsg_verification_failed": {
+      "message": "Потвърждаването на образа не бе успешно."
+   },
+   "app_description": {
+      "message": "Създайте носител за възстановяване за своя Chromebook."
+   },
+   "app_description_on_hub": {
+      "message": "Създайте USB памет за възстановяване за своя OnHub."
+   },
+   "app_description_workspace_hardware": {
+      "message": "Създайте USB памет за възстановяване за устройството си Meet Compute System."
+   },
+   "app_name": {
+      "message": "Помощна програма за възстанов. на Chromebook"
+   },
+   "app_name_on_hub": {
+      "message": "Помощна програма за възстановяване на OnHub"
+   },
+   "app_name_workspace_hardware": {
+      "message": "Помощна пр. за възст. на Meet Compute System"
+   },
+   "app_short_name": {
+      "message": "Възстанов."
+   },
+   "cancel_button_text": {
+      "message": "Отказ"
+   },
+   "chrome_app_deprecation_message": {
+      "message": "Както обявихме публично в \u003Ca href=\"https://blog.chromium.org/2020/08/changes-to-chrome-app-support-timeline.html\" target=\"_blank\" tabindex=\"0\">блога на Chromium\u003C/a>, Google прекратява поддръжката за приложения за Chrome през юни 2021 г. За възстановяване на устройствата си използвайте \u003Ca href=\"https://chrome.google.com/webstore/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm\" target=\"_blank\">разширението „Помощна програма за възстановяване на Chromebook“\u003C/a> и свързаната с него \u003Ca href=\"http://www.google.com/chromeos/recovery\" target=\"_blank\">документация\u003C/a>."
+   },
+   "chrome_app_deprecation_message_on_hub": {
+      "message": "Както обявихме публично в \u003Ca href=\"https://blog.chromium.org/2020/08/changes-to-chrome-app-support-timeline.html\" target=\"_blank\" tabindex=\"0\">блога на Chromium\u003C/a>, Google прекратява поддръжката за приложения за Chrome през юни 2021 г. За възстановяване на устройствата си използвайте \u003Ca href=\"https://chrome.google.com/webstore/detail/onhub-recovery-utility/fmgkgdalfapcmjnanilfcpkhkhedmpdm\" target=\"_blank\">разширението „Помощна програма за възстановяване на OnHub“\u003C/a> и свързаната с него \u003Ca href=\"https://support.google.com/onhub/answer/6274977\" target=\"_blank\">документация\u003C/a>."
+   },
+   "complete_bullet1": {
+      "message": "За да възстановите своя Chromebook, включете в него съответния носител."
+   },
+   "complete_bullet1_on_hub": {
+      "message": "Изключете захранващия кабел от OnHub и включете USB паметта в задната част на устройството. Натиснете и задръжте бутона за нулиране и включете захранването. Дръжте бутона за нулиране натиснат около 15 секунди или докато индикаторът за активност на USB паметта не започне да мига."
+   },
+   "complete_bullet1_workspace_hardware": {
+      "message": "За да възстановите системата си Meet Compute System, изпълнете инструкциите в статията \u003Ca href=\"http://support.google.com/meethardware/answer/10562922#zippy=%2Cstep-enter-recovery-mode\" target=\"_blank\">Възстановяване на компютърното устройство за Google Meet Hardware. Стъпка 3: Вход в режима за възстановяване\u003C/a>"
+   },
+   "complete_bullet2": {
+      "message": "След възстановяването можете да изтриете данните от носителя посредством тази помощна програма."
+   },
+   "complete_bullet2_on_hub": {
+      "message": "OnHub ще извърши възстановяването, което може да отнеме няколко минути, и ще се рестартира. След това настройте своя OnHub с помощта на приложението Google On."
+   },
+   "complete_bullet2_workspace_hardware": {
+      "message": "За да изтриете данните от USB флаш паметта, когато завършите, стартирайте помощната програма за възстановяване на Meet Compute System, кликнете върху \u003Cb>Настройки\u003C/b> и след това – върху \u003Cb>Изтриване на данните от носителя за възстановяване\u003C/b>"
+   },
+   "complete_message": {
+      "message": "Вече можете да премахнете носителя за възстановяване."
+   },
+   "complete_message_on_hub": {
+      "message": "Вече можете да премахнете USB паметта за възстановяване."
+   },
+   "complete_message_workspace_hardware": {
+      "message": "Вече можете да премахнете флаш паметта"
+   },
+   "complete_title": {
+      "message": "Успех! Носителят за възстановяване е готов"
+   },
+   "complete_title_on_hub": {
+      "message": "Успех! USB паметта за възстановяване е готова"
+   },
+   "complete_title_workspace_hardware": {
+      "message": "Успех! USB паметта за възстановяване е готова"
+   },
+   "completed": {
+      "message": "завършенo"
+   },
+   "confirm_cancelled_message_html": {
+      "message": "Анулирано. Кликнете върху „Създаване сега“, за да опитате отново.\u003Cbr>\u003Cbr>За да изтриете данните от носителя за възстановяване, кликнете върху иконата на зъбно колело в горния десен ъгъл."
+   },
+   "confirm_cancelled_message_html_on_hub": {
+      "message": "Анулирано. Кликнете върху „Създаване сега“, за да опитате отново.\u003Cbr>\u003Cbr>За да изтриете данните от USB паметта за възстановяване, кликнете върху иконата на зъбно колело в горния десен ъгъл."
+   },
+   "confirm_cancelled_message_html_workspace_hardware": {
+      "message": "Анулирано. Кликнете върху „Създаване сега“, за да опитате отново.\u003Cbr>\u003Cbr>За да изтриете данните от USB паметта за възстановяване, кликнете върху иконата на зъбно колело в горния десен ъгъл."
+   },
+   "confirm_hide_advanced_settings_message": {
+      "message": "Скриване на разширените настройки"
+   },
+   "confirm_message_html": {
+      "message": "\u003Cb>Важно\u003C/b>: Всички данни и дялове на носителя за възстановяване ще бъдат изтрити."
+   },
+   "confirm_message_html_on_hub": {
+      "message": "\u003Cb>Важно\u003C/b>: Всички данни и дялове на USB паметта за възстановяване ще бъдат изтрити."
+   },
+   "confirm_message_html_workspace_hardware": {
+      "message": "\u003Cb>Важно\u003C/b>: Всички данни във флаш паметта ви ще бъдат изтрити"
+   },
+   "confirm_show_advanced_settings_message": {
+      "message": "Показване на разширените настройки"
+   },
+   "confirm_title": {
+      "message": "Създаване на образ за възстановяване"
+   },
+   "continue_button_text": {
+      "message": "Напред"
+   },
+   "create_another_button_text": {
+      "message": "Създаване на друг носител"
+   },
+   "create_now_button_text": {
+      "message": "Създаване сега"
+   },
+   "dev_app_description": {
+      "message": "Версия за програмисти на помощната програма за възстановяване на Chromebook."
+   },
+   "dev_app_description_on_hub": {
+      "message": "Версия за програмисти на помощната програма за възстановяване на OnHub."
+   },
+   "dev_app_description_workspace_hardware": {
+      "message": "Версия за програмисти на помощната програма за възстановяване на Meet Compute System."
+   },
+   "dev_app_name": {
+      "message": "Пом. пр. за възст. на Chromebook: програмисти"
+   },
+   "dev_app_name_on_hub": {
+      "message": "Пом. прогр. за възст. на OnHub: програмисти"
+   },
+   "dev_app_name_workspace_hardware": {
+      "message": "Пр. за възст. на Meet Compute System: прогр."
+   },
+   "done_button_text": {
+      "message": "Готово"
+   },
+   "erase_complete_bullet1": {
+      "message": "USB паметта или SD картата е подготвена за форматиране."
+   },
+   "erase_complete_bullet1_on_hub": {
+      "message": "USB паметта е подготвена за форматиране."
+   },
+   "erase_complete_bullet1_workspace_hardware": {
+      "message": "USB паметта е подготвена за форматиране."
+   },
+   "erase_complete_bullet2": {
+      "message": "Форматирайте посредством инструмент, предоставен от операционната ви система."
+   },
+   "erase_complete_title": {
+      "message": "Данните на носителя за възстановяване са изтрити."
+   },
+   "erase_complete_title_on_hub": {
+      "message": "Данните на USB паметта за възстановяване са изтрити."
+   },
+   "erase_complete_title_workspace_hardware": {
+      "message": "Данните на USB паметта за възстановяване са изтрити."
+   },
+   "erase_confirm_message": {
+      "message": "Образът за възстановяване и всички дялове на носителя ще бъдат изтрити."
+   },
+   "erase_confirm_message_on_hub": {
+      "message": "Образът за възстановяване и всички дялове на USB паметта ще бъдат изтрити."
+   },
+   "erase_confirm_message_workspace_hardware": {
+      "message": "Образът за възстановяване и всички дялове на USB паметта ще бъдат изтрити."
+   },
+   "erase_now_button_text": {
+      "message": "Изтриване сега"
+   },
+   "erase_progress_text": {
+      "message": "Не премахвайте носителя за възстановяване."
+   },
+   "erase_progress_text_on_hub": {
+      "message": "Не премахвайте USB паметта за възстановяване."
+   },
+   "erase_progress_text_workspace_hardware": {
+      "message": "Не премахвайте USB паметта за възстановяване."
+   },
+   "erase_progress_title": {
+      "message": "Данните на носителя за възстановяване се изтриват"
+   },
+   "erase_progress_title_on_hub": {
+      "message": "Данните на USB паметта за възстановяване се изтриват"
+   },
+   "erase_progress_title_workspace_hardware": {
+      "message": "Данните на USB паметта за възстановяване се изтриват"
+   },
+   "erase_select_target_detecting": {
+      "message": "Търси се"
+   },
+   "erase_select_target_high_capacity_warning_html": {
+      "message": "\u003Cb>Предупреждение\u003C/b>: Това правилната памет ли е?"
+   },
+   "erase_select_target_no_devices_found": {
+      "message": "Няма намерени USB памети или SD карти"
+   },
+   "erase_select_target_no_devices_found_on_hub": {
+      "message": "Няма намерени USB памети"
+   },
+   "erase_select_target_no_devices_found_workspace_hardware": {
+      "message": "Няма намерени USB памети"
+   },
+   "erase_select_target_select_device": {
+      "message": "Изберете носителя за възстановяване, чиито данни искате да изтриете."
+   },
+   "erase_select_target_select_device_on_hub": {
+      "message": "Изберете USB паметта, чиито данни искате да изтриете."
+   },
+   "erase_select_target_select_device_placeholder": {
+      "message": "Изберете"
+   },
+   "erase_select_target_select_device_workspace_hardware": {
+      "message": "Изберете USB паметта, чиито данни искате да изтриете."
+   },
+   "erase_title": {
+      "message": "Изтриване на данните от носителя за възстановяване"
+   },
+   "erase_title_on_hub": {
+      "message": "Изтриване на данните от USB паметта за възстановяване"
+   },
+   "erase_title_workspace_hardware": {
+      "message": "Изтриване на данните от USB паметта за възстановяване"
+   },
+   "errmsg_please_try_again": {
+      "message": "Моля, опитайте отново."
+   },
+   "errmsg_recovery_config_download_failure": {
+      "message": "Изтеглянето на конфигурационния файл не бе успешно. Само офлайн функциите ще са налице."
+   },
+   "get_started_button_text": {
+      "message": "Начало"
+   },
+   "gigabyte_abbreviation": {
+      "message": "ГБ"
+   },
+   "go_back_button_text": {
+      "message": "Назад"
+   },
+   "hours_remaining": {
+      "message": "Оставащи часове: $1.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "hwid_invalid_model": {
+      "message": "Невалиден номер на модел. Моля, проверете въведеното."
+   },
+   "hwid_keep_typing": {
+      "message": "Все още не е намерен модел. Продължете да пишете."
+   },
+   "hwid_keep_typing_workspace_hardware": {
+      "message": "Още няма открит модел"
+   },
+   "hwid_match_found": {
+      "message": "Намерено е съответствие"
+   },
+   "hwid_match_found_and_checksum_verified": {
+      "message": "Намерено е съответствие с идентично име на модел"
+   },
+   "learn_more_link_text": {
+      "message": "Научете повече"
+   },
+   "learn_more_link_url": {
+      "message": "http://www.google.com/chromeos/recovery"
+   },
+   "learn_more_link_url_on_hub": {
+      "message": "https://support.google.com/onhub/answer/6274977"
+   },
+   "learn_more_link_url_workspace_hardware": {
+      "message": "http://support.google.com/meethardware/answer/10562922"
+   },
+   "loading_config_text": {
+      "message": "Подготвя се..."
+   },
+   "menu_item_erase_recovery_media": {
+      "message": "Изтриване на данните от носителя за възстановяване"
+   },
+   "menu_item_erase_recovery_media_on_hub": {
+      "message": "Изтриване на данните от USB паметта за възстановяване"
+   },
+   "menu_item_erase_recovery_media_workspace_hardware": {
+      "message": "Изтриване на данните от USB паметта за възстановяване"
+   },
+   "menu_item_send_feedback": {
+      "message": "Изпращане на отзиви"
+   },
+   "menu_item_use_local_image": {
+      "message": "Използване на локален образ"
+   },
+   "minutes_remaining": {
+      "message": "Оставащи минути: $1.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "of": {
+      "message": "от"
+   },
+   "recovery_channel_beta": {
+      "message": "Бета"
+   },
+   "recovery_channel_dev": {
+      "message": "За програмисти"
+   },
+   "recovery_channel_ltc": {
+      "message": "Кандидат за дългосрочна поддръжка (само за Enterprise)"
+   },
+   "recovery_channel_lts": {
+      "message": "Дългосрочна поддръжка (само за Enterprise)"
+   },
+   "recovery_channel_stable": {
+      "message": "Стабилен"
+   },
+   "seconds_remaining": {
+      "message": "Оставащи секунди: $1.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "select_channel_placeholder": {
+      "message": "Изберете канал за възстановяване"
+   },
+   "select_image_select_by_hwid_link_text": {
+      "message": "Директно въвеждане на номер на модел"
+   },
+   "select_image_select_from_list_link_text": {
+      "message": "Избиране на модел от списък"
+   },
+   "select_image_select_manufacturer_placeholder": {
+      "message": "Изберете производител"
+   },
+   "select_image_select_product_placeholder": {
+      "message": "Изберете продукт"
+   },
+   "select_image_select_product_placeholder_on_hub": {
+      "message": "Изберете модел"
+   },
+   "select_image_select_product_placeholder_workspace_hardware": {
+      "message": "Изберете модел"
+   },
+   "select_image_text": {
+      "message": "Въведете номера на модела на Chromebook, който искате да възстановите. Можете да го намерите на екрана за възстановяване."
+   },
+   "select_image_text_on_hub": {
+      "message": "Въведете номера на модела на своя OnHub."
+   },
+   "select_image_text_workspace_hardware": {
+      "message": "Въведете номера на модела на Meet Compute System"
+   },
+   "select_image_this_chromebooks_model_number": {
+      "message": "За този Chromebook въведете"
+   },
+   "select_image_this_chromebooks_model_number_on_hub": {
+      "message": "За този OnHub въведете"
+   },
+   "select_image_this_chromebooks_model_number_workspace_hardware": {
+      "message": "За това устройство Meet Compute System въведете"
+   },
+   "select_image_title": {
+      "message": "Идентифициране на вашия Chromebook"
+   },
+   "select_image_title_on_hub": {
+      "message": "Идентифициране на вашия OnHub"
+   },
+   "select_image_title_workspace_hardware": {
+      "message": "Идентифициране на устройството ви Meet Compute System"
+   },
+   "select_target_detecting": {
+      "message": "Търси се"
+   },
+   "select_target_high_capacity_warning_html": {
+      "message": "\u003Cb>Предупреждение\u003C/b>: Това правилният носител ли е?"
+   },
+   "select_target_high_capacity_warning_html_on_hub": {
+      "message": "\u003Cb>Предупреждение\u003C/b>: Това правилната USB памет ли е?"
+   },
+   "select_target_high_capacity_warning_html_workspace_hardware": {
+      "message": "\u003Cb>Предупреждение\u003C/b>: Това правилната USB памет ли е?"
+   },
+   "select_target_low_capacity_error": {
+      "message": "Размерът на носителя трябва да е поне 8 ГБ."
+   },
+   "select_target_low_capacity_error_on_hub": {
+      "message": "USB паметта трябва да е поне 8 ГБ."
+   },
+   "select_target_low_capacity_error_workspace_hardware": {
+      "message": "USB паметта трябва да е поне 8 ГБ."
+   },
+   "select_target_no_devices_found": {
+      "message": "Няма намерени USB памети или SD карти"
+   },
+   "select_target_no_devices_found_on_hub": {
+      "message": "Няма намерени USB памети"
+   },
+   "select_target_no_devices_found_workspace_hardware": {
+      "message": "Няма намерени USB памети"
+   },
+   "select_target_select_device": {
+      "message": "Изберете носителя, който искате да използвате."
+   },
+   "select_target_select_device_on_hub": {
+      "message": "Изберете USB паметта, която искате да използвате."
+   },
+   "select_target_select_device_placeholder": {
+      "message": "Изберете"
+   },
+   "select_target_select_device_workspace_hardware": {
+      "message": "Изберете USB паметта, която искате да използвате."
+   },
+   "select_target_title": {
+      "message": "Поставете USB флаш паметта или SD картата"
+   },
+   "select_target_title_on_hub": {
+      "message": "Поставете USB флаш паметта"
+   },
+   "select_target_title_workspace_hardware": {
+      "message": "Поставете USB флаш паметта"
+   },
+   "stage_complete": {
+      "message": "Завършено"
+   },
+   "stage_download": {
+      "message": "Изтегля се"
+   },
+   "stage_downloadverify": {
+      "message": "Изтеглянето се потвърждава"
+   },
+   "stage_unpack": {
+      "message": "Разпакетира се"
+   },
+   "stage_unzip": {
+      "message": "Разпакетира се"
+   },
+   "stage_verify": {
+      "message": "Потвърждава се"
+   },
+   "stage_verifydownload": {
+      "message": "Изтеглянето се потвърждава"
+   },
+   "stage_verifywrite": {
+      "message": "Потвърждава се"
+   },
+   "stage_write": {
+      "message": "Записва се"
+   },
+   "step": {
+      "message": "Стъпка"
+   },
+   "unsupported_text": {
+      "message": "За съжаление, понастоящем платформата ви не се поддържа. За повече информация, моля, посетете \u003Ca href=\"http://www.google.com/chromeos/recovery\" target=\"_blank\">Помощния център на Chromebook\u003C/a>."
+   },
+   "unsupported_text_mac": {
+      "message": "За съжаление, Mac се поддържа само за M37 или по-нова версия. Моля, актуализирайте Chrome до M37. За целта може да се наложи \u003Ca href=\"https://support.google.com/chromebook/answer/1086915\" target=\"_blank\">да превключите към бета канала\u003C/a>."
+   },
+   "unsupported_text_on_hub": {
+      "message": "За съжаление, понастоящем платформата ви не се поддържа. За повече информация, моля, посетете \u003Ca href=\"https://support.google.com/onhub/answer/6274977\" target=\"_blank\">Помощния център на OnHub\u003C/a>."
+   },
+   "unsupported_title": {
+      "message": "Понастоящем платформата ви не се поддържа"
+   },
+   "unsupported_title_linux": {
+      "message": "Понастоящем Linux не се поддържа"
+   },
+   "unsupported_title_mac": {
+      "message": "Понастоящем Mac не се поддържа"
+   },
+   "unsupported_title_win": {
+      "message": "Понастоящем Windows не се поддържа"
+   },
+   "usupported_text_workspace_hardware": {
+      "message": "За съжаление, понастоящем платформата ви не се поддържа.  За повече информация, моля, разгледайте \u003Ca href=\"http://support.google.com/meethardware/answer/10562922\" target=\"_blank\">Помощния център на Google Meet Hardware\u003C/a>."
+   },
+   "warning_offline": {
+      "message": "Устройството е офлайн. Само офлайн функциите ще са налице."
+   },
+   "welcome_text": {
+      "message": "Ще ви е необходима USB флаш памет или SD карта с размер от поне 8 ГБ, чиито данни нямате нищо против да изтриете."
+   },
+   "welcome_text_on_hub": {
+      "message": "Ще ви е необходима USB флаш памет с размер от поне 8 ГБ, чиито данни нямате нищо против да изтриете."
+   },
+   "welcome_text_workspace_hardware": {
+      "message": "Ще ви е необходима USB флаш памет с размер от поне 8 ГБ, чиито данни нямате нищо против да изтриете. Можете също да използвате SD карта, ако устройството ви разполага със съответния слот."
+   },
+   "welcome_title": {
+      "message": "Създаване на носител за възстановяване за вашия Chromebook"
+   },
+   "welcome_title_on_hub": {
+      "message": "Създаване на USB памет за възстановяване за вашия OnHub"
+   },
+   "welcome_title_workspace_hardware": {
+      "message": "Създаване на USB памет за възстановяване на устройството ви Meet Compute System"
+   },
+   "write_message": {
+      "message": "Не премахвайте носителя за възстановяване."
+   },
+   "write_message_on_hub": {
+      "message": "Не премахвайте USB паметта за възстановяване."
+   },
+   "write_message_workspace_hardware": {
+      "message": "Не премахвайте USB флаш паметта."
+   },
+   "write_title": {
+      "message": "Създава се образ за възстановяване"
+   }
+}

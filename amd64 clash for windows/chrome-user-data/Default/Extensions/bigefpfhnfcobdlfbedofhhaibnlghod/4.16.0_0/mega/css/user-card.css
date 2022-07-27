@@ -1,0 +1,204 @@
+
+.user-card-presence{
+	background-color:#666;
+	-moz-border-radius:100%;
+	-webkit-border-radius:100%;
+	border-radius:100%;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	display:inline-block;
+	height:6px;
+	margin:7px 14px 5px 8px;
+	width:6px
+}
+.fm-chat-user-email{
+	display:block
+}
+.error.user-card-presence{
+	background-color:initial !important;
+	border:2px solid #fff
+}
+.online.user-card-presence{
+	background-color:#13e03c;
+	border-color:#13e03c
+}
+.away.user-card-presence{
+	background-color:orange;
+	border-color:orange
+}
+.busy.user-card-presence{
+	background-color:#eb4444;
+	border-color:#eb4444
+}
+.offline.user-card-presence{
+	background-color:#666;
+	border-color:#666
+}
+.black.user-card-presence{
+	background-color:#000;
+	border-color:#000;
+	visibility:hidden
+}
+.user-card-presence.big{
+	border:2px solid #fff;
+	-webkit-box-shadow:0 1px 2px 0 rgba(0, 0, 0, .1);
+	-moz-box-shadow:0 1px 2px 0 rgba(0, 0, 0, .1);
+	box-shadow:0 1px 2px 0 rgba(0, 0, 0, .1);
+	height:16px;
+	width:16px
+}
+.user-card-data{
+	padding:0 30px 0 48px
+}
+.user-card-data.no-status{
+	padding:0 0 0 50px
+}
+.user-card-name{
+	box-sizing:border-box;
+	color:var(--text-color-high);
+	font:var(--text-body1);
+	max-width:100%;
+	overflow:hidden;
+	position:relative;
+	text-overflow:ellipsis;
+	white-space:nowrap
+}
+button.user-card-name:hover{
+	text-decoration:underline
+}
+.user-card-name.light{
+	color:var(--text-color-high);
+	display:inline-block;
+	max-width:calc(100% - 40px)
+}
+.user-card-name .grey{
+	color:var(--text-color-medium);
+	padding-left:6px
+}
+.user-card-name.white{
+	color:#fff
+}
+.user-card-email{
+	color:#777;
+	font-size:13px;
+	line-height:18px;
+	overflow:hidden;
+	-o-text-overflow:ellipsis;
+	text-overflow:ellipsis;
+	white-space:nowrap
+}
+.user-card-email.small{
+	font-size:12px;
+	line-height:14px
+}
+.user-card-name.small{
+	font-size:13px;
+	line-height:19px
+}
+.user-card.small{
+	font-size:12px;
+	line-height:14px
+}
+.user-card-verified i{
+	--icon-size:14px;
+	--mask-color:var(--secondary-blue)
+}
+.user-card-verified,.verified .verified_icon{
+	background-color:#fff;
+	border-radius:100%;
+	box-shadow:0 1px 2px 0 rgba(0, 0, 0, .1);
+	box-sizing:border-box;
+	float:left;
+	height:15px;
+	position:relative;
+	width:15px
+}
+.small-rounded-avatar .user-card-verified,.verified .verified_icon{
+	position:absolute;
+	right:-5px;
+	top:-4px;
+	z-index:10
+}
+.short .small-rounded-avatar .user-card-verified{
+	position:absolute;
+	right:-4px;
+	top:-3px;
+	z-index:10
+}
+.context-avatar .user-card-verified{
+	left:8px;
+	position:absolute;
+	position:absolute;
+	top:8px;
+	z-index:10
+}
+.verified_icon{
+	display:none
+}
+.verified .verified_icon{
+	display:block
+}
+.group-chat .chat-contacts-list .user-card-presence{
+	margin:7px 0 5px 8px
+}
+.group-chat .chat-contacts-list .user-card-name,.right-chat-contact-card .user-card-name{
+	display:inline-block;
+	max-width:calc(100% - 40px);
+	padding-top:6px
+}
+.chat-contacts-list .user-card-data .audio-call{
+	display:block;
+	float:right;
+	margin-top:5px
+}
+.chat-contacts-list .user-card-data .audio-call i{
+	--icon-size:24px;
+	--mask-color:var(--icon-inactive)
+}
+.right-chat-contact-card .user-card-name{
+	padding-top:0
+}
+.group-chat .chat-right-pad .user-card-email{
+	display:none
+}
+.avatar-wrapper.square .verified_icon,.fm-blocks-view .avatar-wrapper .verified_icon{
+	right:8px;
+	top:8px
+}
+.user-card-tick-wrap{
+	align-items:center;
+	background:var(--checkbox-fill-inactive);
+	border:1px solid var(--checkbox-border-inactive);
+	border-radius:3px;
+	box-sizing:border-box;
+	display:flex;
+	height:16px;
+	justify-content:center;
+	position:absolute;
+	right:12px;
+	top:50%;
+	transform:translateY(-50%);
+	width:16px;
+	z-index:1
+}
+.rtl .user-card-tick-wrap{
+	left:12px;
+	right:unset
+}
+.user-card-tick-wrap i{
+	display:none;
+	margin:0
+}
+.contacts-info .user-card-tick-wrap+.user-card-data{
+	padding-right:40px
+}
+.selected .user-card-tick-wrap{
+	background:var(--checkbox-fill-active);
+	border:1px solid var(--checkbox-fill-active)
+}
+.selected .user-card-tick-wrap i{
+	--icon-size:14px;
+	--mask-color:var(--secondary-white);
+	display:block
+}

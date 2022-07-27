@@ -1,0 +1,802 @@
+{
+   "buttonCancel": {
+      "description": "Cancel button on dialog.",
+      "message": "Hủy"
+   },
+   "buttonClose": {
+      "description": "Button to close window.",
+      "message": "Đóng"
+   },
+   "buttonConfirmInstallation": {
+      "description": "Button to confirm installation of a script.",
+      "message": "Xác nhận cài đặt"
+   },
+   "buttonDisable": {
+      "description": "Button to disable a script.",
+      "message": "Vô hiệu hoá"
+   },
+   "buttonEdit": {
+      "description": "Button to edit a script.",
+      "message": "Sửa"
+   },
+   "buttonEditClickHint": {
+      "description": "Tooltip for the Edit button in popup.",
+      "message": "You can also Right-click, Ctrl-click, Wheel-click on the script name."
+   },
+   "buttonEmptyRecycleBin": {
+      "description": "Button to empty the recycle bin.",
+      "message": "Thùng rác trống!"
+   },
+   "buttonEnable": {
+      "description": "Button to enable a script.",
+      "message": "Kích hoạt"
+   },
+   "buttonExportData": {
+      "description": "Button to open the data export dialog.",
+      "message": "Xuất ra tập tin zip"
+   },
+   "buttonHome": {
+      "description": "Button to open homepage.",
+      "message": "Trang chủ"
+   },
+   "buttonImportData": {
+      "description": "Button to choose a file for data import.",
+      "message": "Nhập từ tập tin zip"
+   },
+   "buttonInstallFromURL": {
+      "description": "Button to ask for URL of a user script.",
+      "message": "Cài đặt từ URL"
+   },
+   "buttonNew": {
+      "description": "Button to create a new script.",
+      "message": "Tạo mới"
+   },
+   "buttonOK": {
+      "description": "OK button on dialog.",
+      "message": "Đồng ý"
+   },
+   "buttonRecycleBin": {
+      "description": "Button to list scripts in recycle bin.",
+      "message": "Thùng rác"
+   },
+   "buttonRemove": {
+      "description": "Button to remove a script.",
+      "message": "Xoá"
+   },
+   "buttonReplace": {
+      "description": "Button to replace the current match.",
+      "message": "Thay thế"
+   },
+   "buttonReplaceAll": {
+      "description": "Button to replace all matches.",
+      "message": "Tất cả"
+   },
+   "buttonReset": {
+      "description": "Button to reset to default values.",
+      "message": "Thiết lập lại"
+   },
+   "buttonRestore": {
+      "description": "Button to restore a removed script.",
+      "message": "Khôi phục"
+   },
+   "buttonSave": {
+      "description": "Button to save modifications of a script.",
+      "message": "Lưu"
+   },
+   "buttonSaveClose": {
+      "description": "Button to save modifications of a script and then close the editing page.",
+      "message": "Lưu & Đóng"
+   },
+   "buttonShowEditorState": {
+      "description": "Button to show the list of currently used CodeMirror options.",
+      "message": "Các cài đặt mẫu"
+   },
+   "buttonSupport": {
+      "description": "Button to open support page.",
+      "message": "Hỗ trợ"
+   },
+   "buttonUpdate": {
+      "description": "Check a script for updates.",
+      "message": "Kiểm tra cập nhật"
+   },
+   "buttonUpdateAll": {
+      "description": "Check all scripts for updates.",
+      "message": "Kiểm tra cập nhật tất cả"
+   },
+   "buttonVacuum": {
+      "description": "Button to vacuum extension data.",
+      "message": "Làm trống dữ liệu"
+   },
+   "buttonVacuumed": {
+      "description": "Message shown when data is vacuumed.",
+      "message": "Đã làm trống dữ liệu"
+   },
+   "buttonVacuuming": {
+      "description": "Message shown when data vacuum is in progress.",
+      "message": "Làm trống dữ liệu..."
+   },
+   "confirmNotSaved": {
+      "description": "Confirm message shown when there are unsaved script modifications.",
+      "message": "Thay đổi chưa được lưu!\nBấm Đồng ý để không lưu hoặc Huỷ để quay lại và sửa."
+   },
+   "descBlacklist": {
+      "description": "HTML Description for the global blacklist.",
+      "message": "URL trong danh sách này sẽ không bị bỏ qua."
+   },
+   "descCustomCSS": {
+      "description": "Description of custom CSS section.",
+      "message": "CSS tùy chỉnh cho trang tùy chọn và trang script đã cài đặt. Nếu không hiểu rõ xin đừng sửa."
+   },
+   "descEditorOptions": {
+      "description": "Description of editor options JSON section.",
+      "message": "Tùy chọn cài đặt cho CodeMirror và addons trong đối tượng JSON như\u003Ccode>{\"indentUnit\":2, \"smartIndent\":true}\u003C/code> . Tuy nhiên, lưu ý rằng một số cài đặt có thể không hoạt động trong Violentmonkey. \u003Ca href=\"https://codemirror.net/doc/manual.html#config\" target=\"_blank\" rel=\"noopener noreferrer\">Xem chi tiết.\u003C/a>"
+   },
+   "editHelpDocumention": {
+      "description": "Label in the editor help tab for the documentation link.",
+      "message": "Các tài liệu về API đọc ở đây:"
+   },
+   "editHelpKeyboard": {
+      "description": "Label in the editor help tab for the keyboard shortcuts.",
+      "message": "Phím tắt:"
+   },
+   "editHowToHint": {
+      "description": "The text of the how-to link in the editor header.",
+      "message": "Bạn có trình chỉnh sửa khác?"
+   },
+   "editLabelMeta": {
+      "description": "Metadata section in settings tab of script editor.",
+      "message": "Tuỳ chỉnh thẻ dữ liệu"
+   },
+   "editLabelSettings": {
+      "description": "Settings section in settings tab of script editor.",
+      "message": "Cài đặt Script"
+   },
+   "editLongLine": {
+      "description": "Shown in the editor in lines that were cut due to being too long",
+      "message": "Line is too long"
+   },
+   "editLongLineTooltip": {
+      "description": "Tooltip shown in the editor in lines that were cut due to being too long",
+      "message": "This line is too long so its text is collapsed to avoid delays when editing.\nYou can adjust the limit in advanced settings, for example:\n\"maxDisplayLength\": 20000"
+   },
+   "editNavCode": {
+      "description": "Label of code tab in script editor.",
+      "message": "Mã nguồn"
+   },
+   "editNavSettings": {
+      "description": "Label of settings tab in script editor.",
+      "message": "Cài đặt"
+   },
+   "editNavValues": {
+      "description": "Label of values tab in script editor.",
+      "message": "Các giá trị"
+   },
+   "editValueAll": {
+      "description": "Button to show/edit the entire script value storage.",
+      "message": "Tất cả"
+   },
+   "editValueAllHint": {
+      "description": "Tooltip for the 'all' button.",
+      "message": "Show/edit the entire script value storage"
+   },
+   "editValueCancel": {
+      "description": "Button to cancel modification of a script value.",
+      "message": "Huỷ"
+   },
+   "editValueSave": {
+      "description": "Button to save modification of a script value.",
+      "message": "Lưu"
+   },
+   "extDescription": {
+      "description": "Description for this extension, will be displayed in web store",
+      "message": "Hỗ trợ chạy userscript trên trình duyệt."
+   },
+   "extName": {
+      "description": "Name of this extension.",
+      "message": "Violentmonkey"
+   },
+   "failureReasonBlacklisted": {
+      "description": "Shown for blacklisted URLs (in the extension icon tooltip, in the popup)",
+      "message": "Đã ở trong danh sách đen của Violentmonkey"
+   },
+   "failureReasonNoninjectable": {
+      "description": "Shown for URLs that cannot be processed (same places as failureBlacklistedUrl)",
+      "message": "Violentmonkey không hoạt động ở đây."
+   },
+   "filterAlphabeticalOrder": {
+      "description": "Label for option to sort scripts in alphabetical order.",
+      "message": "thứ tự bảng chứ cái"
+   },
+   "filterExecutionOrder": {
+      "description": "Label for option to sort scripts in execution order.",
+      "message": "thứ tự thực thi"
+   },
+   "filterLastUpdateOrder": {
+      "description": "Label for option to sort scripts by last update time.",
+      "message": "cập nhật cuối"
+   },
+   "filterScopeAll": {
+      "description": "Option in dashboard's search scope filter.",
+      "message": "Hiện tất cả"
+   },
+   "filterScopeCode": {
+      "description": "Option in dashboard's search scope filter.",
+      "message": "Cách viết mã"
+   },
+   "filterScopeName": {
+      "description": "Option in dashboard's search scope filter.",
+      "message": "Tên"
+   },
+   "genericError": {
+      "description": "Label for generic error.",
+      "message": "Error"
+   },
+   "genericOff": {
+      "description": "To indicate something is turned off or disabled, similar to \"no\".",
+      "message": "tắt"
+   },
+   "genericOn": {
+      "description": "To indicate something is turned on or enabled, similar to \"yes\".",
+      "message": "bật"
+   },
+   "genericUseGlobal": {
+      "description": "To indicate some per-script option will use its analog in global settings.",
+      "message": "Sử dụng cài đặt khuyên dùng"
+   },
+   "headerRecycleBin": {
+      "description": "Text shown in the header when scripts in recycle bin are listed.",
+      "message": "Thùng rác"
+   },
+   "hintInputURL": {
+      "description": "Hint for a prompt box to input URL of a user script.",
+      "message": "URL đầu vào:"
+   },
+   "hintRecycleBin": {
+      "description": "Hint for recycle bin.",
+      "message": "Các tập lệnh bị xóa được liệt kê ở đây và sẽ được lưu giữ trong 7 ngày."
+   },
+   "hintUseDownloadURL": {
+      "description": "Shown as a place holder for @updateURL when it is not assigned",
+      "message": "Dùng @downloadURL"
+   },
+   "hintVacuum": {
+      "description": "Hint for vacuuming data.",
+      "message": "Bỏ qua dữ liệu thừa và cố gắng tải lại nguồn dữ liệu thiếu từ bộ nhớ đệm."
+   },
+   "installFrom": {
+      "description": "Label for button to install script from a userscript site.",
+      "message": "Cài đặt từ $1"
+   },
+   "installOptionClose": {
+      "description": "Option to close confirm window after installation.",
+      "message": "Đóng sau khi cài đặt xong"
+   },
+   "installOptionTrack": {
+      "description": "Option to track the loading local file before window is closed.",
+      "message": "Theo dõi tệp cục bộ trước khi cửa sổ này đóng"
+   },
+   "installOptionTrackTooltip": {
+      "description": "Tooltip in Firefox 68+ for the option to track the loading local file before window is closed.",
+      "message": "Bạn cần Firefox 68 hoặc phiên bản cao hơn để mở."
+   },
+   "labelAdvanced": {
+      "description": "Label for button to show advanced settings.",
+      "message": "Nâng cao"
+   },
+   "labelAllowUpdate": {
+      "description": "Option to allow checking updates for a script.",
+      "message": "Cho phép cập nhật"
+   },
+   "labelAuthor": {
+      "description": "Label of author shown in the details of a script.",
+      "message": "Tác giả: "
+   },
+   "labelAutoReloadCurrentTab": {
+      "description": "Option to reload current tab after a script is switched on or off from menu.",
+      "message": "Tải lại trang khi bật/tắt script từ menu"
+   },
+   "labelAutoReloadCurrentTabDisabled": {
+      "description": "Tooltip in menu after Violentmonkey is switched off if auto-reload is disabled.",
+      "message": "Current scripts will keep running until you reload the tab"
+   },
+   "labelAutoUpdate": {
+      "description": "Option to allow automatically checking scripts for updates",
+      "message": "Kiểm tra cập nhật mỗi  $1 ngày, 0 = tắt"
+   },
+   "labelBadge": {
+      "description": "Label for option to show number on badge.",
+      "message": "Hiển thị ở huy hiệu: "
+   },
+   "labelBadgeNone": {
+      "description": "Option to display nothing on badge.",
+      "message": "Không có gì"
+   },
+   "labelBadgeTotal": {
+      "description": "Option to display total number of running scripts on badge.",
+      "message": "Số script đang chạy"
+   },
+   "labelBadgeUnique": {
+      "description": "Option to display number of unique running scripts on badge.",
+      "message": "Số script không trùng lặp đang chạy"
+   },
+   "labelBlacklist": {
+      "description": "Label for global blacklist settings in security section.",
+      "message": "Danh sách đen"
+   },
+   "labelContributors": {
+      "description": "Label for link to contributors.",
+      "message": "Người đóng góp"
+   },
+   "labelCurrentLang": {
+      "description": "Label of current language.",
+      "message": "Ngôn ngữ hiện tại: "
+   },
+   "labelCustomCSS": {
+      "description": "Label for custom CSS section.",
+      "message": "Giao diện tùy chỉnh"
+   },
+   "labelDataExport": {
+      "description": "Section title of data export.",
+      "message": "Xuất dữ liệu"
+   },
+   "labelDataImport": {
+      "description": "Section title of data import.",
+      "message": "Nhập dữ liệu"
+   },
+   "labelDonate": {
+      "description": "Label of link to donate page.",
+      "message": "Đóng góp"
+   },
+   "labelDownloadURL": {
+      "description": "Label of script @downloadURL in custom meta data.",
+      "message": "URL tải về:"
+   },
+   "labelEditValue": {
+      "description": "Label shown in the panel to edit a script value.",
+      "message": "Sửa giá trị script"
+   },
+   "labelEditValueAll": {
+      "description": "Label shown in the panel to edit the entire script value storage.",
+      "message": "Editing script storage"
+   },
+   "labelEditor": {
+      "description": "Label for Editor settings",
+      "message": "Trình chỉnh sửa"
+   },
+   "labelExclude": {
+      "description": "Label of @exclude rules.",
+      "message": "Bỏ qua"
+   },
+   "labelExcludeMatch": {
+      "description": "Label of @exclude-match rules.",
+      "message": "Quy tắc bỏ qua"
+   },
+   "labelExportScriptData": {
+      "description": "Option to export script data along with scripts.",
+      "message": "Xuất dữ liệu script"
+   },
+   "labelExposeStatus": {
+      "description": "Option in advanced settings.",
+      "message": "Expose installed version on userscript catalog sites: $1"
+   },
+   "labelFeedback": {
+      "description": "Label of link to feedback page.",
+      "message": "Phản hồi"
+   },
+   "labelFilterSort": {
+      "description": "Label for sort filter.",
+      "message": "Sắp xếp theo $1"
+   },
+   "labelGeneral": {
+      "description": "Label for general settings.",
+      "message": "Chung"
+   },
+   "labelHelpTranslate": {
+      "description": "Label for link to localization guide in about tab",
+      "message": "Giúp chúng tôi dịch"
+   },
+   "labelHomepage": {
+      "description": "Label for home page in about tab.",
+      "message": "Trang chủ"
+   },
+   "labelHomepageURL": {
+      "description": "Label of script @homepageURL in custom meta data.",
+      "message": "Liên kết trang chủ:"
+   },
+   "labelImportScriptData": {
+      "description": "Option to import script data along with scripts.",
+      "message": "Import script data"
+   },
+   "labelImportSettings": {
+      "description": "Label for option to import settings from zip file.",
+      "message": "Nhập cài đặt"
+   },
+   "labelInclude": {
+      "description": "Label of @include rules.",
+      "message": "Thực thi"
+   },
+   "labelInjectionMode": {
+      "description": "Label for default option to inject scripts.",
+      "message": "Chế độ tiêm mặc định: "
+   },
+   "labelInstall": {
+      "description": "Shown in the title of the confirm page while trying to install a script.",
+      "message": "Đang cài đặt script"
+   },
+   "labelKeepOriginal": {
+      "description": "Option to keep the original match or ignore rules.",
+      "message": "Giữ bản gốc"
+   },
+   "labelLastUpdatedAt": {
+      "description": "Label shown on last updated time.",
+      "message": "Cập nhật lần cuối lúc $1"
+   },
+   "labelLineNumber": {
+      "description": "Label for line number jumper.",
+      "message": "Dòng số.: "
+   },
+   "labelMatch": {
+      "description": "Label of @match rules.",
+      "message": "Trùng khớp"
+   },
+   "labelName": {
+      "description": "Label of script name.",
+      "message": "Tên:"
+   },
+   "labelNoSearchScripts": {
+      "description": "Message shown when no script is found in search results.",
+      "message": "Không thấy script nào"
+   },
+   "labelNotifyThisUpdated": {
+      "description": "A per-script option in editor to enable notification when this script is updated. The text follows \"Allow update\" checkbox option so it's like a continuation of the phrase.",
+      "message": ", thì thông báo:"
+   },
+   "labelNotifyUpdates": {
+      "description": "Option to show notification when script is updated.",
+      "message": "Thông báo có cập nhật script"
+   },
+   "labelNotifyUpdatesGlobal": {
+      "description": "Option to prioritize global notification option over script's setting.",
+      "message": "Bỏ qua thông báo trên mỗi script (thay đổi trong cài đặt ở mục chỉnh sửa script)"
+   },
+   "labelPopupSort": {
+      "description": "Label in the VM settings tab for script list sort order in popup",
+      "message": "Sắp xếp scripts trong popup theo $1"
+   },
+   "labelPrivacyPolicy": {
+      "description": "Label of link to privacy policy",
+      "message": "Chính sách bảo mật"
+   },
+   "labelRelated": {
+      "description": "Label of related links.",
+      "message": "Liên kết gợi ý: "
+   },
+   "labelRemovedAt": {
+      "description": "Label for the time when the script is removed.",
+      "message": "Đã bị xoá lúc $1"
+   },
+   "labelReplace": {
+      "description": "Label for replace input in search box.",
+      "message": "Thay thế bằng: "
+   },
+   "labelRunAt": {
+      "description": "Label of script @run-at properties in custom meta data.",
+      "message": "Chạy khi: "
+   },
+   "labelRunAtDefault": {
+      "description": "Shown when custom @run-at is not assigned.",
+      "message": "(Mặc định)"
+   },
+   "labelScriptTemplate": {
+      "description": "Label for custom script template.",
+      "message": "Script template tuỳ chỉnh"
+   },
+   "labelSearch": {
+      "description": "Label for search input in search box.",
+      "message": "Tìm kiếm: "
+   },
+   "labelSearchScript": {
+      "description": "Placeholder for script search box.",
+      "message": "Tìm kiếm...."
+   },
+   "labelSettings": {
+      "description": "Label shown on the top of settings page",
+      "message": "Cài đặt"
+   },
+   "labelSync": {
+      "description": "Label for sync options.",
+      "message": "Đồng bộ"
+   },
+   "labelSyncAnonymous": {
+      "description": "Label for using anonymous account.",
+      "message": "Sử dụng tài khoản ẩn danh"
+   },
+   "labelSyncAuthorize": {
+      "description": "Label for button to authorize a service.",
+      "message": "Xác thực"
+   },
+   "labelSyncAuthorizing": {
+      "description": "Label for button when authorization is in progress.",
+      "message": "Đang xác thực"
+   },
+   "labelSyncDisabled": {
+      "description": "Label for option to disable sync service.",
+      "message": "Không có"
+   },
+   "labelSyncPassword": {
+      "description": "Label for input to hold password.",
+      "message": "Mật khẩu:"
+   },
+   "labelSyncRevoke": {
+      "description": "Label for button to revoke authorization for a service.",
+      "message": "Thu hồi"
+   },
+   "labelSyncScriptStatus": {
+      "description": "Label for option to sync script status.",
+      "message": "Trạng thái đồng bộ script"
+   },
+   "labelSyncServerUrl": {
+      "description": "Label for input to hold server URL.",
+      "message": "URL máy chủ:"
+   },
+   "labelSyncService": {
+      "description": "Label for sync service select.",
+      "message": "Đồng bộ tới"
+   },
+   "labelSyncUsername": {
+      "description": "Label for input to hold username.",
+      "message": "Tài khoản:"
+   },
+   "labelUpdateURL": {
+      "description": "Label of script @updateURL in custom meta data.",
+      "message": "URL Cập nhật:"
+   },
+   "labelViewSingleColumn": {
+      "description": "Label for option in dashboard script list to show the scripts in single column.",
+      "message": "Single column"
+   },
+   "labelViewTable": {
+      "description": "Label for option in dashboard script list to show the scripts as a table.",
+      "message": "Table view"
+   },
+   "lastSync": {
+      "description": "Label for last sync timestamp.",
+      "message": "Đồng bộ cuối lúc $1"
+   },
+   "learnBlacklist": {
+      "description": "Refers to a link to introduce blacklist patterns.",
+      "message": "Tìm hiểu thêm về quy tắc danh sách đen."
+   },
+   "learnInjectionMode": {
+      "description": "Refers to a link to introduce injection modes.",
+      "message": "Tìm hiểu thêm về các chế độ tiêm."
+   },
+   "menuDashboard": {
+      "description": "Label for menu item to open dashboard.",
+      "message": "Mở bảng điều khiển"
+   },
+   "menuExclude": {
+      "description": "Shown in popup menu after clicking script's \"...\" dropdown so try to keep the label short.",
+      "message": "Exclude..."
+   },
+   "menuExcludeHint": {
+      "description": "Shown in popup menu after clicking \"Exclude...\" in script's \"...\" dropdown.",
+      "message": "The current tab will auto-reload if you enabled this option in general settings.\nTo apply changes to all other tabs please reload them manually.\nUse \"Settings\" tab of the editor for more flexibility."
+   },
+   "menuFindScripts": {
+      "description": "Menu item to find scripts for a site.",
+      "message": "Tìm script cho trang này"
+   },
+   "menuInjectionFailed": {
+      "description": "Injection error.",
+      "message": "Could not inject some scripts."
+   },
+   "menuInjectionFailedFix": {
+      "description": "Injection error fix, shown in case the default mode is \"page\".",
+      "message": "Retry in \"auto\" mode"
+   },
+   "menuMatchedFrameScripts": {
+      "description": "Label for menu listing matching scripts in sub-frames.",
+      "message": "Chỉ hoạt động ở Khung phụ"
+   },
+   "menuMatchedScripts": {
+      "description": "Label for menu listing matched scripts.",
+      "message": "Script trùng khớp"
+   },
+   "menuNewScript": {
+      "description": "Menu item to create a new script.",
+      "message": "Tạo script mới"
+   },
+   "menuScriptDisabled": {
+      "description": "Menu item showing the status of Violentmonkey, when disabled.",
+      "message": "Đã vô hiệu hoá script"
+   },
+   "menuScriptEnabled": {
+      "description": "Menu item showing the status of Violentmonkey, when enabled.",
+      "message": "Đã kích hoạt script"
+   },
+   "msgCheckingForUpdate": {
+      "description": "Message shown when a script is being checked for updates by version numbers.",
+      "message": "Đang kiểm tra cập nhật..."
+   },
+   "msgErrorFetchingResource": {
+      "description": "Message shown when Violentmonkey fails fetching a resource/require/icon of the script.",
+      "message": "Lỗi nạp tài nguyên"
+   },
+   "msgErrorFetchingScript": {
+      "description": "Message shown when Violentmonkey fails fetching a new version of the script.",
+      "message": "Có lỗi khi tìm phiên bản mới!"
+   },
+   "msgErrorFetchingUpdateInfo": {
+      "description": "Message shown when Violentmonkey fails fetching version data of the script.",
+      "message": "Tìm kiếm thông tin cập nhật thất bại."
+   },
+   "msgErrorLoadingData": {
+      "description": "Message shown on confirm page when the script to be installed cannot be loaded.",
+      "message": "Không thể tải script."
+   },
+   "msgErrorLoadingDependency": {
+      "description": "Message shown when not all requirements are loaded successfully.",
+      "message": "Lỗi tải thư viện."
+   },
+   "msgImported": {
+      "description": "Message shown after import. There is an argument referring to the count of scripts imported.",
+      "message": "Đã nhập $1 script."
+   },
+   "msgIncognitoChanges": {
+      "description": "Message shown in popup and installation tab when opened in an incognito window.",
+      "message": "Những thay đổi bạn thực hiện trong chế độ ẩn danh cũng áp dụng cho cài đặt của bạn."
+   },
+   "msgInstalled": {
+      "description": "Message shown when a script is installed.",
+      "message": "Đã cài đặt script."
+   },
+   "msgInvalidScript": {
+      "description": "Message shown when script is invalid.",
+      "message": "Script không hợp lệ!"
+   },
+   "msgLoadingData": {
+      "description": "Message shown on confirm page when the script to be installed is loading.",
+      "message": "Đang tải thông tin script..."
+   },
+   "msgLoadingDependency": {
+      "description": "Message shown on confirm page when the requirements are being downloaded.",
+      "message": "Đang tải thư viện... ($1/$2)"
+   },
+   "msgNamespaceConflict": {
+      "description": "Message shown when namespace of the new script conflicts with an existent one.",
+      "message": "Xung đột namespace! Vui lòng sửa @name và @namespace."
+   },
+   "msgNewVersion": {
+      "description": "Message shown when a new version of script is found by @updateURL, but no @downloadURL is provided.",
+      "message": "Có phiên bản mới."
+   },
+   "msgNoUpdate": {
+      "description": "Message shown when there is no new version of a script.",
+      "message": "Không có cập nhật mới."
+   },
+   "msgSavedBlacklist": {
+      "description": "Message shown when blacklist are saved.",
+      "message": "Danh sách đen đã cập nhật."
+   },
+   "msgSavedCustomCSS": {
+      "description": "Message shown when custom CSS is saved.",
+      "message": "Giao diện tùy chỉnh đã cập nhật."
+   },
+   "msgSavedEditorOptions": {
+      "description": "Message shown when editor options are saved.",
+      "message": "Đã cập nhật cài đặt."
+   },
+   "msgSavedScriptTemplate": {
+      "description": "Message shown when custom script template is saved.",
+      "message": "Script template tuỳ chỉnh đã được lưu"
+   },
+   "msgScriptUpdated": {
+      "description": "Notification message for script updates.",
+      "message": "Script [$1] đã được cập nhật!"
+   },
+   "msgShowHide": {
+      "description": "Tooltip or text shown on a toggle that shows/hides stuff",
+      "message": "Show/hide"
+   },
+   "msgSyncError": {
+      "description": "Message shown when sync failed.",
+      "message": "Đồng bộ lỗi!"
+   },
+   "msgSyncInit": {
+      "description": "Message shown when sync service is initializing.",
+      "message": "Đang khởi tạo..."
+   },
+   "msgSyncInitError": {
+      "description": "Message shown when sync fails in initialization.",
+      "message": "Khởi tạo lỗi!"
+   },
+   "msgSyncReady": {
+      "description": "Message shown when sync will start soon.",
+      "message": "Đồng bộ sẽ chạy sớm..."
+   },
+   "msgSyncing": {
+      "description": "Message shown when sync is in progress.",
+      "message": "Đang đồng bộ..."
+   },
+   "msgUpdated": {
+      "description": "Message shown when a script is updated/reinstalled.",
+      "message": "Đã cập nhật script."
+   },
+   "msgUpdating": {
+      "description": "Message shown when a new version of script is being fetched.",
+      "message": "Đang cập nhật..."
+   },
+   "noValues": {
+      "description": "Label shown when there is no value for current script.",
+      "message": "Không có giá trị nào được lưu trữ"
+   },
+   "optionEditorWindow": {
+      "description": "Label for the option in settings",
+      "message": "Open editor from popup in a new window"
+   },
+   "optionEditorWindowHint": {
+      "description": "Tooltip for optionEditorWindow in case the browser doesn't support onBoundsChanged",
+      "message": "Editor window position will be remembered only on resizing or saving"
+   },
+   "optionEditorWindowSimple": {
+      "description": "Label for the editor window type",
+      "message": "Hide omnibox"
+   },
+   "optionPopupEnabledFirst": {
+      "description": "Option to show enabled scripts first in popup.",
+      "message": "Đã bật ở trước"
+   },
+   "optionPopupHideDisabled": {
+      "description": "Option to hide disabled scripts in popup.",
+      "message": "Ẩn script bị tắt"
+   },
+   "optionShowEnabledFirst": {
+      "description": "Option to show enabled scripts first in alphabetical order.",
+      "message": "Hiển thị script được bật ở trước"
+   },
+   "searchCaseSensitive": {
+      "description": "Option to perform a case-sensitive search",
+      "message": "Phân biệt hoa thường"
+   },
+   "searchUseRegex": {
+      "description": "Option to perform a regular expression search",
+      "message": "Dùng biểu thức chính quy"
+   },
+   "sideMenuAbout": {
+      "description": "Side menu: About",
+      "message": "Thông tin"
+   },
+   "sideMenuInstalled": {
+      "description": "Side menu: Installed scripts",
+      "message": "Script đã cài đặt"
+   },
+   "sideMenuSettings": {
+      "description": "Side menu: Settings",
+      "message": "Cài đặt"
+   },
+   "titleScriptUpdated": {
+      "description": "Notification title for script updates.",
+      "message": "Cập nhật"
+   },
+   "titleSearchHint": {
+      "description": "Hover title for search icon in dashboard.",
+      "message": "Nhập chính xác hoặc gần giống nội dung cần tìm"
+   },
+   "valueLabelKey": {
+      "description": "Label for key of a script value.",
+      "message": "Khóa (chuỗi)"
+   },
+   "valueLabelValue": {
+      "description": "Label for value of a script value.",
+      "message": "Giá trị (đã đưa về dạng JSON)"
+   },
+   "valueLabelValueAll": {
+      "description": "Label for input of entire script value storage.",
+      "message": "All values (serialized as JSON)"
+   },
+   "visitWebsite": {
+      "description": "Label for link to open Violentmonkey website.",
+      "message": "Truy cập trang web"
+   }
+}

@@ -1,0 +1,20 @@
+{
+   "chromesysAllowFileAccess": {
+      "message": "फाइल URL मध्ये प्रवेशास अनुमती द्या"
+   },
+   "chromesysDownloadLocation": {
+      "message": "डाउनलोड स्थान"
+   },
+   "chromesysDownloadsSection": {
+      "message": "डाउनलोड"
+   },
+   "chromesysShowAdvSettings": {
+      "message": "प्रगत सेटिंग्ज दर्शवा..."
+   },
+   "extName": {
+      "message": "Chrono Download Manager"
+   },
+   "uilangName": {
+      "message": "Marathi"
+   }
+}

@@ -1,0 +1,20 @@
+{
+   "chromesysAllowFileAccess": {
+      "message": "URL ಗಳನ್ನು ಫೈಲ್‌ಗಳಿಗೆ ಪ್ರವೇಶಿಸಲು ಅನುಮತಿಸಿ"
+   },
+   "chromesysDownloadLocation": {
+      "message": "ಡೌನ್‌ಲೋಡ್ ಮಾಡುವ ಸ್ಥಳ"
+   },
+   "chromesysDownloadsSection": {
+      "message": "ಡೌನ್‌ಲೋಡ್‌ಗಳು"
+   },
+   "chromesysShowAdvSettings": {
+      "message": "ಸುಧಾರಿತ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ತೋರಿಸು..."
+   },
+   "extName": {
+      "message": "Chrono Download Manager"
+   },
+   "uilangName": {
+      "message": "Kannada"
+   }
+}

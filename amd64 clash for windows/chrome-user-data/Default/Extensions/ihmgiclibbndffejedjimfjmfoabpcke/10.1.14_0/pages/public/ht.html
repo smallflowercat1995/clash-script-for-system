@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script defer src="../../src/lib/prevel.js"></script>
+    <script defer src="../../src/lib/jquery.js"></script>
+    <script defer src="../../src/lib/jqEase.js"></script>
+    <script defer src="../../src/kernel/kernel.js"></script>
+
+    <link href="../../res/styles/pages/common/pages_main.css" rel="stylesheet" type="text/css">
+    <link href="../../res/styles/pages/common/main.css" rel="stylesheet" type="text/css">
+    <link href="../../res/styles/pages/public/ht.css" rel="stylesheet" type="text/css">
+
+    <meta charset="utf-8">
+</head>
+
+<body class="stop-scrolling">
+
+<div class="loading-screen">
+    <div class="mate-loading"></div>
+</div>
+
+<div id="main-wrap">
+    <div class="top-wrap">
+        <div class="top-top">
+            <div class="screen-name need-html-locale" id="Ht_StripeTitle">Human translation</div>
+        </div>
+    </div>
+
+    <div class="content-wrap">
+        <div class="lang-selectors">
+            <div class="lang-particle from-lang" data-dir="from">
+                <div class="ui_selector">
+                    <div class="select">English (USA)</div>
+                    <div class="options opt-1" data-serial="1">
+                        <div class="dd-search">
+                            <input class="dd-input need-ph-locale" type="text"
+                                   data-dir="from"
+                                   id="Kernel_SearchPlaceholder">
+                        </div>
+                        <div id="selVisibleScroll-1">
+                            <div id="selEntireScroll-1">
+                                <div class="inner-options-layout">
+                                    <ul class="list">
+                                    </ul>
+                                </div>
+                            </div>
+                            <div id="sel-scrollbar-1">
+                                <div id="sel-track-1">
+                                    <div id="sel-dragBar-1"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="lang-swap">
+                <div class="swap-thumbnail"></div>
+            </div>
+            <div class="lang-particle to-lang" data-dir="to">
+                <div class="ui_selector">
+                    <div class="select">German (Germany)</div>
+                    <div class="options opt-2" data-serial="2">
+                        <div class="dd-search">
+                            <input class="dd-input need-ph-locale" type="text"
+                                   data-dir="to" id="Kernel_SearchPlaceholder">
+                        </div>
+                        <div id="selVisibleScroll-2">
+                            <div id="selEntireScroll-2">
+                                <div class="inner-options-layout">
+                                    <ul class="list">
+                                    </ul>
+                                </div>
+                            </div>
+                            <div id="sel-scrollbar-2">
+                                <div id="sel-track-2">
+                                    <div id="sel-dragBar-2"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="order-details">
+            <textarea rows="15" class="order-text need-ph-locale" id="Ht_InputPh" placeholder="Place the text you want to be translated by a professional translator here ..."></textarea>
+
+            <div class="controls">
+                <div class="user-data">
+                    <input type="text" class="mw-textfield user-email need-ph-locale" id="Login_Email" placeholder="Your email address ...">
+                    <div class="add-note need-html-locale" id="Ht_AddNote">Add note to the order</div>
+                    <textarea class="mw-textfield note need-ph-locale" id="Ht_YourNote" placeholder="Your note to the order ..."></textarea>
+                </div>
+
+                <div class="cost-layout">
+                    <div class="est-loading need-html-locale" id="Ht_PriceSearch">Looking for the best price...</div>
+                    <div class="est-data">
+                        <div class="est">
+                            <div class="est-label need-html-locale" id="Ht_Words">words</div>
+                            <div class="est-label need-html-locale" id="Ht_Price">price</div>
+                            <div class="est-label need-html-locale" id="Ht_EstTime">est. delivery time</div>
+                            <div class="est-box words-no"></div><div class="est-box cost-est"></div><div class="est-box time-est"></div>
+                        </div>
+                        <div class="est-note need-html-locale" id="Ht_Desc">Translation will occur by a professional native-speaking translator and be delivered to you per email you state after clicking on "Pay with card".</div>
+                    </div>
+                </div>
+                <button class="mw-button high-cta pay-button mw-disabled need-html-locale" id="Ht_PayCard">Pay with card</button>
+                <div class="pay-loading"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="order-successful-wrap">
+        <div class="os-data-layout">
+            <div class="os-title need-html-locale" id="Ht_OS">Your order was successfully paid and taken!</div>
+            <div class="os-desc"></div>
+        </div>
+        <div class="est">
+            <div class="est-label need-html-locale" id="Ht_YouPaid">you've paid</div><div class="est-label need-html-locale" id="Ht_EstTime">est. delivery time</div>
+            <div class="est-box cost-est"></div><div class="est-box time-est">23 hours</div>
+        </div>
+        <div class="est-note need-html-locale" id="Ht_EstTimeNote">Please note that this is only a rough time estimation, but normally it matches with the real time. Our translators are already doing their best to ship your translation back to you as soon as possible!</div>
+        <div class="os-text"></div>
+        <div class="os-buttons-layout">
+            <button class="mw-button close-button need-html-locale" id="Ht_Close">OK, close this window</button>
+            <button class="mw-button high-cta new-order-button need-html-locale" id="Ht_NewOrder">New order</button>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="f-b"><a href="https://matetranslate.com/mate-ht" target="_blank" class="need-html-locale" id="Ht_ReadMore">Read more about this feature</a></div>
+        <span class="f-bullet">-</span>
+        <div class="f-b"><a href="https://matetranslate.com/privacy" target="_blank" class="need-html-locale" id="Ht_PrivacyPolicy">Privacy Policy</a></div>
+        <span class="f-bullet">-</span>
+        <div class="f-b need-html-locale" id="Ht_ProblemsContact">Issues? <a href="mailto:support@matetranslate.com?subject=HT Issue">Contact us</a>!</div>
+    </div>
+</div>
+</body>
+</html>

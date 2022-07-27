@@ -1,0 +1,1 @@
+!function(e){var r=ke.getLocale("Kernel_Network_Error"),o=ke.getLocale("Kernel_Network_Error_DataLoading");pl.extend(ke.ext.errorManager,{showNetworkError:function(){ke.ui.tooltip.modal.show([r,o],"center",15,290,200)}})}();

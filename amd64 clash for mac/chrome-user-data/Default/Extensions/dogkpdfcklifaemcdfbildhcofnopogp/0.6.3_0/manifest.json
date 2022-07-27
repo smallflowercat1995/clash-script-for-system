@@ -1,0 +1,25 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "chrome-state-manager.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_end"
+   } ],
+   "description": "An extension that allows local viewing of Axure RP prototypes from Google Chrome.",
+   "icons": {
+      "128": "axurerp-128.png",
+      "48": "axurerp-48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDPUH3FuFsnOqXH9p+C0MprXAJu5+MHVSZGstC/hy7ku7iOsIcOcjS2S/c57mVFlXEOTV18XL2TWsHBBuwxIRiDiBs5JIeJAfDi4x5lcruUZhyeoAYMLYwtsmYw4Qh7DpTS5mIwnxOn+Ht6AS/Ew49sFskHMfy7CQTZBio7MkTFpwIDAQAB",
+   "manifest_version": 2,
+   "name": "Axure RP Extension for Chrome",
+   "page_action": {
+      "default_icon": "axurerp-16.png"
+   },
+   "permissions": [ "tabs" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.6.3"
+}

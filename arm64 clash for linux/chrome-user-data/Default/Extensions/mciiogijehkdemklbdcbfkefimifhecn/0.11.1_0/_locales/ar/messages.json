@@ -1,0 +1,20 @@
+{
+   "chromesysAllowFileAccess": {
+      "message": "السماح بالدخول إلى عناوين URL للملفات"
+   },
+   "chromesysDownloadLocation": {
+      "message": "حفظ التزيلات في المجلد"
+   },
+   "chromesysDownloadsSection": {
+      "message": "التنزيلات"
+   },
+   "chromesysShowAdvSettings": {
+      "message": "عرض الإعدادات المتقدمة..."
+   },
+   "extName": {
+      "message": "Chrono Download Manager"
+   },
+   "uilangName": {
+      "message": "Arabic"
+   }
+}

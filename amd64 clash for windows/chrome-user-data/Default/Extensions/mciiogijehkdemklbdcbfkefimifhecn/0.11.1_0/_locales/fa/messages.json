@@ -1,0 +1,20 @@
+{
+   "chromesysAllowFileAccess": {
+      "message": "‏اجازهٔ دسترسی به URL های فایل"
+   },
+   "chromesysDownloadLocation": {
+      "message": "مکان دانلود"
+   },
+   "chromesysDownloadsSection": {
+      "message": "دانلودها"
+   },
+   "chromesysShowAdvSettings": {
+      "message": "نمایش تنظیمات پیشرفته ..."
+   },
+   "extName": {
+      "message": "Chrono Download Manager"
+   },
+   "uilangName": {
+      "message": "Persian"
+   }
+}

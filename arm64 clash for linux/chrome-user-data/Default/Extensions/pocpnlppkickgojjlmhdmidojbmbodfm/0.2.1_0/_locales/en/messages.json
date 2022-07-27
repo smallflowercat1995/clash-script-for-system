@@ -1,0 +1,738 @@
+{
+   "APIERRMSG_ABORTED": {
+      "description": "Error message that is shown if the operation is aborted",
+      "message": "Operation interrupted."
+   },
+   "APIERRMSG_DEVICE_LIST_ERROR": {
+      "description": "Error message that is shown if there was an error trying to detect removable USB drive and SD cards",
+      "message": "Unable to find a USB drive or SD card."
+   },
+   "APIERRMSG_DEVICE_LIST_ERROR_ON_HUB": {
+      "description": "Error message that is shown if there was an error trying to detect removable USB drives",
+      "message": "Unable to find a USB drive."
+   },
+   "APIERRMSG_DEVICE_LIST_ERROR_WORKSPACE_HARDWARE": {
+      "description": "Error message that is shown if there was an error trying to detect removable USB drives",
+      "message": "Unable to find a USB drive."
+   },
+   "APIERRMSG_DEVICE_WRITE_ERROR": {
+      "description": "Error message that is shown if there is an error when attempting to write to the selected recovery media.",
+      "message": "Unable to write to the selected USB flash drive or SD card. Your device's write permissions may be disabled, or your domain administration may have disabled writing to USB storage."
+   },
+   "APIERRMSG_DOWNLOAD_CANCELLED": {
+      "description": "Error message that is shown if the user cancels the write operation during download",
+      "message": "Download canceled."
+   },
+   "APIERRMSG_DOWNLOAD_HASH_MISMATCH": {
+      "description": "Error message that is shown if the downloaded file doesn't hash to the expected value",
+      "message": "The file is invalid."
+   },
+   "APIERRMSG_DOWNLOAD_INTERRUPTED": {
+      "description": "Error message that is shown if the downloaded was interrupted for any reason",
+      "message": "Download interrupted. Please check your network connection and try again."
+   },
+   "APIERRMSG_FILE_INVALID": {
+      "description": "Error message that is shown if the file to write is not valid",
+      "message": "File is invalid."
+   },
+   "APIERRMSG_OPERATION_ALREADY_IN_PROGRESS": {
+      "description": "Error message that is shown if user tries to start a new write operation and there is already one in progress",
+      "message": "An operation is already in progress."
+   },
+   "APIERRMSG_UNKNOWN": {
+      "description": "Error message that is shown if no matching error message can be found",
+      "message": "Unknown error: $errorCode$.",
+      "placeholders": {
+         "errorCode": {
+            "content": "$1",
+            "example": "Error code"
+         }
+      }
+   },
+   "APIERRMSG_UNSUPPORTED_OPERATION": {
+      "description": "Error message that is shown if the user triggers an unsupported operation",
+      "message": "Unsupported operation."
+   },
+   "APIERRMSG_UNZIP_ERROR": {
+      "description": "Error message that is shown if the file cannot be unzipped for any reason",
+      "message": "Unable to unzip file. Please check if your device has enough space and try again."
+   },
+   "APIERRMSG_UNZIP_INVALID_ARCHIVE": {
+      "description": "Error message that is shown if the file is not a valid ZIP file",
+      "message": "Invalid zip file."
+   },
+   "APIERRMSG_URL_INVALID": {
+      "description": "Error message that is shown if no file is found at the URL to download",
+      "message": "File not found."
+   },
+   "APIERRMSG_VERIFICATION_FAILED": {
+      "description": "Error message that is shown if the image was not written properly",
+      "message": "Image verification failed."
+   },
+   "APP_DESCRIPTION": {
+      "description": "High-level description of the application",
+      "message": "Create recovery media for your Chromebook."
+   },
+   "APP_DESCRIPTION_ON_HUB": {
+      "description": "High-level description of the application",
+      "message": "Create a recovery USB drive for your OnHub."
+   },
+   "APP_DESCRIPTION_WORKSPACE_HARDWARE": {
+      "description": "High-level description of the application",
+      "message": "Create a recovery USB drive for your Meet Compute System."
+   },
+   "APP_NAME": {
+      "description": "Name of the application. Cannot exceed 45 characters.",
+      "message": "Chromebook Recovery Utility"
+   },
+   "APP_NAME_ON_HUB": {
+      "description": "Name of the application. Cannot exceed 45 characters.",
+      "message": "OnHub Recovery Utility"
+   },
+   "APP_NAME_WORKSPACE_HARDWARE": {
+      "description": "Name of the application. Cannot exceed 45 characters.",
+      "message": "Meet Compute System Recovery Utility"
+   },
+   "APP_SHORT_NAME": {
+      "description": "A short name for the app shown when space is limited. Fewer than 12 characters preferred.",
+      "message": "Recovery"
+   },
+   "CANCEL_BUTTON_TEXT": {
+      "description": "Text for the cancel button",
+      "message": "Cancel"
+   },
+   "CHROME_APP_DEPRECATION_MESSAGE": {
+      "description": "Warning message shown to Chromebook users in the welcome screen.",
+      "message": "As announced publicly on the \u003Ca href=\"https://blog.chromium.org/2020/08/changes-to-chrome-app-support-timeline.html\" target=\"_blank\" tabindex=\"0\">Chromium blog\u003C/a>, Google is dropping support for Chrome Apps in June 2021. Please use the \u003Ca href=\"https://chrome.google.com/webstore/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm\" target=\"_blank\">Chromebook Recovery Utility extension\u003C/a> and related \u003Ca href=\"http://www.google.com/chromeos/recovery\" target=\"_blank\">documentation\u003C/a> to recover your device(s)."
+   },
+   "CHROME_APP_DEPRECATION_MESSAGE_ON_HUB": {
+      "description": "Warning message shown to OnHub users in the welcome screen.",
+      "message": "As announced publicly on the \u003Ca href=\"https://blog.chromium.org/2020/08/changes-to-chrome-app-support-timeline.html\" target=\"_blank\" tabindex=\"0\">Chromium blog\u003C/a>, Google is dropping support for Chrome Apps in June 2021. Please use the \u003Ca href=\"https://chrome.google.com/webstore/detail/onhub-recovery-utility/fmgkgdalfapcmjnanilfcpkhkhedmpdm\" target=\"_blank\">OnHub Recovery Utility extension\u003C/a> and related \u003Ca href=\"https://support.google.com/onhub/answer/6274977\" target=\"_blank\">documentation\u003C/a> to recover your device(s)."
+   },
+   "COMPLETED": {
+      "description": "Shown as part of the text 'x% completed'",
+      "message": "completed"
+   },
+   "COMPLETE_BULLET1": {
+      "description": "Shown on the completed screen",
+      "message": "To recover your Chromebook, plug the recovery media in to your Chromebook."
+   },
+   "COMPLETE_BULLET1_ON_HUB": {
+      "description": "Shown on the completed screen",
+      "message": "Unplug the power cable from your OnHub and insert the USB drive into the back of the device. Hold down the reset button and plug in power. Continue to hold the reset button for about 15 seconds or until the activity light on the USB drive starts to blink."
+   },
+   "COMPLETE_BULLET1_WORKSPACE_HARDWARE": {
+      "description": "Shown on the completed screen",
+      "message": "To recover your Meet Compute System, follow the instructions in \u003Ca href=\"http://support.google.com/meethardware/answer/10562922#zippy=%2Cstep-enter-recovery-mode\" target=\"_blank\">Recover your Google Meet Hardware compute box, Step 3: Enter recovery mode\u003C/a>"
+   },
+   "COMPLETE_BULLET2": {
+      "description": "Shown on the completed screen",
+      "message": "After recovery, you can erase your recovery media using this utility."
+   },
+   "COMPLETE_BULLET2_ON_HUB": {
+      "description": "Shown on the completed screen",
+      "message": "Your OnHub will go through the recovery process, which can take several minutes. Once your OnHub has been recovered, it will reboot. Then use the Google On app to set up your OnHub."
+   },
+   "COMPLETE_BULLET2_WORKSPACE_HARDWARE": {
+      "description": "Shown on the completed screen",
+      "message": "To erase the USB flash drive when finished, start the Meet Compute System Recovery Utility, click \u003Cb>Settings\u003C/b> and then click \u003Cb>Erase recovery media\u003C/b>"
+   },
+   "COMPLETE_MESSAGE": {
+      "description": "Shown on the completed screen",
+      "message": "You can remove your recovery media now."
+   },
+   "COMPLETE_MESSAGE_ON_HUB": {
+      "description": "Shown on the completed screen",
+      "message": "You can remove your recovery USB drive now."
+   },
+   "COMPLETE_MESSAGE_WORKSPACE_HARDWARE": {
+      "description": "Shown on the completed screen",
+      "message": "You can remove the flash drive now"
+   },
+   "COMPLETE_TITLE": {
+      "description": "Title of the completed screen",
+      "message": "Success! Your recovery media is ready"
+   },
+   "COMPLETE_TITLE_ON_HUB": {
+      "description": "Title of the completed screen",
+      "message": "Success! Your recovery USB drive is ready"
+   },
+   "COMPLETE_TITLE_WORKSPACE_HARDWARE": {
+      "description": "Title of the completed screen",
+      "message": "Success! Your recovery USB drive is ready"
+   },
+   "CONFIRM_CANCELLED_MESSAGE_HTML": {
+      "description": "Indicates that the operation has been cancelled",
+      "message": "Canceled. Click on &rdquo;Create now&rdquo; to try again.\u003Cbr>\u003Cbr>To erase your recovery media, click on the gear icon in the top right corner."
+   },
+   "CONFIRM_CANCELLED_MESSAGE_HTML_ON_HUB": {
+      "description": "Indicates that the operation has been cancelled",
+      "message": "Canceled. Click on &rdquo;Create now&rdquo; to try again.\u003Cbr>\u003Cbr>To erase your recovery USB drive, click on the gear icon in the top right corner."
+   },
+   "CONFIRM_CANCELLED_MESSAGE_HTML_WORKSPACE_HARDWARE": {
+      "description": "Indicates that the operation has been cancelled",
+      "message": "Canceled. Click on &rdquo;Create now&rdquo; to try again.\u003Cbr>\u003Cbr>To erase your recovery USB drive, click on the gear icon in the top right corner."
+   },
+   "CONFIRM_HIDE_ADVANCED_SETTINGS_MESSAGE": {
+      "description": "Title message for hiding advanced settings section",
+      "message": "Hide Advanced Settings"
+   },
+   "CONFIRM_MESSAGE_HTML": {
+      "description": "Important message, indicates what the application is going to do",
+      "message": "\u003Cb>Important:\u003C/b> All data and partitions on your recovery media will be deleted."
+   },
+   "CONFIRM_MESSAGE_HTML_ON_HUB": {
+      "description": "Important message, indicates what the application is going to do",
+      "message": "\u003Cb>Important:\u003C/b> All data and partitions on your recovery USB drive will be deleted."
+   },
+   "CONFIRM_MESSAGE_HTML_WORKSPACE_HARDWARE": {
+      "description": "Important message, indicates what the application is going to do",
+      "message": "\u003Cb>Important:\u003C/b> Everything on your flash drive will be deleted"
+   },
+   "CONFIRM_SHOW_ADVANCED_SETTINGS_MESSAGE": {
+      "description": "Title message for showing advanced settings section",
+      "message": "Show Advanced Settings"
+   },
+   "CONFIRM_TITLE": {
+      "description": "Title for the confirmation screen",
+      "message": "Create a recovery image"
+   },
+   "CONTINUE_BUTTON_TEXT": {
+      "description": "Text for the continue button at the bottom of the screen",
+      "message": "Continue"
+   },
+   "CREATE_ANOTHER_BUTTON_TEXT": {
+      "description": "Text for the button to go back to the start of the application after the recovery disk has been created",
+      "message": "Create another"
+   },
+   "CREATE_NOW_BUTTON_TEXT": {
+      "description": "Text for the button to start the recovery disk creation",
+      "message": "Create now"
+   },
+   "DEV_APP_DESCRIPTION": {
+      "description": "High-level description of the Chromebook Dev application",
+      "message": "Development version of the Chromebook Recovery Utility."
+   },
+   "DEV_APP_DESCRIPTION_ON_HUB": {
+      "description": "High-level description of the OnHub Dev application",
+      "message": "Development version of the OnHub Recovery Utility."
+   },
+   "DEV_APP_DESCRIPTION_WORKSPACE_HARDWARE": {
+      "description": "High-level description of the Meet Compute System Dev application",
+      "message": "Development version of the Meet Compute System Recovery Utility."
+   },
+   "DEV_APP_NAME": {
+      "description": "Name of the dev application. Cannot exceed 45 characters.",
+      "message": "Chromebook Recovery Utility Dev"
+   },
+   "DEV_APP_NAME_ON_HUB": {
+      "description": "Name of the dev application. Cannot exceed 45 characters.",
+      "message": "OnHub Recovery Utility Dev"
+   },
+   "DEV_APP_NAME_WORKSPACE_HARDWARE": {
+      "description": "Name of the application. Cannot exceed 45 characters.",
+      "message": "Meet Compute System Recovery Utility Dev"
+   },
+   "DONE_BUTTON_TEXT": {
+      "description": "Text for the button to close the application after the recovery disk has been created / Text for the button to go back to the start of the application after the recovery disk has been erased",
+      "message": "Done"
+   },
+   "ERASE_COMPLETE_BULLET1": {
+      "description": "Shown on the erase completed screen",
+      "message": "Your USB drive or SD card is prepared for formatting."
+   },
+   "ERASE_COMPLETE_BULLET1_ON_HUB": {
+      "description": "Shown on the erase completed screen",
+      "message": "Your USB drive is prepared for formatting."
+   },
+   "ERASE_COMPLETE_BULLET1_WORKSPACE_HARDWARE": {
+      "description": "Shown on the erase completed screen",
+      "message": "Your USB drive is prepared for formatting."
+   },
+   "ERASE_COMPLETE_BULLET2": {
+      "description": "Shown on the erase completed screen",
+      "message": "Format using a formatting tool provided by your operating system."
+   },
+   "ERASE_COMPLETE_TITLE": {
+      "description": "Title for erase completed screen",
+      "message": "Your recovery media has been erased."
+   },
+   "ERASE_COMPLETE_TITLE_ON_HUB": {
+      "description": "Title for erase completed screen",
+      "message": "Your recovery USB drive has been erased."
+   },
+   "ERASE_COMPLETE_TITLE_WORKSPACE_HARDWARE": {
+      "description": "Title for erase completed screen",
+      "message": "Your recovery USB drive has been erased."
+   },
+   "ERASE_CONFIRM_MESSAGE": {
+      "description": "Important message, indicates what the application is going to do",
+      "message": "The recovery image and all partitions on your recovery media will be erased."
+   },
+   "ERASE_CONFIRM_MESSAGE_ON_HUB": {
+      "description": "Important message, indicates what the application is going to do",
+      "message": "The recovery image and all partitions on your recovery USB drive will be erased."
+   },
+   "ERASE_CONFIRM_MESSAGE_WORKSPACE_HARDWARE": {
+      "description": "Important message, indicates what the application is going to do",
+      "message": "The recovery image and all partitions on your recovery USB drive will be erased."
+   },
+   "ERASE_NOW_BUTTON_TEXT": {
+      "description": "Text for the button to start the recovery disk erasure",
+      "message": "Erase now"
+   },
+   "ERASE_PROGRESS_TEXT": {
+      "description": "Shown when the drive is being erased",
+      "message": "Don’t remove your recovery media."
+   },
+   "ERASE_PROGRESS_TEXT_ON_HUB": {
+      "description": "Shown when the drive is being erased",
+      "message": "Don’t remove your recovery USB drive."
+   },
+   "ERASE_PROGRESS_TEXT_WORKSPACE_HARDWARE": {
+      "description": "Shown when the drive is being erased",
+      "message": "Don’t remove your recovery USB drive."
+   },
+   "ERASE_PROGRESS_TITLE": {
+      "description": "Title for the screen where the drive is being erased",
+      "message": "Erasing your recovery media"
+   },
+   "ERASE_PROGRESS_TITLE_ON_HUB": {
+      "description": "Title for the screen where the drive is being erased",
+      "message": "Erasing your recovery USB drive"
+   },
+   "ERASE_PROGRESS_TITLE_WORKSPACE_HARDWARE": {
+      "description": "Title for the screen where the drive is being erased",
+      "message": "Erasing your recovery USB drive"
+   },
+   "ERASE_SELECT_TARGET_DETECTING": {
+      "description": "Indicates that the app is currently detecting the list of USB devices",
+      "message": "Detecting"
+   },
+   "ERASE_SELECT_TARGET_HIGH_CAPACITY_WARNING_HTML": {
+      "description": "Warning that is shown if the user selects a drive with a high capacity",
+      "message": "\u003Cb>Warning:\u003C/b> Is this the correct drive?"
+   },
+   "ERASE_SELECT_TARGET_NO_DEVICES_FOUND": {
+      "description": "Indicates that no USB devices were found",
+      "message": "No USB drives or SD cards found"
+   },
+   "ERASE_SELECT_TARGET_NO_DEVICES_FOUND_ON_HUB": {
+      "description": "Indicates that no USB devices were found",
+      "message": "No USB drives found"
+   },
+   "ERASE_SELECT_TARGET_NO_DEVICES_FOUND_WORKSPACE_HARDWARE": {
+      "description": "Indicates that no USB devices were found",
+      "message": "No USB drives found"
+   },
+   "ERASE_SELECT_TARGET_SELECT_DEVICE": {
+      "description": "Prompts the user to select a drive",
+      "message": "Select the recovery media you'd like to erase."
+   },
+   "ERASE_SELECT_TARGET_SELECT_DEVICE_ON_HUB": {
+      "description": "Prompts the user to select a drive",
+      "message": "Select the recovery USB drive you'd like to erase."
+   },
+   "ERASE_SELECT_TARGET_SELECT_DEVICE_PLACEHOLDER": {
+      "description": "Prompts the user to select a drive (text is shown inside the dropdown)",
+      "message": "Select"
+   },
+   "ERASE_SELECT_TARGET_SELECT_DEVICE_WORKSPACE_HARDWARE": {
+      "description": "Prompts the user to select a drive",
+      "message": "Select the recovery USB drive you'd like to erase."
+   },
+   "ERASE_TITLE": {
+      "description": "Title for the screens related to erasing",
+      "message": "Erase recovery media"
+   },
+   "ERASE_TITLE_ON_HUB": {
+      "description": "Title for the screens related to erasing",
+      "message": "Erase recovery USB drive"
+   },
+   "ERASE_TITLE_WORKSPACE_HARDWARE": {
+      "description": "Title for the screens related to erasing",
+      "message": "Erase recovery USB drive"
+   },
+   "ERRMSG_PLEASE_TRY_AGAIN": {
+      "description": "Error text that is shown after the error message",
+      "message": "Please try again."
+   },
+   "ERRMSG_RECOVERY_CONFIG_DOWNLOAD_FAILURE": {
+      "description": "Error message that is shown if the app's configuration file cannot be downloaded. In this case, the app will only be able to support offline features.",
+      "message": "Failed to download configuration file. Only offline features will be available."
+   },
+   "GET_STARTED_BUTTON_TEXT": {
+      "description": "Text for the 'get started' button at the bottom of the screen",
+      "message": "Get started"
+   },
+   "GIGABYTE_ABBREVIATION": {
+      "description": "The abbreviation for gigabyte",
+      "message": "GB"
+   },
+   "GO_BACK_BUTTON_TEXT": {
+      "description": "Text for the back button at the bottom of the screen",
+      "message": "Go back"
+   },
+   "HOURS_REMAINING": {
+      "description": "A message that indicates the time remaining for an operation.",
+      "message": "$hours$ hours remaining.",
+      "placeholders": {
+         "hours": {
+            "content": "$1",
+            "example": "The number of hours remaining."
+         }
+      }
+   },
+   "HWID_INVALID_MODEL": {
+      "description": "Message shown to user when it's clear that what they have entered doesn't match any valid model number.",
+      "message": "Invalid model number. Please check your entry."
+   },
+   "HWID_KEEP_TYPING": {
+      "description": "Message shown to user when they have no yet entered enough info to determine a specific device.",
+      "message": "No model found yet. Keep typing."
+   },
+   "HWID_KEEP_TYPING_WORKSPACE_HARDWARE": {
+      "description": "Message shown to user when they have no yet entered enough info to determine a specific device.",
+      "message": "No model found yet"
+   },
+   "HWID_MATCH_FOUND": {
+      "description": "Message shown to user when they have entered enough info to determine a specific device.",
+      "message": "Found a match"
+   },
+   "HWID_MATCH_FOUND_AND_CHECKSUM_VERIFIED": {
+      "description": "Message shown to user when they have entered a full model number and the checksum is verified.",
+      "message": "Found a match with the exact model name"
+   },
+   "LEARN_MORE_LINK_TEXT": {
+      "description": "Text for the 'learn more' link at the bottom left of the screen",
+      "message": "Learn more"
+   },
+   "LEARN_MORE_LINK_URL": {
+      "description": "URL for the 'learn more' link at the bottom left of the screen",
+      "message": "http://www.google.com/chromeos/recovery"
+   },
+   "LEARN_MORE_LINK_URL_ON_HUB": {
+      "description": "URL for the 'learn more' link at the bottom left of the screen",
+      "message": "https://support.google.com/onhub/answer/6274977"
+   },
+   "LEARN_MORE_LINK_URL_WORKSPACE_HARDWARE": {
+      "description": "URL for the 'learn more' link at the bottom left of the screen",
+      "message": "http://support.google.com/meethardware/answer/10562922"
+   },
+   "LOADING_CONFIG_TEXT": {
+      "description": "Message to user indicating that the app is downloading latest information about recovery for different devices. It is preparing itself to be used.",
+      "message": "Preparing ... "
+   },
+   "MENU_ITEM_ERASE_RECOVERY_MEDIA": {
+      "description": "Text for the menu item to erase recovery media",
+      "message": "Erase recovery media"
+   },
+   "MENU_ITEM_ERASE_RECOVERY_MEDIA_ON_HUB": {
+      "description": "Text for the menu item to erase recovery USB drive",
+      "message": "Erase recovery USB drive"
+   },
+   "MENU_ITEM_ERASE_RECOVERY_MEDIA_WORKSPACE_HARDWARE": {
+      "description": "Text for the menu item to erase recovery USB drive",
+      "message": "Erase recovery USB drive"
+   },
+   "MENU_ITEM_SEND_FEEDBACK": {
+      "description": "Text for the menu item to send feedback",
+      "message": "Send feedback"
+   },
+   "MENU_ITEM_USE_LOCAL_IMAGE": {
+      "description": "Text for the menu item to use a local file as the source image for the recovery disk",
+      "message": "Use local image"
+   },
+   "MINUTES_REMAINING": {
+      "description": "A message that indicates the time remaining for an operation.",
+      "message": "$minutes$ minutes remaining.",
+      "placeholders": {
+         "minutes": {
+            "content": "$1",
+            "example": "The number of minutes remaining."
+         }
+      }
+   },
+   "OF": {
+      "description": "Shown as part of the text 'step %x of %x'",
+      "message": "of"
+   },
+   "RECOVERY_CHANNEL_BETA": {
+      "description": "Text for beta channel selection",
+      "message": "Beta"
+   },
+   "RECOVERY_CHANNEL_DEV": {
+      "description": "Text for dev channel selection",
+      "message": "Dev"
+   },
+   "RECOVERY_CHANNEL_LTC": {
+      "description": "Text for LTC channel selection",
+      "message": "Long-term Support Candidate (Enterprise-only)"
+   },
+   "RECOVERY_CHANNEL_LTS": {
+      "description": "Text for LTS channel selection",
+      "message": "Long-term Support (Enterprise-only)"
+   },
+   "RECOVERY_CHANNEL_STABLE": {
+      "description": "Text for stable channel selection",
+      "message": "Stable"
+   },
+   "SECONDS_REMAINING": {
+      "description": "A message that indicates the time remaining for an operation.",
+      "message": "$seconds$ seconds remaining.",
+      "placeholders": {
+         "seconds": {
+            "content": "$1",
+            "example": "The number of seconds remaining."
+         }
+      }
+   },
+   "SELECT_CHANNEL_PLACEHOLDER": {
+      "description": "The intended channel to download a recovery for. Example values are Chrome OS channels such as Dev, Beta, and Stable.",
+      "message": "Select a recovery channel"
+   },
+   "SELECT_IMAGE_SELECT_BY_HWID_LINK_TEXT": {
+      "description": "Text for the 'select by model number' link",
+      "message": "Enter a model number directly"
+   },
+   "SELECT_IMAGE_SELECT_FROM_LIST_LINK_TEXT": {
+      "description": "Text for 'select by model' link",
+      "message": "Select a model from a list"
+   },
+   "SELECT_IMAGE_SELECT_MANUFACTURER_PLACEHOLDER": {
+      "description": "Prompts the user to select a manufacturer (text is shown inside the dropdown)",
+      "message": "Select a manufacturer"
+   },
+   "SELECT_IMAGE_SELECT_PRODUCT_PLACEHOLDER": {
+      "description": "Prompts the user to select a product (text is shown inside the dropdown)",
+      "message": "Select a product"
+   },
+   "SELECT_IMAGE_SELECT_PRODUCT_PLACEHOLDER_ON_HUB": {
+      "description": "Prompts the user to select a product (text is shown inside the dropdown)",
+      "message": "Select a model"
+   },
+   "SELECT_IMAGE_SELECT_PRODUCT_PLACEHOLDER_WORKSPACE_HARDWARE": {
+      "description": "Prompts the user to select a product (text is shown inside the dropdown)",
+      "message": "Select a model"
+   },
+   "SELECT_IMAGE_TEXT": {
+      "description": "Prompts the user to enter a model number. Refers to the recovery screen.",
+      "message": "Enter the model number of the Chromebook to recover. It can be found on the recovery screen."
+   },
+   "SELECT_IMAGE_TEXT_ON_HUB": {
+      "description": "Prompts the user to enter a model number. Refers to the recovery screen.",
+      "message": "Enter your OnHub's model number."
+   },
+   "SELECT_IMAGE_TEXT_WORKSPACE_HARDWARE": {
+      "description": "Prompts the user to enter a model number. Refers to the recovery screen.",
+      "message": "Enter the model number of your Meet Compute System"
+   },
+   "SELECT_IMAGE_THIS_CHROMEBOOKS_MODEL_NUMBER": {
+      "description": "Label that precedes a HWID string (e.g.: LINK D25-E5M-K75) that is the model number for the Chromebook the user is using. The HWID string is hyperlinked and clicking on it will populate the value into the model number input field. In English, this would for example read 'For this Chromebook, enter _LINK D25-E5M-K75_'",
+      "message": "For this Chromebook, enter"
+   },
+   "SELECT_IMAGE_THIS_CHROMEBOOKS_MODEL_NUMBER_ON_HUB": {
+      "description": "Label that precedes a HWID string (e.g.: ARKHAM D25-E5M-K75) that is the model number for the OnHub the user is using. The HWID string is hyperlinked and clicking on it will populate the value into the model number input field. In English, this would for example read 'For this OnHub, enter _LINK D25-E5M-K75_'",
+      "message": "For this OnHub, enter"
+   },
+   "SELECT_IMAGE_THIS_CHROMEBOOKS_MODEL_NUMBER_WORKSPACE_HARDWARE": {
+      "description": "Label that precedes a HWID string (e.g.: ARKHAM D25-E5M-K75) that is the model number for the Meet Compute System the user is using. The HWID string is hyperlinked and clicking on it will populate the value into the model number input field. In English, this would for example read 'For this OnHub, enter _LINK D25-E5M-K75_'",
+      "message": "For this Meet Compute System, enter"
+   },
+   "SELECT_IMAGE_TITLE": {
+      "description": "Title for the image selection screen",
+      "message": "Identify your Chromebook"
+   },
+   "SELECT_IMAGE_TITLE_ON_HUB": {
+      "description": "Title for the image selection screen",
+      "message": "Identify your OnHub"
+   },
+   "SELECT_IMAGE_TITLE_WORKSPACE_HARDWARE": {
+      "description": "Title for the image selection screen",
+      "message": "Identify your Meet Compute System"
+   },
+   "SELECT_TARGET_DETECTING": {
+      "description": "Indicates that the app is currently detecting the list of USB devices",
+      "message": "Detecting"
+   },
+   "SELECT_TARGET_HIGH_CAPACITY_WARNING_HTML": {
+      "description": "Warning that is shown if the user selects a drive with a high capacity",
+      "message": "\u003Cb>Warning:\u003C/b> Is this the correct media?"
+   },
+   "SELECT_TARGET_HIGH_CAPACITY_WARNING_HTML_ON_HUB": {
+      "description": "Warning that is shown if the user selects a drive with a high capacity",
+      "message": "\u003Cb>Warning:\u003C/b> Is this the correct USB drive?"
+   },
+   "SELECT_TARGET_HIGH_CAPACITY_WARNING_HTML_WORKSPACE_HARDWARE": {
+      "description": "Warning that is shown if the user selects a drive with a high capacity",
+      "message": "\u003Cb>Warning:\u003C/b> Is this the correct USB drive?"
+   },
+   "SELECT_TARGET_LOW_CAPACITY_ERROR": {
+      "description": "Error that is shown if the user selects a drive with not enough capacity",
+      "message": "Your media must be at least 8GB."
+   },
+   "SELECT_TARGET_LOW_CAPACITY_ERROR_ON_HUB": {
+      "description": "Error that is shown if the user selects a drive with not enough capacity",
+      "message": "Your USB drive must be at least 8GB."
+   },
+   "SELECT_TARGET_LOW_CAPACITY_ERROR_WORKSPACE_HARDWARE": {
+      "description": "Error that is shown if the user selects a drive with not enough capacity",
+      "message": "Your USB drive must be at least 8GB."
+   },
+   "SELECT_TARGET_NO_DEVICES_FOUND": {
+      "description": "Indicates that no USB devices were found",
+      "message": "No USB drives or SD cards found"
+   },
+   "SELECT_TARGET_NO_DEVICES_FOUND_ON_HUB": {
+      "description": "Indicates that no USB devices were found",
+      "message": "No USB drives found"
+   },
+   "SELECT_TARGET_NO_DEVICES_FOUND_WORKSPACE_HARDWARE": {
+      "description": "Indicates that no USB devices were found",
+      "message": "No USB drives found"
+   },
+   "SELECT_TARGET_SELECT_DEVICE": {
+      "description": "Prompts the user to select a drive",
+      "message": "Select the media you'd like to use."
+   },
+   "SELECT_TARGET_SELECT_DEVICE_ON_HUB": {
+      "description": "Prompts the user to select a drive",
+      "message": "Select the USB drive you'd like to use."
+   },
+   "SELECT_TARGET_SELECT_DEVICE_PLACEHOLDER": {
+      "description": "Prompts the user to select a drive (text is shown inside the dropdown)",
+      "message": "Select"
+   },
+   "SELECT_TARGET_SELECT_DEVICE_WORKSPACE_HARDWARE": {
+      "description": "Prompts the user to select a drive",
+      "message": "Select the USB drive you'd like to use."
+   },
+   "SELECT_TARGET_TITLE": {
+      "description": "Title for the screen where the user selects the target USB device",
+      "message": "Insert your USB flash drive or SD card"
+   },
+   "SELECT_TARGET_TITLE_ON_HUB": {
+      "description": "Title for the screen where the user selects the target USB device",
+      "message": "Insert your USB flash drive"
+   },
+   "SELECT_TARGET_TITLE_WORKSPACE_HARDWARE": {
+      "description": "Title for the screen where the user selects the target USB device",
+      "message": "Insert your USB flash drive"
+   },
+   "STAGE_COMPLETE": {
+      "description": "Status text that is shown when the drive is being created",
+      "message": "Completed"
+   },
+   "STAGE_DOWNLOAD": {
+      "description": "Status text that is shown when the drive is being created",
+      "message": "Downloading"
+   },
+   "STAGE_DOWNLOADVERIFY": {
+      "description": "Status text that is shown when the drive is being created",
+      "message": "Verifying download"
+   },
+   "STAGE_UNPACK": {
+      "description": "Status text that is shown when the drive is being created",
+      "message": "Unpacking"
+   },
+   "STAGE_UNZIP": {
+      "description": "Status text that is shown when the drive is being created",
+      "message": "Unpacking"
+   },
+   "STAGE_VERIFY": {
+      "description": "Status text that is shown when the drive is being created",
+      "message": "Verifying"
+   },
+   "STAGE_VERIFYDOWNLOAD": {
+      "description": "Status text that is shown when the drive is being created",
+      "message": "Verifying download"
+   },
+   "STAGE_VERIFYWRITE": {
+      "description": "Status text that is shown when the drive is being created",
+      "message": "Verifying"
+   },
+   "STAGE_WRITE": {
+      "description": "Status text that is shown when the drive is being created",
+      "message": "Writing"
+   },
+   "STEP": {
+      "description": "Shown as part of the text 'step %x of %x'",
+      "message": "Step"
+   },
+   "UNSUPPORTED_TEXT": {
+      "description": "Text displayed when the user's platform is not supported.",
+      "message": "Unfortunately, your platform is not supported at this time.  Please refer to the \u003Ca href=\"http://www.google.com/chromeos/recovery\" target=\"_blank\">Chromebook Help Center\u003C/a> for more information."
+   },
+   "UNSUPPORTED_TEXT_MAC": {
+      "description": "Text displayed when the user's platform is not supported.",
+      "message": "Unfortunately, Mac is only supported on M37 or higher. Please update your Chrome to M37. This may require a \u003Ca href=\"https://support.google.com/chromebook/answer/1086915\" target=\"_blank\">switch to Beta channel\u003C/a>."
+   },
+   "UNSUPPORTED_TEXT_ON_HUB": {
+      "description": "Text displayed when the user's platform is not supported.",
+      "message": "Unfortunately, your platform is not supported at this time.  Please refer to the \u003Ca href=\"https://support.google.com/onhub/answer/6274977\" target=\"_blank\">OnHub Help Center\u003C/a> for more information."
+   },
+   "UNSUPPORTED_TITLE": {
+      "description": "Title displayed when the user's platform is not supported.",
+      "message": "Your platform is currently unsupported"
+   },
+   "UNSUPPORTED_TITLE_LINUX": {
+      "description": "Title displayed when the user's platform is not supported.",
+      "message": "Linux is currently unsupported"
+   },
+   "UNSUPPORTED_TITLE_MAC": {
+      "description": "Title displayed when the user's platform is not supported.",
+      "message": "Mac is currently unsupported"
+   },
+   "UNSUPPORTED_TITLE_WIN": {
+      "description": "Title displayed when the user's platform is not supported.",
+      "message": "Windows is currently unsupported"
+   },
+   "USUPPORTED_TEXT_WORKSPACE_HARDWARE": {
+      "description": "Text displayed when the user's platform is not supported.",
+      "message": "Unfortunately, your platform is not supported at this time.  Please refer to the \u003Ca href=\"http://support.google.com/meethardware/answer/10562922\" target=\"_blank\">Google Meet Hardware Help Center\u003C/a> for more information."
+   },
+   "WARNING_OFFLINE": {
+      "description": "Warning message that is shown to the user when his device is offline.",
+      "message": "Device is offline. Only offline features will be available."
+   },
+   "WELCOME_TEXT": {
+      "description": "Text on the welcome screen",
+      "message": "You'll need an 8 GB or larger USB flash drive or SD card that you don't mind erasing."
+   },
+   "WELCOME_TEXT_ON_HUB": {
+      "description": "Text on the welcome screen",
+      "message": "You'll need an 8 GB or larger USB flash drive that you don't mind erasing."
+   },
+   "WELCOME_TEXT_WORKSPACE_HARDWARE": {
+      "description": "Text on the welcome screen",
+      "message": "You'll need an 8 GB or larger USB flash drive that you don't mind erasing. You can also use an SD card if your device has an SD slot."
+   },
+   "WELCOME_TITLE": {
+      "description": "Title for the welcome screen",
+      "message": "Create a recovery media for your Chromebook"
+   },
+   "WELCOME_TITLE_ON_HUB": {
+      "description": "Title for the welcome screen",
+      "message": "Create a recovery USB drive for your OnHub"
+   },
+   "WELCOME_TITLE_WORKSPACE_HARDWARE": {
+      "description": "Title for the welcome screen",
+      "message": "Create a recovery USB drive for your Meet Compute System"
+   },
+   "WRITE_MESSAGE": {
+      "description": "Shown on the screen where the drive is being created",
+      "message": "Don’t remove your recovery media."
+   },
+   "WRITE_MESSAGE_ON_HUB": {
+      "description": "Shown on the screen where the drive is being created",
+      "message": "Don’t remove your recovery USB drive."
+   },
+   "WRITE_MESSAGE_WORKSPACE_HARDWARE": {
+      "description": "Shown on the screen where the drive is being created",
+      "message": "Don’t remove the USB flash drive."
+   },
+   "WRITE_TITLE": {
+      "description": "Title of the screen where the drive is being created",
+      "message": "Creating a recovery image"
+   }
+}

@@ -1,0 +1,48 @@
+<div>
+  <section class="instruction">
+    <article>
+      <h1>
+        {{"CONFIRM_TITLE" | translate}}
+        <span ng-show="!app.writeParams.device.local">
+          ({{ app.getDisplayChromeOsVersion() }})
+        </span>
+      </h1>
+
+      <figure>
+        <img class="image" ng-src="../img/download.png" alt="" />
+        <figcaption></figcaption>
+      </figure>
+
+      <div class="warning" ng-show="app.writeCancelled">
+        <span class="icon"></span>
+        <span class="text" ng-bind-html="'CONFIRM_CANCELLED_MESSAGE_HTML' | translate"></span>
+      </div>
+
+      <div class="error" ng-show="app.writeErrorCode">
+        <span class="icon"></span>
+        {{app.writeErrorCode | translateApiError}}&nbsp;
+      </div>
+
+      <div id="advanced-settings-container" ng-show="app.enableAdvancedSettings">
+        <button id="advanced-settings-toggle" ng-click="app.toggleAdvancedSettings()">{{app.getAdvancedSettingsTitle() | translate}}</button>
+        <div ng-show="app.showAdvancedSettings">
+          <jfk-select ng-model="app.writeParams.recoveryChannel">
+            <span>{{"SELECT_CHANNEL_PLACEHOLDER" | translate}}</span>
+            <jfk-menu>
+              <jfk-menu-item ng-repeat="recoveryChannel in app.sortedAvailableRecoveryChannels" jfk-model-value="recoveryChannel">{{ recoveryChannel | translate }}</jfk-menu-item>
+            </jfk-menu>
+          </jfk-select>
+        </div>
+      </div>
+
+      <span ng-bind-html="'CONFIRM_MESSAGE_HTML' | translate"></span>
+
+      <summary class="usb-name">
+        {{app.writeParams.target.vendor}} {{app.writeParams.target.model}} - {{app.writeParams.target.capacity/(1024*1024*1024) | decimal:1}} {{"GIGABYTE_ABBREVIATION" | translate}}
+      </summary>
+    </article>
+  </section>
+
+  <app-footer back="app.selectTarget()" forward="app.writeImage()"
+      forward-text="CREATE_NOW_BUTTON_TEXT"></app-footer>
+</div>

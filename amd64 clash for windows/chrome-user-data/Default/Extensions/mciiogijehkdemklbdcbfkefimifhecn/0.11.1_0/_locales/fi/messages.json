@@ -1,0 +1,1100 @@
+{
+   "btnAbout": {
+      "message": "Tietoja"
+   },
+   "btnAddPaused": {
+      "message": "Lisää keskeytettynä"
+   },
+   "btnApply": {
+      "message": "Käytä"
+   },
+   "btnBackToManager": {
+      "message": "Takaisin"
+   },
+   "btnCancel": {
+      "message": "Peruuta"
+   },
+   "btnClearAll": {
+      "message": "Tyhjennä kaikki"
+   },
+   "btnClearFailed": {
+      "message": "Tyhjennä keskeytetyt tehtävät"
+   },
+   "btnClearFinished": {
+      "message": "Tyhjennä valmiit tehtävät"
+   },
+   "btnClearRemoved": {
+      "message": "Tyhjennä puuttuvat tiedostot"
+   },
+   "btnCreate": {
+      "message": "Luo"
+   },
+   "btnFAQ": {
+      "message": "Usein kysytyt kysymykset"
+   },
+   "btnGotIt": {
+      "message": "Ymmärretty!"
+   },
+   "btnGrantPermission": {
+      "message": "Anna käyttöoikeus"
+   },
+   "btnImportChromeHistory": {
+      "message": "Tuo lataushistoria Chromesta"
+   },
+   "btnLater": {
+      "message": "Myöhemmin"
+   },
+   "btnLoadPreview": {
+      "message": "Lataa esikatselu"
+   },
+   "btnOpenManager": {
+      "message": "Avaa hallinta"
+   },
+   "btnPopRemoveFile": {
+      "message": "Ja poista tiedosto"
+   },
+   "btnPopRemoveList": {
+      "message": "Poista listalta"
+   },
+   "btnRate": {
+      "message": "Arvioi"
+   },
+   "btnSave": {
+      "message": "Tallenna"
+   },
+   "btnShareDone": {
+      "message": "Olen jo tehnyt sen"
+   },
+   "btnStart": {
+      "message": "Aloita"
+   },
+   "btnStartAll": {
+      "message": "Lataa kaikki"
+   },
+   "btnTakeMeThere": {
+      "message": "Ohjaa minut sinne"
+   },
+   "btnUpdateReload": {
+      "message": "Päivitä sivu nyt"
+   },
+   "btnUseSystemDialog": {
+      "message": "Käytä järjestelmän valintaikkunaa..."
+   },
+   "chromesysAllowFileAccess": {
+      "message": "Salli tiedostojen URL-osoitteiden käyttö"
+   },
+   "chromesysBrowser": {
+      "message": "Selain"
+   },
+   "chromesysChange": {
+      "message": "Vaihda..."
+   },
+   "chromesysDownloadLocation": {
+      "message": "Latausten tallennuspaikka"
+   },
+   "chromesysDownloadSaveAsPrompt": {
+      "message": "Kysy, minne kukin tiedosto tallennetaan ennen lataamista"
+   },
+   "chromesysDownloadsSection": {
+      "message": "Lataukset"
+   },
+   "chromesysFailedGenericDownloadError": {
+      "message": "Latausvirhe"
+   },
+   "chromesysFailedGenericNetworkError": {
+      "message": "Verkkovirhe"
+   },
+   "chromesysFailed_CRASH": {
+      "message": "Kaatuminen"
+   },
+   "chromesysFailed_FILE_ACCESS_DENIED": {
+      "message": "Käyttöluvat eivät riitä"
+   },
+   "chromesysFailed_FILE_BLOCKED": {
+      "message": "Estetty"
+   },
+   "chromesysFailed_FILE_NAME_TOO_LONG": {
+      "message": "Polku on liian pitkä"
+   },
+   "chromesysFailed_FILE_NO_SPACE": {
+      "message": "Levy on täynnä"
+   },
+   "chromesysFailed_FILE_SAME_AS_SOURCE": {
+      "message": "Ladattu aiemmin"
+   },
+   "chromesysFailed_FILE_SECURITY_CHECK_FAILED": {
+      "message": "Virustarkistus epäonnistui"
+   },
+   "chromesysFailed_FILE_TOO_LARGE": {
+      "message": "Tiedosto on liian suuri"
+   },
+   "chromesysFailed_FILE_TOO_SHORT": {
+      "message": "Tiedosto katkaistu"
+   },
+   "chromesysFailed_FILE_TRANSIENT_ERROR": {
+      "message": "Järjestelmä on varattu"
+   },
+   "chromesysFailed_FILE_VIRUS_INFECTED": {
+      "message": "Virus havaittu"
+   },
+   "chromesysFailed_NETWORK_TIMEOUT": {
+      "message": "Verkon aikakatkaisu"
+   },
+   "chromesysFailed_SERVER_BAD_CONTENT": {
+      "message": "Ei tiedostoa"
+   },
+   "chromesysFailed_SERVER_CERT_PROBLEM": {
+      "message": "Virheellinen varmenne"
+   },
+   "chromesysFailed_SERVER_CONTENT_LENGTH_MISMATCH": {
+      "message": "Tiedoston osia puuttuu"
+   },
+   "chromesysFailed_SERVER_FAILED": {
+      "message": "Palvelinvirhe"
+   },
+   "chromesysFailed_SERVER_FORBIDDEN": {
+      "message": "Kielletty"
+   },
+   "chromesysFailed_SERVER_UNAUTHORIZED": {
+      "message": "Tarvitsee luvan"
+   },
+   "chromesysFailed_SERVER_UNREACHABLE": {
+      "message": "Palvelimeen ei saada yhteyttä."
+   },
+   "chromesysFailed_USER_CANCELED": {
+      "message": "Peruutettu"
+   },
+   "chromesysFailed_USER_SHUTDOWN": {
+      "message": "Sulkeminen"
+   },
+   "chromesysFontSize": {
+      "message": "Kirjasinkoko"
+   },
+   "chromesysLanguageSection": {
+      "message": "Kieli"
+   },
+   "chromesysShowAdvSettings": {
+      "message": "Näytä lisäasetukset..."
+   },
+   "chromesysWebStore": {
+      "message": "Chrome Web Store"
+   },
+   "confirmBatchDownload": {
+      "message": "Näyttää siltä, ​​että aiot aloittaa erälatauksia, tässä muutamia esimerkkejä:"
+   },
+   "confirmBatchDownloadNaming": {
+      "message": "Varmista, että erälataus nimeää tiedostot yksilöivillä nimillä. Jatka joka tapauksessa?"
+   },
+   "confirmBtnYes": {
+      "message": "Kyllä"
+   },
+   "confirmBtnYesFile": {
+      "message": "Kyllä, poista myös tiedostot"
+   },
+   "confirmCantResumeRestart": {
+      "message": "Tehtävä $1 jatkaminen epäonnistui, käynnistä se uudelleen?"
+   },
+   "confirmClearTask": {
+      "message": "Poistetaanko $1 kohdetta?"
+   },
+   "confirmCreateWhenNotExists": {
+      "message": "Tiedostoa $1 ei ole olemassa. Haluatko luoda sen?"
+   },
+   "confirmProceed": {
+      "message": "Jatketaanko?"
+   },
+   "confirmRecycleRunning": {
+      "message": "Kierrätä parhaillaan suoritettavat tehtävät?"
+   },
+   "confirmRemoveExtFilter": {
+      "message": "Poistetaanko valitut kohteet?"
+   },
+   "confirmRemoveRule": {
+      "message": "Poistetaanko valitut kohteet?"
+   },
+   "confirmRemoveTask": {
+      "message": "Poista valitut tehtävät lopullisesti?"
+   },
+   "confirmReset": {
+      "message": "Toimintoa ei voi kumota. Haluatko jatkaa?"
+   },
+   "errorFNameConflict": {
+      "message": "Ristiriidan nimeäminen"
+   },
+   "errorFileNotExist": {
+      "message": "Tiedostoa ei löydy"
+   },
+   "errorFileOrFolderExists": {
+      "message": "Tämän niminen tiedosto tai kansio on jo olemassa."
+   },
+   "errorInvalidNamingMask": {
+      "message": "Nimi ei kelpaa"
+   },
+   "errorInvalidSubdir": {
+      "message": "Virheellinen alihakemisto"
+   },
+   "errorInvalidURLs": {
+      "message": "Virheellinen URL-osoite"
+   },
+   "errorNoID": {
+      "message": "Uuden tehtävän lisäys Chronoon epäonnistui, koska hallinnassa on liian monia tehtäviä. Siivoa joitakin käyttämättömiä tehtäviä ja yritä uudelleen."
+   },
+   "errorNone": {
+      "message": "Ei virhettä"
+   },
+   "errorRemovedFromChrome": {
+      "message": "Tehtävä on ehkä poistettu Chromesta."
+   },
+   "errorSingleURLAllowed": {
+      "message": "Anna vain yksi URL-osoite"
+   },
+   "errorUnableOpen": {
+      "message": "Kansion $1 avaaminen ei onnistunut."
+   },
+   "errorUnknownReloadPage": {
+      "message": "Jotain meni pieleen.. Jatka lataamalla sivu uudelleen."
+   },
+   "everyXDays": {
+      "message": "Joka $1. päivä"
+   },
+   "everyXHours": {
+      "message": "Joka $1. tunti"
+   },
+   "everyXMinutes": {
+      "message": "Joka $1. minuutti"
+   },
+   "extDesc": {
+      "message": "Latausten hallinta | Videoiden lataus | Kuvien lataus"
+   },
+   "extDescBest": {
+      "message": "Paras latausten hallinta Chromelle"
+   },
+   "extDescSlogan": {
+      "message": "Lataa ja hallitse verkkoa!"
+   },
+   "extName": {
+      "message": "Chrono Download Manager"
+   },
+   "extsAll": {
+      "message": "Kaikki"
+   },
+   "extsApp": {
+      "message": "Sovellus"
+   },
+   "extsArchive": {
+      "message": "Arkisto"
+   },
+   "extsAudio": {
+      "message": "Audio"
+   },
+   "extsDocument": {
+      "message": "Dokumentti"
+   },
+   "extsImage": {
+      "message": "Kuva"
+   },
+   "extsNew": {
+      "message": "Uusi Suodatin"
+   },
+   "extsOthers": {
+      "message": "Muu"
+   },
+   "extsVideo": {
+      "message": "Video"
+   },
+   "fieldAddTime": {
+      "message": "Luontiaika"
+   },
+   "fieldAvgSpeed": {
+      "message": "Keskinopeus"
+   },
+   "fieldDownloadedSize": {
+      "message": "Ladattu"
+   },
+   "fieldElapsedTime": {
+      "message": "Kulunut aika"
+   },
+   "fieldFileName": {
+      "message": "Tiedostonimi"
+   },
+   "fieldFileSize": {
+      "message": "Tiedoston koko"
+   },
+   "fieldFinishTime": {
+      "message": "Lopetusaika"
+   },
+   "fieldFolder": {
+      "message": "Kansio"
+   },
+   "fieldNaming": {
+      "message": "Nimeäminen"
+   },
+   "fieldProgress": {
+      "message": "Edistyminen"
+   },
+   "fieldRedirection": {
+      "message": "Uudelleenohjaus"
+   },
+   "fieldReferer": {
+      "message": "Viittaava sivu"
+   },
+   "fieldRemainingTime": {
+      "message": "Aikaa jäljellä"
+   },
+   "fieldRemarks": {
+      "message": "Huomautukset"
+   },
+   "fieldSpeed": {
+      "message": "Nopeus"
+   },
+   "fieldState": {
+      "message": "Tila"
+   },
+   "fieldThreads": {
+      "message": "Säikeet"
+   },
+   "fieldType": {
+      "message": "Tiedostotyyppi"
+   },
+   "fieldURL": {
+      "message": "URL"
+   },
+   "headExtFilterCaption": {
+      "message": "Näyttönimi"
+   },
+   "headExtFilterExts": {
+      "message": "Tiedostotunniste"
+   },
+   "headExtFilterRefName": {
+      "message": "Sisäinen nimi"
+   },
+   "headRulesActive": {
+      "message": "Aktiiviset"
+   },
+   "headRulesAsFilter": {
+      "message": "Tehtäväsuodattimena"
+   },
+   "headRulesCaption": {
+      "message": "Näyttönimi"
+   },
+   "headRulesCondition": {
+      "message": "Ehto"
+   },
+   "headRulesRefName": {
+      "message": "Sisäinen nimi"
+   },
+   "helpExtFilter": {
+      "message": "* Muokkaa kaksoisnapsauttamalla.\n* Kirjoita tyhjälle riville lisätäksesi uuden suodattimen\n* Valitse rivit ja paina POISTA poistaaksesi ne."
+   },
+   "helpRules": {
+      "message": "* Muokkaa kaksoisnapsauttamalla. \n* Kirjoita tyhjälle riville lisätäksesi uuden suodattimen \n* Valitse rivit ja paina POISTA poistaaksesi ne.\n* Jos sinulla on ongelmia sääntöjen kirjoituksessa, tutustu Apua-osioon."
+   },
+   "hintSearchDownloads": {
+      "message": "Haku latauksista"
+   },
+   "labelAutoClear": {
+      "message": "Aikataulu"
+   },
+   "labelBGBlur": {
+      "message": "Sumenna"
+   },
+   "labelBGChooseFrom": {
+      "message": "Valitse kuva"
+   },
+   "labelBGConstantColor": {
+      "message": "Tasainen väri"
+   },
+   "labelBGImageURL": {
+      "message": "Muokatun kuvan osoite"
+   },
+   "labelBGOpacity": {
+      "message": "Läpinäkyvyys"
+   },
+   "labelChooseDownloadLocation": {
+      "message": "Valitse latauspaikka"
+   },
+   "labelCustomFilter": {
+      "message": "Muokattu suodatin"
+   },
+   "labelDateModified": {
+      "message": "Muokkauspäivä"
+   },
+   "labelDownloadToDefaultFolder": {
+      "message": "Lataa oletuskansioon"
+   },
+   "labelEnableFolderSelection": {
+      "message": "Ota kansion valinta käyttöön"
+   },
+   "labelFolderColon": {
+      "message": "Kansio:"
+   },
+   "labelNewFolder": {
+      "message": "Uusi kansio"
+   },
+   "labelStarred": {
+      "message": "Tähdellä merkityt"
+   },
+   "labelUnableSaveToFolder": {
+      "message": "Sijainnin tallennus ei onnistunut"
+   },
+   "labelUseLastLocation": {
+      "message": "Käytetään viimeisintä sijaintia"
+   },
+   "menuDAudio": {
+      "message": "Tallenna audiotiedosto nimellä..."
+   },
+   "menuDAudioOneClick": {
+      "message": "Lataa äänitiedosto yhdellä napsautuksella"
+   },
+   "menuDImage": {
+      "message": "Tallenna kuva nimellä..."
+   },
+   "menuDImageOneClick": {
+      "message": "Lataa kuva yhdellä napsautuksella"
+   },
+   "menuDLink": {
+      "message": "Tallenna linkki nimellä..."
+   },
+   "menuDLinkOneClick": {
+      "message": "Lataa linkki yhdellä napsautuksella"
+   },
+   "menuDVideo": {
+      "message": "Tallenna video nimellä..."
+   },
+   "menuDVideoOneClick": {
+      "message": "Lataa video yhdellä napsautuksella"
+   },
+   "menuGetHelp": {
+      "message": "Ohjeita"
+   },
+   "menuOpenManager": {
+      "message": "Avaa hallinta"
+   },
+   "menuReportIssue": {
+      "message": "Ilmoita ongelmasta"
+   },
+   "msgCannotScanResources": {
+      "message": "Tämän sivun resursseja ei voi skannata."
+   },
+   "msgChromeI18nLanguage": {
+      "message": "Chrono käyttää samaa kieltä kuin selaimesi."
+   },
+   "msgEmptyDownloadsList": {
+      "message": "Tyhjä luettelo"
+   },
+   "msgEnableFileAccess": {
+      "message": "Voit ottaa tämän ominaisuuden käyttöön valitsemalla valintaruutu $1 alle $2 chrome://extensions -sivulla."
+   },
+   "msgFolderDisabledNonWritable": {
+      "message": "Kansion valintatoiminto on poistettu käytöstä. Varmista, että latausten oletussijaintia ei ole asetettu järjestelmäkansioon, ja että selaimen Tallenna nimellä -valintaikkuna on poissa käytöstä."
+   },
+   "msgPreviewErrorReadFile": {
+      "message": "Virhe tiedostoa luettaessa"
+   },
+   "msgPreviewFailed": {
+      "message": "Tiedoston esikatselun lataaminen epäonnistui"
+   },
+   "msgPreviewFileAccess": {
+      "message": "Et voi ladata paikallista tiedostoa esikatselulle."
+   },
+   "msgPreviewLargeFile": {
+      "message": "Tiedoston esikatselu saattaa kestää jonkin aikaa."
+   },
+   "msgPreviewPdfViewer": {
+      "message": "Esikatselussa tarvitaan Chrome PDF Viewer, ota se käyttöön noudattamalla ohjeita"
+   },
+   "msgRateShare": {
+      "message": "Jos $1 on mielestäsi hyödyllinen, arvostele se $2 ja jaa se ystävillesi!"
+   },
+   "msgSearchNoResults": {
+      "message": "Ei tuloksia"
+   },
+   "msgSelectTaskInfo": {
+      "message": "Kohdetta ei ole valittu."
+   },
+   "msgTaskAddPaused": {
+      "message": "Tehtävä lisätty ja keskeytetty"
+   },
+   "msgTaskFinish": {
+      "message": "Lataus valmis"
+   },
+   "msgTaskInterrupt": {
+      "message": "Lataus epäonnistui."
+   },
+   "msgTaskStart": {
+      "message": "Tehtävä lisätty jonoon"
+   },
+   "msgTextUpdateAvail": {
+      "message": "Lataa laajennus uudelleen ottaaksesi päivityksen käyttöön."
+   },
+   "msgTextWelcome": {
+      "message": "Ennen kuin aloitat, on suositeltavaa sammuttaa Chromen Tallenna nimellä -ikkuna, tyhjentää valintaruutu kohteessa $1. \nVoit myös antaa Chronolle pääsyn tiedostojen URLeihin saadaksesi paremman käyttökokemuksen. Ominaisuus voidaan ottaa käyttöön valitsemalla valintaruutu $2 kohteessa $3.\nJos sinulla on kysyttävää, tutustu ohjeeseen ja UKK-sivuun tai voit myös lähettää sähköpostia osoitteeseen dev@chronodownloader.net. \nNauti!"
+   },
+   "msgTitleUpdateAvail": {
+      "message": "Uusi versio saatavilla"
+   },
+   "msgTitleWelcome": {
+      "message": "Tervetuloa!"
+   },
+   "msgUpdated": {
+      "message": "$1 on päivitetty."
+   },
+   "optItemBadgeDownloadNum": {
+      "message": "Näytä latausten lukumäärä työkalupalkin kuvakkeessa"
+   },
+   "optItemClearRemoveFile": {
+      "message": "Poista levyltä"
+   },
+   "optItemClearSearch": {
+      "message": "Tyhjennä hakukenttä, kun suodatin vaihtuu"
+   },
+   "optItemClickNotify": {
+      "message": "Napsauttamalla ilmoitusta"
+   },
+   "optItemConcurrentDownloads": {
+      "message": "Samanaikaiset lataukset"
+   },
+   "optItemDblClickAction": {
+      "message": "Kaksoisnapsauttamalla tehtävää"
+   },
+   "optItemDefAddPaused": {
+      "message": "Lisää keskeytettynä"
+   },
+   "optItemDefFolder": {
+      "message": "Oletussijainti"
+   },
+   "optItemDefNaming": {
+      "message": "Oletusnimeäminen"
+   },
+   "optItemDownloadClipboard": {
+      "message": "Lataa URL leikepöydältä"
+   },
+   "optItemDownloadsPerServer": {
+      "message": "Lataukset palvelinta kohti"
+   },
+   "optItemHideShelf": {
+      "message": "Piilota Chromen lataushylly/-palkki"
+   },
+   "optItemMenuDialog": {
+      "message": "Tallenna linkki nimellä..."
+   },
+   "optItemMenuOneClick": {
+      "message": "Lataa linkki/kuva yhdellä napsautuksella"
+   },
+   "optItemNameConflict": {
+      "message": "Kun tiedostonimessä ristiriita"
+   },
+   "optItemNotifyError": {
+      "message": "Näytä ilmoitus, kun virhe tapahtuu"
+   },
+   "optItemNotifyFinish": {
+      "message": "Näytä ilmoitus, kun lataus valmistuu"
+   },
+   "optItemNotifyLargePreview": {
+      "message": "Näytä suuri esikatselu kuville"
+   },
+   "optItemNotifyOneClick": {
+      "message": "Näytä ilmoitus, kun yhden napsautuksen lataus lisätään"
+   },
+   "optItemNotifyProgress": {
+      "message": "Näytä latauksen edistyminen"
+   },
+   "optItemOverrideChrome": {
+      "message": "Korvaa Chromen alkuperäinen lataussivu ja ota käyttöön $1 -pikanäppäin"
+   },
+   "optItemPopClearClose": {
+      "message": "Sulje ponnahdusikkuna tehtävien tyhjennyksen jälkeen"
+   },
+   "optItemPopDeleteAction": {
+      "message": "Napsauta 'Poista' -painiketta"
+   },
+   "optItemPopLikeButtons": {
+      "message": "Näytä sosiaalisen median painikkeet"
+   },
+   "optItemPopMaxItems": {
+      "message": "Kohteiden maksimimäärä latausluettelossa"
+   },
+   "optItemPopShowDLFirst": {
+      "message": "Näytä lataustehtävät ensin"
+   },
+   "optItemPreviewAutoplay": {
+      "message": "Automaattinen toisto"
+   },
+   "optItemRecycleCancel": {
+      "message": "Peruuta tehtävä, kun se kierrätetään"
+   },
+   "optItemRuleMatchMode": {
+      "message": "Vastaavuustila"
+   },
+   "optItemSlideDetailsPanel": {
+      "message": "Liu'uta tietopaneeli esiin tehtävää napsauttamalla"
+   },
+   "optItemSoundError": {
+      "message": "Soita ääni, kun virhe tapahtuu"
+   },
+   "optItemSoundFinish": {
+      "message": "Soita ääni, kun lataus valmistuu"
+   },
+   "optItemStartInterrupted": {
+      "message": "Aloita-painike voi aloittaa keskeytetyt tehtävät"
+   },
+   "optOptionClearAllNotify": {
+      "message": "Tyhjennä kaikki ilmoitukset"
+   },
+   "optOptionClearNotify": {
+      "message": "Tyhjennä ilmoitus"
+   },
+   "optOptionDoNothing": {
+      "message": "Älä tee mitään"
+   },
+   "optOptionFirstMatch": {
+      "message": "Ensimmäinen täsmäävä"
+   },
+   "optOptionOpenFile": {
+      "message": "Avaa tiedosto"
+   },
+   "optOptionOpenFolder": {
+      "message": "Avaa kansio"
+   },
+   "optOptionOverwrite": {
+      "message": "Korvaa"
+   },
+   "optOptionPrompt": {
+      "message": "Kysy"
+   },
+   "optOptionRemAsk": {
+      "message": "Kysy"
+   },
+   "optOptionRemFile": {
+      "message": "Poista levyltä varmistamatta"
+   },
+   "optOptionRemList": {
+      "message": "Poista listalta"
+   },
+   "optOptionReplace": {
+      "message": "Korvaa"
+   },
+   "optOptionSkipCancel": {
+      "message": "Ohita ja peruuta"
+   },
+   "optOptionSkipPause": {
+      "message": "Ohita ja keskeytä"
+   },
+   "optOptionStartPause": {
+      "message": "Aloita/keskeytä"
+   },
+   "optOptionUniquify": {
+      "message": "Yksilöllistä"
+   },
+   "optSectionBehaviors": {
+      "message": "Käytös"
+   },
+   "optSectionMenu": {
+      "message": "Valikko"
+   },
+   "optSectionMisc": {
+      "message": "Muut"
+   },
+   "optSectionNetwork": {
+      "message": "Verkko"
+   },
+   "optSectionNewTaskDialog": {
+      "message": "Uusi tehtävä"
+   },
+   "optSectionNotifications": {
+      "message": "Ilmoitukset"
+   },
+   "optSectionOneClick": {
+      "message": "Yhden napsautuksen lataus"
+   },
+   "optSectionPopup": {
+      "message": "Ponnahdusikkuna"
+   },
+   "optSectionPreview": {
+      "message": "Esikatselu"
+   },
+   "optSectionTaskDefaults": {
+      "message": "Uuden tehtävän oletukset"
+   },
+   "optionAddTop": {
+      "message": "Lisää jonon alkuun"
+   },
+   "optionDisableExtFilters": {
+      "message": "Poista laajennuksen suodattimet käytöstä"
+   },
+   "optionDontAsk": {
+      "message": "Muista valintani"
+   },
+   "optionSearchCaseSensitive": {
+      "message": "Kirjainkoolla on väliä"
+   },
+   "optionSearchFuzzyMatch": {
+      "message": "Samankaltainen tulos"
+   },
+   "optionShowSize": {
+      "message": "Näytä tiedostokoko"
+   },
+   "optionTableAutoResize": {
+      "message": "Pakota sarakkeiden leveys"
+   },
+   "optionTableSyncResize": {
+      "message": "Synkroninen koon muutos"
+   },
+   "phraseAutomatic": {
+      "message": "Automaattinen"
+   },
+   "phraseEnable": {
+      "message": "Ota käyttöön"
+   },
+   "phraseMultiValues": {
+      "message": "Useita arvoja"
+   },
+   "phraseNever": {
+      "message": "Ei koskaan"
+   },
+   "phrasePreview": {
+      "message": "Esikatselu"
+   },
+   "phraseRegex": {
+      "message": "Säännöllinen lauseke"
+   },
+   "phraseToday": {
+      "message": "Tänään"
+   },
+   "phraseUnknown": {
+      "message": "Tuntematon"
+   },
+   "phraseUnknownSize": {
+      "message": "Tuntematon koko"
+   },
+   "phraseVersion": {
+      "message": "Versio"
+   },
+   "phraseYesterday": {
+      "message": "Eilen"
+   },
+   "ruleAllTasks": {
+      "message": "Kaikki tehtävät"
+   },
+   "ruleAudio": {
+      "message": "Audio"
+   },
+   "ruleDocument": {
+      "message": "Dokumentti"
+   },
+   "ruleDownloading": {
+      "message": "Ladataan"
+   },
+   "ruleFinished": {
+      "message": "Valmis"
+   },
+   "ruleImage": {
+      "message": "Kuva"
+   },
+   "ruleInterrupted": {
+      "message": "Epäonnistui"
+   },
+   "ruleNew": {
+      "message": "Uusi sääntö"
+   },
+   "ruleOther": {
+      "message": "Muu"
+   },
+   "ruleRecent": {
+      "message": "Viimeisin"
+   },
+   "ruleRecycled": {
+      "message": "Roskakori"
+   },
+   "ruleSmallFiles": {
+      "message": "Pienet tiedostot"
+   },
+   "ruleVideo": {
+      "message": "Video"
+   },
+   "stateDownloading": {
+      "message": "Ladataan"
+   },
+   "stateError": {
+      "message": "Epäonnistui"
+   },
+   "stateFileMiss": {
+      "message": "Tiedosto puuttuu"
+   },
+   "stateFinished": {
+      "message": "Valmis"
+   },
+   "statePaused": {
+      "message": "Keskeytetty"
+   },
+   "stateQueue": {
+      "message": "Odottaa"
+   },
+   "statusCopyURL": {
+      "message": "Kopioidaan URL-osoitteita..."
+   },
+   "statusCopyURLDone": {
+      "message": "URL-osoite kopioitiin leikepöydälle"
+   },
+   "statusDownloadedSize": {
+      "message": "$1 / $2"
+   },
+   "statusImportDone": {
+      "message": "Tuonti onnistui"
+   },
+   "statusImporting": {
+      "message": "Tuodaan..."
+   },
+   "statusNumDownloading": {
+      "message": "$1 ladataan..."
+   },
+   "statusNumItems": {
+      "message": "$1 kohdetta"
+   },
+   "statusReadClipboard": {
+      "message": "Luetaan leikepöytää..."
+   },
+   "statusScheduledAutoClear": {
+      "message": "Automaattinen tehtävien tyhjennys käynnistyy $1 sekunnin kuluttua"
+   },
+   "statusSelectedOf": {
+      "message": "$1 kohdetta valittu"
+   },
+   "statusTasksCleared": {
+      "message": "$1 kohdetta poistettiin"
+   },
+   "statusTimeLeft": {
+      "message": "$1 jäljellä"
+   },
+   "tipAutoClear": {
+      "message": "Tyhjennä tehtävät automaattisesti luettelosta, mutta pidä tiedostot levyllä"
+   },
+   "tipBGBlur": {
+      "message": "Sumennustehoste saattaa hidastaa käyttöliittymää"
+   },
+   "tipBGEnable": {
+      "message": "Tietyistä Chromen ominaisuuksista johtuen taustan käyttöönotto lisää suuresti muistinkäyttöä. Pidä tämä mielessä ennen kuin otat tämän ominaisuuden käyttöön."
+   },
+   "tipBGURLHasFileAccess": {
+      "message": "Anna URL-osoite tai tietokoneella olevan kuvan koko polku etuliitteellä \"file:///\""
+   },
+   "tipBGURLNoFileAccess": {
+      "message": "Anna verkko-osoite tai tietokoneella olevan kuvan koko polku (paikallisen tiedoston käyttämiseksi Chrono tarvitsee pääsyn tiedostoihin, napsauta kysymysmerkkiä tutustuaksesi aiheeseen)"
+   },
+   "tipBrowserAction": {
+      "message": "Lataa kaikki resurssit tällä sivulta"
+   },
+   "tipBtnBackToManager": {
+      "message": "Takaisin hallintaan"
+   },
+   "tipBtnChangeBrowserDownloadsSettings": {
+      "message": "Muuta selaimen latausasetuksia"
+   },
+   "tipBtnChangeDefaultLocation": {
+      "message": "Vaihda kohdekansio…"
+   },
+   "tipBtnClear": {
+      "message": "Tyhjennä tehtävät"
+   },
+   "tipBtnConfigExtFilters": {
+      "message": "Muokkaa suodattimia"
+   },
+   "tipBtnCopyLink": {
+      "message": "Kopioi linkki"
+   },
+   "tipBtnDelete": {
+      "message": "Poista"
+   },
+   "tipBtnHelp": {
+      "message": "Ohje"
+   },
+   "tipBtnNewTask": {
+      "message": "Uusi tehtävä"
+   },
+   "tipBtnOpenDefaultLocation": {
+      "message": "Avaa latauskansio"
+   },
+   "tipBtnOpenFile": {
+      "message": "Avaa tiedosto"
+   },
+   "tipBtnOpenFolder": {
+      "message": "Avaa kansio"
+   },
+   "tipBtnOptions": {
+      "message": "Asetukset"
+   },
+   "tipBtnPause": {
+      "message": "Keskeytä"
+   },
+   "tipBtnPauseAll": {
+      "message": "Keskeytä kaikki"
+   },
+   "tipBtnPopList": {
+      "message": "Siirry luetteloon"
+   },
+   "tipBtnPopSniffer": {
+      "message": "Vaihda Nuuskijaan"
+   },
+   "tipBtnRecycle": {
+      "message": "Siirrä roskakoriin"
+   },
+   "tipBtnRestart": {
+      "message": "Käynnistä uudelleen"
+   },
+   "tipBtnRestore": {
+      "message": "Palauta"
+   },
+   "tipBtnSort": {
+      "message": "Järjestä tehtävät"
+   },
+   "tipBtnStart": {
+      "message": "Aloita"
+   },
+   "tipBtnStartAll": {
+      "message": "Aloita kaikki"
+   },
+   "tipExtFilterEnable": {
+      "message": "Otettu käyttöön Chrono Nuuskijassa"
+   },
+   "tipExtFilterRefName": {
+      "message": "Viitesuodattimen sisäinen nimi muissa lausekkeissa"
+   },
+   "tipNaming": {
+      "message": "Tutustu ohjesivuun nimeämisen käytöstä."
+   },
+   "tipOptItemRuleMatchMode": {
+      "message": "Huomioithan, että ainoastaan aktiivisten sääntöjen täsmäys testataan. Korvaustilassa kaikki täsmätyt säännöt ovat käytössä, mutta myöhempi sääntö korvaa aikaisemmat."
+   },
+   "tipOptItemSlideDetailsPanel": {
+      "message": "Voit myös painaa Alt-näppäintä ja napsauttaa tehtävää avataksesi tietopaneelin"
+   },
+   "tipOptNoRuleMatch": {
+      "message": "Käytetään, kun mikään sääntö ei täsmää"
+   },
+   "tipOptSectionOneClick": {
+      "message": "Jos käytössä, lataus alkaa välittömästi tehtävän oletusasetuksilla, kun napsautat linkkiä (katso edellä), kysymättä nimeämisestä jne."
+   },
+   "tipOptSectionTaskDefaults": {
+      "message": "Oletusasetukset, joita sovelletaan lisättäessä uusia tehtäviä, esim. yhden napsautuksen latauksille"
+   },
+   "tipRulesActive": {
+      "message": "Ainoastaan aktiivisia sääntöjä käytetään sääntöjen täsmäämisessä"
+   },
+   "tipRulesAsFilter": {
+      "message": "Näytä tehtäväsuodattimena lataushallinnassa"
+   },
+   "tipRulesRefName": {
+      "message": "Viitesäännön sisäinen nimi muissa lausekkeissa"
+   },
+   "tipURL": {
+      "message": "Voit syöttää useita URL-osoitteita erottamalla ne uudella rivillä; voit aloittaa erälataukset käyttämällä erän asiasanoja."
+   },
+   "tipmsgCopySelectedURLs": {
+      "message": "Voit kopioida valitun tehtävän URL-osoitteen painamalla $1"
+   },
+   "tipmsgDoubleClick": {
+      "message": "Voit muuttaa kaksoisnapsautuksen toimintaa kohteessa $1"
+   },
+   "tipmsgFitColumnWidth": {
+      "message": "Kaksoisnapsauta sarakkeen reunaviivaa säätääksesi sarakkeen leveyttä automaattisesti"
+   },
+   "tipmsgGridSelection": {
+      "message": "Käytä Ctrl-/vaihtonäppäimiä valitaksesi useita rivejä tai paina $1 valitaksesi kaikki rivit"
+   },
+   "tipmsgNotifications": {
+      "message": "Voit muuttaa ilmoituksia/ääniasetuksia kohteessa $1"
+   },
+   "tipmsgOpenShortcut": {
+      "message": "$2 -pikanäppäin on yksinkertaisin tapa avata $1"
+   },
+   "tipmsgSlideDetailsPanel": {
+      "message": "Esiin liukuvan tietopaneelin voi poistaa käytöstä kohteessa $1"
+   },
+   "tipmsgTaskFilter": {
+      "message": "Muuta tehtäväsuodattimien järjestystä raahaamalla; voit myös lisätä omia suodattimia kohteessa $1"
+   },
+   "titleChangeBG": {
+      "message": "Muuta taustakuvaa"
+   },
+   "titleNewTaskDialog": {
+      "message": "Uusi tehtävä"
+   },
+   "titleOptions": {
+      "message": "Asetukset"
+   },
+   "titleOptionsAbout": {
+      "message": "Tietoja"
+   },
+   "titleOptionsFilter": {
+      "message": "Suodattimet"
+   },
+   "titleOptionsGeneral": {
+      "message": "Yleinen"
+   },
+   "titleOptionsHelp": {
+      "message": "Ohje"
+   },
+   "titleOptionsInterface": {
+      "message": "Käyttöliittymä"
+   },
+   "titleOptionsRules": {
+      "message": "Sääntöjärjestelmä"
+   },
+   "titleQuickSelection": {
+      "message": "PIkavalinta"
+   },
+   "titleRateShare": {
+      "message": "Arvostele ja jaa!"
+   },
+   "titleSniffer": {
+      "message": "Nuuskija"
+   },
+   "titleSwitchUI": {
+      "message": "Vaihda näyttötilaa"
+   },
+   "titleTaskProps": {
+      "message": "Tehtävän ominaisuudet"
+   },
+   "titleTips": {
+      "message": "Vinkkejä"
+   },
+   "titleUpdateLog": {
+      "message": "Muutosloki"
+   },
+   "translateContributors": {
+      "message": "6sto, uutiskirjetili"
+   },
+   "uilang": {
+      "message": "fi"
+   },
+   "uilangName": {
+      "message": "Finnish"
+   },
+   "unitBytes": {
+      "message": "$1 tavua"
+   },
+   "unitDay": {
+      "message": "$1 päivä"
+   },
+   "unitDays": {
+      "message": "$1 päivää"
+   },
+   "unitHour": {
+      "message": "$1 tunti"
+   },
+   "unitHours": {
+      "message": "$1 tuntia"
+   },
+   "unitMinute": {
+      "message": "$1 min"
+   },
+   "unitMinutes": {
+      "message": "$1 min"
+   },
+   "unitSecond": {
+      "message": "$1 sekuntia"
+   },
+   "unitSeconds": {
+      "message": "$1 s"
+   }
+}

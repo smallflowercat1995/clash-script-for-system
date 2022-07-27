@@ -1,0 +1,794 @@
+
+.backup-recover.withkey .block-wrapper,.improved-recovery-steps .block-wrapper{
+	width:100%
+}
+.backup-recover.withkey .main-recovery-block,.improved-recovery-steps .main-recovery-block{
+	display:block;
+	height:100%;
+	margin:0;
+	padding:0;
+	width:100%
+}
+.improved-recovery-steps h2,.improved-recovery-steps h3.main-italic-header{
+	box-sizing:border-box;
+	overflow:hidden;
+	text-align:center;
+	-o-text-overflow:ellipsis;
+	text-overflow:ellipsis
+}
+.park-account-dialog .improved-recovery-steps h3.main-italic-header{
+	margin:0 0 24px
+}
+.improved-recovery-steps.backup-recover.withkey ul,.improved-recovery-steps .container-information{
+	font-family:LatoWeb,source_sans_proregular,Arial;
+	font-size:13px;
+	line-height:21px;
+	text-align:left
+}
+.improved-recovery-steps.backup-recover.withkey ul,.improved-recovery-steps .container-information ul{
+	list-style-type:0;
+	margin:12px 24px 0;
+	padding:0;
+	text-indent:0
+}
+.improved-recovery-steps.backup-recover.withkey li{
+	margin-bottom:8px
+}
+.improved-recovery-steps li a.red{
+	color:var(--text-color-error)
+}
+.improved-recovery-steps a.red:hover{
+	text-decoration:underline
+}
+.improved-recovery-steps h1{
+	text-align:center
+}
+.improved-recovery-steps .recover-image-block{
+	display:block;
+	margin:0 auto;
+	width:172px
+}
+.improved-recovery-steps h3{
+	text-align:center
+}
+.backup-recover.withkey .register-st2-txt-block,.improved-recovery-steps .register-st2-txt-block{
+	display:table;
+	height:100%;
+	width:100%
+}
+.backup-recover.withkey .vert-container-aligner,.improved-recovery-steps .vert-container-aligner{
+	display:table-cell;
+	vertical-align:middle
+}
+.backup-recover.withkey .card-container,.improved-recovery-steps .card-container{
+	background-color:#fff;
+	border:1px solid rgba(0, 40, 100, .12);
+	border-radius:4px;
+	height:auto;
+	margin:0 auto 80px;
+	width:680px
+}
+.backup-recover.withkey .card-container,.backup-recover.withoutkey .card-container{
+	margin-top:54px
+}
+.backup-recover.withkey .content-wrapper,.improved-recovery-steps .content-wrapper{
+	margin:0;
+	padding:0 30px 30px;
+	position:relative;
+	text-align:left
+}
+.improved-recovery-steps .content-wrapper .reset-input-container{
+	display:block;
+	text-align:center
+}
+.improved-recovery-steps .content-wrapper p span{
+	color:#f57223;
+	font-family:source_sans_probold
+}
+.improved-recovery-steps p{
+	letter-spacing:0;
+	margin:0;
+	padding:8px 0 0;
+	text-align:center
+}
+.improved-recovery-steps p:first-child{
+	padding:0
+}
+.improved-recovery-steps p.top-pad{
+	padding-top:30px
+}
+.improved-recovery-steps .check-sessions-text,.improved-recovery-steps .info-container h3.main-italic-header{
+	color:#495057;
+	font-family:LatoWebBold,source_sans_proregular,Arial;
+	font-size:15px;
+	text-align:left
+}
+.improved-recovery-steps .check-sessions-text{
+	margin-top:24px;
+	text-align:center
+}
+.improved-recovery-steps .app-instruction-block p,.improved-recovery-steps .info-container h3.main-italic-header{
+	margin-bottom:16px;
+	text-align:left
+}
+.improved-recovery-steps .app-instruction-block .main-italic-header{
+	color:#495057;
+	font-family:LatoWeb,source_sans_prosemibold,Arial;
+	font-weight:800;
+	text-align:left
+}
+.improve-recovery-steps .button-container{
+	height:100px;
+	width:100%
+}
+.improved-recovery-steps .backup-input-button.mega-button.left{
+	font-size:14px;
+	line-height:36px;
+	right:0;
+	text-align:center;
+	text-decoration:none
+}
+.improved-recovery-steps .recover-button.yes.mega-button,.improved-recovery-steps .restore-verify-button{
+	float:none;
+	margin:0 auto
+}
+.improved-recovery-steps .button-container{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-around;
+	margin-top:8px
+}
+.improved-recovery-steps .button-aligner{
+	float:right;
+	margin-top:24px;
+	text-align:center;
+	width:100%
+}
+.improved-recovery-steps .progress-meter{
+	-webkit-touch-callout:none;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+	margin:0 auto;
+	max-width:400px;
+	opacity:.8;
+	padding-top:0;
+	-webkit-user-select:none;
+	-khtml-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	user-select:none
+}
+.improved-recovery-steps .restore-verify-button{
+	display:flex;
+	margin-top:64px
+}
+.improved-recovery-steps .login-register-input{
+	margin-bottom:0
+}
+.improved-recovery-steps .login-register-input:hover{
+	border:1px solid #ddd
+}
+.improved-recovery-steps .login-register-input input{
+	background-color:transparent;
+	color:#444;
+	line-height:25px
+}
+.improved-recovery-steps .login-register-input input::placeholder{
+	color:#aaa;
+	opacity:1
+}
+.improved-recovery-steps .login-register-input input:-ms-input-placeholder{
+	color:#aaa
+}
+.improved-recovery-steps .login-register-input input::-ms-input-placeholder{
+	color:#aaa
+}
+.improved-recovery-steps .app-button{
+	border-radius:3px;
+	color:#555;
+	cursor:pointer;
+	display:inline-block;
+	line-height:24px;
+	margin:4px 2px;
+	padding:0 8px
+}
+.improved-recovery-steps .app-button:first-of-type{
+	margin-left:0
+}
+.improved-recovery-steps .app-button:last-of-type{
+	margin-right:0
+}
+.improved-recovery-steps .app-button:hover{
+	background-color:#f2f2f2;
+	background-image:linear-gradient(-180deg, hsla(0, 0%, 100%, .5), hsla(0, 0%, 94.9%, .8));
+	color:#111
+}
+.improved-recovery-steps .app-button.active{
+	background-color:#eb4444;
+	background-image:linear-gradient(-180deg, hsla(0, 0%, 100%, 0), hsla(0, 0%, 94.9%, 0));
+	border:1px solid #d90007;
+	border-radius:3px;
+	box-shadow:0 1px 1px 0 rgba(0, 0, 0, .11),inset 0 1px 1px 0 hsla(0, 0%, 100%, .2);
+	color:#fff
+}
+.improved-recovery-steps .app-button.active:hover{
+	color:#fff
+}
+.improved-recovery-steps .app-instruction-block{
+	margin:0 0 8px
+}
+.improved-recovery-steps .app-instruction-block select{
+	background:transparent;
+	border:none;
+	font-family:LatoWeb,source_sans_proregular,Arial;
+	font-size:14px;
+	height:32px;
+	padding:5px 5px 5px 12px;
+	width:260px
+}
+.improved-recovery-steps .app-instruction-block select::-ms-expand{
+	display:none
+}
+.improved-recovery-steps .app-instruction-block select{
+	-webkit-appearance:none;
+	appearance:none
+}
+.improved-recovery-steps ol.app-instructions-list{
+	-webkit-margin-before:1em;
+	-webkit-margin-after:0;
+	-webkit-margin-start:0;
+	-webkit-margin-end:0;
+	-webkit-padding-start:0;
+	list-style-type:none;
+	padding:0
+}
+.improved-recovery-steps li.list-point:before{
+	-moz-background-clip:padding;
+	-webkit-background-clip:padding-box;
+	background-clip:padding-box;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	border-radius:12px;
+	color:#333;
+	content:counter(list);
+	display:inline-block;
+	font-size:13px;
+	font-weight:900;
+	height:23px;
+	line-height:22px;
+	margin-right:10px;
+	padding-left:0;
+	text-indent:8px;
+	vertical-align:top;
+	width:23px
+}
+.improved-recovery-steps .list-point{
+	counter-increment:list;
+	font-family:LatoWeb,source_sans_proregular,Arial;
+	line-height:23px;
+	margin-bottom:12px;
+	margin-left:40px;
+	text-indent:-40px
+}
+.improved-recovery-steps .list-point b.megasync-logo{
+	background-image:url(../images/mega/top-sprite.png?v=7ef2b23a163ae63a);
+	background-position:-6px -773px;
+	background-repeat:no-repeat;
+	height:24px;
+	margin:0 -39px 0 0;
+	padding-left:66px;
+	width:24px
+}
+.improved-recovery-steps .text-link{
+	color:#eb4444
+}
+.improved-recovery-steps .recovery-text-button{
+	font-family:LatoWeb,source_sans_proregular,Arial;
+	font-size:14px;
+	line-height:21px;
+	margin:12px auto 24px;
+	text-align:center
+}
+.improved-recovery-steps .text-link:hover{
+	cursor:pointer;
+	text-decoration:underline
+}
+.es .improved-recovery-steps .list-point b.megasync-logo{
+	margin:0 -29px 0 3px;
+	padding-left:68px
+}
+.br .improved-recovery-steps .list-point b.megasync-logo{
+	margin:0 -12px 0 3px;
+	padding-left:68px
+}
+.de .improved-recovery-steps .list-point b.megasync-logo{
+	margin:0 -33px 0 4px;
+	padding-left:68px
+}
+.fr .improved-recovery-steps .list-point b.megasync-logo,.it .improved-recovery-steps .list-point b.megasync-logo{
+	margin:0 -31px 0 4px;
+	padding-left:68px
+}
+.tr .improved-recovery-steps .list-point b.megasync-logo{
+	margin:0 -15px 0 4px;
+	padding-left:68px
+}
+.ru .improved-recovery-steps .list-point b.megasync-logo{
+	margin:0 -15px 0 4px
+}
+.improved-recovery-steps strong{
+	color:var(--text-color-high);
+	font-family:var(--text-font-family-semibold)
+}
+.improved-recovery-steps strong.warning-text{
+	color:var(--text-color-error)
+}
+.improved-recovery-steps .instruction-block{
+	color:#495057;
+	font-family:LatoWeb,source_sans_proregular,Arial;
+	font-size:13px;
+	margin-top:24px
+}
+.improved-recovery-steps .recover-state{
+	color:#00a58f;
+	font-family:source_sans_probold,LatoWeb,Arial;
+	font-size:14px;
+	letter-spacing:0;
+	text-align:center
+}
+.improved-recovery-steps .recover-state.warning{
+	color:var(--text-color-error)
+}
+.improved-recovery-steps .container-information .warning-text{
+	color:var(--text-color-error);
+	font-family:var(--text-font-family-semibold)
+}
+.improved-recovery-steps .container-information li{
+	color:#676d75;
+	margin-bottom:16px
+}
+.improved-recovery-steps .container-information li:last-of-type{
+	margin-bottom:0
+}
+.improved-recovery-steps .content-highlight{
+	background-color:rgba(42, 175, 95, .04);
+	border:1px solid #d4efdf;
+	border-radius:2px;
+	color:#55bf7f;
+	cursor:pointer;
+	font-size:14px;
+	line-height:46px
+}
+.improved-recovery-steps .content-highlight-block{
+	bottom:12px;
+	position:absolute;
+	width:100%
+}
+.improved-recovery-steps .content-highlight:hover{
+	background-color:rgba(42, 175, 95, .04);
+	border:1px solid rgba(42, 175, 95, .2)
+}
+.improved-recovery-steps .content-highlight.warning{
+	background:rgba(235, 68, 68, .03);
+	border:1px solid rgba(235, 68, 68, .1);
+	border-radius:2px;
+	color:#eb4444
+}
+.improved-recovery-steps .feedback-logo{
+	margin-left:12px;
+	margin-right:16px;
+	margin-top:7px
+}
+.improved-recovery-steps .warning-icon.warning{
+	display:block
+}
+.improved-recovery-steps .nav-back-icon{
+	background-image:url(../images/mega/icons-sprite.png?v=48528e60724d858e);
+	background-position:-204px -196px;
+	background-repeat:no-repeat;
+	background-size:262px auto;
+	display:inline-block;
+	height:16px;
+	margin:2px 12px 0 0;
+	opacity:.4;
+	-webkit-transform:scaleX(-1);
+	transform:scaleX(-1);
+	vertical-align:top;
+	width:18px
+}
+.improved-recovery-steps .right-header{
+	display:block;
+	margin:0 auto;
+	opacity:1;
+	position:relative;
+	width:680px
+}
+.improved-recovery-steps .nav-header-block{
+	line-height:24px;
+	opacity:1;
+	position:relative
+}
+.improved-recovery-steps .nav-header-block h2{
+	color:#9a9fa2;
+	display:inline-block;
+	font-family:LatoWeb;
+	font-size:13px;
+	font-weight:400;
+	letter-spacing:0;
+	line-height:27px;
+	margin:0;
+	padding:0;
+	white-space:nowrap
+}
+.improved-recovery-steps .nav-back-subheading{
+	display:none
+}
+.improved-recovery-steps .nav-header-block:hover{
+	cursor:pointer
+}
+.improved-recovery-steps .nav-header-block:hover h2{
+	text-decoration:underline
+}
+.improved-recovery-steps .recover-account-email-block{
+	margin:64px auto 32px;
+	position:relative;
+	width:360px
+}
+.park-account-dialog .recover-account-email-block{
+	margin:40px auto 24px
+}
+.backup-recover .recover-image,.improved-recovery-steps .recover-image,.improved-recovery-steps .session-image-block{
+	background-image:url(../images/mega/recover-account-sprite.png?v=83dadcefcd96b88b);
+	background-repeat:no-repeat;
+	background-size:344px auto;
+	display:block;
+	height:95px;
+	width:100%
+}
+.improved-recovery-steps .recover-image.email{
+	background-position:0 -372px
+}
+.improved-recovery-steps .recover-image.key{
+	background-position:0 -11px
+}
+.improved-recovery-steps .recover-image.lock{
+	background-position:-172px -13px
+}
+.improved-recovery-steps .recover-image.gray-device{
+	background-position:0 -140px
+}
+.improved-recovery-steps .recover-image.device-password{
+	background-position:-172px -138px
+}
+.improved-recovery-steps .recover-image.locked-key{
+	background-position:-186px -251px
+}
+.improved-recovery-steps .recover-image.unlocked-key{
+	background-position:-186px -372px
+}
+.improved-recovery-steps .recover-image.incoming-mail{
+	background-position:0 -491px
+}
+.improved-recovery-steps .recover-image.park-account{
+	background-position:-172px -491px
+}
+.improved-recovery-steps .recover-image.safe-vault{
+	background-position:23px -823px
+}
+.improved-recovery-steps .recover-image.shiny-key{
+	background-position:-172px -816px
+}
+.improved-recovery-steps .session-image-block{
+	height:94px;
+	margin:0 auto 12px;
+	width:120px
+}
+.improved-recovery-steps .check-sessions{
+	display:table;
+	margin:30px auto 0
+}
+.improved-recovery-steps .backup-key-info{
+	display:table;
+	margin:40px auto 0
+}
+.improved-recovery-steps .backup-key-info-text,.improved-recovery-steps .check-sessions-text{
+	display:block;
+	margin:0
+}
+.improved-recovery-steps .col-3{
+	cursor:pointer;
+	padding:0 12px 20px;
+	position:relative;
+	width:32.5%
+}
+.recovery-key-info.improved-recovery-steps .col-3{
+	cursor:auto;
+	padding-bottom:0
+}
+.improved-recovery-steps .check-sessions .col-3{
+	border:2px solid hsla(0, 0%, 60%, .25);
+	border-radius:4px;
+	display:table-cell
+}
+.improved-recovery-steps .backup-key-info .col-3{
+	display:table-cell
+}
+.improved-recovery-steps .check-sessions .col-3:hover{
+	border-color:rgba(42, 175, 95, .55)
+}
+.improved-recovery-steps .check-sessions .col-3.active{
+	border-color:#2aaf5f
+}
+.improved-recovery-steps .session-image-block.desktop{
+	background-position:0 -611px
+}
+.improved-recovery-steps .session-image-block.browser{
+	background-position:-233px -611px
+}
+.improved-recovery-steps .session-image-block.mobile{
+	background-position:-123px -611px
+}
+.improved-recovery-steps .check-sessions .session-text{
+	font:var(--text-body2);
+	text-align:center
+}
+.improved-recovery-steps .backup-key-info .backup-key-info-text{
+	color:var(--text-color-high);
+	font:var(--text-body1);
+	text-align:center
+}
+.improved-recovery-steps .check-sessions .checkboxOff,.improved-recovery-steps .check-sessions .checkboxOn{
+	border-radius:100%;
+	height:20px;
+	position:absolute;
+	right:0;
+	top:5px;
+	width:20px
+}
+.improved-recovery-steps .check-sessions .checkdiv{
+	box-shadow:none;
+	-webkit-box-shadow:none
+}
+.improved-recovery-steps .check-sessions .checkdiv:before{
+	display:none
+}
+.improved-recovery-steps .check-sessions .checkdiv:after{
+	background-image:url(../images/mega/top-login-sprite.png?v=33cef2f0849ccdf5);
+	background-position:-25.5px -1850px;
+	background-repeat:no-repeat;
+	content:"";
+	display:block;
+	height:100%;
+	position:absolute;
+	top:0;
+	width:100%
+}
+.improved-recovery-steps .check-sessions .checkboxOn{
+	background-color:#2aaf5f
+}
+.improved-recovery-steps .check-sessions .checkboxOff{
+	background-color:hsla(0, 0%, 60%, .25)
+}
+.improved-recovery-steps .check-sessions .col-3:hover .checkboxOff{
+	background-color:rgba(42, 175, 95, .55)
+}
+.improved-recovery-steps h5.main-italic-header{
+	color:var(--text-color-high);
+	display:inline-block;
+	padding:0
+}
+.improved-recovery-steps .recover-divider h5.main-italic-header{
+	background:#fff;
+	display:block;
+	margin:auto;
+	position:relative
+}
+.improved-recovery-steps .recover-paste-block .left-section,.improved-recovery-steps .recover-paste-block .right-section{
+	display:inline-block;
+	margin:0;
+	padding:0;
+	vertical-align:middle
+}
+.improved-recovery-steps .recover-paste-block .left-section{
+	text-align:start;
+	width:50%
+}
+.improved-recovery-steps .recover-paste-block .right-section{
+	text-align:end;
+	width:49%
+}
+.improved-recovery-steps .recover-paste-block .right-section>button:not(.hidden){
+	margin:8px 4px;
+	min-width:95px
+}
+.securitypractice .improved-recovery-steps .recover-paste-block .right-section>button{
+	margin-left:8px
+}
+.improved-recovery-steps .recover-paste-block .right-section>button.no-hover:hover{
+	background-color:initial
+}
+.improved-recovery-steps .recover-paste-block .recovery-key.account.input-wrapper .icon{
+	-webkit-margin-end:6px;
+	background-position:-172px -715px;
+	display:inline-block;
+	height:22px;
+	margin-inline-end:6px;
+	opacity:.7;
+	vertical-align:bottom;
+	width:24px
+}
+.improved-recovery-steps.withkey .recover-paste-block .recovery-key.account.input-wrapper .icon{
+	margin-bottom:4px
+}
+.improved-recovery-steps .paste-key.mega-button.positive{
+	position:absolute;
+	right:24px;
+	top:50%;
+	transform:translateY(-50%)
+}
+.improved-recovery-steps .account.input-wrapper{
+	display:block;
+	margin:0
+}
+.improved-recovery-steps .mega-input.title-ontop{
+	display:inline-flex;
+	margin:0
+}
+.improved-recovery-steps.withkey .mega-input.title-ontop,.improved-recovery-steps.withoutkey .mega-input.title-ontop{
+	width:418px
+}
+.improved-recovery-steps .recover-block.success .mega-input.title-ontop{
+	margin:20px auto 0
+}
+.improved-recovery-steps .recovery-key.account.input-wrapper{
+	border-bottom:0;
+	height:auto;
+	margin-top:8px;
+	padding:0;
+	width:260px
+}
+.improved-recovery-steps .recovery-key.account.input-wrapper input{
+	margin-top:0
+}
+.improved-recovery-steps .recovery-key.account.input-wrapper:after{
+	height:0
+}
+.improved-recovery-steps.withkey .recovery-key.account.input-wrapper{
+	border-bottom:1px solid #ccc;
+	line-height:22px
+}
+.improved-recovery-steps b,.improved-recovery-steps strong{
+	font-family:var(--text-font-family-semibold)
+}
+.improved-recovery-steps .checkbox-container,.improved-recovery-steps .info-container{
+	min-height:44px;
+	overflow:auto
+}
+.improved-recovery-steps .app-instruction-block,.improved-recovery-steps .checkbox-container,.improved-recovery-steps .info-container,.improved-recovery-steps .recover-paste-block,.improved-recovery-steps .recover-upload-block{
+	background:var(--surface-grey-1);
+	border:1px solid var(--stroke-grey-2);
+	border-radius:6px;
+	height:auto;
+	margin:24px auto 0;
+	padding:16px;
+	position:relative
+}
+.improved-recovery-steps .recover-upload-block{
+	align-items:center;
+	display:flex;
+	justify-content:space-between;
+	margin-bottom:0
+}
+.improved-recovery-steps .recover-upload-block .upload-key{
+	margin-left:12px;
+	position:relative;
+	right:8px;
+	transform:unset
+}
+.improved-recovery-steps .recover-upload-block .upload-key span{
+	white-space:nowrap
+}
+.improved-recovery-steps .recover-paste-block{
+	margin-bottom:32px;
+	margin-top:0
+}
+.park-account-dialog .fm-dialog-body{
+	padding:0 30px
+}
+.improved-recovery-steps .app-button-block{
+	align-items:center;
+	background:var(--surface-main);
+	border:var(--dropdown-border);
+	border-radius:4px;
+	cursor:pointer;
+	display:flex;
+	float:none;
+	margin:0 auto;
+	min-height:auto;
+	padding:0;
+	position:relative;
+	-webkit-transition:all .2s ease-in-out;
+	-moz-transition:all .2s ease-in-out;
+	-o-transition:all .2s ease-in-out;
+	-ms-transition:all .2s ease-in-out;
+	transition:all .2s ease-in-out;
+	width:260px
+}
+.improved-recovery-steps .app-button-block i.icon-dropdown{
+	--icon-size:24px;
+	cursor:default;
+	pointer-events:none;
+	position:absolute;
+	right:0
+}
+.improved-recovery-steps .app-button-block:hover{
+	box-shadow:0 0 0 4px rgba(0, 0, 0, .1);
+	-webkit-transition:all .2s ease-in-out;
+	-moz-transition:all .2s ease-in-out;
+	-o-transition:all .2s ease-in-out;
+	-ms-transition:all .2s ease-in-out;
+	transition:all .2s ease-in-out
+}
+.improved-recovery-steps .recover-divider{
+	height:38px;
+	position:relative
+}
+.improved-recovery-steps .recover-divider hr{
+	border-bottom-width:0;
+	border-color:rgba(38, 47, 59, .15);
+	display:inline-block;
+	float:right;
+	margin:0;
+	position:absolute;
+	right:0;
+	top:50%;
+	width:100%
+}
+.improved-recovery-steps .recover-divider .main-italic-header{
+	line-height:38px;
+	text-align:center;
+	width:10%
+}
+.backup-recover.withoutkey p:last-of-type{
+	margin-bottom:32px
+}
+.improved-recovery-steps .check-sessions{
+	margin-top:16px
+}
+.improved-recovery-steps .check-sessions-text{
+	margin-top:32px
+}
+.improved-recovery-steps .post-register,.improved-recovery-steps.post-register .pre-register{
+	display:none !important
+}
+.improved-recovery-steps.post-register .post-register{
+	display:block !important
+}
+.improved-recovery-steps.post-register .reset-account,.improved-recovery-steps.recovery-key-dialog .skip-button{
+	display:none
+}
+.improved-recovery-steps.recovery-key-dialog.post-register .skip-button{
+	cursor:pointer;
+	display:block
+}
+.improved-recovery-steps.post-register .skip-button:hover{
+	text-decoration:underline
+}
+.mega-dialog.recovery-key-dialog.post-register{
+	height:auto
+}
+.mega-dialog.recovery-key-dialog.post-register a.info{
+	color:var(--text-color-info)
+}
+@media only screen and (max-width:1250px){
+.improved-recovery-steps .password-tooltip.tooltip-block{
+	right:-200px;
+	top:45px
+}
+.improved-recovery-steps .password-tooltip.tooltip-block .triangle-pointer{
+	left:170px;
+	top:-8px;
+	transform:rotate(135deg)
+}
+}

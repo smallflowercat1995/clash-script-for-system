@@ -1,0 +1,556 @@
+{
+   "apierrmsg_aborted": {
+      "message": "Operasjonen er avbrutt."
+   },
+   "apierrmsg_device_list_error": {
+      "message": "Fant ingen USB-stasjoner eller SD-kort."
+   },
+   "apierrmsg_device_list_error_on_hub": {
+      "message": "Fant ingen USB-stasjoner."
+   },
+   "apierrmsg_device_list_error_workspace_hardware": {
+      "message": "Fant ingen USB-stasjoner."
+   },
+   "apierrmsg_device_write_error": {
+      "message": "Kunne ikke skrive til USB-flashstasjonen eller SD-kortet som er valgt. Det kan hende at skrivetillatelsene for enheten er slått av, eller at domeneadministratoren har slått av skriving til USB-lagringsmedier."
+   },
+   "apierrmsg_download_cancelled": {
+      "message": "Nedlastingen er avbrutt."
+   },
+   "apierrmsg_download_hash_mismatch": {
+      "message": "Filen er ugyldig."
+   },
+   "apierrmsg_download_interrupted": {
+      "message": "Nedlastingen er avbrutt. Kontroller nettverkstilkoblingen din, og prøv på nytt."
+   },
+   "apierrmsg_file_invalid": {
+      "message": "Filen er ugyldig."
+   },
+   "apierrmsg_operation_already_in_progress": {
+      "message": "En operasjon er allerede i gang."
+   },
+   "apierrmsg_unknown": {
+      "message": "Ukjent feil: $1.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "apierrmsg_unsupported_operation": {
+      "message": "Operasjonen støttes ikke."
+   },
+   "apierrmsg_unzip_error": {
+      "message": "Kan ikke pakke ut filen. Kontroller at enheten har nok lagringsplass, og prøv på nytt."
+   },
+   "apierrmsg_unzip_invalid_archive": {
+      "message": "Ugyldig zip-fil."
+   },
+   "apierrmsg_url_invalid": {
+      "message": "Fant ikke filen."
+   },
+   "apierrmsg_verification_failed": {
+      "message": "Bildeverifiseringen mislyktes."
+   },
+   "app_description": {
+      "message": "Opprett et gjenopprettingsmedium for Chromebooken din."
+   },
+   "app_description_on_hub": {
+      "message": "Opprett en USB-stasjon for gjenoppretting av OnHub-enheten din."
+   },
+   "app_description_workspace_hardware": {
+      "message": "Opprett en USB-stasjon for gjenoppretting av Meet Compute-systemet ditt."
+   },
+   "app_name": {
+      "message": "Gjenopprettelsesverktøy for Chromebook"
+   },
+   "app_name_on_hub": {
+      "message": "Gjenopprettelsesverktøy for OnHub"
+   },
+   "app_name_workspace_hardware": {
+      "message": "Gjenopprettelsesverktøy for Meet Compute-system"
+   },
+   "app_short_name": {
+      "message": "Gjenoppretting"
+   },
+   "cancel_button_text": {
+      "message": "Avbryt"
+   },
+   "chrome_app_deprecation_message": {
+      "message": "Som vi kunngjorde offentlig på \u003Ca href=\"https://blog.chromium.org/2020/08/changes-to-chrome-app-support-timeline.html\" target=\"_blank\" tabindex=\"0\">Chromium-bloggen\u003C/a>, slutter Google å støtte Chrome-apper i juni 2021. Bruk \u003Ca href=\"https://chrome.google.com/webstore/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm\" target=\"_blank\">utvidelsen Gjenopprettelsesverktøy for Chromebook\u003C/a> og den tilhørende \u003Ca href=\"http://www.google.com/chromeos/recovery\" target=\"_blank\">dokumentasjonen\u003C/a> for å gjenopprette enheten(e) din(e)."
+   },
+   "chrome_app_deprecation_message_on_hub": {
+      "message": "Som vi kunngjorde offentlig på \u003Ca href=\"https://blog.chromium.org/2020/08/changes-to-chrome-app-support-timeline.html\" target=\"_blank\" tabindex=\"0\">Chromium-bloggen\u003C/a>, slutter Google å støtte Chrome-apper i juni 2021. Bruk \u003Ca href=\"https://chrome.google.com/webstore/detail/onhub-recovery-utility/fmgkgdalfapcmjnanilfcpkhkhedmpdm\" target=\"_blank\">utvidelsen Gjenopprettelsesverktøy for OnHub\u003C/a> og den tilhørende \u003Ca href=\"https://support.google.com/onhub/answer/6274977\" target=\"_blank\">dokumentasjonen\u003C/a> for å gjenopprette enheten(e) din(e)."
+   },
+   "complete_bullet1": {
+      "message": "For å gjenopprette Chromebooken, koble gjenopprettingsmediet til den."
+   },
+   "complete_bullet1_on_hub": {
+      "message": "Koble strømkabelen fra OnHub-enheten, og sett inn USB-stasjonen bak på enheten. Hold inne tilbakestillingsknappen, og koble til strømmen. Fortsett å holde inne tilbakestillingsknappen i cirka 15 sekunder eller til aktivitetslyset på USB-stasjonen begynner å blinke."
+   },
+   "complete_bullet1_workspace_hardware": {
+      "message": "For å gjenopprette Meet Compute-systemet ditt, følg instruksjonene i \u003Ca href=\"http://support.google.com/meethardware/answer/10562922#zippy=%2Cstep-enter-recovery-mode\" target=\"_blank\">Gjenopprett databehandlingsboks for Google Meet-enheter, trinn 3: Gå inn i gjenopprettingsmodus\u003C/a>"
+   },
+   "complete_bullet2": {
+      "message": "Etter gjenopprettingen kan du tømme gjenopprettingsmediet ved hjelp av dette verktøyet."
+   },
+   "complete_bullet2_on_hub": {
+      "message": "OnHub-enheten skal nå gå gjennom gjenopprettingsprosessen, noe som kan ta flere minutter. Når OnHub-enheten er gjenopprettet, startes den på nytt. Så bruker du Google On-appen til å konfigurere OnHub-enheten."
+   },
+   "complete_bullet2_workspace_hardware": {
+      "message": "For å slette USB-flashstasjonen når du er ferdig, start gjenopprettingsverktøyet for Meet Compute-systemet, klikk på \u003Cb>Innstillinger\u003C/b>, og klikk så på \u003Cb>Slett gjenopprettingsmedium\u003C/b>"
+   },
+   "complete_message": {
+      "message": "Du kan fjerne gjenopprettingsmediet nå."
+   },
+   "complete_message_on_hub": {
+      "message": "Du kan fjerne USB-stasjonen for gjenoppretting nå."
+   },
+   "complete_message_workspace_hardware": {
+      "message": "Du kan ta ut flashstasjonen nå"
+   },
+   "complete_title": {
+      "message": "Fullført – gjenopprettingsmediet er klart"
+   },
+   "complete_title_on_hub": {
+      "message": "Fullført – USB-stasjonen for gjenoppretting er klar"
+   },
+   "complete_title_workspace_hardware": {
+      "message": "Fullført – USB-stasjonen for gjenoppretting er klar"
+   },
+   "completed": {
+      "message": "fullført"
+   },
+   "confirm_cancelled_message_html": {
+      "message": "Operasjonen ble avbrutt. Klikk på «Opprett nå» for å prøve på nytt.\u003Cbr>\u003Cbr>For å tømme gjenopprettingsmediet, klikk på tannhjulikonet øverst til høyre."
+   },
+   "confirm_cancelled_message_html_on_hub": {
+      "message": "Operasjonen ble avbrutt. Klikk på «Opprett nå» for å prøve på nytt.\u003Cbr>\u003Cbr>For å tømme USB-stasjonen for gjenoppretting, klikk på tannhjulikonet øverst til høyre."
+   },
+   "confirm_cancelled_message_html_workspace_hardware": {
+      "message": "Operasjonen ble avbrutt. Klikk på «Opprett nå» for å prøve på nytt.\u003Cbr>\u003Cbr>For å tømme USB-stasjonen for gjenoppretting, klikk på tannhjulikonet øverst til høyre."
+   },
+   "confirm_hide_advanced_settings_message": {
+      "message": "Skjul avanserte innstillinger"
+   },
+   "confirm_message_html": {
+      "message": "\u003Cb>Viktig:\u003C/b> Alle dataene og partisjonene på gjenopprettingsmediet blir slettet."
+   },
+   "confirm_message_html_on_hub": {
+      "message": "\u003Cb>Viktig:\u003C/b> Alle dataene og partisjonene på USB-stasjonen for gjenoppretting blir slettet."
+   },
+   "confirm_message_html_workspace_hardware": {
+      "message": "\u003Cb>Viktig:\u003C/b> Alt på flashstasjonen slettes"
+   },
+   "confirm_show_advanced_settings_message": {
+      "message": "Vis avanserte innstillinger"
+   },
+   "confirm_title": {
+      "message": "Opprett en gjenopprettingsavbildning"
+   },
+   "continue_button_text": {
+      "message": "Fortsett"
+   },
+   "create_another_button_text": {
+      "message": "Opprett en til"
+   },
+   "create_now_button_text": {
+      "message": "Opprett nå"
+   },
+   "dev_app_description": {
+      "message": "Utviklingsversjon av gjenopprettelsesverktøyet for Chromebook."
+   },
+   "dev_app_description_on_hub": {
+      "message": "Utviklingsversjon av gjenopprettelsesverktøyet for OnHub."
+   },
+   "dev_app_description_workspace_hardware": {
+      "message": "Utviklingsversjon av gjenopprettelsesverktøyet for Meet Compute-system."
+   },
+   "dev_app_name": {
+      "message": "Gjenopprettelsesverktøy for Chromebook (utv.)"
+   },
+   "dev_app_name_on_hub": {
+      "message": "Gjenopprettelsesverktøy for OnHub (utv.)"
+   },
+   "dev_app_name_workspace_hardware": {
+      "message": "Gjenopprettelsesverktøy for Meet Compute-system (utv.)"
+   },
+   "done_button_text": {
+      "message": "Ferdig"
+   },
+   "erase_complete_bullet1": {
+      "message": "USB-stasjonen eller SD-kortet er klargjort for formatering."
+   },
+   "erase_complete_bullet1_on_hub": {
+      "message": "USB-stasjonen er klargjort for formatering."
+   },
+   "erase_complete_bullet1_workspace_hardware": {
+      "message": "USB-stasjonen er klargjort for formatering."
+   },
+   "erase_complete_bullet2": {
+      "message": "Formatér ved hjelp av et formateringsverktøy i operativsystemet ditt."
+   },
+   "erase_complete_title": {
+      "message": "Gjenopprettingsmediet er tømt."
+   },
+   "erase_complete_title_on_hub": {
+      "message": "USB-stasjonen for gjenoppretting er tømt."
+   },
+   "erase_complete_title_workspace_hardware": {
+      "message": "USB-stasjonen for gjenoppretting er tømt."
+   },
+   "erase_confirm_message": {
+      "message": "Gjenopprettingsavbildningen og alle partisjonene på gjenopprettingsmediet ditt blir slettet."
+   },
+   "erase_confirm_message_on_hub": {
+      "message": "Gjenopprettingsavbildningen og alle partisjonene på USB-stasjonen for gjenoppretting blir slettet."
+   },
+   "erase_confirm_message_workspace_hardware": {
+      "message": "Gjenopprettingsavbildningen og alle partisjonene på USB-stasjonen for gjenoppretting blir slettet."
+   },
+   "erase_now_button_text": {
+      "message": "Tøm nå"
+   },
+   "erase_progress_text": {
+      "message": "Ikke fjern gjenopprettingsmediet."
+   },
+   "erase_progress_text_on_hub": {
+      "message": "Ikke fjern USB-stasjonen for gjenoppretting."
+   },
+   "erase_progress_text_workspace_hardware": {
+      "message": "Ikke fjern USB-stasjonen for gjenoppretting."
+   },
+   "erase_progress_title": {
+      "message": "Gjenopprettingsmediet tømmes"
+   },
+   "erase_progress_title_on_hub": {
+      "message": "USB-stasjonen tømmes"
+   },
+   "erase_progress_title_workspace_hardware": {
+      "message": "USB-stasjonen tømmes"
+   },
+   "erase_select_target_detecting": {
+      "message": "Leter"
+   },
+   "erase_select_target_high_capacity_warning_html": {
+      "message": "\u003Cb>Advarsel:\u003C/b> Er dette riktig diskstasjon?"
+   },
+   "erase_select_target_no_devices_found": {
+      "message": "Fant ingen USB-stasjoner eller SD-kort"
+   },
+   "erase_select_target_no_devices_found_on_hub": {
+      "message": "Fant ingen USB-stasjoner"
+   },
+   "erase_select_target_no_devices_found_workspace_hardware": {
+      "message": "Fant ingen USB-stasjoner"
+   },
+   "erase_select_target_select_device": {
+      "message": "Velg gjenopprettingsmediet du vil tømme."
+   },
+   "erase_select_target_select_device_on_hub": {
+      "message": "Velg USB-stasjonen du vil tømme."
+   },
+   "erase_select_target_select_device_placeholder": {
+      "message": "Velg"
+   },
+   "erase_select_target_select_device_workspace_hardware": {
+      "message": "Velg USB-stasjonen du vil tømme."
+   },
+   "erase_title": {
+      "message": "Tøm gjenopprettingsmediet"
+   },
+   "erase_title_on_hub": {
+      "message": "Tøm USB-stasjonen for gjenoppretting"
+   },
+   "erase_title_workspace_hardware": {
+      "message": "Tøm USB-stasjonen for gjenoppretting"
+   },
+   "errmsg_please_try_again": {
+      "message": "Prøv på nytt."
+   },
+   "errmsg_recovery_config_download_failure": {
+      "message": "Kunne ikke laste ned konfigurasjonsfilen. Bare funksjoner uten nett er tilgjengelige."
+   },
+   "get_started_button_text": {
+      "message": "Kom i gang"
+   },
+   "gigabyte_abbreviation": {
+      "message": "GB"
+   },
+   "go_back_button_text": {
+      "message": "Gå tilbake"
+   },
+   "hours_remaining": {
+      "message": "$1 timer gjenstår.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "hwid_invalid_model": {
+      "message": "Ugyldig modellnummer. Sjekk det du skrev inn."
+   },
+   "hwid_keep_typing": {
+      "message": "Ingen modell er funnet ennå. Fortsett å skrive."
+   },
+   "hwid_keep_typing_workspace_hardware": {
+      "message": "Har ikke funnet noen modell ennå"
+   },
+   "hwid_match_found": {
+      "message": "Fant et treff"
+   },
+   "hwid_match_found_and_checksum_verified": {
+      "message": "Fant et treff med nøyaktig det samme modellnavnet"
+   },
+   "learn_more_link_text": {
+      "message": "Finn ut mer"
+   },
+   "learn_more_link_url": {
+      "message": "http://www.google.com/chromeos/recovery"
+   },
+   "learn_more_link_url_on_hub": {
+      "message": "https://support.google.com/onhub/answer/6274977"
+   },
+   "learn_more_link_url_workspace_hardware": {
+      "message": "http://support.google.com/meethardware/answer/10562922"
+   },
+   "loading_config_text": {
+      "message": "Forbereder …"
+   },
+   "menu_item_erase_recovery_media": {
+      "message": "Tøm gjenopprettingsmediet"
+   },
+   "menu_item_erase_recovery_media_on_hub": {
+      "message": "Tøm USB-stasjonen for gjenoppretting"
+   },
+   "menu_item_erase_recovery_media_workspace_hardware": {
+      "message": "Tøm USB-stasjonen for gjenoppretting"
+   },
+   "menu_item_send_feedback": {
+      "message": "Send tilbakemelding"
+   },
+   "menu_item_use_local_image": {
+      "message": "Bruk en lokal avbildning"
+   },
+   "minutes_remaining": {
+      "message": "$1 minutter gjenstår.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "of": {
+      "message": "av"
+   },
+   "recovery_channel_beta": {
+      "message": "Beta"
+   },
+   "recovery_channel_dev": {
+      "message": "Dev"
+   },
+   "recovery_channel_ltc": {
+      "message": "Kandidat for langtidsstøtte (kun bedrift)"
+   },
+   "recovery_channel_lts": {
+      "message": "Langtidsstøtte (kun bedrift)"
+   },
+   "recovery_channel_stable": {
+      "message": "Stable"
+   },
+   "seconds_remaining": {
+      "message": "$1 sekunder gjenstår.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "select_channel_placeholder": {
+      "message": "Velg en gjenopprettingskanal"
+   },
+   "select_image_select_by_hwid_link_text": {
+      "message": "Skriv inn et modellnummer direkte"
+   },
+   "select_image_select_from_list_link_text": {
+      "message": "Velg modellen fra en liste"
+   },
+   "select_image_select_manufacturer_placeholder": {
+      "message": "Velg en produsent"
+   },
+   "select_image_select_product_placeholder": {
+      "message": "Velg et produkt"
+   },
+   "select_image_select_product_placeholder_on_hub": {
+      "message": "Velg en modell"
+   },
+   "select_image_select_product_placeholder_workspace_hardware": {
+      "message": "Velg en modell"
+   },
+   "select_image_text": {
+      "message": "Skriv inn modellnummeret til Chromebooken for å gjenopprette den. Dette nummeret finner du på gjenopprettingsskjermbildet."
+   },
+   "select_image_text_on_hub": {
+      "message": "Skriv inn modellnummeret til OnHub-enheten din."
+   },
+   "select_image_text_workspace_hardware": {
+      "message": "Skriv inn modellnummeret for Meet Compute-systemet ditt"
+   },
+   "select_image_this_chromebooks_model_number": {
+      "message": "Skriv inn følgende for denne Chromebooken:"
+   },
+   "select_image_this_chromebooks_model_number_on_hub": {
+      "message": "Skriv inn følgende for denne OnHub-enheten:"
+   },
+   "select_image_this_chromebooks_model_number_workspace_hardware": {
+      "message": "Skriv inn følgende for dette Meet Compute-systemet:"
+   },
+   "select_image_title": {
+      "message": "Identifiser Chromebooken din"
+   },
+   "select_image_title_on_hub": {
+      "message": "Identifiser OnHub-enheten din"
+   },
+   "select_image_title_workspace_hardware": {
+      "message": "Identifiser Meet Compute-systemet ditt"
+   },
+   "select_target_detecting": {
+      "message": "Leter"
+   },
+   "select_target_high_capacity_warning_html": {
+      "message": "\u003Cb>Advarsel:\u003C/b> Er dette riktig medium?"
+   },
+   "select_target_high_capacity_warning_html_on_hub": {
+      "message": "\u003Cb>Advarsel:\u003C/b> Er dette riktig USB-stasjon?"
+   },
+   "select_target_high_capacity_warning_html_workspace_hardware": {
+      "message": "\u003Cb>Advarsel:\u003C/b> Er dette riktig USB-stasjon?"
+   },
+   "select_target_low_capacity_error": {
+      "message": "Mediet ditt må være på minst 8 GB."
+   },
+   "select_target_low_capacity_error_on_hub": {
+      "message": "USB-stasjonen må være på minst 8 GB."
+   },
+   "select_target_low_capacity_error_workspace_hardware": {
+      "message": "USB-stasjonen må være på minst 8 GB."
+   },
+   "select_target_no_devices_found": {
+      "message": "Fant ingen USB-stasjoner eller SD-kort"
+   },
+   "select_target_no_devices_found_on_hub": {
+      "message": "Fant ingen USB-stasjoner"
+   },
+   "select_target_no_devices_found_workspace_hardware": {
+      "message": "Fant ingen USB-stasjoner"
+   },
+   "select_target_select_device": {
+      "message": "Velg mediet du vil bruke."
+   },
+   "select_target_select_device_on_hub": {
+      "message": "Velg USB-stasjonen du vil bruke."
+   },
+   "select_target_select_device_placeholder": {
+      "message": "Velg"
+   },
+   "select_target_select_device_workspace_hardware": {
+      "message": "Velg USB-stasjonen du vil bruke."
+   },
+   "select_target_title": {
+      "message": "Sett inn USB-flashstasjonen eller SD-kortet"
+   },
+   "select_target_title_on_hub": {
+      "message": "Sett inn USB-flashstasjonen"
+   },
+   "select_target_title_workspace_hardware": {
+      "message": "Sett inn USB-flashstasjonen"
+   },
+   "stage_complete": {
+      "message": "Fullført"
+   },
+   "stage_download": {
+      "message": "Laster ned"
+   },
+   "stage_downloadverify": {
+      "message": "Bekrefter nedlastingen"
+   },
+   "stage_unpack": {
+      "message": "Pakker ut"
+   },
+   "stage_unzip": {
+      "message": "Pakker ut"
+   },
+   "stage_verify": {
+      "message": "Bekrefter"
+   },
+   "stage_verifydownload": {
+      "message": "Bekrefter nedlastingen"
+   },
+   "stage_verifywrite": {
+      "message": "Bekrefter"
+   },
+   "stage_write": {
+      "message": "Skriver"
+   },
+   "step": {
+      "message": "Trinn"
+   },
+   "unsupported_text": {
+      "message": "Dessverre støttes ikke plattformen din for øyeblikket. Gå til \u003Ca href=\"http://www.google.com/chromeos/recovery\" target=\"_blank\">Chromebook-brukerstøtte\u003C/a> for mer informasjon."
+   },
+   "unsupported_text_mac": {
+      "message": "Dessverre støttes Mac bare på M37 og nyere. Oppdater Chrome til M37. Du må kanskje \u003Ca href=\"https://support.google.com/chromebook/answer/1086915\" target=\"_blank\">bytte til beta-kanalen\u003C/a>."
+   },
+   "unsupported_text_on_hub": {
+      "message": "Plattformen din støttes dessverre ikke for øyeblikket. Gå til \u003Ca href=\"https://support.google.com/onhub/answer/6274977\" target=\"_blank\">brukerstøtten for OnHub\u003C/a> for mer informasjon."
+   },
+   "unsupported_title": {
+      "message": "Plattformen din støttes ikke for øyeblikket"
+   },
+   "unsupported_title_linux": {
+      "message": "Linux støttes ikke for øyeblikket"
+   },
+   "unsupported_title_mac": {
+      "message": "Mac støttes ikke for øyeblikket"
+   },
+   "unsupported_title_win": {
+      "message": "Windows støttes ikke for øyeblikket"
+   },
+   "usupported_text_workspace_hardware": {
+      "message": "Dessverre støttes ikke plattformen din på nåværende tidspunkt.  Se \u003Ca href=\"http://support.google.com/meethardware/answer/10562922\" target=\"_blank\">Hjelpesenter for Google Meet-enheter\u003C/a> for mer informasjon."
+   },
+   "warning_offline": {
+      "message": "Enheten er frakoblet. Bare funksjoner uten nett er tilgjengelige."
+   },
+   "welcome_text": {
+      "message": "Du kommer til å trenge en USB-flashstasjon eller et SD-kort med kapasitet på minst 8 GB. Alle dataene på USB-flashstasjonen eller SD-kortet blir slettet."
+   },
+   "welcome_text_on_hub": {
+      "message": "Du kommer til å trenge en USB-flashstasjon med kapasitet på minst 8 GB. Alle dataene på USB-flashstasjonen blir slettet."
+   },
+   "welcome_text_workspace_hardware": {
+      "message": "Du kommer til å trenge en USB-flashstasjon med kapasitet på minst 8 GB. Alle dataene på USB-flashstasjonen blir slettet. Du kan også bruke et SD-kort hvis enheten har et SD-kortspot."
+   },
+   "welcome_title": {
+      "message": "Opprett et gjenopprettingsmedium for Chromebooken din"
+   },
+   "welcome_title_on_hub": {
+      "message": "Opprett en USB-stasjon for gjenoppretting av OnHub-enheten din"
+   },
+   "welcome_title_workspace_hardware": {
+      "message": "Opprett en USB-stasjon for gjenoppretting av Meet Compute-systemet ditt"
+   },
+   "write_message": {
+      "message": "Ikke fjern gjenopprettingsmediet."
+   },
+   "write_message_on_hub": {
+      "message": "Ikke fjern USB-stasjonen for gjenoppretting."
+   },
+   "write_message_workspace_hardware": {
+      "message": "Ikke ta ut USB-flashstasjonen."
+   },
+   "write_title": {
+      "message": "Oppretter en gjenopprettingsavbildning"
+   }
+}

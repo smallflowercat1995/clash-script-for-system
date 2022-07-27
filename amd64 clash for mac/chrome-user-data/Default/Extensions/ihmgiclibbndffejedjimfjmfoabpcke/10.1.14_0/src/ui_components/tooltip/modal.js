@@ -1,0 +1,1 @@
+ke.import("templates.modalTooltip"),ke.import("ui_components.tooltip.simple"),ke.import("s:ui_components.tooltip.modal"),pl.extend(ke.ui.tooltip.modal,{show:function(o,t,e,i,l){ke.ui.tooltip.simple.create(ke.ext.tpl.compile(ke.templates.modalTooltip,{headline:o[0],text:o[1]}),t,e,i,l,!1)}});

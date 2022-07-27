@@ -1,0 +1,20 @@
+{
+   "chromesysAllowFileAccess": {
+      "message": "Payagan ang access na mag-file ng mga URL"
+   },
+   "chromesysDownloadLocation": {
+      "message": "Lokasyon sa pag-download"
+   },
+   "chromesysDownloadsSection": {
+      "message": "Mga Download"
+   },
+   "chromesysShowAdvSettings": {
+      "message": "Ipakita ang mga advanced na setting..."
+   },
+   "extName": {
+      "message": "Chrono Download Manager"
+   },
+   "uilangName": {
+      "message": "Filipino"
+   }
+}

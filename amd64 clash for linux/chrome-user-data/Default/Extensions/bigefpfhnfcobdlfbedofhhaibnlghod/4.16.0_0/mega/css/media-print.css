@@ -1,0 +1,53 @@
+@media print{
+*{
+	-webkit-print-color-adjust:exact !important;
+	color-adjust:exact !important
+}
+.bottom-page .top-head{
+	position:absolute !important
+}
+body,body *{
+	max-width:100% !important
+}
+.data-block-view{
+	left:auto !important;
+	position:relative !important;
+	top:auto !important
+}
+body.bottom-page,body.bottom-pages .fmholder{
+	overflow:visible !important
+}
+#help2-main .sidebar-menu-container.fixed,#help2-main .support-section-header{
+	position:absolute !important
+}
+.contact-us-revamp h1{
+	margin-bottom:0
+}
+.bottom-page.img.mobile-top{
+	margin:0 0 0 38px
+}
+.bottom-page.img.megasync,.bottom-page.img.mobile-app{
+	padding:0
+}
+.bottom-page.full-block{
+	overflow:hidden
+}
+.megasync .bottom-page img{
+	width:60%
+}
+.bottom-page.img-wrap:before{
+	display:none
+}
+.bottom-page .security-illustration{	
+	left:auto;
+	margin-left:auto;
+	position:static
+}
+.bottom-page.table{
+	table-layout:auto
+}
+}
+@page{
+	-webkit-print-color-adjust:exact !important;
+	color-adjust:exact !important
+}

@@ -1,0 +1,556 @@
+{
+   "apierrmsg_aborted": {
+      "message": "Opération interrompue."
+   },
+   "apierrmsg_device_list_error": {
+      "message": "Clé USB ou carte SD introuvables."
+   },
+   "apierrmsg_device_list_error_on_hub": {
+      "message": "Clé USB introuvable."
+   },
+   "apierrmsg_device_list_error_workspace_hardware": {
+      "message": "Clé USB introuvable."
+   },
+   "apierrmsg_device_write_error": {
+      "message": "Impossible d'écrire sur la clé USB ou la carte SD sélectionnée. Les autorisations en écriture de votre appareil sont peut-être désactivées, ou l'administrateur de votre domaine pourrait avoir désactivé l'écriture sur les mémoires de stockage USB."
+   },
+   "apierrmsg_download_cancelled": {
+      "message": "Téléchargement annulé."
+   },
+   "apierrmsg_download_hash_mismatch": {
+      "message": "Fichier non valide."
+   },
+   "apierrmsg_download_interrupted": {
+      "message": "Téléchargement interrompu. Veuillez vérifier votre connexion réseau, puis réessayer."
+   },
+   "apierrmsg_file_invalid": {
+      "message": "Fichier non valide."
+   },
+   "apierrmsg_operation_already_in_progress": {
+      "message": "Une autre opération est en cours."
+   },
+   "apierrmsg_unknown": {
+      "message": "Erreur inconnue : $1.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "apierrmsg_unsupported_operation": {
+      "message": "Opération incompatible."
+   },
+   "apierrmsg_unzip_error": {
+      "message": "Impossible de décompresser le fichier. Veuillez vérifier si l'espace est suffisant sur votre appareil, puis réessayer."
+   },
+   "apierrmsg_unzip_invalid_archive": {
+      "message": "Fichier ZIP non valide."
+   },
+   "apierrmsg_url_invalid": {
+      "message": "Fichier introuvable."
+   },
+   "apierrmsg_verification_failed": {
+      "message": "Échec de la validation de l'image."
+   },
+   "app_description": {
+      "message": "Créez un support de récupération pour votre Chromebook."
+   },
+   "app_description_on_hub": {
+      "message": "Créez une clé USB de récupération pour votre OnHub."
+   },
+   "app_description_workspace_hardware": {
+      "message": "Créez une clé USB de récupération pour votre Meet Compute System."
+   },
+   "app_name": {
+      "message": "Chromebook Recovery Utility"
+   },
+   "app_name_on_hub": {
+      "message": "OnHub Recovery Utility"
+   },
+   "app_name_workspace_hardware": {
+      "message": "Meet Compute System Recovery Utility"
+   },
+   "app_short_name": {
+      "message": "Récupération"
+   },
+   "cancel_button_text": {
+      "message": "Annuler"
+   },
+   "chrome_app_deprecation_message": {
+      "message": "Comme annoncé publiquement sur le \u003Ca href=\"https://blog.chromium.org/2020/08/changes-to-chrome-app-support-timeline.html\" target=\"_blank\" tabindex=\"0\">blog Chromium\u003C/a>, Google ne prendra plus en charge les applications Chrome à compter de juin 2021. Veuillez utiliser l'\u003Ca href=\"https://chrome.google.com/webstore/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm\" target=\"_blank\">extension Chromebook Recovery Utility\u003C/a> et la \u003Ca href=\"http://www.google.com/chromeos/recovery\" target=\"_blank\">documentation\u003C/a> associée pour restaurer votre ou vos appareils."
+   },
+   "chrome_app_deprecation_message_on_hub": {
+      "message": "Comme annoncé publiquement sur le \u003Ca href=\"https://blog.chromium.org/2020/08/changes-to-chrome-app-support-timeline.html\" target=\"_blank\" tabindex=\"0\">blog Chromium\u003C/a>, Google ne prendra plus en charge les applications Chrome à compter de juin 2021. Veuillez utiliser l'\u003Ca href=\"https://chrome.google.com/webstore/detail/onhub-recovery-utility/fmgkgdalfapcmjnanilfcpkhkhedmpdm\" target=\"_blank\">extension OnHub Recovery Utility\u003C/a> et la \u003Ca href=\"https://support.google.com/onhub/answer/6274977\" target=\"_blank\">documentation\u003C/a> associée pour restaurer votre ou vos appareils."
+   },
+   "complete_bullet1": {
+      "message": "Pour récupérer votre Chromebook, connectez-y le support de récupération."
+   },
+   "complete_bullet1_on_hub": {
+      "message": "Déconnectez le câble d'alimentation de l'appareil OnHub, puis insérez la clé USB à l'arrière de ce dernier. Maintenez le bouton de réinitialisation enfoncé et branchez le câble d'alimentation. Continuez de maintenir ce bouton enfoncé pendant environ 15 secondes, ou jusqu'à ce que le voyant d'activité de la clé USB commence à clignoter."
+   },
+   "complete_bullet1_workspace_hardware": {
+      "message": "Pour récupérer votre Meet Compute System, suivez les instructions de l'article \u003Ca href=\"http://support.google.com/meethardware/answer/10562922#zippy=%2Cstep-enter-recovery-mode\" target=\"_blank\">Récupérer l'unité de traitement de votre matériel Google Meet (Étape 3 : Passez en mode récupération)\u003C/a>"
+   },
+   "complete_bullet2": {
+      "message": "Après la récupération, vous pouvez effacer le support de récupération à l'aide de cet utilitaire."
+   },
+   "complete_bullet2_on_hub": {
+      "message": "Votre OnHub va être récupéré, ce qui pourra prendre plusieurs minutes. Une fois l'appareil récupéré, il redémarrera. Ensuite, vous devrez utiliser l'appli Google On pour configurer votre OnHub."
+   },
+   "complete_bullet2_workspace_hardware": {
+      "message": "Pour effacer la clé USB quand vous avez fini, démarrez Meet Compute System Recovery Utility, cliquez sur \u003Cb>Paramètres\u003C/b>, puis sur \u003Cb>Effacer le support de récupération\u003C/b>"
+   },
+   "complete_message": {
+      "message": "Vous pouvez maintenant retirer le support de récupération."
+   },
+   "complete_message_on_hub": {
+      "message": "Vous pouvez maintenant retirer la clé USB de récupération."
+   },
+   "complete_message_workspace_hardware": {
+      "message": "Vous pouvez retirer la clé USB"
+   },
+   "complete_title": {
+      "message": "Votre support de récupération est prêt"
+   },
+   "complete_title_on_hub": {
+      "message": "Votre clé USB de récupération est prête"
+   },
+   "complete_title_workspace_hardware": {
+      "message": "Votre clé USB de récupération est prête"
+   },
+   "completed": {
+      "message": "terminé"
+   },
+   "confirm_cancelled_message_html": {
+      "message": "Annulé. Cliquez sur \"Créer\" pour réessayer.\u003Cbr>\u003Cbr>Pour effacer le support de récupération, cliquez sur l'icône en forme de roue dentée en haut à droite."
+   },
+   "confirm_cancelled_message_html_on_hub": {
+      "message": "Annulé. Cliquez sur \"Créer\" pour réessayer.\u003Cbr>\u003Cbr>Pour effacer la clé USB de récupération, cliquez sur l'icône en forme de roue dentée en haut à droite."
+   },
+   "confirm_cancelled_message_html_workspace_hardware": {
+      "message": "Annulé. Cliquez sur \"Créer\" pour réessayer.\u003Cbr>\u003Cbr>Pour effacer la clé USB de récupération, cliquez sur l'icône en forme de roue dentée en haut à droite."
+   },
+   "confirm_hide_advanced_settings_message": {
+      "message": "Masquer les paramètres avancés"
+   },
+   "confirm_message_html": {
+      "message": "\u003Cb>Important\u003C/b> : Toutes les données et les partitions du support de récupération vont être supprimées."
+   },
+   "confirm_message_html_on_hub": {
+      "message": "\u003Cb>Important\u003C/b> : Toutes les données et les partitions de la clé USB vont être supprimées."
+   },
+   "confirm_message_html_workspace_hardware": {
+      "message": "\u003Cb>Important\u003C/b> : Toutes les données de la clé USB seront effacées"
+   },
+   "confirm_show_advanced_settings_message": {
+      "message": "Afficher les paramètres avancés"
+   },
+   "confirm_title": {
+      "message": "Créez une image de récupération"
+   },
+   "continue_button_text": {
+      "message": "Continuer"
+   },
+   "create_another_button_text": {
+      "message": "Créer un autre support"
+   },
+   "create_now_button_text": {
+      "message": "Créer"
+   },
+   "dev_app_description": {
+      "message": "Version pour les développeurs de Chromebook Recovery Utility."
+   },
+   "dev_app_description_on_hub": {
+      "message": "Version pour les développeurs d'OnHub Recovery Utility."
+   },
+   "dev_app_description_workspace_hardware": {
+      "message": "Version pour les développeurs de Meet Compute System Recovery Utility."
+   },
+   "dev_app_name": {
+      "message": "Chromebook Recovery Utility Dev"
+   },
+   "dev_app_name_on_hub": {
+      "message": "OnHub Recovery Utility Dev"
+   },
+   "dev_app_name_workspace_hardware": {
+      "message": "Meet Compute System Recovery Utility Dev"
+   },
+   "done_button_text": {
+      "message": "OK"
+   },
+   "erase_complete_bullet1": {
+      "message": "La clé USB ou la carte SD est prête à être formatée."
+   },
+   "erase_complete_bullet1_on_hub": {
+      "message": "La clé USB est prête à être formatée."
+   },
+   "erase_complete_bullet1_workspace_hardware": {
+      "message": "La clé USB est prête à être formatée."
+   },
+   "erase_complete_bullet2": {
+      "message": "Formatez le support à l'aide d'un outil spécialisé disponible sur votre OS."
+   },
+   "erase_complete_title": {
+      "message": "Le support de récupération a été effacé"
+   },
+   "erase_complete_title_on_hub": {
+      "message": "La clé USB de récupération a été effacée"
+   },
+   "erase_complete_title_workspace_hardware": {
+      "message": "La clé USB de récupération a été effacée"
+   },
+   "erase_confirm_message": {
+      "message": "L'image de récupération et toutes les partitions du support vont être effacées."
+   },
+   "erase_confirm_message_on_hub": {
+      "message": "L'image de récupération et toutes les partitions de la clé USB de récupération vont être effacées."
+   },
+   "erase_confirm_message_workspace_hardware": {
+      "message": "L'image de récupération et toutes les partitions de la clé USB de récupération vont être effacées."
+   },
+   "erase_now_button_text": {
+      "message": "Effacer"
+   },
+   "erase_progress_text": {
+      "message": "Ne retirez pas le support de récupération."
+   },
+   "erase_progress_text_on_hub": {
+      "message": "Ne retirez pas la clé USB de récupération."
+   },
+   "erase_progress_text_workspace_hardware": {
+      "message": "Ne retirez pas la clé USB de récupération."
+   },
+   "erase_progress_title": {
+      "message": "Effacement du support de récupération"
+   },
+   "erase_progress_title_on_hub": {
+      "message": "Effacement de la clé USB de récupération"
+   },
+   "erase_progress_title_workspace_hardware": {
+      "message": "Effacement de la clé USB de récupération"
+   },
+   "erase_select_target_detecting": {
+      "message": "Détection…"
+   },
+   "erase_select_target_high_capacity_warning_html": {
+      "message": "\u003Cb>Avertissement\u003C/b> : S'agit-il du bon support ?"
+   },
+   "erase_select_target_no_devices_found": {
+      "message": "Clés USB ou carte SD introuvables"
+   },
+   "erase_select_target_no_devices_found_on_hub": {
+      "message": "Clé USB introuvable"
+   },
+   "erase_select_target_no_devices_found_workspace_hardware": {
+      "message": "Clé USB introuvable"
+   },
+   "erase_select_target_select_device": {
+      "message": "Sélectionnez le support de récupération à effacer."
+   },
+   "erase_select_target_select_device_on_hub": {
+      "message": "Sélectionnez la clé USB de récupération à effacer."
+   },
+   "erase_select_target_select_device_placeholder": {
+      "message": "Sélectionnez"
+   },
+   "erase_select_target_select_device_workspace_hardware": {
+      "message": "Sélectionnez la clé USB de récupération à effacer."
+   },
+   "erase_title": {
+      "message": "Effacer le support de récupération"
+   },
+   "erase_title_on_hub": {
+      "message": "Effacer la clé USB de récupération"
+   },
+   "erase_title_workspace_hardware": {
+      "message": "Effacer la clé USB de récupération"
+   },
+   "errmsg_please_try_again": {
+      "message": "Veuillez réessayer."
+   },
+   "errmsg_recovery_config_download_failure": {
+      "message": "Échec du téléchargement du fichier de configuration. Seules les fonctionnalités hors connexion seront disponibles."
+   },
+   "get_started_button_text": {
+      "message": "Commencer"
+   },
+   "gigabyte_abbreviation": {
+      "message": "Go"
+   },
+   "go_back_button_text": {
+      "message": "Retour"
+   },
+   "hours_remaining": {
+      "message": "Temps restant : $1 heures.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "hwid_invalid_model": {
+      "message": "Numéro de modèle non valide. Veuillez vérifier votre saisie."
+   },
+   "hwid_keep_typing": {
+      "message": "Aucun modèle trouvé pour le moment. Continuez à saisir du texte."
+   },
+   "hwid_keep_typing_workspace_hardware": {
+      "message": "Aucun modèle trouvé pour l'instant"
+   },
+   "hwid_match_found": {
+      "message": "Correspondance trouvée"
+   },
+   "hwid_match_found_and_checksum_verified": {
+      "message": "Correspondance trouvée avec le nom de modèle exact"
+   },
+   "learn_more_link_text": {
+      "message": "En savoir plus"
+   },
+   "learn_more_link_url": {
+      "message": "http://www.google.com/chromeos/recovery"
+   },
+   "learn_more_link_url_on_hub": {
+      "message": "https://support.google.com/onhub/answer/6274977"
+   },
+   "learn_more_link_url_workspace_hardware": {
+      "message": "http://support.google.com/meethardware/answer/10562922"
+   },
+   "loading_config_text": {
+      "message": "Préparation…"
+   },
+   "menu_item_erase_recovery_media": {
+      "message": "Effacer le support de récupération"
+   },
+   "menu_item_erase_recovery_media_on_hub": {
+      "message": "Effacer la clé USB de récupération"
+   },
+   "menu_item_erase_recovery_media_workspace_hardware": {
+      "message": "Effacer la clé USB de récupération"
+   },
+   "menu_item_send_feedback": {
+      "message": "Envoyer des commentaires"
+   },
+   "menu_item_use_local_image": {
+      "message": "Utiliser une image locale"
+   },
+   "minutes_remaining": {
+      "message": "Temps restant : $1 minutes.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "of": {
+      "message": "sur"
+   },
+   "recovery_channel_beta": {
+      "message": "Bêta"
+   },
+   "recovery_channel_dev": {
+      "message": "Développement"
+   },
+   "recovery_channel_ltc": {
+      "message": "Candidat à un support à long terme (Enterprise uniquement)"
+   },
+   "recovery_channel_lts": {
+      "message": "Support à long terme (Enterprise uniquement)"
+   },
+   "recovery_channel_stable": {
+      "message": "Stable"
+   },
+   "seconds_remaining": {
+      "message": "Temps restant : $1 secondes.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "select_channel_placeholder": {
+      "message": "Sélectionnez une version de récupération"
+   },
+   "select_image_select_by_hwid_link_text": {
+      "message": "Saisir directement un numéro de modèle"
+   },
+   "select_image_select_from_list_link_text": {
+      "message": "Sélectionner un modèle dans une liste"
+   },
+   "select_image_select_manufacturer_placeholder": {
+      "message": "Sélectionnez un fabricant"
+   },
+   "select_image_select_product_placeholder": {
+      "message": "Sélectionnez un produit"
+   },
+   "select_image_select_product_placeholder_on_hub": {
+      "message": "Sélectionnez un modèle"
+   },
+   "select_image_select_product_placeholder_workspace_hardware": {
+      "message": "Sélectionnez un modèle"
+   },
+   "select_image_text": {
+      "message": "Saisissez le numéro de modèle du Chromebook à récupérer. Vous le trouverez sur l'écran de récupération."
+   },
+   "select_image_text_on_hub": {
+      "message": "Saisissez le numéro de modèle de votre OnHub."
+   },
+   "select_image_text_workspace_hardware": {
+      "message": "Saisissez le numéro de modèle de votre Meet Compute System"
+   },
+   "select_image_this_chromebooks_model_number": {
+      "message": "Pour ce Chromebook, saisissez"
+   },
+   "select_image_this_chromebooks_model_number_on_hub": {
+      "message": "Pour cet OnHub, saisissez"
+   },
+   "select_image_this_chromebooks_model_number_workspace_hardware": {
+      "message": "Pour ce Meet Compute System, saisissez"
+   },
+   "select_image_title": {
+      "message": "Identifier votre Chromebook"
+   },
+   "select_image_title_on_hub": {
+      "message": "Identifier votre OnHub"
+   },
+   "select_image_title_workspace_hardware": {
+      "message": "Identifier votre Meet Compute System"
+   },
+   "select_target_detecting": {
+      "message": "Détection…"
+   },
+   "select_target_high_capacity_warning_html": {
+      "message": "\u003Cb>Avertissement\u003C/b> : S'agit-il du bon support ?"
+   },
+   "select_target_high_capacity_warning_html_on_hub": {
+      "message": "\u003Cb>Avertissement\u003C/b> : S'agit-il bien de la bonne clé USB ?"
+   },
+   "select_target_high_capacity_warning_html_workspace_hardware": {
+      "message": "\u003Cb>Avertissement\u003C/b> : S'agit-il bien de la bonne clé USB ?"
+   },
+   "select_target_low_capacity_error": {
+      "message": "La capacité du support doit être d'au moins 8 Go."
+   },
+   "select_target_low_capacity_error_on_hub": {
+      "message": "La capacité de la clé USB doit être d'au moins 8 Go."
+   },
+   "select_target_low_capacity_error_workspace_hardware": {
+      "message": "La capacité de la clé USB doit être d'au moins 8 Go."
+   },
+   "select_target_no_devices_found": {
+      "message": "Clés USB ou carte SD introuvables"
+   },
+   "select_target_no_devices_found_on_hub": {
+      "message": "Clé USB introuvable"
+   },
+   "select_target_no_devices_found_workspace_hardware": {
+      "message": "Clé USB introuvable"
+   },
+   "select_target_select_device": {
+      "message": "Sélectionnez le support à utiliser."
+   },
+   "select_target_select_device_on_hub": {
+      "message": "Sélectionnez la clé USB à utiliser."
+   },
+   "select_target_select_device_placeholder": {
+      "message": "Sélectionnez"
+   },
+   "select_target_select_device_workspace_hardware": {
+      "message": "Sélectionnez la clé USB à utiliser."
+   },
+   "select_target_title": {
+      "message": "Insérer une clé USB ou une carte SD"
+   },
+   "select_target_title_on_hub": {
+      "message": "Insérer une clé USB"
+   },
+   "select_target_title_workspace_hardware": {
+      "message": "Insérer une clé USB"
+   },
+   "stage_complete": {
+      "message": "Terminé"
+   },
+   "stage_download": {
+      "message": "Téléchargement…"
+   },
+   "stage_downloadverify": {
+      "message": "Validation du téléchargement…"
+   },
+   "stage_unpack": {
+      "message": "Décompression…"
+   },
+   "stage_unzip": {
+      "message": "Décompression…"
+   },
+   "stage_verify": {
+      "message": "Validation…"
+   },
+   "stage_verifydownload": {
+      "message": "Validation du téléchargement…"
+   },
+   "stage_verifywrite": {
+      "message": "Validation…"
+   },
+   "stage_write": {
+      "message": "Écriture…"
+   },
+   "step": {
+      "message": "Étape"
+   },
+   "unsupported_text": {
+      "message": "Malheureusement, votre plate-forme n'est pas compatible actuellement. Pour en savoir plus, veuillez consulter le \u003Ca href=\"http://www.google.com/chromeos/recovery\" target=\"_blank\">Centre d'aide Chromebook\u003C/a>."
+   },
+   "unsupported_text_mac": {
+      "message": "Malheureusement, la plate-forme Mac n'est compatible qu'avec la version M37 ou ultérieure. Veuillez mettre à jour Chrome pour utiliser la version M37. Pour cela, vous devrez peut-être \u003Ca href=\"https://support.google.com/chromebook/answer/1086915\" target=\"_blank\">passer à la version bêta\u003C/a>."
+   },
+   "unsupported_text_on_hub": {
+      "message": "Malheureusement, votre plate-forme n'est pas compatible actuellement. Pour en savoir plus, veuillez consulter le \u003Ca href=\"https://support.google.com/onhub/answer/6274977\" target=\"_blank\">Centre d'aide OnHub\u003C/a>."
+   },
+   "unsupported_title": {
+      "message": "Votre plate-forme n'est pas compatible actuellement"
+   },
+   "unsupported_title_linux": {
+      "message": "Linux n'est pas compatible actuellement"
+   },
+   "unsupported_title_mac": {
+      "message": "Mac n'est pas compatible actuellement"
+   },
+   "unsupported_title_win": {
+      "message": "Windows n'est pas compatible actuellement"
+   },
+   "usupported_text_workspace_hardware": {
+      "message": "Malheureusement, votre plate-forme n'est pas encore compatible.  Consultez le \u003Ca href=\"http://support.google.com/meethardware/answer/10562922\" target=\"_blank\">Centre d'aide du matériel Google Meet\u003C/a> pour plus d'informations."
+   },
+   "warning_offline": {
+      "message": "L'appareil est déconnecté. Seules les fonctionnalités hors connexion seront disponibles."
+   },
+   "welcome_text": {
+      "message": "Vous avez besoin d'une clé USB ou d'une carte SD d'une capacité de 8 Go ou plus et dont le contenu peut être effacé."
+   },
+   "welcome_text_on_hub": {
+      "message": "Vous avez besoin d'une clé USB d'une capacité de 8 Go ou plus et dont le contenu peut être effacé."
+   },
+   "welcome_text_workspace_hardware": {
+      "message": "Vous aurez besoin d'une clé USB de 8 Go ou plus, dont le contenu peut être effacé. Vous pouvez aussi utiliser une carte SD si votre appareil dispose d'une fente SD."
+   },
+   "welcome_title": {
+      "message": "Créer un support de récupération pour votre Chromebook"
+   },
+   "welcome_title_on_hub": {
+      "message": "Créer une clé USB de récupération pour votre OnHub"
+   },
+   "welcome_title_workspace_hardware": {
+      "message": "Créer une clé USB de récupération pour votre Meet Compute System"
+   },
+   "write_message": {
+      "message": "Ne retirez pas le support de récupération."
+   },
+   "write_message_on_hub": {
+      "message": "Ne retirez pas la clé USB de récupération."
+   },
+   "write_message_workspace_hardware": {
+      "message": "Ne retirez pas la clé USB."
+   },
+   "write_title": {
+      "message": "Création d'une image de récupération"
+   }
+}

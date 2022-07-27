@@ -1,0 +1,556 @@
+{
+   "apierrmsg_aborted": {
+      "message": "പ്രവർത്തനം തടസ്സപ്പെട്ടു."
+   },
+   "apierrmsg_device_list_error": {
+      "message": "USB ഡ്രൈവോ SD കാർഡോ കണ്ടെത്താനാകുന്നില്ല."
+   },
+   "apierrmsg_device_list_error_on_hub": {
+      "message": "USB ഡ്രൈവ് കണ്ടെത്താനാകുന്നില്ല."
+   },
+   "apierrmsg_device_list_error_workspace_hardware": {
+      "message": "USB ഡ്രൈവ് കണ്ടെത്താനാകുന്നില്ല."
+   },
+   "apierrmsg_device_write_error": {
+      "message": "തിരഞ്ഞെടുത്ത USB ഫ്ലാഷ് ഡ്രൈവ് അല്ലെങ്കിൽ SD കാർഡിലേക്ക് റൈറ്റ് ചെയ്യാനാകുന്നില്ല. നിങ്ങളുടെ ഉപകരണത്തിന്റെ റൈറ്റ് അനുമതികൾ പ്രവർത്തനരഹിതമാക്കിയിരിക്കാം അല്ലെങ്കിൽ USB സ്റ്റോറേജിലേക്ക് റൈറ്റ് ചെയ്യുന്നത് നിങ്ങളുടെ ഡൊമെയ്‌ൻ പ്രവർത്തനരഹതിമാക്കിയിരിക്കാം."
+   },
+   "apierrmsg_download_cancelled": {
+      "message": "ഡൗൺലോഡ് ചെയ്യൽ റദ്ദാക്കി."
+   },
+   "apierrmsg_download_hash_mismatch": {
+      "message": "ഫയൽ അസാധുവാണ്."
+   },
+   "apierrmsg_download_interrupted": {
+      "message": "ഡൗൺലോഡ് ചെയ്യൽ തടസ്സപ്പെട്ടു. നിങ്ങളുടെ ഇന്റർനെറ്റ് കണക്ഷൻ പരിശോധിച്ച് വീണ്ടും ശ്രമിക്കുക."
+   },
+   "apierrmsg_file_invalid": {
+      "message": "ഫയൽ അസാധുവാണ്."
+   },
+   "apierrmsg_operation_already_in_progress": {
+      "message": "ഒരു പ്രവർത്തനം നിലവിൽ പുരോഗമിക്കുകയാണ്."
+   },
+   "apierrmsg_unknown": {
+      "message": "അജ്ഞാതമായ പിശക്: $1.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "apierrmsg_unsupported_operation": {
+      "message": "പിന്തുണയ്‌ക്കാത്ത പ്രവർത്തനം."
+   },
+   "apierrmsg_unzip_error": {
+      "message": "ഫയൽ അൺ‌സിപ്പ് ചെയ്യാനാകുന്നില്ല. നിങ്ങളുടെ ഉപകരണത്തിൽ മതിയായ ഇടമുണ്ടോ എന്ന് പരിശോധിച്ച ശേഷം വീണ്ടും ശ്രമിക്കുക."
+   },
+   "apierrmsg_unzip_invalid_archive": {
+      "message": "zip ഫയൽ അസാധുവാണ്."
+   },
+   "apierrmsg_url_invalid": {
+      "message": "ഫയൽ കണ്ടെത്തിയില്ല."
+   },
+   "apierrmsg_verification_failed": {
+      "message": "ചിത്രം പരിശോധിച്ചുറപ്പിക്കാനായില്ല."
+   },
+   "app_description": {
+      "message": "നിങ്ങളുടെ Chromebook-നായി വീണ്ടെടുക്കൽ മീഡിയ സൃഷ്ടിക്കുക."
+   },
+   "app_description_on_hub": {
+      "message": "നിങ്ങളുടെ OnHub-നായി വീണ്ടെടുക്കൽ USB ഡ്രൈവ് സൃഷ്ടിക്കുക."
+   },
+   "app_description_workspace_hardware": {
+      "message": "നിങ്ങളുടെ Meet Compute System-നായി വീണ്ടെടുക്കൽ USB ഡ്രൈവ് സൃഷ്ടിക്കുക."
+   },
+   "app_name": {
+      "message": "Chromebook വീണ്ടെടുക്കൽ യൂട്ടിലിറ്റി"
+   },
+   "app_name_on_hub": {
+      "message": "OnHub വീണ്ടെടുക്കൽ യൂട്ടിലിറ്റി"
+   },
+   "app_name_workspace_hardware": {
+      "message": "Meet Compute System വീണ്ടെടുക്കൽ യൂട്ടിലിറ്റി"
+   },
+   "app_short_name": {
+      "message": "വീണ്ടെടുക്കൽ"
+   },
+   "cancel_button_text": {
+      "message": "റദ്ദാക്കുക"
+   },
+   "chrome_app_deprecation_message": {
+      "message": "\u003Ca href=\"https://blog.chromium.org/2020/08/changes-to-chrome-app-support-timeline.html\" target=\"_blank\" tabindex=\"0\">Chromium ബ്ലോഗിൽ\u003C/a> പൊതുവായി പ്രഖ്യാപിച്ചത് പോലെ, 2021 ജൂണിൽ Chrome ആപ്പുകൾക്കുള്ള പിന്തുണ Google അവസാനിപ്പിക്കുകയാണ്. നിങ്ങളുടെ ഉപകരണം(ങ്ങൾ) വീണ്ടെടുക്കാൻ \u003Ca href=\"https://chrome.google.com/webstore/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm\" target=\"_blank\">Chromebook വീണ്ടെടുക്കൽ യൂട്ടിലിറ്റി വിപുലീകരണവും\u003C/a> അനുബന്ധ \u003Ca href=\"http://www.google.com/chromeos/recovery\" target=\"_blank\">ഡോക്യുമെന്റേഷനും\u003C/a> ഉപയോഗിക്കുക."
+   },
+   "chrome_app_deprecation_message_on_hub": {
+      "message": "\u003Ca href=\"https://blog.chromium.org/2020/08/changes-to-chrome-app-support-timeline.html\" target=\"_blank\" tabindex=\"0\">Chromium ബ്ലോഗിൽ\u003C/a> പൊതുവായി പ്രഖ്യാപിച്ചത് പോലെ, 2021 ജൂണിൽ Chrome ആപ്പുകൾക്കുള്ള പിന്തുണ Google അവസാനിപ്പിക്കുകയാണ്. നിങ്ങളുടെ ഉപകരണം(ങ്ങൾ) വീണ്ടെടുക്കാൻ \u003Ca href=\"https://chrome.google.com/webstore/detail/onhub-recovery-utility/fmgkgdalfapcmjnanilfcpkhkhedmpdm\" target=\"_blank\">OnHub വീണ്ടെടുക്കൽ യൂട്ടിലിറ്റി വിപുലീകരണവും\u003C/a> അനുബന്ധ \u003Ca href=\"https://support.google.com/onhub/answer/6274977\" target=\"_blank\">ഡോക്യുമെന്റേഷനും\u003C/a> ഉപയോഗിക്കുക."
+   },
+   "complete_bullet1": {
+      "message": "നിങ്ങളുടെ Chromebook വീണ്ടെടുക്കാൻ, അതിൽ വീണ്ടെടുക്കൽ മീഡിയ പ്ലഗ് ചെയ്യുക."
+   },
+   "complete_bullet1_on_hub": {
+      "message": "നിങ്ങളുടെ OnHub-ൽ നിന്ന് പവർ കേബിൾ അൺപ്ലഗ് ചെയ്ത ശേഷം ഉപകരണത്തിന്റെ പുറകുവശത്ത് USB ഡ്രൈവ് ഇൻസേർട്ട് ചെയ്യുക. റീസെറ്റ് ബട്ടൺ അമർത്തിപ്പിടിച്ച് പവർ പ്ലഗിൻ ചെയ്യുക. ഏകദേശം 15 സെക്കൻഡ് നേരം കൂടിയോ USB ഡ്രൈവിലെ ആക്റ്റിവിറ്റി ലൈറ്റ് മിന്നിത്തെളിയുന്നത് വരെയോ റീസെറ്റ് ബട്ടൺ അമർത്തിപ്പിടിക്കുക."
+   },
+   "complete_bullet1_workspace_hardware": {
+      "message": "നിങ്ങളുടെ Meet Compute System വീണ്ടെടുക്കാൻ, \u003Ca href=\"http://support.google.com/meethardware/answer/10562922#zippy=%2Cstep-enter-recovery-mode\" target=\"_blank\"> എന്നതിലെ നിർദ്ദേശങ്ങൾ പാലിക്കുക, Google Meet ഹാർഡ്‍വെയർ കമ്പ്യൂട്ട് ബോക്സ് വീണ്ടെടുക്കുക, ഘട്ടം 3: വീണ്ടെടുക്കൽ മോഡ് നൽകുക/a>"
+   },
+   "complete_bullet2": {
+      "message": "വീണ്ടെടുത്തതിന് ശേഷം, ഈ യൂട്ടിലിറ്റി ഉപയോഗിച്ച് നിങ്ങളുടെ വീണ്ടെടുക്കൽ മീഡിയ മായ്‌ക്കാം."
+   },
+   "complete_bullet2_on_hub": {
+      "message": "നിങ്ങളുടെ OnHub വീണ്ടെടുക്കൽ പ്രക്രിയ പൂർത്തിയാകാൻ കുറച്ച് സമയമെടുത്തേക്കാം. OnHub വീണ്ടെടുത്ത ശേഷം അത് റീബൂട്ട് ചെയ്യും. തുടർന്ന് Google On ആപ്പ് ഉപയോഗിച്ച് OnHub സജ്ജീകരിക്കുക."
+   },
+   "complete_bullet2_workspace_hardware": {
+      "message": "പൂർത്തിയാകുമ്പോൾ USB ഫ്ലാഷ് ഡ്രൈവ് മായ്‌ക്കുന്നതിന്, Meet Compute System വീണ്ടെടുക്കൽ യൂട്ടിലിറ്റി ആരംഭിക്കുക, \u003Cb>ക്രമീകരണം\u003C/b> ക്ലിക്ക് ചെയ്യുക, തുടർന്ന് \u003Cb>വീണ്ടെടുക്കൽ മീഡിയ മായ്‌ക്കുക\u003C/b> ക്ലിക്ക് ചെയ്യുക"
+   },
+   "complete_message": {
+      "message": "നിങ്ങൾക്ക് ഇപ്പോൾ വീണ്ടെടുക്കൽ മീഡിയ നീക്കം ചെയ്യാം."
+   },
+   "complete_message_on_hub": {
+      "message": "നിങ്ങൾക്ക് ഇപ്പോൾ വീണ്ടെടുക്കൽ USB ഡ്രൈവ് നീക്കം ചെയ്യാം."
+   },
+   "complete_message_workspace_hardware": {
+      "message": "നിങ്ങൾക്ക് ഇപ്പോൾ ഫ്ലാഷ് ഡ്രൈവ് നീക്കം ചെയ്യാം"
+   },
+   "complete_title": {
+      "message": "വിജയകരം! നിങ്ങളുടെ വീണ്ടെടുക്കൽ മീഡിയ തയ്യാറാണ്"
+   },
+   "complete_title_on_hub": {
+      "message": "വിജയകരം! നിങ്ങളുടെ വീണ്ടെടുക്കൽ USB ഡ്രൈവ് തയ്യാറാണ്"
+   },
+   "complete_title_workspace_hardware": {
+      "message": "വിജയകരം! നിങ്ങളുടെ വീണ്ടെടുക്കൽ USB ഡ്രൈവ് തയ്യാറാണ്"
+   },
+   "completed": {
+      "message": "പൂർത്തിയായി"
+   },
+   "confirm_cancelled_message_html": {
+      "message": "റദ്ദാക്കി. വീണ്ടും ശ്രമിക്കാൻ &rdquo;ഇപ്പോൾ സൃഷ്ടിക്കുക&rdquo; ക്ലിക്ക് ചെയ്യുക.\u003Cbr>\u003Cbr>നിങ്ങളുടെ വീണ്ടെടുക്കൽ മീഡിയ മായ്‌ക്കാൻ, മുകളിൽ വലതുവശത്തെ മൂലയിലുള്ള ഗിയർ ഐക്കൺ ക്ലിക്ക് ചെയ്യുക."
+   },
+   "confirm_cancelled_message_html_on_hub": {
+      "message": "റദ്ദാക്കി. വീണ്ടും ശ്രമിക്കാൻ &rdquo;ഇപ്പോൾ സൃഷ്ടിക്കുക&rdquo; ക്ലിക്ക് ചെയ്യുക.\u003Cbr>\u003Cbr>നിങ്ങളുടെ വീണ്ടെടുക്കൽ USB ഡ്രൈവ് മായ്‌ക്കാൻ, മുകളിൽ വലതുവശത്തെ മൂലയിലുള്ള ഗിയർ ഐക്കൺ ക്ലിക്ക് ചെയ്യുക."
+   },
+   "confirm_cancelled_message_html_workspace_hardware": {
+      "message": "റദ്ദാക്കി. വീണ്ടും ശ്രമിക്കാൻ &rdquo;ഇപ്പോൾ സൃഷ്ടിക്കുക&rdquo; ക്ലിക്ക് ചെയ്യുക.\u003Cbr>\u003Cbr>നിങ്ങളുടെ വീണ്ടെടുക്കൽ USB ഡ്രൈവ് മായ്‌ക്കാൻ, മുകളിൽ വലതുവശത്തെ മൂലയിലുള്ള ഗിയർ ഐക്കൺ ക്ലിക്ക് ചെയ്യുക."
+   },
+   "confirm_hide_advanced_settings_message": {
+      "message": "വിപുലമായ ക്രമീകരണങ്ങൾ മറയ്‌ക്കുക"
+   },
+   "confirm_message_html": {
+      "message": "\u003Cb>പ്രധാനപ്പെട്ടത്:\u003C/b> നിങ്ങളുടെ വീണ്ടെടുക്കൽ മീഡിയയിലെ എല്ലാ ഡാറ്റയും വിഭാഗങ്ങളും ഇല്ലാതാക്കും."
+   },
+   "confirm_message_html_on_hub": {
+      "message": "\u003Cb>പ്രധാനപ്പെട്ടത്:\u003C/b> നിങ്ങളുടെ വീണ്ടെടുക്കൽ USB ഡ്രൈവിലെ എല്ലാ ഡാറ്റയും വിഭാഗങ്ങളും ഇല്ലാതാക്കും."
+   },
+   "confirm_message_html_workspace_hardware": {
+      "message": "\u003Cb>പ്രധാനപ്പെട്ടത്:\u003C/b> നിങ്ങളുടെ ഫ്ലാഷ് ഡ്രൈവിലെ എല്ലാം ഇല്ലാതാക്കും"
+   },
+   "confirm_show_advanced_settings_message": {
+      "message": "വിപുലമായ ക്രമീകരണങ്ങൾ കാണിക്കുക"
+   },
+   "confirm_title": {
+      "message": "വീണ്ടെടുക്കൽ ചിത്രം സൃഷ്ടിക്കുക"
+   },
+   "continue_button_text": {
+      "message": "തുടരുക"
+   },
+   "create_another_button_text": {
+      "message": "മറ്റൊന്ന് സൃഷ്ടിക്കുക"
+   },
+   "create_now_button_text": {
+      "message": "ഇപ്പോൾ സൃഷ്ടിക്കുക"
+   },
+   "dev_app_description": {
+      "message": "Chromebook വീണ്ടെടുക്കൽ യൂട്ടിലിറ്റിയുടെ ഡെവലപ്പർ പതിപ്പ്."
+   },
+   "dev_app_description_on_hub": {
+      "message": "OnHub വീണ്ടെടുക്കൽ യൂട്ടിലിറ്റിയുടെ ഡെവലപ്പർ പതിപ്പ്."
+   },
+   "dev_app_description_workspace_hardware": {
+      "message": "Meet Compute System വീണ്ടെടുക്കൽ യൂട്ടിലിറ്റിയുടെ ഡെവലപ്പർ പതിപ്പ്."
+   },
+   "dev_app_name": {
+      "message": "Chromebook വീണ്ടെടുക്കൽ യൂട്ടിലിറ്റി ഡെവ്"
+   },
+   "dev_app_name_on_hub": {
+      "message": "OnHub വീണ്ടെടുക്കൽ യൂട്ടിലിറ്റി ഡെവ്"
+   },
+   "dev_app_name_workspace_hardware": {
+      "message": "Meet Compute System വീണ്ടെടുക്കൽ യൂട്ടിലിറ്റി ഡെവ്"
+   },
+   "done_button_text": {
+      "message": "പൂർത്തിയായി"
+   },
+   "erase_complete_bullet1": {
+      "message": "നിങ്ങളുടെ USB ഡ്രൈവോ SD കാർഡോ ഫോർമാറ്റ് ചെയ്യാൻ തയ്യാറാണ്."
+   },
+   "erase_complete_bullet1_on_hub": {
+      "message": "നിങ്ങളുടെ USB ഡ്രൈവ് ഫോർമാറ്റ് ചെയ്യാൻ തയ്യാറാണ്."
+   },
+   "erase_complete_bullet1_workspace_hardware": {
+      "message": "നിങ്ങളുടെ USB ഡ്രൈവ് ഫോർമാറ്റ് ചെയ്യാൻ തയ്യാറാണ്."
+   },
+   "erase_complete_bullet2": {
+      "message": "നിങ്ങളുടെ ഓപ്പറേറ്റിംഗ് സിസ്റ്റം നൽകുന്ന ഫോർമാറ്റിംഗ് ടൂൾ ഉപയോഗിച്ച് ഫോർമാറ്റ് ചെയ്യുക."
+   },
+   "erase_complete_title": {
+      "message": "നിങ്ങളുടെ വീണ്ടെടുക്കൽ മീഡിയ മായ്‌ച്ചു."
+   },
+   "erase_complete_title_on_hub": {
+      "message": "നിങ്ങളുടെ വീണ്ടെടുക്കൽ USB ഡ്രൈവ് മായ്‌ച്ചു."
+   },
+   "erase_complete_title_workspace_hardware": {
+      "message": "നിങ്ങളുടെ വീണ്ടെടുക്കൽ USB ഡ്രൈവ് മായ്‌ച്ചു."
+   },
+   "erase_confirm_message": {
+      "message": "നിങ്ങളുടെ വീണ്ടെടുക്കൽ മീഡിയയിലെ വീണ്ടെടുക്കൽ ചിത്രവും എല്ലാ വിഭാഗങ്ങളും മായ്‌ക്കും."
+   },
+   "erase_confirm_message_on_hub": {
+      "message": "നിങ്ങളുടെ വീണ്ടെടുക്കൽ USB ഡ്രൈവിലെ വീണ്ടെടുക്കൽ ചിത്രവും എല്ലാ വിഭാഗങ്ങളും മായ്‌ക്കും."
+   },
+   "erase_confirm_message_workspace_hardware": {
+      "message": "നിങ്ങളുടെ വീണ്ടെടുക്കൽ USB ഡ്രൈവിലെ വീണ്ടെടുക്കൽ ചിത്രവും എല്ലാ വിഭാഗങ്ങളും മായ്‌ക്കും."
+   },
+   "erase_now_button_text": {
+      "message": "ഇപ്പോൾ മായ്‌ക്കുക"
+   },
+   "erase_progress_text": {
+      "message": "നിങ്ങളുടെ വീണ്ടെടുക്കൽ മീഡിയ നീക്കം ചെയ്യരുത്."
+   },
+   "erase_progress_text_on_hub": {
+      "message": "നിങ്ങളുടെ USB ഡ്രൈവ് നീക്കം ചെയ്യരുത്."
+   },
+   "erase_progress_text_workspace_hardware": {
+      "message": "നിങ്ങളുടെ USB ഡ്രൈവ് നീക്കം ചെയ്യരുത്."
+   },
+   "erase_progress_title": {
+      "message": "നിങ്ങളുടെ വീണ്ടെടുക്കൽ മീഡിയ മായ്‌ക്കുന്നു"
+   },
+   "erase_progress_title_on_hub": {
+      "message": "നിങ്ങളുടെ വീണ്ടെടുക്കൽ USB ഡ്രൈവ് മായ്‌ക്കുന്നു"
+   },
+   "erase_progress_title_workspace_hardware": {
+      "message": "നിങ്ങളുടെ വീണ്ടെടുക്കൽ USB ഡ്രൈവ് മായ്‌ക്കുന്നു"
+   },
+   "erase_select_target_detecting": {
+      "message": "കണ്ടെത്തുന്നു"
+   },
+   "erase_select_target_high_capacity_warning_html": {
+      "message": "\u003Cb>മുന്നറിയിപ്പ്:\u003C/b> ഇത് ശരിയായ ഡ്രൈവാണോ?"
+   },
+   "erase_select_target_no_devices_found": {
+      "message": "USB ഡ്രൈവുകളോ SD കാർഡുകളോ കണ്ടെത്തിയില്ല"
+   },
+   "erase_select_target_no_devices_found_on_hub": {
+      "message": "USB ഡ്രൈവുകളൊന്നും കണ്ടെത്തിയില്ല"
+   },
+   "erase_select_target_no_devices_found_workspace_hardware": {
+      "message": "USB ഡ്രൈവുകളൊന്നും കണ്ടെത്തിയില്ല"
+   },
+   "erase_select_target_select_device": {
+      "message": "നിങ്ങൾക്ക് മായ്ക്കണമെന്നുള്ള വീണ്ടെടുക്കൽ മീഡിയ തിരഞ്ഞെടുക്കുക."
+   },
+   "erase_select_target_select_device_on_hub": {
+      "message": "നിങ്ങൾക്ക് മായ്ക്കണമെന്നുള്ള വീണ്ടെടുക്കൽ USB ഡ്രൈവ് തിരഞ്ഞെടുക്കുക."
+   },
+   "erase_select_target_select_device_placeholder": {
+      "message": "തിരഞ്ഞെടുക്കുക"
+   },
+   "erase_select_target_select_device_workspace_hardware": {
+      "message": "നിങ്ങൾക്ക് മായ്ക്കണമെന്നുള്ള വീണ്ടെടുക്കൽ USB ഡ്രൈവ് തിരഞ്ഞെടുക്കുക."
+   },
+   "erase_title": {
+      "message": "വീണ്ടെടുക്കൽ മീഡിയ മായ്‌ക്കുക"
+   },
+   "erase_title_on_hub": {
+      "message": "വീണ്ടെടുക്കൽ USB ഡ്രൈവ് മായ്‌ക്കുക"
+   },
+   "erase_title_workspace_hardware": {
+      "message": "വീണ്ടെടുക്കൽ USB ഡ്രൈവ് മായ്‌ക്കുക"
+   },
+   "errmsg_please_try_again": {
+      "message": "വീണ്ടും ശ്രമിക്കുക."
+   },
+   "errmsg_recovery_config_download_failure": {
+      "message": "കോൺഫിഗറേഷൻ ഫയൽ ഡൗൺലോഡ് ചെയ്യാനായില്ല. ഓഫ്‌ലൈൻ ഫീച്ചറുകൾ മാത്രമേ ലഭ്യമാകൂ."
+   },
+   "get_started_button_text": {
+      "message": "ആരംഭിക്കുക"
+   },
+   "gigabyte_abbreviation": {
+      "message": "GB"
+   },
+   "go_back_button_text": {
+      "message": "മടങ്ങുക"
+   },
+   "hours_remaining": {
+      "message": "$1 മണിക്കൂർ ശേഷിക്കുന്നു.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "hwid_invalid_model": {
+      "message": "മോഡൽ നമ്പർ അസാധുവാണ്. നിങ്ങളുടെ എൻട്രി പരിശോധിക്കുക."
+   },
+   "hwid_keep_typing": {
+      "message": "മോഡലുകളൊന്നും ഇതുവരെ കണ്ടെത്തിയില്ല. ടൈപ്പ് ചെയ്യുന്നത് തുടരുക."
+   },
+   "hwid_keep_typing_workspace_hardware": {
+      "message": "മോഡലുകളൊന്നും ഇതുവരെ കണ്ടെത്തിയില്ല"
+   },
+   "hwid_match_found": {
+      "message": "ഒരു പൊരുത്തം കണ്ടെത്തി"
+   },
+   "hwid_match_found_and_checksum_verified": {
+      "message": "കൃത്യമായ മോഡൽ പേരുള്ള ഒരു പൊരുത്തം കണ്ടെത്തി"
+   },
+   "learn_more_link_text": {
+      "message": "കൂടുതലറിയുക"
+   },
+   "learn_more_link_url": {
+      "message": "http://www.google.com/chromeos/recovery"
+   },
+   "learn_more_link_url_on_hub": {
+      "message": "https://support.google.com/onhub/answer/6274977"
+   },
+   "learn_more_link_url_workspace_hardware": {
+      "message": "http://support.google.com/meethardware/answer/10562922"
+   },
+   "loading_config_text": {
+      "message": "തയ്യാറാക്കുന്നു ..."
+   },
+   "menu_item_erase_recovery_media": {
+      "message": "വീണ്ടെടുക്കൽ മീഡിയ മായ്‌ക്കുക"
+   },
+   "menu_item_erase_recovery_media_on_hub": {
+      "message": "വീണ്ടെടുക്കൽ USB ഡ്രൈവ് മായ്‌ക്കുക"
+   },
+   "menu_item_erase_recovery_media_workspace_hardware": {
+      "message": "വീണ്ടെടുക്കൽ USB ഡ്രൈവ് മായ്‌ക്കുക"
+   },
+   "menu_item_send_feedback": {
+      "message": "ഫീഡ്ബാക്ക് അയയ്ക്കുക"
+   },
+   "menu_item_use_local_image": {
+      "message": "ലോക്കൽ ചിത്രം ഉപയോഗിക്കുക"
+   },
+   "minutes_remaining": {
+      "message": "$1 മിനിറ്റ് ശേഷിക്കുന്നു.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "of": {
+      "message": "-ൽ"
+   },
+   "recovery_channel_beta": {
+      "message": "ബീറ്റ"
+   },
+   "recovery_channel_dev": {
+      "message": "Dev"
+   },
+   "recovery_channel_ltc": {
+      "message": "ദീർഘകാല പിന്തുണയുള്ള കാൻഡിഡേറ്റ് (എന്റർപ്രൈസ് മാത്രം)"
+   },
+   "recovery_channel_lts": {
+      "message": "ദീർഘകാല പിന്തുണ (എന്റർപ്രൈസ് മാത്രം)"
+   },
+   "recovery_channel_stable": {
+      "message": "സുസ്ഥിരമായത്"
+   },
+   "seconds_remaining": {
+      "message": "$1 സെക്കൻഡ് ശേഷിക്കുന്നു.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "select_channel_placeholder": {
+      "message": "വീണ്ടെടുക്കൽ ചാനൽ തിരഞ്ഞെടുക്കുക"
+   },
+   "select_image_select_by_hwid_link_text": {
+      "message": "മോഡൽ നമ്പർ നേരിട്ട് നൽകുക"
+   },
+   "select_image_select_from_list_link_text": {
+      "message": "ലിസ്‌റ്റിൽ നിന്ന് ഒരു മോഡൽ തിരഞ്ഞെടുക്കുക"
+   },
+   "select_image_select_manufacturer_placeholder": {
+      "message": "ഒരു നിർമ്മാതാവിനെ തിരഞ്ഞെടുക്കുക"
+   },
+   "select_image_select_product_placeholder": {
+      "message": "ഒരു ഉൽപ്പന്നം തിരഞ്ഞെടുക്കുക"
+   },
+   "select_image_select_product_placeholder_on_hub": {
+      "message": "ഒരു മോഡൽ തിരഞ്ഞെടുക്കുക"
+   },
+   "select_image_select_product_placeholder_workspace_hardware": {
+      "message": "ഒരു മോഡൽ തിരഞ്ഞെടുക്കുക"
+   },
+   "select_image_text": {
+      "message": "വീണ്ടെടുക്കാൻ Chromebook-ന്റെ മോഡൽ നമ്പർ നൽകുക. ഇത് വീണ്ടെടുക്കൽ സ്‌ക്രീനിൽ കാണാം."
+   },
+   "select_image_text_on_hub": {
+      "message": "നിങ്ങളുടെ OnHub-ന്റെ മോഡൽ നമ്പർ നൽകുക."
+   },
+   "select_image_text_workspace_hardware": {
+      "message": "നിങ്ങളുടെ Meet Compute System-ന്റെ മോഡൽ നമ്പർ നൽകുക"
+   },
+   "select_image_this_chromebooks_model_number": {
+      "message": "ഈ Chromebook-ന് ഇനിപ്പറയുന്ന നമ്പർ നൽകുക"
+   },
+   "select_image_this_chromebooks_model_number_on_hub": {
+      "message": "ഈ OnHub-ന് ഇനിപ്പറയുന്ന നമ്പർ നൽകുക"
+   },
+   "select_image_this_chromebooks_model_number_workspace_hardware": {
+      "message": "ഈ Meet Compute System-ന് ഇനിപ്പറയുന്ന നമ്പർ നൽകുക"
+   },
+   "select_image_title": {
+      "message": "നിങ്ങളുടെ Chromebook തിരിച്ചറിയുക"
+   },
+   "select_image_title_on_hub": {
+      "message": "നിങ്ങളുടെ OnHub തിരിച്ചറിയുക"
+   },
+   "select_image_title_workspace_hardware": {
+      "message": "നിങ്ങളുടെ Meet Compute System തിരിച്ചറിയുക"
+   },
+   "select_target_detecting": {
+      "message": "കണ്ടെത്തുന്നു"
+   },
+   "select_target_high_capacity_warning_html": {
+      "message": "\u003Cb>മുന്നറിയിപ്പ്:\u003C/b> ഇത് ശരിയായ മീഡിയയാണോ?"
+   },
+   "select_target_high_capacity_warning_html_on_hub": {
+      "message": "\u003Cb>മുന്നറിയിപ്പ്:\u003C/b> ഇത് ശരിയായ USB ഡ്രൈവ് ആണോ?"
+   },
+   "select_target_high_capacity_warning_html_workspace_hardware": {
+      "message": "\u003Cb>മുന്നറിയിപ്പ്:\u003C/b> ഇത് ശരിയായ USB ഡ്രൈവ് ആണോ?"
+   },
+   "select_target_low_capacity_error": {
+      "message": "നിങ്ങളുടെ മീഡിയ കുറഞ്ഞത് 8GB ഉണ്ടായിരിക്കണം."
+   },
+   "select_target_low_capacity_error_on_hub": {
+      "message": "നിങ്ങളുടെ USB ഡ്രൈവ് കുറഞ്ഞത് 8GB ഉണ്ടായിരിക്കണം."
+   },
+   "select_target_low_capacity_error_workspace_hardware": {
+      "message": "നിങ്ങളുടെ USB ഡ്രൈവ് കുറഞ്ഞത് 8GB ഉണ്ടായിരിക്കണം."
+   },
+   "select_target_no_devices_found": {
+      "message": "USB ഡ്രൈവുകളോ SD കാർഡുകളോ കണ്ടെത്തിയില്ല"
+   },
+   "select_target_no_devices_found_on_hub": {
+      "message": "USB ഡ്രൈവുകളൊന്നും കണ്ടെത്തിയില്ല"
+   },
+   "select_target_no_devices_found_workspace_hardware": {
+      "message": "USB ഡ്രൈവുകളൊന്നും കണ്ടെത്തിയില്ല"
+   },
+   "select_target_select_device": {
+      "message": "ഉപയോഗിക്കേണ്ട മീഡിയ തിരഞ്ഞെടുക്കുക."
+   },
+   "select_target_select_device_on_hub": {
+      "message": "ഉപയോഗിക്കേണ്ട USB ഡ്രൈവ് തിരഞ്ഞെടുക്കുക."
+   },
+   "select_target_select_device_placeholder": {
+      "message": "തിരഞ്ഞെടുക്കുക"
+   },
+   "select_target_select_device_workspace_hardware": {
+      "message": "ഉപയോഗിക്കേണ്ട USB ഡ്രൈവ് തിരഞ്ഞെടുക്കുക."
+   },
+   "select_target_title": {
+      "message": "നിങ്ങളുടെ USB ഫ്ലാഷ് ഡ്രൈവോ SD കാർഡോ ഇൻസേർട്ട് ചെയ്യുക"
+   },
+   "select_target_title_on_hub": {
+      "message": "നിങ്ങളുടെ USB ഫ്ലാഷ് ഡ്രൈവ് ഇൻസേർട്ട് ചെയ്യുക"
+   },
+   "select_target_title_workspace_hardware": {
+      "message": "നിങ്ങളുടെ USB ഫ്ലാഷ് ഡ്രൈവ് ഇൻസേർട്ട് ചെയ്യുക"
+   },
+   "stage_complete": {
+      "message": "പൂർത്തിയായി"
+   },
+   "stage_download": {
+      "message": "ഡൗൺലോഡ് ചെയ്യുന്നു"
+   },
+   "stage_downloadverify": {
+      "message": "ഡൗൺലോഡ് പരിശോധിച്ചുറപ്പിക്കുന്നു"
+   },
+   "stage_unpack": {
+      "message": "അൺപാക്ക് ചെയ്യുന്നു"
+   },
+   "stage_unzip": {
+      "message": "അൺപാക്ക് ചെയ്യുന്നു"
+   },
+   "stage_verify": {
+      "message": "പരിശോധിച്ചുറപ്പിക്കുന്നു"
+   },
+   "stage_verifydownload": {
+      "message": "ഡൗൺലോഡ് പരിശോധിച്ചുറപ്പിക്കുന്നു"
+   },
+   "stage_verifywrite": {
+      "message": "പരിശോധിച്ചുറപ്പിക്കുന്നു"
+   },
+   "stage_write": {
+      "message": "റൈറ്റ് ചെയ്യുന്നു"
+   },
+   "step": {
+      "message": "ഘട്ടം"
+   },
+   "unsupported_text": {
+      "message": "നിർഭാഗ്യവശാൽ, നിങ്ങളുടെ പ്ലാറ്റ്‌ഫോമിന് ഇപ്പോൾ പിന്തുണയില്ല. കൂടുതൽ വിവരങ്ങൾക്ക്, \u003Ca href=\"http://www.google.com/chromeos/recovery\" target=\"_blank\">Chromebook സഹായ കേന്ദ്രം\u003C/a> പരിശോധിക്കുക."
+   },
+   "unsupported_text_mac": {
+      "message": "നിർഭാഗ്യവശാൽ, M37 അല്ലെങ്കിൽ അതിന് ശേഷമുള്ള പതിപ്പുകളിൽ മാത്രമേ Mac-ന് പിന്തുണയുള്ളൂ. നിങ്ങളുടെ Chrome, M37-ലേക്ക് അപ്ഡേറ്റുചെയ്യുക. ഇതിന് \u003Ca href=\"https://support.google.com/chromebook/answer/1086915\" target=\"_blank\">ബീറ്റാ ചാനലിലേക്ക് മാറേണ്ടി\u003C/a> വന്നേക്കാം."
+   },
+   "unsupported_text_on_hub": {
+      "message": "നിർഭാഗ്യവശാൽ, നിങ്ങളുടെ പ്ലാറ്റ്‌ഫോമിന് ഇപ്പോൾ പിന്തുണയില്ല. കൂടുതൽ വിവരങ്ങൾക്ക്, \u003Ca href=\"https://support.google.com/onhub/answer/6274977\" target=\"_blank\">OnHub സഹായ കേന്ദ്രം\u003C/a> സന്ദർശിക്കുക."
+   },
+   "unsupported_title": {
+      "message": "നിങ്ങളുടെ പ്ലാറ്റ്‌ഫോമിന് നിലവിൽ പിന്തുണയില്ല"
+   },
+   "unsupported_title_linux": {
+      "message": "Linux-ന് നിലവിൽ പിന്തുണയില്ല"
+   },
+   "unsupported_title_mac": {
+      "message": "Mac-ന് നിലവിൽ പിന്തുണയില്ല"
+   },
+   "unsupported_title_win": {
+      "message": "Windows-ന് നിലവിൽ പിന്തുണയില്ല"
+   },
+   "usupported_text_workspace_hardware": {
+      "message": "നിർഭാഗ്യവശാൽ, നിങ്ങളുടെ പ്ലാറ്റ്‌ഫോമിന് ഇപ്പോൾ പിന്തുണയില്ല.  കൂടുതൽ വിവരങ്ങൾക്ക് \u003Ca href=\"http://support.google.com/meethardware/answer/10562922\" target=\"_blank\">Google Meet ഹാർഡ്‍വെയർ സഹായകേന്ദ്രം\u003C/a> പരിശോധിക്കുക."
+   },
+   "warning_offline": {
+      "message": "ഉപകരണം ഓഫ്‌ലൈനാണ്. ഓഫ്‌ലൈൻ ഫീച്ചറുകൾ മാത്രമേ ലഭ്യമാകൂ."
+   },
+   "welcome_text": {
+      "message": "മായ്‌ക്കാൻ ഉദ്ദേശ്യമില്ലെങ്കിൽ, നിങ്ങൾക്ക് 8 GB-യോ അതിൽ കൂടുതൽ സ്റ്റോറേജുള്ള USB ഫ്ലാഷ് ഡ്രൈവ് അല്ലെങ്കിൽ SD കാർഡ് ആവശ്യമായി വരും."
+   },
+   "welcome_text_on_hub": {
+      "message": "മായ്‌ക്കാൻ ഉദ്ദേശ്യമില്ലെങ്കിൽ, നിങ്ങൾക്ക് 8 GB-യോ അതിൽ കൂടുതൽ സ്റ്റോറേജുള്ള USB ഫ്ലാഷ് ഡ്രൈവ് ആവശ്യമായി വരും."
+   },
+   "welcome_text_workspace_hardware": {
+      "message": "മായ്‌ക്കാൻ ഉദ്ദേശ്യമില്ലെങ്കിൽ, നിങ്ങൾക്ക് 8 GB-യോ അതിൽ കൂടുതൽ സ്റ്റോറേജുള്ള USB ഫ്ലാഷ് ഡ്രൈവ് ആവശ്യമായി വരും. നിങ്ങളുടെ ഉപകരണത്തിന് ഒരു SD സ്ലോട്ട് ഉണ്ടെങ്കിൽ നിങ്ങൾക്ക് ഒരു SD കാർഡ് ഉപയോഗിക്കാനാകും."
+   },
+   "welcome_title": {
+      "message": "നിങ്ങളുടെ Chromebook-നായി വീണ്ടെടുക്കൽ മീഡിയ സൃഷ്ടിക്കുക"
+   },
+   "welcome_title_on_hub": {
+      "message": "നിങ്ങളുടെ OnHub-നായി വീണ്ടെടുക്കൽ USB ഡ്രൈവ് സൃഷ്‌ടിക്കുക"
+   },
+   "welcome_title_workspace_hardware": {
+      "message": "നിങ്ങളുടെ Meet Compute System-നായി വീണ്ടെടുക്കൽ USB ഡ്രൈവ് സൃഷ്ടിക്കുക"
+   },
+   "write_message": {
+      "message": "നിങ്ങളുടെ വീണ്ടെടുക്കൽ മീഡിയ നീക്കം ചെയ്യരുത്."
+   },
+   "write_message_on_hub": {
+      "message": "നിങ്ങളുടെ USB ഡ്രൈവ് നീക്കം ചെയ്യരുത്."
+   },
+   "write_message_workspace_hardware": {
+      "message": "USB ഫ്ലാഷ് ഡ്രൈവ് നീക്കം ചെയ്യരുത്."
+   },
+   "write_title": {
+      "message": "വീണ്ടെടുക്കൽ ചിത്രം സൃഷ്ടിക്കുന്നു"
+   }
+}

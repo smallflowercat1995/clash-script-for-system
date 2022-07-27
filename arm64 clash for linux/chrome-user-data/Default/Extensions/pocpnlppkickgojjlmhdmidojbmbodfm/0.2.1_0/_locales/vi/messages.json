@@ -1,0 +1,556 @@
+{
+   "apierrmsg_aborted": {
+      "message": "Hoạt động bị gián đoạn."
+   },
+   "apierrmsg_device_list_error": {
+      "message": "Không tìm thấy ổ đĩa USB hoặc thẻ SD."
+   },
+   "apierrmsg_device_list_error_on_hub": {
+      "message": "Không tìm thấy ổ đĩa USB."
+   },
+   "apierrmsg_device_list_error_workspace_hardware": {
+      "message": "Không tìm thấy ổ đĩa USB."
+   },
+   "apierrmsg_device_write_error": {
+      "message": "Không ghi được vào ổ USB flash hoặc thẻ SD đã chọn. Quyền ghi của thiết bị có thể đã bị tắt hoặc quản trị viên miền của bạn có thể đã tắt quyền ghi vào bộ lưu trữ USB."
+   },
+   "apierrmsg_download_cancelled": {
+      "message": "Đã hủy thao tác tải xuống."
+   },
+   "apierrmsg_download_hash_mismatch": {
+      "message": "Tệp không hợp lệ."
+   },
+   "apierrmsg_download_interrupted": {
+      "message": "Quá trình tải xuống bị gián đoạn. Vui lòng kiểm tra kết nối mạng rồi thử lại."
+   },
+   "apierrmsg_file_invalid": {
+      "message": "Tệp không hợp lệ."
+   },
+   "apierrmsg_operation_already_in_progress": {
+      "message": "Bạn đang thực hiện một hoạt động khác."
+   },
+   "apierrmsg_unknown": {
+      "message": "Lỗi không xác định: $1.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "apierrmsg_unsupported_operation": {
+      "message": "Hoạt động không được hỗ trợ."
+   },
+   "apierrmsg_unzip_error": {
+      "message": "Không giải nén được tệp. Vui lòng kiểm tra xem thiết bị có đủ dung lượng hay không rồi thử lại."
+   },
+   "apierrmsg_unzip_invalid_archive": {
+      "message": "Tệp zip không hợp lệ."
+   },
+   "apierrmsg_url_invalid": {
+      "message": "Không tìm thấy tệp."
+   },
+   "apierrmsg_verification_failed": {
+      "message": "Không xác minh được hình ảnh."
+   },
+   "app_description": {
+      "message": "Tạo phương tiện khôi phục cho Chromebook."
+   },
+   "app_description_on_hub": {
+      "message": "Tạo ổ đĩa USB khôi phục cho OnHub."
+   },
+   "app_description_workspace_hardware": {
+      "message": "Tạo ổ đĩa USB khôi phục cho Meet Compute System."
+   },
+   "app_name": {
+      "message": "Tiện ích khôi phục dành cho Chromebook"
+   },
+   "app_name_on_hub": {
+      "message": "Tiện ích khôi phục dành cho OnHub"
+   },
+   "app_name_workspace_hardware": {
+      "message": "Tiện ích khôi phục dành cho Meet Compute System"
+   },
+   "app_short_name": {
+      "message": "Khôi phục"
+   },
+   "cancel_button_text": {
+      "message": "Hủy"
+   },
+   "chrome_app_deprecation_message": {
+      "message": "Như đã công bố trên \u003Ca href=\"https://blog.chromium.org/2020/08/changes-to-chrome-app-support-timeline.html\" target=\"_blank\" tabindex=\"0\">blog Chromium\u003C/a>, kể từ tháng 6 năm 2021, Google sẽ ngừng hỗ trợ Ứng dụng Chrome. Vui lòng sử dụng \u003Ca href=\"https://chrome.google.com/webstore/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm\" target=\"_blank\">Tiện ích khôi phục dành cho Chromebook\u003C/a> và \u003Ca href=\"http://www.google.com/chromeos/recovery\" target=\"_blank\">tài liệu\u003C/a> có liên quan đế khôi phục (các) thiết bị của bạn."
+   },
+   "chrome_app_deprecation_message_on_hub": {
+      "message": "Như đã công bố trên \u003Ca href=\"https://blog.chromium.org/2020/08/changes-to-chrome-app-support-timeline.html\" target=\"_blank\" tabindex=\"0\">blog Chromium\u003C/a>, kể từ tháng 6 năm 2021, Google sẽ ngừng hỗ trợ Ứng dụng Chrome. Vui lòng sử dụng \u003Ca href=\"https://chrome.google.com/webstore/detail/onhub-recovery-utility/fmgkgdalfapcmjnanilfcpkhkhedmpdm\" target=\"_blank\">Tiện ích khôi phục dành cho OnHub\u003C/a> và \u003Ca href=\"https://support.google.com/onhub/answer/6274977\" target=\"_blank\">tài liệu\u003C/a> có liên quan để khôi phục (các) thiết bị của bạn."
+   },
+   "complete_bullet1": {
+      "message": "Để khôi phục Chromebook, hãy cắm phương tiện khôi phục vào Chromebook."
+   },
+   "complete_bullet1_on_hub": {
+      "message": "Rút cáp nguồn khỏi OnHub và cắm ổ đĩa USB vào phía sau thiết bị. Giữ nút Đặt lại rồi cắm nguồn. Tiếp tục giữ nút Đặt lại trong khoảng 15 giây hoặc cho tới khi đèn chỉ báo hoạt động trên ổ đĩa USB bắt đầu nhấp nháy."
+   },
+   "complete_bullet1_workspace_hardware": {
+      "message": "Để khôi phục Meet Compute System, hãy làm theo hướng dẫn trong phần \u003Ca href=\"http://support.google.com/meethardware/answer/10562922#zippy=%2Cstep-enter-recovery-mode\" target=\"_blank\">Khôi phục bộ Thiết bị Google Meet, Bước 3: Chuyển sang chế độ khôi phục\u003C/a>"
+   },
+   "complete_bullet2": {
+      "message": "Sau khi khôi phục, bạn có thể dùng tiện ích này để xóa phương tiện khôi phục."
+   },
+   "complete_bullet2_on_hub": {
+      "message": "Quá trình khôi phục OnHub có thể diễn ra trong vài phút. Khi quá trình này kết thúc, OnHub sẽ khởi động lại. Sau đó, hãy dùng ứng dụng Google On để thiết lập OnHub."
+   },
+   "complete_bullet2_workspace_hardware": {
+      "message": "Để xóa ổ USB flash sau khi khôi phục xong, hãy khởi động Tiện ích khôi phục Meet Compute System, nhấp vào \u003Cb>Cài đặt\u003C/b>, sau đó nhấp vào \u003Cb>Xóa phương tiện khôi phục\u003C/b>"
+   },
+   "complete_message": {
+      "message": "Bây giờ, bạn có thể rút phương tiện khôi phục ra."
+   },
+   "complete_message_on_hub": {
+      "message": "Bây giờ, bạn có thể rút ổ đĩa USB khôi phục ra."
+   },
+   "complete_message_workspace_hardware": {
+      "message": "Bây giờ, bạn có thể tháo ổ flash"
+   },
+   "complete_title": {
+      "message": "Thành công rồi! Bây giờ, bạn có thể dùng phương tiện khôi phục"
+   },
+   "complete_title_on_hub": {
+      "message": "Thành công rồi! Bây giờ, bạn có thể dùng ổ đĩa USB khôi phục"
+   },
+   "complete_title_workspace_hardware": {
+      "message": "Thành công rồi! Bây giờ, bạn có thể dùng ổ đĩa USB khôi phục"
+   },
+   "completed": {
+      "message": "đã hoàn tất"
+   },
+   "confirm_cancelled_message_html": {
+      "message": "Đã hủy. Hãy nhấp vào &rdquo;Tạo ngay&rdquo; để thử lại.\u003Cbr>\u003Cbr>Để xóa phương tiện khôi phục, hãy nhấp vào biểu tượng bánh răng ở góc trên cùng bên phải."
+   },
+   "confirm_cancelled_message_html_on_hub": {
+      "message": "Đã hủy. Hãy nhấp vào &rdquo;Tạo ngay&rdquo; để thử lại.\u003Cbr>\u003Cbr>Để xóa ổ đĩa USB khôi phục, hãy nhấp vào biểu tượng bánh răng ở góc trên cùng bên phải."
+   },
+   "confirm_cancelled_message_html_workspace_hardware": {
+      "message": "Đã hủy. Hãy nhấp vào &rdquo;Tạo ngay&rdquo; để thử lại.\u003Cbr>\u003Cbr>Để xóa ổ đĩa USB khôi phục, hãy nhấp vào biểu tượng bánh răng ở góc trên cùng bên phải."
+   },
+   "confirm_hide_advanced_settings_message": {
+      "message": "Ẩn các chế độ cài đặt nâng cao"
+   },
+   "confirm_message_html": {
+      "message": "\u003Cb>Lưu ý quan trọng:\u003C/b> Tất cả dữ liệu và phân vùng trên phương tiện khôi phục của bạn sẽ bị xóa."
+   },
+   "confirm_message_html_on_hub": {
+      "message": "\u003Cb>Lưu ý quan trọng:\u003C/b> Tất cả dữ liệu và phân vùng trên ổ đĩa USB khôi phục của bạn sẽ bị xóa."
+   },
+   "confirm_message_html_workspace_hardware": {
+      "message": "\u003Cb>Lưu ý quan trọng:\u003C/b> Mọi dữ liệu trên ổ flash của bạn đều sẽ bị xóa"
+   },
+   "confirm_show_advanced_settings_message": {
+      "message": "Hiện các chế độ cài đặt nâng cao"
+   },
+   "confirm_title": {
+      "message": "Tạo hình ảnh khôi phục"
+   },
+   "continue_button_text": {
+      "message": "Tiếp tục"
+   },
+   "create_another_button_text": {
+      "message": "Tạo một ổ đĩa khôi phục khác"
+   },
+   "create_now_button_text": {
+      "message": "Tạo ngay"
+   },
+   "dev_app_description": {
+      "message": "Phiên bản phát triển của Tiện ích khôi phục dành cho Chromebook."
+   },
+   "dev_app_description_on_hub": {
+      "message": "Phiên bản phát triển của Tiện ích khôi phục dành cho OnHub."
+   },
+   "dev_app_description_workspace_hardware": {
+      "message": "Phiên bản phát triển của Tiện ích khôi phục dành cho Meet Compute System."
+   },
+   "dev_app_name": {
+      "message": "Phát triển Tiện ích khôi phục dành cho Chromebook"
+   },
+   "dev_app_name_on_hub": {
+      "message": "Phát triển Tiện ích khôi phục dành cho OnHub"
+   },
+   "dev_app_name_workspace_hardware": {
+      "message": "Phát triển Tiện ích khôi phục cho Meet Compute System"
+   },
+   "done_button_text": {
+      "message": "Xong"
+   },
+   "erase_complete_bullet1": {
+      "message": "Bạn hiện có thể định dạng ổ đĩa USB hoặc thẻ SD."
+   },
+   "erase_complete_bullet1_on_hub": {
+      "message": "Bạn hiện có thể định dạng ổ đĩa USB."
+   },
+   "erase_complete_bullet1_workspace_hardware": {
+      "message": "Bạn hiện có thể định dạng ổ đĩa USB."
+   },
+   "erase_complete_bullet2": {
+      "message": "Định dạng bằng công cụ định dạng do hệ điều hành của bạn cung cấp."
+   },
+   "erase_complete_title": {
+      "message": "Đã xóa phương tiện khôi phục."
+   },
+   "erase_complete_title_on_hub": {
+      "message": "Đã xóa ổ đĩa USB khôi phục."
+   },
+   "erase_complete_title_workspace_hardware": {
+      "message": "Đã xóa ổ đĩa USB khôi phục."
+   },
+   "erase_confirm_message": {
+      "message": "Hình ảnh khôi phục và tất cả các phân vùng trên phương tiện khôi phục của bạn sẽ bị xóa."
+   },
+   "erase_confirm_message_on_hub": {
+      "message": "Hình ảnh khôi phục và tất cả các phân vùng trên ổ đĩa USB khôi phục của bạn sẽ bị xóa."
+   },
+   "erase_confirm_message_workspace_hardware": {
+      "message": "Hình ảnh khôi phục và tất cả các phân vùng trên ổ đĩa USB khôi phục của bạn sẽ bị xóa."
+   },
+   "erase_now_button_text": {
+      "message": "Xóa ngay"
+   },
+   "erase_progress_text": {
+      "message": "Không được rút phương tiện khôi phục ra."
+   },
+   "erase_progress_text_on_hub": {
+      "message": "Không được rút ổ đĩa USB khôi phục ra."
+   },
+   "erase_progress_text_workspace_hardware": {
+      "message": "Không được rút ổ đĩa USB khôi phục ra."
+   },
+   "erase_progress_title": {
+      "message": "Đang xóa phương tiện khôi phục"
+   },
+   "erase_progress_title_on_hub": {
+      "message": "Đang xóa ổ đĩa USB khôi phục"
+   },
+   "erase_progress_title_workspace_hardware": {
+      "message": "Đang xóa ổ đĩa USB khôi phục"
+   },
+   "erase_select_target_detecting": {
+      "message": "Đang phát hiện"
+   },
+   "erase_select_target_high_capacity_warning_html": {
+      "message": "\u003Cb>Cảnh báo:\u003C/b> Có đúng là ổ này không?"
+   },
+   "erase_select_target_no_devices_found": {
+      "message": "Không tìm thấy ổ đĩa USB hoặc thẻ SD"
+   },
+   "erase_select_target_no_devices_found_on_hub": {
+      "message": "Không tìm thấy ổ đĩa USB"
+   },
+   "erase_select_target_no_devices_found_workspace_hardware": {
+      "message": "Không tìm thấy ổ đĩa USB"
+   },
+   "erase_select_target_select_device": {
+      "message": "Chọn phương tiện khôi phục mà bạn muốn xóa."
+   },
+   "erase_select_target_select_device_on_hub": {
+      "message": "Chọn ổ đĩa USB khôi phục mà bạn muốn xóa."
+   },
+   "erase_select_target_select_device_placeholder": {
+      "message": "Chọn"
+   },
+   "erase_select_target_select_device_workspace_hardware": {
+      "message": "Chọn ổ đĩa USB khôi phục mà bạn muốn xóa."
+   },
+   "erase_title": {
+      "message": "Xóa phương tiện khôi phục"
+   },
+   "erase_title_on_hub": {
+      "message": "Xóa ổ đĩa USB khôi phục"
+   },
+   "erase_title_workspace_hardware": {
+      "message": "Xóa ổ đĩa USB khôi phục"
+   },
+   "errmsg_please_try_again": {
+      "message": "Vui lòng thử lại."
+   },
+   "errmsg_recovery_config_download_failure": {
+      "message": "Không tải được tệp cấu hình xuống. Do đó, bạn chỉ có thể dùng các tính năng ngoại tuyến."
+   },
+   "get_started_button_text": {
+      "message": "Bắt đầu"
+   },
+   "gigabyte_abbreviation": {
+      "message": "GB"
+   },
+   "go_back_button_text": {
+      "message": "Quay lại"
+   },
+   "hours_remaining": {
+      "message": "Còn $1 giờ.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "hwid_invalid_model": {
+      "message": "Số kiểu máy không hợp lệ. Hãy kiểm tra nội dung bạn đã nhập."
+   },
+   "hwid_keep_typing": {
+      "message": "Chưa tìm thấy kiểu máy nào. Hãy tiếp tục nhập."
+   },
+   "hwid_keep_typing_workspace_hardware": {
+      "message": "Không tìm thấy kiểu máy nào"
+   },
+   "hwid_match_found": {
+      "message": "Tìm thấy một thiết bị trùng khớp"
+   },
+   "hwid_match_found_and_checksum_verified": {
+      "message": "Tìm thấy một thiết bị hoàn toàn trùng khớp với tên kiểu máy này"
+   },
+   "learn_more_link_text": {
+      "message": "Tìm hiểu thêm"
+   },
+   "learn_more_link_url": {
+      "message": "http://www.google.com/chromeos/recovery"
+   },
+   "learn_more_link_url_on_hub": {
+      "message": "https://support.google.com/onhub/answer/6274977"
+   },
+   "learn_more_link_url_workspace_hardware": {
+      "message": "http://support.google.com/meethardware/answer/10562922"
+   },
+   "loading_config_text": {
+      "message": "Đang chuẩn bị..."
+   },
+   "menu_item_erase_recovery_media": {
+      "message": "Xóa phương tiện khôi phục"
+   },
+   "menu_item_erase_recovery_media_on_hub": {
+      "message": "Xóa ổ đĩa USB khôi phục"
+   },
+   "menu_item_erase_recovery_media_workspace_hardware": {
+      "message": "Xóa ổ đĩa USB khôi phục"
+   },
+   "menu_item_send_feedback": {
+      "message": "Gửi ý kiến phản hồi"
+   },
+   "menu_item_use_local_image": {
+      "message": "Dùng hình ảnh trên thiết bị"
+   },
+   "minutes_remaining": {
+      "message": "Còn $1 phút.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "of": {
+      "message": "/"
+   },
+   "recovery_channel_beta": {
+      "message": "Kênh thử nghiệm"
+   },
+   "recovery_channel_dev": {
+      "message": "Kênh nhà phát triển"
+   },
+   "recovery_channel_ltc": {
+      "message": "Đề xuất hỗ trợ dài hạn (chỉ dành cho doanh nghiệp)"
+   },
+   "recovery_channel_lts": {
+      "message": "Hỗ trợ dài hạn (chỉ dành cho doanh nghiệp)"
+   },
+   "recovery_channel_stable": {
+      "message": "Kênh chính thức"
+   },
+   "seconds_remaining": {
+      "message": "Còn $1 giây.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "select_channel_placeholder": {
+      "message": "Chọn một kênh khôi phục"
+   },
+   "select_image_select_by_hwid_link_text": {
+      "message": "Nhập ngay số kiểu máy"
+   },
+   "select_image_select_from_list_link_text": {
+      "message": "Chọn một kiểu máy trong danh sách"
+   },
+   "select_image_select_manufacturer_placeholder": {
+      "message": "Chọn một nhà sản xuất"
+   },
+   "select_image_select_product_placeholder": {
+      "message": "Chọn một sản phẩm"
+   },
+   "select_image_select_product_placeholder_on_hub": {
+      "message": "Chọn một kiểu máy"
+   },
+   "select_image_select_product_placeholder_workspace_hardware": {
+      "message": "Chọn một kiểu máy"
+   },
+   "select_image_text": {
+      "message": "Nhập số kiểu máy của Chromebook cần khôi phục. Bạn có thể tìm thấy số kiểu máy trên màn hình khôi phục."
+   },
+   "select_image_text_on_hub": {
+      "message": "Nhập số kiểu máy của OnHub."
+   },
+   "select_image_text_workspace_hardware": {
+      "message": "Nhập số kiểu máy của Meet Compute System"
+   },
+   "select_image_this_chromebooks_model_number": {
+      "message": "Đối với Chromebook này, hãy nhập"
+   },
+   "select_image_this_chromebooks_model_number_on_hub": {
+      "message": "Đối với OnHub này, hãy nhập"
+   },
+   "select_image_this_chromebooks_model_number_workspace_hardware": {
+      "message": "Đối với Meet Compute System này, hãy nhập"
+   },
+   "select_image_title": {
+      "message": "Xác định Chromebook của bạn"
+   },
+   "select_image_title_on_hub": {
+      "message": "Xác định OnHub của bạn"
+   },
+   "select_image_title_workspace_hardware": {
+      "message": "Xác định Meet Compute System của bạn"
+   },
+   "select_target_detecting": {
+      "message": "Đang phát hiện"
+   },
+   "select_target_high_capacity_warning_html": {
+      "message": "\u003Cb>Cảnh báo:\u003C/ b> Có đúng là phương tiện này không?"
+   },
+   "select_target_high_capacity_warning_html_on_hub": {
+      "message": "\u003Cb>Cảnh báo:\u003C/b> Có đúng là ổ đĩa USB này không?"
+   },
+   "select_target_high_capacity_warning_html_workspace_hardware": {
+      "message": "\u003Cb>Cảnh báo:\u003C/b> Có đúng là ổ đĩa USB này không?"
+   },
+   "select_target_low_capacity_error": {
+      "message": "Phương tiện phải có dung lượng tối thiểu là 8 GB."
+   },
+   "select_target_low_capacity_error_on_hub": {
+      "message": "Ổ đĩa USB phải có dung lượng tối thiểu là 8 GB."
+   },
+   "select_target_low_capacity_error_workspace_hardware": {
+      "message": "Ổ đĩa USB phải có dung lượng tối thiểu là 8 GB."
+   },
+   "select_target_no_devices_found": {
+      "message": "Không tìm thấy ổ đĩa USB hoặc thẻ SD"
+   },
+   "select_target_no_devices_found_on_hub": {
+      "message": "Không tìm thấy ổ đĩa USB"
+   },
+   "select_target_no_devices_found_workspace_hardware": {
+      "message": "Không tìm thấy ổ đĩa USB"
+   },
+   "select_target_select_device": {
+      "message": "Chọn phương tiện mà bạn muốn sử dụng."
+   },
+   "select_target_select_device_on_hub": {
+      "message": "Chọn ổ đĩa USB mà bạn muốn sử dụng."
+   },
+   "select_target_select_device_placeholder": {
+      "message": "Chọn"
+   },
+   "select_target_select_device_workspace_hardware": {
+      "message": "Chọn ổ đĩa USB mà bạn muốn sử dụng."
+   },
+   "select_target_title": {
+      "message": "Cắm ổ đĩa USB flash hoặc thẻ SD"
+   },
+   "select_target_title_on_hub": {
+      "message": "Cắm ổ đĩa USB flash"
+   },
+   "select_target_title_workspace_hardware": {
+      "message": "Cắm ổ đĩa USB flash"
+   },
+   "stage_complete": {
+      "message": "Đã hoàn tất"
+   },
+   "stage_download": {
+      "message": "Đang tải xuống"
+   },
+   "stage_downloadverify": {
+      "message": "Đang xác minh hoạt động tải xuống"
+   },
+   "stage_unpack": {
+      "message": "Đang giải nén"
+   },
+   "stage_unzip": {
+      "message": "Đang giải nén"
+   },
+   "stage_verify": {
+      "message": "Đang xác minh"
+   },
+   "stage_verifydownload": {
+      "message": "Đang xác minh hoạt động tải xuống"
+   },
+   "stage_verifywrite": {
+      "message": "Đang xác minh"
+   },
+   "stage_write": {
+      "message": "Đang ghi"
+   },
+   "step": {
+      "message": "Bước"
+   },
+   "unsupported_text": {
+      "message": "Rất tiếc, chúng tôi chưa hỗ trợ nền tảng của bạn.  Vui lòng truy cập vào \u003Ca href=\"http://www.google.com/chromeos/recovery\" target=\"_blank\">Trung tâm trợ giúp Chromebook\u003C/a> để biết thêm thông tin."
+   },
+   "unsupported_text_mac": {
+      "message": "Rất tiếc, chúng tôi chỉ hỗ trợ Mac trên M37 trở đi. Vui lòng cập nhật Chrome lên M37. Có thể bạn sẽ phải \u003Ca href=\"https://support.google.com/chromebook/answer/1086915\" target=\"_blank\">chuyển sang Kênh thử nghiệm Beta\u003C/a> để thực hiện việc này."
+   },
+   "unsupported_text_on_hub": {
+      "message": "Rất tiếc, chúng tôi chưa hỗ trợ nền tảng của bạn.  Vui lòng truy cập vào \u003Ca href=\"https://support.google.com/onhub/answer/6274977\" target=\"_blank\">Trung tâm trợ giúp OnHub\u003C/a> để biết thêm thông tin."
+   },
+   "unsupported_title": {
+      "message": "Chúng tôi chưa hỗ trợ nền tảng của bạn"
+   },
+   "unsupported_title_linux": {
+      "message": "Chúng tôi chưa hỗ trợ Linux"
+   },
+   "unsupported_title_mac": {
+      "message": "Chúng tôi chưa hỗ trợ Mac"
+   },
+   "unsupported_title_win": {
+      "message": "Chúng tôi chưa hỗ trợ Windows"
+   },
+   "usupported_text_workspace_hardware": {
+      "message": "Rất tiếc, nền tảng của bạn chưa được hỗ trợ tại thời điểm này.  Vui lòng tham khảo \u003Ca href=\"http://support.google.com/meethardware/answer/10562922\" target=\"_blank\">Trung tâm trợ giúp của Thiết bị Google Meet\u003C/a> để biết thêm thông tin."
+   },
+   "warning_offline": {
+      "message": "Thiết bị không có kết nối mạng. Do đó, bạn chỉ có thể dùng các tính năng ngoại tuyến."
+   },
+   "welcome_text": {
+      "message": "Bạn cần một thẻ SD hoặc ổ đĩa USB flash có dung lượng 8 GB trở lên."
+   },
+   "welcome_text_on_hub": {
+      "message": "Bạn cần một ổ đĩa USB flash có dung lượng từ 8 GB trở lên."
+   },
+   "welcome_text_workspace_hardware": {
+      "message": "Bạn cần một ổ USB flash có dung lượng từ 8 GB trở lên. Bạn cũng có thể dùng thẻ SD nếu thiết bị của bạn có khe cắm thẻ SD."
+   },
+   "welcome_title": {
+      "message": "Tạo một phương tiện khôi phục cho Chromebook"
+   },
+   "welcome_title_on_hub": {
+      "message": "Tạo một ổ đĩa USB khôi phục cho OnHub"
+   },
+   "welcome_title_workspace_hardware": {
+      "message": "Tạo một ổ đĩa USB khôi phục cho Meet Compute System"
+   },
+   "write_message": {
+      "message": "Không được rút phương tiện khôi phục ra."
+   },
+   "write_message_on_hub": {
+      "message": "Không được rút ổ đĩa USB khôi phục ra."
+   },
+   "write_message_workspace_hardware": {
+      "message": "Không tháo ổ USB flash."
+   },
+   "write_title": {
+      "message": "Tạo một hình ảnh khôi phục"
+   }
+}

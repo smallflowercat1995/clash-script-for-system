@@ -1,0 +1,20 @@
+{
+   "chromesysAllowFileAccess": {
+      "message": "Membenarkan akses ke URL fail"
+   },
+   "chromesysDownloadLocation": {
+      "message": "Lokasi muat turun"
+   },
+   "chromesysDownloadsSection": {
+      "message": "Muat turun"
+   },
+   "chromesysShowAdvSettings": {
+      "message": "Paparkan tetapan lanjutan..."
+   },
+   "extName": {
+      "message": "Chrono Download Manager"
+   },
+   "uilangName": {
+      "message": "Malay"
+   }
+}

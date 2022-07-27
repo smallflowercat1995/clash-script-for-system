@@ -1,0 +1,48 @@
+<div ng-controller="recovery.controllers.WriteImageController">
+
+  <section class="instruction">
+    <article>
+      <h1>
+        {{"WRITE_TITLE" | translate}}
+        <span ng-show="!app.writeParams.device.local">
+          ({{ app.getDisplayChromeOsVersion() }})
+        </span>
+      </h1>
+
+      <figure>
+        <img class="image" ng-src="../img/download.png" alt="" />
+        <figcaption></figcaption>
+      </figure>
+
+      {{"WRITE_MESSAGE" | translate}}
+
+      <div>
+        <div class="jfk-progressBar-blocking jfk-progressBar-tall" id="progress"
+            ng-init="writeImageController.setupProgressBar()"></div>
+
+        <div id="progressText" ng-show="writeImageController.stage">
+          {{writeImageController.getStageKey() | translate}}.
+          {{writeImageController.percentComplete / 100 | percent}}
+          {{"COMPLETED" | translate}}.
+          <span ng-show="writeImageController.hours >= 1">
+            {{"HOURS_REMAINING" | translate:writeImageController.hours }}
+          </span>
+          <span ng-show="writeImageController.hours < 1 &&
+                         writeImageController.minutes >= 1">
+            {{"MINUTES_REMAINING" | translate:writeImageController.minutes }}
+          </span>
+          <span ng-show="writeImageController.minutes < 1">
+            {{"SECONDS_REMAINING" | translate:writeImageController.seconds }}
+          </span>
+        </div>
+
+        <div ng-include="'html/feedback.html'"></div>
+      </div>
+    </article>
+  </section>
+
+  <app-footer disable-forward="true" back="writeImageController.cancel()"
+      disable-back="!writeImageController.canCancel"
+      back-text="CANCEL_BUTTON_TEXT"></app-footer>
+
+</div>

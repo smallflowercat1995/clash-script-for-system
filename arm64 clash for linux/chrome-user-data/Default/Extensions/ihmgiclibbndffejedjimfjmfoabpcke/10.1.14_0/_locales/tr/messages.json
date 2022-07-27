@@ -1,0 +1,1610 @@
+{
+   "CommonUi_LangPart_Abbreviation": {
+      "message": "Kısaltmalar"
+   },
+   "CommonUi_LangPart_Adjective": {
+      "message": "Sıfatlar"
+   },
+   "CommonUi_LangPart_Adverb": {
+      "message": "Zarflar"
+   },
+   "CommonUi_LangPart_Auxiliaryverb": {
+      "message": "Yardımcı Fiiller"
+   },
+   "CommonUi_LangPart_Conjunction": {
+      "message": "Bağlaçlar"
+   },
+   "CommonUi_LangPart_Interjection": {
+      "message": "Ünlemler"
+   },
+   "CommonUi_LangPart_Noun": {
+      "message": "İsimler"
+   },
+   "CommonUi_LangPart_Phrase": {
+      "message": "Öbekler"
+   },
+   "CommonUi_LangPart_Preposition": {
+      "message": "Edatlar"
+   },
+   "CommonUi_LangPart_Pronoun": {
+      "message": "Zamirler"
+   },
+   "CommonUi_LangPart_Suffix": {
+      "message": "Ekler"
+   },
+   "CommonUi_LangPart_Transliteration": {
+      "message": "Transliterasyon"
+   },
+   "CommonUi_LangPart_Verb": {
+      "message": "Fiiller"
+   },
+   "CommonUi_NoResults": {
+      "message": "Sonuç yok"
+   },
+   "Common_Copied": {
+      "message": "Kopyalandı!"
+   },
+   "ContextMenu_FullPage": {
+      "message": "Bu sayfayı \u003C%=lang%> diline çevir"
+   },
+   "Csv_FromLang": {
+      "message": "ÇEVRİLEN DİL"
+   },
+   "Csv_Input": {
+      "message": "GİRDİ"
+   },
+   "Csv_IntoLang": {
+      "message": "ÇEVRİLECEK DİL"
+   },
+   "Csv_Synonyms": {
+      "message": "EŞ ANLAMLI"
+   },
+   "Csv_TimeDate": {
+      "message": "ZAMAN/TARİH"
+   },
+   "Csv_Translation": {
+      "message": "ÇEVİRİ"
+   },
+   "Csv_Transliteration": {
+      "message": "TRANSLİTERASYON"
+   },
+   "Csv_WhereTranslated": {
+      "message": "ÇEVRİLEN YER"
+   },
+   "Dict_DictionaryTab": {
+      "message": "Sözlük"
+   },
+   "Dict_NotFoundCaption": {
+      "message": "Özür dileriz, sözlüğümüzü büyütmek için elimizden geleni yapıyoruz"
+   },
+   "Dict_NotFoundTitle": {
+      "message": "Tanım bulunamadı"
+   },
+   "Dict_UpgradeToPro": {
+      "message": "Tanımlar için Pro versiyona yükselt"
+   },
+   "DotsButton_Added": {
+      "message": "\u003C%=wl%> kısmına eklendi"
+   },
+   "DotsButton_Copied": {
+      "message": "Çeviri kopyalandı"
+   },
+   "DotsButton_OrigCopied": {
+      "message": "Orijinal metin kopyalandı"
+   },
+   "FullPage": {
+      "message": "Tam sayfa çeviri"
+   },
+   "FullPageDesc": {
+      "message": "Eğer sayfa yabancı bir dilde ise sağ üst köşede Mate simgesini göster. Sayfayı kendi diline çevirmek için simgeye tıkla."
+   },
+   "FullPageShowOriginal": {
+      "message": "Orijinali göster"
+   },
+   "FullPageTranslate": {
+      "message": "Çevir"
+   },
+   "FullPageTranslatedTo": {
+      "message": "Çevrilen dil"
+   },
+   "FullPage_AlwaysTranslate": {
+      "message": "{{page_lang_beautiful}} dilini her zaman {{target_lang_beautiful}} diline çevir"
+   },
+   "FullPage_ChangeLanguage": {
+      "message": "Dili değiştir"
+   },
+   "FullPage_ContextMenuOption": {
+      "message": "Tam sayfa çevirisini aç"
+   },
+   "FullPage_CurrentPageLang": {
+      "message": "Bu sayfa {{page_lang_beautiful}}"
+   },
+   "FullPage_NeverTranslate": {
+      "message": "{{page_lang_beautiful}} için asla çeviri yapma"
+   },
+   "FullPage_SwitchBackTo": {
+      "message": "{{language}} diline geri dön"
+   },
+   "FullPage_TranslateTo": {
+      "message": "{{target_lang_beautiful}} diline çevir"
+   },
+   "FullPage_WeTranslatedIt": {
+      "message": "Bu sayfayı {{language}} diline çevirdik"
+   },
+   "History_AnotherDevice": {
+      "message": "Başka bir cihazda"
+   },
+   "History_Content_GoUpButton": {
+      "message": "Yukarı çık"
+   },
+   "History_Content_List_OnEmpty": {
+      "message": "Çeviri geçmişiniz burada gösterilecek"
+   },
+   "History_Export_OnlyProDesc": {
+      "message": "Çeviri geçminizi CSV dosyasına aktarmak için Pro versiyonuna geçin"
+   },
+   "History_FullyBlockedOut": {
+      "message": "Çeviri geçmişinize sınırsız erişim sağlamak için Pro versiyona geçin."
+   },
+   "History_InPopup": {
+      "message": "Açılır pencerede"
+   },
+   "History_Options_DeleteMarked_1": {
+      "message": "Sil"
+   },
+   "History_Options_DeleteMarked_2": {
+      "message": "işaretlenmiş"
+   },
+   "History_Options_SelectToDelete": {
+      "message": "silmek için işaretle"
+   },
+   "History_Options_SelectToDelete_MarkAll": {
+      "message": "Tümünü işaretle"
+   },
+   "History_Options_SelectToDelete_UnmarkAll": {
+      "message": "Tümünün işaretini kaldır"
+   },
+   "Human_OrderButton": {
+      "message": "Bir profesyonele çevirt"
+   },
+   "IDB_Error": {
+      "message": "Tarayıcınızda Indexed DB devre dışı"
+   },
+   "IDB_ErrorDesc": {
+      "message": "Mate Translate tam kapasitede çalışmak için Indexed DB'ye (Bu, tüm çeviri ve dil kılavuzlarınızı depoladığımız yerel bellektir) ihtiyaç duyar.\u003Cbr>\u003Cbr>Tarayıcınız Indexed DB’yi devre dışı bırakan Gizli Gezinti Modu’nda çalışıyor. (Bu bir Firefox \u003Ca href=\"https://bugzilla.mozilla.org/show_bug.cgi?id=781982\" target=\"_blank\">hatasıdır #781982\u003C/a>).\u003Cbr>\u003Cbr>Geçmiş ayarını \u003Ca href=\"about:preferences#privacy\" target=\"_blank\">about:preferences#privacy\u003C/a> to \"Firefox geçmişi hatırlayacak\" şeklinde yapabilirsiniz. Bu işe yarayabilir ama kesin değildir. Eğer olmazsa Mozilla’ya ulaşıp bu hatanın daha çabuk düzeltilmesini isteyebilirsiniz.\u003Cbr>\u003Cbr>Verdiğimiz rahatsızlıktan dolayı özür dileriz ama maalesef bu konuda yapabileceğimiz hiçbir şey bulunmuyor."
+   },
+   "Kernel_AppDescription": {
+      "message": "İnternet sayfaları, seçili metin ve Netflix alt yazıları için hepsi bir arada çeviriciniz. Kelimeleri 103 dilde çevirin ve öğrenin."
+   },
+   "Kernel_AppName": {
+      "message": "Mate Translate – çeviri, sözlük"
+   },
+   "Kernel_Cancel": {
+      "message": "iptal"
+   },
+   "Kernel_ClearInput": {
+      "message": "Girdi alanını temizle"
+   },
+   "Kernel_Context_Into": {
+      "message": "→"
+   },
+   "Kernel_HistoryTitle": {
+      "message": "Geçmiş"
+   },
+   "Kernel_IPA": {
+      "message": "Fonetik yazım"
+   },
+   "Kernel_Lang_Afrikaans": {
+      "message": "Afrika dili"
+   },
+   "Kernel_Lang_Albanian": {
+      "message": "Arnavutça"
+   },
+   "Kernel_Lang_Amharic": {
+      "message": "Habeşçe"
+   },
+   "Kernel_Lang_Arabic": {
+      "message": "Arapça"
+   },
+   "Kernel_Lang_Armenian": {
+      "message": "Ermenice"
+   },
+   "Kernel_Lang_Azerbaijani": {
+      "message": "Azerice"
+   },
+   "Kernel_Lang_Basque": {
+      "message": "Baskça"
+   },
+   "Kernel_Lang_Belarusian": {
+      "message": "Belarusça"
+   },
+   "Kernel_Lang_Bengali": {
+      "message": "Bengalce"
+   },
+   "Kernel_Lang_Bosnian": {
+      "message": "Boşnakça"
+   },
+   "Kernel_Lang_Bulgarian": {
+      "message": "Bulgarca"
+   },
+   "Kernel_Lang_Catalan": {
+      "message": "Katalanca"
+   },
+   "Kernel_Lang_Cebuano": {
+      "message": "Cebuano"
+   },
+   "Kernel_Lang_Chichewa": {
+      "message": "Chicheva"
+   },
+   "Kernel_Lang_ChineseSimplified": {
+      "message": "Çince (basitleştirilmiş)"
+   },
+   "Kernel_Lang_ChineseTraditional": {
+      "message": "Çince (geleneksel)"
+   },
+   "Kernel_Lang_Corsican": {
+      "message": "Korsika dili"
+   },
+   "Kernel_Lang_Croatian": {
+      "message": "Hırvatça"
+   },
+   "Kernel_Lang_Czech": {
+      "message": "Çekçe"
+   },
+   "Kernel_Lang_Danish": {
+      "message": "Danca"
+   },
+   "Kernel_Lang_Dutch": {
+      "message": "Felemenkçe"
+   },
+   "Kernel_Lang_English": {
+      "message": "İngilizce"
+   },
+   "Kernel_Lang_EnglishUS": {
+      "message": "İngilizce (ABD)"
+   },
+   "Kernel_Lang_Esperanto": {
+      "message": "Esperantoca"
+   },
+   "Kernel_Lang_Estonian": {
+      "message": "Estonyaca"
+   },
+   "Kernel_Lang_Filipino": {
+      "message": "Filipince"
+   },
+   "Kernel_Lang_Finnish": {
+      "message": "Fince"
+   },
+   "Kernel_Lang_French": {
+      "message": "Fransızca"
+   },
+   "Kernel_Lang_Frisian": {
+      "message": "Frizon dili"
+   },
+   "Kernel_Lang_Galician": {
+      "message": "Galiçyaca"
+   },
+   "Kernel_Lang_Georgian": {
+      "message": "Gürcüce"
+   },
+   "Kernel_Lang_German": {
+      "message": "Almanca"
+   },
+   "Kernel_Lang_Greek": {
+      "message": "Yunanca"
+   },
+   "Kernel_Lang_Gujarati": {
+      "message": "Gücerat dili"
+   },
+   "Kernel_Lang_HaitianCreole": {
+      "message": "Haiti creole dili"
+   },
+   "Kernel_Lang_Hausa": {
+      "message": "Hausa dili"
+   },
+   "Kernel_Lang_Hawaiian": {
+      "message": "Havai dili"
+   },
+   "Kernel_Lang_Hebrew": {
+      "message": "İbranice"
+   },
+   "Kernel_Lang_Hindi": {
+      "message": "Hintçe"
+   },
+   "Kernel_Lang_Hmong": {
+      "message": "Hmong dili"
+   },
+   "Kernel_Lang_Hungarian": {
+      "message": "Macarca"
+   },
+   "Kernel_Lang_Icelandic": {
+      "message": "İzlandaca"
+   },
+   "Kernel_Lang_Igbo": {
+      "message": "İgbo dili"
+   },
+   "Kernel_Lang_Indonesian": {
+      "message": "Endonezya dili"
+   },
+   "Kernel_Lang_Irish": {
+      "message": "İrlandaca"
+   },
+   "Kernel_Lang_Italian": {
+      "message": "İtalyanca"
+   },
+   "Kernel_Lang_Japanese": {
+      "message": "Japonca"
+   },
+   "Kernel_Lang_Javanese": {
+      "message": "Cava dili"
+   },
+   "Kernel_Lang_Kannada": {
+      "message": "Kannada"
+   },
+   "Kernel_Lang_Kazakh": {
+      "message": "Kazakça"
+   },
+   "Kernel_Lang_Khmer": {
+      "message": "Kamboçyaca"
+   },
+   "Kernel_Lang_Korean": {
+      "message": "Korece"
+   },
+   "Kernel_Lang_KurdishKurmanji": {
+      "message": "Kürtçe"
+   },
+   "Kernel_Lang_Kyrgyz": {
+      "message": "Kırgızca"
+   },
+   "Kernel_Lang_Lao": {
+      "message": "Laoca"
+   },
+   "Kernel_Lang_Latin": {
+      "message": "Latince"
+   },
+   "Kernel_Lang_Latvian": {
+      "message": "Letonca"
+   },
+   "Kernel_Lang_Lithuanian": {
+      "message": "Litvanca"
+   },
+   "Kernel_Lang_Luxembourgish": {
+      "message": "Lüksemburgca"
+   },
+   "Kernel_Lang_Macedonian": {
+      "message": "Makedonca"
+   },
+   "Kernel_Lang_Malagasy": {
+      "message": "Madagaskar dili"
+   },
+   "Kernel_Lang_Malay": {
+      "message": "Malezya dili"
+   },
+   "Kernel_Lang_Malayalam": {
+      "message": "Malayalam"
+   },
+   "Kernel_Lang_Maltese": {
+      "message": "Malta dili"
+   },
+   "Kernel_Lang_Maori": {
+      "message": "Maori dili"
+   },
+   "Kernel_Lang_Marathi": {
+      "message": "Marathi"
+   },
+   "Kernel_Lang_Mongolian": {
+      "message": "Moğolca"
+   },
+   "Kernel_Lang_MyanmarBurmese": {
+      "message": "Burmaca"
+   },
+   "Kernel_Lang_Nepali": {
+      "message": "Nepalce"
+   },
+   "Kernel_Lang_Norwegian": {
+      "message": "Norveççe"
+   },
+   "Kernel_Lang_Pashto": {
+      "message": "Peştuca"
+   },
+   "Kernel_Lang_Persian": {
+      "message": "Farsça"
+   },
+   "Kernel_Lang_Polish": {
+      "message": "Lehçe"
+   },
+   "Kernel_Lang_Portuguese": {
+      "message": "Portekizce"
+   },
+   "Kernel_Lang_Punjabi": {
+      "message": "Pencap dili"
+   },
+   "Kernel_Lang_Romanian": {
+      "message": "Romence"
+   },
+   "Kernel_Lang_Russian": {
+      "message": "Rusça"
+   },
+   "Kernel_Lang_Samoan": {
+      "message": "Samoaca"
+   },
+   "Kernel_Lang_ScotsGaelic": {
+      "message": "Kuzey i̇skoç dili"
+   },
+   "Kernel_Lang_Serbian": {
+      "message": "Sırpça"
+   },
+   "Kernel_Lang_Sesotho": {
+      "message": "Sesotho dili"
+   },
+   "Kernel_Lang_Shona": {
+      "message": "Shona"
+   },
+   "Kernel_Lang_Sindhi": {
+      "message": "Sint"
+   },
+   "Kernel_Lang_Sinhala": {
+      "message": "Seylanca"
+   },
+   "Kernel_Lang_Slovak": {
+      "message": "Slovakça"
+   },
+   "Kernel_Lang_Slovenian": {
+      "message": "Slovence"
+   },
+   "Kernel_Lang_Somali": {
+      "message": "Somalice"
+   },
+   "Kernel_Lang_Spanish": {
+      "message": "İspanyolca"
+   },
+   "Kernel_Lang_Sundanese": {
+      "message": "Sundanizce"
+   },
+   "Kernel_Lang_Swahili": {
+      "message": "Svahili dili"
+   },
+   "Kernel_Lang_Swedish": {
+      "message": "İsveççe"
+   },
+   "Kernel_Lang_Tajik": {
+      "message": "Tacikce"
+   },
+   "Kernel_Lang_Tamil": {
+      "message": "Tamil"
+   },
+   "Kernel_Lang_Telugu": {
+      "message": "Telugu dili"
+   },
+   "Kernel_Lang_Thai": {
+      "message": "Tay dili"
+   },
+   "Kernel_Lang_Turkish": {
+      "message": "Türkçe"
+   },
+   "Kernel_Lang_Ukrainian": {
+      "message": "Ukraynaca"
+   },
+   "Kernel_Lang_Urdu": {
+      "message": "Urduca"
+   },
+   "Kernel_Lang_Uzbek": {
+      "message": "Özbekçe"
+   },
+   "Kernel_Lang_Vietnamese": {
+      "message": "Vietnamca"
+   },
+   "Kernel_Lang_Welsh": {
+      "message": "Galce"
+   },
+   "Kernel_Lang_Xhosa": {
+      "message": "Hosa"
+   },
+   "Kernel_Lang_Yiddish": {
+      "message": "Yidce"
+   },
+   "Kernel_Lang_Yoruba": {
+      "message": "Yoruba"
+   },
+   "Kernel_Lang_Zulu": {
+      "message": "Zulu"
+   },
+   "Kernel_NoResults": {
+      "message": "Sonuç yok"
+   },
+   "Kernel_Ok": {
+      "message": "Tamam"
+   },
+   "Kernel_PhrasebookTitle": {
+      "message": "Dil Kılavuzu"
+   },
+   "Kernel_RemoveCombination": {
+      "message": "kaldır"
+   },
+   "Kernel_SearchPlaceholder": {
+      "message": "Ara"
+   },
+   "Kernel_SettingsTitle": {
+      "message": "Ayarlar"
+   },
+   "Kernel_Vowels": {
+      "message": "aeiou"
+   },
+   "Login_ByClicking": {
+      "message": "'Hesap oluştur' kısmına tıkladığınızda \u003Cb>\u003Ca href=\"https://matetranslate.com/terms\">Kullanım Şartları\u003C/a>\u003C/b> ve \u003Cb>\u003Ca href=\"https://matetranslate.com/privacy\">Gizlilik Politikası\u003C/a>\u003C/b>'nı kabul etmiş olursunuz."
+   },
+   "Login_Continue": {
+      "message": "DEVAM"
+   },
+   "Login_ContinueWithout": {
+      "message": "Atla"
+   },
+   "Login_Create": {
+      "message": "Hesap oluştur"
+   },
+   "Login_Email": {
+      "message": "E-posta adresinizi girin..."
+   },
+   "Login_Forgot": {
+      "message": "Şifrenizi mi unuttunuz?"
+   },
+   "Login_GDPR": {
+      "message": "\u003Cb>Sınıfında en iyi gizliliğe sahip çeviri uygulamasına bakıyorsunuz.\u003C/b> Biz asla verilerinizi takip etmez ve satmayız. \u003Ca class=\"open-pp\" href=\"javascript:;\">Gizlilik Politikamızı\u003C/a> zevkle okuyacağınıza eminiz. Lütfen devam etmek için kabul edin."
+   },
+   "Login_IReadAndAgree": {
+      "message": "Kabul ediyorum"
+   },
+   "Login_NewPassword": {
+      "message": "Yeni şifre..."
+   },
+   "Login_NoAccountHead": {
+      "message": "Hesabım yok"
+   },
+   "Login_NoAccountText": {
+      "message": "Pro versiyonu satın aldığınız sırada giriş yapmamış ve ödeme sırasında belirttiğiniz e-posta adresine gönderilen linkle kayıt işlemini tamamlamadıysanız, ilk önce e-posta adresinizdeki linkle kaydolmalısınız. Bu işlem sonrasında uygulamaya giriş yapabileceksiniz."
+   },
+   "Login_NoRememberHead": {
+      "message": "Hatırlamıyorum"
+   },
+   "Login_NoRememberText": {
+      "message": "Eğer ödemede kullandığınız e-posta adresini hatırlamıyorsanız, gelen mesajlar kısmında alışverişin onaylandığını gösteren bizim gönderdiğimiz e-postayı bulmaya çalışın."
+   },
+   "Login_OrSignInWith": {
+      "message": "VEYA ŞU YOLLA GİRİŞ YAPIN"
+   },
+   "Login_Password": {
+      "message": "Şifrenizi girin..."
+   },
+   "Login_PasswordMin8": {
+      "message": "Şifreniz en az 8 karakterden oluşmalıdır"
+   },
+   "Login_Promo": {
+      "message": "Mate'i kullanıp verilerinizi tüm cihazlarınızla senkronize etmek için giriş yapın!"
+   },
+   "Login_QuestionsHead": {
+      "message": "Sorunuz mu var?"
+   },
+   "Login_QuestionsText": {
+      "message": "Hâlâ sorun yaşıyorsanız \u003Ca href=\"mailto:support@matetranslate.com?subject=Login Issues\">support@matetranslate.com\u003C/a> adresinden bize ulaşabilirsiniz."
+   },
+   "Login_Restore": {
+      "message": "Mate Translate Pro'yu geri yüklemek için, satın aldığınız hesaptan giriş yapın (\u003Ca href=\"javascript:;\" class=\"show-info\">don't know it?\u003C/a>)"
+   },
+   "Login_SignIn": {
+      "message": "GİRİŞ"
+   },
+   "Login_SignUp": {
+      "message": "KAYDOL"
+   },
+   "Login_Sync": {
+      "message": "Mate Hesabı ile çevirilerinizi ve dil kılavuzunuzu güvenle yedekleyin, diğer tüm cihazlarınızla eşzamanlayın."
+   },
+   "Login_YourName": {
+      "message": "Adınız (isteğe bağlı)..."
+   },
+   "MatePro_Description": {
+      "message": "Mate Pro ile çeviri deneyiminizi yepyeni bir seviyeye çıkarın! Bir kere öde, sonsuza kadar kullan!"
+   },
+   "MicAccess_HowToUnlock": {
+      "message": "Mikrofonun engel listesinden \u003Cb>$id$\u003C/b> kısmını silin. Daha sonra \u003Cb>\u003Ca href=\"../public/mic_access.html\">buraya tıklayın\u003C/a>\u003C/b>.",
+      "placeholders": {
+         "id": {
+            "content": "$1",
+            "example": "chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/"
+         }
+      }
+   },
+   "MicAccess_Note": {
+      "message": "Mate Translate'in konuşmayı algılayıp çevirebilmesi için bilgisayarınızın mikrofonunu kullanmasına izin vermeniz gerekir."
+   },
+   "MicAccess_PageTitle": {
+      "message": "Mikrofona erişim"
+   },
+   "MicAccess_Title": {
+      "message": "Mikrofon"
+   },
+   "MicAccess_UnlockButton": {
+      "message": "içerik ayarlarından izin ver"
+   },
+   "Options_TooltipSizePro": {
+      "message": "Sayfa üzerindeki bilgi çubuğunun büyüklüğünü değiştirmek için Pro versiyona geçin."
+   },
+   "Pb_AddButton": {
+      "message": "Ekle"
+   },
+   "Pb_EarlyAccess": {
+      "message": "erken erişim iste"
+   },
+   "Pb_Empty": {
+      "message": "Dil Kılavuzu boş"
+   },
+   "Pb_EmptyWl_Text1": {
+      "message": "Bu konu hakkında hatırlamak istediğiniz tüm kelimeleri buraya kaydedin."
+   },
+   "Pb_EmptyWl_Text2": {
+      "message": "Kelimeleri yazın yeter, Mate çevirilerini sizin için gösterecek."
+   },
+   "Pb_EmptyWl_Title2": {
+      "message": "Kolayca kaydet"
+   },
+   "Pb_Empty_Button": {
+      "message": "kelime listesi oluştur"
+   },
+   "Pb_Empty_Text1": {
+      "message": "Öğrenmek istediğiniz kelimeleri kaydetmek için kelime listesi oluşturun."
+   },
+   "Pb_Empty_Text2": {
+      "message": "Tüm kelimelerinizi bir yerde tutun!"
+   },
+   "Pb_Empty_Title": {
+      "message": "Bu nedir?"
+   },
+   "Pb_EnterWordOrPhrase": {
+      "message": "Kelime veya cümle gir ..."
+   },
+   "Pb_HowToAddPhrase": {
+      "message": "Yeni cümleler eklemek için yukarıdaki metin alanını kullanın"
+   },
+   "Pb_HowToCreateWordlist": {
+      "message": "Yeni bir kelime listesi oluşturmak için yukarıdaki \"+\" butonuna tıklayın"
+   },
+   "Pb_Learn": {
+      "message": "Öğren"
+   },
+   "Pb_LearnOnboardingDesc": {
+      "message": "Mate'in tek bir konuda başarılı olmasını istiyoruz: Çeviri.\u003Cbr>\u003Cbr>Bu yüzden, verimli kelime öğrenimini sağlayacak kullanımı çok kolay, ücretsiz bir uygulama olan Reji'yi yaptık. Ayrıca Mate'teki kelimelerinizi Reji'ye tek bir tıkla aktarmak da mümkün!"
+   },
+   "Pb_Loading": {
+      "message": "yükleniyor..."
+   },
+   "Pb_NewWlNote": {
+      "message": "Belirli bir dil çifti için kelime listesi oluşturun ve içine istediğiniz kadar kelime ekleyin."
+   },
+   "Pb_NewWordlist": {
+      "message": "Yeni kelime listesi"
+   },
+   "Pb_NewWordlistName": {
+      "message": "Yeni kelime listesinin adı ..."
+   },
+   "Pb_NoInternet": {
+      "message": "İnternet bağlantınız çevrim dışı görünüyor. Yeni kelimeler ekleyebilmek için internete bağlı olmalısınız!"
+   },
+   "Pb_NotOnIOS": {
+      "message": "iOS kullanmıyor musunuz? \u003Ca class=\"show-android-form\" href=\"#\">Android\u003C/a> ile veya \u003Ca class=\"show-chrome-form\" href=\"#\">tarayıcı\u003C/a> ile kelime öğrenmek için tıklayın."
+   },
+   "Pb_RejiAndroid": {
+      "message": "Reji'nin henüz Android versiyonu bulunmuyor ama Android'e getirmek için var gücümüzle çalışıyoruz. Eğer e-posta adresinizi eklerseniz, çıktığında hemen öğrenebilirsiniz:"
+   },
+   "Pb_RejiBrowser": {
+      "message": "Reji'nin henüz tarayıcı versiyonu bulunmuyor ama tarayıcılara getirmek için var gücümüzle çalışıyoruz. Eğer e-posta adresinizi eklerseniz, çıktığında hemen öğrenebilirsiniz:"
+   },
+   "Pb_SaveButton": {
+      "message": "Kaydet"
+   },
+   "Pb_ScanQR": {
+      "message": "Reji'de kelimeleri çevirip öğrenebilmek için bu QR kodunu iPhone veya İpad'inizdeki Kamera uygulaması ile tarayın."
+   },
+   "Pb_SelectLearnLanguage": {
+      "message": "Hangi dili öğreniyorsunuz?"
+   },
+   "Pb_SureToDeleteWordlist": {
+      "message": "Bu kelimeyi listenizden silmek istediğinize emin misiniz? Bu işlem geri alınamaz."
+   },
+   "Pb_WlEmpty": {
+      "message": "Kelime listesi boş"
+   },
+   "Phrasebook_FullyBlockedOut": {
+      "message": "Dil Kılavuzu'na kesintisiz erişim için Pro versiyona geçin."
+   },
+   "Phrasebook_Phrases1": {
+      "message": "öbek"
+   },
+   "Phrasebook_Phrases2": {
+      "message": "öbekler"
+   },
+   "Phrasebook_Phrases3": {
+      "message": "öbekler"
+   },
+   "ProSplitTests_2_F1": {
+      "message": "Konuşma çevirileri"
+   },
+   "ProSplitTests_2_F2": {
+      "message": "Kullanım geçmişi ve Dil Kılavuzu"
+   },
+   "ProSplitTests_2_F3": {
+      "message": "Eş anlamlı kelimeler"
+   },
+   "ProSplitTests_2_F4": {
+      "message": "Telaffuzlar ve isim cinsiyetleri"
+   },
+   "ProSplitTests_2_F5": {
+      "message": "Gece modu ve sıfır reklam"
+   },
+   "ProSplitTests_2_F6": {
+      "message": "Müşteri hizmetlerinde öncelik"
+   },
+   "ProSplitTests_2_F7": {
+      "message": "\u003Ca href=\"https://gikken.co/mate-translate/?ref=BrowserProBlock\">Tüm cihazlarda\u003C/a> Pro"
+   },
+   "ProSplitTests_2_F8": {
+      "message": "Otomatik site çevirisi"
+   },
+   "ProSplitTests_2_Pitch": {
+      "message": "Mate harikadır ama Pro versiyonla daha bir harika olur!\u003Cbr>Premium özelliklere çeviri yaptığınız her yerde yaşam boyu erişim sağlayın ve bu sırada hiçbir reklam görmeyin."
+   },
+   "Pro_Articles": {
+      "message": "İsim tanımlıkları"
+   },
+   "Pro_Articles_Desc": {
+      "message": "Kelimeleri Almanca, Fransızca, İspanyolca, İtalyanca ve Portekizcede nasıl kullanacağınızı öğrenin."
+   },
+   "Pro_Articles_Msg": {
+      "message": "İsim tanımlıklarını açmak için Pro sürümünü satın alın."
+   },
+   "Pro_ComesAlong": {
+      "message": ". Diğer özellikler:"
+   },
+   "Pro_DarkMode": {
+      "message": "Mate'in yepyeni şık gece moduyla enerjiden tasarruf ederken göz yorgunluğunun önüne geçin."
+   },
+   "Pro_DoubleClickFeature": {
+      "message": "Mate Pro ile internet sayfalarındaki kelimeleri çift tıklama ile çevirin!"
+   },
+   "Pro_ExportFeature": {
+      "message": "Mate Pro ile uygulama geçmişinizi CSV dosyası olarak alın!"
+   },
+   "Pro_FullPageTranslation": {
+      "message": "Otomatik internet sitesi çevirisi için Pro versiyonu satın alın."
+   },
+   "Pro_IPA": {
+      "message": "Fonetik yazım"
+   },
+   "Pro_IPA_Desc": {
+      "message": "Kelimeleri nasıl doğru telaffuz edeceğinizi öğrenin."
+   },
+   "Pro_IPA_Msg": {
+      "message": "Fonetik yazımı açmak için Pro sürümünü satın alın."
+   },
+   "Pro_MainSettingsPitch": {
+      "message": "Ne kadar çeviri yapıyorsanız, bir üst sürüm o kadar fazla işinize yarayacaktır. Mate Pro'yu her yerden kullanabileceğiniz tam bir dil merkezine çevirmek için, ona bir sürü özellik ekledik."
+   },
+   "Pro_NetflixPhrasebookSaving": {
+      "message": "Netflix içinden kelime kaydetmek için Pro versiyonu satın alın."
+   },
+   "Pro_PhrasebookFeature": {
+      "message": "Kendi kelime kılavuzunuzu oluşturun. Kılavuzu (ve kullanma geçmişinizi) \u003Ca href=\"https://gikken.co/mate-translate/download/\" target=\"_blank\">tüm cihazlarınızda\u003C/a> eşzamanlayın. Başka yerlerde kullanmak için CSV olarak dışarıya aktarın."
+   },
+   "Pro_STTFeature": {
+      "message": "Mate'le \u003Ca href=\"https://gikken.co/mate-translate/languages\" target=\"_blank\">40 dilde\u003C/a> konuşun, kelimelerin hızlı ve hatasız çevirilerini alın."
+   },
+   "Pro_ShortcutsFeature": {
+      "message": "Tek bir (Shift+T) kombinasyonuyla klavyenizi bir değil, birden fazla çeviri yapacak şekilde ayarlayın."
+   },
+   "Pro_SyncFeature": {
+      "message": "Mate Pro ile verilerinizi tüm cihazlarınızla senkronize edin!"
+   },
+   "Pro_SynonymsPaywall": {
+      "message": "Daha fazla eş anlamlı kelime için Pro versiyona geçin."
+   },
+   "Pro_UnlockMore": {
+      "message": "Ve ayrıca aşağıdaki özelliklerin kilidini açın:"
+   },
+   "Promo_Android": {
+      "message": "Android"
+   },
+   "Promo_Chrome": {
+      "message": "Chrome"
+   },
+   "Promo_Edge": {
+      "message": "Edge"
+   },
+   "Promo_Firefox": {
+      "message": "Firefox"
+   },
+   "Promo_Ios": {
+      "message": "iOS"
+   },
+   "Promo_Mac": {
+      "message": "macOS"
+   },
+   "Promo_Safari": {
+      "message": "Safari"
+   },
+   "Promo_Windows": {
+      "message": "Windows"
+   },
+   "RejiAd": {
+      "message": "Yeni uygulamamız, kelime haznenizin gelişmesinde size çok yardımcı olacak. Bir deneyin!"
+   },
+   "SafariWall_Desc": {
+      "message": "Mate için bir kez ödeme yaparak tüm bu harika özelliklere Safari'de sahip olun."
+   },
+   "SafariWall_Feature1": {
+      "message": "Herhangi bir sayfadaki kelimeleri seçip çevirin"
+   },
+   "SafariWall_Feature2": {
+      "message": "Herhangi bir kelimeye çift tıklayın ve çevirin"
+   },
+   "SafariWall_Feature3": {
+      "message": "Size özel Dil Kılavuzu ile kelimeleri kaydedip öğrenin"
+   },
+   "SafariWall_Feature4": {
+      "message": "103 dilde çeviri yapın"
+   },
+   "SafariWall_Feature5": {
+      "message": "Doğru telaffuzları öğrenin"
+   },
+   "SafariWall_Feature6": {
+      "message": "Çevirilerinizi tüm cihazlarınızla senkronize edin"
+   },
+   "SafariWall_Title": {
+      "message": "Artık çeviri sitelerine girmek zorunda değilsiniz!"
+   },
+   "Settings_21max": {
+      "message": "Toplam 21 kısayol oluşturabilirsiniz..."
+   },
+   "Settings_Articles": {
+      "message": "İsim tanımlıklarını göster"
+   },
+   "Settings_Autoswap": {
+      "message": "Dilleri otomatik olarak değiştir"
+   },
+   "Settings_Autoswap_Description": {
+      "message": "Metni kaynak dil yerine hedef dilde girer veya tam tersini yaparsanız diller otomatik olarak yer değiştirir."
+   },
+   "Settings_CP": {
+      "message": "Diğer cihazlar için Mate"
+   },
+   "Settings_CPDesc": {
+      "message": "Mate iOS, Mac (+ Safari uzantısı), Chrome, Firefox, Opera ve Edge'de kullanılabilir. Mate Hesabı ile çeviri geçmişinizi ve Dil Kılavuzu'nu tüm uygulamalarda eşzamanlayabilirsiniz."
+   },
+   "Settings_CP_Get": {
+      "message": "Diğer Mate uygulamalarını edinin"
+   },
+   "Settings_Close": {
+      "message": "kapat"
+   },
+   "Settings_Contacts": {
+      "message": "Daha fazla"
+   },
+   "Settings_CtxMenu": {
+      "message": "İçerik menüsü"
+   },
+   "Settings_CtxMenuDesc": {
+      "message": "İçerik menüsünde (sağ tık) çeviri butonunu gösterin. İnternet sayfalarındaki seçili metinlerde çalışır."
+   },
+   "Settings_DarkMode": {
+      "message": "Şık gece modu"
+   },
+   "Settings_DarkModeDesc": {
+      "message": "Mate'in yepyeni şık gece moduyla enerjiden tasarruf ederken göz yorgunluğunun da önüne geçin."
+   },
+   "Settings_DataEraseError": {
+      "message": "Beklenmedik bir hata oluştu, lütfen daha sonra tekrar deneyin!"
+   },
+   "Settings_DataErased": {
+      "message": "Tüm verileriniz Mate sunucularından silindi!"
+   },
+   "Settings_DestLang": {
+      "message": "Hedef dil"
+   },
+   "Settings_Email": {
+      "message": "bize e-posta yollayın"
+   },
+   "Settings_EnableSync": {
+      "message": "Dil Kılavuzu ve uygulama geçmişi senkronizasyonunu etkinleştir"
+   },
+   "Settings_EraseConfirm": {
+      "message": "Emin misiniz? Bu işlem tüm senkronize çeviri ve dil kılavuzlarınızı silecek. (Yerel veri bundan etkilenmeyecek.) Bu işlem geri alınamaz."
+   },
+   "Settings_EraseData": {
+      "message": "tüm verilerimi sil"
+   },
+   "Settings_EraseDataDesc": {
+      "message": "GDPR gereğince, verilerinizin Mate sunucularından silinmesini talep edebilirsiniz."
+   },
+   "Settings_FBShare": {
+      "message": "Facebook'ta paylaş"
+   },
+   "Settings_Facebook": {
+      "message": "Facebook hesabımız"
+   },
+   "Settings_HelpCenter": {
+      "message": "Yardım Merkezi"
+   },
+   "Settings_Interface_Autocorrection": {
+      "message": "Otomatik Düzeltme"
+   },
+   "Settings_Interface_Autocorrection_Description": {
+      "message": "Mate yanlış yazılan kelimeleri otomatik olacak düzeltecek."
+   },
+   "Settings_Interface_DevData": {
+      "message": "Yerelleştirilmiş internet sitesi versiyonlarını öner"
+   },
+   "Settings_Interface_DevData_Description": {
+      "message": "Eğer çevirmek istediğiniz sitenin o dildeki versiyonu zaten varsa, Mate yerelleştirilmiş internet sitesi versiyonunu kullanmanızı önerir."
+   },
+   "Settings_Interface_Human": {
+      "message": "İnsan çevirisi öner"
+   },
+   "Settings_Interface_Human_Description": {
+      "message": "Her çeviri için tek bir tıkla profesyonel insan çevirisi sipariş edebileceksiniz."
+   },
+   "Settings_Interface_InstantTranslation": {
+      "message": "Akıllı çeviri"
+   },
+   "Settings_Interface_InstantTranslation_Description": {
+      "message": "Mate yazmayı bitirdiğinizde girdiyi çevirir."
+   },
+   "Settings_Interface_Save": {
+      "message": "Değeri kaydet"
+   },
+   "Settings_Interface_Save_Description": {
+      "message": "Mate açılır penceredeki girdi değerini pencere kapandığında kaydeder, böylece tekrar açıldığında değerler boş olmaz."
+   },
+   "Settings_Interface_ShowIPA": {
+      "message": "Fonetik yazımı göster"
+   },
+   "Settings_Interface_ShowIPA_Description": {
+      "message": "Uluslararası fonetik alfabe (IPA) ile telaffuzları öğrenin."
+   },
+   "Settings_Interface_ShowTranslit": {
+      "message": "Transliterasyonu göster"
+   },
+   "Settings_Interface_ShowTranslit_Description": {
+      "message": "Mate, Latin alfabesi olmayan alfabelerde, daha kolay okuma için çevirinin Latin transkripsiyonunu gösterir."
+   },
+   "Settings_Legal": {
+      "message": "Yasal"
+   },
+   "Settings_Netflix": {
+      "message": "Netflix alt yazılarını çevir"
+   },
+   "Settings_NetflixDesc": {
+      "message": "Netflix alt yazılarındaki kelimelere tıklayarak hemen orada çevirin."
+   },
+   "Settings_NetflixView": {
+      "message": "kayılı kelimeleri göster →"
+   },
+   "Settings_NewLine": {
+      "message": "yeni bir satır için"
+   },
+   "Settings_Newsletter": {
+      "message": "bültenimize abone olun"
+   },
+   "Settings_NoConsentPro": {
+      "message": "GDPR gereğince, kullanım şartlarımızı kabul edene kadar Pro versiyon için sizden ücret alamayız... Pro versiyona devam etmek için kabul edin ve bu sayfayı yenileyin."
+   },
+   "Settings_NoProSync": {
+      "message": "Senkronizasyonu etkinleştirmek için Mate Translate Pro gereklidir"
+   },
+   "Settings_Or": {
+      "message": "/"
+   },
+   "Settings_PopupShortcuts": {
+      "message": "Açılır pencerede kısayol"
+   },
+   "Settings_PopupShortcutsDesc": {
+      "message": "Girdi alanındaki kelimeleri kısayolla çevirin."
+   },
+   "Settings_PrefsTab": {
+      "message": "Araç çubuğu penceresi"
+   },
+   "Settings_PrivacyPolicy": {
+      "message": "gizlilik politikamız"
+   },
+   "Settings_ProActivated": {
+      "message": "Artık hazırsınız! Pro versiyon etkinleştirildi."
+   },
+   "Settings_ProFeature8": {
+      "message": "Adanmış e-posta desteği"
+   },
+   "Settings_ProFeature8_Desc": {
+      "message": "Kapsamlı cevaplar verebilmek için müşteri desteği yalnızca Pro sürümünde bulunmaktadır. \u003Cbr>Ücretsiz kullanıcılarımız, sıkça sorulan soruların cevaplarına \u003Ca href=\"https://help.gikken.co/hc/\" target=\"_blank\">Yardım Merkezi\u003C/a>'nden erişebilir."
+   },
+   "Settings_ProTab": {
+      "message": "Pro ve Senkron"
+   },
+   "Settings_Restore": {
+      "message": "satın alımı geri al"
+   },
+   "Settings_RevokeConsent": {
+      "message": "artık şartları kabul etmiyorum"
+   },
+   "Settings_RevokeConsentDesc": {
+      "message": "Artık Gizlilik Politikası veya Kullanım Şartları'nı kabul etmiyorsanız, daha önceki onayınızı iptal edebilirsiniz. Ancak Mate'i bundan sonra kullanamazsınız."
+   },
+   "Settings_Share": {
+      "message": "Mate'i arkadaşlarına bahset"
+   },
+   "Settings_ShareDesc": {
+      "message": "Onlara bir link yollayın veya sosyal medyada paylaşın. Bunu yaparak bize çok yardım etmiş olursunuz!"
+   },
+   "Settings_ShareText": {
+      "message": "Mate {{platform}}, Mac ve iOS için çok amaçlı bir çeviri programıdır. 103 dili çevirin ve öğrenin. Hızlı ve pratik. Her yerde kulanılabilir."
+   },
+   "Settings_ShortcutClick": {
+      "message": "bu alana tıklayın ve sonra istediğiniz kısayola basın..."
+   },
+   "Settings_ShortcutMain": {
+      "message": "Ana kısayol"
+   },
+   "Settings_ShortcutSuppl": {
+      "message": "Tamamlayıcı kısayol"
+   },
+   "Settings_SignOut": {
+      "message": "ÇIKIŞ"
+   },
+   "Settings_SourceLang": {
+      "message": "Kaynak dil"
+   },
+   "Settings_StayInTouch": {
+      "message": "Bizimle iletişim hâlinde olun"
+   },
+   "Settings_SyncText": {
+      "message": "Çevirilerinizi ve dil kılavuzunuzu tüm cihazlarınızla senkronize edin."
+   },
+   "Settings_TWShare": {
+      "message": "twitter'da paylaş"
+   },
+   "Settings_ToS": {
+      "message": "kullanım şartlarımız"
+   },
+   "Settings_ToTranslate": {
+      "message": "çevrilecek"
+   },
+   "Settings_Tooltip": {
+      "message": "Bilgi çubuğu boyutu"
+   },
+   "Settings_TooltipBig": {
+      "message": "büyük"
+   },
+   "Settings_TooltipDesc": {
+      "message": "Sayfalarda çevirilerin gösterileceği bilgi çubuğunun büyüklüğü."
+   },
+   "Settings_TooltipMedium": {
+      "message": "orta"
+   },
+   "Settings_TooltipSmall": {
+      "message": "küçük"
+   },
+   "Settings_TranslateSelection": {
+      "message": "Çevirmek için seç"
+   },
+   "Settings_TranslateSelectionDesc": {
+      "message": "İnternet sayfalarında seçili metnin yanında çeviri butonu gösterin."
+   },
+   "Settings_Translation_History": {
+      "message": "Çeviri geçmişi"
+   },
+   "Settings_Translation_History_Description": {
+      "message": "İstediğin an görebilmek için tüm çevirileri kaydedin."
+   },
+   "Settings_Translation_KeyCombos": {
+      "message": "Sayfa üzerinde"
+   },
+   "Settings_Translation_KeyCombos_Description": {
+      "message": "Herhangi bir sayfadaki (PDF dosyaları hariç) metni seçin, kısayol tuşuna basın ve hemen rahatsız etmeyen açılır bir pencerede metnin çevirisini alın."
+   },
+   "Settings_Twitter": {
+      "message": "twitter hesabımız"
+   },
+   "Settings_UsageDesc": {
+      "message": "Her ay 500'ün üzerinde çeviri yapıyorsanız Pro versiyona geçmenizi öneriririz. Bu, sunuculara bakım yapmamızda bize yardımcı olacaktır.\u003Cbr>\u003Cbr>Böylece size daha hızlı çeviriler garanti edebiliriz."
+   },
+   "Settings_UsageReset": {
+      "message": "Bu sayaç \u003Cb>\u003C%=reset_date%>\u003C/b> tarihinde sıfırlanacaktır"
+   },
+   "Settings_UsageTitle": {
+      "message": "Aylık kullanımınız"
+   },
+   "Settings_Website": {
+      "message": "İnternet sitemiz"
+   },
+   "Settings_YouAreSignedIn": {
+      "message": "Giriş adınız"
+   },
+   "Settings_YouPro": {
+      "message": "Pro versiyona sahipsiniz!"
+   },
+   "Settings_YouUsed": {
+      "message": "kullanımınız"
+   },
+   "ShareOnVK": {
+      "message": "vk'de paylaş"
+   },
+   "ShareViaEmail": {
+      "message": "e-posta ile paylaş"
+   },
+   "SignUp_Name": {
+      "message": "İsim (isteğe bağlı)"
+   },
+   "SignUp_Password": {
+      "message": "Şifre (en az 8 karakter)"
+   },
+   "Sponsorship_Bar": {
+      "message": "Bir Mate Hesabı ile çok daha fazlasını yapın"
+   },
+   "Sponsorship_DismissPro": {
+      "message": "Reklamları gizlemek için Pro versiyona geçin."
+   },
+   "Sub_48hNotificationBodyAnnual": {
+      "message": "Yakında yıllık Mate Pro aboneliğiniz için hesabınızdan {{amount}} çekeceğiz."
+   },
+   "Sub_48hNotificationBodyMonthly": {
+      "message": "Yakında aylık Mate Pro aboneliğiniz için hesabınızdan {{amount}} çekeceğiz."
+   },
+   "Sub_48hNotificationLabel": {
+      "message": "\u003Cb>Tamamıyla risksiz.\u003C/b> İlk para kesiminden 48 saat önce sizi bilgilendiririz."
+   },
+   "Sub_48hNotificationTitle": {
+      "message": "Mate'i denemeniz nasıl gidiyor?"
+   },
+   "Sub_ApplyForStudentDiscount": {
+      "message": "Öğrenci indirimine başvurun"
+   },
+   "Sub_Cancel": {
+      "message": "Aboneliği iptal et"
+   },
+   "Sub_ChangePaymentMethod": {
+      "message": "Ödeme yöntemini değiştir"
+   },
+   "Sub_ComingSoon": {
+      "message": "Çok yakında"
+   },
+   "Sub_CouldNotGetPayLink": {
+      "message": "Ödeme linki alınamadı. Lütfen daha sonra tekrar deneyin ya da support@matetranslate.com adresinden bize ulaşın."
+   },
+   "Sub_CrossPlatformProComingSoon": {
+      "message": "Mate'i çapraz platformlu yapmak için çok çalışıyoruz.\n\nHâlihazırda her cihazda aynı Mate hesabınızla giriş yaparak Mate Pro'yu tüm tarayıcı eklentilerinde kullanabilmektesiniz. Ancak, iOS ve Mac uygulamaları Apple'ın App Store'unda satılmaktadır.\n\nGeçici bir çözüm olarak, Mate Pro'ya abone olduktan sonra faturanızı ekleyerek hello@gikken.co adresinden bize e-posta gönderebilirsiniz. Bunu yaptıktan sonra bu uygulamaları ücretsiz edinmeniz için size yardımcı olacağız.\n\nVerdiğimiz bu geçici rahatsızlıktan dolayı özür dileriz."
+   },
+   "Sub_DueAfterTrial": {
+      "message": "Denemeden sonra \u003Cspan class=\"price-due\">\u003C/span>"
+   },
+   "Sub_FAQ": {
+      "message": "SSS"
+   },
+   "Sub_FinishCreatingAccount": {
+      "message": "Hesap Oluşturmayı Sonlandır"
+   },
+   "Sub_FreeTrialVerificationCharge": {
+      "message": "Kredi kartınızı doğrulamaları için Paddle, hesabınızdan $1 çekebilir. Bu ücret size hemen iade edilecektir. Deneme ücretsizdir."
+   },
+   "Sub_LegacyUsersDisclaimer": {
+      "message": "Mate Pro artık yeni kullanıcılar için abonelik tabanlıdır. Siz Pro'yu daha önce aldığınız için ek ücret ödemeden sonsuza kadar kullanabilirsiniz! Bize ilk zamanlarımızda destek olduğunuz için teşekkürler \u003C3"
+   },
+   "Sub_Month": {
+      "message": "/ay"
+   },
+   "Sub_MoreInlineInfo": {
+      "message": "Daha fazla bilgi al"
+   },
+   "Sub_NextBilling": {
+      "message": "Bir sonraki ödeme: {{next_billing_date}} tarihinde {{next_amount_billed}}"
+   },
+   "Sub_NoNotifPermissionAlert": {
+      "message": "Bildirimlere izin vermezseniz, ilk para kesiminden önce size bilgi veremeyiz... Tabii isterseniz, bu bilgiye ayarlar kısmından da ulaşabilirsiniz."
+   },
+   "Sub_PleaseCreateAccount": {
+      "message": "Şimdi lütfen Mate hesabınızı oluşturma işini sonlandırın. Bunun için \u003Cb>{{email}}\u003C/b> adresine gönderdiğimiz talimatlara uymanız yeterli olacaktır. Bu işlem bir dakikanızı bile almaz!"
+   },
+   "Sub_PleaseSignBackIn": {
+      "message": "\u003Cb>{{email}}\u003C/b> ile bağlı olan Mate hesabınıza giriş yapın.\u003Cbr>Aksi takdirde, aboneliğinizi doğrulayamayız."
+   },
+   "Sub_ProStatusForLegacyUsers": {
+      "message": "Mate Pro'ya sınırsız, yaşam boyu erişiminiz var"
+   },
+   "Sub_PurchasedBefore": {
+      "message": "Daha önce Pro versiyonu satın almış mıydınız?"
+   },
+   "Sub_Resubscribe": {
+      "message": "Tekrar Abone Ol"
+   },
+   "Sub_Savings": {
+      "message": "%{{savings}} indirimli"
+   },
+   "Sub_ScrewSubscription": {
+      "message": "Abone olmak istemiyor musunuz?"
+   },
+   "Sub_StatusFetchError": {
+      "message": "Abonelik durum bilgileriniz getirilemedi."
+   },
+   "Sub_StatusFetchTryAgain": {
+      "message": "Tekrar dene"
+   },
+   "Sub_SubscribeNow": {
+      "message": "Abone ol"
+   },
+   "Sub_TryFreeCTA": {
+      "message": "\u003Cspan class=\"trial-days\">\u003C/span> gün ücretsiz deneyin"
+   },
+   "Sub_WhenCancelled": {
+      "message": "Aboneliğinizi iptal ettiniz ama {{sub_ends_on}} tarihine kadar Mate Pro'yu kullanmaya devam edebileceksiniz. Bu süreden sonra da Pro'yu kullanmaya devam etmek isterseniz, tekrar abone olabilirsiniz."
+   },
+   "Sub_WhenTrialing": {
+      "message": "Deneme süreniz {{next_billing_date}} tarihinde sona erecek ve hesabınızdan {{next_amount_billed}} kesilecek"
+   },
+   "Sub_Year": {
+      "message": "/yıl"
+   },
+   "Sub_YouAreAlmostInTheFamily": {
+      "message": "Mate Pro ailesine katılmak üzeresiniz!"
+   },
+   "Sub_YouAreInTheFamily": {
+      "message": "Mate Pro ailesine katıldınız!"
+   },
+   "Sync_FailedError": {
+      "message": "Senkronize edilemedi. Hata oluştu."
+   },
+   "Sync_NetworkError": {
+      "message": "İnternet bağlantısı yok görünüyor. Lütfen internete bağlanın ve tekrar senkronize etmeyi deneyin."
+   },
+   "Sync_NoItemsError": {
+      "message": "Senkronize edilecek öge yok."
+   },
+   "Sync_NotSignedInError": {
+      "message": "Geçmişinizi ve dil kılavuzunuzu senkronize etmek için giriş yapmış olmalısınız."
+   },
+   "TD_AddPB": {
+      "message": "Dil Kılavuzuna Ekle"
+   },
+   "TD_Copy": {
+      "message": "Kopyala"
+   },
+   "TD_Create": {
+      "message": "Yeni bir kelime listesi oluştur..."
+   },
+   "TD_NoWordlists": {
+      "message": "Kelime listesi yok "
+   },
+   "There_Is_Localised_Site": {
+      "message": "Bu sitenin yerelleştirilmiş versiyonuna bak"
+   },
+   "There_Is_Localised_Site_Desc": {
+      "message": "Bu internet sitesinin yerelleştirilmiş bir versiyonu bulunuyor"
+   },
+   "Tooltip_DisableDoubleClick": {
+      "message": "Çift tıklamada çevirme"
+   },
+   "Tooltip_DisableDoubleClickDesc": {
+      "message": "Artık bir kelimeye çift tıkladığınızda çeviri penceresini görmeyeceksiniz."
+   },
+   "Tooltip_DisableSelection": {
+      "message": "Gezer butonu gösterme"
+   },
+   "Tooltip_DisableSelectionDesc": {
+      "message": "Artık bir metin seçtiğinizde gezer çeviri butonu görmeyeceksiniz."
+   },
+   "Tooltip_InlineOptionDisabled": {
+      "message": "Bunu ayarlardan tekrar etkinleştirebilirsiniz"
+   },
+   "Tour_Agree": {
+      "message": "Aşağıdaki butona tıklayarak \u003Cb>Kullanım Şartları\u003C/b> ve \u003Cb>Gizlilik Politikası\u003C/b>'nı onaylayın ve hemen Mate'le çevirmeye başlayın."
+   },
+   "Tour_AutoFPOption": {
+      "message": "Siteleri çevirmeyi öner"
+   },
+   "Tour_DoubleClick": {
+      "message": "Çift tıklama ile çeviri"
+   },
+   "Tour_DoubleClickDesc": {
+      "message": "İnternet sayfalarındaki herhangi bir kelimeye çift tıklayarak anında çevirin."
+   },
+   "Tour_DoubleClickOption": {
+      "message": "Çift tıkla çevir"
+   },
+   "Tour_GotIt": {
+      "message": "BAŞLA"
+   },
+   "Tour_HowToContext": {
+      "message": "Veya herhangi bir metni seçin ve içerik menüsünü kullanarak (sağ tık) çeviriyi görün."
+   },
+   "Tour_HowToPopUp": {
+      "message": "Eğer kelimeyi doğrudan yazmanız gerekise, tarayıcınızdaki adres çubuğunun yanında bulunan Mate butonuna basarak açılır pencereyi açın."
+   },
+   "Tour_HowToSelect": {
+      "message": "Herhangi bir internet sitesindeki istediğiniz kelime veya metni seçin ve Shift+T tuş kombinasyonu ile çevirin."
+   },
+   "Tour_HowToUse": {
+      "message": "Nasıl Kullanılır?"
+   },
+   "Tour_Ht": {
+      "message": "İnsan çevirisi"
+   },
+   "Tour_HtBtn": {
+      "message": "Pro gibi çevirmeye başla"
+   },
+   "Tour_HtDesc": {
+      "message": "Mate Translate'te birkaç tıkla profesyonel çeviri sipariş edin! Metni girip ödemeyi yapın, istediğiniz çeviri 24 saat içinde elinizde olsun! Makine çevirisinin ihtiyacınızı karşılamadığı durumlar için mükemmel bir çözüm."
+   },
+   "Tour_Important": {
+      "message": "Çok önemli!"
+   },
+   "Tour_ImportantSub": {
+      "message": "Bu sayfa \u003Cb>Mate Translate\u003C/b> nasıl kullanılır size gösterecek"
+   },
+   "Tour_ImportantText": {
+      "message": "Yalnıca 40 saniyenizi alır"
+   },
+   "Tour_Langs": {
+      "message": "Hangi dile çevirmek istiyorsunuz?"
+   },
+   "Tour_LangsDesc": {
+      "message": "Çevirmek istediğiniz dili seçin:"
+   },
+   "Tour_LangsSupported": {
+      "message": "desteklenen dilleri görüntüle"
+   },
+   "Tour_MacUser": {
+      "message": "Ben Mate'i Mac'te kullanıyordum"
+   },
+   "Tour_NoShiftT": {
+      "message": "Mate, \u003C%=browser%> tarafından oluşan birtakım teknik kısıtlamalar nedeniyle bu sayfadaki ve PDF dosyalarındaki seçili metinleri çeviremiyor.\u003Cbr>\u003Cbr>Lütfen çeviriyi \u003Ca href='https://reji.me' target='_blank'>bu sayfada\u003C/a> yapmayın deneyin."
+   },
+   "Tour_PDF": {
+      "message": "PDF'lerde çeviri"
+   },
+   "Tour_PDFDesc": {
+      "message": "Chrome içindeki PDF dosyalarından bir metin seçin, sağ tıklayın ve çevirin."
+   },
+   "Tour_PDFNote": {
+      "message": "Teknik kısıtlamalar nedeniyle gezer buton ve Shift+T çevirileri PDF'lerde çalışmaz."
+   },
+   "Tour_PP": {
+      "message": "Gizlilik Politikamız"
+   },
+   "Tour_PPDesc": {
+      "message": "Mate Translate'i kullanmaya başlayarak \u003Cb>\u003Ca target=\"_blank\" href=\"https://matetranslate.com/privacy\">Gizlilik Politikası\u003C/a>\u003C/b> ve \u003Cb>\u003Ca target=\"_blank\" href=\"https://matetranslate.com/terms\">Kullanım Şartları\u003C/a>\u003C/b>'nı kabul etmiş olursunuz."
+   },
+   "Tour_Pages": {
+      "message": "Tam internet sayfalarını çevir"
+   },
+   "Tour_PagesDesc": {
+      "message": "Bütün internet siteleri sizin dilinizde. Hem de otomatik olarak."
+   },
+   "Tour_Phrasebook": {
+      "message": "Kişisel dil kılavuzunu oluştur"
+   },
+   "Tour_PhrasebookCreate": {
+      "message": "İlk kelime listemi oluştur"
+   },
+   "Tour_PhrasebookDesc": {
+      "message": "Hatırlamak istediğiniz tüm kelimeleri Mate dil kılavuzuna kaydedin.\u003Cbr>Tüm kelimelerinizi tek bir yerde tutun!"
+   },
+   "Tour_PhrasebookFeature": {
+      "message": "Hatırlamak istediğiniz tüm kelimeleri tek bir yerde tutun!"
+   },
+   "Tour_PhrasebookLaunch": {
+      "message": "dil kılavuzunu başlat"
+   },
+   "Tour_ProCTA": {
+      "message": "Ayrıca hemen \u003Cb>Mate Pro\u003C/b> versiyonuna geçerek tüm bu muhteşem özelliklere sahip olun:"
+   },
+   "Tour_ProFeature1": {
+      "message": "Sınırsız dil kılavuzu"
+   },
+   "Tour_ProFeature2": {
+      "message": "Konuşma çevirisi"
+   },
+   "Tour_ProFeature3": {
+      "message": "Sınırsız kısayol"
+   },
+   "Tour_ProFeature4": {
+      "message": "Kelime kılavuzu + sorunsuz eşzamanlama"
+   },
+   "Tour_ProFeature5": {
+      "message": "Çift tıklamayla çeviri"
+   },
+   "Tour_ProFeature6": {
+      "message": "Gece modu"
+   },
+   "Tour_ProUpgradedSuccessfully": {
+      "message": "Bu sayfayı kapatın ve interneti dil engeli olmadan kullanmaya başlayın!"
+   },
+   "Tour_Ready": {
+      "message": "Biz \u003Ca href=\"https://en.wikipedia.org/wiki/General_Data_Protection_Regulation\" target=\"_blank\">GDPR\u003C/a> kurallarına bağlıyızdır!"
+   },
+   "Tour_SelectAndTranslate": {
+      "message": "Seç ve çevir"
+   },
+   "Tour_Selected": {
+      "message": "Sitelerdeki metinleri çevir"
+   },
+   "Tour_SelectedDesc": {
+      "message": "Çift tıklayın, çevireceğiniz kısmı seçin ya da shift+T tuşlarına basın."
+   },
+   "Tour_ShortcutsFeature": {
+      "message": "İnternet sitelerinde farklı dillerde çeviri yapmak için İstediğiniz kadar kısayol oluşturun. (Ücretsiz versiyonda 1 tane bulunur.)"
+   },
+   "Tour_Start": {
+      "message": "Ücretsiz başla"
+   },
+   "Tour_Sync": {
+      "message": "Verileri tüm cihazlarla senkronize et"
+   },
+   "Tour_SyncDesc": {
+      "message": "Uygulama geçmişiniz ve dil kılavuzunuz Mate kullandığınız tüm cihazlarla senkronize olacak."
+   },
+   "Tour_SyncSignIn": {
+      "message": "Senkronizasyon için giriş yapın"
+   },
+   "Tour_Title": {
+      "message": "Mate Translate'e hoş geldiniz"
+   },
+   "Tour_TranslationsFeature": {
+      "message": "İstediğiniz zaman istediğiniz kadar çeviri yapın."
+   },
+   "Tour_UhHuh": {
+      "message": "Peki!"
+   },
+   "Tour_Unlock": {
+      "message": "Mate Pro"
+   },
+   "Tour_UnlockDesc": {
+      "message": "Tüm ücretli özelliklere erişim kazanın ve bir daha hiç reklam görmeyin."
+   },
+   "Window_CannotTranslatePDF": {
+      "message": "PDF dosyalarındaki seçili metinleri çeviremiyoruz. Maalesef {{browser}} teknik kısıtlamaları izin vermiyor..."
+   },
+   "Window_CannotTranslatePDFChrome": {
+      "message": "PDF dosyalarındaki seçili metinleri çevirmek için lütfen içerik menüsünü kullanın. Chrome'un teknik kısıtlamaları..."
+   },
+   "Window_Content_AllLang": {
+      "message": "Tümü"
+   },
+   "Window_Content_RecentlyUsedLang": {
+      "message": "Yakında Kullanılan"
+   },
+   "Window_Content_TextareaPlaceholder": {
+      "message": "Çevir ..."
+   },
+   "Window_DictDeclineButton": {
+      "message": "hayır, teşekkürler"
+   },
+   "Window_DictSubscr": {
+      "message": "Eğer ilginizi çekerse aşağıdaki güncellemelerimize abone olun!"
+   },
+   "Window_DictSubscrButton": {
+      "message": "abone ol"
+   },
+   "Window_DictThanks": {
+      "message": "Teşekkürler! Çok yakında size yeni bir güncellemeyle geri dönüş yapacağız."
+   },
+   "Window_DictTitle": {
+      "message": "Mate yeni bir dil öğrenmenizde size yardımcı oluyor mu?"
+   },
+   "Window_DictWhatIs": {
+      "message": "Hızlı, kolay ve eğlenceli bir yolla \u003Cb>kelime haznenini geliştirmek için\u003C/b> bir uygulama geliştirmekteyiz."
+   },
+   "Window_DoYouKnowSomeone": {
+      "message": "Mate Translate'in faydalı olabileceğini düşünecek bir tanıdığınız var mı?"
+   },
+   "Window_DoYouLike": {
+      "message": "Mate hoşunuza gidiyor mu?"
+   },
+   "Window_DoYouLikeDesc": {
+      "message": "Mate'in daha çok geliştirilmesi gereken bir yanı var mı, yoksa sizin için kusursuza yakın mı?"
+   },
+   "Window_DontAutocorrect": {
+      "message": "Otomatik düzeltme yapma"
+   },
+   "Window_Improve": {
+      "message": "geliştirilmesi lazım"
+   },
+   "Window_LearnMoreAboutPro": {
+      "message": "Pro versiyon hakkında bilgi al"
+   },
+   "Window_Love": {
+      "message": "Çok seviyorum"
+   },
+   "Window_MateFreeDesc": {
+      "message": "Tüm yeni özellikleri açmak için uygulamayı Pro versiyona yükseltmelisiniz."
+   },
+   "Window_MateProDesc": {
+      "message": "Dil kılavuzu ve uygulama geçmişinin senkronize edilmesini etkinleştirebilmek için kaydolmalısınız."
+   },
+   "Window_Mw_LaterButton": {
+      "message": "Sonra hatırlat"
+   },
+   "Window_Mw_NeverButton": {
+      "message": "Asla hatırlatma"
+   },
+   "Window_Mw_NotChromeNotNow": {
+      "message": "Şimdi değil"
+   },
+   "Window_Mw_RateButton": {
+      "message": "Bize puan verin"
+   },
+   "Window_Mw_RateDesc": {
+      "message": "App Store'da yorumunuzu görmek bizi çok mutlu eder! En fazla bir dakikanızı alacaktır. Yorumlarınızla çeviri motorumuzun çalışmasına yardımcı olun!"
+   },
+   "Window_Mw_RateTitle": {
+      "message": "Mate'i puanlayın"
+   },
+   "Window_Mw_UpgradeButton": {
+      "message": "yükseltme yalnızca $price$",
+      "placeholders": {
+         "price": {
+            "content": "$1",
+            "example": "9.99$"
+         }
+      }
+   },
+   "Window_NetflixFeatureDesc": {
+      "message": "Netflix izlerken bilmediğiniz kelimeleri çevirip öğrenin. Alt yazıda çıkan kelimelere tıklayıp çevirisini görün ve sonrası için kaydedin."
+   },
+   "Window_NewFeature": {
+      "message": "Yeni özellik!"
+   },
+   "Window_No": {
+      "message": "hayır"
+   },
+   "Window_Offline": {
+      "message": "İnternet Bağlantısı Yok"
+   },
+   "Window_OfflineDesc": {
+      "message": "Bu sebeple yeni kelimeler çevrilemiyor"
+   },
+   "Window_Pro": {
+      "message": "Mate Pro ile daha hızlı ve daha akıcı bir çeviri deneyimi yaşayın!"
+   },
+   "Window_ProBannerAds": {
+      "message": "Daha fazla özelliğe ulaşmak için Pro versiyona geçin."
+   },
+   "Window_QuickQuestion": {
+      "message": "Küçük bir sorumuz var..."
+   },
+   "Window_RateUsDesc": {
+      "message": "Bir dakikanızı ayırıp bize App Store'da puan vermeyi düşünür müsünüz? Bunun bize çok büyük faydası dokunacaktır."
+   },
+   "Window_ReadMore": {
+      "message": "daha fazla oku"
+   },
+   "Window_SendFeedback": {
+      "message": "Bize geri bildirim yollayın"
+   },
+   "Window_SendFeedbackDesc": {
+      "message": "Lütfen Mate'i nasıl daha iyi bir hâle getirebileceğimiz hakkında bize bilgi verin."
+   },
+   "Window_Share": {
+      "message": "Mate'i paylaş"
+   },
+   "Window_ShareDesc": {
+      "message": "Mate'i çevrenize yayarsanız bize çok büyük yardımda bulunmuş olursunuz!"
+   },
+   "Window_Shortcut": {
+      "message": "Bu pencereyi hızlıca açmak için Ctrl+T tuş kombinasyonuna basın."
+   },
+   "Window_TranslationCopied": {
+      "message": "Çeviri kopyalandı!"
+   },
+   "Window_UnpinPro": {
+      "message": "Mate penceresinin sabitlemesini kaldırmak için Pro versiyona geçin."
+   },
+   "Window_WriteUs": {
+      "message": "bize e-posta gönderin"
+   },
+   "Window_Yes": {
+      "message": "evet"
+   }
+}

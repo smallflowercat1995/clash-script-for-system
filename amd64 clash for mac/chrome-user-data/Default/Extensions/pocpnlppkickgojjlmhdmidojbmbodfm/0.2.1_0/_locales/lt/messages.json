@@ -1,0 +1,556 @@
+{
+   "apierrmsg_aborted": {
+      "message": "Operacija nutraukta."
+   },
+   "apierrmsg_device_list_error": {
+      "message": "Nepavyko rasti atmintuko ar SD kortelės."
+   },
+   "apierrmsg_device_list_error_on_hub": {
+      "message": "Nepavyko rasti atmintuko."
+   },
+   "apierrmsg_device_list_error_workspace_hardware": {
+      "message": "Nepavyko rasti atmintuko."
+   },
+   "apierrmsg_device_write_error": {
+      "message": "Nepavyko įrašyti į pasirinktą USB atmintuką ar SD kortelę. Gali būti išjungti jūsų įrenginio rašymo leidimai arba domeno administratorius galėjo išjungti rašymo USB atmintyje funkciją."
+   },
+   "apierrmsg_download_cancelled": {
+      "message": "Atsisiuntimas atšauktas."
+   },
+   "apierrmsg_download_hash_mismatch": {
+      "message": "Failas netinkamas."
+   },
+   "apierrmsg_download_interrupted": {
+      "message": "Atsisiuntimas nutrauktas. Patikrinkite tinklo ryšį ir bandykite dar kartą."
+   },
+   "apierrmsg_file_invalid": {
+      "message": "Failas netinkamas."
+   },
+   "apierrmsg_operation_already_in_progress": {
+      "message": "Operacija jau vykdoma."
+   },
+   "apierrmsg_unknown": {
+      "message": "Nežinoma klaida: $1.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "apierrmsg_unsupported_operation": {
+      "message": "Nepalaikoma operacija."
+   },
+   "apierrmsg_unzip_error": {
+      "message": "Nepavyko išpakuoti failo. Patikrinkite, ar įrenginyje yra pakankamai vietos, ir bandykite dar kartą."
+   },
+   "apierrmsg_unzip_invalid_archive": {
+      "message": "Netinkamas ZIP failas."
+   },
+   "apierrmsg_url_invalid": {
+      "message": "Failas nerastas."
+   },
+   "apierrmsg_verification_failed": {
+      "message": "Nepavyko patvirtinti vaizdo."
+   },
+   "app_description": {
+      "message": "Sukurkite „Chromebook“ skirtą atkūrimo laikmeną."
+   },
+   "app_description_on_hub": {
+      "message": "Sukurkite „OnHub“ atkūrimo atmintuką."
+   },
+   "app_description_workspace_hardware": {
+      "message": "Sukurkite „Meet Compute System“ atkūrimo atmintuką."
+   },
+   "app_name": {
+      "message": "„Chromebook“ atkūrimo paslaugų programa"
+   },
+   "app_name_on_hub": {
+      "message": "„OnHub“ atkūrimo paslaugų programa"
+   },
+   "app_name_workspace_hardware": {
+      "message": "„Meet Compute System“ atkūrimo paslaugų programos naudojimas"
+   },
+   "app_short_name": {
+      "message": "Atkūrimas"
+   },
+   "cancel_button_text": {
+      "message": "Atšaukti"
+   },
+   "chrome_app_deprecation_message": {
+      "message": "Kaip jau buvo viešai pranešta \u003Ca href=\"https://blog.chromium.org/2020/08/changes-to-chrome-app-support-timeline.html\" target=\"_blank\" tabindex=\"0\">„Chromium“ tinklaraštyje\u003C/a>, nuo 2021 m. birželio mėn. „Google“ nebelaikys „Chrome“ programų. Įrenginiams atkurti naudokite \u003Ca href=\"https://chrome.google.com/webstore/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm\" target=\"_blank\">„Chromebook“ atkūrimo paslaugų programos plėtinį\u003C/a> ir susijusius \u003Ca href=\"http://www.google.com/chromeos/recovery\" target=\"_blank\">dokumentus\u003C/a>."
+   },
+   "chrome_app_deprecation_message_on_hub": {
+      "message": "Kaip jau buvo viešai pranešta \u003Ca href=\"https://blog.chromium.org/2020/08/changes-to-chrome-app-support-timeline.html\" target=\"_blank\" tabindex=\"0\">„Chromium“ tinklaraštyje\u003C/a>, nuo 2021 m. birželio mėn. „Google“ nebelaikys „Chrome“ programų. Įrenginiams atkurti naudokite \u003Ca href=\"https://chrome.google.com/webstore/detail/onhub-recovery-utility/fmgkgdalfapcmjnanilfcpkhkhedmpdm\" target=\"_blank\">„OnHub“ atkūrimo paslaugų programos plėtinį\u003C/a> ir susijusius \u003Ca href=\"https://support.google.com/onhub/answer/6274977\" target=\"_blank\">dokumentus\u003C/a>."
+   },
+   "complete_bullet1": {
+      "message": "Kad atkurtumėte „Chromebook“, įdėkite atkūrimo laikmeną į „Chromebook“."
+   },
+   "complete_bullet1_on_hub": {
+      "message": "Atjunkite maitinimo laidą nuo „OnHub“ ir įkiškite atmintuką įrenginio užpakalinėje dalyje. Laikykite paspaudę nustatymo iš naujo mygtuką ir prijunkite maitinimą. Nustatymo iš naujo mygtuką palaikykite paspaustą maždaug 15 sekundžių arba kol pradės mirksėti atmintuko veikimo lemputė."
+   },
+   "complete_bullet1_workspace_hardware": {
+      "message": "Norėdami atkurti „Meet Compute System“, vykdykite instrukcijas, pateiktas straipsnyje \u003Ca href=\"http://support.google.com/meethardware/answer/10562922#zippy=%2Cstep-enter-recovery-mode\" target=\"_blank\">„Google Meet“ aparatinės įrangos priedėlio atkūrimas“ (žr. 3 veiksmą: įjunkite atkūrimo režimą)\u003C/a>"
+   },
+   "complete_bullet2": {
+      "message": "Atkūrę galėsite ištrinti atkūrimo laikmeną naudodami šią paslaugų programą."
+   },
+   "complete_bullet2_on_hub": {
+      "message": "„OnHub“ bus vykdomas atkūrimo procesas, kuris užtruks kelias minutes. Kai „OnHub“ bus atkurtas, jis bus paleistas iš naujo. Tada naudodami programą „Google On“ nustatykite „OnHub“."
+   },
+   "complete_bullet2_workspace_hardware": {
+      "message": "Norėdami ištrinti USB atmintuką, kai baigsite, paleiskite „Meet Compute System“ atkūrimo paslaugų programą, spustelėkite \u003Cb>Nustatymai\u003C/b>, o tada – \u003Cb>Ištrinti atkūrimo laikmeną\u003C/b>"
+   },
+   "complete_message": {
+      "message": "Dabar galite išimti atkūrimo laikmeną."
+   },
+   "complete_message_on_hub": {
+      "message": "Dabar galite išimti atkūrimo atmintuką."
+   },
+   "complete_message_workspace_hardware": {
+      "message": "Dabar galite pašalinti atmintuką"
+   },
+   "complete_title": {
+      "message": "Pavyko! Atkūrimo laikmena paruošta"
+   },
+   "complete_title_on_hub": {
+      "message": "Pavyko! Atkūrimo atmintukas paruoštas"
+   },
+   "complete_title_workspace_hardware": {
+      "message": "Pavyko! Atkūrimo atmintukas paruoštas"
+   },
+   "completed": {
+      "message": "užbaigta"
+   },
+   "confirm_cancelled_message_html": {
+      "message": "Atšaukta. Norėdami bandyti dar kartą, spustelėkite „Kurti dabar“.\u003Cbr>\u003Cbr>Kad ištrintumėte atkūrimo laikmeną, spustelėkite krumpliaračio piktogramą viršutiniame dešiniajame kampe."
+   },
+   "confirm_cancelled_message_html_on_hub": {
+      "message": "Atšaukta. Norėdami bandyti dar kartą, spustelėkite „Kurti dabar“.\u003Cbr>\u003Cbr>Kad ištrintumėte atkūrimo atmintuką, spustelėkite krumpliaračio piktogramą viršutiniame dešiniajame kampe."
+   },
+   "confirm_cancelled_message_html_workspace_hardware": {
+      "message": "Atšaukta. Norėdami bandyti dar kartą, spustelėkite „Kurti dabar“.\u003Cbr>\u003Cbr>Kad ištrintumėte atkūrimo atmintuką, spustelėkite krumpliaračio piktogramą viršutiniame dešiniajame kampe."
+   },
+   "confirm_hide_advanced_settings_message": {
+      "message": "Slėpti išplėstinius nustatymus"
+   },
+   "confirm_message_html": {
+      "message": "\u003Cb>Svarbu:\u003C/b> visi duomenys ir skaidiniai atkūrimo laikmenoje bus ištrinti."
+   },
+   "confirm_message_html_on_hub": {
+      "message": "\u003Cb>Svarbu:\u003C/b> visi duomenys ir skaidiniai atkūrimo atmintuke bus ištrinti."
+   },
+   "confirm_message_html_workspace_hardware": {
+      "message": "\u003Cb>Svarbu:\u003C/b> visas atmintuko turinys bus ištrintas"
+   },
+   "confirm_show_advanced_settings_message": {
+      "message": "Rodyti išplėstinius nustatymus"
+   },
+   "confirm_title": {
+      "message": "Atkuriamosios turinio kopijos kūrimas"
+   },
+   "continue_button_text": {
+      "message": "Tęsti"
+   },
+   "create_another_button_text": {
+      "message": "Sukurti kitą"
+   },
+   "create_now_button_text": {
+      "message": "Sukurti dabar"
+   },
+   "dev_app_description": {
+      "message": "Kūrimo versijos „Chromebook“ atkūrimo paslaugų programa."
+   },
+   "dev_app_description_on_hub": {
+      "message": "Kūrimo versijos „OnHub“ atkūrimo paslaugų programa."
+   },
+   "dev_app_description_workspace_hardware": {
+      "message": "Kūrimo versijos „Meet Compute System“ atkūrimo paslaugų programa."
+   },
+   "dev_app_name": {
+      "message": "„Chromebook“ atkūrimo paslaugų progr. (kūr.)"
+   },
+   "dev_app_name_on_hub": {
+      "message": "„OnHub“ atkūrimo paslaugų programa (kūr.)"
+   },
+   "dev_app_name_workspace_hardware": {
+      "message": "„Meet Compute System“ atkūrimo paslaugų programa (kūr.)"
+   },
+   "done_button_text": {
+      "message": "Atlikta"
+   },
+   "erase_complete_bullet1": {
+      "message": "Atmintukas ar SD kortelė paruošti formatuoti."
+   },
+   "erase_complete_bullet1_on_hub": {
+      "message": "Atmintukas paruoštas formatuoti."
+   },
+   "erase_complete_bullet1_workspace_hardware": {
+      "message": "Atmintukas paruoštas formatuoti."
+   },
+   "erase_complete_bullet2": {
+      "message": "Formatuokite naudodami operacinės sistemos pateiktą formatavimo įrankį."
+   },
+   "erase_complete_title": {
+      "message": "Atkūrimo laikmena ištrinta."
+   },
+   "erase_complete_title_on_hub": {
+      "message": "Atkūrimo atmintukas ištrintas."
+   },
+   "erase_complete_title_workspace_hardware": {
+      "message": "Atkūrimo atmintukas ištrintas."
+   },
+   "erase_confirm_message": {
+      "message": "Atkuriamoji turinio kopija ir visi skaidiniai atkūrimo laikmenoje bus ištrinti."
+   },
+   "erase_confirm_message_on_hub": {
+      "message": "Atkuriamoji turinio kopija ir visi skaidiniai atkūrimo atmintuke bus ištrinti."
+   },
+   "erase_confirm_message_workspace_hardware": {
+      "message": "Atkuriamoji turinio kopija ir visi skaidiniai atkūrimo atmintuke bus ištrinti."
+   },
+   "erase_now_button_text": {
+      "message": "Ištrinti dabar"
+   },
+   "erase_progress_text": {
+      "message": "Neišimkite atkūrimo laikmenos."
+   },
+   "erase_progress_text_on_hub": {
+      "message": "Neišimkite atkūrimo atmintuko."
+   },
+   "erase_progress_text_workspace_hardware": {
+      "message": "Neišimkite atkūrimo atmintuko."
+   },
+   "erase_progress_title": {
+      "message": "Atkūrimo laikmenos ištrynimas"
+   },
+   "erase_progress_title_on_hub": {
+      "message": "Atkūrimo atmintuko ištrynimas"
+   },
+   "erase_progress_title_workspace_hardware": {
+      "message": "Atkūrimo atmintuko ištrynimas"
+   },
+   "erase_select_target_detecting": {
+      "message": "Aptinkama"
+   },
+   "erase_select_target_high_capacity_warning_html": {
+      "message": "\u003Cb>Įspėjimas:\u003C/b> ar tai tinkama tvarkyklė?"
+   },
+   "erase_select_target_no_devices_found": {
+      "message": "Nerasta atmintukų ar SD kortelių"
+   },
+   "erase_select_target_no_devices_found_on_hub": {
+      "message": "Nerasta atmintukų"
+   },
+   "erase_select_target_no_devices_found_workspace_hardware": {
+      "message": "Nerasta atmintukų"
+   },
+   "erase_select_target_select_device": {
+      "message": "Pasirinkite norimą ištrinti atkūrimo laikmeną."
+   },
+   "erase_select_target_select_device_on_hub": {
+      "message": "Pasirinkite norimą ištrinti atkūrimo atmintuką."
+   },
+   "erase_select_target_select_device_placeholder": {
+      "message": "Pasirinkti"
+   },
+   "erase_select_target_select_device_workspace_hardware": {
+      "message": "Pasirinkite norimą ištrinti atkūrimo atmintuką."
+   },
+   "erase_title": {
+      "message": "Atkūrimo laikmenos ištrynimas"
+   },
+   "erase_title_on_hub": {
+      "message": "Atkūrimo atmintuko ištrynimas"
+   },
+   "erase_title_workspace_hardware": {
+      "message": "Atkūrimo atmintuko ištrynimas"
+   },
+   "errmsg_please_try_again": {
+      "message": "Bandykite dar kartą."
+   },
+   "errmsg_recovery_config_download_failure": {
+      "message": "Nepavyko atsisiųsti konfigūracijos failo. Galėsite naudoti tik neprisijungus naudojamas funkcijas."
+   },
+   "get_started_button_text": {
+      "message": "Pradėti"
+   },
+   "gigabyte_abbreviation": {
+      "message": "GB"
+   },
+   "go_back_button_text": {
+      "message": "Grįžti"
+   },
+   "hours_remaining": {
+      "message": "Liko $1 val.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "hwid_invalid_model": {
+      "message": "Netinkamas modelio numeris. Patikrinkite įvestį."
+   },
+   "hwid_keep_typing": {
+      "message": "Modelis dar nerastas. Įveskite daugiau teksto."
+   },
+   "hwid_keep_typing_workspace_hardware": {
+      "message": "Dar nerasta jokių modelių"
+   },
+   "hwid_match_found": {
+      "message": "Rasta atitiktis"
+   },
+   "hwid_match_found_and_checksum_verified": {
+      "message": "Rasta atitiktis su tiksliu modelio pavadinimu"
+   },
+   "learn_more_link_text": {
+      "message": "Sužinoti daugiau"
+   },
+   "learn_more_link_url": {
+      "message": "http://www.google.com/chromeos/recovery"
+   },
+   "learn_more_link_url_on_hub": {
+      "message": "https://support.google.com/onhub/answer/6274977"
+   },
+   "learn_more_link_url_workspace_hardware": {
+      "message": "http://support.google.com/meethardware/answer/10562922"
+   },
+   "loading_config_text": {
+      "message": "Ruošiama..."
+   },
+   "menu_item_erase_recovery_media": {
+      "message": "Atkūrimo laikmenos ištrynimas"
+   },
+   "menu_item_erase_recovery_media_on_hub": {
+      "message": "Atkūrimo atmintuko ištrynimas"
+   },
+   "menu_item_erase_recovery_media_workspace_hardware": {
+      "message": "Atkūrimo atmintuko ištrynimas"
+   },
+   "menu_item_send_feedback": {
+      "message": "Siųsti atsiliepimą"
+   },
+   "menu_item_use_local_image": {
+      "message": "Naudoti vietinį vaizdą"
+   },
+   "minutes_remaining": {
+      "message": "Liko $1 min.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "of": {
+      "message": "iš"
+   },
+   "recovery_channel_beta": {
+      "message": "Beta kanalas"
+   },
+   "recovery_channel_dev": {
+      "message": "Kuriamas kanalas"
+   },
+   "recovery_channel_ltc": {
+      "message": "Ilgalaikio palaikymo kandidatas (tik „Enterprise“)"
+   },
+   "recovery_channel_lts": {
+      "message": "Ilgalaikis palaikymas (tik „Enterprise“)"
+   },
+   "recovery_channel_stable": {
+      "message": "Pastovus kanalas"
+   },
+   "seconds_remaining": {
+      "message": "Liko $1 sek.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "select_channel_placeholder": {
+      "message": "Pasirinkite atkūrimo kanalą"
+   },
+   "select_image_select_by_hwid_link_text": {
+      "message": "Įveskite modelio numerį tiesiogiai"
+   },
+   "select_image_select_from_list_link_text": {
+      "message": "Pasirinkite modelį iš sąrašo"
+   },
+   "select_image_select_manufacturer_placeholder": {
+      "message": "Pasirinkite gamintoją"
+   },
+   "select_image_select_product_placeholder": {
+      "message": "Pasirinkite produktą"
+   },
+   "select_image_select_product_placeholder_on_hub": {
+      "message": "Pasirinkite modelį"
+   },
+   "select_image_select_product_placeholder_workspace_hardware": {
+      "message": "Pasirinkite modelį"
+   },
+   "select_image_text": {
+      "message": "Įveskite atkuriamo „Chromebook“ modelio numerį. Jį rasite atkūrimo ekrane."
+   },
+   "select_image_text_on_hub": {
+      "message": "Įveskite „OnHub“ modelio numerį."
+   },
+   "select_image_text_workspace_hardware": {
+      "message": "Įveskite „Meet Compute System“ modelio numerį"
+   },
+   "select_image_this_chromebooks_model_number": {
+      "message": "Kaip šio „Chromebook“ modelio numerį įveskite"
+   },
+   "select_image_this_chromebooks_model_number_on_hub": {
+      "message": "Kaip šio „OnHub“ modelio numerį įveskite"
+   },
+   "select_image_this_chromebooks_model_number_workspace_hardware": {
+      "message": "Kaip šio „Meet Compute System“ modelio numerį įveskite"
+   },
+   "select_image_title": {
+      "message": "„Chromebook“ identifikavimas"
+   },
+   "select_image_title_on_hub": {
+      "message": "„OnHub“ identifikavimas"
+   },
+   "select_image_title_workspace_hardware": {
+      "message": "„Meet Compute System“ identifikavimas"
+   },
+   "select_target_detecting": {
+      "message": "Aptinkama"
+   },
+   "select_target_high_capacity_warning_html": {
+      "message": "\u003Cb>Įspėjimas:\u003C/b> ar tai tinkama laikmena?"
+   },
+   "select_target_high_capacity_warning_html_on_hub": {
+      "message": "\u003Cb>Įspėjimas:\u003C/b> ar tai tinkamas atmintukas?"
+   },
+   "select_target_high_capacity_warning_html_workspace_hardware": {
+      "message": "\u003Cb>Įspėjimas:\u003C/b> ar tai tinkamas atmintukas?"
+   },
+   "select_target_low_capacity_error": {
+      "message": "Laikmena turi būti bent 8 GB talpos."
+   },
+   "select_target_low_capacity_error_on_hub": {
+      "message": "Atmintukas turi būti bent 8 GB talpos."
+   },
+   "select_target_low_capacity_error_workspace_hardware": {
+      "message": "Atmintukas turi būti bent 8 GB talpos."
+   },
+   "select_target_no_devices_found": {
+      "message": "Nerasta atmintukų ar SD kortelių"
+   },
+   "select_target_no_devices_found_on_hub": {
+      "message": "Nerasta atmintukų"
+   },
+   "select_target_no_devices_found_workspace_hardware": {
+      "message": "Nerasta atmintukų"
+   },
+   "select_target_select_device": {
+      "message": "Pasirinkite norimą naudoti laikmeną."
+   },
+   "select_target_select_device_on_hub": {
+      "message": "Pasirinkite norimą naudoti atmintuką."
+   },
+   "select_target_select_device_placeholder": {
+      "message": "Pasirinkti"
+   },
+   "select_target_select_device_workspace_hardware": {
+      "message": "Pasirinkite norimą naudoti atmintuką."
+   },
+   "select_target_title": {
+      "message": "Įkiškite atmintuką arba SD kortelę"
+   },
+   "select_target_title_on_hub": {
+      "message": "Įkiškite atmintuką"
+   },
+   "select_target_title_workspace_hardware": {
+      "message": "Įkiškite atmintuką"
+   },
+   "stage_complete": {
+      "message": "Užbaigta"
+   },
+   "stage_download": {
+      "message": "Atsisiunčiama"
+   },
+   "stage_downloadverify": {
+      "message": "Patvirtinamas atsisiuntimas"
+   },
+   "stage_unpack": {
+      "message": "Išpakuojama"
+   },
+   "stage_unzip": {
+      "message": "Išpakuojama"
+   },
+   "stage_verify": {
+      "message": "Patvirtinama"
+   },
+   "stage_verifydownload": {
+      "message": "Patvirtinamas atsisiuntimas"
+   },
+   "stage_verifywrite": {
+      "message": "Patvirtinama"
+   },
+   "stage_write": {
+      "message": "Rašoma"
+   },
+   "step": {
+      "message": "Veiksmas"
+   },
+   "unsupported_text": {
+      "message": "Deja, jūsų platforma šiuo metu nepalaikoma. Daugiau informacijos žr. \u003Ca href=\"http://www.google.com/chromeos/recovery\" target=\"_blank\">„Chromebook“ pagalbos centre\u003C/a>."
+   },
+   "unsupported_text_mac": {
+      "message": "Deja, „Mac“ platforma palaikoma tik naudojant M37 arba naujesnės versijos programą. Atnaujinkite „Chrome“ versiją į M37. Gali reikėti \u003Ca href=\"https://support.google.com/chromebook/answer/1086915\" target=\"_blank\">perjungti į beta kanalą\u003C/a>."
+   },
+   "unsupported_text_on_hub": {
+      "message": "Deja, jūsų platforma šiuo metu nepalaikoma. Daugiau informacijos žr. \u003Ca href=\"https://support.google.com/onhub/answer/6274977\" target=\"_blank\">„OnHub“ pagalbos centre\u003C/a>."
+   },
+   "unsupported_title": {
+      "message": "Platforma šiuo metu nepalaikoma"
+   },
+   "unsupported_title_linux": {
+      "message": "„Linux“ šiuo metu nepalaikoma"
+   },
+   "unsupported_title_mac": {
+      "message": "„Mac“ šiuo metu nepalaikoma"
+   },
+   "unsupported_title_win": {
+      "message": "„Windows“ šiuo metu nepalaikoma"
+   },
+   "usupported_text_workspace_hardware": {
+      "message": "Deja, platforma šiuo metu nepalaikoma.  Jei reikia daugiau informacijos, eikite į \u003Ca href=\"http://support.google.com/meethardware/answer/10562922\" target=\"_blank\">„Google Meet“ apratinės įrangos pagalbos centrą\u003C/a>."
+   },
+   "warning_offline": {
+      "message": "Įrenginys neprijungtas prie interneto. Galėsite naudoti tik neprisijungus pasiekiamas funkcijas."
+   },
+   "welcome_text": {
+      "message": "Reikės 8 GB arba didesnės talpos atmintuko arba SD kortelės, kuriuos galėtumėte ištrinti."
+   },
+   "welcome_text_on_hub": {
+      "message": "Reikės 8 GB arba didesnės talpos atmintuko, kurį galėtumėte ištrinti."
+   },
+   "welcome_text_workspace_hardware": {
+      "message": "Reikės 8 GB arba didesnės talpos atmintuko, kurį galėtumėte ištrinti. Taip pat galite naudoti SD kortelę, jei įrenginyje yra SD kortelių lizdas."
+   },
+   "welcome_title": {
+      "message": "„Chromebook“ atkūrimo laikmenos kūrimas"
+   },
+   "welcome_title_on_hub": {
+      "message": "„OnHub“ atkūrimo atmintuko kūrimas"
+   },
+   "welcome_title_workspace_hardware": {
+      "message": "„Meet Compute System“ atkūrimo atmintuko kūrimas"
+   },
+   "write_message": {
+      "message": "Neišimkite atkūrimo laikmenos."
+   },
+   "write_message_on_hub": {
+      "message": "Neišimkite atkūrimo atmintuko."
+   },
+   "write_message_workspace_hardware": {
+      "message": "Nepašalinkite USB atmintuko."
+   },
+   "write_title": {
+      "message": "Atkuriamosios turinio kopijos kūrimas"
+   }
+}

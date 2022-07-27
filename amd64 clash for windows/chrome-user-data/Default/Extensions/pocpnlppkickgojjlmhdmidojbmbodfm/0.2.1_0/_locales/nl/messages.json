@@ -1,0 +1,556 @@
+{
+   "apierrmsg_aborted": {
+      "message": "Bewerking onderbroken."
+   },
+   "apierrmsg_device_list_error": {
+      "message": "Kan geen USB-drive of SD-kaart vinden."
+   },
+   "apierrmsg_device_list_error_on_hub": {
+      "message": "Kan geen USB-drive vinden."
+   },
+   "apierrmsg_device_list_error_workspace_hardware": {
+      "message": "Kan geen USB-drive vinden."
+   },
+   "apierrmsg_device_write_error": {
+      "message": "Kan niet schrijven naar de geselecteerde USB-flashdrive of SD-kaart. Het is mogelijk dat de schrijfrechten van je apparaat uitstaan of dat je domeinbeheerder schrijven naar USB-opslag heeft uitgezet."
+   },
+   "apierrmsg_download_cancelled": {
+      "message": "Download geannuleerd."
+   },
+   "apierrmsg_download_hash_mismatch": {
+      "message": "Het bestand is ongeldig."
+   },
+   "apierrmsg_download_interrupted": {
+      "message": "Download onderbroken. Check de netwerkverbinding en probeer het opnieuw."
+   },
+   "apierrmsg_file_invalid": {
+      "message": "Het bestand is ongeldig."
+   },
+   "apierrmsg_operation_already_in_progress": {
+      "message": "Er is al een bewerking in behandeling."
+   },
+   "apierrmsg_unknown": {
+      "message": "Onbekende fout: $1.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "apierrmsg_unsupported_operation": {
+      "message": "Niet-ondersteunde bewerking."
+   },
+   "apierrmsg_unzip_error": {
+      "message": "Kan bestand niet uitpakken. Check of je apparaat voldoende ruimte heeft en probeer het opnieuw."
+   },
+   "apierrmsg_unzip_invalid_archive": {
+      "message": "Ongeldig zip-bestand."
+   },
+   "apierrmsg_url_invalid": {
+      "message": "Bestand niet gevonden."
+   },
+   "apierrmsg_verification_failed": {
+      "message": "Imageverificatie mislukt."
+   },
+   "app_description": {
+      "message": "Maak een herstelmedium voor je Chromebook."
+   },
+   "app_description_on_hub": {
+      "message": "Maak een herstel-USB-drive voor je OnHub."
+   },
+   "app_description_workspace_hardware": {
+      "message": "Maak een herstel-USB-drive voor je Meet Compute System."
+   },
+   "app_name": {
+      "message": "Chromebook-herstelprogramma"
+   },
+   "app_name_on_hub": {
+      "message": "OnHub-herstelprogramma"
+   },
+   "app_name_workspace_hardware": {
+      "message": "Meet Compute System-herstelprogramma"
+   },
+   "app_short_name": {
+      "message": "Herstel"
+   },
+   "cancel_button_text": {
+      "message": "Annuleren"
+   },
+   "chrome_app_deprecation_message": {
+      "message": "Zoals openbaar aangekondigd op de \u003Ca href=\"https://blog.chromium.org/2020/08/changes-to-chrome-app-support-timeline.html\" target=\"_blank\" tabindex=\"0\">Chromium-blog\u003C/a> biedt Google vanaf juni 2021 geen support meer voor Chrome-apps. Gebruik de \u003Ca href=\"https://chrome.google.com/webstore/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm\" target=\"_blank\">extensie voor het Chromebook-herstelprogramma\u003C/a> en gerelateerde \u003Ca href=\"http://www.google.com/chromeos/recovery\" target=\"_blank\">documentatie\u003C/a> om je apparaten te herstellen."
+   },
+   "chrome_app_deprecation_message_on_hub": {
+      "message": "Zoals openbaar aangekondigd op de \u003Ca href=\"https://blog.chromium.org/2020/08/changes-to-chrome-app-support-timeline.html\" target=\"_blank\" tabindex=\"0\">Chromium-blog\u003C/a> biedt Google vanaf juni 2021 geen support meer voor Chrome-apps. Gebruik de \u003Ca href=\"https://chrome.google.com/webstore/detail/onhub-recovery-utility/fmgkgdalfapcmjnanilfcpkhkhedmpdm\" target=\"_blank\">extensie voor het OnHub-herstelprogramma\u003C/a> en gerelateerde \u003Ca href=\"https://support.google.com/onhub/answer/6274977\" target=\"_blank\">documentatie\u003C/a> om je apparaten te herstellen."
+   },
+   "complete_bullet1": {
+      "message": "Als je je Chromebook wilt herstellen, steek je het herstelmedium in je Chromebook."
+   },
+   "complete_bullet1_on_hub": {
+      "message": "Koppel de stroomkabel los van je OnHub en plaats de USB-drive in de achterkant van het apparaat. Houd de resetknop ingedrukt en sluit de voeding aan. Houd de resetknop ongeveer 15 seconden ingedrukt of totdat het activiteitslampje op de USB-drive gaat knipperen."
+   },
+   "complete_bullet1_workspace_hardware": {
+      "message": "Als je je Meet Compute System wilt herstellen, volg de je de instructies in \u003Ca href=\"http://support.google.com/meethardware/answer/10562922#zippy=%2Cstep-enter-recovery-mode\" target=\"_blank\">Je compute-box voor Google Meet-hardware herstellen, stap 3: Open de herstelmodus\u003C/a>"
+   },
+   "complete_bullet2": {
+      "message": "Na het herstel kun je het herstelmedium wissen met dit programma."
+   },
+   "complete_bullet2_on_hub": {
+      "message": "De OnHub doorloopt het herstelproces. Dit kan een paar minuten duren. Zodra de OnHub is hersteld, wordt deze opnieuw opgestart. Gebruik vervolgens de Google On-app om de OnHub in te stellen."
+   },
+   "complete_bullet2_workspace_hardware": {
+      "message": "Als je de USB-flashdrive wilt wissen als je klaar bent, start je het Meet Compute System-herstelprogramma. Klik op \u003Cb>Instellingen\u003C/b> en dan op \u003Cb>Herstelmedium wissen\u003C/b>."
+   },
+   "complete_message": {
+      "message": "Je kunt het herstelmedium nu verwijderen."
+   },
+   "complete_message_on_hub": {
+      "message": "Je kunt de herstel-USB-drive nu verwijderen."
+   },
+   "complete_message_workspace_hardware": {
+      "message": "Je kunt de flashdrive nu verwijderen"
+   },
+   "complete_title": {
+      "message": "Het herstelmedium is klaar"
+   },
+   "complete_title_on_hub": {
+      "message": "De herstel-USB-drive is klaar"
+   },
+   "complete_title_workspace_hardware": {
+      "message": "De herstel-USB-drive is klaar"
+   },
+   "completed": {
+      "message": "afgerond"
+   },
+   "confirm_cancelled_message_html": {
+      "message": "Geannuleerd. Klik op 'Nu maken' om het opnieuw te proberen.\u003Cbr>\u003Cbr>Als je het herstelmedium wilt wissen, klik je rechtsboven op het tandwieltje."
+   },
+   "confirm_cancelled_message_html_on_hub": {
+      "message": "Geannuleerd. Klik op 'Nu maken' om het opnieuw te proberen.\u003Cbr>\u003Cbr>Als je de herstel-USB-drive wilt wissen, klik je rechtsboven op het tandwieltje."
+   },
+   "confirm_cancelled_message_html_workspace_hardware": {
+      "message": "Geannuleerd. Klik op 'Nu maken' om het opnieuw te proberen.\u003Cbr>\u003Cbr>Als je de herstel-USB-drive wilt wissen, klik je rechtsboven op het tandwieltje."
+   },
+   "confirm_hide_advanced_settings_message": {
+      "message": "Geavanceerde instellingen verbergen"
+   },
+   "confirm_message_html": {
+      "message": "\u003Cb>Belangrijk:\u003C/b> Alle gegevens en partities op het herstelmedium worden gewist."
+   },
+   "confirm_message_html_on_hub": {
+      "message": "\u003Cb>Belangrijk:\u003C/b> Alle gegevens en partities op de herstel-USB-drive worden gewist."
+   },
+   "confirm_message_html_workspace_hardware": {
+      "message": "\u003Cb>Belangrijk:\u003C/b> Alles wat op de flashdrive staat, wordt gewist"
+   },
+   "confirm_show_advanced_settings_message": {
+      "message": "Geavanceerde instellingen tonen"
+   },
+   "confirm_title": {
+      "message": "Een herstelimage maken"
+   },
+   "continue_button_text": {
+      "message": "Doorgaan"
+   },
+   "create_another_button_text": {
+      "message": "Nog een maken"
+   },
+   "create_now_button_text": {
+      "message": "Nu maken"
+   },
+   "dev_app_description": {
+      "message": "Ontwikkelaarsversie van het Chromebook-herstelprogramma."
+   },
+   "dev_app_description_on_hub": {
+      "message": "Ontwikkelaarsversie van het OnHub-herstelprogramma."
+   },
+   "dev_app_description_workspace_hardware": {
+      "message": "Ontwikkelaarsversie van het Meet Compute System-herstelprogramma."
+   },
+   "dev_app_name": {
+      "message": "Chromebook-herstelprogramma (Dev)"
+   },
+   "dev_app_name_on_hub": {
+      "message": "OnHub-herstelprogramma (Dev)"
+   },
+   "dev_app_name_workspace_hardware": {
+      "message": "Meet Compute System-herstelprogramma (Dev)"
+   },
+   "done_button_text": {
+      "message": "Klaar"
+   },
+   "erase_complete_bullet1": {
+      "message": "De USB-drive of SD-kaart kan worden geformatteerd."
+   },
+   "erase_complete_bullet1_on_hub": {
+      "message": "De USB-drive kan worden geformatteerd."
+   },
+   "erase_complete_bullet1_workspace_hardware": {
+      "message": "De USB-drive kan worden geformatteerd."
+   },
+   "erase_complete_bullet2": {
+      "message": "Formatteer met een formatteringstool die door je besturingssysteem wordt geleverd."
+   },
+   "erase_complete_title": {
+      "message": "Het herstelmedium is gewist."
+   },
+   "erase_complete_title_on_hub": {
+      "message": "De herstel-USB-drive is gewist."
+   },
+   "erase_complete_title_workspace_hardware": {
+      "message": "De herstel-USB-drive is gewist."
+   },
+   "erase_confirm_message": {
+      "message": "De herstelimage en alle partities op het herstelmedium worden gewist."
+   },
+   "erase_confirm_message_on_hub": {
+      "message": "De herstelimage en alle partities op de herstel-USB-drive worden gewist."
+   },
+   "erase_confirm_message_workspace_hardware": {
+      "message": "De herstelimage en alle partities op de herstel-USB-drive worden gewist."
+   },
+   "erase_now_button_text": {
+      "message": "Nu wissen"
+   },
+   "erase_progress_text": {
+      "message": "Verwijder het herstelmedium niet."
+   },
+   "erase_progress_text_on_hub": {
+      "message": "Verwijder de herstel-USB-drive niet."
+   },
+   "erase_progress_text_workspace_hardware": {
+      "message": "Verwijder de herstel-USB-drive niet."
+   },
+   "erase_progress_title": {
+      "message": "Het herstelmedium wissen"
+   },
+   "erase_progress_title_on_hub": {
+      "message": "De herstel-USB-drive wissen"
+   },
+   "erase_progress_title_workspace_hardware": {
+      "message": "De herstel-USB-drive wissen"
+   },
+   "erase_select_target_detecting": {
+      "message": "Waarnemen"
+   },
+   "erase_select_target_high_capacity_warning_html": {
+      "message": "\u003Cb>Waarschuwing:\u003C/b> Is dit de juiste drive?"
+   },
+   "erase_select_target_no_devices_found": {
+      "message": "Geen USB-drives of SD-kaarten gevonden"
+   },
+   "erase_select_target_no_devices_found_on_hub": {
+      "message": "Geen USB-drives gevonden"
+   },
+   "erase_select_target_no_devices_found_workspace_hardware": {
+      "message": "Geen USB-drives gevonden"
+   },
+   "erase_select_target_select_device": {
+      "message": "Selecteer het herstelmedium dat je wilt wissen."
+   },
+   "erase_select_target_select_device_on_hub": {
+      "message": "Selecteer de herstel-USB-drive die je wilt wissen."
+   },
+   "erase_select_target_select_device_placeholder": {
+      "message": "Selecteren"
+   },
+   "erase_select_target_select_device_workspace_hardware": {
+      "message": "Selecteer de herstel-USB-drive die je wilt wissen."
+   },
+   "erase_title": {
+      "message": "Herstelmedium wissen"
+   },
+   "erase_title_on_hub": {
+      "message": "Herstel-USB-drive wissen"
+   },
+   "erase_title_workspace_hardware": {
+      "message": "Herstel-USB-drive wissen"
+   },
+   "errmsg_please_try_again": {
+      "message": "Probeer het opnieuw."
+   },
+   "errmsg_recovery_config_download_failure": {
+      "message": "Kan configuratiebestand niet downloaden. Alleen offline functies zijn beschikbaar."
+   },
+   "get_started_button_text": {
+      "message": "Aan de slag"
+   },
+   "gigabyte_abbreviation": {
+      "message": "GB"
+   },
+   "go_back_button_text": {
+      "message": "Terug"
+   },
+   "hours_remaining": {
+      "message": "Nog $1 uur.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "hwid_invalid_model": {
+      "message": "Ongeldig modelnummer. Check de invoer."
+   },
+   "hwid_keep_typing": {
+      "message": "Nog geen model gevonden. Blijf typen."
+   },
+   "hwid_keep_typing_workspace_hardware": {
+      "message": "Nog geen model gevonden"
+   },
+   "hwid_match_found": {
+      "message": "Er is een overeenkomst gevonden"
+   },
+   "hwid_match_found_and_checksum_verified": {
+      "message": "Er is een overeenkomst met de exacte modelnaam gevonden"
+   },
+   "learn_more_link_text": {
+      "message": "Meer informatie"
+   },
+   "learn_more_link_url": {
+      "message": "http://www.google.com/chromeos/recovery"
+   },
+   "learn_more_link_url_on_hub": {
+      "message": "https://support.google.com/onhub/answer/6274977"
+   },
+   "learn_more_link_url_workspace_hardware": {
+      "message": "http://support.google.com/meethardware/answer/10562922"
+   },
+   "loading_config_text": {
+      "message": "Voorbereiden..."
+   },
+   "menu_item_erase_recovery_media": {
+      "message": "Herstelmedium wissen"
+   },
+   "menu_item_erase_recovery_media_on_hub": {
+      "message": "Herstel-USB-drive wissen"
+   },
+   "menu_item_erase_recovery_media_workspace_hardware": {
+      "message": "Herstel-USB-drive wissen"
+   },
+   "menu_item_send_feedback": {
+      "message": "Feedback sturen"
+   },
+   "menu_item_use_local_image": {
+      "message": "Lokale image gebruiken"
+   },
+   "minutes_remaining": {
+      "message": "Nog $1 minuten.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "of": {
+      "message": "van"
+   },
+   "recovery_channel_beta": {
+      "message": "Bèta"
+   },
+   "recovery_channel_dev": {
+      "message": "Dev"
+   },
+   "recovery_channel_ltc": {
+      "message": "Kandidaat voor langdurige support (alleen voor Enterprise)"
+   },
+   "recovery_channel_lts": {
+      "message": "Langdurige support (alleen voor Enterprise)"
+   },
+   "recovery_channel_stable": {
+      "message": "Stabiel"
+   },
+   "seconds_remaining": {
+      "message": "Nog $1 seconden.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "select_channel_placeholder": {
+      "message": "Selecteer een herstelkanaal"
+   },
+   "select_image_select_by_hwid_link_text": {
+      "message": "Rechtstreeks een modelnummer opgeven"
+   },
+   "select_image_select_from_list_link_text": {
+      "message": "Een model uit de lijst selecteren"
+   },
+   "select_image_select_manufacturer_placeholder": {
+      "message": "Selecteer een fabrikant"
+   },
+   "select_image_select_product_placeholder": {
+      "message": "Selecteer een product"
+   },
+   "select_image_select_product_placeholder_on_hub": {
+      "message": "Selecteer een model"
+   },
+   "select_image_select_product_placeholder_workspace_hardware": {
+      "message": "Selecteer een model"
+   },
+   "select_image_text": {
+      "message": "Geef het modelnummer van de Chromebook op. Dit vind je op het herstelscherm."
+   },
+   "select_image_text_on_hub": {
+      "message": "Geef het modelnummer van de OnHub op."
+   },
+   "select_image_text_workspace_hardware": {
+      "message": "Geef het modelnummer op van je Meet Compute System"
+   },
+   "select_image_this_chromebooks_model_number": {
+      "message": "Voor deze Chromebook geef je het volgende op:"
+   },
+   "select_image_this_chromebooks_model_number_on_hub": {
+      "message": "Voor deze OnHub geef je het volgende op:"
+   },
+   "select_image_this_chromebooks_model_number_workspace_hardware": {
+      "message": "Voor dit Meet Compute System geef je het volgende op:"
+   },
+   "select_image_title": {
+      "message": "De Chromebook identificeren"
+   },
+   "select_image_title_on_hub": {
+      "message": "De OnHub identificeren"
+   },
+   "select_image_title_workspace_hardware": {
+      "message": "Het Meet Compute System identificeren"
+   },
+   "select_target_detecting": {
+      "message": "Waarnemen"
+   },
+   "select_target_high_capacity_warning_html": {
+      "message": "\u003Cb>Waarschuwing:\u003C/b> Is dit het juiste medium?"
+   },
+   "select_target_high_capacity_warning_html_on_hub": {
+      "message": "\u003Cb>Waarschuwing:\u003C/b> Is dit de juiste USB-drive?"
+   },
+   "select_target_high_capacity_warning_html_workspace_hardware": {
+      "message": "\u003Cb>Waarschuwing:\u003C/b> Is dit de juiste USB-drive?"
+   },
+   "select_target_low_capacity_error": {
+      "message": "Het medium moet minimaal 8 GB zijn."
+   },
+   "select_target_low_capacity_error_on_hub": {
+      "message": "De USB-drive moet minimaal 8 GB zijn."
+   },
+   "select_target_low_capacity_error_workspace_hardware": {
+      "message": "De USB-drive moet minimaal 8 GB zijn."
+   },
+   "select_target_no_devices_found": {
+      "message": "Geen USB-drives of SD-kaarten gevonden"
+   },
+   "select_target_no_devices_found_on_hub": {
+      "message": "Geen USB-drives gevonden"
+   },
+   "select_target_no_devices_found_workspace_hardware": {
+      "message": "Geen USB-drives gevonden"
+   },
+   "select_target_select_device": {
+      "message": "Selecteer het medium dat je wilt gebruiken."
+   },
+   "select_target_select_device_on_hub": {
+      "message": "Selecteer de USB-drive die je wilt gebruiken."
+   },
+   "select_target_select_device_placeholder": {
+      "message": "Selecteren"
+   },
+   "select_target_select_device_workspace_hardware": {
+      "message": "Selecteer de USB-drive die je wilt gebruiken."
+   },
+   "select_target_title": {
+      "message": "De USB-drive of SD-kaart plaatsen"
+   },
+   "select_target_title_on_hub": {
+      "message": "De USB-flashdrive plaatsen"
+   },
+   "select_target_title_workspace_hardware": {
+      "message": "De USB-flashdrive plaatsen"
+   },
+   "stage_complete": {
+      "message": "Afgerond"
+   },
+   "stage_download": {
+      "message": "Downloaden"
+   },
+   "stage_downloadverify": {
+      "message": "Download verifiëren"
+   },
+   "stage_unpack": {
+      "message": "Uitpakken"
+   },
+   "stage_unzip": {
+      "message": "Uitpakken"
+   },
+   "stage_verify": {
+      "message": "Verifiëren"
+   },
+   "stage_verifydownload": {
+      "message": "Download verifiëren"
+   },
+   "stage_verifywrite": {
+      "message": "Verifiëren"
+   },
+   "stage_write": {
+      "message": "Schrijven"
+   },
+   "step": {
+      "message": "Stap"
+   },
+   "unsupported_text": {
+      "message": "Je platform wordt momenteel niet ondersteund. Ga naar het \u003Ca href=\"http://www.google.com/chromeos/recovery\" target=\"_blank\">Helpcentrum van Chromebook\u003C/a> voor meer informatie."
+   },
+   "unsupported_text_mac": {
+      "message": "Mac wordt alleen ondersteund voor M37 of hoger. Update je Chrome-versie naar M37. Hiervoor moet je misschien \u003Ca href=\"https://support.google.com/chromebook/answer/1086915\" target=\"_blank\">overschakelen naar het bètakanaal\u003C/a>."
+   },
+   "unsupported_text_on_hub": {
+      "message": "Je platform wordt momenteel niet ondersteund. Ga naar het \u003Ca href=\"https://support.google.com/onhub/answer/6274977\" target=\"_blank\">Helpcentrum van OnHub\u003C/a> voor meer informatie."
+   },
+   "unsupported_title": {
+      "message": "Je platform wordt momenteel niet ondersteund"
+   },
+   "unsupported_title_linux": {
+      "message": "Linux wordt momenteel niet ondersteund"
+   },
+   "unsupported_title_mac": {
+      "message": "Mac wordt momenteel niet ondersteund"
+   },
+   "unsupported_title_win": {
+      "message": "Windows wordt momenteel niet ondersteund"
+   },
+   "usupported_text_workspace_hardware": {
+      "message": "Je platform wordt op dit moment niet ondersteund.  Bezoek het \u003Ca href=\"http://support.google.com/meethardware/answer/10562922\" target=\"_blank\">Helpcentrum voor Google Meet-hardware\u003C/a> voor meer informatie."
+   },
+   "warning_offline": {
+      "message": "Apparaat is offline. Alleen offline functies zijn beschikbaar."
+   },
+   "welcome_text": {
+      "message": "Je hebt een USB-flashdrive of SD-kaart van 8 GB of meer nodig die mag worden gewist."
+   },
+   "welcome_text_on_hub": {
+      "message": "Je hebt een USB-flashdrive van 8 GB of meer nodig die mag worden gewist."
+   },
+   "welcome_text_workspace_hardware": {
+      "message": "Je hebt een USB-flashdrive van 8 GB of meer nodig die mag worden gewist. Je kunt ook een SD-kaart gebruiken als je apparaat een SD-sleuf heeft."
+   },
+   "welcome_title": {
+      "message": "Een herstelmedium maken voor je Chromebook"
+   },
+   "welcome_title_on_hub": {
+      "message": "Een herstel-USB-drive maken voor je OnHub"
+   },
+   "welcome_title_workspace_hardware": {
+      "message": "Een herstel-USB-drive maken voor je Meet Compute System"
+   },
+   "write_message": {
+      "message": "Verwijder het herstelmedium niet."
+   },
+   "write_message_on_hub": {
+      "message": "Verwijder de herstel-USB-drive niet."
+   },
+   "write_message_workspace_hardware": {
+      "message": "Verwijder de USB-flashdrive niet."
+   },
+   "write_title": {
+      "message": "Een herstelimage maken"
+   }
+}

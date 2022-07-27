@@ -1,0 +1,33 @@
+{
+   "author": "jubt.me",
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": "/images/icon32.png",
+      "default_popup": "popup.html",
+      "default_title": "__MSG_pluginName__"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "/content-script.js", "/js/utils.js", "/js/parser/parserNewTab.js", "/js/searcher/searcherNewTab.js" ],
+      "match_about_blank": true,
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_end"
+   } ],
+   "content_security_policy": "sandbox allow-scripts allow-forms allow-popups allow-modals allow-popups-to-escape-sandbox allow-same-origin allow-top-navigation; script-src 'self' 'unsafe-eval' https://www.googletagmanager.com  https://www.google-analytics.com blob:;worker-src 'self' 'unsafe-eval' data: blob: http: https:;child-src gap: filesystem http: https: data: blob: 'unsafe-inline' 'unsafe-eval' 'self' ;frame-src gap: filesystem http: https: data: blob: 'unsafe-inline' 'unsafe-eval' 'self'; object-src blob: 'unsafe-eval' 'self' ",
+   "default_locale": "zh_CN",
+   "description": "__MSG_pluginDesc__",
+   "icons": {
+      "128": "/images/icon128.png",
+      "16": "/images/icon16.png",
+      "32": "/images/icon32.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0F9e1aGQm5qHJ855MLRYEnRRItB+M35gRn6ThOrEjVFWkwFIImMk6pDT7mtmOTIUzhVqzL4DtRojv0blWNDql7oCoTnIEJCMn0L8yX7KO4iVqaV3OKD43s4D2UxDGz0HR4KV9sREN9ifRvlbMdhz2acizX52nJTK2uuoVboNQaOyGLj9D2IpXdKno6ild1wH29r0uoQ8iDXf+PsRsCS5p+fwM0eCIO24MYL1HGpdccGltAVj/HlBSN75aF3EgpfSaW7PuJwNB9vZqrvMNH9wY1pcyqV5WJr50hTVhijtf/bY3S9pCghPWo2wm1CSCTBhUH5JV7Ep5QqDXD+RHCBg8wIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_pluginName__",
+   "permissions": [ "\u003Call_urls>", "contextMenus", "background", "webRequest", "webRequestBlocking", "storage", "unlimitedStorage", "webNavigation" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.3.1",
+   "web_accessible_resources": [ "/js/utils.js", "/js/parser/parserNewTab.js", "/js/searcher/searcherNewTab.js" ]
+}

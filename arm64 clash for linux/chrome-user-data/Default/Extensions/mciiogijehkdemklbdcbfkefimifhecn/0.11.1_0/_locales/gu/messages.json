@@ -1,0 +1,20 @@
+{
+   "chromesysAllowFileAccess": {
+      "message": "URL ફાઇલ કરવા ઍક્સેસની મંજૂરી આપો"
+   },
+   "chromesysDownloadLocation": {
+      "message": "ડાઉનલોડ સ્થાન"
+   },
+   "chromesysDownloadsSection": {
+      "message": "ડાઉનલોડ્સ"
+   },
+   "chromesysShowAdvSettings": {
+      "message": "વિગતવાર સેટિંગ્સ બતાવો..."
+   },
+   "extName": {
+      "message": "Chrono Download Manager"
+   },
+   "uilangName": {
+      "message": "Gujarati"
+   }
+}

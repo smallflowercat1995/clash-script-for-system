@@ -1,0 +1,149 @@
+.text-editor-container{
+	background-color:var(--stroke-overlay-background);
+	height:100%;
+	left:0;
+	position:fixed;
+	top:0;
+	width:100%;
+	z-index:800
+}
+.text-editor{
+	background-color:var(--stroke-main);
+	display:flex;
+	flex-direction:column;
+	height:100%;
+	margin:0 auto;
+	min-width:800px;
+	width:80%
+}
+.text-editor textarea.txtar{
+	background-color:var(--surface-main);
+	border:0
+}
+.text-editor>footer,.text-editor>header{
+	background-color:var(--stroke-grey-1);
+	display:flex;
+	flex:0 0 auto;
+	flex-direction:column;
+	justify-content:space-between
+}
+.text-editor>section{
+	display:flex;
+	flex:1 1 auto;
+	flex-direction:column;
+	overflow:hidden;
+	padding:0 4px 0 24px
+}
+.text-editor>footer{
+	align-items:center;
+	flex-direction:row;
+	padding:6px
+}
+.text-editor>footer button{
+	--mask-color:var(--text-color-medium)
+}
+.text-editor>footer button i{
+	transition:var(--transition-bg-color)
+}
+.text-editor>footer button:hover{
+	--mask-color:var(--text-color-high)
+}
+.text-editor-bars{
+	display:flex;
+	font-size:0;
+	justify-content:space-between;
+	margin:2px 2px -1px;
+	padding:0;
+	position:relative
+}
+.text-editor-bars .bar{
+	list-style:none;
+	margin:0;
+	padding:0
+}
+.text-editor-bars .bar>li{
+	display:inline-flex;
+	position:relative
+}
+.text-editor-bars .bar>li>button{
+	--mask-color:var(--text-color-medium);
+	-webkit-appearance:none;
+	appearance:none;
+	background-color:initial;
+	border:0;
+	cursor:pointer;
+	margin:0;
+	outline:none;
+	padding:0
+}
+.text-editor-bars .bar.menu>li>button{
+	border-radius:12px;
+	color:var(--text-color-higher);
+	font:var(--text-body1-bold);
+	padding:2px 12px;
+	transition:var(--transition-bg-color)
+}
+.text-editor-bars .bar.menu>li>button.active,.text-editor-bars .bar.menu>li>button:hover{
+	background-color:var(--stroke-grey-2)
+}
+.text-editor-bars .bar.control{
+	margin:4px 4px 0
+}
+.text-editor-bars .bar.control i{
+	--icon-size:24px;
+	transition:var(--transition-bg-color)
+}
+.text-editor-bars .bar.control>li>button:hover{
+	--mask-color:var(--text-color-high)
+}
+.text-editor-file-name{
+	align-items:center;
+	display:flex;
+	justify-content:center;
+	padding:0 12px 8px;
+	text-align:center
+}
+.text-editor-file-name i{
+	flex:0 0 auto;
+	height:24px;
+	margin:0;
+	position:relative;
+	width:24px
+}
+.text-editor-file-name span{
+	color:var(--text-color-high);
+	font:var(--text-body1);
+	overflow:hidden;
+	padding:0 5px;
+	text-overflow:ellipsis;
+	white-space:nowrap
+}
+.text-editor nav.context-menu{
+	left:2px;
+	right:2px
+}
+.text-editor nav.context-menu.visible{
+	margin-top:2px
+}
+.download.main-pad .text-editor{
+	width:100%
+}
+.download.main-pad .text-editor>section{
+	padding:0
+}
+.download-page.mobile .text-editor{
+	min-width:100%;
+	text-align:left
+}
+.download-page.mobile .text-editor>section{
+	padding:0
+}
+.download-page.mobile .CodeMirror-sizer{
+	border-right-width:0
+}
+.download-page.mobile .CodeMirror{
+	background:repeating-linear-gradient(90deg, #f7f7f7, #f7f7f7 8px, #fff 0, #fff calc(100% - 8px))
+}
+.CodeMirror-overlayscroll-vertical div,.download-page.mobile .CodeMirror-overlayscroll-horizontal div{
+	z-index:999
+}

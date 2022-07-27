@@ -1,0 +1,734 @@
+
+.business-register .disabled{
+	opacity:.3
+}
+.business-register .main-pad-block{
+	margin:0;
+	position:relative
+}
+.bus-reg-body{
+	margin:0 auto;
+	max-width:940px;
+	min-width:880px;
+	padding-top:124px;
+	position:relative
+}
+.bus-reg-body *,.card-container.bus-repay *{
+	font-family:var(--text-font-family)
+}
+.bus-reg-header{
+	color:var(--text-color-high);
+	font-size:40px;
+	line-height:48px;
+	margin-left:10px;
+	text-align:start
+}
+.bus-reg-info-block{
+	margin-left:10px;
+	width:400px
+}
+.bus-reg-subheader{
+	color:var(--text-color-high);
+	font:var(--text-h1);
+	margin-top:64px
+}
+.bus-reg-icon{
+	background-image:url(../images/mega/top-sprite.png?v=7ef2b23a163ae63a);
+	height:24px;
+	width:24px
+}
+.bus-reg-body .password-stutus-txt{
+	margin-top:8px
+}
+.bus-reg-radio-block{
+	height:100%;
+	margin-top:32px;
+	padding-bottom:12px;
+	position:relative;
+	width:100%
+}
+.card-container.bus-repay .dialog-subtitle{
+	font:var(--text-body1)
+}
+.card-container.bus-repay .bus-reg-radio-block{
+	margin:0
+}
+.bus-reg-body .bus-reg-radio-option,.bus-repay-block .bus-reg-radio-option{
+	align-items:center;
+	cursor:pointer;
+	display:inline-flex;
+	margin-bottom:8px;
+	width:200px
+}
+.bus-reg-body .bus-reg-radio.not-first-child,.card-container.bus-repay .bus-reg-radio.not-first-child{
+	-webkit-margin-start:32px;
+	margin-inline-start:32px
+}
+.bus-reg-body .provider,.card-container.bus-repay .provider{
+	display:inline-block;
+	font:var(--text-body1);
+	vertical-align:middle
+}
+.bus-reg-body .payment-icon,.card-container.bus-repay .payment-icon{
+	-webkit-margin-start:4px;
+	-webkit-margin-end:32px;
+	display:inline-block;
+	margin-inline-end:32px;
+	margin-inline-start:4px;
+	vertical-align:middle
+}
+.bus-reg-body .payment-icon i,.card-container.bus-repay .payment-icon i{
+	--icon-size:24px
+}
+.bus-reg-agreement{
+	align-items:flex-start;
+	cursor:pointer;
+	display:flex;
+	font:var(--text-body1);
+	margin-top:16px
+}
+.bus-reg-agreement .checkdiv{
+	-webkit-margin-end:14px;
+	margin:2px 0;
+	margin-inline-end:14px;
+	vertical-align:top
+}
+.bus-reg-agreement.mega-terms .red{
+	margin-left:4px
+}
+.bus-reg-agreement .bus-reg-txt{
+	color:#999;
+	display:inline-block;
+	font-size:13px;
+	line-height:20px;
+	width:90%
+}
+.bus-reg-agreement .terms{
+	color:#d90007;
+	cursor:pointer;
+	display:inline-block
+}
+.bus-reg-btn,.bus-reg-btn-2{
+	float:right;
+	margin-bottom:88px;
+	margin-top:64px
+}
+.mega-button.bus-reg-btn-2{
+	display:none
+}
+.bus-reg-plan{
+	background-color:var(--stroke-main);
+	border:1px solid var(--divider-color);
+	border-radius:8px;
+	display:inline-block;
+	position:absolute;
+	right:0;
+	top:240px;
+	width:460px
+}
+.bus-reg-plan .plan-icon{
+	height:64px;
+	margin:40px auto 0;
+	margin:16px auto 0;
+	width:64px
+}
+.bus-reg-info-block .bus-addition-storage-block{
+	height:109px;
+	margin-left:3px;
+	margin-top:6px
+}
+.bus-reg-info-block .bus-add-storage-head{
+	font-size:13px;
+	height:18px;
+	line-height:20px;
+	margin-bottom:10px
+}
+.bus-reg-info-block .bus-add-storage-body{
+	color:var(--text-color-high);
+	display:inline-block;
+	font-size:14px;
+	line-height:24px;
+	margin-bottom:10px;
+	vertical-align:sub
+}
+.bus-reg-info-block .bus-add-storage-icon{
+	--icon-size:24px;
+	margin-right:8px
+}
+.bus-reg-info-block .bus-add-storage-foot{
+	font-size:12px;
+	height:15px;
+	line-height:15px
+}
+.bus-reg-plan .bus-internal-block{
+	background-color:var(--surface-grey-1);
+	border:solid;
+	border-color:var(--surface-grey-2);
+	border-radius:8px;
+	border-width:1px;
+	margin-left:16px;
+	margin-right:16px;
+	margin-top:13px;
+	padding-bottom:14px
+}
+.bus-reg-plan .bus-internal-block.business-plan-peruse{
+	border-radius:8px 8px 0 0
+}
+.bus-reg-plan .bus-user-price-val-cntr{
+	display:inline-block
+}
+.bus-reg-plan .business-plan-pricing{
+	font-size:0
+}
+.bus-reg-plan .bus-user-price-val{
+	color:var(--text-color-high);
+	display:inline-block;
+	font-family:var(--text-font-family-second-regular);
+	font-size:28px;
+	height:36px;
+	line-height:34px;
+	margin-left:18px;
+	margin-top:13px
+}
+.bus-reg-plan .bus-user-price-unit{
+	color:var(--text-color-high);
+	display:inline-block;
+	font:var(--text-h3);
+	height:20px;
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:19px;
+	position:absolute;
+	vertical-align:text-bottom
+}
+.bus-reg-plan .bus-user-price-euro{
+	background-color:var(--surface-main);
+	border:1px solid #ebebeb;
+	border-radius:10px;
+	box-sizing:border-box;
+	color:var(--text-color-medium);
+	display:flex;
+	font-family:var(--text-font-family);
+	font-size:13px;
+	height:22px;
+	justify-content:center;
+	margin-left:calc(50% - 24px);
+	text-align:center;
+	width:48px
+}
+.bus-reg-plan .business-plan-quota-note{
+	background-color:var(--surface-grey-1);
+	border:solid;
+	border-color:var(--surface-grey-2);
+	border-radius:0 0 8px 8px;
+	border-width:0 1px 1px;
+	color:var(--text-color-high);
+	font-family:var(--text-font-family);
+	margin:0 16px auto;
+	padding:16px
+}
+.bus-reg-plan .bus-quota-note-head{
+	font:var(--text-h3)
+}
+.bus-reg-plan .bus-quota-note-body{
+	color:var(--text-color-high);
+	font-size:14px;
+	line-height:20px;
+	opacity:.7
+}
+.bus-reg-plan .business-plan-breakdown{
+	color:var(--text-color-high);
+	margin-top:12px
+}
+.bus-reg-plan .bus-breakdown-row{
+	height:56px;
+	margin-left:16px;
+	margin-right:16px;
+	margin-top:8px
+}
+.bus-reg-plan .bus-breakdown-col{
+	display:inline-block;
+	font:var(--text-h3);
+	margin:16px
+}
+.bus-reg-plan .business-plan-total{
+	color:var(--text-color-high);
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	margin-top:20px;
+	padding-left:16px;
+	padding-right:16px
+}
+.bus-reg-plan .bus-total-col{
+	display:inline-block;
+	font:var(--text-h1);
+	margin:29px 16px 16px
+}
+.bus-reg-plan .bus-price-footer-note{
+	color:var(--text-color-high);
+	font:var(--text-body1);
+	line-height:17px;
+	padding-top:16px;
+	position:absolute
+}
+.bus-reg-plan .business-plan-title{
+	color:var(--text-color-high);
+	font-family:var(--text-font-family);
+	font-size:24px;
+	line-height:29px;
+	margin:4px auto 32px;
+	text-align:center;
+	width:100%
+}
+.mobile.ru .bus-reg-plan .business-plan-price .sub-unit{
+	display:block
+}
+.bus-reg-plan .business-plan-price .big{
+	font:var(--text-data);
+	font-family:var(--text-font-family-semibold);
+	margin-right:8px
+}
+.bus-reg-plan .business-plan-total{
+	position:relative
+}
+.bus-reg-plan .business-plan-total:before{
+	background-color:var(--divider-color);
+	content:"";
+	height:1px;
+	left:0;
+	position:absolute;
+	top:0;
+	width:100%
+}
+.bus-reg-bottom-page{
+	position:relative;
+	width:100%
+}
+.bus-reg-bottom-page:before{
+	background-color:rgba(0, 0, 0, .1);
+	content:" ";
+	height:1px;
+	position:absolute;
+	width:100%
+}
+.bus-reg-bottom-page .page-header{
+	color:#333;
+	font-family:montserrat,open_sans,sans-serif;
+	font-size:36px;
+	font-weight:300;
+	line-height:54px;
+	margin-bottom:64px;
+	padding:64px 20px 0;
+	text-align:center
+}
+.bus-reg-featureBlock{
+	display:inline-block;
+	margin-top:48px;
+	vertical-align:top;
+	width:32%
+}
+.bus-reg-featureImg100{
+	background-image:url(../images/mega/big-icons.png?v=af0093a3433fb0ee);
+	background-repeat:no-repeat;
+	height:100px;
+	margin:auto;
+	width:100px
+}
+.bus-reg-featureTxt{
+	color:#666;
+	font-size:16px;
+	line-height:28px;
+	margin:48px auto 64px;
+	text-align:center;
+	width:80%
+}
+.bus-reg-featureTxt a{
+	color:#f0373b
+}
+.bus-reg-featureTxt a:hover{
+	text-decoration:underline
+}
+.ky-icon{
+	background-position:-16px -464px
+}
+.forbit-icon{
+	background-position:-16px -572px
+}
+.extension-icon{
+	background-position:-16px -691px
+}
+.bus-confirm-body{
+	margin:88px auto 128px;
+	max-width:400px;
+	width:90%
+}
+.bus-confirm-body.verfication{
+	max-width:600px;
+	width:100%
+}
+.bus-confirm-body .bus-reg-header{
+	text-align:center;
+	width:100%
+}
+.bus-confirm-body .bus-confirmImg{
+	background-image:url(../images/mega/big-icons.png?v=af0093a3433fb0ee);
+	background-position:-16px -809px;
+	background-repeat:no-repeat;
+	height:120px;
+	margin:0 auto 48px;
+	width:160px
+}
+@media only screen and (max-width:880px){
+.bus-reg-body{
+	min-width:0;
+	width:90%
+}
+.bus-reg-info-block{
+	width:100%
+}
+.bus-reg-plan{
+	position:relative;
+	top:48px;
+	width:100%
+}
+.bus-reg-header{
+	font-size:30px
+}
+.bus-reg-btn{
+	display:none !important
+}
+.bus-confirm-body .bus-reg-btn{
+	display:inline-flex
+}
+.mega-button.bus-reg-btn-2{
+	display:inline-flex;
+	margin-top:115px
+}
+.bus-reg-featureBlock{
+	width:100%
+}
+}
+.card-container.bus-repay{
+	background:var(--surface-main);
+	border:1px solid var(--divider-color);
+	border-radius:24px;
+	box-sizing:border-box;
+	height:auto;
+	margin:0 auto 80px;
+	padding:16px 32px 32px;
+	width:850px
+}
+.rtl .card-container.bus-repay{
+	direction:rtl
+}
+.bus-repay-block{
+	height:100%;
+	padding-bottom:8px;
+	padding-top:80px;
+	width:100%
+}
+.bus-repay-block .payment-reminder-logo{
+	--width:96px;
+	display:block;
+	height:96px;
+	margin:48px auto 24px;
+	width:96px
+}
+.bus-repay-block .dialog-title{
+	color:var(--text-color-high);
+	font:var(--text-h2);
+	margin-bottom:12px
+}
+.bus-repay-block .radio-txt a{
+	color:var(--text-color-success)
+}
+.card-header{
+	text-align:center
+}
+.main-mid-pad.bus-repay .card-body{
+	display:block
+}
+.main-mid-pad.bus-repay .main-left-block,.main-mid-pad.bus-repay .main-right-block{
+	display:inline-block;
+	float:none;
+	height:auto;
+	margin:0;
+	padding:56px 0 0;
+	position:relative;
+	vertical-align:top;
+	width:362px
+}
+.main-mid-pad.bus-repay .main-left-block{
+	-webkit-padding-end:48px;
+	padding-inline-end:48px
+}
+.main-mid-pad.bus-repay .section-wrapper:not(:first-child){
+	margin-top:32px
+}
+.main-mid-pad.bus-repay .section-wrapper:last-child{
+	margin-top:44px;
+	text-align:start
+}
+.main-mid-pad.bus-repay .section-title{
+	color:var(--text-color-high);
+	font:var(--text-h3-bold);
+	padding-bottom:16px
+}
+.repay-btn.small-view-btn{
+	display:none
+}
+.main-mid-pad.bus-repay .row-wrapper{
+	align-items:center;
+	display:flex;
+	padding-bottom:16px
+}
+.card-container.bus-repay .account-info-icon{
+	--icon-size:24px;
+	--mask-color:var(--icon-active);
+	flex-grow:0;
+	flex-shrink:0
+}
+.main-mid-pad.bus-repay .row-wrapper i{
+	flex-shrink:0
+}
+.main-mid-pad.bus-repay .row-wrapper .info-txt{
+	-webkit-margin-start:12px;
+	color:var(--text-color-medium);
+	display:inline-block;
+	font:var(--text-body1);
+	margin-inline-start:12px;
+	vertical-align:middle
+}
+.main-mid-pad.bus-repay .bus-reg-plan.repay{
+	background:var(--surface-grey-1);
+	border:1px solid var(--divider-color);
+	box-sizing:border-box;
+	padding:16px;
+	position:relative;
+	right:0;
+	text-align:center;
+	top:0;
+	width:364px
+}
+.repay-breakdown-container{
+	background:var(--surface-main);
+	border:1px solid var(--divider-color);
+	border-radius:4px;
+	display:block;
+	overflow:hidden;
+	position:relative;
+	width:100%
+}
+.main-mid-pad.bus-repay .card-body .card-sub-title{
+	color:var(--text-color-high);
+	display:block;
+	font:var(--text-h3);
+	padding:22px 0;
+	position:relative
+}
+.main-mid-pad.bus-repay .card-body .card-sub-title:before{
+	background-color:rgba(0, 0, 0, .1);
+	bottom:0;
+	content:"";
+	display:block;
+	height:1px;
+	left:0;
+	position:absolute;
+	width:100%
+}
+.bus-reg-plan.repay .repay-breakdown-tb{
+	width:100%
+}
+.bus-reg-plan.repay .repay-breakdown-tb tr{
+	display:block;
+	position:relative
+}
+.bus-reg-plan.repay .repay-breakdown-tb tr:not(:last-child):before{
+	background-color:var(--divider-color);
+	bottom:0;
+	content:"";
+	display:block;
+	height:1px;
+	left:12px;
+	position:absolute;
+	width:308px
+}
+.bus-reg-plan.repay .repay-breakdown-tb tr.expand:not(:last-child):before{
+	height:1px;
+	left:0;
+	width:100%
+}
+.bus-reg-plan.repay .repay-breakdown-tb tr td:first-child,.bus-reg-plan.repay .repay-breakdown-tb tr th:first-child{
+	-webkit-padding-end:8px;
+	-webkit-padding-start:12px;
+	box-sizing:border-box;
+	display:inline-block;
+	padding:12px 0 8px;
+	padding-inline-end:8px;
+	padding-inline-start:12px;
+	width:123px
+}
+.bus-reg-plan.repay .repay-breakdown-tb tr td:nth-child(2),.bus-reg-plan.repay .repay-breakdown-tb tr th:nth-child(2){
+	-webkit-padding-end:4px;
+	box-sizing:border-box;
+	display:inline-block;
+	padding-inline-end:4px;
+	width:113px
+}
+.bus-reg-plan.repay .repay-breakdown-tb tr td:nth-child(2){
+	cursor:pointer
+}
+.bus-reg-plan.repay .repay-breakdown-tb tr td.repay-td-total{
+	cursor:default
+}
+.bus-reg-plan.repay .repay-breakdown-tb tr td:last-child,.bus-reg-plan.repay .repay-breakdown-tb tr th:last-child{
+	-webkit-padding-end:12px;
+	box-sizing:border-box;
+	display:inline-block;
+	opacity:unset;
+	padding-inline-end:12px;
+	text-align:end;
+	width:calc(100% - 244px)
+}
+.bus-reg-plan.repay .repay-breakdown-tb tr td:nth-child(3){
+	font-family:var(--text-font-family-bold)
+}
+.bus-reg-plan.repay .repay-breakdown-tb .content-desc{
+	display:inline-block;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	width:81px
+}
+.bus-reg-plan.repay .repay-breakdown-tb tr td:nth-child(2):after{
+	--icon-size:24px;
+	width:24px
+}
+.bus-reg-plan.repay .repay-breakdown-tb th{
+	color:var(--text-color-high);
+	font:var(--text-body1);
+	padding:12px 0 8px;
+	text-align:start
+}
+.main-right-block .repay-breakdown-footer{
+	margin-top:14px;
+	opacity:.7
+}
+.bus-reg-plan.repay .repay-breakdown-tb td{
+	color:var(--text-color-high);
+	font:var(--text-body1);
+	height:40px;
+	opacity:.7;
+	padding:12px 0 8px;
+	text-align:start
+}
+.bus-reg-plan.repay .repay-breakdown-tb tr:last-child td{
+	color:var(--text-color-high);
+	font:var(--text-h2);
+	font-family:var(--text-font-family-bold);
+	height:50px;
+	opacity:unset;
+	text-align:start;
+	width:110px
+}
+.bus-reg-plan.repay .repay-breakdown-tb tr:last-child td:last-child{
+	-webkit-padding-end:12px;
+	padding-inline-end:12px;
+	text-align:end;
+	width:210px
+}
+.bus-reg-plan.repay .repay-extra-details{
+	background-color:var(--surface-grey-1);
+	color:var(--text-color-high);
+	font:var(--text-body1);
+	max-height:0;
+	overflow-y:hidden;
+	-webkit-transition:max-height .2s ease-in-out;
+	-moz-transition:max-height .2s ease-in-out;
+	-o-transition:max-height .2s ease-in-out;
+	transition:max-height .2s ease-in-out
+}
+.bus-reg-plan.repay .repay-extra-details.expand{
+	max-height:40px
+}
+.bus-reg-plan.repay .repay-breakdown-tb tr.repay-extra-details:before{
+	left:0;
+	width:100%
+}
+.bus-reg-plan.repay .repay-breakdown-tb tr.repay-extra-details td:first-child{
+	width:235px
+}
+.bus-reg-plan.repay .repay-breakdown-tb tr.repay-extra-details td:last-child{
+	width:calc(100% - 241px)
+}
+.bus-repay-block .main-left-block .repay-nb-users-info{
+	color:var(--text-color-black-high);
+	font:var(--text-caption);
+	margin-top:-10px;
+	opacity:.4
+}
+@media only screen and (max-width:800px){
+.card-container.bus-repay{
+	min-width:406px;
+	padding:2%;
+	width:96%
+}
+.main-mid-pad.bus-repay .main-left-block,.main-mid-pad.bus-repay .main-right-block{
+	display:block;
+	width:auto
+}
+.main-mid-pad.bus-repay .main-left-block{
+	padding-right:0
+}
+.main-mid-pad.bus-repay .bus-reg-plan.repay{
+	width:100%
+}
+.main-mid-pad.bus-repay .row-wrapper{
+	padding-bottom:8px
+}
+.bus-reg-plan.repay .repay-breakdown-tb tr:not(:last-child):before{
+	width:calc(100% - 24px)
+}
+.bus-reg-plan.repay .repay-breakdown-tb tr td:first-child,.bus-reg-plan.repay .repay-breakdown-tb tr th:first-child{
+	min-width:90px;
+	width:25%
+}
+.bus-reg-plan.repay .repay-breakdown-tb tr td:nth-child(2),.bus-reg-plan.repay .repay-breakdown-tb tr th:nth-child(2){
+	min-width:136px;
+	white-space:normal;
+	width:40%
+}
+.bus-reg-plan.repay .repay-breakdown-tb tr td:nth-child(3),.bus-reg-plan.repay .repay-breakdown-tb tr th:nth-child(3){
+	min-width:82px;
+	width:30%
+}
+.bus-reg-plan.repay .repay-breakdown-tb tr:last-child td:last-child{
+	min-width:210px;
+	width:70%
+}
+.main-mid-pad.bus-repay .btn-container{
+	text-align:center
+}
+.main-mid-pad.bus-repay .section-wrapper:last-child{
+	display:none
+}
+.repay-btn.small-view-btn{
+	display:inline-block;
+	margin:32px auto
+}
+.bus-reg-plan.repay .repay-breakdown-tb tr.repay-extra-details td:first-child{
+	min-width:234px;
+	width:65%
+}
+.bus-reg-plan.repay .repay-breakdown-tb tr.repay-extra-details td:last-child{
+	min-width:82px;
+	width:30.5%
+}
+.bus-repay-block .main-left-block .repay-nb-users-info{
+	margin-top:-2px
+}
+.bus-reg-plan.repay .repay-breakdown-tb .content-desc{
+	width:calc(100% - 30px)
+}
+}

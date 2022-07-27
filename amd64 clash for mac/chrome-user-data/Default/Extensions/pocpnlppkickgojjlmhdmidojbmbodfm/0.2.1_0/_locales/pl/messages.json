@@ -1,0 +1,556 @@
+{
+   "apierrmsg_aborted": {
+      "message": "Operacja została przerwana."
+   },
+   "apierrmsg_device_list_error": {
+      "message": "Nie udało się znaleźć dysku USB ani karty SD."
+   },
+   "apierrmsg_device_list_error_on_hub": {
+      "message": "Nie udało się znaleźć dysku USB."
+   },
+   "apierrmsg_device_list_error_workspace_hardware": {
+      "message": "Nie udało się znaleźć dysku USB."
+   },
+   "apierrmsg_device_write_error": {
+      "message": "Nie można zapisać na wybranym nośniku danych (dysku flash USB lub karcie SD). Uprawnienia do zapisu na urządzeniu mogą być wyłączone lub administrator domeny wyłączył zapisywanie danych na nośniku USB."
+   },
+   "apierrmsg_download_cancelled": {
+      "message": "Pobieranie zostało anulowane."
+   },
+   "apierrmsg_download_hash_mismatch": {
+      "message": "Ten plik jest nieprawidłowy."
+   },
+   "apierrmsg_download_interrupted": {
+      "message": "Pobieranie zostało przerwane. Sprawdź połączenie sieciowe i spróbuj ponownie."
+   },
+   "apierrmsg_file_invalid": {
+      "message": "Plik jest nieprawidłowy."
+   },
+   "apierrmsg_operation_already_in_progress": {
+      "message": "Operacja jest już wykonywana."
+   },
+   "apierrmsg_unknown": {
+      "message": "Nieznany błąd: $1.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "apierrmsg_unsupported_operation": {
+      "message": "Nieobsługiwana operacja."
+   },
+   "apierrmsg_unzip_error": {
+      "message": "Nie można rozpakować pliku. Sprawdź, czy na urządzeniu jest wystarczająco dużo miejsca, a potem spróbuj ponownie."
+   },
+   "apierrmsg_unzip_invalid_archive": {
+      "message": "Nieprawidłowy plik ZIP."
+   },
+   "apierrmsg_url_invalid": {
+      "message": "Nie znaleziono pliku."
+   },
+   "apierrmsg_verification_failed": {
+      "message": "Niepowodzenie weryfikacji obrazu."
+   },
+   "app_description": {
+      "message": "Utwórz nośnik do odzyskiwania Chromebooka."
+   },
+   "app_description_on_hub": {
+      "message": "Utwórz dysk USB do odzyskiwania routera OnHub."
+   },
+   "app_description_workspace_hardware": {
+      "message": "Utwórz dysk USB do odzyskiwania modułu Meet Compute System."
+   },
+   "app_name": {
+      "message": "Chromebook Recovery Utility"
+   },
+   "app_name_on_hub": {
+      "message": "OnHub Recovery Utility"
+   },
+   "app_name_workspace_hardware": {
+      "message": "Meet Compute System Recovery Utility"
+   },
+   "app_short_name": {
+      "message": "Recovery"
+   },
+   "cancel_button_text": {
+      "message": "Anuluj"
+   },
+   "chrome_app_deprecation_message": {
+      "message": "Zgodnie z publiczną zapowiedzią na \u003Ca href=\"https://blog.chromium.org/2020/08/changes-to-chrome-app-support-timeline.html\" target=\"_blank\" tabindex=\"0\">blogu Chromium\u003C/a> w czerwcu 2021 r. Google przestanie obsługiwać Aplikacje Chrome. Aby przywrócić system na swoich urządzeniach, użyj \u003Ca href=\"https://chrome.google.com/webstore/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm\" target=\"_blank\">rozszerzenia Chromebook Recovery Utility\u003C/a>. Przydatne informacje znajdziesz też w \u003Ca href=\"http://www.google.com/chromeos/recovery\" target=\"_blank\">tym artykule\u003C/a>."
+   },
+   "chrome_app_deprecation_message_on_hub": {
+      "message": "Zgodnie z publiczną zapowiedzią na \u003Ca href=\"https://blog.chromium.org/2020/08/changes-to-chrome-app-support-timeline.html\" target=\"_blank\" tabindex=\"0\">blogu Chromium\u003C/a> w czerwcu 2021 r. Google przestanie obsługiwać Aplikacje Chrome. Aby przywrócić system na swoich urządzeniach, użyj \u003Ca href=\"https://chrome.google.com/webstore/detail/onhub-recovery-utility/fmgkgdalfapcmjnanilfcpkhkhedmpdm\" target=\"_blank\">rozszerzenia OnHub Recovery Utility\u003C/a>. Przydatne informacje znajdziesz też w \u003Ca href=\"https://support.google.com/onhub/answer/6274977\" target=\"_blank\">tym artykule\u003C/a>."
+   },
+   "complete_bullet1": {
+      "message": "Aby przywrócić Chromebooka, podłącz do niego nośnik do odzyskiwania."
+   },
+   "complete_bullet1_on_hub": {
+      "message": "Odłącz przewód zasilający od routera OnHub i włóż dysk USB do gniazda z tyłu urządzenia. Przytrzymaj przycisk resetowania i podłącz zasilanie. Nie zwalniaj przycisku resetowania przez około 15 sekund lub do momentu, gdy na dysku USB zacznie migać dioda aktywności."
+   },
+   "complete_bullet1_workspace_hardware": {
+      "message": "Aby przywrócić moduł Meet Compute System, postępuj zgodnie z instrukcjami w artykule \u003Ca href=\"http://support.google.com/meethardware/answer/10562922#zippy=%2Cstep-enter-recovery-mode\" target=\"_blank\">Recover your Google Meet Hardware compute box, Step 3: Enter recovery mode\u003C/a> (Przywracanie modułu obliczeniowego sprzętu do Google Meet, Krok 3. Włącz tryb przywracania)"
+   },
+   "complete_bullet2": {
+      "message": "Po zakończeniu przywracania możesz wymazać zawartość nośnika do odzyskiwania, korzystając z tego narzędzia."
+   },
+   "complete_bullet2_on_hub": {
+      "message": "Router OnHub wykona proces przywracania, co może potrwać kilka minut, i ponownie się uruchomi. Gdy to nastąpi, użyj aplikacji Google On, aby go skonfigurować."
+   },
+   "complete_bullet2_workspace_hardware": {
+      "message": "Aby po zakończeniu wykasować dane z dysku flash USB, uruchom narzędzie Meet Compute System Recovery Utility, kliknij \u003Cb>Settings\u003C/b> (Ustawienia), a następnie kliknij \u003Cb>Erase recovery media\u003C/b> (Wymaż zawartość nośnika do odzyskiwania)"
+   },
+   "complete_message": {
+      "message": "Teraz możesz odłączyć nośnik do odzyskiwania."
+   },
+   "complete_message_on_hub": {
+      "message": "Teraz możesz odłączyć dysk USB do odzyskiwania."
+   },
+   "complete_message_workspace_hardware": {
+      "message": "Teraz możesz wyjąć dysk flash"
+   },
+   "complete_title": {
+      "message": "Nośnik do odzyskiwania jest gotowy"
+   },
+   "complete_title_on_hub": {
+      "message": "Dysk USB do odzyskiwania jest gotowy"
+   },
+   "complete_title_workspace_hardware": {
+      "message": "Dysk USB do odzyskiwania jest gotowy"
+   },
+   "completed": {
+      "message": "ukończono"
+   },
+   "confirm_cancelled_message_html": {
+      "message": "Anulowano. Aby spróbować ponownie, kliknij &bdquo;Utwórz teraz&rdquo;.\u003Cbr>\u003Cbr>Aby wymazać zawartość nośnika do odzyskiwania, w prawym górnym rogu kliknij ikonę koła zębatego."
+   },
+   "confirm_cancelled_message_html_on_hub": {
+      "message": "Anulowano. Aby spróbować ponownie, kliknij &bdquo;Utwórz teraz&rdquo;.\u003Cbr>\u003Cbr>Aby wymazać zawartość dysku USB do odzyskiwania, w prawym górnym rogu kliknij ikonę koła zębatego."
+   },
+   "confirm_cancelled_message_html_workspace_hardware": {
+      "message": "Anulowano. Aby spróbować ponownie, kliknij &bdquo;Utwórz teraz&rdquo;.\u003Cbr>\u003Cbr>Aby wymazać zawartość dysku USB do odzyskiwania, w prawym górnym rogu kliknij ikonę koła zębatego."
+   },
+   "confirm_hide_advanced_settings_message": {
+      "message": "Ukryj ustawienia zaawansowane"
+   },
+   "confirm_message_html": {
+      "message": "\u003Cb>Ważne:\u003C/b> wszystkie dane i partycje na nośniku do odzyskiwania zostaną usunięte."
+   },
+   "confirm_message_html_on_hub": {
+      "message": "\u003Cb>Ważne:\u003C/b> wszystkie dane i partycje na dysku USB do odzyskiwania zostaną usunięte."
+   },
+   "confirm_message_html_workspace_hardware": {
+      "message": "\u003Cb>Ważne:\u003C/b> cała zawartość dysku flash zostanie usunięta"
+   },
+   "confirm_show_advanced_settings_message": {
+      "message": "Pokaż ustawienia zaawansowane"
+   },
+   "confirm_title": {
+      "message": "Tworzenie obrazu przywracania systemu"
+   },
+   "continue_button_text": {
+      "message": "Dalej"
+   },
+   "create_another_button_text": {
+      "message": "Utwórz następny"
+   },
+   "create_now_button_text": {
+      "message": "Utwórz teraz"
+   },
+   "dev_app_description": {
+      "message": "Wersja deweloperska Chromebook Recovery Utility."
+   },
+   "dev_app_description_on_hub": {
+      "message": "Wersja deweloperska OnHub Recovery Utility."
+   },
+   "dev_app_description_workspace_hardware": {
+      "message": "Wersja deweloperska Meet Compute System Recovery Utility."
+   },
+   "dev_app_name": {
+      "message": "Chromebook Recovery Utility Dev"
+   },
+   "dev_app_name_on_hub": {
+      "message": "OnHub Recovery Utility Dev"
+   },
+   "dev_app_name_workspace_hardware": {
+      "message": "Meet Compute System Recovery Utility Dev"
+   },
+   "done_button_text": {
+      "message": "Gotowe"
+   },
+   "erase_complete_bullet1": {
+      "message": "Nośnik USB lub SD jest gotowy do sformatowania."
+   },
+   "erase_complete_bullet1_on_hub": {
+      "message": "Dysk USB jest gotowy do sformatowania."
+   },
+   "erase_complete_bullet1_workspace_hardware": {
+      "message": "Dysk USB jest gotowy do sformatowania."
+   },
+   "erase_complete_bullet2": {
+      "message": "Do sformatowania użyj narzędzia dołączonego do systemu operacyjnego."
+   },
+   "erase_complete_title": {
+      "message": "Zawartość nośnika do odzyskiwania została wymazana."
+   },
+   "erase_complete_title_on_hub": {
+      "message": "Zawartość dysku USB do odzyskiwania została wymazana."
+   },
+   "erase_complete_title_workspace_hardware": {
+      "message": "Zawartość dysku USB do odzyskiwania została wymazana."
+   },
+   "erase_confirm_message": {
+      "message": "Obraz przywracania systemu i wszystkie partycje na nośniku do odzyskiwania zostaną wymazane."
+   },
+   "erase_confirm_message_on_hub": {
+      "message": "Obraz przywracania systemu i wszystkie partycje na dysku USB do odzyskiwania zostaną wymazane."
+   },
+   "erase_confirm_message_workspace_hardware": {
+      "message": "Obraz przywracania systemu i wszystkie partycje na dysku USB do odzyskiwania zostaną wymazane."
+   },
+   "erase_now_button_text": {
+      "message": "Wymaż teraz"
+   },
+   "erase_progress_text": {
+      "message": "Nie odłączaj nośnika do odzyskiwania."
+   },
+   "erase_progress_text_on_hub": {
+      "message": "Nie odłączaj dysku USB do odzyskiwania."
+   },
+   "erase_progress_text_workspace_hardware": {
+      "message": "Nie odłączaj dysku USB do odzyskiwania."
+   },
+   "erase_progress_title": {
+      "message": "Wymazuję zawartość nośnika do odzyskiwania"
+   },
+   "erase_progress_title_on_hub": {
+      "message": "Wymazuję zawartość dysku USB do odzyskiwania"
+   },
+   "erase_progress_title_workspace_hardware": {
+      "message": "Wymazuję zawartość dysku USB do odzyskiwania"
+   },
+   "erase_select_target_detecting": {
+      "message": "Wykrywam"
+   },
+   "erase_select_target_high_capacity_warning_html": {
+      "message": "\u003Cb>Ostrzeżenie:\u003C/b> czy to jest prawidłowy dysk?"
+   },
+   "erase_select_target_no_devices_found": {
+      "message": "Nie znaleziono dysków USB ani kart SD"
+   },
+   "erase_select_target_no_devices_found_on_hub": {
+      "message": "Nie znaleziono dysków USB"
+   },
+   "erase_select_target_no_devices_found_workspace_hardware": {
+      "message": "Nie znaleziono dysków USB"
+   },
+   "erase_select_target_select_device": {
+      "message": "Wybierz nośnik do odzyskiwania, którego zawartość chcesz wymazać."
+   },
+   "erase_select_target_select_device_on_hub": {
+      "message": "Wybierz dysk USB do odzyskiwania, którego zawartość chcesz wymazać."
+   },
+   "erase_select_target_select_device_placeholder": {
+      "message": "Wybierz"
+   },
+   "erase_select_target_select_device_workspace_hardware": {
+      "message": "Wybierz dysk USB do odzyskiwania, którego zawartość chcesz wymazać."
+   },
+   "erase_title": {
+      "message": "Wymazywanie zawartości nośnika do odzyskiwania"
+   },
+   "erase_title_on_hub": {
+      "message": "Wymazywanie zawartości dysku USB do odzyskiwania"
+   },
+   "erase_title_workspace_hardware": {
+      "message": "Wymazywanie zawartości dysku USB do odzyskiwania"
+   },
+   "errmsg_please_try_again": {
+      "message": "Spróbuj ponownie."
+   },
+   "errmsg_recovery_config_download_failure": {
+      "message": "Nie udało się pobrać pliku konfiguracji. Będą działać tylko funkcje offline."
+   },
+   "get_started_button_text": {
+      "message": "Rozpocznij"
+   },
+   "gigabyte_abbreviation": {
+      "message": "GB"
+   },
+   "go_back_button_text": {
+      "message": "Wróć"
+   },
+   "hours_remaining": {
+      "message": "Pozostało: $1 godz.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "hwid_invalid_model": {
+      "message": "Nieprawidłowy numer modelu. Sprawdź wpisane znaki."
+   },
+   "hwid_keep_typing": {
+      "message": "Nie udało się jeszcze znaleźć modelu. Próbuj dalej."
+   },
+   "hwid_keep_typing_workspace_hardware": {
+      "message": "Jeszcze nie znaleziono modelu"
+   },
+   "hwid_match_found": {
+      "message": "Udało się znaleźć pasujące urządzenie"
+   },
+   "hwid_match_found_and_checksum_verified": {
+      "message": "Udało się znaleźć urządzenie o identycznej nazwie modelu"
+   },
+   "learn_more_link_text": {
+      "message": "Więcej informacji"
+   },
+   "learn_more_link_url": {
+      "message": "http://www.google.com/chromeos/recovery"
+   },
+   "learn_more_link_url_on_hub": {
+      "message": "https://support.google.com/onhub/answer/6274977"
+   },
+   "learn_more_link_url_workspace_hardware": {
+      "message": "http://support.google.com/meethardware/answer/10562922"
+   },
+   "loading_config_text": {
+      "message": "Przygotowuję…"
+   },
+   "menu_item_erase_recovery_media": {
+      "message": "Wymaż zawartość nośnika do odzyskiwania"
+   },
+   "menu_item_erase_recovery_media_on_hub": {
+      "message": "Wymaż zawartość dysku USB do odzyskiwania"
+   },
+   "menu_item_erase_recovery_media_workspace_hardware": {
+      "message": "Wymaż zawartość dysku USB do odzyskiwania"
+   },
+   "menu_item_send_feedback": {
+      "message": "Prześlij opinię"
+   },
+   "menu_item_use_local_image": {
+      "message": "Użyj obrazu lokalnego"
+   },
+   "minutes_remaining": {
+      "message": "Pozostało: $1 min.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "of": {
+      "message": "z"
+   },
+   "recovery_channel_beta": {
+      "message": "Beta"
+   },
+   "recovery_channel_dev": {
+      "message": "Deweloperska"
+   },
+   "recovery_channel_ltc": {
+      "message": "Kandydat do wsparcia długoterminowego (tylko Enterprise)"
+   },
+   "recovery_channel_lts": {
+      "message": "Wsparcie długoterminowe (tylko Enterprise)"
+   },
+   "recovery_channel_stable": {
+      "message": "Stabilna"
+   },
+   "seconds_remaining": {
+      "message": "Pozostało: $1 s.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "select_channel_placeholder": {
+      "message": "Wybierz kanał przywracania"
+   },
+   "select_image_select_by_hwid_link_text": {
+      "message": "Wpisz numer modelu"
+   },
+   "select_image_select_from_list_link_text": {
+      "message": "Wybierz model z listy"
+   },
+   "select_image_select_manufacturer_placeholder": {
+      "message": "Wybierz producenta"
+   },
+   "select_image_select_product_placeholder": {
+      "message": "Wybierz produkt"
+   },
+   "select_image_select_product_placeholder_on_hub": {
+      "message": "Wybierz model"
+   },
+   "select_image_select_product_placeholder_workspace_hardware": {
+      "message": "Wybierz model"
+   },
+   "select_image_text": {
+      "message": "Podaj numer modelu Chromebooka, którego chcesz odzyskać. Znajdziesz go na ekranie odzyskiwania."
+   },
+   "select_image_text_on_hub": {
+      "message": "Wpisz numer modelu routera OnHub."
+   },
+   "select_image_text_workspace_hardware": {
+      "message": "Wpisz numer modelu modułu Meet Compute System"
+   },
+   "select_image_this_chromebooks_model_number": {
+      "message": "Dla tego Chromebooka wpisz"
+   },
+   "select_image_this_chromebooks_model_number_on_hub": {
+      "message": "Dla tego routera OnHub wpisz"
+   },
+   "select_image_this_chromebooks_model_number_workspace_hardware": {
+      "message": "Dla tego modułu Meet Compute System wpisz"
+   },
+   "select_image_title": {
+      "message": "Identyfikowanie Chromebooka"
+   },
+   "select_image_title_on_hub": {
+      "message": "Identyfikowanie routera OnHub"
+   },
+   "select_image_title_workspace_hardware": {
+      "message": "Identyfikowanie modułu Meet Compute System"
+   },
+   "select_target_detecting": {
+      "message": "Wykrywam"
+   },
+   "select_target_high_capacity_warning_html": {
+      "message": "\u003Cb>Ostrzeżenie:\u003C/b> czy to jest prawidłowy nośnik?"
+   },
+   "select_target_high_capacity_warning_html_on_hub": {
+      "message": "\u003Cb>Ostrzeżenie:\u003C/b> czy to jest prawidłowy dysk USB?"
+   },
+   "select_target_high_capacity_warning_html_workspace_hardware": {
+      "message": "\u003Cb>Ostrzeżenie:\u003C/b> czy to jest prawidłowy dysk USB?"
+   },
+   "select_target_low_capacity_error": {
+      "message": "Nośnik musi mieć pojemność co najmniej 8 GB."
+   },
+   "select_target_low_capacity_error_on_hub": {
+      "message": "Dysk USB musi mieć pojemność co najmniej 8 GB."
+   },
+   "select_target_low_capacity_error_workspace_hardware": {
+      "message": "Dysk USB musi mieć pojemność co najmniej 8 GB."
+   },
+   "select_target_no_devices_found": {
+      "message": "Nie znaleziono dysków USB ani kart SD"
+   },
+   "select_target_no_devices_found_on_hub": {
+      "message": "Nie znaleziono dysków USB"
+   },
+   "select_target_no_devices_found_workspace_hardware": {
+      "message": "Nie znaleziono dysków USB"
+   },
+   "select_target_select_device": {
+      "message": "Wybierz nośnik, którego chcesz użyć."
+   },
+   "select_target_select_device_on_hub": {
+      "message": "Wybierz dysk USB, którego chcesz użyć."
+   },
+   "select_target_select_device_placeholder": {
+      "message": "Wybierz"
+   },
+   "select_target_select_device_workspace_hardware": {
+      "message": "Wybierz dysk USB, którego chcesz użyć."
+   },
+   "select_target_title": {
+      "message": "Podłącz dysk flash USB lub kartę SD"
+   },
+   "select_target_title_on_hub": {
+      "message": "Podłącz dysk flash USB"
+   },
+   "select_target_title_workspace_hardware": {
+      "message": "Podłącz dysk flash USB"
+   },
+   "stage_complete": {
+      "message": "Gotowe"
+   },
+   "stage_download": {
+      "message": "Pobieram"
+   },
+   "stage_downloadverify": {
+      "message": "Sprawdzam pobrane dane"
+   },
+   "stage_unpack": {
+      "message": "Rozpakowuję"
+   },
+   "stage_unzip": {
+      "message": "Rozpakowuję"
+   },
+   "stage_verify": {
+      "message": "Weryfikuję"
+   },
+   "stage_verifydownload": {
+      "message": "Sprawdzam pobrane dane"
+   },
+   "stage_verifywrite": {
+      "message": "Weryfikuję"
+   },
+   "stage_write": {
+      "message": "Zapisuję"
+   },
+   "step": {
+      "message": "Krok"
+   },
+   "unsupported_text": {
+      "message": "Twoja platforma nie jest obecnie obsługiwana. Aby dowiedzieć się więcej, zajrzyj do \u003Ca href=\"http://www.google.com/chromeos/recovery\" target=\"_blank\">Centrum pomocy Chromebooka\u003C/a>."
+   },
+   "unsupported_text_mac": {
+      "message": "System macOS jest obsługiwany tylko w wersji M37 i nowszych. Zaktualizuj Chrome do wersji M37. Może to wymagać \u003Ca href=\"https://support.google.com/chromebook/answer/1086915\" target=\"_blank\">przełączenia się na wersję beta\u003C/a>."
+   },
+   "unsupported_text_on_hub": {
+      "message": "Twoja platforma nie jest obecnie obsługiwana. Aby dowiedzieć się więcej, zajrzyj do \u003Ca href=\"https://support.google.com/onhub/answer/6274977\" target=\"_blank\">Centrum pomocy routera OnHub\u003C/a>."
+   },
+   "unsupported_title": {
+      "message": "Twoja platforma nie jest obecnie obsługiwana"
+   },
+   "unsupported_title_linux": {
+      "message": "Linux nie jest obecnie obsługiwany"
+   },
+   "unsupported_title_mac": {
+      "message": "macOS nie jest obecnie obsługiwany"
+   },
+   "unsupported_title_win": {
+      "message": "Windows nie jest obecnie obsługiwany"
+   },
+   "usupported_text_workspace_hardware": {
+      "message": "Obecnie Twoja platforma nie jest obsługiwana  Więcej informacji znajdziesz w \u003Ca href=\"http://support.google.com/meethardware/answer/10562922\" target=\"_blank\">Centrum pomocy sprzętu do Google Meet\u003C/a>."
+   },
+   "warning_offline": {
+      "message": "Urządzenie jest offline. Będą działać tylko funkcje offline."
+   },
+   "welcome_text": {
+      "message": "Potrzebujesz dysku flash USB lub karty SD o pojemności co najmniej 8 GB, których zawartość możesz bez obaw wykasować."
+   },
+   "welcome_text_on_hub": {
+      "message": "Potrzebujesz dysku flash USB o pojemności co najmniej 8 GB, którego zawartość możesz bez obaw wykasować."
+   },
+   "welcome_text_workspace_hardware": {
+      "message": "Potrzebujesz dysku flash USB o pojemności co najmniej 8 GB, którego zawartość możesz bez obaw wykasować. Jeśli Twoje urządzenie ma odpowiednie gniazdo, możesz też użyć karty SD."
+   },
+   "welcome_title": {
+      "message": "Utwórz nośnik do odzyskiwania Chromebooka"
+   },
+   "welcome_title_on_hub": {
+      "message": "Utwórz dysk USB do odzyskiwania routera OnHub"
+   },
+   "welcome_title_workspace_hardware": {
+      "message": "Utwórz dysk USB do odzyskiwania modułu Meet Compute System"
+   },
+   "write_message": {
+      "message": "Nie odłączaj nośnika do odzyskiwania."
+   },
+   "write_message_on_hub": {
+      "message": "Nie odłączaj dysku USB do odzyskiwania."
+   },
+   "write_message_workspace_hardware": {
+      "message": "Nie usuwaj dysku flash USB."
+   },
+   "write_title": {
+      "message": "Tworzę obraz przywracania systemu"
+   }
+}

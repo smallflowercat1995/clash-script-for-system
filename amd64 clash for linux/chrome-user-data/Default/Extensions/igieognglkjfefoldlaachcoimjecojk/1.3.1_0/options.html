@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="jubt.net" />
+    <title>聚BT - 聚合最优质的BT、磁力资源 | BT搜索 磁力搜索 云盘搜索 影视APP 在线影视 磁力影视 种子搜索</title>
+    <meta
+      name="keywords"
+      content="磁力链接,磁力,BT,种子,Magnet,BT种子,磁力下载,BT下载,磁力搜索,BT搜索,磁力APP,磁力软件,APP,老司机,福利,磁力APP,磁力软件,APP,老司机,福利,离线下载,软件,offline download,downloader,磁力APP,磁力软件,APP,老司机,福利,离线下载,软件,offline download,downloader,greasemonkey,greasefork,sleazyfork,sleazy fork,油猴脚本,云盘搜索,网盘搜索,百度网盘,云盘精灵,盘搜搜,盘多多,在线电影,在线影视,在线电视,影视APP,在线影视,磁力影视,种子搜索,磁力种子,搜索引擎,BT搜索引擎,磁力搜索引擎,search engine,搜索引擎"
+    />
+    <meta name="description" content="聚BT - 聚合最优质的BT、磁力资源" />
+    <script src="/js/gtm.js" type="text/javascript"></script>
+
+    <!--jQuery-->
+    <script src="/js/jquery/jquery-3.4.1.min.js" type="text/javascript"></script>
+    <script src="/js/jquery/jquery.toast.min.js"></script>
+
+    <script src="/js/jquery/jquery.validate.min.js" type="text/javascript"></script>
+
+    <!--bootstrap-->
+    <script src="/js/bootstrap/popper.min.js" type="text/javascript"></script>
+    <script src="/js/bootstrap/bootstrap.min.js" type="text/javascript"></script>
+
+    <!--easySearch-->
+    <script src="/js/utils.js" type="text/javascript"></script>
+    <script src="/options.js" type="text/javascript"></script>
+
+    <!--css-->
+    <link href="/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/css/easypublish.css" rel="stylesheet" />
+    <link href="/css/popup.css" rel="stylesheet" />
+    <link href="/css/jquery.toast.min.css" rel="stylesheet" />
+  </head>
+  <body>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W4XDCL6" height="0" width="0" style="display: none; visibility: hidden"></iframe></noscript>
+    <div class="container">
+      <div id="loader" class="loader loader-default"></div>
+
+      <div class="row">
+        <div class="col">
+          <div class="mb-4">
+            <h3>
+              <div class="localize" data-localize="popup_settings_heading">popup_settings_heading</div>
+            </h3>
+          </div>
+          <form id="options_form" name="options_form" action="#">
+            <div class="my-3 p-3 bg-white rounded shadow-sm">
+              <div class="row">
+                <div class="col">
+                  <div class="form-group">
+                    <label for="input_results_per_engine">
+                      <div class="localize" data-localize="popup_settings_results_per_engine">popup_settings_results_per_engine</div>
+                    </label>
+                    <select class="form-control form-control-sm" id="input_results_per_engine">
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3" selected>3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="6">6</option>
+                      <option value="7">7</option>
+                      <option value="8">8</option>
+                      <option value="9">9</option>
+                      <option value="10">10</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="form-group">
+                    <label for="input_engine_number_per_search">
+                      <div class="localize" data-localize="popup_settings_engine_number_per_search">popup_settings_engine_number_per_search</div>
+                    </label>
+                    <select class="form-control form-control-sm" id="input_engine_number_per_search">
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5" selected>5</option>
+                      <option value="6">6</option>
+                      <option value="7">7</option>
+                      <option value="8">8</option>
+                      <option value="9">9</option>
+                      <option value="10">10</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <div class="form-group">
+                    <label for="input_results_order_by">
+                      <div class="localize" data-localize="popup_settings_results_order_by">popup_settings_results_order_by</div>
+                    </label>
+                    <select class="form-control form-control-sm" id="input_results_order_by">
+                      <option class="localize" data-localize="system_default_first" value="system_default_first" selected>system_default_first</option>
+                      <option class="localize" data-localize="user_defined_first" value="user_defined_first">user_defined_first</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col"></div>
+              </div>
+              <div class="row justify-content-center">
+                <div class="col">
+                  <div class="buttons">
+                    <button class="btn btn-primary btn-block" id="btn_save">
+                      <div class="localize" data-localize="popup_settings_save_button">popup_settings_save_button</div>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <div class="buttons">
+                    <button class="btn btn-primary btn-block" id="btn_website_admin">
+                      <div class="localize" data-localize="popup_settings_website_admin">popup_settings_website_admin</div>
+                    </button>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="buttons">
+                    <button class="btn btn-primary btn-block" id="btn_category_admin">
+                      <div class="localize" data-localize="popup_settings_category_admin">popup_settings_category_admin</div>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,1 @@
+pl.extend(ke.ext.tpl,{compile:function(e,p){for(var l in p=p||{},e=e.replace(/&lt;/gi,"<").replace(/&gt;/gi,">"),p)e=e.replace(new RegExp("<%="+l+"%>","g"),p[l]).replace(new RegExp("<%= "+l+" %>","g"),p[l]);return e}});

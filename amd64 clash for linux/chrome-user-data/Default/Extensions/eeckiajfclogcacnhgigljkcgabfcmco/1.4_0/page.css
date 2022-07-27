@@ -1,0 +1,227 @@
+body, div, form, label, input, select, option, button {
+    padding: 0; margin: 0; font: inherit
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(OpenSans.woff) format('woff');
+}
+
+body {
+    padding: 20px;
+    font: 16px Open Sans, sans-serif;
+}
+
+#wrapper {
+    margin-left:auto;
+    margin-right:auto;
+    width:960px;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: opacity 1s ease-in;
+       -moz-transition: opacity 1s ease-in;
+        -ms-transition: opacity 1s ease-in;
+         -o-transition: opacity 1s ease-in;
+            transition: opacity 1s ease-in;
+}
+
+#tree {
+    clear: both;
+    margin-top: 25px;
+}
+
+#duplicates, #manual {
+    clear: both;
+    margin-top: 25px;
+    display: none;
+    padding-left: 10px;
+}
+
+#header {
+    margin-left:300px;
+    margin-right:auto;
+    width: 400px;
+}
+
+#logo {
+    margin: 10px;
+    vertical-align: middle;
+    height: 32px;
+	float: left;
+}
+
+#title {
+    font-size: 24px;
+    color: #00C000;
+	clear: both;
+	display: inline-block;
+	margin-top: 8px;
+}
+
+#paypal {
+    height: 24px;
+    width: 24px;
+    vertical-align: middle;
+    margin-bottom: 8px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+#heart {
+    height: 24px;
+    width: 24px;
+    vertical-align: middle;
+    margin-bottom: 8px;
+    margin-left: 0;
+    margin-right: 10px;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+#menu {
+    height: 32px;
+    width: 100%;
+	opacity: 1;
+	border-bottom: 1px solid black;
+	border-color: silver;
+	border-width: 1px;
+	margin-top: 32px;
+}
+
+#button_help, #button_duplicates, #button_tree {
+    height: 16px;
+    width: 16px;
+    float: left;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+#button_tree {
+    display: none;
+}
+
+.menulabel {
+	padding-left: 36px;
+	padding-right: 10px;
+}
+
+.checkall, .viewhide, .deleteall, .status, .delete {
+    cursor: pointer;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 120px;
+    height: 10px;
+    margin: 5px -30px 5px 5px;
+    border-radius: 3px;   
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    float: left;
+    vertical-align: middle;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%; 
+    background: #4CAF50;
+    background-image: url('images/timeout.png');
+    background-size:16px;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #4CAF50;
+    background-image: url('images/timeout.png');
+    background-size:16px;
+    cursor: pointer;
+}
+
+.node {
+    clear: both;
+    height: 20px;
+    border-bottom: 1px dashed #ddd;
+    padding-left: 10px;
+}
+
+.icon {
+    height: 16px;
+    width:16px;
+    padding: 2px;
+    vertical-align: middle;
+    float: left;
+    -webkit-user-select: none;    
+}
+
+.text {
+    float: left;
+    margin-left: 8px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.spacer {
+    border: 0px solid red;
+    float: left;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.manicon {
+    height: 16px;
+    width:16px;
+    /*marpadding: -15px;*/
+    margin-top: -2px;
+    vertical-align: middle;
+    -webkit-user-select: none;    
+}
+
+.duplicate {
+	border: 1px solid silver;
+	margin: 10px;
+	padding: 10px;
+}
+
+.duplicate_set {
+	background-color: #eee;
+	border: 1px dashed silver;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+
+.duplicated_url {
+    /*background-color: silver;*/
+    clear: both;
+    padding: 10px;
+    margin: 10px;
+	font-family: "Courier New", Courier, mono;
+	font-style: italic;
+}
+
+#duplicates_title {
+	
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+	font-size: 24px;
+}

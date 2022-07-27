@@ -1,0 +1,556 @@
+{
+   "apierrmsg_aborted": {
+      "message": "Operația a fost întreruptă."
+   },
+   "apierrmsg_device_list_error": {
+      "message": "Nu s-au găsit unități USB sau carduri SD."
+   },
+   "apierrmsg_device_list_error_on_hub": {
+      "message": "Nu s-a găsit nicio unitate USB."
+   },
+   "apierrmsg_device_list_error_workspace_hardware": {
+      "message": "Nu s-a găsit nicio unitate USB."
+   },
+   "apierrmsg_device_write_error": {
+      "message": "Nu se poate scrie pe cardul SD sau pe unitatea flash USB selectată. Permisiunile de scriere ale dispozitivului dvs. sunt dezactivate sau administratorul de domeniu a dezactivat scrierea pe stocarea USB."
+   },
+   "apierrmsg_download_cancelled": {
+      "message": "Descărcarea a fost anulată."
+   },
+   "apierrmsg_download_hash_mismatch": {
+      "message": "Fișierul nu este valid."
+   },
+   "apierrmsg_download_interrupted": {
+      "message": "Descărcarea a fost întreruptă. Verificați conexiunea la rețea și încercați din nou."
+   },
+   "apierrmsg_file_invalid": {
+      "message": "Fișierul nu este valid."
+   },
+   "apierrmsg_operation_already_in_progress": {
+      "message": "Deja se desfășoară o operație."
+   },
+   "apierrmsg_unknown": {
+      "message": "Eroare necunoscută: $1.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "apierrmsg_unsupported_operation": {
+      "message": "Operație neacceptată."
+   },
+   "apierrmsg_unzip_error": {
+      "message": "Fișierul nu poate fi dezarhivat. Verificați dacă dispozitivul are suficient spațiu și încercați din nou."
+   },
+   "apierrmsg_unzip_invalid_archive": {
+      "message": "Fișierul zip nu este valid."
+   },
+   "apierrmsg_url_invalid": {
+      "message": "Fișierul nu a fost găsit."
+   },
+   "apierrmsg_verification_failed": {
+      "message": "Imaginea nu a fost verificată."
+   },
+   "app_description": {
+      "message": "Creați un suport de recuperare pentru Chromebook."
+   },
+   "app_description_on_hub": {
+      "message": "Creați o unitate USB de recuperare pentru OnHub."
+   },
+   "app_description_workspace_hardware": {
+      "message": "Creați o unitate USB de recuperare pentru Meet Compute System."
+   },
+   "app_name": {
+      "message": "Utilitar de recuperare Chromebook"
+   },
+   "app_name_on_hub": {
+      "message": "Utilitar de recuperare OnHub"
+   },
+   "app_name_workspace_hardware": {
+      "message": "Utilitar de recuperare Meet Compute System"
+   },
+   "app_short_name": {
+      "message": "Recuperare"
+   },
+   "cancel_button_text": {
+      "message": "Anulați"
+   },
+   "chrome_app_deprecation_message": {
+      "message": "Așa cum am anunțat în mod public pe \u003Ca href=\"https://blog.chromium.org/2020/08/changes-to-chrome-app-support-timeline.html\" target=\"_blank\" tabindex=\"0\">blogul Chromium\u003C/a>, Google nu mai acordă asistență Aplicațiilor Chrome începând din iunie 2021. Folosiți \u003Ca href=\"https://chrome.google.com/webstore/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm\" target=\"_blank\">extensia Utilitar de recuperare Chromebook/a> și \u003Ca href=\"http://www.google.com/chromeos/recovery\" target=\"_blank\">documentația\u003C/a> asociată pentru a vă recupera dispozitivele."
+   },
+   "chrome_app_deprecation_message_on_hub": {
+      "message": "Așa cum am anunțat în mod public pe \u003Ca href=\"https://blog.chromium.org/2020/08/changes-to-chrome-app-support-timeline.html\" target=\"_blank\" tabindex=\"0\">blogul Chromium\u003C/a>, Google nu mai acordă asistență Aplicațiilor Chrome începând din iunie 2021. Folosiți \u003Ca href=\"https://chrome.google.com/webstore/detail/onhub-recovery-utility/fmgkgdalfapcmjnanilfcpkhkhedmpdm\" target=\"_blank\">extensia Utilitar de recuperare OnHub\u003C/a> și \u003Ca href=\"https://support.google.com/onhub/answer/6274977\" target=\"_blank\">documentația\u003C/a> asociată pentru a vă recupera dispozitivele."
+   },
+   "complete_bullet1": {
+      "message": "Pentru recuperarea Chromebookului, conectați suportul de recuperare la Chromebook."
+   },
+   "complete_bullet1_on_hub": {
+      "message": "Deconectați cablul de alimentare de la OnHub și introduceți unitatea USB în partea din spate a dispozitivului. Țineți apăsat butonul de resetare și conectați alimentarea. Mențineți butonul de resetare apăsat aproximativ 15 secunde sau până când indicatorul de activitate al unității USB începe să lumineze intermitent."
+   },
+   "complete_bullet1_workspace_hardware": {
+      "message": "Pentru a recupera Meet Compute System, urmați instrucțiunile din \u003Ca href=\"http://support.google.com/meethardware/answer/10562922#zippy=%2Cstep-enter-recovery-mode\" target=\"_blank\">Recuperați caseta de calcul pentru hardware Google Meet 3: Introduceți Recovery mode\u003C/a>"
+   },
+   "complete_bullet2": {
+      "message": "După recuperare, puteți să ștergeți suportul de recuperare folosind acest utilitar."
+   },
+   "complete_bullet2_on_hub": {
+      "message": "OnHub va parcurge procesul de recuperare, care poate dura câteva minute. După recuperare, OnHub va reporni. Apoi, folosiți aplicația Google On pentru a configura dispozitivul OnHub."
+   },
+   "complete_bullet2_workspace_hardware": {
+      "message": "Pentru a șterge unitatea flash USB când este gata, porniți Utilitarul de recuperare Meet Compute System, dați clic pe \u003Cb>Setări\u003C/b>, apoi pe \u003Cb>Ștergeți suportul de recuperare\u003C/b>"
+   },
+   "complete_message": {
+      "message": "Acum puteți să deconectați suportul de recuperare."
+   },
+   "complete_message_on_hub": {
+      "message": "Acum puteți să deconectați unitatea USB de recuperare."
+   },
+   "complete_message_workspace_hardware": {
+      "message": "Puteți să eliminați unitatea flash"
+   },
+   "complete_title": {
+      "message": "Ați reușit! Suportul de recuperare este gata"
+   },
+   "complete_title_on_hub": {
+      "message": "Ați reușit! Unitatea USB de recuperare este gata"
+   },
+   "complete_title_workspace_hardware": {
+      "message": "Ați reușit! Unitatea USB de recuperare este gata"
+   },
+   "completed": {
+      "message": "finalizat"
+   },
+   "confirm_cancelled_message_html": {
+      "message": "Anulat. Dați clic pe &rdquo;Creați acum&rdquo; pentru a încerca din nou.\u003Cbr>\u003Cbr>Pentru a șterge suportul de recuperare, dați clic pe pictograma roată din colțul din dreapta sus."
+   },
+   "confirm_cancelled_message_html_on_hub": {
+      "message": "Anulat. Dați clic pe &rdquo;Creați acum&rdquo; pentru a încerca din nou.\u003Cbr>\u003Cbr>Pentru a șterge unitatea USB de recuperare, dați clic pe pictograma roată din colțul din dreapta sus."
+   },
+   "confirm_cancelled_message_html_workspace_hardware": {
+      "message": "Anulat. Dați clic pe &rdquo;Creați acum&rdquo; pentru a încerca din nou.\u003Cbr>\u003Cbr>Pentru a șterge unitatea USB de recuperare, dați clic pe pictograma roată din colțul din dreapta sus."
+   },
+   "confirm_hide_advanced_settings_message": {
+      "message": "Ascundeți setările avansate"
+   },
+   "confirm_message_html": {
+      "message": "\u003Cb>Important:\u003C/b> toate datele și partițiile de pe suportul de recuperare vor fi șterse."
+   },
+   "confirm_message_html_on_hub": {
+      "message": "\u003Cb>Important:\u003C/b> toate datele și partițiile de pe unitatea USB de recuperare vor fi șterse."
+   },
+   "confirm_message_html_workspace_hardware": {
+      "message": "\u003Cb>Important:\u003C/b> toate datele de pe unitatea flash vor fi șterse"
+   },
+   "confirm_show_advanced_settings_message": {
+      "message": "Afișați setările avansate."
+   },
+   "confirm_title": {
+      "message": "Creați o imagine de recuperare"
+   },
+   "continue_button_text": {
+      "message": "Continuați"
+   },
+   "create_another_button_text": {
+      "message": "Creați altul"
+   },
+   "create_now_button_text": {
+      "message": "Creați acum"
+   },
+   "dev_app_description": {
+      "message": "Versiunea de dezvoltare a Utilitarului de recuperare Chromebook."
+   },
+   "dev_app_description_on_hub": {
+      "message": "Versiunea de dezvoltare a Utilitarului de recuperare OnHub."
+   },
+   "dev_app_description_workspace_hardware": {
+      "message": "Versiunea de dezvoltare a Utilitarului de recuperare Meet Compute System."
+   },
+   "dev_app_name": {
+      "message": "Utilitar de recuperare Chromebook (Dev)"
+   },
+   "dev_app_name_on_hub": {
+      "message": "Utilitar de recuperare OnHub (Dev)"
+   },
+   "dev_app_name_workspace_hardware": {
+      "message": "Utilitar de recuperare Meet Compute System"
+   },
+   "done_button_text": {
+      "message": "Terminat"
+   },
+   "erase_complete_bullet1": {
+      "message": "Unitatea USB sau cardul SD sunt pregătite pentru formatare."
+   },
+   "erase_complete_bullet1_on_hub": {
+      "message": "Unitatea USB este pregătită pentru formatare."
+   },
+   "erase_complete_bullet1_workspace_hardware": {
+      "message": "Unitatea USB este pregătită pentru formatare."
+   },
+   "erase_complete_bullet2": {
+      "message": "Formatați folosind un instrument de formatare din sistemul de operare."
+   },
+   "erase_complete_title": {
+      "message": "Suportul de recuperare a fost șters."
+   },
+   "erase_complete_title_on_hub": {
+      "message": "Unitatea USB de recuperare a fost ștearsă."
+   },
+   "erase_complete_title_workspace_hardware": {
+      "message": "Unitatea USB de recuperare a fost ștearsă."
+   },
+   "erase_confirm_message": {
+      "message": "Imaginea de recuperare și toate partițiile de pe suportul de recuperare vor fi șterse."
+   },
+   "erase_confirm_message_on_hub": {
+      "message": "Imaginea de recuperare și toate partițiile de pe unitatea USB de recuperare vor fi șterse."
+   },
+   "erase_confirm_message_workspace_hardware": {
+      "message": "Imaginea de recuperare și toate partițiile de pe unitatea USB de recuperare vor fi șterse."
+   },
+   "erase_now_button_text": {
+      "message": "Ștergeți acum"
+   },
+   "erase_progress_text": {
+      "message": "Nu deconectați suportul de recuperare."
+   },
+   "erase_progress_text_on_hub": {
+      "message": "Nu deconectați unitatea USB de recuperare."
+   },
+   "erase_progress_text_workspace_hardware": {
+      "message": "Nu deconectați unitatea USB de recuperare."
+   },
+   "erase_progress_title": {
+      "message": "Se șterge suportul de recuperare"
+   },
+   "erase_progress_title_on_hub": {
+      "message": "Se șterge unitatea USB de recuperare"
+   },
+   "erase_progress_title_workspace_hardware": {
+      "message": "Se șterge unitatea USB de recuperare"
+   },
+   "erase_select_target_detecting": {
+      "message": "Se detectează"
+   },
+   "erase_select_target_high_capacity_warning_html": {
+      "message": "\u003Cb>Avertisment:\u003C/b> aceasta este unitatea corectă?"
+   },
+   "erase_select_target_no_devices_found": {
+      "message": "Nu s-au găsit unități USB sau carduri SD"
+   },
+   "erase_select_target_no_devices_found_on_hub": {
+      "message": "Nu s-au găsit unități USB"
+   },
+   "erase_select_target_no_devices_found_workspace_hardware": {
+      "message": "Nu s-au găsit unități USB"
+   },
+   "erase_select_target_select_device": {
+      "message": "Selectați suportul de recuperare pe care doriți să îl ștergeți."
+   },
+   "erase_select_target_select_device_on_hub": {
+      "message": "Selectați unitatea USB de recuperare pe care doriți să o ștergeți."
+   },
+   "erase_select_target_select_device_placeholder": {
+      "message": "Selectați"
+   },
+   "erase_select_target_select_device_workspace_hardware": {
+      "message": "Selectați unitatea USB de recuperare pe care doriți să o ștergeți."
+   },
+   "erase_title": {
+      "message": "Ștergeți suportul de recuperare"
+   },
+   "erase_title_on_hub": {
+      "message": "Ștergeți unitatea USB de recuperare"
+   },
+   "erase_title_workspace_hardware": {
+      "message": "Ștergeți unitatea USB de recuperare"
+   },
+   "errmsg_please_try_again": {
+      "message": "Încercați din nou."
+   },
+   "errmsg_recovery_config_download_failure": {
+      "message": "Fișierul de configurare nu a fost descărcat. Vor fi disponibile numai funcțiile offline."
+   },
+   "get_started_button_text": {
+      "message": "Începeți"
+   },
+   "gigabyte_abbreviation": {
+      "message": "GB"
+   },
+   "go_back_button_text": {
+      "message": "Înapoi"
+   },
+   "hours_remaining": {
+      "message": "Au rămas $1 ore.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "hwid_invalid_model": {
+      "message": "Numărul modelului nu este valid. Verificați datele introduse."
+   },
+   "hwid_keep_typing": {
+      "message": "Nu s-a găsit niciun model. Mai încercați."
+   },
+   "hwid_keep_typing_workspace_hardware": {
+      "message": "Nu s-a găsit niciun model"
+   },
+   "hwid_match_found": {
+      "message": "S-a găsit o potrivire"
+   },
+   "hwid_match_found_and_checksum_verified": {
+      "message": "S-a găsit o potrivire cu numele exact al modelului"
+   },
+   "learn_more_link_text": {
+      "message": "Aflați mai multe"
+   },
+   "learn_more_link_url": {
+      "message": "http://www.google.com/chromeos/recovery"
+   },
+   "learn_more_link_url_on_hub": {
+      "message": "https://support.google.com/onhub/answer/6274977"
+   },
+   "learn_more_link_url_workspace_hardware": {
+      "message": "http://support.google.com/meethardware/answer/10562922"
+   },
+   "loading_config_text": {
+      "message": "Se pregătește..."
+   },
+   "menu_item_erase_recovery_media": {
+      "message": "Ștergeți suportul de recuperare"
+   },
+   "menu_item_erase_recovery_media_on_hub": {
+      "message": "Ștergeți unitatea USB de recuperare"
+   },
+   "menu_item_erase_recovery_media_workspace_hardware": {
+      "message": "Ștergeți unitatea USB de recuperare"
+   },
+   "menu_item_send_feedback": {
+      "message": "Trimiteți feedback"
+   },
+   "menu_item_use_local_image": {
+      "message": "Folosiți o imagine locală"
+   },
+   "minutes_remaining": {
+      "message": "Au rămas $1 minute.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "of": {
+      "message": "din"
+   },
+   "recovery_channel_beta": {
+      "message": "Beta"
+   },
+   "recovery_channel_dev": {
+      "message": "Dezvoltatori"
+   },
+   "recovery_channel_ltc": {
+      "message": "Candidat pentru asistență pe durată extinsă (doar pentru companii)"
+   },
+   "recovery_channel_lts": {
+      "message": "Asistență pe durată extinsă (doar pentru companii)"
+   },
+   "recovery_channel_stable": {
+      "message": "Stabilă"
+   },
+   "seconds_remaining": {
+      "message": "Au rămas $1 secunde.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "select_channel_placeholder": {
+      "message": "Selectați un canal de recuperare"
+   },
+   "select_image_select_by_hwid_link_text": {
+      "message": "Introduceți direct un număr de model"
+   },
+   "select_image_select_from_list_link_text": {
+      "message": "Selectați un model dintr-o listă"
+   },
+   "select_image_select_manufacturer_placeholder": {
+      "message": "Selectați un producător"
+   },
+   "select_image_select_product_placeholder": {
+      "message": "Selectați un produs"
+   },
+   "select_image_select_product_placeholder_on_hub": {
+      "message": "Selectați un model"
+   },
+   "select_image_select_product_placeholder_workspace_hardware": {
+      "message": "Selectați un model"
+   },
+   "select_image_text": {
+      "message": "Introduceți numărul de model al Chromebookului de recuperat. Îl puteți găsi în ecranul de recuperare."
+   },
+   "select_image_text_on_hub": {
+      "message": "Introduceți numărul de model al dispozitivului OnHub."
+   },
+   "select_image_text_workspace_hardware": {
+      "message": "Introduceți numărul modelului propriu Meet Compute System"
+   },
+   "select_image_this_chromebooks_model_number": {
+      "message": "Pentru acest Chromebook introduceți"
+   },
+   "select_image_this_chromebooks_model_number_on_hub": {
+      "message": "Pentru acest OnHub, introduceți"
+   },
+   "select_image_this_chromebooks_model_number_workspace_hardware": {
+      "message": "Pentru acest Meet Compute System, introduceți"
+   },
+   "select_image_title": {
+      "message": "Identificați-vă Chromebookul"
+   },
+   "select_image_title_on_hub": {
+      "message": "Identificați-vă dispozitivul OnHub"
+   },
+   "select_image_title_workspace_hardware": {
+      "message": "Identificați-vă dispozitivul Meet Compute System"
+   },
+   "select_target_detecting": {
+      "message": "Se detectează"
+   },
+   "select_target_high_capacity_warning_html": {
+      "message": "\u003Cb>Avertisment:\u003C/b> acesta este suportul corect?"
+   },
+   "select_target_high_capacity_warning_html_on_hub": {
+      "message": "\u003Cb>Avertisment:\u003C/b> aceasta este unitatea USB corectă?"
+   },
+   "select_target_high_capacity_warning_html_workspace_hardware": {
+      "message": "\u003Cb>Avertisment:\u003C/b> aceasta este unitatea USB corectă?"
+   },
+   "select_target_low_capacity_error": {
+      "message": "Suportul trebuie să aibă o capacitate de minimum 8 GB."
+   },
+   "select_target_low_capacity_error_on_hub": {
+      "message": "Unitatea USB trebuie să aibă o capacitate de minimum 8 GB."
+   },
+   "select_target_low_capacity_error_workspace_hardware": {
+      "message": "Unitatea USB trebuie să aibă o capacitate de minimum 8 GB."
+   },
+   "select_target_no_devices_found": {
+      "message": "Nu s-au găsit unități USB sau carduri SD"
+   },
+   "select_target_no_devices_found_on_hub": {
+      "message": "Nu s-au găsit unități USB"
+   },
+   "select_target_no_devices_found_workspace_hardware": {
+      "message": "Nu s-au găsit unități USB"
+   },
+   "select_target_select_device": {
+      "message": "Selectați suportul pe care doriți să îl folosiți."
+   },
+   "select_target_select_device_on_hub": {
+      "message": "Selectați unitatea USB pe care doriți să o folosiți."
+   },
+   "select_target_select_device_placeholder": {
+      "message": "Selectați"
+   },
+   "select_target_select_device_workspace_hardware": {
+      "message": "Selectați unitatea USB pe care doriți să o folosiți."
+   },
+   "select_target_title": {
+      "message": "Introduceți unitatea flash USB sau cardul SD"
+   },
+   "select_target_title_on_hub": {
+      "message": "Introduceți unitatea flash USB"
+   },
+   "select_target_title_workspace_hardware": {
+      "message": "Introduceți unitatea flash USB"
+   },
+   "stage_complete": {
+      "message": "Finalizat"
+   },
+   "stage_download": {
+      "message": "Se descarcă"
+   },
+   "stage_downloadverify": {
+      "message": "Se verifică descărcarea"
+   },
+   "stage_unpack": {
+      "message": "Se despachetează"
+   },
+   "stage_unzip": {
+      "message": "Se despachetează"
+   },
+   "stage_verify": {
+      "message": "Se verifică"
+   },
+   "stage_verifydownload": {
+      "message": "Se verifică descărcarea"
+   },
+   "stage_verifywrite": {
+      "message": "Se verifică"
+   },
+   "stage_write": {
+      "message": "Se scrie"
+   },
+   "step": {
+      "message": "Pasul"
+   },
+   "unsupported_text": {
+      "message": "Platforma nu este compatibilă. Consultați \u003Ca href=\"http://www.google.com/chromeos/recovery\" target=\"_blank\">Centrul de ajutor Chromebook\u003C/a> pentru mai multe informații."
+   },
+   "unsupported_text_mac": {
+      "message": "Mac este compatibil numai cu M37 sau cu versiuni ulterioare. Actualizați Chrome la M37. Pentru aceasta, poate fi necesar să \u003Ca href=\"https://support.google.com/chromebook/answer/1086915\" target=\"_blank\">comutați la canalul beta\u003C/a>."
+   },
+   "unsupported_text_on_hub": {
+      "message": "Platforma nu este compatibilă. Pentru mai multe informații, consultați \u003Ca href=\"https://support.google.com/onhub/answer/6274977\" target=\"_blank\">Centrul de ajutor OnHub\u003C/a>."
+   },
+   "unsupported_title": {
+      "message": "Platforma nu este compatibilă"
+   },
+   "unsupported_title_linux": {
+      "message": "Linux nu este compatibil"
+   },
+   "unsupported_title_mac": {
+      "message": "Mac nu este compatibil"
+   },
+   "unsupported_title_win": {
+      "message": "Windows nu este compatibil"
+   },
+   "usupported_text_workspace_hardware": {
+      "message": "Platforma dvs. nu este acceptată în acest moment.  Pentru mai multe informații, consultați \u003Ca href=\"http://support.google.com/meethardware/answer/10562922\" target=\"_blank\">centrul de ajutor pentru hardware Google Meet\u003C/a>."
+   },
+   "warning_offline": {
+      "message": "Dispozitivul este offline. Vor fi disponibile numai funcțiile offline."
+   },
+   "welcome_text": {
+      "message": "Veți avea nevoie de o unitate flash USB sau de un card SD de minimum 8 GB, pe care să îl puteți șterge."
+   },
+   "welcome_text_on_hub": {
+      "message": "Veți avea nevoie de o unitate flash USB de minimum 8 GB, pe care să o puteți șterge."
+   },
+   "welcome_text_workspace_hardware": {
+      "message": "Veți avea nevoie de o unitate flash USB de minimum 8 GB, pe care să o puteți șterge. Dacă dispozitivul dvs. are unitate SD, puteți folosi și un card SD."
+   },
+   "welcome_title": {
+      "message": "Creați un suport de recuperare pentru Chromebook"
+   },
+   "welcome_title_on_hub": {
+      "message": "Creați o unitate USB de recuperare pentru OnHub"
+   },
+   "welcome_title_workspace_hardware": {
+      "message": "Creați o unitate USB de recuperare pentru Meet Compute System"
+   },
+   "write_message": {
+      "message": "Nu deconectați suportul de recuperare."
+   },
+   "write_message_on_hub": {
+      "message": "Nu deconectați unitatea USB de recuperare."
+   },
+   "write_message_workspace_hardware": {
+      "message": "Nu scoateți unitatea flash USB."
+   },
+   "write_title": {
+      "message": "Crearea unei imagini de recuperare"
+   }
+}

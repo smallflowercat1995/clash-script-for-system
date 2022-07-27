@@ -1,0 +1,556 @@
+{
+   "apierrmsg_aborted": {
+      "message": "ክወና ተቋርጧል።"
+   },
+   "apierrmsg_device_list_error": {
+      "message": "የዩኤስቢ አንጻፊ ወይም ኤስዲ ካርድ ማግኘት አልተቻለም።"
+   },
+   "apierrmsg_device_list_error_on_hub": {
+      "message": "ዩኤስቢ አንፃፊን ማግኘት አልተቻለም።"
+   },
+   "apierrmsg_device_list_error_workspace_hardware": {
+      "message": "ዩኤስቢ አንፃፊን ማግኘት አልተቻለም።"
+   },
+   "apierrmsg_device_write_error": {
+      "message": "ወደተመረጠው ፍላሽ አንጻፊ ወይም ኤስዲ ካርድ መጻፍ አልተቻለም። የእርስዎ መሳሪያ የመጻፍ ፈቃዶች ተሰናክለው ወይም የእርስዎ የጎራ አስተዳዳሪ ወደ USB ማከማቻ መጻፍን አሰናክሎ ሊሆን ይችላል።"
+   },
+   "apierrmsg_download_cancelled": {
+      "message": "ውርድ ተሰርዟል።"
+   },
+   "apierrmsg_download_hash_mismatch": {
+      "message": "ፋይሉ ልክ ያልሆነ ነው።"
+   },
+   "apierrmsg_download_interrupted": {
+      "message": "ማውረድ ተቋርጧል። እባክዎ የእርስዎን አውታረ መረብ ግንኙነት ይፈትሹና እንደገና ይሞክሩ።"
+   },
+   "apierrmsg_file_invalid": {
+      "message": "ፋይል ልክ ያልሆነ ነው።"
+   },
+   "apierrmsg_operation_already_in_progress": {
+      "message": "አንድ ክወና አስቀድሞ በሂደት ላይ ነው።"
+   },
+   "apierrmsg_unknown": {
+      "message": "ያልታወቀ ስህተት፦ $1።",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "apierrmsg_unsupported_operation": {
+      "message": "የማይደገፍ ክወና።"
+   },
+   "apierrmsg_unzip_error": {
+      "message": "ፋይሉን ከዚፕ ማውጣት አልተቻለም። እባክዎ መሳሪያዎ በቂ ቦታ እንዳለው ይፈትሹና እንደገና ይሞክሩ።"
+   },
+   "apierrmsg_unzip_invalid_archive": {
+      "message": "ልክ ያልሆነ የዚፕ ፋይል።"
+   },
+   "apierrmsg_url_invalid": {
+      "message": "ፋይል አልተገኘም።"
+   },
+   "apierrmsg_verification_failed": {
+      "message": "የምስል ማረጋገጥ አልተሳካም።"
+   },
+   "app_description": {
+      "message": "ለእርስዎ Chromebook የመልሶ ማግኛ ማህደረ መረጃ ይፍጠሩ።"
+   },
+   "app_description_on_hub": {
+      "message": "ለእርስዎ OnHub የመልሶ ማግኛ ዩኤስቢ አንፃፊ ይፍጠሩ።"
+   },
+   "app_description_workspace_hardware": {
+      "message": "ለMeet ስሌት ስርዓትዎ የመልሶ ማግኛ የዩኤስቢ አንጻፊ ይፍጠሩ።"
+   },
+   "app_name": {
+      "message": "የChromebook መልሶ ማግኛ መገልገያ"
+   },
+   "app_name_on_hub": {
+      "message": "OnHub የመልሶ ማግኛ መገልገያ"
+   },
+   "app_name_workspace_hardware": {
+      "message": "የMeet የስሌት ስርዓት መልሶ ማግኛ መገልገያ"
+   },
+   "app_short_name": {
+      "message": "መልሶ ማግኘት"
+   },
+   "cancel_button_text": {
+      "message": "ይቅር"
+   },
+   "chrome_app_deprecation_message": {
+      "message": "በ\u003Ca href=\"https://blog.chromium.org/2020/08/changes-to-chrome-app-support-timeline.html\" target=\"_blank\" tabindex=\"0\">Chromium blog\u003C/a> ላይ በይፋ እንደተገለጸው Google ለChrome መተግበሪያዎች በጁን 2021 ድጋፍን እያቋረጠ ነው። የእርስዎን መሣሪያ (ዎች) መልሰው ለማግኘት እባክዎ \u003Ca href=\"https://chrome.google.com/webstore/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm\" target=\"_blank\">የChromebook መልሶ ማግኛ መገልገያ ቅጥያ\u003C/a> እና ተዛማጅ \u003Ca href=\"http://www.google.com/chromeos/recovery\" target=\"_blank\">ሰነድ\u003C/a>ን ይጠቀሙ።"
+   },
+   "chrome_app_deprecation_message_on_hub": {
+      "message": "በ\u003Ca href=\"https://blog.chromium.org/2020/08/changes-to-chrome-app-support-timeline.html\" target=\"_blank\" tabindex=\"0\">Chromium blog\u003C/a> ላይ በይፋ እንደተገለጸው Google ለChrome መተግበሪያዎች በጁን 2021 ድጋፍን እያቋረጠ ነው። የእርስዎን መሣሪያ (ዎች) መልሰው ለማግኘት እባክዎ \u003Ca href=\"https://chrome.google.com/webstore/detail/onhub-recovery-utility/fmgkgdalfapcmjnanilfcpkhkhedmpdm\" target=\"_blank\">የOnHub መልሶ ማግኛ መገልገያ ቅጥያ\u003C/a> እና ተዛማጅ \u003Ca href=\"https://support.google.com/onhub/answer/6274977\" target=\"_blank\">ሰነድ\u003C/a>ን ይጠቀሙ።"
+   },
+   "complete_bullet1": {
+      "message": "የእርስዎን Chromebook መልሰው ለማግኘት የመልሶ ማግኛ ሚዲያውን ወደ የእርስዎ Chromebook ይሰኩት።"
+   },
+   "complete_bullet1_on_hub": {
+      "message": "የኃይል ገመዱን ከእርስዎ OnHub ይንቀሉትና ከመሣሪያው ጀርባ የዩኤስቢ አንፃፊውን ያስገቡት። የዳግም ማስጀመሪያ አዝራሩን ይዘው ይቆዩ እና ኃይል ይሰኩ። ለ15 ሰከንዶች ያህል ወይም በዩኤስቢ አንፃፊው ላይ የእንቅስቃሴ መብራቱ ብልጭ ድርግም ማለት እስከሚጀምር ድረስ መያዝዎን ይቀጥሉ።"
+   },
+   "complete_bullet1_workspace_hardware": {
+      "message": "የMeet ኮምፒዩተር ሥርዓትዎን መልሶ ለማግኘት በ\u003Ca href=\"http://support.google.com/meethardware/answer/10562922#zippy=%2Cstep-enter-recovery-mode\" target=\"_blank\">ውስጥ ያሉትን መመሪያዎች ይከተሉ። የGoogle Meet ሃርድዌር የማስያ ሳጥን መልሰው ያግኙ፣ እርምጃ 3፦ የመልሶ ማግኘት ሁነታን ያስገቡ\u003C/a>"
+   },
+   "complete_bullet2": {
+      "message": "ከመልሶ ማግኘት በኋላ ይህን መገልገያ በመጠቀም የመልሶ ማግኛ ሚዲያዎን መደምሰስ ይችላሉ።"
+   },
+   "complete_bullet2_on_hub": {
+      "message": "የእርስዎ OnHub በማልሶ ማግኛው ሂደት ውስጥ ያልፋል፣ ይህም በርካታ ደቂቃዎችን ሊወስድ ይችላል። አንዴ የእርስዎ OnHub መልሶ ከተገኘ በኋላ ዳግም ይነሳል። በመቀጠል የእርስዎን የOnHub ለማቀናበር የGoogle On መተግበሪያውን ይጠቀሙ።"
+   },
+   "complete_bullet2_workspace_hardware": {
+      "message": "ሲጨርስ የዩኤስቢ ፍላሽ አንጻፊውን ለማጥፋት የMeet ኮምፒዩተር ሥርዓት መልሶ ማግኛ መገልገያውን ይጀምሩ፣ \u003Cb> ቅንብሮች\u003C/b>ን ጠቅ ያድርጉ እና ከዚያ \u003Cb>የመልሶ ማግኛ ሚዲያን አጥፋ\u003C/b>ን ጠቅ ያድርጉ"
+   },
+   "complete_message": {
+      "message": "የመልሶ ማግኛ ሚዲያዎን አሁን ማስወገድ ይችላሉ።"
+   },
+   "complete_message_on_hub": {
+      "message": "የእርስዎን የመልሶ ማግኛ ዩኤስቢ አንፃፊ አሁን ማስወገድ ይችላሉ።"
+   },
+   "complete_message_workspace_hardware": {
+      "message": "ፍላሽ አንጻፊውን አሁን ማስወገድ ይችላሉ"
+   },
+   "complete_title": {
+      "message": "ስኬት! የመልሶ ማግኛ ሚዲያዎ ዝግጁ ነው"
+   },
+   "complete_title_on_hub": {
+      "message": "ስኬት! የእርስዎ መልሶ ማግኛ ዩኤስቢ አንፃፊ ዝግጁ ነው"
+   },
+   "complete_title_workspace_hardware": {
+      "message": "ስኬት! የእርስዎ መልሶ ማግኛ ዩኤስቢ አንፃፊ ዝግጁ ነው"
+   },
+   "completed": {
+      "message": "ተጠናቅቋል"
+   },
+   "confirm_cancelled_message_html": {
+      "message": "ተሰርዟል። እንደገና ለመሞከር &laquo;አሁን ፍጠር&raquo; ላይ ጠቅ ያድርጉ።\u003Cbr>\u003Cbr>የመልሶ ማግኛ ሚዲያዎን ለመደምሰስ ከላይ ቀኝ ጥግ ላይ ያለውን የማርሽ አዶ ላይ ጠቅ ያድርጉ።"
+   },
+   "confirm_cancelled_message_html_on_hub": {
+      "message": "ተሰርዟል። እንደገና ለመሞከር &laquo;አሁን ፍጠር&raquo; ላይ ጠቅ ያድርጉ።\u003Cbr>\u003Cbr>የመልሶ ማግኛ ዩኤስቢ አንፃፊን ለመደምሰስ ከላይ ቀኝ ጥግ ላይ ያለውን የማርሽ አዶ ላይ ጠቅ ያድርጉ።"
+   },
+   "confirm_cancelled_message_html_workspace_hardware": {
+      "message": "ተሰርዟል። እንደገና ለመሞከር &laquo;አሁን ፍጠር&raquo; ላይ ጠቅ ያድርጉ።\u003Cbr>\u003Cbr>የመልሶ ማግኛ ዩኤስቢ አንፃፊን ለመደምሰስ ከላይ ቀኝ ጥግ ላይ ያለውን የማርሽ አዶ ላይ ጠቅ ያድርጉ።"
+   },
+   "confirm_hide_advanced_settings_message": {
+      "message": "የላቁ ቅንብሮችን ደብቅ"
+   },
+   "confirm_message_html": {
+      "message": "\u003Cb>አስፈላጊ፦\u003C/b> በእርስዎ የመልሶ ማግኛ ሚዲያ ላይ ያለው ሁሉም ውሂብ እና ክፍልፋዮች ይሰረዛሉ።"
+   },
+   "confirm_message_html_on_hub": {
+      "message": "\u003Cb>አስፈላጊ፦\u003C/b> በእርስዎ ዩኤስቢ አንፃፊ ላይ ያለው ሁሉም ውሂብ እና ክፍልፋዮች ይሰረዛሉ።"
+   },
+   "confirm_message_html_workspace_hardware": {
+      "message": "\u003Cb>አስፈላጊ፦\u003C/b> በእርስዎ ፍላሽ አንፃፊ ላይ ያሉት ሁሉም ነገሮች ይሰረዛሉ"
+   },
+   "confirm_show_advanced_settings_message": {
+      "message": "የላቁ ቅንብሮችን አሳይ"
+   },
+   "confirm_title": {
+      "message": "የመልሶ ማግኛ ምስል ይፍጠሩ"
+   },
+   "continue_button_text": {
+      "message": "ቀጥል"
+   },
+   "create_another_button_text": {
+      "message": "ሌላ ፍጠር"
+   },
+   "create_now_button_text": {
+      "message": "አሁን ፍጠር"
+   },
+   "dev_app_description": {
+      "message": "የChromebook መልሶ ማግኛ መገልገያ ግንብ ስሪት።"
+   },
+   "dev_app_description_on_hub": {
+      "message": "የOnHub መልሶ ማግኛ መገልገያ ግንብ ስሪት።"
+   },
+   "dev_app_description_workspace_hardware": {
+      "message": "የMeet ስሌት ስርዓት መልሶ ማግኛ መገልገያ የግንባታ ስሪት።"
+   },
+   "dev_app_name": {
+      "message": "Chromebook መልሶ ማግኛ መገልገያ ገንቢ"
+   },
+   "dev_app_name_on_hub": {
+      "message": "የOnHub መልሶ ማግኛ መገልገያ ገንቢ"
+   },
+   "dev_app_name_workspace_hardware": {
+      "message": "የMeet ስሌት ስርዓት መልሶ ማግኛ መገልገያ ገንቢ"
+   },
+   "done_button_text": {
+      "message": "ተከናውኗል"
+   },
+   "erase_complete_bullet1": {
+      "message": "የእርስዎ ዩኤስቢ አንጻፊ ወይም የኤስዲ ካርድ ቅርጸት ሊሰራበት ዝግጁ ነው።"
+   },
+   "erase_complete_bullet1_on_hub": {
+      "message": "የእርስዎ ዩኤስቢ አንፃፊ ቅርጸት ሊሰራበት ዝግጁ ነው።"
+   },
+   "erase_complete_bullet1_workspace_hardware": {
+      "message": "የእርስዎ ዩኤስቢ አንፃፊ ቅርጸት ሊሰራበት ዝግጁ ነው።"
+   },
+   "erase_complete_bullet2": {
+      "message": "በስርዓተ ክወናዎ የቀረበው የቅርጸት መሥሪያ መሣሪያን በመጠቀም ቅርጸት ይስሩ።"
+   },
+   "erase_complete_title": {
+      "message": "የመልሶ ማግኛ ሚዲያዎ ተደምስሷል።"
+   },
+   "erase_complete_title_on_hub": {
+      "message": "የመልሶ ማግኛ ዩኤስቢ አንፃፊዎ ተደምስሷል።"
+   },
+   "erase_complete_title_workspace_hardware": {
+      "message": "የመልሶ ማግኛ ዩኤስቢ አንፃፊዎ ተደምስሷል።"
+   },
+   "erase_confirm_message": {
+      "message": "በመልሶ ማግኛ ሚዲያዎ ላይ ያለው የመልሶ ማግኛ ምስሉ እና ሁሉም ክፍልፋዮቹ ይደመሰሳሉ።"
+   },
+   "erase_confirm_message_on_hub": {
+      "message": "የመልሶ ማግኛ ምስሉ እና በእርስዎ የመልሶ ማግኛ ዩኤስቢ አንፃፊ ላይ ያሉ ክፍልፋዮች ይሰረዛሉ።"
+   },
+   "erase_confirm_message_workspace_hardware": {
+      "message": "የመልሶ ማግኛ ምስሉ እና በእርስዎ የመልሶ ማግኛ ዩኤስቢ አንፃፊ ላይ ያሉ ክፍልፋዮች ይሰረዛሉ።"
+   },
+   "erase_now_button_text": {
+      "message": "አሁን ደምስስ"
+   },
+   "erase_progress_text": {
+      "message": "የመልሶ ማግኛ ሚዲያዎን አያስወግዱ።"
+   },
+   "erase_progress_text_on_hub": {
+      "message": "የእርስዎን መልሶ ማግኛ የዩኤስቢ አንፃፊ አያስወግዱ።"
+   },
+   "erase_progress_text_workspace_hardware": {
+      "message": "የእርስዎን መልሶ ማግኛ የዩኤስቢ አንፃፊ አያስወግዱ።"
+   },
+   "erase_progress_title": {
+      "message": "የመልሶ ማግኛ ሚዲያዎን በመደምሰስ ላይ"
+   },
+   "erase_progress_title_on_hub": {
+      "message": "የመልሶ ማግኛ ዩኤስቢ አንፃፊዎን በመደምሰስ ላይ"
+   },
+   "erase_progress_title_workspace_hardware": {
+      "message": "የመልሶ ማግኛ ዩኤስቢ አንፃፊዎን በመደምሰስ ላይ"
+   },
+   "erase_select_target_detecting": {
+      "message": "በማግኘት ላይ"
+   },
+   "erase_select_target_high_capacity_warning_html": {
+      "message": "\u003Cb>ማስጠንቀቂያ፦\u003C/b> ይሄ ነው ትክክለኛው አንጻፊ?"
+   },
+   "erase_select_target_no_devices_found": {
+      "message": "ምንም የዩኤስቢ መሣሪያዎች ወይም የኤስዲ ካርዶች አልተገኙም"
+   },
+   "erase_select_target_no_devices_found_on_hub": {
+      "message": "ምንም የዩኤስቢ አንፃፊዎች አልተገኙም"
+   },
+   "erase_select_target_no_devices_found_workspace_hardware": {
+      "message": "ምንም የዩኤስቢ አንፃፊዎች አልተገኙም"
+   },
+   "erase_select_target_select_device": {
+      "message": "ለመደምሰስ የሚፈልጉትን ሚዲያ ይምረጡ።"
+   },
+   "erase_select_target_select_device_on_hub": {
+      "message": "ለመደምሰስ የሚፈልጉትን የመልሶ ማግኛ የዩኤስቢ አንፃፊ ይምረጡ።"
+   },
+   "erase_select_target_select_device_placeholder": {
+      "message": "ይምረጡ"
+   },
+   "erase_select_target_select_device_workspace_hardware": {
+      "message": "ለመደምሰስ የሚፈልጉትን የመልሶ ማግኛ የዩኤስቢ አንፃፊ ይምረጡ።"
+   },
+   "erase_title": {
+      "message": "የመልሶ ማግኛ ሚዲያን ይደምስሱ"
+   },
+   "erase_title_on_hub": {
+      "message": "የመልሶ ማግኛ ዩኤስቢ አንፃፊን ይደምስሱ"
+   },
+   "erase_title_workspace_hardware": {
+      "message": "የመልሶ ማግኛ ዩኤስቢ አንፃፊን ይደምስሱ"
+   },
+   "errmsg_please_try_again": {
+      "message": "እባክዎ እንደገና ይሞክሩ።"
+   },
+   "errmsg_recovery_config_download_failure": {
+      "message": "የውቅር ፋይሉን ማውረድ አልተሳካም። የመስመር ውጪ ባህሪያት ብቻ ናቸው የሚገኙት።"
+   },
+   "get_started_button_text": {
+      "message": "ጀምር"
+   },
+   "gigabyte_abbreviation": {
+      "message": "ጊባ"
+   },
+   "go_back_button_text": {
+      "message": "ተመለስ"
+   },
+   "hours_remaining": {
+      "message": "$1 ሰዓታት ይቀራል።",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "hwid_invalid_model": {
+      "message": "ልክ ያልሆነ የሞዴል ቁጥር። እባክዎ ግቤትዎን ያረጋግጡ።"
+   },
+   "hwid_keep_typing": {
+      "message": "ገና ምንም ሞዴል አልተገኘም። መተየቡን ይቀጥሉ።"
+   },
+   "hwid_keep_typing_workspace_hardware": {
+      "message": "እስካሁን ምንም ሞዴል አልተገኘም"
+   },
+   "hwid_match_found": {
+      "message": "ተዛማጅ ተገኝቷል"
+   },
+   "hwid_match_found_and_checksum_verified": {
+      "message": "ትክክለኛው የሞዴል ስም ያለው ተዛማጅ ተገኝቷል"
+   },
+   "learn_more_link_text": {
+      "message": "የበለጠ መረዳት"
+   },
+   "learn_more_link_url": {
+      "message": "http://www.google.com/chromeos/recovery"
+   },
+   "learn_more_link_url_on_hub": {
+      "message": "https://support.google.com/onhub/answer/6274977"
+   },
+   "learn_more_link_url_workspace_hardware": {
+      "message": "http://support.google.com/meethardware/answer/10562922"
+   },
+   "loading_config_text": {
+      "message": "በማዘጋጀት ላይ ..."
+   },
+   "menu_item_erase_recovery_media": {
+      "message": "የመልሶ ማግኛ ሚዲያን ይደምስሱ"
+   },
+   "menu_item_erase_recovery_media_on_hub": {
+      "message": "የመልሶ ማግኛ ዩኤስቢ አንፃፊን ይደምስሱ"
+   },
+   "menu_item_erase_recovery_media_workspace_hardware": {
+      "message": "የመልሶ ማግኛ ዩኤስቢ አንፃፊን ይደምስሱ"
+   },
+   "menu_item_send_feedback": {
+      "message": "ግብረመልስ ላክ"
+   },
+   "menu_item_use_local_image": {
+      "message": "አካባቢያዊ ምስልን ፍጠር"
+   },
+   "minutes_remaining": {
+      "message": "$1 ደቂቃ ይቀራል።",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "of": {
+      "message": "ከ"
+   },
+   "recovery_channel_beta": {
+      "message": "ቅድመ-ይሁንታ"
+   },
+   "recovery_channel_dev": {
+      "message": "ገንቢ"
+   },
+   "recovery_channel_ltc": {
+      "message": "የረጅም-ጊዜ ድጋፍ እጩ (ኢንተርፕራይዝ ብቻ)"
+   },
+   "recovery_channel_lts": {
+      "message": "የረጅም-ጊዜ ድጋፍ (ኢንተርፕራይዝ ብቻ)"
+   },
+   "recovery_channel_stable": {
+      "message": "የተረጋጋ"
+   },
+   "seconds_remaining": {
+      "message": "$1 ሰከንዶች ይቀራሉ።",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "select_channel_placeholder": {
+      "message": "የመልሶ ማግኛ ጣቢያ ይምረጡ"
+   },
+   "select_image_select_by_hwid_link_text": {
+      "message": "የሞዴል ቁጥር በቀጥታ ያስገቡ"
+   },
+   "select_image_select_from_list_link_text": {
+      "message": "ከዝርዝር ውስጥ አንድ ሞዴል ይምረጡ"
+   },
+   "select_image_select_manufacturer_placeholder": {
+      "message": "አንድ አምራች ይምረጡ"
+   },
+   "select_image_select_product_placeholder": {
+      "message": "አንድ ምርት ይምረጡ"
+   },
+   "select_image_select_product_placeholder_on_hub": {
+      "message": "አንድ ሞዴል ይምረጡ"
+   },
+   "select_image_select_product_placeholder_workspace_hardware": {
+      "message": "አንድ ሞዴል ይምረጡ"
+   },
+   "select_image_text": {
+      "message": "መልሶ ለማግኘት የChromebook ሞዴል ቁጥሩን ያስገቡ። በመልሶ ማያ ገጹ ላይ ሊገኝ ይችላል።"
+   },
+   "select_image_text_on_hub": {
+      "message": "የእርስዎን የOnHub ሞዴል ቁጥር ያስገቡ።"
+   },
+   "select_image_text_workspace_hardware": {
+      "message": "የMeet ኮምፒዩተር የሞዴል ስርዓትዎን የሞዴል ቁጥር ያስገቡ"
+   },
+   "select_image_this_chromebooks_model_number": {
+      "message": "ለዚህ Chromebook ያስገቡ"
+   },
+   "select_image_this_chromebooks_model_number_on_hub": {
+      "message": "ለዚህ OnHub ያስገቡ"
+   },
+   "select_image_this_chromebooks_model_number_workspace_hardware": {
+      "message": "ለዚህ የMeet ስሌት ስርዓት ያስገቡ"
+   },
+   "select_image_title": {
+      "message": "የእርስዎን Chromebook ይለዩት"
+   },
+   "select_image_title_on_hub": {
+      "message": "የእርስዎን OnHub ይለዩት"
+   },
+   "select_image_title_workspace_hardware": {
+      "message": "የMeet ስሌት ስርዓትዎን ይለዩ"
+   },
+   "select_target_detecting": {
+      "message": "በማግኘት ላይ"
+   },
+   "select_target_high_capacity_warning_html": {
+      "message": "\u003Cb>ማስጠንቀቂያ፦\u003C/b> ይሄ ትክክለኛው ሚዲያ ነው?"
+   },
+   "select_target_high_capacity_warning_html_on_hub": {
+      "message": "\u003Cb>ማስጠንቀቂያ፦\u003C/b> ይሄ ትክክለኛው የዩኤስቢ አንፃፊ ነው?"
+   },
+   "select_target_high_capacity_warning_html_workspace_hardware": {
+      "message": "\u003Cb>ማስጠንቀቂያ፦\u003C/b> ይሄ ትክክለኛው የዩኤስቢ አንፃፊ ነው?"
+   },
+   "select_target_low_capacity_error": {
+      "message": "የእርስዎ ሚዲያ ቢያንስ 8 ጊባ መሆን አለበት።"
+   },
+   "select_target_low_capacity_error_on_hub": {
+      "message": "የእርስዎ ዩኤስቢ አንፃፊ ቢያንስ 8 ጊባ መሆን አለበት።"
+   },
+   "select_target_low_capacity_error_workspace_hardware": {
+      "message": "የእርስዎ ዩኤስቢ አንፃፊ ቢያንስ 8 ጊባ መሆን አለበት።"
+   },
+   "select_target_no_devices_found": {
+      "message": "ምንም የዩኤስቢ መሣሪያዎች ወይም የኤስዲ ካርዶች አልተገኙም"
+   },
+   "select_target_no_devices_found_on_hub": {
+      "message": "ምንም የዩኤስቢ አንፃፊዎች አልተገኙም"
+   },
+   "select_target_no_devices_found_workspace_hardware": {
+      "message": "ምንም የዩኤስቢ አንፃፊዎች አልተገኙም"
+   },
+   "select_target_select_device": {
+      "message": "ለመጠቀም የሚፈልጉትን ሚዲያ ይምረጡ።"
+   },
+   "select_target_select_device_on_hub": {
+      "message": "ለመጠቀም የሚፈልጉትን የዩኤስቢ አንፃፊ ይምረጡ።"
+   },
+   "select_target_select_device_placeholder": {
+      "message": "ይምረጡ"
+   },
+   "select_target_select_device_workspace_hardware": {
+      "message": "ለመጠቀም የሚፈልጉትን የዩኤስቢ አንፃፊ ይምረጡ።"
+   },
+   "select_target_title": {
+      "message": "የእርስዎን ዩኤስቢ ፍላሽ አንፃፊ ወይም ኤስዲ ካርድ ያስገቡ"
+   },
+   "select_target_title_on_hub": {
+      "message": "የእርስዎን ዩኤስቢ ፍላሽ አንፃፊ ያስገቡ"
+   },
+   "select_target_title_workspace_hardware": {
+      "message": "የእርስዎን ዩኤስቢ ፍላሽ አንፃፊ ያስገቡ"
+   },
+   "stage_complete": {
+      "message": "ተጠናቅቋል"
+   },
+   "stage_download": {
+      "message": "በማውረድ ላይ"
+   },
+   "stage_downloadverify": {
+      "message": "ማውረድን በማረጋገጥ ላይ"
+   },
+   "stage_unpack": {
+      "message": "ከጥቅል በማውጣት ላይ"
+   },
+   "stage_unzip": {
+      "message": "ከጥቅል በማውጣት ላይ"
+   },
+   "stage_verify": {
+      "message": "በማረጋገጥ ላይ"
+   },
+   "stage_verifydownload": {
+      "message": "ማውረድን በማረጋገጥ ላይ"
+   },
+   "stage_verifywrite": {
+      "message": "በማረጋገጥ ላይ"
+   },
+   "stage_write": {
+      "message": "መጻፍ"
+   },
+   "step": {
+      "message": "ደረጃ"
+   },
+   "unsupported_text": {
+      "message": "መጥፎ ዕድል ሆኖ የእርስዎ የመሣሪያ ስርዓት በአሁኑ ጊዜ አይደገፍም። ተጨማሪ መረጃ ለማግኘት እባክዎ \u003Ca href=\"http://www.google.com/chromeos/recovery\" target=\"_blank\">የChromebook እገዛ ማዕከል\u003C/a>ን ይመልከቱ።"
+   },
+   "unsupported_text_mac": {
+      "message": "መጥፎ ዕድል ሆኖ Mac በM37 ወይም ከዚያ በላይ ላይ ብቻ ነው የሚደገፈው። እባክዎ የእርስዎን Chrome ወደ M37 ያሳድጉት። ይሄ \u003Ca href=\"https://support.google.com/chromebook/answer/1086915\" target=\"_blank\">ወደ የቅድመ-ይሁንታ ሰርጥ መቀየር\u003C/a> ሊያስፈልገው ይችላል።"
+   },
+   "unsupported_text_on_hub": {
+      "message": "መጥፎ ዕድል ሆኖ የእርስዎ የመሣሪያ ስርዓት በአሁኑ ጊዜ አይደገፍም።  ተጨማሪ መረጃ ለማግኘት እባክዎ \u003Ca href=\"https://support.google.com/onhub/answer/6274977\" target=\"_blank\">የOnHub እገዛ ማዕከል\u003C/a>ን ይመልከቱ።"
+   },
+   "unsupported_title": {
+      "message": "የእርስዎ የመሣሪያ ስርዓት በአሁኑ ጊዜ አይደገፍም"
+   },
+   "unsupported_title_linux": {
+      "message": "Linux በአሁኑ ጊዜ አይደገፍም"
+   },
+   "unsupported_title_mac": {
+      "message": "Mac በአሁኑ ጊዜ አይደገፍም"
+   },
+   "unsupported_title_win": {
+      "message": "Windows በአሁኑ ጊዜ አይደገፍም"
+   },
+   "usupported_text_workspace_hardware": {
+      "message": "መጥፎ አጋጣሚ ሆኖ፣ የእርስዎ መሠረተ ሥርዓት በዚህ ጊዜ አይደገፍም።  ለበለጠ መረጃ እባክዎ ወደ \u003Ca href=\"http://support.google.com/meethardware/answer/10562922\" target=\"_blank\">Google Meet የሃርድዌር እገዛ ማዕከል\u003C/a> ይመልከቱ።"
+   },
+   "warning_offline": {
+      "message": "መሣሪያ ከመስመር ውጪ ነው። የመስመር ውጪ ባህሪያት ብቻ ናቸው የሚገኙት።"
+   },
+   "welcome_text": {
+      "message": "ቢደመሰስ ቅር የማይልዎ 8 ጊባ ወይም ከዚያ በላይ የሆነ የዩኤስቢ ፍላሽ አንጻፊ ወይም ኤስዲ ካርድ ያስፈልገዎታል።"
+   },
+   "welcome_text_on_hub": {
+      "message": "ቢደመሰስ ቅር የማይልዎ 8 ጊባ ወይም ከዚያ በላይ የሆነ የዩኤስቢ ፍላሽ አንፃፊ ያስፈልገዎታል"
+   },
+   "welcome_text_workspace_hardware": {
+      "message": "ቢደመሰስ ቅር የማይልዎ 8 ጊባ ወይም ከዚያ በላይ የሆነ የዩኤስቢ ፍላሽ አንፃፊ ያስፈልግዎታል። እንዲሁም መሣሪያዎ የኤስዲ መክተቻ ካለው የኤስዲ ካርድ መጠቀም ይችላሉ።"
+   },
+   "welcome_title": {
+      "message": "ለእርስዎ Chromebook የመልሶ ማግኛ ሚዲያ ይፍጠሩ"
+   },
+   "welcome_title_on_hub": {
+      "message": "ለእርስዎ OnHub የመልሶ ማግኛ ዩኤስቢ አንፃፊ ይፍጠሩ"
+   },
+   "welcome_title_workspace_hardware": {
+      "message": "ለMeet ስሌት ስርዓትዎ የመልሶ ማግኛ የዩኤስቢ አንጻፊ ይፍጠሩ"
+   },
+   "write_message": {
+      "message": "የመልሶ ማግኛ ሚዲያዎን አያስወግዱ።"
+   },
+   "write_message_on_hub": {
+      "message": "የእርስዎን መልሶ ማግኛ የዩኤስቢ አንፃፊ አያስወግዱ።"
+   },
+   "write_message_workspace_hardware": {
+      "message": "የዩኤስቢ ፍላሽ አንፃፊውን አያስወግዱት።"
+   },
+   "write_title": {
+      "message": "የመልሶ ማግኛ ምስልን በመፍጠር ላይ"
+   }
+}

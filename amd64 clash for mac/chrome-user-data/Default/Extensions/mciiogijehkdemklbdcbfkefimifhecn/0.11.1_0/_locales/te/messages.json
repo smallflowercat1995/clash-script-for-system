@@ -1,0 +1,20 @@
+{
+   "chromesysAllowFileAccess": {
+      "message": "ఫైల్ URLలకు ప్రాప్తిని అనుమతించు"
+   },
+   "chromesysDownloadLocation": {
+      "message": "డౌన్‌లోడ్ స్థానం"
+   },
+   "chromesysDownloadsSection": {
+      "message": "డౌన్‌లోడ్‌లు"
+   },
+   "chromesysShowAdvSettings": {
+      "message": "అధునాతన సెట్టింగ్‌లను చూపించు..."
+   },
+   "extName": {
+      "message": "Chrono Download Manager"
+   },
+   "uilangName": {
+      "message": "Telugu"
+   }
+}

@@ -1,0 +1,1 @@
+pl.extend(ke.ui.loading,{show:function(o){$(".loading-screen").fadeIn(150,o||function(){}),$("body").addClass("stop-scrolling")},showIdbErrorLayout:function(){$(".idb-error-layout").fadeIn(150)},close:function(){$(".loading-screen").fadeOut(250),$("body").removeClass("stop-scrolling")}});

@@ -1,0 +1,556 @@
+{
+   "apierrmsg_aborted": {
+      "message": "Naantala ang pagpapatakbo."
+   },
+   "apierrmsg_device_list_error": {
+      "message": "Walang mahanap na USB drive o SD card."
+   },
+   "apierrmsg_device_list_error_on_hub": {
+      "message": "Walang mahanap na USB drive."
+   },
+   "apierrmsg_device_list_error_workspace_hardware": {
+      "message": "Walang mahanap na USB drive."
+   },
+   "apierrmsg_device_write_error": {
+      "message": "Hindi makapag-write sa napiling USB flash drive o SD card. Posibleng naka-disable ang mga pahintulot sa pag-write ng iyong device, o posibleng na-disable ng administration ng domain mo ang pag-write sa USB storage."
+   },
+   "apierrmsg_download_cancelled": {
+      "message": "Nakansela ang pag-download."
+   },
+   "apierrmsg_download_hash_mismatch": {
+      "message": "Invalid ang file."
+   },
+   "apierrmsg_download_interrupted": {
+      "message": "Naantala ang pag-download. Pakisuri ang iyong koneksyon ng network at subukan ulit."
+   },
+   "apierrmsg_file_invalid": {
+      "message": "Invalid ang file."
+   },
+   "apierrmsg_operation_already_in_progress": {
+      "message": "May pagpapatakbo nang ginagawa ngayon."
+   },
+   "apierrmsg_unknown": {
+      "message": "Hindi alam na error: $1.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "apierrmsg_unsupported_operation": {
+      "message": "Hindi sinusuportahang pagpapatakbo."
+   },
+   "apierrmsg_unzip_error": {
+      "message": "Hindi ma-unzip ang file. Pakitingnan kung may sapat na space ang iyong device at subukan ulit."
+   },
+   "apierrmsg_unzip_invalid_archive": {
+      "message": "Invalid na zip file."
+   },
+   "apierrmsg_url_invalid": {
+      "message": "Hindi nahanap ang file."
+   },
+   "apierrmsg_verification_failed": {
+      "message": "Hindi natuloy ang pag-verify sa larawan."
+   },
+   "app_description": {
+      "message": "Gumawa ng media sa pag-recover para sa iyong Chromebook."
+   },
+   "app_description_on_hub": {
+      "message": "Gumawa ng USB drive sa pag-recover para sa iyong OnHub."
+   },
+   "app_description_workspace_hardware": {
+      "message": "Gumawa ng USB drive sa pag-recover para sa iyong Meet Compute System."
+   },
+   "app_name": {
+      "message": "Chromebook Recovery Utility"
+   },
+   "app_name_on_hub": {
+      "message": "OnHub Recovery Utility"
+   },
+   "app_name_workspace_hardware": {
+      "message": "Meet Compute System Recovery Utility"
+   },
+   "app_short_name": {
+      "message": "Pag-recover"
+   },
+   "cancel_button_text": {
+      "message": "Kanselahin"
+   },
+   "chrome_app_deprecation_message": {
+      "message": "Tulad ng inanunsyo sa publiko sa \u003Ca href=\"https://blog.chromium.org/2020/08/changes-to-chrome-app-support-timeline.html\" target=\"_blank\" tabindex=\"0\">blog ng Chromium\u003C/a>, aalisin na ng Google ang suporta para sa Chrome Apps sa Hunyo 2021. Pakigamit ang \u003Ca href=\"https://chrome.google.com/webstore/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm\" target=\"_blank\">extension na Chromebook Recovery Utility\u003C/a> at ang nauugnay na \u003Ca href=\"http://www.google.com/chromeos/recovery\" target=\"_blank\">dokumentasyon\u003C/a> para ma-recover ang iyong (mga) device."
+   },
+   "chrome_app_deprecation_message_on_hub": {
+      "message": "Tulad ng inanunsyo sa publiko sa \u003Ca href=\"https://blog.chromium.org/2020/08/changes-to-chrome-app-support-timeline.html\" target=\"_blank\" tabindex=\"0\">blog ng Chromium\u003C/a>, aalisin na ng Google ang suporta para sa Chrome Apps sa Hunyo 2021. Pakigamit ang \u003Ca href=\"https://chrome.google.com/webstore/detail/onhub-recovery-utility/fmgkgdalfapcmjnanilfcpkhkhedmpdm\" target=\"_blank\">extension na OnHub Recovery Utility\u003C/a> at ang nauugnay na \u003Ca href=\"https://support.google.com/onhub/answer/6274977\" target=\"_blank\">dokumentasyon\u003C/a> para ma-recover ang iyong (mga) device."
+   },
+   "complete_bullet1": {
+      "message": "Para ma-recover ang iyong Chromebook, i-plug in ang media sa pag-recover sa Chromebook mo."
+   },
+   "complete_bullet1_on_hub": {
+      "message": "I-unplug ang power cable mula sa iyong OnHub at isaksak ang USB drive sa likod ng device. Pindutin nang matagal ang button na i-reset at i-plug in ang power. Patuloy na pindutin nang matagal ang button na i-reset sa loob ng humigit-kumulang 15 segundo o hanggang sa magsimulang mapatay-sindi ang ilaw ng aktibidad sa USB drive."
+   },
+   "complete_bullet1_workspace_hardware": {
+      "message": "Para i-recover ang iyong Meet Compute System, sundin ang mga tagubilin sa \u003Ca href=\"http://support.google.com/meethardware/answer/10562922#zippy=%2Cstep-enter-recovery-mode\" target=\"_blank\">I-recover ang compute box ng iyong Hardware ng Google Meet, Hakbang 3: Pumasok sa recovery mode\u003C/a>"
+   },
+   "complete_bullet2": {
+      "message": "Pagkatapos ng pag-recover, pwede mong burahin ang iyong media sa pag-recover gamit ang utility na ito."
+   },
+   "complete_bullet2_on_hub": {
+      "message": "Sasailalim sa proseso ng pag-recover ang iyong OnHub, na pwedeng tumagal nang ilang minuto. Kapag na-recover na ang iyong OnHub, mare-reboot ito. Pagkatapos ay gamitin ang Google On app para i-set up ang iyong OnHub."
+   },
+   "complete_bullet2_workspace_hardware": {
+      "message": "Para burahin ang USB flash drive kapag tapos na, simulan ang Meet Compute System Recovery Utility, i-click ang \u003Cb>Mga Setting\u003C/b> at pagkatapos ay i-click ang \u003Cb>Burahin ang media sa pag-recover\u003C/b>"
+   },
+   "complete_message": {
+      "message": "Pwede mo nang alisin ngayon ang iyong media sa pag-recover."
+   },
+   "complete_message_on_hub": {
+      "message": "Pwede mo nang alisin ngayon ang iyong USB drive sa pag-recover."
+   },
+   "complete_message_workspace_hardware": {
+      "message": "Puwede mo nang alisin ang flash drive ngayon"
+   },
+   "complete_title": {
+      "message": "Tagumpay! Handa na ang iyong media sa pag-recover"
+   },
+   "complete_title_on_hub": {
+      "message": "Tagumpay! Handa na ang iyong USB drive sa pag-recover"
+   },
+   "complete_title_workspace_hardware": {
+      "message": "Tagumpay! Handa na ang iyong USB drive sa pag-recover"
+   },
+   "completed": {
+      "message": "nakumpleto"
+   },
+   "confirm_cancelled_message_html": {
+      "message": "Kinansela. Mag-click sa &rdquo;Gumawa ngayon&rdquo; para subukan ulit.\u003Cbr>\u003Cbr>Para burahin ang iyong media sa pag-recover, mag-click sa icon na gear sa kanang sulok sa itaas."
+   },
+   "confirm_cancelled_message_html_on_hub": {
+      "message": "Kinansela. Mag-click sa &rdquo;Gumawa ngayon&rdquo; para subukan ulit.\u003Cbr>\u003Cbr>Para burahin ang iyong USB drive sa pag-recover, mag-click sa icon na gear sa kanang sulok sa itaas."
+   },
+   "confirm_cancelled_message_html_workspace_hardware": {
+      "message": "Kinansela. Mag-click sa &rdquo;Gumawa ngayon&rdquo; para subukan ulit.\u003Cbr>\u003Cbr>Para burahin ang iyong USB drive sa pag-recover, mag-click sa icon na gear sa kanang sulok sa itaas."
+   },
+   "confirm_hide_advanced_settings_message": {
+      "message": "Itago ang Mga Advanced na Setting"
+   },
+   "confirm_message_html": {
+      "message": "\u003Cb>Mahalaga:\u003C/b> Ide-delete ang lahat ng data at partition sa iyong media sa pag-recover."
+   },
+   "confirm_message_html_on_hub": {
+      "message": "\u003Cb>Mahalaga:\u003C/b> Ide-delete ang lahat ng data at partition sa iyong USB drive sa pag-recover."
+   },
+   "confirm_message_html_workspace_hardware": {
+      "message": "\u003Cb>Mahalaga:\u003C/b> Ide-delete ang lahat ng nasa iyong flash drive"
+   },
+   "confirm_show_advanced_settings_message": {
+      "message": "Ipakita ang Mga Advanced na Setting"
+   },
+   "confirm_title": {
+      "message": "Gumawa ng larawan sa pag-recover"
+   },
+   "continue_button_text": {
+      "message": "Magpatuloy"
+   },
+   "create_another_button_text": {
+      "message": "Gumawa ng isa pa"
+   },
+   "create_now_button_text": {
+      "message": "Gumawa ngayon"
+   },
+   "dev_app_description": {
+      "message": "Bersyon para sa pag-develop ng Chromebook Recovery Utility."
+   },
+   "dev_app_description_on_hub": {
+      "message": "Bersyon para sa pag-develop ng OnHub Recovery Utility."
+   },
+   "dev_app_description_workspace_hardware": {
+      "message": "Bersyon para sa pag-develop ng Meet Compute System Recovery Utility."
+   },
+   "dev_app_name": {
+      "message": "Chromebook Recovery Utility Dev"
+   },
+   "dev_app_name_on_hub": {
+      "message": "OnHub Recovery Utility Dev"
+   },
+   "dev_app_name_workspace_hardware": {
+      "message": "Meet Compute System Recovery Utility Dev"
+   },
+   "done_button_text": {
+      "message": "Tapos na"
+   },
+   "erase_complete_bullet1": {
+      "message": "Handa nang i-format ang iyong USB drive o SD card."
+   },
+   "erase_complete_bullet1_on_hub": {
+      "message": "Handa nang i-format ang iyong USB drive."
+   },
+   "erase_complete_bullet1_workspace_hardware": {
+      "message": "Handa nang i-format ang iyong USB drive."
+   },
+   "erase_complete_bullet2": {
+      "message": "Mag-format gamit ang isang tool sa pagfo-format na ibinigay ng iyong operating system."
+   },
+   "erase_complete_title": {
+      "message": "Nabura na ang iyong media sa pag-recover."
+   },
+   "erase_complete_title_on_hub": {
+      "message": "Nabura na ang iyong USB drive sa pag-recover."
+   },
+   "erase_complete_title_workspace_hardware": {
+      "message": "Nabura na ang iyong USB drive sa pag-recover."
+   },
+   "erase_confirm_message": {
+      "message": "Mabubura ang larawan sa pag-recover at ang lahat ng partition sa iyong media sa pag-recover."
+   },
+   "erase_confirm_message_on_hub": {
+      "message": "Mabubura ang larawan sa pag-recover at ang lahat ng partition sa iyong USB drive sa pag-recover."
+   },
+   "erase_confirm_message_workspace_hardware": {
+      "message": "Mabubura ang larawan sa pag-recover at ang lahat ng partition sa iyong USB drive sa pag-recover."
+   },
+   "erase_now_button_text": {
+      "message": "Burahin ngayon"
+   },
+   "erase_progress_text": {
+      "message": "Huwag alisin ang iyong media sa pag-recover."
+   },
+   "erase_progress_text_on_hub": {
+      "message": "Huwag alisin ang iyong USB drive sa pag-recover."
+   },
+   "erase_progress_text_workspace_hardware": {
+      "message": "Huwag alisin ang iyong USB drive sa pag-recover."
+   },
+   "erase_progress_title": {
+      "message": "Binubura ang iyong media sa pag-reco"
+   },
+   "erase_progress_title_on_hub": {
+      "message": "Binubura ang iyong USB drive sa pag-recover"
+   },
+   "erase_progress_title_workspace_hardware": {
+      "message": "Binubura ang iyong USB drive sa pag-recover"
+   },
+   "erase_select_target_detecting": {
+      "message": "Nagde-detect"
+   },
+   "erase_select_target_high_capacity_warning_html": {
+      "message": "\u003Cb>Babala:\u003C/b> Ito ba ang tamang drive?"
+   },
+   "erase_select_target_no_devices_found": {
+      "message": "Walang nahanap na USB drive o SD card"
+   },
+   "erase_select_target_no_devices_found_on_hub": {
+      "message": "Walang nahanap na USB drive"
+   },
+   "erase_select_target_no_devices_found_workspace_hardware": {
+      "message": "Walang nahanap na USB drive"
+   },
+   "erase_select_target_select_device": {
+      "message": "Piliin ang media sa pag-recover na gusto mong burahin."
+   },
+   "erase_select_target_select_device_on_hub": {
+      "message": "Piliin ang USB drive sa pag-recover na gusto mong burahin."
+   },
+   "erase_select_target_select_device_placeholder": {
+      "message": "Pumili"
+   },
+   "erase_select_target_select_device_workspace_hardware": {
+      "message": "Piliin ang USB drive sa pag-recover na gusto mong burahin."
+   },
+   "erase_title": {
+      "message": "Burahin ang media sa pag-recover"
+   },
+   "erase_title_on_hub": {
+      "message": "Burahin ang USB drive sa pag-recover"
+   },
+   "erase_title_workspace_hardware": {
+      "message": "Burahin ang USB drive sa pag-recover"
+   },
+   "errmsg_please_try_again": {
+      "message": "Pakisubukan ulit."
+   },
+   "errmsg_recovery_config_download_failure": {
+      "message": "Hindi na-download ang configuration file. Mga offline na feature lang ang magiging available."
+   },
+   "get_started_button_text": {
+      "message": "Magsimula"
+   },
+   "gigabyte_abbreviation": {
+      "message": "GB"
+   },
+   "go_back_button_text": {
+      "message": "Bumalik"
+   },
+   "hours_remaining": {
+      "message": "$1 (na) oras ang natitira.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "hwid_invalid_model": {
+      "message": "Invalid na numero ng modelo. Pakitingnan ang iyong entry."
+   },
+   "hwid_keep_typing": {
+      "message": "Wala pang nahanap na modelo. Magpatuloy sa pagta-type."
+   },
+   "hwid_keep_typing_workspace_hardware": {
+      "message": "Wala pang nakikitang modelo"
+   },
+   "hwid_match_found": {
+      "message": "Nakakita ng katugma"
+   },
+   "hwid_match_found_and_checksum_verified": {
+      "message": "Nakakita ng katugma na may eksaktong pangalan ng modelo"
+   },
+   "learn_more_link_text": {
+      "message": "Matuto pa"
+   },
+   "learn_more_link_url": {
+      "message": "http://www.google.com/chromeos/recovery"
+   },
+   "learn_more_link_url_on_hub": {
+      "message": "https://support.google.com/onhub/answer/6274977"
+   },
+   "learn_more_link_url_workspace_hardware": {
+      "message": "http://support.google.com/meethardware/answer/10562922"
+   },
+   "loading_config_text": {
+      "message": "Inihahanda ..."
+   },
+   "menu_item_erase_recovery_media": {
+      "message": "Burahin ang media sa pag-recover"
+   },
+   "menu_item_erase_recovery_media_on_hub": {
+      "message": "Burahin ang USB drive sa pag-recover"
+   },
+   "menu_item_erase_recovery_media_workspace_hardware": {
+      "message": "Burahin ang USB drive sa pag-recover"
+   },
+   "menu_item_send_feedback": {
+      "message": "Magpadala ng feedback"
+   },
+   "menu_item_use_local_image": {
+      "message": "Gumamit ng lokal na larawan"
+   },
+   "minutes_remaining": {
+      "message": "$1(na) minuto ang natitira.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "of": {
+      "message": "ng"
+   },
+   "recovery_channel_beta": {
+      "message": "Beta"
+   },
+   "recovery_channel_dev": {
+      "message": "Dev"
+   },
+   "recovery_channel_ltc": {
+      "message": "Kandidato para sa Pangmatagalang Suporta (Long-term Support Candidate o LTC) (Enterprise lang)"
+   },
+   "recovery_channel_lts": {
+      "message": "Pangmatagalang Suporta (Long-term Support o LTS) (Enterprise lang)"
+   },
+   "recovery_channel_stable": {
+      "message": "Matatag"
+   },
+   "seconds_remaining": {
+      "message": "$1(na) segundo ang natitira",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "select_channel_placeholder": {
+      "message": "Pumili ng channel sa pag-recover"
+   },
+   "select_image_select_by_hwid_link_text": {
+      "message": "Direktang maglagay ng numero ng modelo"
+   },
+   "select_image_select_from_list_link_text": {
+      "message": "Pumili ng modelo mula sa isang listahan"
+   },
+   "select_image_select_manufacturer_placeholder": {
+      "message": "Pumili ng manufacturer"
+   },
+   "select_image_select_product_placeholder": {
+      "message": "Pumili ng produkto"
+   },
+   "select_image_select_product_placeholder_on_hub": {
+      "message": "Pumili ng modelo"
+   },
+   "select_image_select_product_placeholder_workspace_hardware": {
+      "message": "Pumili ng modelo"
+   },
+   "select_image_text": {
+      "message": "Ilagay ang numero ng modelo ng Chromebook na ire-recover. Makikita ito sa screen sa pag-recover."
+   },
+   "select_image_text_on_hub": {
+      "message": "Ilagay ang numero ng modelo ng iyong OnHub."
+   },
+   "select_image_text_workspace_hardware": {
+      "message": "Ilagay ang numero ng modelo ng iyong Meet Compute System"
+   },
+   "select_image_this_chromebooks_model_number": {
+      "message": "Para sa Chromebook na ito, ilagay ang"
+   },
+   "select_image_this_chromebooks_model_number_on_hub": {
+      "message": "Para sa OnHub na ito, ilagay ang"
+   },
+   "select_image_this_chromebooks_model_number_workspace_hardware": {
+      "message": "Para sa Meet Compute System na ito, ilagay ang"
+   },
+   "select_image_title": {
+      "message": "Tukuyin ang iyong Chromebook"
+   },
+   "select_image_title_on_hub": {
+      "message": "Tukuyin ang iyong OnHub"
+   },
+   "select_image_title_workspace_hardware": {
+      "message": "Tukuyin ang iyong Meet Compute System"
+   },
+   "select_target_detecting": {
+      "message": "Nagde-detect"
+   },
+   "select_target_high_capacity_warning_html": {
+      "message": "\u003Cb>Babala:\u003C/b> Ito ba ang tamang media?"
+   },
+   "select_target_high_capacity_warning_html_on_hub": {
+      "message": "\u003Cb>Babala:\u003C/b> Ito ba ang tamang USB drive?"
+   },
+   "select_target_high_capacity_warning_html_workspace_hardware": {
+      "message": "\u003Cb>Babala:\u003C/b> Ito ba ang tamang USB drive?"
+   },
+   "select_target_low_capacity_error": {
+      "message": "Hindi dapat bababa sa 8GB ang iyong media."
+   },
+   "select_target_low_capacity_error_on_hub": {
+      "message": "Hindi dapat bababa sa 8GB ang iyong USB drive."
+   },
+   "select_target_low_capacity_error_workspace_hardware": {
+      "message": "Hindi dapat bababa sa 8GB ang iyong USB drive."
+   },
+   "select_target_no_devices_found": {
+      "message": "Walang nahanap na USB drive o SD card"
+   },
+   "select_target_no_devices_found_on_hub": {
+      "message": "Walang nahanap na USB drive"
+   },
+   "select_target_no_devices_found_workspace_hardware": {
+      "message": "Walang nahanap na USB drive"
+   },
+   "select_target_select_device": {
+      "message": "Piliin ang media na gusto mong gamitin."
+   },
+   "select_target_select_device_on_hub": {
+      "message": "Piliin ang USB drive na gusto mong gamitin."
+   },
+   "select_target_select_device_placeholder": {
+      "message": "Pumili"
+   },
+   "select_target_select_device_workspace_hardware": {
+      "message": "Piliin ang USB drive na gusto mong gamitin."
+   },
+   "select_target_title": {
+      "message": "Ilagay ang iyong USB flash drive o SD card"
+   },
+   "select_target_title_on_hub": {
+      "message": "Ilagay ang iyong USB flash drive"
+   },
+   "select_target_title_workspace_hardware": {
+      "message": "Ilagay ang iyong USB flash drive"
+   },
+   "stage_complete": {
+      "message": "Nakumpleto"
+   },
+   "stage_download": {
+      "message": "Dina-download"
+   },
+   "stage_downloadverify": {
+      "message": "Vine-verify ang pag-download"
+   },
+   "stage_unpack": {
+      "message": "Nag-a-unpack"
+   },
+   "stage_unzip": {
+      "message": "Nag-a-unpack"
+   },
+   "stage_verify": {
+      "message": "Vine-verify"
+   },
+   "stage_verifydownload": {
+      "message": "Vine-verify ang pag-download"
+   },
+   "stage_verifywrite": {
+      "message": "Vine-verify"
+   },
+   "stage_write": {
+      "message": "Nira-write"
+   },
+   "step": {
+      "message": "Hakbang"
+   },
+   "unsupported_text": {
+      "message": "Sa kasamaang-palad, hindi sinusuportahan sa ngayon ang iyong platform. Sumangguni sa \u003Ca href=\"http://www.google.com/chromeos/recovery\" target=\"_blank\">Chromebook Help Center\u003C/a> para sa higit pang impormasyon."
+   },
+   "unsupported_text_mac": {
+      "message": "Sa kasamaang-palad, sinusuportahan lang ang Mac sa M37 o mas mataas. Paki-update ang iyong Chrome sa M37. Posible itong mangailangan ng \u003Ca href=\"https://support.google.com/chromebook/answer/1086915\" target=\"_blank\">paglipat sa Beta channel\u003C/a>."
+   },
+   "unsupported_text_on_hub": {
+      "message": "Sa kasamaang-palad, hindi sinusuportahan sa ngayon ang iyong platform. Sumangguni sa \u003Ca href=\"https://support.google.com/onhub/answer/6274977\" target=\"_blank\">OnHub Help Center\u003C/a> para sa higit pang impormasyon."
+   },
+   "unsupported_title": {
+      "message": "Kasalukuyang hindi sinusuportahan ang iyong platform"
+   },
+   "unsupported_title_linux": {
+      "message": "Kasalukuyang hindi sinusuportahan ang Linux"
+   },
+   "unsupported_title_mac": {
+      "message": "Kasalukuyang hindi sinusuportahan ang Mac"
+   },
+   "unsupported_title_win": {
+      "message": "Kasalukuyang hindi sinusuportahan ang Windows"
+   },
+   "usupported_text_workspace_hardware": {
+      "message": "Sa kasamaang-palad, hindi sinusuportahan sa ngayon ang iyong platform.  Sumangguni sa \u003Ca href=\"http://support.google.com/meethardware/answer/10562922\" target=\"_blank\">Help Center ng Hardware ng Google Meet\u003C/a> para sa higit pang impormasyon."
+   },
+   "warning_offline": {
+      "message": "Offline ang device. Mga offline na feature lang ang magiging available."
+   },
+   "welcome_text": {
+      "message": "Kailangan mo ng USB flash drive o SD card na 8 GB o mas malaki pa at ayos lang sa iyong mabura ang laman."
+   },
+   "welcome_text_on_hub": {
+      "message": "Kailangan mo ng USB flash drive na 8 GB o mas malaki pa at ayos lang sa iyong mabura ang laman."
+   },
+   "welcome_text_workspace_hardware": {
+      "message": "Kailangan mo ng USB flash drive na 8 GB o mas malaki pa at ayos lang sa iyong mabura ang laman. Puwede ka ring gumamit ng SD card kung may SD slot ang iyong device."
+   },
+   "welcome_title": {
+      "message": "Gumawa ng media sa pag-recover para sa iyong Chromebook."
+   },
+   "welcome_title_on_hub": {
+      "message": "Gumawa ng USB drive sa pag-recover para sa iyong OnHub"
+   },
+   "welcome_title_workspace_hardware": {
+      "message": "Gumawa ng USB drive sa pag-recover para sa iyong Meet Compute System"
+   },
+   "write_message": {
+      "message": "Huwag alisin ang iyong media sa pag-recover."
+   },
+   "write_message_on_hub": {
+      "message": "Huwag alisin ang iyong USB drive sa pag-recover."
+   },
+   "write_message_workspace_hardware": {
+      "message": "Huwag alisin ang USB flash drive."
+   },
+   "write_title": {
+      "message": "Paggawa ng larawan sa pag-recover"
+   }
+}

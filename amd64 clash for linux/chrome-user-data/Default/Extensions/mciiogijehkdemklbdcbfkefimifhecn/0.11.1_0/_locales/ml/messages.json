@@ -1,0 +1,20 @@
+{
+   "chromesysAllowFileAccess": {
+      "message": "URL കള്‍‌ ഫയല്‍‌ ചെയ്യുന്നതിന് ആക്‍സസ്സ് അനുവദിക്കുക"
+   },
+   "chromesysDownloadLocation": {
+      "message": "സ്ഥാനം ഡൗൺലോഡ് ചെയ്യുക"
+   },
+   "chromesysDownloadsSection": {
+      "message": "ഡൌണ്‍ലോഡുകള്‍"
+   },
+   "chromesysShowAdvSettings": {
+      "message": "വിപുലമായ ക്രമീകരണങ്ങൾ കാണിക്കുക..."
+   },
+   "extName": {
+      "message": "Chrono Download Manager"
+   },
+   "uilangName": {
+      "message": "Malayalam"
+   }
+}

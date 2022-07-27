@@ -1,0 +1,378 @@
+﻿<html>
+<head>
+  <title i18n-text="extName">Chrono Download Manager</title>
+  <meta charset="UTF-8">
+  <meta name="google" value="notranslate" />
+  <meta http-equiv="no-cache">
+  <meta http-equiv="Expires" content="-1">
+  <meta http-equiv="Cache-Control" content="no-cache">
+  <meta http-equiv="PRAGMA" content="NO-CACHE">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+  <script type="text/javascript" src="../libs/jquery-2.1.0.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="../fonts/md-icons.css">
+  <link rel="stylesheet" type="text/css" href="../fonts/md.css">
+  <link rel="stylesheet" type="text/css" href="../libs/mdl/material.indigo-lime.min.css">
+
+  <link rel="preload" href="../icons/toolbar/toolbar.png" as="image" type="image/png">
+  <link rel="preload" href="../icons/panel-toggler.svg" as="image" type="image/svg+xml">
+  <link rel="preload" href="../fonts/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="../fonts/CWB0XYA8bzo0kSThX0UTuA.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="../fonts/KFOlCnqEu92Fr1MmEU9fBBc4.woff2" as="font" type="font/woff2" crossorigin>
+  
+<script type="text/javascript" src="ui.min.js"></script>
+<link rel="stylesheet" type="text/css" href="ui.min.css">
+
+
+  <style id="chronoPreviewFont">
+  </style>
+</head>
+<body>
+<div class="loading-overlay undraggable"><img src="../icons/loading-alt.svg"/></div>
+<div id="dy_bg" style="display:none"></div>
+<div class="mdl-toast">
+<div class="mdl-toast--content"></div>
+</div>
+<div id="dy_tot_wrap">
+
+  <div id="dy_tbar_wrap" class="ui-layout-north undraggable">
+
+    <div class="mdl-layout__header-row">
+    
+      <div class="mdl-layout-title">
+        <img style="width: 26px;height: 26px;vertical-align: middle; margin-right: 8px;" src="../icons/logo/26.png" />
+        <span style="font-size: 28px;vertical-align: middle;font-family: tahoma,Roboto;">
+          Chrono
+        </span>
+      </div>
+
+      <div id="dy_tbar" style="position: relative;">
+        <button id="dy_tbar_add" i18n-title="tipBtnNewTask" class="mdl-button mdl-js-button mdl-button--icon mdl-button--large">
+          <i class="tbar-icon-add"></i>
+        </button>
+        <button id="dy_tbar_start" i18n-title="tipBtnStart" class="mdl-button mdl-js-button mdl-button--icon mdl-button--large">
+          <i class="tbar-icon-start"></i>
+        </button>
+        <button id="dy_tbar_pause" i18n-title="tipBtnPause" class="mdl-button mdl-js-button mdl-button--icon mdl-button--large">
+          <i class="tbar-icon-pause"></i>
+        </button>
+        <button id="dy_tbar_restart" i18n-title="tipBtnRestart" class="for_trash mdl-button mdl-js-button mdl-button--icon mdl-button--large">
+          <i class="tbar-icon-restart"></i>
+        </button>
+        <button id="dy_tbar_startall" i18n-title="tipBtnStartAll" class="mdl-button mdl-js-button mdl-button--icon mdl-button--large">
+          <i class="tbar-icon-start-all"></i>
+        </button>
+        <button id="dy_tbar_pauseall" i18n-title="tipBtnPauseAll" class="mdl-button mdl-js-button mdl-button--icon mdl-button--large">
+          <i class="tbar-icon-pause-all"></i>
+        </button>
+        <button id="dy_tbar_trash" i18n-title="tipBtnRecycle" class="mdl-button mdl-js-button mdl-button--icon mdl-button--large">
+          <i class="tbar-icon-trash"></i>
+        </button>
+        <button id="dy_tbar_restore" i18n-title="tipBtnRestore" class="only_for_trash for_trash mdl-button mdl-js-button mdl-button--icon mdl-button--large">
+          <i class="tbar-icon-restore"></i>
+        </button>
+        <button id="dy_tbar_delete" i18n-title="tipBtnDelete" class="for_trash mdl-button mdl-js-button mdl-button--icon mdl-button--large">
+          <i class="tbar-icon-delete"></i>
+        </button>
+
+        <button class="for_trash expand-hidable mdl-button mdl-js-button mdl-button--icon mdl-button--large" disabled="disabled">
+          
+        </button>
+        <button id="dy_tbar_options" i18n-title="titleOptions" class="for_trash expand-hidable mdl-button mdl-js-button mdl-button--icon mdl-button--large">
+          <i class="tbar-icon-options"></i>
+          
+        </button>
+        <button id="dy_tbar_help" i18n-title="tipBtnHelp" class="for_trash expand-hidable mdl-button mdl-js-button mdl-button--icon mdl-button--large">
+          <i class="tbar-icon-help"></i>
+        </button>
+        
+        <div id="dropdown-help" tabindex="-1" class="mdl-menu mdl-menu--bottom-right mdl-js-menu" for="dy_tbar_help">
+          <div class="mdl-menu__item" i18n-text="btnAbout" id="btn_help_about">About</div>
+          <div class="mdl-menu__item" i18n-text="menuGetHelp" id="btn_help_help">Help</div>
+          <div class="mdl-menu__item" i18n-text="btnFAQ" id="btn_help_faq">FAQ</div>
+          <a class="mdl-menu__item" i18n-text="menuReportIssue" id="btn_help_feedback" href="http://bugs.chronodownloader.net" target="_blank">
+            Report an issue
+          </a>
+          <a class="mdl-menu__item" i18n-text="titleUpdateLog" target="_blank" href="http://bugs.chronodownloader.net/changelog_page.php">
+            Update Log
+          </a>
+        </div>
+
+
+      </div>
+
+      <div class="expand-hidable mdl-layout-spacer"></div>
+
+      <div id="dy_searchbox" class="mdl-click-expander">
+        <button id="dy_searchbox_btn" class="mdl-button mdl-js-button mdl-button--icon">
+          <i id="dy_searchbox_open_icon" i18n-title="hintSearchDownloads" class="material-icons status-tooltip">search</i>
+          
+        </button>
+        <div class="mdl-click-expander--holder">
+          <span id="dy_searchbox_input_wrap" class="mdl-textfield mdl-js-textfield">
+            <input id="dy_searchbox_input" class="mdl-textfield__input fs-1_1rem" type="text">
+            <label class="mdl-textfield__label fs-1_1rem" for="dy_searchbox_input" i18n-text="hintSearchDownloads">Search downloads</label>
+          </span>
+
+          <label id="opt_search_fuzzy" class="mdl-icon-toggle mdl-js-icon-toggle mdl-js-ripple-effect status-tooltip status-tooltip--keep" i18n-title="optionSearchFuzzyMatch" for="cb_search_fuzzy">
+            <input type="checkbox" id="cb_search_fuzzy" class="mdl-icon-toggle__input">
+            <span class="mdl-icon-toggle__label blur" style="font-size: 16px;">Fz</span>
+          </label>
+          <label class="mdl-icon-toggle mdl-js-icon-toggle mdl-js-ripple-effect status-tooltip status-tooltip--keep" i18n-title="optionSearchCaseSensitive" for="cb_search_case">
+            <input type="checkbox" id="cb_search_case" class="mdl-icon-toggle__input">
+            <span class="mdl-icon-toggle__label" style="font-size: 16px;">Aa</span>
+          </label>
+          
+        </div>
+      </div>
+      
+      
+    </div>
+
+  </div>           
+ 
+  <div id="dy_lnav" class="ui-layout-west undraggable">
+    <div>
+      <div id="dy_lnav_filters" class="dd">
+      </div>
+      <div>
+        <ul class="mdlx-list fs-1_1rem">
+          <li>
+            <span id="dy_lnav_filter_recycled" class="nav-filter" tabindex="0">
+              <i class="material-icons">delete</i>
+              <span i18n-text="ruleRecycled">Recycle Bin</span>
+            </span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div id="dy_tb" class="ui-layout-center"></div>
+  <div id='dy_info_panel' class='ui-layout-east'>
+    <div id='dy_details_tab'>
+      <div>
+        <div i18n-text="msgSelectTaskInfo" style="font-size:20px;text-overflow: ellipsis;white-space: nowrap;overflow: hidden;text-align: center;margin-top: 30px;">
+          Select a task to see its details.
+        </div>
+        <div style="text-align: center;margin-top: 36px;">
+          <i class="material-icons" style="font-size: 112px;color: rgba(60,60,60,0.25);">insert_drive_file</i>
+        </div>
+      </div>
+      <div style="overflow:auto;display:none">
+        <div class="undraggable" style="line-height: 36px;padding: 16px 0;position: relative;">
+          <div id="dy_ti_iconURL32" style="height: 32px; width: 32px; margin: 2px;position: absolute;">
+          </div>
+          <div id="dy_ti_filename" data-fext="ext" field="filename" index="-1"
+              class="fext-ellipsis dy_ti_btn dy_ti_link_like focus-click status-tooltip" tabindex=0>
+            <span>
+              Filename
+            </span>
+          </div>
+          <div id="dy_ti_folder_tr">
+            <div id="dy_ti_folder" tabindex="0" index="-1" field="folder" class="dy_ti_btn focus-click break-all dy_ti_link_like"
+              >
+              Folder
+            </div>
+          </div>
+        </div>
+
+        <div id="dy_details_tab_preview_wrap">
+          
+          <div id="dy_details_tab_preview_box">
+          </div>
+        </div>
+        <div style="border-top:1px solid rgba(60,60,60,0.15)"></div>
+
+        <table id="dy_details_table" border="0" cellspacing="1" cellpadding="3">
+        </table>
+      </div>
+    </div>
+    
+  </div>
+    
+  <div class="ui-layout-south">
+    <div id="dy_status_bar" class="undraggable" style="position: relative;">
+      <button id="dy_status_btnbg" i18n-title="titleChangeBG" class="dy_status_toolbtn mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons">wallpaper</i>
+      </button>
+
+      <div id="dropdown-change-bg" for="dy_status_btnbg" tabindex="-1" class="mdl-menu mdl-menu--top-left mdl-js-menu">
+        <div class="mdl-menu__panel">
+          <div id="bg-enable-title" i18n-text="titleChangeBG">
+            Change background
+          </div>
+          <div id="bg-enable-wrap">
+            <label for="bg-enable" class="mdl-checkbox mdl-js-checkbox">
+              <input class="mdl-checkbox__input" type="checkbox" id="bg-enable" />
+              <span i18n-text="phraseEnable" class="mdl-checkbox__label">Enable</span>
+            </label>
+          </div>
+          <div id="bg-chooser-wrap">
+            <div id="bg-colpicker">
+              <label for="bg-ccolor" i18n-text="labelBGConstantColor">Constant color</label>
+              <input id="bg-ccolor" type="color" name="bg-ccolor" value="#ffffff" />
+            </div>
+            <div>
+              <div  i18n-text="labelBGChooseFrom">
+                Choose from
+              </div>
+              <div id="bg-provided"></div>
+            </div>
+            
+            <div>
+              <div>
+                <span i18n-text="labelBGImageURL" class="vmiddle">Use an image from URL</span>
+                <i class="md-qmark material-icons" id="mytip-url">help</i>
+                <div id="mytip-url-message" for="mytip-url" class="md-qmark-tip mdl-tooltip mdl-tooltip--large mdl-tooltip--top" i18n-text="tipBGURLNoFileAccess">
+                </div>
+              </div>
+              <div id="bg-url-wrap">
+                <div class="mdl-textfield mdl-js-textfield">
+                  <input type="text" id="bg-url-input" class="mdl-textfield__input"/>
+                  <label class="mdl-textfield__label" for="bg-url-input">http://</label>
+                </div>
+                <div class="mdl-button mdl-js-button" i18n-text="btnApply" id="bg-weburl-btn">
+                  Apply
+                </div>
+              </div>
+            </div>
+            <div id="bg-image-params">
+              <div class="bg-image-param">
+                <input class="mdl-slider mdl-js-slider" type="range" id="bg-opacity" min="0" max="1.0" step="0.05">
+                <span i18n-text="labelBGOpacity" class="bg-image-param-label">Opacity</span>
+              </div>
+              <div class="bg-image-param">
+                <input class="mdl-slider mdl-js-slider" type="range" id="bg-blur" min="0" max="20">
+                <span class="bg-image-param-label">
+                  <span i18n-text="labelBGBlur" class="vmiddle">Blur</span>
+                  <i class="md-qmark material-icons" id="qm-blurBG">help</i>
+                  <div for="qm-blurBG" class="md-qmark-tip mdl-tooltip mdl-tooltip--large mdl-tooltip--top" i18n-text="tipBGBlur">
+                  </div>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <span id="dy_status_btn_location_wrap">
+        <button id="dy_status_btn_open_location" i18n-title="tipBtnOpenDefaultLocation" class="dy_status_toolbtn mdl-button mdl-js-button mdl-button--icon">
+          <i class="material-icons">folder_open</i>
+        </button>
+        <button id="dy_status_btn_change_location" i18n-title="tipBtnChangeDefaultLocation" class="dy_status_toolbtn mdl-button mdl-js-button mdl-button--icon">
+          <i class="material-icons">folder_open</i>
+          <i class="material-icons" id="sbar-icon-folder-set">settings</i>
+        </button>
+      </span>
+
+      <span id="dy_status_bgbusy" style="display:none;width:16px;padding-left:6px">
+        <img width=16 height=16 src="../icons/loading16.svg"/>
+      </span>
+      <span id="dy_status_queue">0 item(s)</span>
+      <span id="dy_status_downloading"></span>
+
+      <span id="dy_status_table_switcher">
+        <div class="switch status-tooltip focus-click" id="dy_status_table_switcher_tooltip" i18n-title="titleSwitchUI" style="display:inline-block" tabindex="0">
+            <input type="radio" class="switch-input" name="ui_table_list" value="list" id="list">
+            <label for="list" class="switch-label switch-label-off">
+              <i class="material-icons">view_list</i>
+            </label>
+            <input type="radio" class="switch-input" name="ui_table_list" value="table" id="table">
+            <label for="table" class="switch-label switch-label-on">
+              <i class="material-icons">table_chart</i>
+            </label>
+            <span class="switch-selection focus-click-target"></span>
+        </div>
+      </span>
+
+      <button id="dy_status_btn_sort" i18n-title="tipBtnSort" class="dy_status_toolbtn mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons">sort_by_alpha</i>
+      </button>
+      
+      <ul id="dropdown-sort" for="dy_status_btn_sort" tabindex="-1" class="mdl-menu mdl-menu--top-right mdl-js-menu">
+        <li class="mdl-menu__item mdl-menu__item-no-close">
+          <div class="sort-row-wrap" data-sortcol="state">
+            <span i18n-text="fieldState">State</span>
+          </div>
+        </li>
+        <li class="mdl-menu__item mdl-menu__item-no-close">
+          <div class="sort-row-wrap" data-sortcol="name">
+            <span i18n-text="fieldFileName">Name</span>
+          </div>
+        </li>
+        <li class="mdl-menu__item mdl-menu__item-no-close">
+          <div class="sort-row-wrap" data-sortcol="url">
+            <span i18n-text="fieldURL">URL</span>
+          </div>
+        </li>
+        <li class="mdl-menu__item mdl-menu__item-no-close">
+          <div class="sort-row-wrap" data-sortcol="size">
+            <span i18n-text="fieldFileSize">File size</span>
+          </div>
+        </li>
+        <li class="mdl-menu__item mdl-menu__item-no-close">
+          <div class="sort-row-wrap" data-sortcol="progress">
+            <span i18n-text="fieldProgress">Progress</span>
+          </div>
+        </li>
+        <li class="mdl-menu__item mdl-menu__item-no-close">
+          <div class="sort-row-wrap" data-sortcol="time_add">
+            <span i18n-text="fieldAddTime">Create time</span>
+          </div>
+        </li>
+       </ul>
+
+      <button id="dy_status_btn_clear" i18n-title="tipBtnClear" class="dy_status_toolbtn mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons">delete_sweep</i>
+      </button>
+      
+      <ul id="dropdown-clear" for="dy_status_btn_clear" tabindex="-1" class="mdl-menu mdl-menu--top-right mdl-js-menu">
+        <li class="mdl-menu__line-item">
+          <label for="cb_clear_file" class="mdl-checkbox mdl-js-checkbox">
+            <input class="mdl-checkbox__input" type="checkbox" id="cb_clear_file" />
+            <span class="mdl-checkbox__label" i18n-text="optItemClearRemoveFile">Remove file from disk</span>
+          </label>
+        </li>
+        <li class="mdl-menu__divider"></li>
+        <li class="mdl-menu__item"><a i18n-text="btnClearRemoved" id="btn_clear_fmissing">Clear File Missing</a></li>
+        <li class="mdl-menu__item"><a i18n-text="btnClearFinished" id="btn_clear_finished">Clear finished</a></li>
+        <li class="mdl-menu__item"><a i18n-text="btnClearFailed" id="btn_clear_failed">Clear interrupted</a></li>
+        <li class="mdl-menu__item"><a i18n-text="btnClearAll" id="btn_clear_all">Clear both</a></li>
+        <li class="mdl-menu__divider"></li>
+        <li class="mdl-menu__panel">
+          <div>
+            <span i18n-text="labelAutoClear">Schedule</span>
+            <i class="md-qmark material-icons" id="qm-autoClearSchedule">help</i>
+            <div for="qm-autoClearSchedule" class="md-qmark-tip mdl-tooltip mdl-tooltip--large mdl-tooltip--top" i18n-text="tipAutoClear">
+            </div>
+          </div>
+          <div>
+            <select id="autoclear_type">
+              <option value="finished" i18n-text="btnClearFinished">Clear finished</option>
+              <option value="interrupted" i18n-text="btnClearFailed">Clear interrupted</option>
+              <option value="both" i18n-text="btnClearAll">Clear both</option>
+            </select>
+          </div>
+          <div>
+            <select id="autoclear_timer">
+              <option value="-1" i18n-text="phraseNever">Never</option>
+              <option value="5" i18n-textparams="everyXMinutes,5">Every 5 minutes</option>
+              <option value="30" i18n-textparams="everyXMinutes,30">Every 30 minutes</option>
+              <option value="300" i18n-textparams="everyXHours,5">Every 5 hours</option>
+              <option value="1440" i18n-textparams="everyXHours,24">Every 24 hours</option>
+              <option value="4320" i18n-textparams="everyXDays,3">Every 3 days</option>
+              <option value="10080" i18n-textparams="everyXDays,7">Every 7 days</option>
+              <option value="43200" i18n-textparams="everyXDays,30">Every 30 days</option>
+            </select>
+          </div>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+  
+</div>
+
+</body>
+</html>

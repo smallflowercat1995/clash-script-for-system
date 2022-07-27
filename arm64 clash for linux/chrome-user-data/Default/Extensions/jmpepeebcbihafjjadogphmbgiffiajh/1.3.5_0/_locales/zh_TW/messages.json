@@ -1,0 +1,270 @@
+{
+   "RequireAllowAccessFile": {
+      "description": "",
+      "message": "請在 chrome://extensions 彩雲小譯的「詳細資訊」中勾選「允許存取檔案網址」，小譯才能為您提供檔案翻譯服務喔>//\u003C"
+   },
+   "VideoTransReqLogin": {
+      "description": "",
+      "message": "登入彩雲小譯可以體驗 AI 影片翻譯功能喔！若您剛登入，請刷新頁面再點擊插件"
+   },
+   "addFavorite": {
+      "description": "",
+      "message": "收藏此頁"
+   },
+   "appDesc": {
+      "description": "",
+      "message": "彩雲小譯雙語對照網頁翻譯插件，一鍵高效獲取母語閱讀體驗。"
+   },
+   "appName": {
+      "description": "",
+      "message": "彩雲小譯 - 網頁翻譯插件"
+   },
+   "appNameAbbr": {
+      "description": "",
+      "message": "彩雲小譯"
+   },
+   "baidu": {
+      "description": "",
+      "message": "朗讀工具2"
+   },
+   "clickToStartTrans": {
+      "description": "",
+      "message": "點擊「開始」影片會開始播放並實時生成字幕喔！"
+   },
+   "closeRecorder": {
+      "description": "",
+      "message": "已關閉"
+   },
+   "closingAudioMsg": {
+      "description": "",
+      "message": "正在關閉聲音識別功能 ..."
+   },
+   "ctrlHint": {
+      "description": "",
+      "message": "點我展開/收起"
+   },
+   "defaultAudioApi": {
+      "description": "",
+      "message": "語音朗讀默認工具"
+   },
+   "en": {
+      "description": "",
+      "message": "英文"
+   },
+   "freeTrialPopupConfirm": {
+      "description": "free try popup confirm",
+      "message": "知道了"
+   },
+   "freeTrialPopupLogIn": {
+      "description": "free try popup login",
+      "message": "登入瞭解更多"
+   },
+   "freeTrialPopupMessage": {
+      "description": "free try popup message",
+      "message": "恭喜您！獲得網頁翻譯限免體驗60次~"
+   },
+   "funcOnOff": {
+      "description": "",
+      "message": "雙語、原文、譯文切換"
+   },
+   "getAllUrlsFailed": {
+      "description": "",
+      "message": "為了您正常使用劃詞翻譯、自動翻譯和視頻翻譯功能，請允許小譯讀取和更改您在訪問的網站上的所有數據"
+   },
+   "getCookieFailed": {
+      "description": "",
+      "message": "糟糕！判斷登錄失敗，請右键點擊插件，授權小譯訪問網站的數據"
+   },
+   "getCookiesPermissionFailed": {
+      "description": "",
+      "message": "無法訪問Cookie，您將無法登錄，請允許小譯可讀取和更改網站的數據"
+   },
+   "hideRwdBtn": {
+      "description": "",
+      "message": "隱藏菜單欄"
+   },
+   "ja": {
+      "description": "",
+      "message": "日文"
+   },
+   "launchApp": {
+      "description": "",
+      "message": "啟動彩雲小譯"
+   },
+   "logInOut": {
+      "description": "",
+      "message": "用戶登入/登出"
+   },
+   "maximizeTransTip": {
+      "description": "",
+      "message": "重複點擊放大小譯字幕"
+   },
+   "minimizeTransTip": {
+      "description": "",
+      "message": "重複點擊縮小小譯字幕"
+   },
+   "multiParagraghErr": {
+      "description": "",
+      "message": "誒呦喂~選中的段落太多啦～可以試試開啟整頁翻譯喲～"
+   },
+   "networkErr": {
+      "description": "",
+      "message": "誒呦喂~網絡請求出錯了～請檢查網絡連接喲～"
+   },
+   "openRecorder": {
+      "description": "",
+      "message": "已開啟聲音識別功能，正在開啟 WebSocket 服務 ...，"
+   },
+   "openRecorderError": {
+      "description": "",
+      "message": "識別失敗："
+   },
+   "optionsPage": {
+      "description": "",
+      "message": "選項頁"
+   },
+   "pdfOpen": {
+      "description": "pdf open",
+      "message": "使用彩雲小譯翻譯 PDF"
+   },
+   "pdfSniff": {
+      "description": "pdf sniff",
+      "message": "自動使用彩雲小譯翻譯 PDF"
+   },
+   "readingSpeed": {
+      "description": "",
+      "message": "朗讀語速"
+   },
+   "recording": {
+      "description": "",
+      "message": "識別中..."
+   },
+   "requestReloadAndReload": {
+      "description": "",
+      "message": "為維護您的隱私權，「影片翻譯功能」需要請您點擊插件按鈕或右鍵選單中的「啟動彩雲小譯」，才能在偵測到影片的情況下，為您提供自動影片翻譯服務。"
+   },
+   "requestingAudioMsg": {
+      "description": "",
+      "message": "正在開啟聲音識別功能 ..."
+   },
+   "searchingVideo": {
+      "description": "",
+      "message": "小譯正在努力獲取影片檔案..."
+   },
+   "shortcuts": {
+      "description": "shortcuts",
+      "message": "快捷鍵"
+   },
+   "showBil": {
+      "description": "",
+      "message": "雙語"
+   },
+   "showBilAbbr": {
+      "description": "",
+      "message": "雙語"
+   },
+   "showDirectly": {
+      "description": "",
+      "message": "直接顯示劃譯結果"
+   },
+   "showOrg": {
+      "description": "",
+      "message": "原文"
+   },
+   "showOrgAbbr": {
+      "description": "",
+      "message": "原文"
+   },
+   "showRwdBtn": {
+      "description": "",
+      "message": "顯示菜單欄"
+   },
+   "showTgt": {
+      "description": "",
+      "message": "譯文"
+   },
+   "showTgtAbbr": {
+      "description": "",
+      "message": "譯文"
+   },
+   "startVideoTransBtn": {
+      "description": "",
+      "message": "開始"
+   },
+   "stopVideoTransBtn": {
+      "description": "",
+      "message": "停止"
+   },
+   "swtErr": {
+      "description": "",
+      "message": "誒呦喂~劃詞翻譯功能運行出錯了～請刷新重試喲～"
+   },
+   "tooFreqentErr": {
+      "description": "",
+      "message": "誒呦喂~操作太頻繁啦～請稍後重試喲～"
+   },
+   "transEn2Zh": {
+      "description": "",
+      "message": "英翻中"
+   },
+   "transEn2ZhAbbr": {
+      "description": "",
+      "message": "英翻中"
+   },
+   "transJp2Zh": {
+      "description": "",
+      "message": "日翻中"
+   },
+   "transJp2ZhAbbr": {
+      "description": "",
+      "message": "日翻中"
+   },
+   "transZh2En": {
+      "description": "",
+      "message": "中翻英"
+   },
+   "transZh2EnAbbr": {
+      "description": "",
+      "message": "中翻英"
+   },
+   "videoAlertMuted": {
+      "description": "",
+      "message": "為了識別影片的人聲，請取消靜音，不然小譯沒辦法為您提供實時字幕>//\u003C"
+   },
+   "videoBtnTitle": {
+      "description": "",
+      "message": "影片翻譯（Beta）"
+   },
+   "videoNotFound": {
+      "description": "",
+      "message": "糟糕！小譯沒有找到可以翻譯的影片，但小譯還是會努力提供字幕給您>//\u003C"
+   },
+   "videoTrans": {
+      "description": "",
+      "message": "視頻翻譯"
+   },
+   "wsError": {
+      "description": "",
+      "message": "糟糕！連接小譯伺服器失敗，請檢查網路是否連接正常或聯繫我們"
+   },
+   "wsIsConnecting": {
+      "description": "",
+      "message": "已連接小譯翻譯伺服器"
+   },
+   "wsIsNotOpened": {
+      "description": "",
+      "message": "糟糕！WebSocket 未成功開啟，請檢查網路是否連接正常或聯繫我們"
+   },
+   "wsIsOpen": {
+      "description": "",
+      "message": "已開啟 WebSocket"
+   },
+   "youdao": {
+      "description": "",
+      "message": "朗讀工具1"
+   },
+   "zh": {
+      "description": "",
+      "message": "簡體中文"
+   }
+}

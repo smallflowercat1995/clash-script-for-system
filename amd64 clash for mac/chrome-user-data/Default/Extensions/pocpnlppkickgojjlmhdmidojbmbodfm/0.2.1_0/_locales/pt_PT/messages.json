@@ -1,0 +1,556 @@
+{
+   "apierrmsg_aborted": {
+      "message": "Operação interrompida."
+   },
+   "apierrmsg_device_list_error": {
+      "message": "Não foi possível localizar uma unidade USB ou um cartão SD."
+   },
+   "apierrmsg_device_list_error_on_hub": {
+      "message": "Não é possível encontrar uma unidade USB."
+   },
+   "apierrmsg_device_list_error_workspace_hardware": {
+      "message": "Não é possível encontrar uma unidade USB."
+   },
+   "apierrmsg_device_write_error": {
+      "message": "Não é possível escrever na unidade flash USB ou no cartão SD selecionados. As autorizações de escrita do seu dispositivo podem estar desativadas ou a administração de domínio pode ter desativado a escrita na memória USB."
+   },
+   "apierrmsg_download_cancelled": {
+      "message": "Transferência cancelada."
+   },
+   "apierrmsg_download_hash_mismatch": {
+      "message": "O ficheiro é inválido."
+   },
+   "apierrmsg_download_interrupted": {
+      "message": "Transferência interrompida. Verifique a sua ligação de rede e tente novamente."
+   },
+   "apierrmsg_file_invalid": {
+      "message": "O ficheiro é inválido."
+   },
+   "apierrmsg_operation_already_in_progress": {
+      "message": "Já existe uma operação em curso."
+   },
+   "apierrmsg_unknown": {
+      "message": "Erro desconhecidor: $1.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "apierrmsg_unsupported_operation": {
+      "message": "Operação não suportada."
+   },
+   "apierrmsg_unzip_error": {
+      "message": "Não foi possível descomprimir o ficheiro. Verifique se o dispositivo tem espaço suficiente e tente novamente."
+   },
+   "apierrmsg_unzip_invalid_archive": {
+      "message": "ficheiro ZIP inválido."
+   },
+   "apierrmsg_url_invalid": {
+      "message": "Ficheiro não encontrado."
+   },
+   "apierrmsg_verification_failed": {
+      "message": "Falha na validação da imagem."
+   },
+   "app_description": {
+      "message": "Crie suportes de recuperação para o seu Chromebook."
+   },
+   "app_description_on_hub": {
+      "message": "Crie uma unidade USB de recuperação para o seu OnHub."
+   },
+   "app_description_workspace_hardware": {
+      "message": "Crie uma unidade USB de recuperação para o seu Meet Compute System."
+   },
+   "app_name": {
+      "message": "Utilitário de recuperação do Chromebook"
+   },
+   "app_name_on_hub": {
+      "message": "Utilitário de recuperação do OnHub"
+   },
+   "app_name_workspace_hardware": {
+      "message": "Utilitário de recuperação Meet Compute System"
+   },
+   "app_short_name": {
+      "message": "Recuperação"
+   },
+   "cancel_button_text": {
+      "message": "Cancelar"
+   },
+   "chrome_app_deprecation_message": {
+      "message": "Tal como anunciado publicamente no \u003Ca href=\"https://blog.chromium.org/2020/08/changes-to-chrome-app-support-timeline.html\" target=\"_blank\" tabindex=\"0\">blogue do Chromium\u003C/a>, a Google vai deixar de prestar apoio técnico às Apps do Chrome em junho de 2021. Utilize a \u003Ca href=\"https://chrome.google.com/webstore/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm\" target=\"_blank\">extensão Utilitário de recuperação do Chromebook\u003C/a> e a \u003Ca href=\"http://www.google.com/chromeos/recovery\" target=\"_blank\">documentação\u003C/a> relacionada para recuperar o(s) seu(s) dispositivo(s)."
+   },
+   "chrome_app_deprecation_message_on_hub": {
+      "message": "Tal como anunciado publicamente no \u003Ca href=\"https://blog.chromium.org/2020/08/changes-to-chrome-app-support-timeline.html\" target=\"_blank\" tabindex=\"0\">blogue do Chromium\u003C/a>, a Google vai deixar de prestar apoio técnico às Apps do Chrome em junho de 2021. Utilize a \u003Ca href=\"https://chrome.google.com/webstore/detail/onhub-recovery-utility/fmgkgdalfapcmjnanilfcpkhkhedmpdm\" target=\"_blank\">extensão Utilitário de recuperação do OnHub\u003C/a> e a \u003Ca href=\"https://support.google.com/onhub/answer/6274977\" target=\"_blank\">documentação\u003C/a> relacionada para recuperar o(s) seu(s) dispositivo(s)."
+   },
+   "complete_bullet1": {
+      "message": "Para recuperar o Chromebook, ligue o suporte de recuperação ao mesmo."
+   },
+   "complete_bullet1_on_hub": {
+      "message": "Desligue o cabo de alimentação do seu OnHub e introduza a unidade USB na parte de trás do dispositivo. Mantenha premido o botão de reposição e ligue a alimentação. Continue a premir o botão de reposição durante cerca de 15 segundos ou até a luz de atividade na unidade USB ficar intermitente."
+   },
+   "complete_bullet1_workspace_hardware": {
+      "message": "Para recuperar o Meet Compute System, siga as instruções em \u003Ca href=\"http://support.google.com/meethardware/answer/10562922#zippy=%2Cstep-enter-recovery-mode\" target=\"_blank\">Recupere a caixa de processamento do hardware Google Meet, Passo 3: entre no modo de recuperação\u003C/a>"
+   },
+   "complete_bullet2": {
+      "message": "Após a recuperação, pode apagar o suporte de recuperação com este utilitário."
+   },
+   "complete_bullet2_on_hub": {
+      "message": "O seu OnHub vai passar pelo processo de recuperação, que pode demorar vários minutos. Assim que o OnHub tenha sido recuperado, é reiniciado. Em seguida, utilize a app Google On para configurar o OnHub."
+   },
+   "complete_bullet2_workspace_hardware": {
+      "message": "Para apagar a unidade flash USB quando terminar, inicie o Utilitário de recuperação Meet Compute System, clique em \u003Cb>Definições\u003C/b> e, de seguida, em \u003Cb>Apagar suporte de recuperação\u003C/b>"
+   },
+   "complete_message": {
+      "message": "Já pode retirar o suporte de recuperação."
+   },
+   "complete_message_on_hub": {
+      "message": "Já pode retirar a unidade USB de recuperação."
+   },
+   "complete_message_workspace_hardware": {
+      "message": "Pode remover a unidade flash"
+   },
+   "complete_title": {
+      "message": "Êxito! O suporte de recuperação está pronto"
+   },
+   "complete_title_on_hub": {
+      "message": "Êxito! A sua unidade USB está pronta"
+   },
+   "complete_title_workspace_hardware": {
+      "message": "Êxito! A sua unidade USB está pronta"
+   },
+   "completed": {
+      "message": "concluídos"
+   },
+   "confirm_cancelled_message_html": {
+      "message": "Cancelado. Clique em &rdquo;Criar agora&rdquo; para tentar novamente.\u003Cbr>\u003Cbr>Para apagar o suporte de recuperação, clique no ícone de roda dentada no canto superior direito."
+   },
+   "confirm_cancelled_message_html_on_hub": {
+      "message": "Cancelado. Clique em &rdquo;Criar agora&rdquo; para tentar novamente.\u003Cbr>\u003Cbr>Para apagar a unidade USB de recuperação, clique no ícone de roda dentada no canto superior direito."
+   },
+   "confirm_cancelled_message_html_workspace_hardware": {
+      "message": "Cancelado. Clique em &rdquo;Criar agora&rdquo; para tentar novamente.\u003Cbr>\u003Cbr>Para apagar a unidade USB de recuperação, clique no ícone de roda dentada no canto superior direito."
+   },
+   "confirm_hide_advanced_settings_message": {
+      "message": "Ocultar definições avançadas"
+   },
+   "confirm_message_html": {
+      "message": "\u003Cb>Importante:\u003C/b> todos os dados e partições no suporte de recuperação são eliminados."
+   },
+   "confirm_message_html_on_hub": {
+      "message": "\u003Cb>Importante:\u003C/b> todos os dados e partições na unidade USB de recuperação são eliminados."
+   },
+   "confirm_message_html_workspace_hardware": {
+      "message": "\u003Cb>Importante:\u003C/b> todos os dados na unidade flash serão eliminados"
+   },
+   "confirm_show_advanced_settings_message": {
+      "message": "Mostrar definições avançadas"
+   },
+   "confirm_title": {
+      "message": "Crie uma imagem de recuperação"
+   },
+   "continue_button_text": {
+      "message": "Continuar"
+   },
+   "create_another_button_text": {
+      "message": "Criar outro"
+   },
+   "create_now_button_text": {
+      "message": "Criar agora"
+   },
+   "dev_app_description": {
+      "message": "Versão de programação do Utilitário de recuperação do Chromebook."
+   },
+   "dev_app_description_on_hub": {
+      "message": "Versão de programação do Utilitário de recuperação do OnHub."
+   },
+   "dev_app_description_workspace_hardware": {
+      "message": "Versão de programação do Utilitário de recuperação Meet Compute System."
+   },
+   "dev_app_name": {
+      "message": "Prog Utilitário de recuperação do Chromebook"
+   },
+   "dev_app_name_on_hub": {
+      "message": "Prog Utilitário de recuperação do OnHub"
+   },
+   "dev_app_name_workspace_hardware": {
+      "message": "Prog Utilit. recuperação Meet Compute System"
+   },
+   "done_button_text": {
+      "message": "Concluído"
+   },
+   "erase_complete_bullet1": {
+      "message": "Já pode formatar a unidade USB ou o cartão SD."
+   },
+   "erase_complete_bullet1_on_hub": {
+      "message": "Já pode formatar a unidade USB."
+   },
+   "erase_complete_bullet1_workspace_hardware": {
+      "message": "Já pode formatar a unidade USB."
+   },
+   "erase_complete_bullet2": {
+      "message": "Formate com uma ferramenta de formatação fornecida pelo sistema operativo."
+   },
+   "erase_complete_title": {
+      "message": "O suporte de recuperação foi apagado."
+   },
+   "erase_complete_title_on_hub": {
+      "message": "A unidade USB de recuperação foi apagada."
+   },
+   "erase_complete_title_workspace_hardware": {
+      "message": "A unidade USB de recuperação foi apagada."
+   },
+   "erase_confirm_message": {
+      "message": "A imagem de recuperação e todas as partições no suporte de recuperação são apagadas."
+   },
+   "erase_confirm_message_on_hub": {
+      "message": "A imagem de recuperação e todas as partições na unidade USB de recuperação são apagadas."
+   },
+   "erase_confirm_message_workspace_hardware": {
+      "message": "A imagem de recuperação e todas as partições na unidade USB de recuperação são apagadas."
+   },
+   "erase_now_button_text": {
+      "message": "Apagar agora"
+   },
+   "erase_progress_text": {
+      "message": "Não retire o suporte de recuperação."
+   },
+   "erase_progress_text_on_hub": {
+      "message": "Não retire a unidade USB de recuperação."
+   },
+   "erase_progress_text_workspace_hardware": {
+      "message": "Não retire a unidade USB de recuperação."
+   },
+   "erase_progress_title": {
+      "message": "A apagar o suporte de recuperação"
+   },
+   "erase_progress_title_on_hub": {
+      "message": "A apagar a unidade USB de recuperação"
+   },
+   "erase_progress_title_workspace_hardware": {
+      "message": "A apagar a unidade USB de recuperação"
+   },
+   "erase_select_target_detecting": {
+      "message": "A detetar"
+   },
+   "erase_select_target_high_capacity_warning_html": {
+      "message": "\u003Cb>Aviso:\u003C/b> esta é a unidade correta?"
+   },
+   "erase_select_target_no_devices_found": {
+      "message": "Não foram encontrados cartões SD nem unidades USB"
+   },
+   "erase_select_target_no_devices_found_on_hub": {
+      "message": "Não foram encontradas unidades USB"
+   },
+   "erase_select_target_no_devices_found_workspace_hardware": {
+      "message": "Não foram encontradas unidades USB"
+   },
+   "erase_select_target_select_device": {
+      "message": "Selecione o suporte de recuperação que pretende apagar."
+   },
+   "erase_select_target_select_device_on_hub": {
+      "message": "Selecione a unidade USB de recuperação que pretende apagar."
+   },
+   "erase_select_target_select_device_placeholder": {
+      "message": "Selecionar"
+   },
+   "erase_select_target_select_device_workspace_hardware": {
+      "message": "Selecione a unidade USB de recuperação que pretende apagar."
+   },
+   "erase_title": {
+      "message": "Apague o suporte de recuperação"
+   },
+   "erase_title_on_hub": {
+      "message": "Apague a unidade USB de recuperação"
+   },
+   "erase_title_workspace_hardware": {
+      "message": "Apague a unidade USB de recuperação"
+   },
+   "errmsg_please_try_again": {
+      "message": "Tente novamente."
+   },
+   "errmsg_recovery_config_download_failure": {
+      "message": "Falha ao transferir o ficheiro de configuração. Só estão disponíveis as funcionalidades offline."
+   },
+   "get_started_button_text": {
+      "message": "Começar"
+   },
+   "gigabyte_abbreviation": {
+      "message": "GB"
+   },
+   "go_back_button_text": {
+      "message": "Voltar"
+   },
+   "hours_remaining": {
+      "message": "$1 horas restantes.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "hwid_invalid_model": {
+      "message": "Número de modelo inválido. Verifique a sua entrada."
+   },
+   "hwid_keep_typing": {
+      "message": "Ainda não foi encontrado qualquer modelo. Continue a escrever."
+   },
+   "hwid_keep_typing_workspace_hardware": {
+      "message": "Ainda não encontrámos um modelo"
+   },
+   "hwid_match_found": {
+      "message": "Foi encontrada uma correspondência"
+   },
+   "hwid_match_found_and_checksum_verified": {
+      "message": "Foi encontrada uma correspondência com o nome exato do modelo"
+   },
+   "learn_more_link_text": {
+      "message": "Saiba mais"
+   },
+   "learn_more_link_url": {
+      "message": "http://www.google.com/chromeos/recovery"
+   },
+   "learn_more_link_url_on_hub": {
+      "message": "https://support.google.com/onhub/answer/6274977"
+   },
+   "learn_more_link_url_workspace_hardware": {
+      "message": "http://support.google.com/meethardware/answer/10562922"
+   },
+   "loading_config_text": {
+      "message": "A preparar…"
+   },
+   "menu_item_erase_recovery_media": {
+      "message": "Apagar suporte de recuperação"
+   },
+   "menu_item_erase_recovery_media_on_hub": {
+      "message": "Apagar unidade USB de recuperação"
+   },
+   "menu_item_erase_recovery_media_workspace_hardware": {
+      "message": "Apagar unidade USB de recuperação"
+   },
+   "menu_item_send_feedback": {
+      "message": "Enviar feedback"
+   },
+   "menu_item_use_local_image": {
+      "message": "Utilizar imagem local"
+   },
+   "minutes_remaining": {
+      "message": "$1# minutos restantes.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "of": {
+      "message": "de"
+   },
+   "recovery_channel_beta": {
+      "message": "Beta"
+   },
+   "recovery_channel_dev": {
+      "message": "Programadores"
+   },
+   "recovery_channel_ltc": {
+      "message": "Candidato a apoio técnico a longo prazo (apenas Enterprise)"
+   },
+   "recovery_channel_lts": {
+      "message": "Apoio técnico a longo prazo (apenas Enterprise)"
+   },
+   "recovery_channel_stable": {
+      "message": "Estável"
+   },
+   "seconds_remaining": {
+      "message": "Faltam $1 segundos.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "select_channel_placeholder": {
+      "message": "Selecione um canal de recuperação"
+   },
+   "select_image_select_by_hwid_link_text": {
+      "message": "Introduza um número de modelo diretamente"
+   },
+   "select_image_select_from_list_link_text": {
+      "message": "Selecione um modelo da lista"
+   },
+   "select_image_select_manufacturer_placeholder": {
+      "message": "Selecionar um fabricante"
+   },
+   "select_image_select_product_placeholder": {
+      "message": "Selecionar um produto"
+   },
+   "select_image_select_product_placeholder_on_hub": {
+      "message": "Selecionar um modelo"
+   },
+   "select_image_select_product_placeholder_workspace_hardware": {
+      "message": "Selecionar um modelo"
+   },
+   "select_image_text": {
+      "message": "Introduza o número do modelo do Chromebook a recuperar. Pode encontrá-lo no ecrã de recuperação."
+   },
+   "select_image_text_on_hub": {
+      "message": "Introduza o número do modelo do seu OnHub."
+   },
+   "select_image_text_workspace_hardware": {
+      "message": "Introduza o número de modelo do seu Meet Compute System"
+   },
+   "select_image_this_chromebooks_model_number": {
+      "message": "Para este Chromebook, introduza"
+   },
+   "select_image_this_chromebooks_model_number_on_hub": {
+      "message": "Para este OnHub, introduza"
+   },
+   "select_image_this_chromebooks_model_number_workspace_hardware": {
+      "message": "Para este Meet Compute System, introduza"
+   },
+   "select_image_title": {
+      "message": "Identifique o Chromebook"
+   },
+   "select_image_title_on_hub": {
+      "message": "Identifique o OnHub"
+   },
+   "select_image_title_workspace_hardware": {
+      "message": "Identifique o Meet Compute System"
+   },
+   "select_target_detecting": {
+      "message": "A detetar"
+   },
+   "select_target_high_capacity_warning_html": {
+      "message": "\u003Cb>Aviso:\u003C/b> este é o suporte correto?"
+   },
+   "select_target_high_capacity_warning_html_on_hub": {
+      "message": "\u003Cb>Aviso:\u003C/b> esta é a unidade USB correta?"
+   },
+   "select_target_high_capacity_warning_html_workspace_hardware": {
+      "message": "\u003Cb>Aviso:\u003C/b> esta é a unidade USB correta?"
+   },
+   "select_target_low_capacity_error": {
+      "message": "O suporte tem de ter, pelo menos, 8 GB."
+   },
+   "select_target_low_capacity_error_on_hub": {
+      "message": "A sua unidade USB tem de ter, pelo menos, 8 GB."
+   },
+   "select_target_low_capacity_error_workspace_hardware": {
+      "message": "A sua unidade USB tem de ter, pelo menos, 8 GB."
+   },
+   "select_target_no_devices_found": {
+      "message": "Não foram encontrados cartões SD nem unidades USB"
+   },
+   "select_target_no_devices_found_on_hub": {
+      "message": "Não foram encontradas unidades USB"
+   },
+   "select_target_no_devices_found_workspace_hardware": {
+      "message": "Não foram encontradas unidades USB"
+   },
+   "select_target_select_device": {
+      "message": "Selecione o suporte que pretende utilizar."
+   },
+   "select_target_select_device_on_hub": {
+      "message": "Selecione a unidade USB que pretende utilizar."
+   },
+   "select_target_select_device_placeholder": {
+      "message": "Selecionar"
+   },
+   "select_target_select_device_workspace_hardware": {
+      "message": "Selecione a unidade USB que pretende utilizar."
+   },
+   "select_target_title": {
+      "message": "Insira a unidade flash USB ou o cartão SD"
+   },
+   "select_target_title_on_hub": {
+      "message": "Insira a unidade flash USB"
+   },
+   "select_target_title_workspace_hardware": {
+      "message": "Insira a unidade flash USB"
+   },
+   "stage_complete": {
+      "message": "Concluído"
+   },
+   "stage_download": {
+      "message": "A transferir"
+   },
+   "stage_downloadverify": {
+      "message": "A validar a transferência"
+   },
+   "stage_unpack": {
+      "message": "A descompactar"
+   },
+   "stage_unzip": {
+      "message": "A descompactar"
+   },
+   "stage_verify": {
+      "message": "A validar"
+   },
+   "stage_verifydownload": {
+      "message": "A validar a transferência"
+   },
+   "stage_verifywrite": {
+      "message": "A validar"
+   },
+   "stage_write": {
+      "message": "A escrever"
+   },
+   "step": {
+      "message": "Passo"
+   },
+   "unsupported_text": {
+      "message": "Infelizmente, a sua plataforma não é suportada atualmente. Consulte o \u003Ca href=\"http://www.google.com/chromeos/recovery\" target=\"_blank\">Centro de Ajuda do Chromebook\u003C/a> para obter mais informações."
+   },
+   "unsupported_text_mac": {
+      "message": "Infelizmente, o Mac só é suportado na versão M37 ou superior. Atualize o seu Chrome para a versão M37. Esta ação pode exigir uma \u003Ca href=\"https://support.google.com/chromebook/answer/1086915\" target=\"_blank\">mudança para o canal beta\u003C/a>."
+   },
+   "unsupported_text_on_hub": {
+      "message": "Infelizmente, a sua plataforma não é suportada atualmente. Consulte o \u003Ca href=\"https://support.google.com/onhub/answer/6274977\" target=\"_blank\">Centro de Ajuda do OnHub\u003C/a> para obter mais informações."
+   },
+   "unsupported_title": {
+      "message": "A sua plataforma não é suportada atualmente"
+   },
+   "unsupported_title_linux": {
+      "message": "O Linux não é suportado atualmente"
+   },
+   "unsupported_title_mac": {
+      "message": "O Mac não é suportado atualmente"
+   },
+   "unsupported_title_win": {
+      "message": "O Windows não é suportado atualmente"
+   },
+   "usupported_text_workspace_hardware": {
+      "message": "Infelizmente, a sua plataforma não é suportada neste momento.  Consulte o \u003Ca href=\"http://support.google.com/meethardware/answer/10562922\" target=\"_blank\">Centro de Ajuda do hardware Google Meet\u003C/a> para obter mais informações."
+   },
+   "warning_offline": {
+      "message": "O dispositivo está offline. Só estão disponíveis as funcionalidades offline."
+   },
+   "welcome_text": {
+      "message": "Necessita de uma unidade flash USB ou de um cartão SD de 8 GB ou maior que não tenha problemas em apagar."
+   },
+   "welcome_text_on_hub": {
+      "message": "Necessita de uma unidade flash USB ou de um cartão SD de 8 GB ou maior que não tenha problemas em apagar."
+   },
+   "welcome_text_workspace_hardware": {
+      "message": "Necessita de uma unidade flash USB ou de um cartão SD de 8 GB ou maior que não tenha problemas em apagar. Se o seu dispositivo tiver uma ranhura para cartões SD, também pode utilizar um cartão SD."
+   },
+   "welcome_title": {
+      "message": "Crie um suporte de recuperação para o seu Chromebook"
+   },
+   "welcome_title_on_hub": {
+      "message": "Crie uma unidade USB de recuperação para o seu OnHub"
+   },
+   "welcome_title_workspace_hardware": {
+      "message": "Crie uma unidade USB de recuperação para o Meet Compute System"
+   },
+   "write_message": {
+      "message": "Não retire o suporte de recuperação."
+   },
+   "write_message_on_hub": {
+      "message": "Não retire a unidade USB de recuperação."
+   },
+   "write_message_workspace_hardware": {
+      "message": "Não remova a unidade flash USB."
+   },
+   "write_title": {
+      "message": "A criar uma imagem de recuperação"
+   }
+}

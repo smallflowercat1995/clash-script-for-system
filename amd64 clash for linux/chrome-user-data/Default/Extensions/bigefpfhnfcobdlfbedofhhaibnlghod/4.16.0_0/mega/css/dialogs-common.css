@@ -1,0 +1,469 @@
+.mega-banner-container{
+	align-items:center;
+	display:flex;
+	justify-content:center;
+	width:100%
+}
+.mega-banner-template{
+	--border-radius:24px;
+	--mask-color:var(--text-color-high);
+	background:var(--surface-main);
+	bottom:0;
+	box-shadow:0 4px 16px 0 rgb(0 0 0 / .1);
+	box-sizing:border-box;
+	color:var(--text-color-medium);
+	display:flex;
+	flex-direction:column;
+	font:var(--text-body1);
+	position:fixed;
+	width:100%;
+	z-index:1090
+}
+.mega-banner-template.hidden{
+	display:none
+}
+.mega-banner-template button.close{
+	align-items:center;
+	background:transparent;
+	border:none;
+	cursor:pointer;
+	display:flex;
+	justify-content:center;
+	outline:none;
+	padding:0;
+	position:absolute;
+	right:16px;
+	top:16px;
+	z-index:2010
+}
+.rtl .mega-banner-template button.close{
+	left:16px;
+	right:auto
+}
+.mega-banner-template button.close i{
+	--icon-size:24px;
+	margin:0;
+	opacity:.6;
+	transition:opacity .2s ease-in-out
+}
+@media (hover:hover){
+.mega-banner-template button.close i:hover{
+	opacity:.8
+}
+}
+.mega-banner-template>.content{
+	align-items:center;
+	display:flex;
+	padding:24px 80px
+}
+.mega-banner-template .graphic{
+	--width:74px;
+	-webkit-margin-end:20px;
+	flex:0 0 auto;
+	height:74px;
+	margin:0 2px;
+	margin-inline-end:20px;
+	width:74px
+}
+.mega-banner-template header{
+	align-items:center;
+	display:flex;
+	flex:1 1 auto
+}
+.mega-banner-template header h3{
+	color:var(--text-color-high);
+	font:var(--text-body1-bold);
+	margin:0 0 8px;
+	padding:0
+}
+.mega-banner-template header p{
+	color:var(--text-color-medium);
+	font:var(--text-body1);
+	margin:0;
+	padding:0
+}
+.mega-banner-template header p a,.mega-banner-template header p a:visited{
+	color:var(--text-color-medium);
+	text-decoration:underline
+}
+@media (hover:hover){
+.mega-banner-template header p a:hover{
+	text-decoration:none
+}
+}
+.mega-banner-template header .info{
+	flex:1 1 auto
+}
+.mega-banner-template .buttons{
+	-webkit-margin-start:60px;
+	display:flex;
+	flex:0 0  auto;
+	margin-inline-start:60px
+}
+.mega-banner-template .buttons button~button{
+	-webkit-margin-start:16px;
+	margin-inline-start:16px
+}
+.mega-dialog-container.common-container{
+	z-index:1300
+}
+.mega-dialog-container.common-container.arrange-to-back{
+	z-index:1000
+}
+.dialog-sprite,.ui-datepicker-next,.ui-datepicker-prev,i.dialog-sprite{
+	background-image:url(../images/mega/dialog-sprite.png?v=57a6bd1346996955);
+	background-repeat:no-repeat
+}
+.mobile .verify-email-login-to-account .cancel-email-verify{
+	margin-right:12px
+}
+.fm-dialog-title{
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	color:#666;
+	font-size:20px;
+	line-height:30px;
+	min-height:38px;
+	overflow:hidden;
+	padding:20px 48px 0;
+	text-align:center;
+	-o-text-overflow:ellipsis;
+	text-overflow:ellipsis;
+	white-space:nowrap
+}
+.fm-dialog-title.small{
+	color:#666;
+	font-family:var(--text-font-family);
+	font-size:16px;
+	letter-spacing:-.18px;
+	line-height:25px
+}
+.fm-dialog-title.medium{
+	color:#333;
+	font-family:var(--text-font-family);
+	font-size:18px;
+	padding-top:23px
+}
+.fm-dialog-title.top-pad{
+	padding-top:30px
+}
+.contrast .fm-dialog-title,.fm-dialog-title.dark{
+	color:#333
+}
+.mobile .fm-dialog-title{
+	padding-left:25px;
+	padding-right:25px;
+	white-space:normal
+}
+.mobile .fm-dialog-title.medium{
+	font-size:16px
+}
+@media only screen and (max-width:860px){
+.mega-banner-template>.content{
+	padding:24px 48px
+}
+.mega-banner-template .buttons{
+	-webkit-margin-start:24px;
+	margin-inline-start:24px
+}
+}
+@media only screen and (max-width:720px){
+.mega-banner-template>.content{
+	display:block;
+	padding:24px
+}
+.mega-banner-template .buttons{
+	justify-content:space-between;
+	margin:15px 0 0
+}
+.mega-banner-template .buttons button{
+	width:calc(50% - 6px)
+}
+}
+.mobile .mega-banner-template{
+	border-radius:4px;
+	bottom:10px;
+	box-shadow:1px 1px 5px 0 rgb(147 147 147 / .5);
+	left:10px;
+	width:calc(100% - 20px);
+	z-index:190
+}
+.mobile .mega-banner-template button.close i{
+	--icon-size:20px
+}
+.mobile .mega-banner-template header h3{
+	font-size:13px
+}
+.mobile .mega-banner-template header p{
+	font:var(--text-body2)
+}
+.mobile .mega-dialog-container .mega-dialog{
+	-webkit-overflow-scrolling:touch;
+	max-height:calc(100% - 30px);
+	max-width:768px;
+	overflow:scroll;
+	width:calc(100% - 30px)
+}
+.mega-dialog.verify-email{
+	max-width:360px
+}
+.mega-dialog.verify-email .header{
+	background:var(--surface-error);
+	border-radius:23px 23px 0 0
+}
+.mega-dialog.verify-email .content-block{
+	text-align:center
+}
+.mega-dialog.verify-email .content-block .text:first-child{
+	margin-top:16px
+}
+.mega-dialog.verify-email .content-block .text{
+	color:var(--text-color-high);
+	margin-bottom:16px
+}
+.mega-dialog.verify-email .content-block .header-text{
+	margin-bottom:4px
+}
+.mega-dialog.verify-email .content-block .text strong{
+	font-family:var(--text-font-family-semibold)
+}
+.mega-dialog.verify-email .content-block .text.small{
+	font:var(--text-body2);
+	margin-bottom:8px
+}
+.mega-dialog.verify-email .content-block .text.red{
+	color:var(--text-color-error);
+	cursor:pointer;
+	margin-bottom:0;
+	position:relative
+}
+.mega-dialog.verify-email .locked-account{
+	--width:72px;
+	height:72px;
+	margin:0 auto 16px;
+	width:72px
+}
+.mega-dialog.verify-email .dropdown.body{
+	border-radius:24px;
+	bottom:29px;
+	cursor:default;
+	left:50%;
+	margin:0 0 0 -160px;
+	opacity:0;
+	padding:24px;
+	position:absolute;
+	transition:opacity .2s ease-in-out,visibility .2s ease-in-out;
+	visibility:hidden;
+	width:320px
+}
+.verify-email.content-block .text.red .dropdown.body:after{
+	bottom:-10px;
+	content:"";
+	height:34px;
+	left:0;
+	position:absolute;
+	width:100%
+}
+.verify-email.content-block .text.red:hover .dropdown.body{
+	opacity:1;
+	visibility:visible
+}
+h3.verify-email.header-txt{
+	color:var(--text-color-high);
+	font:var(--text-h3);
+	margin:0 0 12px
+}
+.verify-email .dropdown.body .text:last-child{
+	margin:0
+}
+.mobile .mega-dialog.verify-email{
+	max-width:100%
+}
+.mobile .mega-dialog.verify-email-login-to-account .footer-container,.mobile .mega-dialog.verify-email-set-new-pass .footer-container,.mobile .mega-dialog.verify-email .footer-container{
+	justify-content:center;
+	padding:16px 0
+}
+.mobile .verify-email.content-block{
+	padding:19px 20px 0
+}
+.mobile .verify-email.header{
+	height:auto;
+	padding-top:24px
+}
+.mobile .verify-email.header-txt{
+	padding-bottom:12px;
+	padding-top:0
+}
+.mobile .verify-email.content-block .text{
+	margin-bottom:15px
+}
+.mobile .verify-email.content-block .text.red{
+	margin-bottom:20px
+}
+.mobile .verify-email .dropdown.body{
+	margin-left:-50%;
+	width:100%
+}
+.mobile .verify-email.content-block .text.red{
+	position:static
+}
+.mobile .verify-email .dropdown.body{
+	bottom:auto !important;
+	height:auto;
+	margin:0;
+	max-height:100%;
+	max-height:-webkit-calc(100% - 60px);
+	max-height:-moz-calc(100% - 60px);
+	max-height:calc(100% - 60px);
+	max-height:none;
+	max-width:100%;
+	max-width:-webkit-calc(100% - 60px);
+	max-width:-moz-calc(100% - 60px);
+	max-width:calc(100% - 60px);
+	top:50%;
+	-webkit-transform:translate(-50%, -50%);
+	-moz-transform:translate(-50%, -50%);
+	-ms-transform:translate(-50%, -50%);
+	-o-transform:translate(-50%, -50%);
+	transform:translate(-50%, -50%)
+}
+.mega-dialog.type-480px227{
+	max-width:480px
+}
+.login-set-pass.content-block{
+	color:var(--text-color-high);
+	font:var(--text-body1);
+	padding:22px 35px 35px;
+	text-align:center
+}
+.login-set-pass .text{
+	padding:2px 0 18px
+}
+.login-set-pass .dialog-login-form{
+	margin-top:9px
+}
+.mobile .mega-dialog.type-480px227{
+	max-width:100%
+}
+.mobile .login-set-pass .text{
+	padding-bottom:5px
+}
+.mobile .login-set-pass .dialog-login-form.low-pad{
+	margin-top:-10px
+}
+.mobile .login-set-pass .text{
+	padding:2px 0 10px
+}
+.mobile .account.dialog-login-form-low-pad{
+	margin-top:-5px
+}
+.mobile .login-set-pass .dialog-login-form{
+	margin-top:0
+}
+.mobile .login-set-pass .dialog-top-icon.locked-account{
+	margin-bottom:5px
+}
+.mobile .type-480px227 .mega-input.title-ontop{
+	margin-bottom:10px
+}
+.mobile .login-set-pass button{
+	margin-top:0
+}
+@media only screen and (orientation:landscape){
+.mobile .verify-email.header{
+	padding-top:14px
+}
+}
+.mobile .mega-dialog-container{
+	align-items:center;
+	display:flex;
+	height:100%;
+	justify-content:center;
+	left:0;
+	pointer-events:none;
+	position:fixed;
+	top:0;
+	width:100%;
+	z-index:1300
+}
+.mobile .mega-dialog-container>*{
+	pointer-events:auto
+}
+.mobile .mega-dialog{
+	background:#fff;
+	border-radius:24px;
+	position:absolute
+}
+.mobile .mega-dialog footer{
+	text-align:center
+}
+.mobile .mega-dialog aside{
+	min-height:24px
+}
+.mobile .mega-dialog .mega-button{
+	appearance:none;
+	border:none;
+	border-radius:4px;
+	box-sizing:border-box;
+	cursor:pointer;
+	display:inline-block;
+	font-size:14px;
+	height:48px;
+	line-height:48px;
+	min-width:128px;
+	outline:none;
+	padding:0 25px;
+	position:relative;
+	white-space:nowrap
+}
+.mobile .mega-dialog .mega-button.disabled{
+	opacity:.4
+}
+.mobile .mega-dialog .mega-button:before{
+	border-radius:inherit;
+	box-shadow:0 1px 2px 0 rgb(0 0 0 / .15);
+	content:"";
+	display:block;
+	height:100%;
+	left:0;
+	position:absolute;
+	top:0;
+	width:100%
+}
+.mobile .mega-dialog .mega-button.positive,.mobile .mega-dialog footer button.positive{
+	background:linear-gradient(180deg, #00bfa5 0, #00a690);
+	color:#fff
+}
+.mobile .verify-email-login-to-account button.close,.mobile .verify-email button.close{
+	display:none
+}
+.mobile .verify-email-login-to-account header h2{
+	color:#333;
+	font-family:var(--text-font-family);
+	font-size:16px;
+	line-height:24px;
+	margin-bottom:0;
+	text-align:center
+}
+.mobile .verify-email-login-to-account .content-block{
+	padding:10px 25px 25px
+}
+.mobile .verify-email-login-to-account .dialog-top-icon.locked-account{
+	margin:16px auto
+}
+.mobile .verify-email-set-new-pass button.close{
+	display:none
+}
+.mobile .verify-email-set-new-pass header h2{
+	color:#333;
+	font-family:var(--text-font-family);
+	font-size:16px;
+	line-height:24px;
+	margin-bottom:0;
+	margin-top:18px;
+	text-align:center
+}
+.mobile .verify-email-set-new-pass .content-block{
+	padding:10px 25px 25px
+}

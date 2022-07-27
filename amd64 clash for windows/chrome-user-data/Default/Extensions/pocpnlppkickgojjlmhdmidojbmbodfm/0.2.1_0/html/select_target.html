@@ -1,0 +1,63 @@
+<div ng-controller="recovery.controllers.SelectTargetController">
+
+  <section class="instruction">
+    <article>
+      <h1>
+        {{"SELECT_TARGET_TITLE" | translate}}
+      </h1>
+
+      <figure>
+        <img class="image" ng-src="../img/insert.png" alt="" />
+        <figcaption></figcaption>
+      </figure>
+
+      <div ng-hide="selectTargetController.isDetectionCompleted">
+        <h2>
+          {{"SELECT_TARGET_DETECTING" | translate}}
+        </h2>
+        <jfk-activity-indicator size="small"></jfk-activity-indicator>
+      </div>
+
+      <div ng-show="selectTargetController.isDetectionCompleted">
+        <div ng-show="selectTargetController.usbDevices.length == 0">
+          <p class="kd-errormessage">{{"SELECT_TARGET_NO_DEVICES_FOUND" | translate}}</p>
+        </div>
+
+        <div ng-show="selectTargetController.usbDevices.length > 0">
+          <label for="select-usb-device" class="label-for-control">
+            {{"SELECT_TARGET_SELECT_DEVICE" | translate}}
+          </label>
+
+          <jfk-select id="select-usb-device" class="select"
+              ng-model="selectTargetController.selectedUsb">
+            <span>{{"SELECT_TARGET_SELECT_DEVICE_PLACEHOLDER" | translate}}</span>
+            <jfk-menu>
+              <jfk-menu-item ng-repeat="usbDevice in selectTargetController.usbDevices"
+                  jfk-model-value="usbDevice">
+                {{usbDevice.vendor}} {{usbDevice.model}} -
+                {{usbDevice.capacity / (1024*1024*1024) | decimal:1 }}
+                {{"GIGABYTE_ABBREVIATION" | translate}}
+              </jfk-menu-item>
+            </jfk-menu>
+          </jfk-select>
+
+          <div class="warning" ng-show="selectTargetController.selectedUsb.capacity > 64*1024*1024*1024">
+            <span class="icon"></span>
+            <span class="text" ng-bind-html="'SELECT_TARGET_HIGH_CAPACITY_WARNING_HTML' | translate"></span>
+          </div>
+
+          <div class="error"
+               ng-show="selectTargetController.selectedUsb && selectTargetController.showLowCapacityError"
+               style="margin-top: 10px">
+            <span class="icon"></span>
+            {{'SELECT_TARGET_LOW_CAPACITY_ERROR' | translate}}
+          </div>
+        </div>
+
+      </div>
+    </article>
+  </section>
+
+  <app-footer forward="app.writeConfirm()" back="app.selectDevice()"
+      disable-forward="!selectTargetController.canContinue"></app-footer>
+</div>

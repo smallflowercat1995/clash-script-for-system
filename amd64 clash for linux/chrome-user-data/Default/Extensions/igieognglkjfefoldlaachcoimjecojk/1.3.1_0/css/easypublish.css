@@ -1,0 +1,85 @@
+body {
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+  min-height: 300px;
+  min-width: 600px;
+}
+
+body.page-pop-up {
+  width: 100%;
+  min-height: 300px;
+  min-width: 600px;
+  padding: 0px;
+}
+
+body.page-options {
+  width: 100%;
+  height: 300px;
+  min-width: 600px;
+  padding: 0px;
+}
+
+.checkbox-1x {
+  transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  margin-right: 15px;
+  margin-left: 5px;
+}
+.checkbox-2x {
+  transform: scale(2);
+  -webkit-transform: scale(2);
+  margin-right: 15px;
+}
+
+#toast {
+  display: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 10;
+  margin: 0;
+  padding: 20px;
+  border-radius: 0;
+  text-align: center;
+  font-size: medium;
+}
+
+.buttons {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+input.error {
+  border: 1px solid red;
+}
+.container {
+  min-width: 200px;
+  text-align: left;
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+.btn-group-xs > .btn,
+.btn-xs {
+  padding: 0.25rem 0.4rem;
+  font-size: 0.875rem;
+  line-height: 0.5;
+  border-radius: 0.2rem;
+}
+
+.btn-group-wrap {
+  text-align: center;
+}
+
+div.btn-group {
+  margin: 0 auto;
+  text-align: center;
+  width: inherit;
+  display: inline-block;
+}
+
+.center {
+  margin: auto;
+}

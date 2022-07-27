@@ -1,0 +1,556 @@
+{
+   "apierrmsg_aborted": {
+      "message": "Операция прервана."
+   },
+   "apierrmsg_device_list_error": {
+      "message": "Не удалось найти USB-накопитель или SD-карту."
+   },
+   "apierrmsg_device_list_error_on_hub": {
+      "message": "Не удалось найти USB-накопитель."
+   },
+   "apierrmsg_device_list_error_workspace_hardware": {
+      "message": "Не удалось найти USB-накопитель."
+   },
+   "apierrmsg_device_write_error": {
+      "message": "Не удалось записать данные на выбранный USB-накопитель или SD-карту. Возможно, у устройства нет разрешения на запись, или администратор домена запретил запись на USB-накопитель."
+   },
+   "apierrmsg_download_cancelled": {
+      "message": "Скачивание отменено."
+   },
+   "apierrmsg_download_hash_mismatch": {
+      "message": "Недействительный файл."
+   },
+   "apierrmsg_download_interrupted": {
+      "message": "Скачивание прервано. Проверьте подключение к сети и повторите попытку."
+   },
+   "apierrmsg_file_invalid": {
+      "message": "Недействительный файл."
+   },
+   "apierrmsg_operation_already_in_progress": {
+      "message": "Выполняется операция."
+   },
+   "apierrmsg_unknown": {
+      "message": "Неизвестная ошибка: $1.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "apierrmsg_unsupported_operation": {
+      "message": "Неподдерживаемая операция."
+   },
+   "apierrmsg_unzip_error": {
+      "message": "Не удалось извлечь файл из архива. Убедитесь, что на устройстве достаточно места, и повторите попытку."
+   },
+   "apierrmsg_unzip_invalid_archive": {
+      "message": "Недействительный архив."
+   },
+   "apierrmsg_url_invalid": {
+      "message": "Файл не найден."
+   },
+   "apierrmsg_verification_failed": {
+      "message": "Не удалось проверить образ."
+   },
+   "app_description": {
+      "message": "Создание носителя для восстановления Chromebook"
+   },
+   "app_description_on_hub": {
+      "message": "Создание USB-накопителя для восстановления OnHub"
+   },
+   "app_description_workspace_hardware": {
+      "message": "Создание USB-накопителя для восстановления Meet Compute System"
+   },
+   "app_name": {
+      "message": "Утилита восстановления Chromebook"
+   },
+   "app_name_on_hub": {
+      "message": "Утилита восстановления OnHub"
+   },
+   "app_name_workspace_hardware": {
+      "message": "Утилита восстановления Meet Compute System"
+   },
+   "app_short_name": {
+      "message": "Восстановление"
+   },
+   "cancel_button_text": {
+      "message": "Отмена"
+   },
+   "chrome_app_deprecation_message": {
+      "message": "Как мы сообщали в \u003Ca href=\"https://blog.chromium.org/2020/08/changes-to-chrome-app-support-timeline.html\" target=\"_blank\" tabindex=\"0\">блоге Chromium\u003C/a>, в июне 2021 года Google прекратит поддержку приложений Chrome. Чтобы восстановить устройства, используйте \u003Ca href=\"https://chrome.google.com/webstore/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm\" target=\"_blank\">расширение \"Утилита восстановления Chromebook\"\u003C/a> и следуйте инструкциям в \u003Ca href=\"http://www.google.com/chromeos/recovery\" target=\"_blank\">этой статье\u003C/a>."
+   },
+   "chrome_app_deprecation_message_on_hub": {
+      "message": "Как мы сообщали в \u003Ca href=\"https://blog.chromium.org/2020/08/changes-to-chrome-app-support-timeline.html\" target=\"_blank\" tabindex=\"0\">блоге Chromium\u003C/a>, в июне 2021 года Google прекратит поддержку приложений Chrome. Чтобы восстановить устройства, используйте \u003Ca href=\"https://chrome.google.com/webstore/detail/onhub-recovery-utility/fmgkgdalfapcmjnanilfcpkhkhedmpdm\" target=\"_blank\">расширение \"Утилита восстановления OnHub\"\u003C/a> и следуйте инструкциям в \u003Ca href=\"https://support.google.com/onhub/answer/6274977\" target=\"_blank\">этой статье\u003C/a>."
+   },
+   "complete_bullet1": {
+      "message": "Чтобы восстановить Chromebook, подключите к устройству носитель."
+   },
+   "complete_bullet1_on_hub": {
+      "message": "Отсоедините кабель питания от маршрутизатора OnHub и подключите к нему сзади USB-накопитель. Удерживая кнопку сброса, подсоедините кабель питания. Продолжайте удерживать кнопку сброса в течение 15 секунд или пока не начнет мигать световой индикатор на USB-накопителе."
+   },
+   "complete_bullet1_workspace_hardware": {
+      "message": "Чтобы восстановить Meet Compute System, воспользуйтесь инструкциями из \u003Ca href=\"http://support.google.com/meethardware/answer/10562922#zippy=%2Cstep-enter-recovery-mode\" target=\"_blank\">этой статьи\u003C/a> (см. шаг 3)."
+   },
+   "complete_bullet2": {
+      "message": "После восстановления системы данные с носителя можно удалить с помощью этой утилиты."
+   },
+   "complete_bullet2_on_hub": {
+      "message": "Восстановление OnHub может занять несколько минут. Когда устройство перезагрузится, настройте его с помощью приложения Google On."
+   },
+   "complete_bullet2_workspace_hardware": {
+      "message": "Чтобы по завершении удалить все данные с USB-накопителя, запустите утилиту восстановления Meet Compute System и нажмите \u003Cb>Настройки\u003C/b> > \u003Cb>Удалить данные с носителя для восстановления\u003C/b>."
+   },
+   "complete_message": {
+      "message": "Носитель для восстановления теперь можно отключить от устройства."
+   },
+   "complete_message_on_hub": {
+      "message": "USB-накопитель теперь можно отключить от устройства."
+   },
+   "complete_message_workspace_hardware": {
+      "message": "Теперь USB-накопитель можно отключить."
+   },
+   "complete_title": {
+      "message": "Носитель для восстановления создан"
+   },
+   "complete_title_on_hub": {
+      "message": "USB-накопитель для восстановления создан"
+   },
+   "complete_title_workspace_hardware": {
+      "message": "USB-накопитель для восстановления создан"
+   },
+   "completed": {
+      "message": "завершено"
+   },
+   "confirm_cancelled_message_html": {
+      "message": "Операция отменена. Нажмите \"Создать\", чтобы повторить попытку.\u003Cbr>\u003Cbr>Вы можете удалить данные с носителя для восстановления, нажав в правом верхнем углу на значок шестеренки."
+   },
+   "confirm_cancelled_message_html_on_hub": {
+      "message": "Операция отменена. Нажмите \"Создать\", чтобы повторить попытку.\u003Cbr>\u003Cbr>Вы можете удалить данные с USB-накопителя для восстановления, нажав в правом верхнем углу на значок шестеренки."
+   },
+   "confirm_cancelled_message_html_workspace_hardware": {
+      "message": "Операция отменена. Нажмите \"Создать\", чтобы повторить попытку.\u003Cbr>\u003Cbr>Вы можете удалить данные с USB-накопителя для восстановления, нажав в правом верхнем углу на значок шестеренки."
+   },
+   "confirm_hide_advanced_settings_message": {
+      "message": "Скрыть расширенные настройки"
+   },
+   "confirm_message_html": {
+      "message": "\u003Cb>Важно!\u003C/b> Все данные и разделы на носителе для восстановления будут удалены."
+   },
+   "confirm_message_html_on_hub": {
+      "message": "\u003Cb>Важно!\u003C/b> Все данные и разделы на USB-накопителе для восстановления будут удалены."
+   },
+   "confirm_message_html_workspace_hardware": {
+      "message": "\u003Cb>Внимание!\u003C/b> С USB-накопителя будут удалены все данные."
+   },
+   "confirm_show_advanced_settings_message": {
+      "message": "Показать расширенные настройки"
+   },
+   "confirm_title": {
+      "message": "Создание образа для восстановления"
+   },
+   "continue_button_text": {
+      "message": "Продолжить"
+   },
+   "create_another_button_text": {
+      "message": "Создать ещё один носитель"
+   },
+   "create_now_button_text": {
+      "message": "Создать"
+   },
+   "dev_app_description": {
+      "message": "Утилита восстановления Chromebook, версия для разработчиков"
+   },
+   "dev_app_description_on_hub": {
+      "message": "Утилита восстановления OnHub, версия для разработчиков"
+   },
+   "dev_app_description_workspace_hardware": {
+      "message": "Утилита восстановления Meet Compute System, версия для разработчиков"
+   },
+   "dev_app_name": {
+      "message": "Утилита восстановления Chromebook (разраб.)"
+   },
+   "dev_app_name_on_hub": {
+      "message": "Утилита восстановления OnHub (разраб.)"
+   },
+   "dev_app_name_workspace_hardware": {
+      "message": "Утилита восстановления Meet Compute System (разраб.)"
+   },
+   "done_button_text": {
+      "message": "ОК"
+   },
+   "erase_complete_bullet1": {
+      "message": "USB-накопитель или SD-карта готовы к форматированию."
+   },
+   "erase_complete_bullet1_on_hub": {
+      "message": "USB-накопитель готов к форматированию."
+   },
+   "erase_complete_bullet1_workspace_hardware": {
+      "message": "USB-накопитель готов к форматированию."
+   },
+   "erase_complete_bullet2": {
+      "message": "Для форматирования используйте инструмент операционной системы."
+   },
+   "erase_complete_title": {
+      "message": "Все данные с носителя для восстановления удалены"
+   },
+   "erase_complete_title_on_hub": {
+      "message": "Все данные с USB-накопителя удалены"
+   },
+   "erase_complete_title_workspace_hardware": {
+      "message": "Все данные с USB-накопителя удалены"
+   },
+   "erase_confirm_message": {
+      "message": "Образ для восстановления и все разделы на носителе будут удалены."
+   },
+   "erase_confirm_message_on_hub": {
+      "message": "Образ для восстановления и все разделы на USB-накопителе будут удалены."
+   },
+   "erase_confirm_message_workspace_hardware": {
+      "message": "Образ для восстановления и все разделы на USB-накопителе будут удалены."
+   },
+   "erase_now_button_text": {
+      "message": "Очистить"
+   },
+   "erase_progress_text": {
+      "message": "Не отключайте носитель для восстановления."
+   },
+   "erase_progress_text_on_hub": {
+      "message": "Не отключайте USB-накопитель для восстановления."
+   },
+   "erase_progress_text_workspace_hardware": {
+      "message": "Не отключайте USB-накопитель для восстановления."
+   },
+   "erase_progress_title": {
+      "message": "Удаление данных с носителя для восстановления"
+   },
+   "erase_progress_title_on_hub": {
+      "message": "Удаление данных с USB-накопителя для восстановления"
+   },
+   "erase_progress_title_workspace_hardware": {
+      "message": "Удаление данных с USB-накопителя для восстановления"
+   },
+   "erase_select_target_detecting": {
+      "message": "Поиск…"
+   },
+   "erase_select_target_high_capacity_warning_html": {
+      "message": "\u003Cb>Внимание!\u003C/b> Убедитесь, что это нужный носитель."
+   },
+   "erase_select_target_no_devices_found": {
+      "message": "Не удается найти USB-накопитель или SD-карту."
+   },
+   "erase_select_target_no_devices_found_on_hub": {
+      "message": "Не удается найти USB-накопитель."
+   },
+   "erase_select_target_no_devices_found_workspace_hardware": {
+      "message": "Не удается найти USB-накопитель."
+   },
+   "erase_select_target_select_device": {
+      "message": "Выберите носитель для восстановления, с которого нужно удалить данные."
+   },
+   "erase_select_target_select_device_on_hub": {
+      "message": "Выберите USB-накопитель для восстановления, с которого нужно удалить данные."
+   },
+   "erase_select_target_select_device_placeholder": {
+      "message": "Выбрать"
+   },
+   "erase_select_target_select_device_workspace_hardware": {
+      "message": "Выберите USB-накопитель для восстановления, с которого нужно удалить данные."
+   },
+   "erase_title": {
+      "message": "Удаление данных с носителя для восстановления"
+   },
+   "erase_title_on_hub": {
+      "message": "Удаление данных с USB-накопителя для восстановления"
+   },
+   "erase_title_workspace_hardware": {
+      "message": "Удаление данных с USB-накопителя для восстановления"
+   },
+   "errmsg_please_try_again": {
+      "message": "Повторите попытку."
+   },
+   "errmsg_recovery_config_download_failure": {
+      "message": "Не удалось скачать файл конфигурации. Доступны только офлайн-функции."
+   },
+   "get_started_button_text": {
+      "message": "Начать"
+   },
+   "gigabyte_abbreviation": {
+      "message": "ГБ"
+   },
+   "go_back_button_text": {
+      "message": "Назад"
+   },
+   "hours_remaining": {
+      "message": "Осталось: $1 ч.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "hwid_invalid_model": {
+      "message": "Несуществующий номер модели. Проверьте введенные данные."
+   },
+   "hwid_keep_typing": {
+      "message": "Модель не найдена. Продолжайте вводить данные."
+   },
+   "hwid_keep_typing_workspace_hardware": {
+      "message": "Модель не найдена."
+   },
+   "hwid_match_found": {
+      "message": "Найдена похожая модель."
+   },
+   "hwid_match_found_and_checksum_verified": {
+      "message": "Найдена точная модель."
+   },
+   "learn_more_link_text": {
+      "message": "Подробнее…"
+   },
+   "learn_more_link_url": {
+      "message": "http://www.google.com/chromeos/recovery"
+   },
+   "learn_more_link_url_on_hub": {
+      "message": "https://support.google.com/onhub/answer/6274977"
+   },
+   "learn_more_link_url_workspace_hardware": {
+      "message": "http://support.google.com/meethardware/answer/10562922"
+   },
+   "loading_config_text": {
+      "message": "Подготовка…"
+   },
+   "menu_item_erase_recovery_media": {
+      "message": "Удалить данные с носителя для восстановления"
+   },
+   "menu_item_erase_recovery_media_on_hub": {
+      "message": "Удалить данные с USB-накопителя для восстановления"
+   },
+   "menu_item_erase_recovery_media_workspace_hardware": {
+      "message": "Удалить данные с USB-накопителя для восстановления"
+   },
+   "menu_item_send_feedback": {
+      "message": "Отправить отзыв"
+   },
+   "menu_item_use_local_image": {
+      "message": "Использовать локальный образ"
+   },
+   "minutes_remaining": {
+      "message": "Осталось: $1 мин.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "of": {
+      "message": "из"
+   },
+   "recovery_channel_beta": {
+      "message": "Бета-версия"
+   },
+   "recovery_channel_dev": {
+      "message": "Версия для разработчиков"
+   },
+   "recovery_channel_ltc": {
+      "message": "Предварительная версия с долгосрочной поддержкой (только для Enterprise)"
+   },
+   "recovery_channel_lts": {
+      "message": "Версия с долгосрочной поддержкой (только для Enterprise)"
+   },
+   "recovery_channel_stable": {
+      "message": "Стабильная версия"
+   },
+   "seconds_remaining": {
+      "message": "Осталось: $1 с.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "select_channel_placeholder": {
+      "message": "Выберите версию для восстановления"
+   },
+   "select_image_select_by_hwid_link_text": {
+      "message": "Введите номер модели"
+   },
+   "select_image_select_from_list_link_text": {
+      "message": "Выберите модель из списка"
+   },
+   "select_image_select_manufacturer_placeholder": {
+      "message": "Выберите производителя"
+   },
+   "select_image_select_product_placeholder": {
+      "message": "Выберите продукт"
+   },
+   "select_image_select_product_placeholder_on_hub": {
+      "message": "Выберите модель"
+   },
+   "select_image_select_product_placeholder_workspace_hardware": {
+      "message": "Выберите модель"
+   },
+   "select_image_text": {
+      "message": "Введите номер модели Chromebook, который отображается на экране восстановления."
+   },
+   "select_image_text_on_hub": {
+      "message": "Введите номер модели OnHub."
+   },
+   "select_image_text_workspace_hardware": {
+      "message": "Введите номер модели Meet Compute System."
+   },
+   "select_image_this_chromebooks_model_number": {
+      "message": "Номер модели этого устройства:"
+   },
+   "select_image_this_chromebooks_model_number_on_hub": {
+      "message": "Номер модели этого устройства:"
+   },
+   "select_image_this_chromebooks_model_number_workspace_hardware": {
+      "message": "Номер модели этого устройства:"
+   },
+   "select_image_title": {
+      "message": "Выбор модели Chromebook"
+   },
+   "select_image_title_on_hub": {
+      "message": "Выбор модели OnHub"
+   },
+   "select_image_title_workspace_hardware": {
+      "message": "Выбор модели Meet Compute System"
+   },
+   "select_target_detecting": {
+      "message": "Поиск…"
+   },
+   "select_target_high_capacity_warning_html": {
+      "message": "\u003Cb>Внимание!\u003C/b> Убедитесь, что это нужный носитель."
+   },
+   "select_target_high_capacity_warning_html_on_hub": {
+      "message": "\u003Cb>Внимание!\u003C/b> Убедитесь, что это нужный USB-накопитель."
+   },
+   "select_target_high_capacity_warning_html_workspace_hardware": {
+      "message": "\u003Cb>Внимание!\u003C/b> Убедитесь, что это нужный USB-накопитель."
+   },
+   "select_target_low_capacity_error": {
+      "message": "Объем носителя должен быть не менее 8 ГБ."
+   },
+   "select_target_low_capacity_error_on_hub": {
+      "message": "Объем USB-накопителя должен быть не менее 8 ГБ."
+   },
+   "select_target_low_capacity_error_workspace_hardware": {
+      "message": "Объем USB-накопителя должен быть не менее 8 ГБ."
+   },
+   "select_target_no_devices_found": {
+      "message": "Не удается найти USB-накопитель или SD-карту."
+   },
+   "select_target_no_devices_found_on_hub": {
+      "message": "Не удается найти USB-накопитель."
+   },
+   "select_target_no_devices_found_workspace_hardware": {
+      "message": "Не удается найти USB-накопитель."
+   },
+   "select_target_select_device": {
+      "message": "Выберите носитель."
+   },
+   "select_target_select_device_on_hub": {
+      "message": "Выберите USB-накопитель."
+   },
+   "select_target_select_device_placeholder": {
+      "message": "Выбрать"
+   },
+   "select_target_select_device_workspace_hardware": {
+      "message": "Выберите USB-накопитель."
+   },
+   "select_target_title": {
+      "message": "Подключите USB-накопитель или SD-карту"
+   },
+   "select_target_title_on_hub": {
+      "message": "Подключите USB-накопитель"
+   },
+   "select_target_title_workspace_hardware": {
+      "message": "Подключите USB-накопитель"
+   },
+   "stage_complete": {
+      "message": "Готово"
+   },
+   "stage_download": {
+      "message": "Скачивание…"
+   },
+   "stage_downloadverify": {
+      "message": "Проверка файлов…"
+   },
+   "stage_unpack": {
+      "message": "Извлечение файлов из архива…"
+   },
+   "stage_unzip": {
+      "message": "Извлечение файлов из архива…"
+   },
+   "stage_verify": {
+      "message": "Проверка…"
+   },
+   "stage_verifydownload": {
+      "message": "Проверка файлов…"
+   },
+   "stage_verifywrite": {
+      "message": "Проверка…"
+   },
+   "stage_write": {
+      "message": "Запись…"
+   },
+   "step": {
+      "message": "Шаг"
+   },
+   "unsupported_text": {
+      "message": "К сожалению, в настоящее время ваша платформа не поддерживается. Дополнительные сведения см. в \u003Ca href=\"http://www.google.com/chromeos/recovery\" target=\"_blank\">Справочном центре Chromebook\u003C/a>."
+   },
+   "unsupported_text_mac": {
+      "message": "К сожалению, Mac поддерживается только в Chrome M37 и более поздних версиях. Обновите браузер. Возможно, для этого потребуется \u003Ca href=\"https://support.google.com/chromebook/answer/1086915\" target=\"_blank\">переключиться на бета-версию\u003C/a>."
+   },
+   "unsupported_text_on_hub": {
+      "message": "К сожалению, в настоящее время ваша платформа не поддерживается. Дополнительные сведения см. в \u003Ca href=\"https://support.google.com/onhub/answer/6274977\" target=\"_blank\">Справочном центре OnHub\u003C/a>."
+   },
+   "unsupported_title": {
+      "message": "Ваша платформа не поддерживается"
+   },
+   "unsupported_title_linux": {
+      "message": "Linux не поддерживается"
+   },
+   "unsupported_title_mac": {
+      "message": "Mac не поддерживается"
+   },
+   "unsupported_title_win": {
+      "message": "Windows не поддерживается"
+   },
+   "usupported_text_workspace_hardware": {
+      "message": "В настоящее время ваша платформа не поддерживается.  Подробную информацию можно найти в \u003Ca href=\"http://support.google.com/meethardware/answer/10562922\" target=\"_blank\">Справочном центре оборудования Google Meet\u003C/a>."
+   },
+   "warning_offline": {
+      "message": "Устройство не подключено к интернету. Будут доступны только офлайн-функции."
+   },
+   "welcome_text": {
+      "message": "Вам потребуется USB-накопитель или SD-карта объемом не менее 8 ГБ."
+   },
+   "welcome_text_on_hub": {
+      "message": "Вам потребуется USB-накопитель объемом не менее 8 ГБ."
+   },
+   "welcome_text_workspace_hardware": {
+      "message": "Вам потребуется USB-накопитель объемом не менее 8 ГБ, с которого вы готовы удалить все данные. Также можно использовать SD-карту, если на устройстве есть слот для нее."
+   },
+   "welcome_title": {
+      "message": "Создание носителя для восстановления Chromebook"
+   },
+   "welcome_title_on_hub": {
+      "message": "Создание USB-накопителя для восстановления OnHub"
+   },
+   "welcome_title_workspace_hardware": {
+      "message": "Создание USB-накопителя для восстановления Meet Compute System"
+   },
+   "write_message": {
+      "message": "Не отключайте носитель для восстановления."
+   },
+   "write_message_on_hub": {
+      "message": "Не отключайте USB-накопитель для восстановления."
+   },
+   "write_message_workspace_hardware": {
+      "message": "Не отключайте USB-накопитель."
+   },
+   "write_title": {
+      "message": "Создание образа для восстановления"
+   }
+}

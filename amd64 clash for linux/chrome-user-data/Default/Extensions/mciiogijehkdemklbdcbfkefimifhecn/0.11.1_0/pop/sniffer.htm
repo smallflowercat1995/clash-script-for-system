@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html class="fs-none">
+<head>
+  <title i18n-text="extName">Chrono Sniffer</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="google" value="notranslate" />
+
+  <script type="text/javascript" src="../libs/jquery-2.1.0.min.js"></script>
+
+<script type="text/javascript" src="sniffer.min.js"></script>
+<link rel="stylesheet" type="text/css" href="sniffer.min.css">
+
+</head>
+<body>
+<div id="img_enlarge" style="display:none">
+<img src=""/>
+</div>
+<div id="tot_wrap">
+
+  <div id="header_wrap">
+    <img width=24 height=24 src="../icons/logo/24.png" style="margin: 0 6px;">
+    <span style="padding-left:3px;font: 28px tahoma,Roboto;align-self: baseline;">
+      Chrono
+    </span>
+    <span style='font: 20px tahoma,Roboto; margin-left:5px; align-self: baseline;' i18n-text="titleSniffer">Sniffer</span>
+    <div class="buttons">
+      <a id="btn_manager" class="a_btn" i18n-title="menuOpenManager"><img width=24 height=24 src="../icons/sniffer/table.png">
+      </a>
+      <a id="btn_list" class="a_btn" i18n-title="tipBtnPopList"><img width=24 height=24 src="../icons/sniffer/list.png">
+      </a>
+    </div>
+  </div>
+
+  <div id="wrap_sniffer" class="chrome-bootstrap">
+    <div id="can_sniffer">
+      <div id="wrap_sniffer_loading" class="inner-loading-overlay undraggable"><img src="../icons/sniffer/loading.gif"/></div>
+      <div>
+        <ul id="filter_tabs">
+        <li class="config_tab">
+          <a i18n-title="tipBtnConfigExtFilters" id="config_cats" href="#"><img style="vertical-align:sub" width=16 height=16 src="../icons/sniffer/edit.png"></a>
+        </li>
+        
+        <li class="filter_option" id="cb_preview_wrap" style="display:none">
+          <label>
+            <input type="checkbox" id="cb_preview"/>
+            <span i18n-text="phrasePreview"></span></label>
+        </li>
+        <li class="filter_option">
+          <label>
+            <input type="checkbox" id="cb_show_size" />
+            <span i18n-text="optionShowSize"></span></label>
+        </li>
+        <li class="filter_option" id="slider_filesize" style="position:relative;display:none">
+          <div id="text_filesize" style="display:none">-</div>
+          <input style="vertical-align: middle;" type="range" min="0" max="50" step="1" value="0" />
+        </li>
+        </ul>
+        <div id="grid_wrap">
+          <div id="links_grid"></div>
+          <div id="settings_section">
+            <div class="settings_active" id="task_filtering_form">
+              <div id="ext_filters"></div>
+              <div id="custom_filter_wrap">
+                <label for="filter_custom" i18n-text="labelCustomFilter">
+                  </label>
+                <input type="text" id="filter_custom" i18n-placeholder="phraseRegex">
+                <span style="margin-left:10px">
+                <input type="checkbox" id="filter_exclusive">
+                <label for="filter_exclusive" i18n-text="optionDisableExtFilters">
+                  </label>
+                </span>
+              </div>
+            </div>
+            <div id="task_props_form">
+              <form class="dy_new_task_dlg">
+              <table>
+                <tr>
+                  <td class="dy_field_label" i18n-text="fieldNaming">Naming Mask</td>
+                  <td>
+                  <input type="text" name="naming" list="naming_history"/>
+                  <datalist id="naming_history">
+                  </datalist>
+                  </td>
+                </tr>
+                
+                
+                <tr>
+                  <td class="dy_field_label"  i18n-text="fieldRemarks">Remarks</td>
+                  <td><textarea name="desc"></textarea></td>
+                </tr>
+              </table>
+              </form>
+            </div>
+          </div>
+        </div>
+        <ul id="settings_tabs">
+        <li id="settings_tab_filter" tab-target="task_filtering_form" class="settings_tab active_tab"><a i18n-text="titleQuickSelection" href="#">Quick Selection</a></li>
+        <li id="settings_tab_props" tab-target="task_props_form" class="settings_tab"><a i18n-text="titleTaskProps" href="#">Task Properties</a></li>
+        </ul>
+      </div>
+      <div id="extra_options">
+        <label>
+          <span style="margin-right: 5px" i18n-text="optionAddTop"></span>
+          <input type="checkbox" name="addtop" />
+        </label>
+      </div>
+      <div class="action-area">
+        <div class="action-area-right">
+          <div class="button-strip">
+            <button id="btn_start" disabled i18n-text="btnStartAll">
+              Start All!</button>
+            <button id="btn_addpause" disabled i18n-text="btnAddPaused">
+              Add Paused</button>
+            <button id="btn_cancel" i18n-text="btnCancel">
+              Cancel</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="cannot_sniffer">
+      <span style="font-size: 1.3em " i18n-text="msgCannotScanResources"></span>
+    </div>
+  </div>
+    
+</div>
+  
+</body>
+</html> 

@@ -1,0 +1,69 @@
+.conf-tooltip-wrap {
+    background: rgba(43, 43, 43, 0.95);
+    border: 1px solid rgba(0, 0, 0, 0.175);
+    box-shadow: 0 6px 32px rgba(0, 0, 0, 0.475), inset 0 0 12px rgba(43, 43, 43, 0.075);
+    min-width: 100px;
+    border-radius: 4px;
+}
+
+.conf-inside-layout {
+
+}
+
+.confirmation-headline {
+    padding: 20px;
+    padding-bottom: 0;
+}
+
+.conf-head {
+    color: #FFF;
+    font-weight: 700;
+    display: inline-block;
+    font-size: 18px;
+}
+
+.confirmation-wrap {
+
+}
+
+.conf-text {
+    color: #FFF;
+    padding: 20px;
+    font-size: 15px;
+}
+
+.answer-buttons-wrap {
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.175);
+}
+
+.answer-button {
+    display: inline-block;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 700;
+    padding: 15px 20px;
+    width: 128px;
+    -webkit-user-select: none;
+}
+
+.pos-but {
+    color: white;
+    background: -webkit-linear-gradient(top,#3e8dd7,#3081CC);
+}
+
+.pos-but:active {
+    background: #2777C1
+}
+
+.neg-but {
+    background: #EFEFEF;
+    margin-left: 16px;
+}
+
+.neg-but:active {
+    background: #D9D9D9
+}

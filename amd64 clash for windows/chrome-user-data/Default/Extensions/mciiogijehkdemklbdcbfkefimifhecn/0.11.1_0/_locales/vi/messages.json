@@ -1,0 +1,1100 @@
+{
+   "btnAbout": {
+      "message": "Giới thiệu"
+   },
+   "btnAddPaused": {
+      "message": "Thêm và tạm dừng"
+   },
+   "btnApply": {
+      "message": "Áp dụng"
+   },
+   "btnBackToManager": {
+      "message": "Quay lại"
+   },
+   "btnCancel": {
+      "message": "Hủy"
+   },
+   "btnClearAll": {
+      "message": "Dọn tất cả"
+   },
+   "btnClearFailed": {
+      "message": "Dọn công việc bị gián đoạn"
+   },
+   "btnClearFinished": {
+      "message": "Dọn công việc đã hoàn thành"
+   },
+   "btnClearRemoved": {
+      "message": "Dọn tập tin đã mất"
+   },
+   "btnCreate": {
+      "message": "Tạo"
+   },
+   "btnFAQ": {
+      "message": "Câu hỏi thường gặp"
+   },
+   "btnGotIt": {
+      "message": "Bỏ qua!"
+   },
+   "btnGrantPermission": {
+      "message": "Cấp quyền"
+   },
+   "btnImportChromeHistory": {
+      "message": "Lịch sử nhập"
+   },
+   "btnLater": {
+      "message": "Sau"
+   },
+   "btnLoadPreview": {
+      "message": "Tải xem trước"
+   },
+   "btnOpenManager": {
+      "message": "Mở trình quản lý"
+   },
+   "btnPopRemoveFile": {
+      "message": "Xóa tệp"
+   },
+   "btnPopRemoveList": {
+      "message": "Xóa khỏi danh sách"
+   },
+   "btnRate": {
+      "message": "Xếp hạng"
+   },
+   "btnSave": {
+      "message": "Lưu"
+   },
+   "btnShareDone": {
+      "message": "Tôi đã làm rồi"
+   },
+   "btnStart": {
+      "message": "Bắt đầu"
+   },
+   "btnStartAll": {
+      "message": "Tải xuống tất cả"
+   },
+   "btnTakeMeThere": {
+      "message": "Đưa tôi tới đó"
+   },
+   "btnUpdateReload": {
+      "message": "Tải lại bây giờ"
+   },
+   "btnUseSystemDialog": {
+      "message": "Bằng hộp thoại hệ thống..."
+   },
+   "chromesysAllowFileAccess": {
+      "message": "Cho phép truy cập vào các URL của tệp"
+   },
+   "chromesysBrowser": {
+      "message": "Trình duyệt"
+   },
+   "chromesysChange": {
+      "message": "Thay đổi..."
+   },
+   "chromesysDownloadLocation": {
+      "message": "Vị trí tải xuống"
+   },
+   "chromesysDownloadSaveAsPrompt": {
+      "message": "Hỏi vị trí lưu từng tệp trước khi tải xuống"
+   },
+   "chromesysDownloadsSection": {
+      "message": "Tải xuống"
+   },
+   "chromesysFailedGenericDownloadError": {
+      "message": "Lỗi tải xuống"
+   },
+   "chromesysFailedGenericNetworkError": {
+      "message": "Lỗi mạng"
+   },
+   "chromesysFailed_CRASH": {
+      "message": "Lỗi"
+   },
+   "chromesysFailed_FILE_ACCESS_DENIED": {
+      "message": "Không đủ quyền"
+   },
+   "chromesysFailed_FILE_BLOCKED": {
+      "message": "Bị chặn"
+   },
+   "chromesysFailed_FILE_NAME_TOO_LONG": {
+      "message": "Đường dẫn quá dài"
+   },
+   "chromesysFailed_FILE_NO_SPACE": {
+      "message": "Đĩa đầy"
+   },
+   "chromesysFailed_FILE_SAME_AS_SOURCE": {
+      "message": "Đã tải xuống"
+   },
+   "chromesysFailed_FILE_SECURITY_CHECK_FAILED": {
+      "message": "Quét vi-rút không thành công"
+   },
+   "chromesysFailed_FILE_TOO_LARGE": {
+      "message": "Tệp quá lớn"
+   },
+   "chromesysFailed_FILE_TOO_SHORT": {
+      "message": "Tệp bị cắt bớt"
+   },
+   "chromesysFailed_FILE_TRANSIENT_ERROR": {
+      "message": "Hệ thống đang bận"
+   },
+   "chromesysFailed_FILE_VIRUS_INFECTED": {
+      "message": "Đã phát hiện thấy vi-rút"
+   },
+   "chromesysFailed_NETWORK_TIMEOUT": {
+      "message": "Hết thời gian chờ mạng"
+   },
+   "chromesysFailed_SERVER_BAD_CONTENT": {
+      "message": "Không có tệp nào"
+   },
+   "chromesysFailed_SERVER_CERT_PROBLEM": {
+      "message": "Chứng chỉ không hợp lệ"
+   },
+   "chromesysFailed_SERVER_CONTENT_LENGTH_MISMATCH": {
+      "message": "Tệp không hoàn chỉnh"
+   },
+   "chromesysFailed_SERVER_FAILED": {
+      "message": "Sự cố máy chủ"
+   },
+   "chromesysFailed_SERVER_FORBIDDEN": {
+      "message": "Bị cấm"
+   },
+   "chromesysFailed_SERVER_UNAUTHORIZED": {
+      "message": "Cần cấp phép"
+   },
+   "chromesysFailed_SERVER_UNREACHABLE": {
+      "message": "Máy chủ không truy cập được"
+   },
+   "chromesysFailed_USER_CANCELED": {
+      "message": "Đã hủy"
+   },
+   "chromesysFailed_USER_SHUTDOWN": {
+      "message": "Tắt"
+   },
+   "chromesysFontSize": {
+      "message": "Cỡ chữ"
+   },
+   "chromesysLanguageSection": {
+      "message": "Ngôn ngữ"
+   },
+   "chromesysShowAdvSettings": {
+      "message": "Hiển thị cài đặt nâng cao..."
+   },
+   "chromesysWebStore": {
+      "message": "Cửa hàng Chrome trực tuyến"
+   },
+   "confirmBatchDownload": {
+      "message": "Có vẻ như bạn sẽ bắt đầu tải hàng loạt, đây là một ít ví dụ:"
+   },
+   "confirmBatchDownloadNaming": {
+      "message": "Để tải hàng loạt, hãy chắc chắn rằng tên mặt nạ sẽ tạo ra tên các tập tin khác nhau. Vẫn tiếp tục?"
+   },
+   "confirmBtnYes": {
+      "message": "Có"
+   },
+   "confirmBtnYesFile": {
+      "message": "Xóa tệp"
+   },
+   "confirmCantResumeRestart": {
+      "message": "Tiếp tục công việc $1 bị thất bại, khởi động lại?"
+   },
+   "confirmClearTask": {
+      "message": "Bạn có chắc chắn muốn xóa $1 mục không?"
+   },
+   "confirmCreateWhenNotExists": {
+      "message": "$1 không tồn tại. Bạn có muốn tạo nó không?"
+   },
+   "confirmProceed": {
+      "message": "Tiếp tục?"
+   },
+   "confirmRecycleRunning": {
+      "message": "Công việc tái sử dụng đang chạy?"
+   },
+   "confirmRemoveExtFilter": {
+      "message": "Xóa các mục được chọn?"
+   },
+   "confirmRemoveRule": {
+      "message": "Xóa các mục được chọn?"
+   },
+   "confirmRemoveTask": {
+      "message": "Vĩnh viễn loại bỏ công việc được chọn?"
+   },
+   "confirmReset": {
+      "message": "Không thể hoàn tác thao tác. Bạn có muốn tiếp tục không?"
+   },
+   "errorFNameConflict": {
+      "message": "Đặt tên xung đột"
+   },
+   "errorFileNotExist": {
+      "message": "Không tìm thấy tệp"
+   },
+   "errorFileOrFolderExists": {
+      "message": "Đã tồn tại một tệp hoặc thư mục có tên đó"
+   },
+   "errorInvalidNamingMask": {
+      "message": "Tên không hợp lệ"
+   },
+   "errorInvalidSubdir": {
+      "message": "Thư mục phụ không hợp lệ"
+   },
+   "errorInvalidURLs": {
+      "message": "URL không hợp lệ"
+   },
+   "errorNoID": {
+      "message": "Thất bại thêm công việc mới tới Chrono vì có quá nhiều công việc trong phần quản lý, bỏ một số công việc không sử dụng và thử lại."
+   },
+   "errorNone": {
+      "message": "Không có lỗi"
+   },
+   "errorRemovedFromChrome": {
+      "message": "Công việc đã bị loại bỏ từ Chrome."
+   },
+   "errorSingleURLAllowed": {
+      "message": "Vui lòng chỉ nhập một URL"
+   },
+   "errorUnableOpen": {
+      "message": "Không thể mở $1."
+   },
+   "errorUnknownReloadPage": {
+      "message": "Đã xảy ra lỗi. Vui lòng tải lại trang để tiếp tục."
+   },
+   "everyXDays": {
+      "message": "Cứ $1 ngày một lần"
+   },
+   "everyXHours": {
+      "message": "Cứ $1 giờ một lần"
+   },
+   "everyXMinutes": {
+      "message": "Cứ $1 phút một lần"
+   },
+   "extDesc": {
+      "message": " Quản lý tải về | Tải phim | Tải ảnh"
+   },
+   "extDescBest": {
+      "message": "Trình quản lý tải xuống tốt nhất cho Chrome"
+   },
+   "extDescSlogan": {
+      "message": "Tải và Quản lý Web!"
+   },
+   "extName": {
+      "message": "Trình Quản Lý Tải về Chrono"
+   },
+   "extsAll": {
+      "message": "Tất cả"
+   },
+   "extsApp": {
+      "message": "Ứng dụng"
+   },
+   "extsArchive": {
+      "message": "Lưu trữ"
+   },
+   "extsAudio": {
+      "message": "Âm thanh"
+   },
+   "extsDocument": {
+      "message": "Tài liệu"
+   },
+   "extsImage": {
+      "message": "Hình ảnh"
+   },
+   "extsNew": {
+      "message": "bộ lọc mới"
+   },
+   "extsOthers": {
+      "message": "Khác"
+   },
+   "extsVideo": {
+      "message": "Video"
+   },
+   "fieldAddTime": {
+      "message": "Thời gian tạo"
+   },
+   "fieldAvgSpeed": {
+      "message": "Tốc độ trung bình"
+   },
+   "fieldDownloadedSize": {
+      "message": "Đã tải xuống"
+   },
+   "fieldElapsedTime": {
+      "message": "Thời gian đã trôi qua"
+   },
+   "fieldFileName": {
+      "message": "Tên tệp"
+   },
+   "fieldFileSize": {
+      "message": "Kích thước tệp"
+   },
+   "fieldFinishTime": {
+      "message": "Thời gian Hoàn thành"
+   },
+   "fieldFolder": {
+      "message": "Thư mục"
+   },
+   "fieldNaming": {
+      "message": "Tên mặt nạ"
+   },
+   "fieldProgress": {
+      "message": "Tiến độ"
+   },
+   "fieldRedirection": {
+      "message": "Chuyển hướng"
+   },
+   "fieldReferer": {
+      "message": "Liên kết giới thiệu"
+   },
+   "fieldRemainingTime": {
+      "message": "Thời gian còn lại"
+   },
+   "fieldRemarks": {
+      "message": "Bình luận"
+   },
+   "fieldSpeed": {
+      "message": "Tốc độ"
+   },
+   "fieldState": {
+      "message": "Trạng thái"
+   },
+   "fieldThreads": {
+      "message": "Luồng"
+   },
+   "fieldType": {
+      "message": "Loại tệp"
+   },
+   "fieldURL": {
+      "message": "URL"
+   },
+   "headExtFilterCaption": {
+      "message": "Tên hiển thị"
+   },
+   "headExtFilterExts": {
+      "message": "Đuôi tệp"
+   },
+   "headExtFilterRefName": {
+      "message": "Tên nội bộ"
+   },
+   "headRulesActive": {
+      "message": "Đang hoạt động"
+   },
+   "headRulesAsFilter": {
+      "message": "Như Bộ Lọc Công Việc"
+   },
+   "headRulesCaption": {
+      "message": "Tên hiển thị"
+   },
+   "headRulesCondition": {
+      "message": "Điều kiện"
+   },
+   "headRulesRefName": {
+      "message": "Tên nội bộ"
+   },
+   "helpExtFilter": {
+      "message": "* Nhấn-kép để chỉnh sửa. \n* Nhập trên dòng trống để thêm một bộ lọc mới. \n* Chọn hàng và nhấn DELETE để loại bỏ chúng."
+   },
+   "helpRules": {
+      "message": "* Nhấn-kép để chỉnh sửa. \n* Nhập trên dòng trống để thêm một bộ lọc mới. \n* Chọn hàng và nhấn DELETE để loại bỏ chúng.\n* Nếu bạn gặp vấn đề trong việc viết các Quy Tắc, vui lòng tham khảo phần Trợ giúp."
+   },
+   "hintSearchDownloads": {
+      "message": "Tìm kiếm tải xuống"
+   },
+   "labelAutoClear": {
+      "message": "Lịch biểu"
+   },
+   "labelBGBlur": {
+      "message": "Làm mờ"
+   },
+   "labelBGChooseFrom": {
+      "message": "Chọn hình ảnh"
+   },
+   "labelBGConstantColor": {
+      "message": "Màu đặc"
+   },
+   "labelBGImageURL": {
+      "message": "URL tùy chỉnh"
+   },
+   "labelBGOpacity": {
+      "message": "Độ mờ"
+   },
+   "labelChooseDownloadLocation": {
+      "message": "Chọn vị trí tải xuống"
+   },
+   "labelCustomFilter": {
+      "message": "Bộ lọc tùy chỉnh"
+   },
+   "labelDateModified": {
+      "message": "Ngày sửa đổi"
+   },
+   "labelDownloadToDefaultFolder": {
+      "message": "Tải xuống thư mục mặc định"
+   },
+   "labelEnableFolderSelection": {
+      "message": "Bật lựa chọn thư mục"
+   },
+   "labelFolderColon": {
+      "message": "Thư mục:"
+   },
+   "labelNewFolder": {
+      "message": "Thư mục mới"
+   },
+   "labelStarred": {
+      "message": "Có gắn dấu sao"
+   },
+   "labelUnableSaveToFolder": {
+      "message": "Không thể lưu vào vị trí"
+   },
+   "labelUseLastLocation": {
+      "message": "Sử dụng thông tin vị trí cuối cùng"
+   },
+   "menuDAudio": {
+      "message": "Lưu âm thanh thành..."
+   },
+   "menuDAudioOneClick": {
+      "message": "Tải xuống âm thanh này với 1-click"
+   },
+   "menuDImage": {
+      "message": "Lưu hình ảnh thành..."
+   },
+   "menuDImageOneClick": {
+      "message": "Tải xuống ảnh này với 1-click"
+   },
+   "menuDLink": {
+      "message": "Lưu liên kết thành..."
+   },
+   "menuDLinkOneClick": {
+      "message": "Tải xuống liên kết này với 1-click"
+   },
+   "menuDVideo": {
+      "message": "Lưu video thành..."
+   },
+   "menuDVideoOneClick": {
+      "message": "Tải xuống video này với 1-click"
+   },
+   "menuGetHelp": {
+      "message": "Yêu cầu trợ giúp"
+   },
+   "menuOpenManager": {
+      "message": "Mở trình quản lý"
+   },
+   "menuReportIssue": {
+      "message": "Báo cáo sự cố"
+   },
+   "msgCannotScanResources": {
+      "message": "Không thể quét tài nguyên trên trang này."
+   },
+   "msgChromeI18nLanguage": {
+      "message": "Chrono sử dụng cùng ngôn ngữ như trình duyệt Chrome."
+   },
+   "msgEmptyDownloadsList": {
+      "message": "Danh sách trống"
+   },
+   "msgEnableFileAccess": {
+      "message": "Bạn có thể bật tính năng này bằng cách chọn hộp kiểm $1 dưới $2 trên trang chrome://extensions."
+   },
+   "msgFolderDisabledNonWritable": {
+      "message": "Chức năng lựa chọn thư mục bị tắt. Hãy đảm bảo rằng vị trí tải xuống mặc định không được đặt thành thư mục hệ thống và hộp thoại Lưu dưới dạng của trình duyệt bị tắt."
+   },
+   "msgPreviewErrorReadFile": {
+      "message": "Lỗi khi đọc tệp"
+   },
+   "msgPreviewFailed": {
+      "message": "Không thể tải bản xem trước tệp"
+   },
+   "msgPreviewFileAccess": {
+      "message": "Không thể tải tệp cục bộ để xem trước."
+   },
+   "msgPreviewLargeFile": {
+      "message": "Có thể mất một lúc để tải bản xem trước."
+   },
+   "msgPreviewPdfViewer": {
+      "message": "Trình duyệt PDF của Chrome được yêu cầu cho bản xem trước, vui lòng bật nó bằng cách làm theo các hướng dẫn"
+   },
+   "msgRateShare": {
+      "message": "Nếu bạn thấy $1 hữu ích, xin vui lòng đánh giá nó trên $2 và chia sẻ nó với bạn bè của bạn!"
+   },
+   "msgSearchNoResults": {
+      "message": "Không tìm thấy kết quả"
+   },
+   "msgSelectTaskInfo": {
+      "message": "Bạn chưa chọn mục nào."
+   },
+   "msgTaskAddPaused": {
+      "message": "Công việc đã được thêm vào và đã dừng"
+   },
+   "msgTaskFinish": {
+      "message": "Đã hoàn tất tải xuống"
+   },
+   "msgTaskInterrupt": {
+      "message": "Không tải xuống được"
+   },
+   "msgTaskStart": {
+      "message": "Công việc đã được thêm vào hàng đợi"
+   },
+   "msgTextUpdateAvail": {
+      "message": "Hãy tải lại phần mở rộng để áp dụng bản cập nhật."
+   },
+   "msgTextWelcome": {
+      "message": "Trước khi bắt đầu, đề nghị tắt hộp thoại Lưu Như của Chrome , bằng cách xóa hộp kiểm dưới $1.\nBạn cũng có thể cho phép Chrono truy cập  tập tin URL để có được những trải nghiệm tốt hơn, có thể được kích hoạt bằng cách chọn hộp kiểm $2 dưới $3. \nNếu bạn có bất kỳ câu hỏi nào, xin vui lòng xem trang Trợ giúp và trang Hỏi đáp, bạn cũng có thể gửi email đến dev@chronodownloader.net. \nThân!"
+   },
+   "msgTitleUpdateAvail": {
+      "message": "Đã có phiên bản mới"
+   },
+   "msgTitleWelcome": {
+      "message": "Xin chào!"
+   },
+   "msgUpdated": {
+      "message": "Đã cập nhật $1."
+   },
+   "optItemBadgeDownloadNum": {
+      "message": "Hiển thị số công việc tải trên đầu của biểu tượng thanh công cụ"
+   },
+   "optItemClearRemoveFile": {
+      "message": "Xóa khỏi đĩa"
+   },
+   "optItemClearSearch": {
+      "message": "Dọn hộp tìm kiếm khi thay đổi bộ lọc"
+   },
+   "optItemClickNotify": {
+      "message": "Nhấp chuột vào thông báo"
+   },
+   "optItemConcurrentDownloads": {
+      "message": "Tải cùng lúc"
+   },
+   "optItemDblClickAction": {
+      "message": "Nhấn-kép vào nhiệm vụ"
+   },
+   "optItemDefAddPaused": {
+      "message": "Thêm và tạm dừng"
+   },
+   "optItemDefFolder": {
+      "message": "Vị trí mặc định"
+   },
+   "optItemDefNaming": {
+      "message": "Tên Mặt Nạ Mặc Định"
+   },
+   "optItemDownloadClipboard": {
+      "message": "Tải URL từ bảng tạm"
+   },
+   "optItemDownloadsPerServer": {
+      "message": "Tải mỗi máy chủ"
+   },
+   "optItemHideShelf": {
+      "message": "Ẩn kệ/thanh tải của Chrome"
+   },
+   "optItemMenuDialog": {
+      "message": "Lưu liên kết thành..."
+   },
+   "optItemMenuOneClick": {
+      "message": "Tải xuống liên kết này với 1-click"
+   },
+   "optItemNameConflict": {
+      "message": "Khi mâu thuẫn tên tập tin"
+   },
+   "optItemNotifyError": {
+      "message": "Hiển thị thông báo khi lỗi xảy ra"
+   },
+   "optItemNotifyFinish": {
+      "message": "Hiển thị thông báo khi tải về hoàn tất"
+   },
+   "optItemNotifyLargePreview": {
+      "message": "Hiển thị xem trước ảnh lớn"
+   },
+   "optItemNotifyOneClick": {
+      "message": "Hiển thị thông báo khi thêm tải bằng 1-Click"
+   },
+   "optItemNotifyProgress": {
+      "message": "Hiển thị tiến độ tải"
+   },
+   "optItemOverrideChrome": {
+      "message": "Đè lên trang tải gốc của Chrome và kích hoạt phím tắt $1"
+   },
+   "optItemPopClearClose": {
+      "message": "Đóng cửa sổ bật lên sau khi dọn các công việc"
+   },
+   "optItemPopDeleteAction": {
+      "message": "Nhấn nút \"Delete\""
+   },
+   "optItemPopLikeButtons": {
+      "message": "Hiển thị nút truyền thông xã hội"
+   },
+   "optItemPopMaxItems": {
+      "message": "Tối đa số mục trong danh sách tải"
+   },
+   "optItemPopShowDLFirst": {
+      "message": "Hiển thị các tác vụ hoạt động đầu tiên"
+   },
+   "optItemPreviewAutoplay": {
+      "message": "Tự động phát"
+   },
+   "optItemRecycleCancel": {
+      "message": "Hủy bỏ các công việc khi nó được tái sử dụng"
+   },
+   "optItemRuleMatchMode": {
+      "message": "Chế độ khớp"
+   },
+   "optItemSlideDetailsPanel": {
+      "message": "Trượt vào Bảng Chi tiết khi bấm vào công việc"
+   },
+   "optItemSoundError": {
+      "message": "Bật âm thanh khi có lỗi xảy ra"
+   },
+   "optItemSoundFinish": {
+      "message": "Bật âm thanh khi tải về hoàn tất"
+   },
+   "optItemStartInterrupted": {
+      "message": "Nút bắt đầu có thể bắt đầu công việc bị gián đoạn"
+   },
+   "optOptionClearAllNotify": {
+      "message": "Xóa tất cả các thông báo"
+   },
+   "optOptionClearNotify": {
+      "message": "Xóa thông báo đó"
+   },
+   "optOptionDoNothing": {
+      "message": "Không làm gì"
+   },
+   "optOptionFirstMatch": {
+      "message": "Trùng Khớp đầu tiên"
+   },
+   "optOptionOpenFile": {
+      "message": "Mở tệp"
+   },
+   "optOptionOpenFolder": {
+      "message": "Mở thư mục"
+   },
+   "optOptionOverwrite": {
+      "message": "Ghi đè"
+   },
+   "optOptionPrompt": {
+      "message": "Yêu cầu"
+   },
+   "optOptionRemAsk": {
+      "message": "Yêu cầu"
+   },
+   "optOptionRemFile": {
+      "message": "Xóa khỏi đĩa mà không cần xác nhận"
+   },
+   "optOptionRemList": {
+      "message": "Xóa khỏi danh sách"
+   },
+   "optOptionReplace": {
+      "message": "Thay thế"
+   },
+   "optOptionSkipCancel": {
+      "message": "Hủy tải xuống"
+   },
+   "optOptionSkipPause": {
+      "message": "Tạm dừng tải xuống"
+   },
+   "optOptionStartPause": {
+      "message": "Bắt đầu hoặc tạm dừng"
+   },
+   "optOptionUniquify": {
+      "message": "Tính duy nhất"
+   },
+   "optSectionBehaviors": {
+      "message": "Hành vi"
+   },
+   "optSectionMenu": {
+      "message": "Menu"
+   },
+   "optSectionMisc": {
+      "message": "Khác"
+   },
+   "optSectionNetwork": {
+      "message": "Mạng"
+   },
+   "optSectionNewTaskDialog": {
+      "message": "Tạo tác vụ Mới"
+   },
+   "optSectionNotifications": {
+      "message": "Thông báo"
+   },
+   "optSectionOneClick": {
+      "message": "Tải về 1-click"
+   },
+   "optSectionPopup": {
+      "message": "Cửa sổ bật lên"
+   },
+   "optSectionPreview": {
+      "message": "Xem trước"
+   },
+   "optSectionTaskDefaults": {
+      "message": "Mặc định cho công việc mới"
+   },
+   "optionAddTop": {
+      "message": "Thêm vào đầu hàng đợi"
+   },
+   "optionDisableExtFilters": {
+      "message": "Tắt bộ lọc phần mở rộng"
+   },
+   "optionDontAsk": {
+      "message": "Nhớ lựa chọn của tôi"
+   },
+   "optionSearchCaseSensitive": {
+      "message": "Phân biệt chữ hoa / chữ thường"
+   },
+   "optionSearchFuzzyMatch": {
+      "message": "Kết quả trùng khớp tương đối"
+   },
+   "optionShowSize": {
+      "message": "Hiển thị kích thước tệp"
+   },
+   "optionTableAutoResize": {
+      "message": "Buộc các cột phải khớp"
+   },
+   "optionTableSyncResize": {
+      "message": "Thay đổi kích thước đồng bộ"
+   },
+   "phraseAutomatic": {
+      "message": "Tự động"
+   },
+   "phraseEnable": {
+      "message": "Bật"
+   },
+   "phraseMultiValues": {
+      "message": "Nhiều giá trị"
+   },
+   "phraseNever": {
+      "message": "Chưa bao giờ"
+   },
+   "phrasePreview": {
+      "message": "Xem trước"
+   },
+   "phraseRegex": {
+      "message": "Cụm từ thông dụng"
+   },
+   "phraseToday": {
+      "message": "Hôm nay"
+   },
+   "phraseUnknown": {
+      "message": "Không xác định"
+   },
+   "phraseUnknownSize": {
+      "message": "Kích thước không xác định"
+   },
+   "phraseVersion": {
+      "message": "Phiên bản"
+   },
+   "phraseYesterday": {
+      "message": "Hôm qua"
+   },
+   "ruleAllTasks": {
+      "message": "Tất cả tác vụ"
+   },
+   "ruleAudio": {
+      "message": "Âm thanh"
+   },
+   "ruleDocument": {
+      "message": "Tài liệu"
+   },
+   "ruleDownloading": {
+      "message": "Đang tải xuống"
+   },
+   "ruleFinished": {
+      "message": "Đã hoàn tất"
+   },
+   "ruleImage": {
+      "message": "Hình ảnh"
+   },
+   "ruleInterrupted": {
+      "message": "Không thành công"
+   },
+   "ruleNew": {
+      "message": "Quy tắc mới"
+   },
+   "ruleOther": {
+      "message": "Khác"
+   },
+   "ruleRecent": {
+      "message": "Gần đây"
+   },
+   "ruleRecycled": {
+      "message": "Thùng rác"
+   },
+   "ruleSmallFiles": {
+      "message": "Các tập tin nhỏ"
+   },
+   "ruleVideo": {
+      "message": "Video"
+   },
+   "stateDownloading": {
+      "message": "Đang tải xuống"
+   },
+   "stateError": {
+      "message": "Không thành công"
+   },
+   "stateFileMiss": {
+      "message": "Thiếu tệp"
+   },
+   "stateFinished": {
+      "message": "Đã hoàn tất"
+   },
+   "statePaused": {
+      "message": "Bị tạm dừng"
+   },
+   "stateQueue": {
+      "message": "Đang chờ"
+   },
+   "statusCopyURL": {
+      "message": "Đang sao chép URL..."
+   },
+   "statusCopyURLDone": {
+      "message": "Đã sao chép URL sang khay nhớ tạm"
+   },
+   "statusDownloadedSize": {
+      "message": "$1 của $2"
+   },
+   "statusImportDone": {
+      "message": "Đã nhập thành công"
+   },
+   "statusImporting": {
+      "message": "Đang nhập..."
+   },
+   "statusNumDownloading": {
+      "message": "$1 đang tải xuống"
+   },
+   "statusNumItems": {
+      "message": "$1 mục"
+   },
+   "statusReadClipboard": {
+      "message": "Đang đọc bảng nhớ tạm..."
+   },
+   "statusScheduledAutoClear": {
+      "message": "Tự động dọn công việc sẽ chạy trong $1 giây"
+   },
+   "statusSelectedOf": {
+      "message": "Đã chọn $1 mục"
+   },
+   "statusTasksCleared": {
+      "message": "Đã xóa $1 mục"
+   },
+   "statusTimeLeft": {
+      "message": "Còn $1"
+   },
+   "tipAutoClear": {
+      "message": "Tự động dọn công việc từ danh sách, nhưng giữ các tập tin lại trên đĩa"
+   },
+   "tipBGBlur": {
+      "message": "Hiệu ứng làm mờ có thể làm giảm phản hồi của GUI"
+   },
+   "tipBGEnable": {
+      "message": "Do vấn đề nào đó của Chrome, bật hình nền sẽ tăng việc sử dụng bộ nhớ lên rất nhiều, nhớ kỹ điều này trước khi bạn kích hoạt tính năng này."
+   },
+   "tipBGURLHasFileAccess": {
+      "message": "Nhập một liên kết URL, hoặc đường dẫn đầy đủ của một hình ảnh trên máy tính của bạn bắt đầu bằng 'file:///'"
+   },
+   "tipBGURLNoFileAccess": {
+      "message": "Nhập một liên kết URL, hoặc đường dẫn đầy đủ của một hình ảnh trên máy tính của bạn (như tập tin trong máy, bạn cần kích hoạt truy cập tập tin cho Chrono trước, nhấp vào dấu hỏi để xem như thế nào)"
+   },
+   "tipBrowserAction": {
+      "message": "Tải tất cả tài nguyên ở trang này"
+   },
+   "tipBtnBackToManager": {
+      "message": "Quay về trình quản lý"
+   },
+   "tipBtnChangeBrowserDownloadsSettings": {
+      "message": "Thay đổi cài đặt tải xuống của trình duyệt"
+   },
+   "tipBtnChangeDefaultLocation": {
+      "message": "Thay đổi thư mục đích..."
+   },
+   "tipBtnClear": {
+      "message": "Dọn công việc"
+   },
+   "tipBtnConfigExtFilters": {
+      "message": "Chỉnh sửa Bộ lọc"
+   },
+   "tipBtnCopyLink": {
+      "message": "Sao chép liên kết"
+   },
+   "tipBtnDelete": {
+      "message": "Xóa"
+   },
+   "tipBtnHelp": {
+      "message": "Trợ giúp"
+   },
+   "tipBtnNewTask": {
+      "message": "Tạo tác vụ Mới"
+   },
+   "tipBtnOpenDefaultLocation": {
+      "message": "Mở thư mục tải xuống"
+   },
+   "tipBtnOpenFile": {
+      "message": "Mở tệp"
+   },
+   "tipBtnOpenFolder": {
+      "message": "Mở thư mục"
+   },
+   "tipBtnOptions": {
+      "message": "Tùy chọn"
+   },
+   "tipBtnPause": {
+      "message": "Tạm dừng"
+   },
+   "tipBtnPauseAll": {
+      "message": "Tạm dừng tất cả"
+   },
+   "tipBtnPopList": {
+      "message": "Chuyển sang Danh sách"
+   },
+   "tipBtnPopSniffer": {
+      "message": "Chuyển sang Sniffer"
+   },
+   "tipBtnRecycle": {
+      "message": "Chuyển vào thùng rác"
+   },
+   "tipBtnRestart": {
+      "message": "Khởi động lại"
+   },
+   "tipBtnRestore": {
+      "message": "Phục hồi"
+   },
+   "tipBtnSort": {
+      "message": "Sắp xếp"
+   },
+   "tipBtnStart": {
+      "message": "Bắt đầu"
+   },
+   "tipBtnStartAll": {
+      "message": "Bắt đầu tất cả"
+   },
+   "tipExtFilterEnable": {
+      "message": "Kích hoạt như bộ lọc mở rộng trong Chrono Sniffer"
+   },
+   "tipExtFilterRefName": {
+      "message": "Tên nội bộ để tham khảo bộ lọc trong các biểu thức khác"
+   },
+   "tipNaming": {
+      "message": "Hãy tham khảo trang Trợ Giúp để học cách sử dụng Tên Mặt nạ."
+   },
+   "tipOptItemRuleMatchMode": {
+      "message": "Xin lưu ý rằng chỉ có các Quy Tắc hoạt động thì đã được kiểm tra phù hợp. Trong chế độ thay thế, tất cả các Quy Tắc phù hợp đã được áp dụng, nhưng sau đó các Quy Tắc sẽ ghi đè lên cái cũ."
+   },
+   "tipOptItemSlideDetailsPanel": {
+      "message": "Bạn cũng có thể bấm Alt + nhấn vào công việc để mở Bảng chi tiết"
+   },
+   "tipOptNoRuleMatch": {
+      "message": "Áp dụng khi không có Quy Tắc phù hợp"
+   },
+   "tipOptSectionOneClick": {
+      "message": "Nếu bật, trình tải xuống sẽ tải về ngay lập tức khi bạn nhấn chuột vào liên kết, sử dụng các thiết lập mặc định (đã nêu trên), mà không hiện hộp thoại để thiết lập mặt nạ đặt tên, v.v."
+   },
+   "tipOptSectionTaskDefaults": {
+      "message": "Thiết lập mặc định được áp dụng khi thêm công việc mới, ví dụ như áp dụng cho 1-Click tải về"
+   },
+   "tipRulesActive": {
+      "message": "Chỉ các quy tắc hoạt động sẽ được sử dụng trong Quy tắc phù hợp"
+   },
+   "tipRulesAsFilter": {
+      "message": "Hiển thị như bộ lọc công việc trong Quản Lý Tải Xuống"
+   },
+   "tipRulesRefName": {
+      "message": "Tên nội bộ để tham khảo quy tắc trong các biểu thức khác"
+   },
+   "tipURL": {
+      "message": "Bạn có thể nhập nhiều URL ngăn cách bởi xuống dòng; bạn có thể bắt đầu tải hàng loạt bằng cách sử dụng Mô Tả Hàng Loạt."
+   },
+   "tipmsgCopySelectedURLs": {
+      "message": "Bạn có thể đơn giản là nhấn $1 để sao chép URL các công việc được chọn"
+   },
+   "tipmsgDoubleClick": {
+      "message": "Bạn có thể thay đổi hành vi nhấn-kép dưới $1"
+   },
+   "tipmsgFitColumnWidth": {
+      "message": "Nhấn-kép vào thay đổi kích thước cột để điều chỉnh độ rộng cột một cách tự động"
+   },
+   "tipmsgGridSelection": {
+      "message": "Sử dụng Ctrl/Shift để chọn nhiều hàng, hoặc nhấn $1 để chọn tất cả các hàng"
+   },
+   "tipmsgNotifications": {
+      "message": "Bạn có thể thay đổi cài đặt thông báo/âm thanh dưới $1"
+   },
+   "tipmsgOpenShortcut": {
+      "message": "Cách đơn giản nhất để mở $1 là nhấn $2"
+   },
+   "tipmsgSlideDetailsPanel": {
+      "message": "Bảng chi tiết trượt có thể được tắt dưới $1"
+   },
+   "tipmsgTaskFilter": {
+      "message": "Kéo vào để sắp xếp lại các bộ lọc công việc; bạn cũng có thể thêm các Bộ Lọc Công Việc tùy chỉnh dưới $1"
+   },
+   "titleChangeBG": {
+      "message": "Thay đổi hình nền"
+   },
+   "titleNewTaskDialog": {
+      "message": "Tạo tác vụ Mới"
+   },
+   "titleOptions": {
+      "message": "Tùy chọn"
+   },
+   "titleOptionsAbout": {
+      "message": "Giới thiệu"
+   },
+   "titleOptionsFilter": {
+      "message": "Bộ lọc"
+   },
+   "titleOptionsGeneral": {
+      "message": "Chung"
+   },
+   "titleOptionsHelp": {
+      "message": "Trợ giúp"
+   },
+   "titleOptionsInterface": {
+      "message": "Giao diện người dùng"
+   },
+   "titleOptionsRules": {
+      "message": "Quy tắc"
+   },
+   "titleQuickSelection": {
+      "message": "Chọn Nhanh"
+   },
+   "titleRateShare": {
+      "message": "Đánh giá và chia sẻ!"
+   },
+   "titleSniffer": {
+      "message": "Sniffer"
+   },
+   "titleSwitchUI": {
+      "message": "Chế độ hiển thị"
+   },
+   "titleTaskProps": {
+      "message": "Thuộc tính"
+   },
+   "titleTips": {
+      "message": "Mẹo"
+   },
+   "titleUpdateLog": {
+      "message": "Nhật ký thay đổi"
+   },
+   "translateContributors": {
+      "message": "'Name, What is it?', quexuantung2001, pnhoang96, anh.nguyen-le, Nam Nguyễn, tthoamt etc."
+   },
+   "uilang": {
+      "message": "vi"
+   },
+   "uilangName": {
+      "message": "Vietnamese"
+   },
+   "unitBytes": {
+      "message": "$1 byte"
+   },
+   "unitDay": {
+      "message": "$1 ngày"
+   },
+   "unitDays": {
+      "message": "$1 ngày"
+   },
+   "unitHour": {
+      "message": "$1 giờ"
+   },
+   "unitHours": {
+      "message": "$1 giờ"
+   },
+   "unitMinute": {
+      "message": "$1 phút"
+   },
+   "unitMinutes": {
+      "message": "$1 phút"
+   },
+   "unitSecond": {
+      "message": "$1 giây"
+   },
+   "unitSeconds": {
+      "message": "$1 giây"
+   }
+}

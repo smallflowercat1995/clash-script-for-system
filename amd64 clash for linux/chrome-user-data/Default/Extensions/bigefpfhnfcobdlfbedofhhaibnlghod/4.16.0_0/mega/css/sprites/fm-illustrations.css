@@ -1,0 +1,185 @@
+.sprite-fm-illustration,.sprite-fm-illustration-after:after,.sprite-fm-illustration-before:before{
+
+	--scale:calc(var(--width)/200);
+	background:url(../imagery/sprites-fm-illustration-sprite.9c4fcb5f9def6130.svg) no-repeat;
+	background-size:2000%;
+	content:"";
+	display:block;
+	height:var(--height, 250px);
+	width:var(--width, 200px)
+}
+.sprite-fm-illustration.img-topbar-email-registration,.sprite-fm-illustration.img-topbar-email-registration-after:after,.sprite-fm-illustration.img-topbar-email-registration-before:before{
+	background-position:0 0
+}
+.sprite-fm-illustration.img-transferpage-empty-transfer,.sprite-fm-illustration.img-transferpage-empty-transfer-after:after,.sprite-fm-illustration.img-transferpage-empty-transfer-before:before{
+	background-position:5.26316% 0
+}
+.sprite-fm-illustration.img-dialog-business-contacts,.sprite-fm-illustration.img-dialog-business-contacts-after:after,.sprite-fm-illustration.img-dialog-business-contacts-before:before{
+	background-position:10.52632% 0
+}
+.sprite-fm-illustration.img-dialog-contacts,.sprite-fm-illustration.img-dialog-contacts-after:after,.sprite-fm-illustration.img-dialog-contacts-before:before{
+	background-position:15.78947% 0
+}
+.sprite-fm-illustration.img-dialog-decryption-key,.sprite-fm-illustration.img-dialog-decryption-key-after:after,.sprite-fm-illustration.img-dialog-decryption-key-before:before{
+	background-position:21.05263% 0
+}
+.sprite-fm-illustration.img-meetings-e2ee,.sprite-fm-illustration.img-meetings-e2ee-after:after,.sprite-fm-illustration.img-meetings-e2ee-before:before{
+	background-position:26.31579% 0
+}
+.sprite-fm-illustration.img-transferpage-transfer,.sprite-fm-illustration.img-transferpage-transfer-after:after,.sprite-fm-illustration.img-transferpage-transfer-before:before{
+	background-position:31.57895% 0
+}
+.sprite-fm-illustration.img-dialogs-achievements,.sprite-fm-illustration.img-dialogs-achievements-after:after,.sprite-fm-illustration.img-dialogs-achievements-before:before{
+	background-position:36.84211% 0
+}
+.sprite-fm-illustration.img-achievements-bonus,.sprite-fm-illustration.img-achievements-bonus-after:after,.sprite-fm-illustration.img-achievements-bonus-before:before{
+	background-position:42.10526% 0
+}
+.sprite-fm-illustration.img-achievements-desktop-app,.sprite-fm-illustration.img-achievements-desktop-app-after:after,.sprite-fm-illustration.img-achievements-desktop-app-before:before{
+	background-position:47.36842% 0
+}
+.sprite-fm-illustration.img-dialog-email,.sprite-fm-illustration.img-dialog-email-after:after,.sprite-fm-illustration.img-dialog-email-before:before{
+	background-position:52.63158% 0
+}
+.sprite-fm-illustration.img-dialog-groupchat,.sprite-fm-illustration.img-dialog-groupchat-after:after,.sprite-fm-illustration.img-dialog-groupchat-before:before{
+	background-position:57.89474% 0
+}
+.sprite-fm-illustration.img-achievements-invite-users,.sprite-fm-illustration.img-achievements-invite-users-after:after,.sprite-fm-illustration.img-achievements-invite-users-before:before{
+	background-position:63.15789% 0
+}
+.sprite-fm-illustration.img-achievements-mobile-app,.sprite-fm-illustration.img-achievements-mobile-app-after:after,.sprite-fm-illustration.img-achievements-mobile-app-before:before{
+	background-position:68.42105% 0
+}
+.sprite-fm-illustration.img-achievements-sms-verification,.sprite-fm-illustration.img-achievements-sms-verification-after:after,.sprite-fm-illustration.img-achievements-sms-verification-before:before{
+	background-position:73.68421% 0
+}
+.sprite-fm-illustration.img-dialog-backup-phone,.sprite-fm-illustration.img-dialog-backup-phone-after:after,.sprite-fm-illustration.img-dialog-backup-phone-before:before{
+	background-position:78.94737% 0
+}
+.sprite-fm-illustration.img-dialog-upgrade,.sprite-fm-illustration.img-dialog-upgrade-after:after,.sprite-fm-illustration.img-dialog-upgrade-before:before{
+	background-position:84.21053% 0
+}
+.sprite-fm-illustration.img-dialog-overquota-storage,.sprite-fm-illustration.img-dialog-overquota-storage-after:after,.sprite-fm-illustration.img-dialog-overquota-storage-before:before{
+	background-position:89.47368% 0
+}
+.sprite-fm-illustration.img-dialog-transfer-full,.sprite-fm-illustration.img-dialog-transfer-full-after:after,.sprite-fm-illustration.img-dialog-transfer-full-before:before{
+	background-position:94.73684% 0
+}
+.sprite-fm-illustration.img-dialog-account-lock,.sprite-fm-illustration.img-dialog-account-lock-after:after,.sprite-fm-illustration.img-dialog-account-lock-before:before{
+	background-position:100% 0
+}
+.sprite-fm-illustration.img-dialog-account-recovery,.sprite-fm-illustration.img-dialog-account-recovery-after:after,.sprite-fm-illustration.img-dialog-account-recovery-before:before{
+	background-position:0 calc(var(--scale)*-250)
+}
+.sprite-fm-illustration.img-dialog-mobile-success,.sprite-fm-illustration.img-dialog-mobile-success-after:after,.sprite-fm-illustration.img-dialog-mobile-success-before:before{
+	background-position:5.26316% calc(var(--scale)*-250)
+}
+.sprite-fm-illustration.img-dialog-sms-verification,.sprite-fm-illustration.img-dialog-sms-verification-after:after,.sprite-fm-illustration.img-dialog-sms-verification-before:before{
+	background-position:10.52632% calc(var(--scale)*-250)
+}
+.sprite-fm-illustration.img-dialog-business-expiry,.sprite-fm-illustration.img-dialog-business-expiry-after:after,.sprite-fm-illustration.img-dialog-business-expiry-before:before{
+	background-position:15.78947% calc(var(--scale)*-250)
+}
+.sprite-fm-illustration.img-dialog-coin,.sprite-fm-illustration.img-dialog-coin-after:after,.sprite-fm-illustration.img-dialog-coin-before:before{
+	background-position:21.05263% calc(var(--scale)*-250)
+}
+.sprite-fm-illustration.img-dialog-cookie,.sprite-fm-illustration.img-dialog-cookie-after:after,.sprite-fm-illustration.img-dialog-cookie-before:before{
+	background-position:26.31579% calc(var(--scale)*-250)
+}
+.sprite-fm-illustration.img-dialog-copyright,.sprite-fm-illustration.img-dialog-copyright-after:after,.sprite-fm-illustration.img-dialog-copyright-before:before{
+	background-position:31.57895% calc(var(--scale)*-250)
+}
+.sprite-fm-illustration.img-dialog-login,.sprite-fm-illustration.img-dialog-login-after:after,.sprite-fm-illustration.img-dialog-login-before:before{
+	background-position:36.84211% calc(var(--scale)*-250)
+}
+.sprite-fm-illustration.img-dialog-safe,.sprite-fm-illustration.img-dialog-safe-after:after,.sprite-fm-illustration.img-dialog-safe-before:before{
+	background-position:42.10526% calc(var(--scale)*-250)
+}
+.sprite-fm-illustration.img-dialog-printer,.sprite-fm-illustration.img-dialog-printer-after:after,.sprite-fm-illustration.img-dialog-printer-before:before{
+	background-position:47.36842% calc(var(--scale)*-250)
+}
+.sprite-fm-illustration.img-dialog-pw-manager,.sprite-fm-illustration.img-dialog-pw-manager-after:after,.sprite-fm-illustration.img-dialog-pw-manager-before:before{
+	background-position:52.63158% calc(var(--scale)*-250)
+}
+.sprite-fm-illustration.img-dialog-usb,.sprite-fm-illustration.img-dialog-usb-after:after,.sprite-fm-illustration.img-dialog-usb-before:before{
+	background-position:57.89474% calc(var(--scale)*-250)
+}
+.sprite-fm-illustration.img-dialog-payment,.sprite-fm-illustration.img-dialog-payment-after:after,.sprite-fm-illustration.img-dialog-payment-before:before{
+	background-position:63.15789% calc(var(--scale)*-250)
+}
+.sprite-fm-illustration.img-dialog-voucher,.sprite-fm-illustration.img-dialog-voucher-after:after,.sprite-fm-illustration.img-dialog-voucher-before:before{
+	background-position:68.42105% calc(var(--scale)*-250)
+}
+.sprite-fm-illustration.img-chat-url-preview,.sprite-fm-illustration.img-chat-url-preview-after:after,.sprite-fm-illustration.img-chat-url-preview-before:before{
+	background-position:73.68421% calc(var(--scale)*-250)
+}
+.sprite-fm-illustration.img-dialog-account-setting,.sprite-fm-illustration.img-dialog-account-setting-after:after,.sprite-fm-illustration.img-dialog-account-setting-before:before{
+	background-position:78.94737% calc(var(--scale)*-250)
+}
+.sprite-fm-illustration.img-passowrd-reset-unlock-account,.sprite-fm-illustration.img-passowrd-reset-unlock-account-after:after,.sprite-fm-illustration.img-passowrd-reset-unlock-account-before:before{
+	background-position:84.21053% calc(var(--scale)*-250)
+}
+.sprite-fm-illustration.img-password-reset-recovery-key,.sprite-fm-illustration.img-password-reset-recovery-key-after:after,.sprite-fm-illustration.img-password-reset-recovery-key-before:before{
+	background-position:89.47368% calc(var(--scale)*-250)
+}
+.sprite-fm-illustration.img-password-recovery-device1,.sprite-fm-illustration.img-password-recovery-device1-after:after,.sprite-fm-illustration.img-password-recovery-device1-before:before{
+	background-position:94.73684% calc(var(--scale)*-250)
+}
+.sprite-fm-illustration.img-password-recovery-device2,.sprite-fm-illustration.img-password-recovery-device2-after:after,.sprite-fm-illustration.img-password-recovery-device2-before:before{
+	background-position:100% calc(var(--scale)*-250)
+}
+.sprite-fm-illustration.img-password-recovery-device3,.sprite-fm-illustration.img-password-recovery-device3-after:after,.sprite-fm-illustration.img-password-recovery-device3-before:before{
+	background-position:0 calc(var(--scale)*-500)
+}
+.sprite-fm-illustration.img-file-link-lightbulb,.sprite-fm-illustration.img-file-link-lightbulb-after:after,.sprite-fm-illustration.img-file-link-lightbulb-before:before{
+	background-position:5.26316% calc(var(--scale)*-500)
+}
+.sprite-fm-illustration.img-dialog-desktop-app,.sprite-fm-illustration.img-dialog-desktop-app-after:after,.sprite-fm-illustration.img-dialog-desktop-app-before:before{
+	background-position:10.52632% calc(var(--scale)*-500)
+}
+.sprite-fm-illustration.img-dialog-payment-card-exp,.sprite-fm-illustration.img-dialog-payment-card-exp-after:after,.sprite-fm-illustration.img-dialog-payment-card-exp-before:before{
+	background-position:15.78947% calc(var(--scale)*-500)
+}
+.sprite-fm-illustration-wide,.sprite-fm-illustration-wide-after:after,.sprite-fm-illustration-wide-before:before{
+
+	--scale:calc(var(--width)/400);
+	background:url(../imagery/sprites-fm-illustration-sprite-wide.b2880201cd454091.svg) no-repeat;
+	background-size:1000%;
+	content:"";
+	display:block;
+	height:var(--height, 250px);
+	width:var(--width, 400px)
+}
+.sprite-fm-illustration-wide.img-dialog-referral-program,.sprite-fm-illustration-wide.img-dialog-referral-program-after:after,.sprite-fm-illustration-wide.img-dialog-referral-program-before:before{
+	background-position:0 0
+}
+.sprite-fm-illustration-wide.img-backup-computer,.sprite-fm-illustration-wide.img-backup-computer-after:after,.sprite-fm-illustration-wide.img-backup-computer-before:before{
+	background-position:11.11111% 0
+}
+.sprite-fm-illustration-wide.img-dialog-expiry-link,.sprite-fm-illustration-wide.img-dialog-expiry-link-after:after,.sprite-fm-illustration-wide.img-dialog-expiry-link-before:before{
+	background-position:22.22222% 0
+}
+.sprite-fm-illustration-wide.img-meetings-create-account,.sprite-fm-illustration-wide.img-meetings-create-account-after:after,.sprite-fm-illustration-wide.img-meetings-create-account-before:before{
+	background-position:33.33333% 0
+}
+.sprite-fm-illustration-wide.img-backup-rewind,.sprite-fm-illustration-wide.img-backup-rewind-after:after,.sprite-fm-illustration-wide.img-backup-rewind-before:before{
+	background-position:44.44444% 0
+}
+.sprite-fm-illustration-wide.registration,.sprite-fm-illustration-wide.registration-after:after,.sprite-fm-illustration-wide.registration-before:before{
+	background-position:55.55556% 0
+}
+.sprite-fm-illustration-wide.img-dialog-megadrop,.sprite-fm-illustration-wide.img-dialog-megadrop-after:after,.sprite-fm-illustration-wide.img-dialog-megadrop-before:before{
+	background-position:66.66667% 0
+}
+.sprite-fm-illustration-wide.img-dialog-darkmode,.sprite-fm-illustration-wide.img-dialog-darkmode-after:after,.sprite-fm-illustration-wide.img-dialog-darkmode-before:before{
+	background-position:77.77778% 0
+}
+.sprite-fm-illustration-wide.img-password-recovery-devices,.sprite-fm-illustration-wide.img-password-recovery-devices-after:after,.sprite-fm-illustration-wide.img-password-recovery-devices-before:before{
+	background-position:88.88889% 0
+}
+.sprite-fm-illustration-wide.img-mega-logo-light,.sprite-fm-illustration-wide.img-mega-logo-light-after:after,.sprite-fm-illustration-wide.img-mega-logo-light-before:before{
+	background-position:100% 0
+}
+.sprite-fm-illustration-wide.mega-logo-dark,.sprite-fm-illustration-wide.mega-logo-dark-after:after,.sprite-fm-illustration-wide.mega-logo-dark-before:before{
+	background-position:0 calc(var(--scale)*-250)
+}

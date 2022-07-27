@@ -1,0 +1,20 @@
+{
+   "chromesysAllowFileAccess": {
+      "message": "Atļaut piekļuvi faila vietrāžiem URL"
+   },
+   "chromesysDownloadLocation": {
+      "message": "Lejupielādes atrašanās vieta"
+   },
+   "chromesysDownloadsSection": {
+      "message": "Lejupielādes"
+   },
+   "chromesysShowAdvSettings": {
+      "message": "Rādīt papildu iestatījumus..."
+   },
+   "extName": {
+      "message": "Chrono Download Manager"
+   },
+   "uilangName": {
+      "message": "Latvian"
+   }
+}

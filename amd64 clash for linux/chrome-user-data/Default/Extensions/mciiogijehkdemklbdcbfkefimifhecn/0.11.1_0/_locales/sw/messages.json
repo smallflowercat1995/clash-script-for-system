@@ -1,0 +1,20 @@
+{
+   "chromesysAllowFileAccess": {
+      "message": "Ruhusu kufikia URL za faili"
+   },
+   "chromesysDownloadLocation": {
+      "message": "Mahali pa vipakuliwa"
+   },
+   "chromesysDownloadsSection": {
+      "message": "Vipakuliwa"
+   },
+   "chromesysShowAdvSettings": {
+      "message": "Onyesha mipangilio ya kina..."
+   },
+   "extName": {
+      "message": "Chrono Download Manager"
+   },
+   "uilangName": {
+      "message": "Swahili"
+   }
+}

@@ -1,0 +1,556 @@
+{
+   "apierrmsg_aborted": {
+      "message": "การทำงานถูกขัดจังหวะ"
+   },
+   "apierrmsg_device_list_error": {
+      "message": "ไม่พบไดรฟ์ USB หรือการ์ด SD"
+   },
+   "apierrmsg_device_list_error_on_hub": {
+      "message": "ไม่พบไดรฟ์ USB"
+   },
+   "apierrmsg_device_list_error_workspace_hardware": {
+      "message": "ไม่พบไดรฟ์ USB"
+   },
+   "apierrmsg_device_write_error": {
+      "message": "บันทึกลงในแฟลชไดรฟ์ USB หรือการ์ด SD ที่เลือกไว้ไม่ได้ สิทธิ์การบันทึกของอุปกรณ์อาจปิดใช้อยู่ หรือผู้ดูแลระบบโดเมนของคุณปิดการบันทึกลงในที่จัดเก็บข้อมูล USB ไว้"
+   },
+   "apierrmsg_download_cancelled": {
+      "message": "ยกเลิกการดาวน์โหลดแล้ว"
+   },
+   "apierrmsg_download_hash_mismatch": {
+      "message": "ไฟล์ไม่ถูกต้อง"
+   },
+   "apierrmsg_download_interrupted": {
+      "message": "การดาวน์โหลดถูกขัดจังหวะ โปรดตรวจสอบการเชื่อมต่อเครือข่ายแล้วลองอีกครั้ง"
+   },
+   "apierrmsg_file_invalid": {
+      "message": "ไฟล์ไม่ถูกต้อง"
+   },
+   "apierrmsg_operation_already_in_progress": {
+      "message": "อยู่ระหว่างการดำเนินการอย่างหนึ่ง"
+   },
+   "apierrmsg_unknown": {
+      "message": "ข้อผิดพลาดที่ไม่รู้จัก: $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "apierrmsg_unsupported_operation": {
+      "message": "การดำเนินการที่ไม่รองรับ"
+   },
+   "apierrmsg_unzip_error": {
+      "message": "แตกไฟล์ไม่ได้ โปรดตรวจสอบว่าอุปกรณ์มีพื้นที่มากพอหรือไม่แล้วลองอีกครั้ง"
+   },
+   "apierrmsg_unzip_invalid_archive": {
+      "message": "ไฟล์ zip ไม่ถูกต้อง"
+   },
+   "apierrmsg_url_invalid": {
+      "message": "ไม่พบไฟล์"
+   },
+   "apierrmsg_verification_failed": {
+      "message": "ยืนยันอิมเมจไม่สำเร็จ"
+   },
+   "app_description": {
+      "message": "สร้างสื่อการกู้คืนสำหรับ Chromebook"
+   },
+   "app_description_on_hub": {
+      "message": "สร้างไดรฟ์ USB การกู้คืนสำหรับ OnHub"
+   },
+   "app_description_workspace_hardware": {
+      "message": "สร้างไดรฟ์ USB การกู้คืนสำหรับ Meet Compute System"
+   },
+   "app_name": {
+      "message": "ยูทิลิตีการกู้คืน Chromebook"
+   },
+   "app_name_on_hub": {
+      "message": "ยูทิลิตีการกู้คืน OnHub"
+   },
+   "app_name_workspace_hardware": {
+      "message": "ยูทิลิตีการกู้คืน Meet Compute System"
+   },
+   "app_short_name": {
+      "message": "การกู้คืน"
+   },
+   "cancel_button_text": {
+      "message": "ยกเลิก"
+   },
+   "chrome_app_deprecation_message": {
+      "message": "ตามที่ได้ประกาศต่อสาธารณะใน\u003Ca href=\"https://blog.chromium.org/2020/08/changes-to-chrome-app-support-timeline.html\" target=\"_blank\" tabindex=\"0\">บล็อก Chromium\u003C/a> ว่า Google จะหยุดการรองรับแอป Chrome ในเดือนมิถุนายน 2021 โปรดใช้\u003Ca href=\"https://chrome.google.com/webstore/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm\" target=\"_blank\">ส่วนขยายยูทิลิตีการกู้คืน Chromebook\u003C/a> และ\u003Ca href=\"http://www.google.com/chromeos/recovery\" target=\"_blank\">เอกสารประกอบ\u003C/a>ที่เกี่ยวข้องเพื่อกู้คืนอุปกรณ์"
+   },
+   "chrome_app_deprecation_message_on_hub": {
+      "message": "ตามที่ได้ประกาศต่อสาธารณะใน\u003Ca href=\"https://blog.chromium.org/2020/08/changes-to-chrome-app-support-timeline.html\" target=\"_blank\" tabindex=\"0\">บล็อก Chromium\u003C/a> ว่า Google จะหยุดการรองรับแอป Chrome ในเดือนมิถุนายน 2021 โปรดใช้\u003Ca href=\"https://chrome.google.com/webstore/detail/onhub-recovery-utility/fmgkgdalfapcmjnanilfcpkhkhedmpdm\" target=\"_blank\">ส่วนขยายยูทิลิตีการกู้คืน OnHub\u003C/a> และ\u003Ca href=\"https://support.google.com/onhub/answer/6274977\" target=\"_blank\">เอกสารประกอบ\u003C/a>ที่เกี่ยวข้องเพื่อกู้คืนอุปกรณ์"
+   },
+   "complete_bullet1": {
+      "message": "เมื่อต้องการกู้คืน Chromebook ให้เสียบสื่อการกู้คืนกับ Chromebook"
+   },
+   "complete_bullet1_on_hub": {
+      "message": "ถอดสายชาร์จจาก OnHub และเสียบไดรฟ์ USB กลับไปที่อุปกรณ์ กดปุ่มรีเซ็ตและเสียบสายชาร์จ กดปุ่มรีเซ็ตอีก 15 วินาที หรือจนกว่าไฟแสดงการทำงานของไดรฟ์ USB จะเริ่มกะพริบ"
+   },
+   "complete_bullet1_workspace_hardware": {
+      "message": "หากต้องการกู้คืน Meet Compute System ให้ทำตามวิธีการในบทความ\u003Ca href=\"http://support.google.com/meethardware/answer/10562922#zippy=%2Cstep-enter-recovery-mode\" target=\"_blank\">กู้คืนกล่องประมวลผลในฮาร์ดแวร์ของ Google Meet, ขั้นตอนที่ 3: เข้าสู่โหมดการกู้คืน\u003C/a>"
+   },
+   "complete_bullet2": {
+      "message": "หลังจากการกู้คืน คุณลบสื่อการกู้คืนโดยใช้ยูทิลิตีนี้ได้"
+   },
+   "complete_bullet2_on_hub": {
+      "message": "OnHub จะเข้าสู่กระบวนการกู้คืน ซึ่งอาจใช้เวลาหลายนาที เมื่อกู้คืน OnHub เสร็จแล้ว เครื่องจะเริ่มต้นระบบใหม่ จากนั้นให้ใช้แอป Google On เพื่อตั้งค่า OnHub"
+   },
+   "complete_bullet2_workspace_hardware": {
+      "message": "หากต้องการลบข้อมูลในแฟลชไดรฟ์ USB เมื่อใช้เสร็จ ให้เริ่มยูทิลิตีการกู้คืน Meet Compute System แล้วคลิก\u003Cb>การตั้งค่า\u003C/b> จากนั้นคลิก\u003Cb>ลบสื่อการกู้คืน\u003C/b>"
+   },
+   "complete_message": {
+      "message": "คุณนำสื่อการกู้คืนออกได้แล้ว"
+   },
+   "complete_message_on_hub": {
+      "message": "คุณนำไดรฟ์ USB การกู้คืนออกได้แล้ว"
+   },
+   "complete_message_workspace_hardware": {
+      "message": "ตอนนี้ถอดแฟลชไดรฟ์ได้แล้ว"
+   },
+   "complete_title": {
+      "message": "สำเร็จ สื่อการกู้คืนพร้อมแล้ว"
+   },
+   "complete_title_on_hub": {
+      "message": "สำเร็จ ไดรฟ์ USB การกู้คืนพร้อมแล้ว"
+   },
+   "complete_title_workspace_hardware": {
+      "message": "สำเร็จ ไดรฟ์ USB การกู้คืนพร้อมแล้ว"
+   },
+   "completed": {
+      "message": "เสร็จสมบูรณ์"
+   },
+   "confirm_cancelled_message_html": {
+      "message": "ยกเลิกแล้ว คลิก &rdquo;สร้างเลย&rdquo; เพื่อลองใหม่อีกครั้ง\u003Cbr>\u003Cbr>หากต้องการลบสื่อการกู้คืน ให้คลิกไอคอนรูปเฟืองที่มุมขวาบน"
+   },
+   "confirm_cancelled_message_html_on_hub": {
+      "message": "ยกเลิกแล้ว คลิก&rdquo;สร้างเลย&rdquo; เพื่อลองใหม่อีกครั้ง\u003Cbr>\u003Cbr>หากต้องการลบไดรฟ์ USB การกู้คืน ให้คลิกไอคอนรูปเฟืองที่มุมขวาบน"
+   },
+   "confirm_cancelled_message_html_workspace_hardware": {
+      "message": "ยกเลิกแล้ว คลิก&rdquo;สร้างเลย&rdquo; เพื่อลองใหม่อีกครั้ง\u003Cbr>\u003Cbr>หากต้องการลบไดรฟ์ USB การกู้คืน ให้คลิกไอคอนรูปเฟืองที่มุมขวาบน"
+   },
+   "confirm_hide_advanced_settings_message": {
+      "message": "ซ่อนการตั้งค่าขั้นสูง"
+   },
+   "confirm_message_html": {
+      "message": "\u003Cb>สำคัญ:\u003C/b> ระบบจะลบข้อมูลและพาร์ติชันทั้งหมดในสื่อการกู้คืน"
+   },
+   "confirm_message_html_on_hub": {
+      "message": "\u003Cb>สำคัญ:\u003C/b> ระบบจะลบข้อมูลและพาร์ติชันทั้งหมดในไดรฟ์ USB การกู้คืน"
+   },
+   "confirm_message_html_workspace_hardware": {
+      "message": "\u003Cb>สำคัญ:\u003C/b> ระบบจะลบข้อมูลทั้งหมดในแฟลชไดรฟ์"
+   },
+   "confirm_show_advanced_settings_message": {
+      "message": "แสดงการตั้งค่าขั้นสูง"
+   },
+   "confirm_title": {
+      "message": "สร้างอิมเมจการกู้คืน"
+   },
+   "continue_button_text": {
+      "message": "ดำเนินการต่อ"
+   },
+   "create_another_button_text": {
+      "message": "สร้างอีกรายการหนึ่ง"
+   },
+   "create_now_button_text": {
+      "message": "สร้างเลย"
+   },
+   "dev_app_description": {
+      "message": "ยูทิลิตีการกู้คืน Chromebook เวอร์ชันพัฒนา"
+   },
+   "dev_app_description_on_hub": {
+      "message": "ยูทิลิตีการกู้คืน OnHub เวอร์ชันพัฒนา"
+   },
+   "dev_app_description_workspace_hardware": {
+      "message": "ยูทิลิตีการกู้คืน Meet Compute System เวอร์ชันพัฒนา"
+   },
+   "dev_app_name": {
+      "message": "การพัฒนายูทิลิตีการกู้คืน Chromebook"
+   },
+   "dev_app_name_on_hub": {
+      "message": "การพัฒนายูทิลิตีการกู้คืน OnHub"
+   },
+   "dev_app_name_workspace_hardware": {
+      "message": "การพัฒนายูทิลิตีการกู้คืน Meet Compute System"
+   },
+   "done_button_text": {
+      "message": "เสร็จ"
+   },
+   "erase_complete_bullet1": {
+      "message": "จัดเตรียมไดรฟ์ USB หรือการ์ด SD เพื่อทำการฟอร์แมตแล้ว"
+   },
+   "erase_complete_bullet1_on_hub": {
+      "message": "จัดเตรียมไดรฟ์ USB เพื่อทำการฟอร์แมตแล้ว"
+   },
+   "erase_complete_bullet1_workspace_hardware": {
+      "message": "จัดเตรียมไดรฟ์ USB เพื่อทำการฟอร์แมตแล้ว"
+   },
+   "erase_complete_bullet2": {
+      "message": "ฟอร์แมตโดยใช้เครื่องมือที่ระบบปฏิบัติการของคุณมีให้"
+   },
+   "erase_complete_title": {
+      "message": "ลบสื่อการกู้คืนแล้ว"
+   },
+   "erase_complete_title_on_hub": {
+      "message": "ลบไดรฟ์ USB การกู้คืนแล้ว"
+   },
+   "erase_complete_title_workspace_hardware": {
+      "message": "ลบไดรฟ์ USB การกู้คืนแล้ว"
+   },
+   "erase_confirm_message": {
+      "message": "ระบบจะลบอิมเมจการกู้คืนและพาร์ติชันทั้งหมดในสื่อการกู้คืน"
+   },
+   "erase_confirm_message_on_hub": {
+      "message": "ระบบจะลบอิมเมจการกู้คืนและพาร์ติชันทั้งหมดบนไดรฟ์ USB การกู้คืน"
+   },
+   "erase_confirm_message_workspace_hardware": {
+      "message": "ระบบจะลบอิมเมจการกู้คืนและพาร์ติชันทั้งหมดบนไดรฟ์ USB การกู้คืน"
+   },
+   "erase_now_button_text": {
+      "message": "ลบเลย"
+   },
+   "erase_progress_text": {
+      "message": "อย่านำสื่อการกู้คืนออก"
+   },
+   "erase_progress_text_on_hub": {
+      "message": "อย่านำไดรฟ์ USB การกู้คืนออก"
+   },
+   "erase_progress_text_workspace_hardware": {
+      "message": "อย่านำไดรฟ์ USB การกู้คืนออก"
+   },
+   "erase_progress_title": {
+      "message": "กำลังลบสื่อการกู้คืน"
+   },
+   "erase_progress_title_on_hub": {
+      "message": "กำลังลบไดรฟ์ USB การกู้คืน"
+   },
+   "erase_progress_title_workspace_hardware": {
+      "message": "กำลังลบไดรฟ์ USB การกู้คืน"
+   },
+   "erase_select_target_detecting": {
+      "message": "กำลังตรวจหา"
+   },
+   "erase_select_target_high_capacity_warning_html": {
+      "message": "\u003Cb>คำเตือน:\u003C/b> ไดรฟ์นี้ถูกต้องไหม"
+   },
+   "erase_select_target_no_devices_found": {
+      "message": "ไม่พบไดรฟ์ USB หรือการ์ด SD"
+   },
+   "erase_select_target_no_devices_found_on_hub": {
+      "message": "ไม่พบไดรฟ์ USB"
+   },
+   "erase_select_target_no_devices_found_workspace_hardware": {
+      "message": "ไม่พบไดรฟ์ USB"
+   },
+   "erase_select_target_select_device": {
+      "message": "เลือกสื่อการกู้คืนที่ต้องการลบ"
+   },
+   "erase_select_target_select_device_on_hub": {
+      "message": "เลือกไดรฟ์ USB การกู้คืนที่ต้องการลบ"
+   },
+   "erase_select_target_select_device_placeholder": {
+      "message": "เลือก"
+   },
+   "erase_select_target_select_device_workspace_hardware": {
+      "message": "เลือกไดรฟ์ USB การกู้คืนที่ต้องการลบ"
+   },
+   "erase_title": {
+      "message": "ลบสื่อการกู้คืน"
+   },
+   "erase_title_on_hub": {
+      "message": "ลบไดรฟ์ USB การกู้คืน"
+   },
+   "erase_title_workspace_hardware": {
+      "message": "ลบไดรฟ์ USB การกู้คืน"
+   },
+   "errmsg_please_try_again": {
+      "message": "โปรดลองอีกครั้ง"
+   },
+   "errmsg_recovery_config_download_failure": {
+      "message": "ดาวน์โหลดไฟล์การกำหนดค่าไม่สำเร็จ ใช้งานได้เฉพาะฟีเจอร์แบบออฟไลน์"
+   },
+   "get_started_button_text": {
+      "message": "เริ่มต้นใช้งาน"
+   },
+   "gigabyte_abbreviation": {
+      "message": "GB"
+   },
+   "go_back_button_text": {
+      "message": "กลับ"
+   },
+   "hours_remaining": {
+      "message": "เหลืออีก $1 ชั่วโมง",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "hwid_invalid_model": {
+      "message": "หมายเลขรุ่นไม่ถูกต้อง โปรดตรวจสอบข้อมูลที่ป้อน"
+   },
+   "hwid_keep_typing": {
+      "message": "ยังไม่พบรุ่น โปรดพิมพ์ต่อ"
+   },
+   "hwid_keep_typing_workspace_hardware": {
+      "message": "ยังไม่พบรุ่น"
+   },
+   "hwid_match_found": {
+      "message": "พบรุ่นที่ตรงกันแล้ว"
+   },
+   "hwid_match_found_and_checksum_verified": {
+      "message": "พบรุ่นที่ตรงกับชื่อรุ่นแล้ว"
+   },
+   "learn_more_link_text": {
+      "message": "ดูข้อมูลเพิ่มเติม"
+   },
+   "learn_more_link_url": {
+      "message": "http://www.google.com/chromeos/recovery"
+   },
+   "learn_more_link_url_on_hub": {
+      "message": "https://support.google.com/onhub/answer/6274977"
+   },
+   "learn_more_link_url_workspace_hardware": {
+      "message": "http://support.google.com/meethardware/answer/10562922"
+   },
+   "loading_config_text": {
+      "message": "กำลังจัดเตรียม..."
+   },
+   "menu_item_erase_recovery_media": {
+      "message": "ลบสื่อการกู้คืน"
+   },
+   "menu_item_erase_recovery_media_on_hub": {
+      "message": "ลบไดรฟ์ USB การกู้คืน"
+   },
+   "menu_item_erase_recovery_media_workspace_hardware": {
+      "message": "ลบไดรฟ์ USB การกู้คืน"
+   },
+   "menu_item_send_feedback": {
+      "message": "ส่งความคิดเห็น"
+   },
+   "menu_item_use_local_image": {
+      "message": "ใช้อิมเมจในเครื่อง"
+   },
+   "minutes_remaining": {
+      "message": "เหลืออีก $1 นาที",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "of": {
+      "message": "จาก"
+   },
+   "recovery_channel_beta": {
+      "message": "เบต้า"
+   },
+   "recovery_channel_dev": {
+      "message": "กำลังพัฒนา"
+   },
+   "recovery_channel_ltc": {
+      "message": "ตัวเลือกก่อนเข้าสู่การสนับสนุนระยะยาว (Enterprise เท่านั้น)"
+   },
+   "recovery_channel_lts": {
+      "message": "การสนับสนุนระยะยาว (Enterprise เท่านั้น)"
+   },
+   "recovery_channel_stable": {
+      "message": "เวอร์ชันเสถียร"
+   },
+   "seconds_remaining": {
+      "message": "เหลืออีก $1 วินาที",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "select_channel_placeholder": {
+      "message": "เลือกช่องทางกู้คืน"
+   },
+   "select_image_select_by_hwid_link_text": {
+      "message": "ป้อนหมายเลขรุ่นเอง"
+   },
+   "select_image_select_from_list_link_text": {
+      "message": "เลือกรุ่นจากรายการ"
+   },
+   "select_image_select_manufacturer_placeholder": {
+      "message": "เลือกผู้ผลิต"
+   },
+   "select_image_select_product_placeholder": {
+      "message": "เลือกผลิตภัณฑ์"
+   },
+   "select_image_select_product_placeholder_on_hub": {
+      "message": "เลือกรุ่น"
+   },
+   "select_image_select_product_placeholder_workspace_hardware": {
+      "message": "เลือกรุ่น"
+   },
+   "select_image_text": {
+      "message": "ป้อนหมายเลขรุ่นของ Chromebook ที่จะกู้คืน ซึ่งดูได้ที่หน้าจอการกู้คืน"
+   },
+   "select_image_text_on_hub": {
+      "message": "ป้อนหมายเลขรุ่นของ OnHub"
+   },
+   "select_image_text_workspace_hardware": {
+      "message": "ป้อนหมายเลขรุ่นของ Meet Compute System"
+   },
+   "select_image_this_chromebooks_model_number": {
+      "message": "สำหรับ Chromebook เครื่องนี้ ให้ป้อน"
+   },
+   "select_image_this_chromebooks_model_number_on_hub": {
+      "message": "สำหรับ OnHub เครื่องนี้ ให้ป้อน"
+   },
+   "select_image_this_chromebooks_model_number_workspace_hardware": {
+      "message": "สำหรับ Meet Compute System เครื่องนี้ ให้ป้อน"
+   },
+   "select_image_title": {
+      "message": "ระบุ Chromebook ของคุณ"
+   },
+   "select_image_title_on_hub": {
+      "message": "ระบุ OnHub ของคุณ"
+   },
+   "select_image_title_workspace_hardware": {
+      "message": "ระบุ Meet Compute System ของคุณ"
+   },
+   "select_target_detecting": {
+      "message": "กำลังตรวจหา"
+   },
+   "select_target_high_capacity_warning_html": {
+      "message": "\u003Cb>คำเตือน:\u003C/b> สื่อนี้ถูกต้องไหม"
+   },
+   "select_target_high_capacity_warning_html_on_hub": {
+      "message": "\u003Cb>คำเตือน:\u003C/b> ไดรฟ์ USB นี้ถูกต้องไหม"
+   },
+   "select_target_high_capacity_warning_html_workspace_hardware": {
+      "message": "\u003Cb>คำเตือน:\u003C/b> ไดรฟ์ USB นี้ถูกต้องไหม"
+   },
+   "select_target_low_capacity_error": {
+      "message": "สื่อต้องมีขนาดอย่างน้อย 8 GB"
+   },
+   "select_target_low_capacity_error_on_hub": {
+      "message": "ไดรฟ์ USB ต้องมีขนาดอย่างน้อย 8 GB"
+   },
+   "select_target_low_capacity_error_workspace_hardware": {
+      "message": "ไดรฟ์ USB ต้องมีขนาดอย่างน้อย 8 GB"
+   },
+   "select_target_no_devices_found": {
+      "message": "ไม่พบไดรฟ์ USB หรือการ์ด SD"
+   },
+   "select_target_no_devices_found_on_hub": {
+      "message": "ไม่พบไดรฟ์ USB"
+   },
+   "select_target_no_devices_found_workspace_hardware": {
+      "message": "ไม่พบไดรฟ์ USB"
+   },
+   "select_target_select_device": {
+      "message": "เลือกสื่อที่ต้องการใช้"
+   },
+   "select_target_select_device_on_hub": {
+      "message": "เลือกไดรฟ์ USB ที่ต้องการใช้"
+   },
+   "select_target_select_device_placeholder": {
+      "message": "เลือก"
+   },
+   "select_target_select_device_workspace_hardware": {
+      "message": "เลือกไดรฟ์ USB ที่ต้องการใช้"
+   },
+   "select_target_title": {
+      "message": "เสียบแฟลชไดรฟ์ USB หรือการ์ด SD"
+   },
+   "select_target_title_on_hub": {
+      "message": "เสียบแฟลชไดรฟ์ USB"
+   },
+   "select_target_title_workspace_hardware": {
+      "message": "เสียบแฟลชไดรฟ์ USB"
+   },
+   "stage_complete": {
+      "message": "เสร็จสมบูรณ์"
+   },
+   "stage_download": {
+      "message": "กำลังดาวน์โหลด"
+   },
+   "stage_downloadverify": {
+      "message": "กำลังยืนยันการดาวน์โหลด"
+   },
+   "stage_unpack": {
+      "message": "กำลังคลายการแพคข้อมูล"
+   },
+   "stage_unzip": {
+      "message": "กำลังคลายการแพคข้อมูล"
+   },
+   "stage_verify": {
+      "message": "กำลังยืนยัน"
+   },
+   "stage_verifydownload": {
+      "message": "กำลังยืนยันการดาวน์โหลด"
+   },
+   "stage_verifywrite": {
+      "message": "กำลังยืนยัน"
+   },
+   "stage_write": {
+      "message": "กำลังเขียน"
+   },
+   "step": {
+      "message": "ขั้นตอน"
+   },
+   "unsupported_text": {
+      "message": "ปัจจุบันระบบยังไม่รองรับแพลตฟอร์มที่คุณใช้ โปรดดูข้อมูลเพิ่มเติมที่\u003Ca href=\"http://www.google.com/chromeos/recovery\" target=\"_blank\">ศูนย์ช่วยเหลือของ Chromebook\u003C/a>"
+   },
+   "unsupported_text_mac": {
+      "message": "มีการรองรับ Mac ใน Chrome เวอร์ชัน M37 ขึ้นไปเท่านั้น โปรดอัปเดตเป็น M37 คุณอาจต้อง\u003Ca href=\"https://support.google.com/chromebook/answer/1086915\" target=\"_blank\">เปลี่ยนไปใช้เวอร์ชันเบต้า\u003C/a>"
+   },
+   "unsupported_text_on_hub": {
+      "message": "ปัจจุบันระบบยังไม่รองรับแพลตฟอร์มที่คุณใช้ โปรดดูข้อมูลเพิ่มเติมที่\u003Ca href=\"https://support.google.com/onhub/answer/6274977\" target=\"_blank\">ศูนย์ช่วยเหลือของ OnHub\u003C/a>"
+   },
+   "unsupported_title": {
+      "message": "ปัจจุบันระบบยังไม่รองรับแพลตฟอร์มที่คุณใช้"
+   },
+   "unsupported_title_linux": {
+      "message": "ปัจจุบันระบบยังไม่รองรับ Linux"
+   },
+   "unsupported_title_mac": {
+      "message": "ปัจจุบันระบบยังไม่รองรับ Mac"
+   },
+   "unsupported_title_win": {
+      "message": "ปัจจุบันระบบยังไม่รองรับ Windows"
+   },
+   "usupported_text_workspace_hardware": {
+      "message": "ระบบไม่รองรับแพลตฟอร์มของคุณในขณะนี้  โปรดดูข้อมูลเพิ่มเติมที่\u003Ca href=\"http://support.google.com/meethardware/answer/10562922\" target=\"_blank\">ศูนย์ช่วยเหลือฮาร์ดแวร์ของ Google Meet\u003C/a>"
+   },
+   "warning_offline": {
+      "message": "อุปกรณ์ออฟไลน์อยู่ ใช้งานได้เฉพาะฟีเจอร์แบบออฟไลน์"
+   },
+   "welcome_text": {
+      "message": "คุณจะต้องใช้แฟลชไดรฟ์ USB หรือการ์ด SD ขนาดอย่างน้อย 8 GB ที่คุณล้างข้อมูลออกได้"
+   },
+   "welcome_text_on_hub": {
+      "message": "คุณจะต้องใช้แฟลชไดรฟ์ USB ขนาดอย่างน้อย 8 GB ที่คุณล้างข้อมูลออกได้"
+   },
+   "welcome_text_workspace_hardware": {
+      "message": "คุณจะต้องใช้แฟลชไดรฟ์ USB ขนาดอย่างน้อย 8 GB ที่คุณล้างข้อมูลออกได้ หรือจะใช้การ์ด SD ก็ได้หากอุปกรณ์มีช่องเสียบการ์ด SD"
+   },
+   "welcome_title": {
+      "message": "สร้างสื่อการกู้คืนสำหรับ Chromebook"
+   },
+   "welcome_title_on_hub": {
+      "message": "สร้างไดรฟ์ USB การกู้คืนสำหรับ OnHub"
+   },
+   "welcome_title_workspace_hardware": {
+      "message": "สร้างไดรฟ์ USB การกู้คืนสำหรับ Meet Compute System"
+   },
+   "write_message": {
+      "message": "อย่านำสื่อการกู้คืนออก"
+   },
+   "write_message_on_hub": {
+      "message": "อย่านำไดรฟ์ USB การกู้คืนออก"
+   },
+   "write_message_workspace_hardware": {
+      "message": "อย่าถอดแฟลชไดรฟ์ USB"
+   },
+   "write_title": {
+      "message": "กำลังสร้างอิมเมจการกู้คืน"
+   }
+}

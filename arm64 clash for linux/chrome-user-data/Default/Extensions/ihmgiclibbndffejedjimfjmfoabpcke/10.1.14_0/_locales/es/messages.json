@@ -1,0 +1,1277 @@
+{
+   "CommonUi_LangPart_Abbreviation": {
+      "message": "Abreviación"
+   },
+   "CommonUi_LangPart_Adjective": {
+      "message": "Adjetivos"
+   },
+   "CommonUi_LangPart_Adverb": {
+      "message": "Adverbio"
+   },
+   "CommonUi_LangPart_Auxiliaryverb": {
+      "message": "Verbo auxiliar"
+   },
+   "CommonUi_LangPart_Conjunction": {
+      "message": "Conjunción"
+   },
+   "CommonUi_LangPart_Interjection": {
+      "message": "Interjección"
+   },
+   "CommonUi_LangPart_Noun": {
+      "message": "Sustantivo"
+   },
+   "CommonUi_LangPart_Phrase": {
+      "message": "Frase"
+   },
+   "CommonUi_LangPart_Preposition": {
+      "message": "Preposición"
+   },
+   "CommonUi_LangPart_Pronoun": {
+      "message": "Pronombre"
+   },
+   "CommonUi_LangPart_Suffix": {
+      "message": "Sufijo"
+   },
+   "CommonUi_LangPart_Transliteration": {
+      "message": "Transliteración"
+   },
+   "CommonUi_LangPart_Verb": {
+      "message": "Verbo"
+   },
+   "CommonUi_NoResults": {
+      "message": "Ningún resultado"
+   },
+   "Common_Copied": {
+      "message": "¡Copiado!"
+   },
+   "ContextMenu_FullPage": {
+      "message": "Traducir esta página al \u003C%=lang%>"
+   },
+   "Csv_FromLang": {
+      "message": "IDIOMA DE ORIGEN"
+   },
+   "Csv_Input": {
+      "message": "TEXTO ORIGINAL"
+   },
+   "Csv_IntoLang": {
+      "message": "IDIOMA DE DESTINO"
+   },
+   "Csv_Synonyms": {
+      "message": "SINÓNIMOS"
+   },
+   "Csv_TimeDate": {
+      "message": "HORA/FECHA"
+   },
+   "Csv_Translation": {
+      "message": "TRADUCCIÓN"
+   },
+   "Csv_Transliteration": {
+      "message": "TRANSLITERACIÓN"
+   },
+   "Csv_WhereTranslated": {
+      "message": "TRADUCIDO DESDE"
+   },
+   "Dict_DictionaryTab": {
+      "message": "Diccionario"
+   },
+   "Dict_NotFoundCaption": {
+      "message": "Perdón. Estamos trabajando en la expansión de nuestro diccionario"
+   },
+   "Dict_NotFoundTitle": {
+      "message": "No encontramos la definición"
+   },
+   "Dict_UpgradeToPro": {
+      "message": "Pásate a Pro para acceder a las definiciones"
+   },
+   "DotsButton_Added": {
+      "message": "Añadido a \u003C%=wl%>"
+   },
+   "DotsButton_Copied": {
+      "message": "Traducción copiada"
+   },
+   "DotsButton_OrigCopied": {
+      "message": "Texto original copiado"
+   },
+   "FullPage": {
+      "message": "Traducción de página completa"
+   },
+   "FullPageDesc": {
+      "message": "Si el sitio web está en otro idioma, aparecerá un ícono de Mate en la esquina superior derecha. Haz clic en ese ícono para traducir la página a tu idioma."
+   },
+   "FullPageShowOriginal": {
+      "message": "Mostrar el original"
+   },
+   "FullPageTranslate": {
+      "message": "Traducir"
+   },
+   "FullPageTranslatedTo": {
+      "message": "Traducido a"
+   },
+   "FullPage_AlwaysTranslate": {
+      "message": "Traducir siempre del {{page_lang_beautiful}} al {{target_lang_beautiful}}"
+   },
+   "FullPage_ChangeLanguage": {
+      "message": "Cambiar idioma"
+   },
+   "FullPage_ContextMenuOption": {
+      "message": "Abrir traducción de página completa"
+   },
+   "FullPage_CurrentPageLang": {
+      "message": "Esta página está en {{page_lang_beautiful}}"
+   },
+   "FullPage_NeverTranslate": {
+      "message": "No traducir nunca del {{page_lang_beautiful}}"
+   },
+   "FullPage_SwitchBackTo": {
+      "message": "Volver a la versión en {{language}}"
+   },
+   "FullPage_TranslateTo": {
+      "message": "Traducir al {{target_lang_beautiful}}"
+   },
+   "FullPage_WeTranslatedIt": {
+      "message": "Hemos traducido esta página al {{language}}"
+   },
+   "History_AnotherDevice": {
+      "message": "En otro dispositivo"
+   },
+   "History_Content_GoUpButton": {
+      "message": "Ir arriba"
+   },
+   "History_Content_List_OnEmpty": {
+      "message": "Aquí podrás ver las palabras que hayas traducido"
+   },
+   "History_Export_OnlyProDesc": {
+      "message": "Actualiza a la versión Pro para exportar tu historial de traducciones a un archivo CSV"
+   },
+   "History_FullyBlockedOut": {
+      "message": "Pásate a la versión Pro para tener un acceso ilimitado a tu historial de traducciones."
+   },
+   "History_InPopup": {
+      "message": "En la ventana emergente"
+   },
+   "History_Options_DeleteMarked_1": {
+      "message": "Borrar"
+   },
+   "History_Options_DeleteMarked_2": {
+      "message": "seleccionado"
+   },
+   "History_Options_SelectToDelete": {
+      "message": "(NO)seleccionar para borrar"
+   },
+   "History_Options_SelectToDelete_MarkAll": {
+      "message": "Seleccionar todo"
+   },
+   "History_Options_SelectToDelete_UnmarkAll": {
+      "message": "Deseleccionar"
+   },
+   "Human_OrderButton": {
+      "message": "Traducir con un traductor profesional"
+   },
+   "IDB_Error": {
+      "message": "Indexed DB está desactivado en su navegador"
+   },
+   "IDB_ErrorDesc": {
+      "message": "Mate Translate necesita Indexed DB (una memoria local en la que guardamos todas tus traducciones y glosario de frases) para poder funcionar correctamente.\u003Cbr>\u003Cbr>Tu navegador parece tener activado el modo de navegación privada que desactiva Indexed DB (es un \u003Ca href=\"https://bugzilla.mozilla.org/show_bug.cgi?id=781982\" target=\"_blank\">error #781982\u003C/a> de Firefox).\u003Cbr>\u003Cbr>Puedes activar la opción de Historial en \u003Ca href=\"about:preferences#privacy\" target=\"_blank\">about:preferences#privacy\u003C/a> seleccionando \"Firefox guardará el historial\". Esto podría funcionar, pero no lo garantizamos. También puedes ponerte en contacto con Mozilla y pedir que corrijan el error mencionado.\u003Cbr>\u003Cbr> Te pedimos disculpas por este inconveniente pero lamentablemente no podemos hacer nada al respecto."
+   },
+   "Kernel_AppDescription": {
+      "message": "Tu traductor para todo: páginas web, textos seleccionados en webs o programas y subtítulos de Netflix. Traduce y aprende palabras en 103 idiomas."
+   },
+   "Kernel_AppName": {
+      "message": "Mate Translate – traductor & diccionario"
+   },
+   "Kernel_Cancel": {
+      "message": "cancelar"
+   },
+   "Kernel_ClearInput": {
+      "message": "Borrar"
+   },
+   "Kernel_Context_Into": {
+      "message": "a"
+   },
+   "Kernel_HistoryTitle": {
+      "message": "Historial"
+   },
+   "Kernel_IPA": {
+      "message": "Transliteración fonética"
+   },
+   "Kernel_NoResults": {
+      "message": "Ningún resultado"
+   },
+   "Kernel_Ok": {
+      "message": "OK"
+   },
+   "Kernel_PhrasebookTitle": {
+      "message": "Glosario de frases"
+   },
+   "Kernel_RemoveCombination": {
+      "message": "eliminar"
+   },
+   "Kernel_SearchPlaceholder": {
+      "message": "Buscar"
+   },
+   "Kernel_SettingsTitle": {
+      "message": "Ajustes"
+   },
+   "Kernel_Vowels": {
+      "message": "aeiou"
+   },
+   "Login_ByClicking": {
+      "message": "Al hacer clic en \"Crear una cuenta\", aceptas nuestros \u003Cb>\u003Ca href=\"https://matetranslate.com/terms\">Términos de uso\u003C/a>\u003C/b> y \u003Cb>\u003Ca href=\"https://matetranslate.com/privacy\">nuestra Política de privacidad\u003C/a>\u003C/b>."
+   },
+   "Login_Continue": {
+      "message": "CONTINUAR"
+   },
+   "Login_ContinueWithout": {
+      "message": "Omitir"
+   },
+   "Login_Create": {
+      "message": "Crear una cuenta"
+   },
+   "Login_Email": {
+      "message": "Introduce tu email"
+   },
+   "Login_Forgot": {
+      "message": "¿Has olvidado tu contraseña?"
+   },
+   "Login_GDPR": {
+      "message": "\u003Cb>Te damos la bienvenida al traductor que se preocupa por tu privacidad.\u003C/b> No vamos a recolectar ni vender tus datos. Nuestra \u003Ca class=\"open-pp\" href=\"javascript:;\">política de privacidad\u003C/a> es distinta a todas las demás: es concreta y simpática. Te pedimos que la leas y que la aceptes para empezar a usar tu cuenta de Mate."
+   },
+   "Login_IReadAndAgree": {
+      "message": "Estoy de acuerdo"
+   },
+   "Login_NewPassword": {
+      "message": "Nueva contraseña"
+   },
+   "Login_NoAccountHead": {
+      "message": "No tengo una cuenta"
+   },
+   "Login_NoAccountText": {
+      "message": "Si compraste la versión Pro pero no habías iniciado sesión en ese momento y no finalizaste el registro a través del enlace que te enviamos al correo electrónico que introdujiste al finalizar la compra, debes finalizar el registro a través del enlace en ese correo electrónico. Después, podrás iniciar sesión en la aplicación."
+   },
+   "Login_NoRememberHead": {
+      "message": "No me acuerdo"
+   },
+   "Login_NoRememberText": {
+      "message": "Si no recuerdas la dirección de email que utilizaste para pagar, intenta buscar un email con nuestra confirmación de compra en tu bandeja de entrada."
+   },
+   "Login_OrSignInWith": {
+      "message": "O INICIA SESIÓN CON"
+   },
+   "Login_Password": {
+      "message": "Introduce tu contraseña"
+   },
+   "Login_PasswordMin8": {
+      "message": "La contraseña debe tener al menos 8 caracteres"
+   },
+   "Login_Promo": {
+      "message": "¡Inicia sesión para utilizar Mate y sincroniza tus datos en todos tus dispositivos!"
+   },
+   "Login_QuestionsHead": {
+      "message": "¿Tienes alguna pregunta?"
+   },
+   "Login_QuestionsText": {
+      "message": "Si todavía tienes dificultades, puedes contactarnos en \u003Ca href=\"mailto:support@matetranslate.com?subject=Login Issues\">support@matetranslate.com\u003C/a>."
+   },
+   "Login_Restore": {
+      "message": "Para restaurar Mate Translate Pro, inicia sesión en la cuenta desde la que lo compraste. (\u003Ca href=\"javascript:;\" class=\"show-info\">¿No recuerdas la cuenta?\u003C/a>)"
+   },
+   "Login_SignIn": {
+      "message": "INICIAR SESIÓN"
+   },
+   "Login_SignUp": {
+      "message": "Registrarse"
+   },
+   "Login_Sync": {
+      "message": "La cuenta de Mate es la mejor manera para tener una copia de seguridad de tu historial, de tu glosario de frases y de tus preferencias, y para tenerlos sincronizados en todos tus dispositivos."
+   },
+   "Login_YourName": {
+      "message": "Nombre (opcional)"
+   },
+   "MatePro_Description": {
+      "message": "¡Lleva tu experiencia de traducción a un nivel totalmente nuevo con Mate Pro! Paga una vez, usa para siempre."
+   },
+   "MicAccess_HowToUnlock": {
+      "message": "Borra \u003Cb>$id$\u003C/b> de la lista de elementos bloqueados en las excepciones del micrófono. Después, haga \u003Cb>\u003Ca href=\"../public/mic_access.html\">clic aquí\u003C/a>\u003C/b>.",
+      "placeholders": {
+         "id": {
+            "content": "$1",
+            "example": "chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/"
+         }
+      }
+   },
+   "MicAccess_Note": {
+      "message": "Para reconocer y traducir voz, Mate Translate necesita permiso para usar el micrófono de tu ordenador."
+   },
+   "MicAccess_PageTitle": {
+      "message": "Acceso al micrófono"
+   },
+   "MicAccess_Title": {
+      "message": "Micrófono"
+   },
+   "MicAccess_UnlockButton": {
+      "message": "permitir en ajustes de contenido"
+   },
+   "Options_TooltipSizePro": {
+      "message": "Pásate a la versión Pro para cambiar el tamaño de las herramientas que aparecen en pantalla."
+   },
+   "Pb_AddButton": {
+      "message": "Añadir"
+   },
+   "Pb_EarlyAccess": {
+      "message": "pedir acceso anticipado"
+   },
+   "Pb_Empty": {
+      "message": "El glosario de frases está vacío"
+   },
+   "Pb_EmptyWl_Text1": {
+      "message": "Guarda aquí todas las palabras que quieras recordar sobre este tema."
+   },
+   "Pb_EmptyWl_Text2": {
+      "message": "Simplemente escribe algo y Mate buscará su traducción"
+   },
+   "Pb_EmptyWl_Title2": {
+      "message": "Guarda fácilmente"
+   },
+   "Pb_Empty_Button": {
+      "message": "crea una lista de palabras"
+   },
+   "Pb_Empty_Text1": {
+      "message": "Crea listas con las palabras que quieras recordar"
+   },
+   "Pb_Empty_Text2": {
+      "message": "¡Guarda todo tu vocabulario en un solo lugar!"
+   },
+   "Pb_Empty_Title": {
+      "message": "¿Qué es esto?"
+   },
+   "Pb_EnterWordOrPhrase": {
+      "message": "Escribe una palabra o frase"
+   },
+   "Pb_HowToAddPhrase": {
+      "message": "Usa el campo de texto de arriba para añadir nuevas palabras y frases"
+   },
+   "Pb_HowToCreateWordlist": {
+      "message": "Haz clic en el botón \"+\" arriba para crear una nueva lista de palabras"
+   },
+   "Pb_Learn": {
+      "message": "Apréndelas"
+   },
+   "Pb_LearnOnboardingDesc": {
+      "message": "Queremos que Mate siga siendo bueno en una cosa: traducciones.\u003Cbr>\u003Cbr>Por eso, hemos hecho Reji: una app super sencilla y gratuita para aprender vocabulario de manera eficiente. Además, ¡puedes importar las palabras que hayas guardado en Mate en un solo clic!"
+   },
+   "Pb_Loading": {
+      "message": "cargando..."
+   },
+   "Pb_NewWlNote": {
+      "message": "Crea una lista de palabras para una combinación de idiomas y añade una cantidad ilimitada de frases a esta."
+   },
+   "Pb_NewWordlist": {
+      "message": "Nombre de la lista"
+   },
+   "Pb_NewWordlistName": {
+      "message": "Nombre de la lista"
+   },
+   "Pb_NoInternet": {
+      "message": "Parece que no estás conectado a Internet. Para añadir frases nuevas debes estar conectado."
+   },
+   "Pb_NotOnIOS": {
+      "message": "¿No usas iOS? Para aprender con tu Android haz clic \u003Ca class=\"show-android-form\" href=\"#\">aquí\u003C/a> o, si prefieres, desde tu navegador, \u003Ca class=\"show-chrome-form\" href=\"#\">aquí\u003C/a>."
+   },
+   "Pb_RejiAndroid": {
+      "message": "Reji para Android aún no está disponible. Estamos trabajando duro para sacarla lo antes posible. Si quieres enterarte el primero cuando salga, ¡déjanos tu email!"
+   },
+   "Pb_RejiBrowser": {
+      "message": "Reji para navegador aún no está disponible. Estamos trabajando duro para sacarla lo antes posible. Si quieres enterarte el primero cuando salga, ¡déjanos tu email!"
+   },
+   "Pb_SaveButton": {
+      "message": "Guardar"
+   },
+   "Pb_ScanQR": {
+      "message": "Escanea este código QR con la cámara de tu iPhone o iPad para empezar a aprender palabras con Reji."
+   },
+   "Pb_SelectLearnLanguage": {
+      "message": "¿Qué idioma estás aprendiendo?"
+   },
+   "Pb_SureToDeleteWordlist": {
+      "message": "¿Estás seguro de que quieres eliminar esta lista de palabras? No podrás deshacer esta acción."
+   },
+   "Pb_WlEmpty": {
+      "message": "La lista de palabras está vacía"
+   },
+   "Phrasebook_FullyBlockedOut": {
+      "message": "Pásate a la versión Pro para obtener acceso ilimitado al glosario de frases."
+   },
+   "Phrasebook_Phrases1": {
+      "message": "frase"
+   },
+   "Phrasebook_Phrases2": {
+      "message": "frases"
+   },
+   "Phrasebook_Phrases3": {
+      "message": "frases"
+   },
+   "ProSplitTests_2_F1": {
+      "message": "Traducción de audio"
+   },
+   "ProSplitTests_2_F2": {
+      "message": "Historial y glosario de frases"
+   },
+   "ProSplitTests_2_F3": {
+      "message": "Sinónimos"
+   },
+   "ProSplitTests_2_F4": {
+      "message": "Pronunciación y género de los sustantivos"
+   },
+   "ProSplitTests_2_F5": {
+      "message": "Modo oscuro y sin anuncios"
+   },
+   "ProSplitTests_2_F6": {
+      "message": "Prioridad en la atención al usuario"
+   },
+   "ProSplitTests_2_F7": {
+      "message": "Pro en \u003Ca href=\"https://gikken.co/mate-translate/?ref=BrowserProBlock\">todos los dispositivos\u003C/a>"
+   },
+   "ProSplitTests_2_F8": {
+      "message": "Traducción automática de páginas web"
+   },
+   "ProSplitTests_2_Pitch": {
+      "message": "Mate es genial, ¡y la versión Pro es incluso mejor! Obtendrás acceso de por vida a todas las herramientas de la versión Pro en cualquier lugar en el que estés traduciendo, sin ver anuncios."
+   },
+   "Pro_Articles": {
+      "message": "Los artículos de los sustantivos"
+   },
+   "Pro_Articles_Desc": {
+      "message": "Aprende a usar palabras en alemán, francés, español, italiano y portugués."
+   },
+   "Pro_Articles_Msg": {
+      "message": "Obtén la versión Pro para poder ver los artículos de cada sustantivo."
+   },
+   "Pro_ComesAlong": {
+      "message": ", y más:"
+   },
+   "Pro_DarkMode": {
+      "message": "Ahorra energía y evita que se te cansen los ojos con el nuevo modo oscuro de Mate."
+   },
+   "Pro_DoubleClickFeature": {
+      "message": "¡Traduce palabras en páginas web haciendo doble clic en ellas con Mate Pro!"
+   },
+   "Pro_ExportFeature": {
+      "message": "¡Descárgate tu historial como archivo CSV con Mate Pro!"
+   },
+   "Pro_FullPageTranslation": {
+      "message": "Cambia tu suscripción a Pro para habilitar las traducciones web automáticas."
+   },
+   "Pro_IPA": {
+      "message": "Transcripción fonética"
+   },
+   "Pro_IPA_Desc": {
+      "message": "Aprende cómo se pronuncian las palabras."
+   },
+   "Pro_IPA_Msg": {
+      "message": "Obtén la versión Pro para acceder a las transcripciones fonéticas."
+   },
+   "Pro_MainSettingsPitch": {
+      "message": "Cuanto más traduces, más vale la pena pasarte a Pro. Esta versión tiene características que la hacen una herramienta poderosa para usar donde quieras."
+   },
+   "Pro_NetflixPhrasebookSaving": {
+      "message": "Cambia tu suscripción a Pro para guardar palabras de Netflix."
+   },
+   "Pro_PhrasebookFeature": {
+      "message": "Accede a tu glosario de frases personal. Con Mate, sincroniza el glosario y el historial en \u003Ca href=\"https://gikken.co/mate-translate/download/\" target=\"_blank\">todos tus dispositivos\u003C/a>. Puedes exportarlo en formato CSV."
+   },
+   "Pro_STTFeature": {
+      "message": "Mate traduce hasta \u003Ca href=\"https://gikken.co/mate-translate/languages\">40 idiomas\u003C/a> mientras hablas desde la barra de herramientas."
+   },
+   "Pro_ShortcutsFeature": {
+      "message": "Traduce texto a múltiples idiomas en vez de solo a uno mediante atajos de teclado (Shift+T)."
+   },
+   "Pro_SyncFeature": {
+      "message": "¡Sincroniza tus datos en todos tus dispositivos con Mate Pro!"
+   },
+   "Pro_SynonymsPaywall": {
+      "message": "Pásate a la versión Pro para ver más sinónimos."
+   },
+   "Pro_UnlockMore": {
+      "message": "(NO)Y además desbloquea estas funcionalidades:"
+   },
+   "Promo_Android": {
+      "message": "Android"
+   },
+   "Promo_Chrome": {
+      "message": "Chrome"
+   },
+   "Promo_Edge": {
+      "message": "Edge"
+   },
+   "Promo_Firefox": {
+      "message": "Firefox"
+   },
+   "Promo_Ios": {
+      "message": "iOS"
+   },
+   "Promo_Mac": {
+      "message": "macOS"
+   },
+   "Promo_Safari": {
+      "message": "Safari"
+   },
+   "Promo_Windows": {
+      "message": "Windows"
+   },
+   "RejiAd": {
+      "message": "Nuestra nueva aplicación te ayudará a mejorar tu vocabulario. ¡Pruébala!"
+   },
+   "SafariWall_Desc": {
+      "message": "Paga por Mate una vez y consigue todas sus increíbles opciones en tu Safari."
+   },
+   "SafariWall_Feature1": {
+      "message": "Selecciona palabras en cualquier página y tradúcelas"
+   },
+   "SafariWall_Feature2": {
+      "message": "Haz doble clic en cualquier palabra y tradúcela"
+   },
+   "SafariWall_Feature3": {
+      "message": "Guarda palabras para recordarlas en tu glosario de frases"
+   },
+   "SafariWall_Feature4": {
+      "message": "Traduce 103 idiomas"
+   },
+   "SafariWall_Feature5": {
+      "message": "Aprende la pronunciación correcta"
+   },
+   "SafariWall_Feature6": {
+      "message": "Sincroniza tus traducciones en todos tus dispositivos"
+   },
+   "SafariWall_Title": {
+      "message": "¡Olvídate de los traductores online!"
+   },
+   "Settings_21max": {
+      "message": "Puedes crear un máximo de 21 accesos directos"
+   },
+   "Settings_Autoswap": {
+      "message": "Intercambiar idiomas automáticamente"
+   },
+   "Settings_Autoswap_Description": {
+      "message": "Los idiomas se intercambiarán automáticamente si introduces un texto en el idioma de destino en lugar del idioma de origen y viceversa."
+   },
+   "Settings_CP": {
+      "message": "Mate para otros dispositivos"
+   },
+   "Settings_CPDesc": {
+      "message": "Mate está disponible para iOS, Mac (+ extensión de Safari), Chrome, Firefox, Opera y Edge. Puedes sincronizar tu historial de traducción y glosario de frases entre todos tus dispositivos con tu cuenta de Mate."
+   },
+   "Settings_CP_Get": {
+      "message": "Otras apps de Mate"
+   },
+   "Settings_Close": {
+      "message": "cerrar"
+   },
+   "Settings_Contacts": {
+      "message": "Más"
+   },
+   "Settings_CtxMenu": {
+      "message": "Menú del botón derecho"
+   },
+   "Settings_CtxMenuDesc": {
+      "message": "Añadir la opción de traducir con Mate al hacer clic derecho con el ratón sobre un texto seleccionado."
+   },
+   "Settings_DarkMode": {
+      "message": "Elegante modo oscuro"
+   },
+   "Settings_DarkModeDesc": {
+      "message": "Ahorra energía y evita que se te cansen los ojos con el nuevo modo oscuro de Mate."
+   },
+   "Settings_DataEraseError": {
+      "message": "Se ha producido un error inesperado, ¡por favor, inténtalo de nuevo más tarde!"
+   },
+   "Settings_DataErased": {
+      "message": "¡Todos tus datos han sido eliminados de los servidores de Mate!"
+   },
+   "Settings_DestLang": {
+      "message": "Idioma de destino"
+   },
+   "Settings_Email": {
+      "message": "Email"
+   },
+   "Settings_EnableSync": {
+      "message": "Activar la sincronización del historial y del glosario de frases"
+   },
+   "Settings_EraseConfirm": {
+      "message": "¿Estás seguro? Esto borrará todas tus traducciones sincronizadas y tu glosario de frases (los datos locales no se verán afectados). Esta acción no puede deshacerse."
+   },
+   "Settings_EraseData": {
+      "message": "borrar todos mis datos"
+   },
+   "Settings_EraseDataDesc": {
+      "message": "De acuerdo con el RGPD, puedes solicitar que sus datos sean borrados de los servidores de Mate."
+   },
+   "Settings_FBShare": {
+      "message": "compartir en facebook"
+   },
+   "Settings_Facebook": {
+      "message": "Facebook"
+   },
+   "Settings_HelpCenter": {
+      "message": "Ayuda"
+   },
+   "Settings_Interface_Autocorrection": {
+      "message": "Autocorrección"
+   },
+   "Settings_Interface_Autocorrection_Description": {
+      "message": "Mate corregirá automáticamente las palabras mal escritas."
+   },
+   "Settings_Interface_DevData": {
+      "message": "Sugerir versiones de sitios web localizados"
+   },
+   "Settings_Interface_DevData_Description": {
+      "message": "Si un sitio web está disponible en el idioma al que intentas traducirlo, Mate te sugerirá que uses la versión localizada de esa web."
+   },
+   "Settings_Interface_InstantTranslation": {
+      "message": "Traducción inteligente"
+   },
+   "Settings_Interface_InstantTranslation_Description": {
+      "message": "Mate traducirá el texto introducido al terminar de escribir."
+   },
+   "Settings_Interface_Save": {
+      "message": "Mantener la última traducción"
+   },
+   "Settings_Interface_Save_Description": {
+      "message": "Cuando abras Mate, se te mostrará la última traducción hecha."
+   },
+   "Settings_Interface_ShowIPA": {
+      "message": "Mostrar transliteración fonética"
+   },
+   "Settings_Interface_ShowIPA_Description": {
+      "message": "Aprende la pronunciación con el Alfabeto Fonético Internacional (AFI)."
+   },
+   "Settings_Interface_ShowTranslit": {
+      "message": "Mostrar transliteración"
+   },
+   "Settings_Interface_ShowTranslit_Description": {
+      "message": "Para alfabetos no latinos, Mate te mostrará una transcripción en alfabeto latino de la traducción para facilitar la lectura."
+   },
+   "Settings_Legal": {
+      "message": "Legal"
+   },
+   "Settings_Netflix": {
+      "message": "Traducir subtítulos de Netflix"
+   },
+   "Settings_NetflixDesc": {
+      "message": "Haz clic en palabras de los subtítulos de Netflix para ver su traducción allí mismo."
+   },
+   "Settings_NetflixView": {
+      "message": "ver palabras guardadas →"
+   },
+   "Settings_NewLine": {
+      "message": "para una nueva línea"
+   },
+   "Settings_Newsletter": {
+      "message": "Boletín de noticias"
+   },
+   "Settings_NoConsentPro": {
+      "message": "De acuerdo con el RGPD, no te podemos cobrar la versión Pro hasta que no aceptes los términos y condiciones. Por favor, acéptalos y actualiza esta página para continuar con la suscripción a Pro."
+   },
+   "Settings_NoProSync": {
+      "message": "Debes tener Mate Translate Pro para activar la sincronización"
+   },
+   "Settings_Or": {
+      "message": "o"
+   },
+   "Settings_PopupShortcuts": {
+      "message": "Atajos de teclado"
+   },
+   "Settings_PopupShortcutsDesc": {
+      "message": "Puedes traducir el texto escrito en la ventana o añadir una línea nueva con las siguientes teclas:"
+   },
+   "Settings_PrefsTab": {
+      "message": "Ventana"
+   },
+   "Settings_PrivacyPolicy": {
+      "message": "Política de privacidad"
+   },
+   "Settings_ProActivated": {
+      "message": "¡Todo listo! Tu versión Pro está activada."
+   },
+   "Settings_ProFeature8": {
+      "message": "Soporte confiable por correo electrónico"
+   },
+   "Settings_ProFeature8_Desc": {
+      "message": "El soporte es solo para quienes usan la versión Pro, para que podamos responderles rápido y en profundidad. Las personas que usen la versión gratuita pueden encontrar respuestas a las preguntas más frecuentes en nuestro \u003Ca href=\"https://help.gikken.co/hc/\" target=\"_blank\">Centro de Ayuda\u003C/a>."
+   },
+   "Settings_ProTab": {
+      "message": "Pro y sincronización"
+   },
+   "Settings_Restore": {
+      "message": "restaurar compra"
+   },
+   "Settings_RevokeConsent": {
+      "message": "ya no acepto los términos"
+   },
+   "Settings_RevokeConsentDesc": {
+      "message": "Si ya no aceptas nuestra Política de Privacidad o nuestros Términos de Uso, puedes revocar tu consentimiento. Sin embargo, ya no podrás usar Mate."
+   },
+   "Settings_Share": {
+      "message": "Comparte Mate con tus amigos"
+   },
+   "Settings_ShareDesc": {
+      "message": "¡Mándales el link o compártelo en tus redes sociales y nos ayudarás a mantener Mate!"
+   },
+   "Settings_ShareText": {
+      "message": "Mate es un traductor todo en uno para {{platform}}, Mac e iOS. Aprende y traduce 103 idiomas. Rápido y práctico. Siempre disponible."
+   },
+   "Settings_ShortcutClick": {
+      "message": "Haz clic en este campo y después pulsa las teclas que quieras en tu atajo"
+   },
+   "Settings_ShortcutMain": {
+      "message": "Atajo principal"
+   },
+   "Settings_ShortcutSuppl": {
+      "message": "Atajo secundario"
+   },
+   "Settings_SignOut": {
+      "message": "CERRAR SESIÓN"
+   },
+   "Settings_SourceLang": {
+      "message": "Idioma de origen"
+   },
+   "Settings_StayInTouch": {
+      "message": "Contacta con nosotros"
+   },
+   "Settings_SyncText": {
+      "message": "Todo tu historial y tu glosario de frases sincronizados en todos los dispositivos."
+   },
+   "Settings_TWShare": {
+      "message": "Compartir en twitter"
+   },
+   "Settings_ToS": {
+      "message": "Términos de uso"
+   },
+   "Settings_ToTranslate": {
+      "message": "para traducir"
+   },
+   "Settings_Tooltip": {
+      "message": "Tamaño de la ventana flotante"
+   },
+   "Settings_TooltipBig": {
+      "message": "grande"
+   },
+   "Settings_TooltipDesc": {
+      "message": "Escoge el tamaño de la ventana flotante de traducción."
+   },
+   "Settings_TooltipMedium": {
+      "message": "mediano"
+   },
+   "Settings_TooltipSmall": {
+      "message": "pequeño"
+   },
+   "Settings_TranslateSelection": {
+      "message": "Traducción de texto seleccionado"
+   },
+   "Settings_TranslateSelectionDesc": {
+      "message": "Traduce texto al instante en páginas web con tan solo seleccionarlo."
+   },
+   "Settings_Translation_History": {
+      "message": "Historial de traducciones"
+   },
+   "Settings_Translation_History_Description": {
+      "message": "Guarda todas las traducciones para consultarlas en cualquier momento."
+   },
+   "Settings_Translation_KeyCombos": {
+      "message": "Atajos de teclado"
+   },
+   "Settings_Translation_KeyCombos_Description": {
+      "message": "Selecciona el texto de cualquier página (excepto archivos PDF), pulsa uno de tus atajos de teclado y obtén la traducción de inmediato en una ventana emergente pequeña."
+   },
+   "Settings_Twitter": {
+      "message": "Twitter"
+   },
+   "Settings_UsageDesc": {
+      "message": "Te recomendamos que actualices a Pro si estás traduciendo más de 500 veces por mes. Nos ayudarás a mantener nuestros servidores y podremos garantizar una velocidad de traducción más rápida."
+   },
+   "Settings_UsageReset": {
+      "message": "(NO)Este contador se reiniciará en \u003Cb>\u003C%=reset_date%>\u003C/b>"
+   },
+   "Settings_UsageTitle": {
+      "message": "(NO)Tu uso mensual"
+   },
+   "Settings_Website": {
+      "message": "Sitio web"
+   },
+   "Settings_YouAreSignedIn": {
+      "message": "Has iniciado sesión como"
+   },
+   "Settings_YouPro": {
+      "message": "¡Tienes la versión Pro!"
+   },
+   "Settings_YouUsed": {
+      "message": "usaste"
+   },
+   "ShareOnVK": {
+      "message": "compartir en vk"
+   },
+   "ShareViaEmail": {
+      "message": "compartir por email"
+   },
+   "SignUp_Name": {
+      "message": "Nombre (opcional)"
+   },
+   "SignUp_Password": {
+      "message": "Contraseña (mínimo 8 caracteres)"
+   },
+   "Sponsorship_Bar": {
+      "message": "Siéntete seguro con tu cuenta de Mate"
+   },
+   "Sponsorship_DismissPro": {
+      "message": "Pásate a la versión Pro para no ver anuncios."
+   },
+   "Sub_48hNotificationBodyAnnual": {
+      "message": "Pronto recibirás una factura de {{amount}} por tu suscripción anual a Mate Pro."
+   },
+   "Sub_48hNotificationBodyMonthly": {
+      "message": "Pronto recibirás una factura de {{amount}} por tu suscripción mensual a Mate Pro."
+   },
+   "Sub_48hNotificationLabel": {
+      "message": "\u003Cb>Sin riesgos.\u003C/b> Te enviaremos un recordatorio 48 horas antes de la primera facturación."
+   },
+   "Sub_48hNotificationTitle": {
+      "message": "¿Qué tal tu período de prueba en Mate?"
+   },
+   "Sub_ApplyForStudentDiscount": {
+      "message": "Solicita un descuento para estudiantes"
+   },
+   "Sub_Cancel": {
+      "message": "Cancelar suscripción"
+   },
+   "Sub_ChangePaymentMethod": {
+      "message": "Cambiar la forma de pago"
+   },
+   "Sub_ComingSoon": {
+      "message": "próximamente"
+   },
+   "Sub_CouldNotGetPayLink": {
+      "message": "No hemos podido recibir tu enlace de pago. Por favor, inténtalo de nuevo más tarde o escríbenos a support@matetranslate.com"
+   },
+   "Sub_CrossPlatformProComingSoon": {
+      "message": "Nos estamos esforzando para que Mate Pro sea multiplataforma.\n\nYa puedes disfrutar de Mate Pro en todas las extensiones de navegador ingresando con la misma cuenta Mate en todos los dispositivos. Sin embargo, las aplicaciones para iOS y Mac se compran por anticipado en la App Store de Apple.\n\nComo solución temporal, puedes enviarnos un correo a hello@gikken.co con tu factura después de suscribirte a Mate Pro y te ayudaremos a obtener las aplicaciones de forma gratuita.\n\nNos disculpamos por el inconveniente temporal."
+   },
+   "Sub_DueAfterTrial": {
+      "message": "\u003Cspan class=\"price-due\">\u003C/span> después del período de prueba"
+   },
+   "Sub_FAQ": {
+      "message": "Preguntas frecuentes"
+   },
+   "Sub_FinishCreatingAccount": {
+      "message": "Terminar de crear la cuenta"
+   },
+   "Sub_FreeTrialVerificationCharge": {
+      "message": "Es posible que se te cobre US$1 a través de Paddle para verificar tu tarjeta de crédito. El dinero será reembolsado inmediatamente. La prueba es gratis."
+   },
+   "Sub_LegacyUsersDisclaimer": {
+      "message": "Ahora Mate Pro es por suscripción para nuevos usuarios. Como has adquirido PRO antes de la transición, lo conservarás sin costo adicional, ¡para siempre! Gracias por apoyarnos desde el inicio \u003C3"
+   },
+   "Sub_Month": {
+      "message": "/mes"
+   },
+   "Sub_MoreInlineInfo": {
+      "message": "Más información"
+   },
+   "Sub_NextBilling": {
+      "message": "Próxima facturación: {{next_amount_billed}} el {{next_billing_date}}"
+   },
+   "Sub_NoNotifPermissionAlert": {
+      "message": "Si no permites las noticaciones, no podremos notificarte sobre la primera facturación... De todas formas, siempre podrás ver cuándo sucederá desde los ajustes."
+   },
+   "Sub_PleaseCreateAccount": {
+      "message": "Termina de crear tu cuenta Mate. Solo sigue las instrucciones enviadas a \u003Cb>{{email}}\u003C/b>. De esta forma, validaremos tu suscripción. ¡No te tomará más de un minuto!"
+   },
+   "Sub_PleaseSignBackIn": {
+      "message": "Vuelve a iniciar sesión con tu cuenta Mate vinculada a \u003Cb>{{email}}\u003C/b>.\u003Cbr>De lo contrario, no podremos validar tu suscripción."
+   },
+   "Sub_ProStatusForLegacyUsers": {
+      "message": "Tienes acceso ilimitado de por vida a Mate Pro"
+   },
+   "Sub_PurchasedBefore": {
+      "message": "¿Ya has comprado Pro?"
+   },
+   "Sub_Resubscribe": {
+      "message": "Volver a suscribirte"
+   },
+   "Sub_Savings": {
+      "message": "Ahorra un {{savings}}%"
+   },
+   "Sub_ScrewSubscription": {
+      "message": "¿No quieres suscribirte?"
+   },
+   "Sub_StatusFetchError": {
+      "message": "No se pudo obtener el estado de su suscripción."
+   },
+   "Sub_StatusFetchTryAgain": {
+      "message": "Inténtalo de nuevo"
+   },
+   "Sub_SubscribeNow": {
+      "message": "Subscríbete ahora"
+   },
+   "Sub_TryFreeCTA": {
+      "message": "Pruébalo gratis por \u003Cspan class=\"trial-days\">\u003C/span> días"
+   },
+   "Sub_WhenCancelled": {
+      "message": "Has cancelado tu suscripción, pero tendrás acceso a Mate Pro hasta el {{sub_ends_on}}. Para seguir usando Pro después de esa fecha, puedes volver a suscribirte."
+   },
+   "Sub_WhenTrialing": {
+      "message": "Tu período de prueba termina el {{next_billing_date}} y tu factura será de {{next_amount_billed}}"
+   },
+   "Sub_Year": {
+      "message": "/año"
+   },
+   "Sub_YouAreAlmostInTheFamily": {
+      "message": "¡(Ya casi) eres parte de la familia Mate Pro!"
+   },
+   "Sub_YouAreInTheFamily": {
+      "message": "¡Eres parte de la familia Mate Pro!"
+   },
+   "Sync_FailedError": {
+      "message": "Se ha producido un error y no se ha podido sincronizar."
+   },
+   "Sync_NetworkError": {
+      "message": "No hay conexión a Internet. Conéctate a Internet e intenta sincronizar de nuevo."
+   },
+   "Sync_NoItemsError": {
+      "message": "No hay elementos por sincronizar."
+   },
+   "Sync_NotSignedInError": {
+      "message": "Debes iniciar sesión para sincronizar tu historial y tu glosario de frases."
+   },
+   "TD_AddPB": {
+      "message": "Añadir al glosario de frases"
+   },
+   "TD_Copy": {
+      "message": "Copiar"
+   },
+   "TD_Create": {
+      "message": "Crea una nueva lista de palabras"
+   },
+   "TD_NoWordlists": {
+      "message": "No hay listas de palabras para "
+   },
+   "There_Is_Localised_Site": {
+      "message": "Ver la versión localizada del sitio"
+   },
+   "There_Is_Localised_Site_Desc": {
+      "message": "Existe una versión localizada de este sitio web"
+   },
+   "Tooltip_DisableDoubleClick": {
+      "message": "No traducir con doble clic"
+   },
+   "Tooltip_DisableDoubleClickDesc": {
+      "message": "No verás la traducción de una palabra al hacer doble clic en ella."
+   },
+   "Tooltip_DisableSelection": {
+      "message": "No mostrar el botón flotante"
+   },
+   "Tooltip_DisableSelectionDesc": {
+      "message": "No verás un botón de traducción flotante al seleccionar texto."
+   },
+   "Tooltip_InlineOptionDisabled": {
+      "message": "Puedes habilitarlo de nuevo en ajustes"
+   },
+   "Tour_Agree": {
+      "message": "Haz clic en el siguiente botón para aceptar nuestros \u003Cb>Términos de uso\u003C/b> y \u003Cb>Política de privacidad\u003C/b> y empieza a traducir con Mate."
+   },
+   "Tour_AutoFPOption": {
+      "message": "Sugerir la traducción de sitios web"
+   },
+   "Tour_DoubleClick": {
+      "message": "Traducción al hacer doble clic"
+   },
+   "Tour_DoubleClickDesc": {
+      "message": "Haz doble clic en cualquier palabra para ver una traducción instantánea."
+   },
+   "Tour_DoubleClickOption": {
+      "message": "Traduce haciendo doble clic"
+   },
+   "Tour_GotIt": {
+      "message": "EMPEZAR"
+   },
+   "Tour_HowToContext": {
+      "message": "O selecciona cualquier texto y usa el menú contextual (clic con el botón derecho) para ver la traducción."
+   },
+   "Tour_HowToPopUp": {
+      "message": "Si quieres escribir algo y traducirlo, abre la ventana del traductor haciendo clic en el botón de Mate junto a la barra de direcciones de tu navegador."
+   },
+   "Tour_HowToSelect": {
+      "message": "Selecciona palabras o texto en cualquier página web y presiona Shift+T para traducirlo."
+   },
+   "Tour_HowToUse": {
+      "message": "¿Cómo funciona?"
+   },
+   "Tour_Ht": {
+      "message": "Pedir una traducción profesional"
+   },
+   "Tour_HtBtn": {
+      "message": "Comienza a traducir como un profesional"
+   },
+   "Tour_HtDesc": {
+      "message": "Pide traducciones profesionales de hablantes nativos, directamente desde Mate Translate, con tan solo unos clics. Introduce el texto, realiza el pago y obtén el resultado en 24 horas. Una solución perfecta si la traducción automática no es suficiente para tus necesidades."
+   },
+   "Tour_Important": {
+      "message": "¡Importante!"
+   },
+   "Tour_ImportantSub": {
+      "message": "Esta página te mostrará cómo usar \u003Cb>Mate Translate\u003C/b>"
+   },
+   "Tour_ImportantText": {
+      "message": "Te llevará menos de 1 minuto"
+   },
+   "Tour_Langs": {
+      "message": "¿A qué idioma deseas traducir?"
+   },
+   "Tour_LangsDesc": {
+      "message": "Elige el idioma al que deseas traducir:"
+   },
+   "Tour_LangsSupported": {
+      "message": "ver idiomas disponibles"
+   },
+   "Tour_MacUser": {
+      "message": "Estaba usando Mate para Mac"
+   },
+   "Tour_NoShiftT": {
+      "message": "Mate no puede traducir el texto seleccionado en esta página y en archivos PDF debido a ciertas restricciones técnicas en \u003C%=browser%>.\u003Cbr>\u003Cbr>Por favor, intenta hacerlo en \u003Ca href='https://reji.me' target='_blank'>esta página\u003C/a>, por ejemplo."
+   },
+   "Tour_PDF": {
+      "message": "Traducir en PDF"
+   },
+   "Tour_PDFDesc": {
+      "message": "Selecciona texto en archivos PDF abiertos en Chrome, haz clic con el botón derecho y tradúcelos con Mate."
+   },
+   "Tour_PDFNote": {
+      "message": "El botón flotante y el atajo Shift+T no funcionan en PDFs debido a restricciones técnicas."
+   },
+   "Tour_Pages": {
+      "message": "Traduce páginas web completas"
+   },
+   "Tour_PagesDesc": {
+      "message": "Todos los sitios web estarán en tu idioma. Automáticamente."
+   },
+   "Tour_Phrasebook": {
+      "message": "Tu glosario personal"
+   },
+   "Tour_PhrasebookCreate": {
+      "message": "Crea tu primera lista de palabras"
+   },
+   "Tour_PhrasebookDesc": {
+      "message": "Guarda todas las palabras que quieras recordar en el glosario de frases de Mate."
+   },
+   "Tour_PhrasebookFeature": {
+      "message": "¡Guarda todas las palabras que quieras recordar en un solo sitio!"
+   },
+   "Tour_PhrasebookLaunch": {
+      "message": "abrir el glosario de frases"
+   },
+   "Tour_ProCTA": {
+      "message": "Desbloquea también estas increíbles opciones actualizando a \u003Cb>Mate Pro\u003C/b> ahora:"
+   },
+   "Tour_ProFeature1": {
+      "message": "\u003Ca href=\"phrasebook.html\">Glosario de frases\u003C/a> ilimitado"
+   },
+   "Tour_ProFeature2": {
+      "message": "Traducción de voz"
+   },
+   "Tour_ProFeature3": {
+      "message": "Atajos de teclado ilimitados"
+   },
+   "Tour_ProFeature4": {
+      "message": "Glosario de frases y sincronización fluida"
+   },
+   "Tour_ProFeature5": {
+      "message": "Traducción mediante doble clic"
+   },
+   "Tour_ProFeature6": {
+      "message": "Modo oscuro"
+   },
+   "Tour_ProUpgradedSuccessfully": {
+      "message": "¡Cierra esta página y comienza a navegar sin barreras de idioma!"
+   },
+   "Tour_Ready": {
+      "message": "Cumplimos con el \u003Ca href=\"https://es.wikipedia.org/wiki/Reglamento_General_de_Protecci%C3%B3n_de_Datos\" target=\"_blank\">RGPD\u003C/a>!"
+   },
+   "Tour_SelectAndTranslate": {
+      "message": "Selecciona y traduce"
+   },
+   "Tour_Selected": {
+      "message": "Traduce textos de sitios web"
+   },
+   "Tour_SelectedDesc": {
+      "message": "Haz doble clic, selecciona para traducir o presiona Shift+T."
+   },
+   "Tour_ShortcutsFeature": {
+      "message": "¡Crea hasta 20 accesos directos para distintos idiomas, y úsalos para traducir más rápido! La versión gratuita te permite uno solo."
+   },
+   "Tour_Start": {
+      "message": "Comienza gratis"
+   },
+   "Tour_Sync": {
+      "message": "Sincronizar datos en todos los dispositivos"
+   },
+   "Tour_SyncDesc": {
+      "message": "Tu historial de traducciones y tu Glosario de Frases se sincronizarán en todos los dispositivos."
+   },
+   "Tour_SyncSignIn": {
+      "message": "Inicia sesión para sincronizar"
+   },
+   "Tour_Title": {
+      "message": "Bienvenido/a a Mate Translate"
+   },
+   "Tour_TranslationsFeature": {
+      "message": "Traduce tantas veces como necesites."
+   },
+   "Tour_UhHuh": {
+      "message": "¡Uy!"
+   },
+   "Tour_Unlock": {
+      "message": "Mate Pro"
+   },
+   "Tour_UnlockDesc": {
+      "message": "Accede a todas las funciones prémium y no verás anuncios."
+   },
+   "Window_CannotTranslatePDF": {
+      "message": "Debido a limitaciones de tu {{browser}}, no podemos traducir texto de este PDF."
+   },
+   "Window_CannotTranslatePDFChrome": {
+      "message": "Por favor, por limitaciones técnicas de Chrome, usa el menú contextual (haciendo clic en el botón derecho) para traducir el texto seleccionado en PDF."
+   },
+   "Window_Content_AllLang": {
+      "message": "Todo"
+   },
+   "Window_Content_RecentlyUsedLang": {
+      "message": "Usado recientemente"
+   },
+   "Window_Content_TextareaPlaceholder": {
+      "message": "Texto a traducir"
+   },
+   "Window_DictDeclineButton": {
+      "message": "no, gracias"
+   },
+   "Window_DictSubscr": {
+      "message": "(NO)Subscríbete a nuestro boletín de noticias si estás interesado."
+   },
+   "Window_DictSubscrButton": {
+      "message": "(NO)suscribirse"
+   },
+   "Window_DictThanks": {
+      "message": "¡Gracias! Nos pondremos en contacto contigo en breve con una actualización."
+   },
+   "Window_DictTitle": {
+      "message": "¿Te está ayudando Mate a aprender un idioma?"
+   },
+   "Window_DictWhatIs": {
+      "message": "Nuestra nueva aplicación te ayudará a \u003Cb>mejorar tu vocabulario\u003C/b> de manera fácil, rápida y divertida."
+   },
+   "Window_DoYouKnowSomeone": {
+      "message": "¿Sabes de alguien a quien le podría interesar Mate Translate?"
+   },
+   "Window_DoYouLike": {
+      "message": "¿Te gusta Mate?"
+   },
+   "Window_DoYouLikeDesc": {
+      "message": "¿Hay algo de Mate que pueda mejorar, o es casi perfecta?"
+   },
+   "Window_DontAutocorrect": {
+      "message": "No usar autocorrección"
+   },
+   "Window_Improve": {
+      "message": "Necesita mejorar"
+   },
+   "Window_LearnMoreAboutPro": {
+      "message": "Saber más sobre Pro"
+   },
+   "Window_Love": {
+      "message": "Me encanta"
+   },
+   "Window_MateFreeDesc": {
+      "message": "Para descubrir todas las nuevas funcionalidades, debes actualizar a la versión Pro."
+   },
+   "Window_MateProDesc": {
+      "message": "Debes registrarte para activar la sincronización del historial y del glosario de frases."
+   },
+   "Window_Mw_LaterButton": {
+      "message": "Recordarme más tarde"
+   },
+   "Window_Mw_NeverButton": {
+      "message": "No recordarme nunca"
+   },
+   "Window_Mw_NotChromeNotNow": {
+      "message": "Ahora no"
+   },
+   "Window_Mw_RateButton": {
+      "message": "Calificar ahora"
+   },
+   "Window_Mw_RateDesc": {
+      "message": "Nos encantaría que nos dejaras una reseña en la App Store. No te tomará más de un minuto. ¡Ayúdanos a mantener nuestro traductor funcionando con tus reseñas!"
+   },
+   "Window_Mw_RateTitle": {
+      "message": "Calificar Mate"
+   },
+   "Window_Mw_UpgradeButton": {
+      "message": "consigue la versión Pro por $price$",
+      "placeholders": {
+         "price": {
+            "content": "$1",
+            "example": "9.99$"
+         }
+      }
+   },
+   "Window_NetflixFeatureDesc": {
+      "message": "Traduce palabras mientras ves Netflix. Haz clic en palabras de los subtítulos de Netflix para ver su traducción allí mismo y/o guardarlas para luego."
+   },
+   "Window_NewFeature": {
+      "message": "¡Nueva funcionalidad!"
+   },
+   "Window_No": {
+      "message": "no"
+   },
+   "Window_Offline": {
+      "message": "No hay conexión a internet"
+   },
+   "Window_OfflineDesc": {
+      "message": "No se pueden traducir palabras nuevas"
+   },
+   "Window_Pro": {
+      "message": "¡Disfruta de una experiencia de traducción mejorada con Mate Pro!"
+   },
+   "Window_QuickQuestion": {
+      "message": "Una pregunta rápida..."
+   },
+   "Window_RateUsDesc": {
+      "message": "¿Dedicarías un minuto a puntuarnos en la App Store? ¡Ayúdanos a mantener nuestro traductor funcionando con tus reseñas!"
+   },
+   "Window_ReadMore": {
+      "message": "leer más"
+   },
+   "Window_SendFeedback": {
+      "message": "Danos tu opinión"
+   },
+   "Window_SendFeedbackDesc": {
+      "message": "Por favor, dinos cómo podemos mejorar Mate."
+   },
+   "Window_Share": {
+      "message": "Compartir Mate"
+   },
+   "Window_ShareDesc": {
+      "message": "¡Ayúdanos a mantener nuestro traductor funcionando al compartirlo con tus amigos!"
+   },
+   "Window_Shortcut": {
+      "message": "Pulsa Ctrl+T para abrir esta ventana."
+   },
+   "Window_TranslationCopied": {
+      "message": "¡Traducción copiada!"
+   },
+   "Window_UnpinPro": {
+      "message": "Pásate a la versión Pro para no tener fija la ventana de Mate."
+   },
+   "Window_WriteUs": {
+      "message": "Escríbenos un email"
+   },
+   "Window_Yes": {
+      "message": "sí"
+   }
+}

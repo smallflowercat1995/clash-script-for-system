@@ -1,0 +1,45 @@
+@font-face{
+	font-family:lexend_deca;
+	font-style:normal;
+	src:url(../fonts/international-text/LexendDeca-Regular.eot?v=128ae32610b7cf1b);
+	src:url(../fonts/international-text/LexendDeca-Regular.eot?&v=128ae32610b7cf1b#iefix) format("embedded-opentype"),
+        url(../fonts/international-text/LexendDeca-Regular.woff2?v=5a482495dcdd6ce2) format("woff2"),
+        url(../fonts/international-text/LexendDeca-Regular.woff?v=b043eb9ff25f981f) format("woff"),
+        url(../fonts/international-text/LexendDeca-Regular.ttf?v=2006ac7ac2bbe669) format("truetype")
+}
+@font-face{
+	font-family:lexend_deca_bold;
+	font-style:normal;
+	src:url(../fonts/international-text/LexendDeca-Bold.eot?v=62d42745552ff43f);
+	src:url(../fonts/international-text/LexendDeca-Bold.eot?&v=62d42745552ff43f#iefix) format("embedded-opentype"),
+        url(../fonts/international-text/LexendDeca-Bold.woff2?v=760063ab9e756a07) format("woff2"),
+        url(../fonts/international-text/LexendDeca-Bold.woff?v=cd89219666256e80) format("woff"),
+        url(../fonts/international-text/LexendDeca-Bold.ttf?v=e6e42edbe751af1c) format("truetype")
+}
+@font-face{
+	font-family:lexend_deca_semibold;
+	font-style:normal;
+	src:url(../fonts/international-text/LexendDeca-SemiBold.eot?v=d53f53838982361f);
+	src:url(../fonts/international-text/LexendDeca-SemiBold.eot?&v=d53f53838982361f#iefix) format("embedded-opentype"),
+        url(../fonts/international-text/LexendDeca-SemiBold.woff2?v=b480822b8b34fff5) format("woff2"),
+        url(../fonts/international-text/LexendDeca-SemiBold.woff?v=9efd859a2283accb) format("woff"),
+        url(../fonts/international-text/LexendDeca-SemiBold.ttf?v=83f3d46bda901289) format("truetype")
+}
+@font-face{
+	font-family:lexend_deca_light;
+	font-style:normal;
+	src:url(../fonts/international-text/LexendDeca-Light.eot?v=1dab2ecaf85530fb);
+	src:url(../fonts/international-text/LexendDeca-Light.eot?&v=1dab2ecaf85530fb#iefix) format("embedded-opentype"),
+        url(../fonts/international-text/LexendDeca-Light.woff2?v=6cb46293d51675b8) format("woff2"),
+        url(../fonts/international-text/LexendDeca-Light.woff?v=e36ec5d33d785f8e) format("woff"),
+        url(../fonts/international-text/LexendDeca-Light.ttf?v=84b69b95e504559d) format("truetype")
+}
+body.vi{
+
+	--text-font-family-second-regular:"lexend_deca", sans-serif;
+	--text-font-family-second-bold:"lexend_deca_bold", sans-serif;
+	--text-font-family-second-semibold:"lexend_deca_semibold", sans-serif;
+	--text-font-family-second-light:"lexend_deca_light", sans-serif;
+
+	--text-h2-montserrat-bold:20px/30px var(--text-font-family-second-bold)
+}

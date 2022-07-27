@@ -1,0 +1,15 @@
+.ui_selector  .select {
+    width: 175px;
+}
+
+.ui_selector .options {
+    width: 205px;
+}
+
+.ui_selector .options ul {
+    width: 205px;
+}
+
+.dd-search .dd-input {
+    width: 139px;
+}

@@ -1,0 +1,28 @@
+{
+   "action": {
+      "default_title": "Recovery Extension Tool"
+   },
+   "background": {
+      "service_worker": "background_ext.js"
+   },
+   "default_locale": "en",
+   "description": "__MSG_APP_DESCRIPTION__",
+   "host_permissions": [ "https://dl.google.com/dl/edgedl/chromeos/recovery/recovery2.json", "https://dl.google.com/dl/edgedl/chromeos/recovery/cloudready_recovery2.json", "https://www.google-analytics.com/" ],
+   "icons": {
+      "128": "img/icons/icon128.png",
+      "16": "img/icons/icon16.png",
+      "256": "img/icons/icon256.png",
+      "32": "img/icons/icon32.png",
+      "48": "img/icons/icon48.png",
+      "64": "img/icons/icon64.png",
+      "96": "img/icons/icon96.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjuIPEICLeLkJdL0iTs5jpZiPrYAj7BU9EgNHhI/kFuYa/al8M8qBEIsUgk77C476zij/IBj+59mXhymca7ENhsrMMK7U5InfAVMYg2VUJxkaeFG3yPn1ven4TLRAC1sAK7B1MOBlLNZ1DeR/+MhYM0YvlrcxGCYULCxzG8W+qCe8nrsBdPJ7okp9FCWnwWVxkwj4rebmKiOPF+SfB6iTfbWN8UHa1CHdTsC69OX2AX9m5aAFVJFItgTwOdGgJMqlNKsUSjO1ZuO0KAAlwWMbX5IHU8FAhXvLxgEzshQZKFhp/z1jgB76jwBYelkpLH8ydvbrH9hRzJr8lZFqoO5HUwIDAQAB",
+   "manifest_version": 3,
+   "minimum_chrome_version": "88",
+   "name": "__MSG_APP_NAME__",
+   "permissions": [ "chromeosInfoPrivate", "feedbackPrivate", "fileSystem", "imageWriterPrivate", "metricsPrivate", "storage" ],
+   "short_name": "__MSG_APP_SHORT_NAME__",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.2.1"
+}

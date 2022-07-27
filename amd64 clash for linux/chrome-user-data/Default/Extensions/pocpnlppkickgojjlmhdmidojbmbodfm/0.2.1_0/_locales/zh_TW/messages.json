@@ -1,0 +1,556 @@
+{
+   "apierrmsg_aborted": {
+      "message": "作業中斷。"
+   },
+   "apierrmsg_device_list_error": {
+      "message": "找不到 USB 隨身碟或 SD 卡。"
+   },
+   "apierrmsg_device_list_error_on_hub": {
+      "message": "找不到 USB 隨身碟。"
+   },
+   "apierrmsg_device_list_error_workspace_hardware": {
+      "message": "找不到 USB 隨身碟。"
+   },
+   "apierrmsg_device_write_error": {
+      "message": "無法寫入選取的 USB 隨身碟或 SD 卡。裝置的寫入權限可能已遭停用，或你的網域管理員可能已停用寫入至 USB 儲存空間的功能。"
+   },
+   "apierrmsg_download_cancelled": {
+      "message": "已取消下載。"
+   },
+   "apierrmsg_download_hash_mismatch": {
+      "message": "檔案無效。"
+   },
+   "apierrmsg_download_interrupted": {
+      "message": "下載中斷。請檢查網路連線並再試一次。"
+   },
+   "apierrmsg_file_invalid": {
+      "message": "檔案無效。"
+   },
+   "apierrmsg_operation_already_in_progress": {
+      "message": "作業已在進行中。"
+   },
+   "apierrmsg_unknown": {
+      "message": "不明的錯誤：$1。",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "apierrmsg_unsupported_operation": {
+      "message": "不支援這項作業。"
+   },
+   "apierrmsg_unzip_error": {
+      "message": "無法解壓縮檔案。請檢查你的裝置是否有足夠空間，然後再試一次。"
+   },
+   "apierrmsg_unzip_invalid_archive": {
+      "message": "無效的 ZIP 檔案。"
+   },
+   "apierrmsg_url_invalid": {
+      "message": "找不到檔案。"
+   },
+   "apierrmsg_verification_failed": {
+      "message": "映像檔驗證失敗。"
+   },
+   "app_description": {
+      "message": "為 Chromebook 建立還原媒體。"
+   },
+   "app_description_on_hub": {
+      "message": "為你的 OnHub 建立 USB 還原隨身碟"
+   },
+   "app_description_workspace_hardware": {
+      "message": "為你的 Meet Compute System 建立 USB 還原隨身碟。"
+   },
+   "app_name": {
+      "message": "Chromebook 還原公用程式"
+   },
+   "app_name_on_hub": {
+      "message": "OnHub 還原公用程式"
+   },
+   "app_name_workspace_hardware": {
+      "message": "Meet Compute System 還原公用程式"
+   },
+   "app_short_name": {
+      "message": "還原"
+   },
+   "cancel_button_text": {
+      "message": "取消"
+   },
+   "chrome_app_deprecation_message": {
+      "message": "如 \u003Ca href=\"https://blog.chromium.org/2020/08/changes-to-chrome-app-support-timeline.html\" target=\"_blank\" tabindex=\"0\">Chromium 網誌\u003C/a>上的公告所示，Google 將於 2021 年 6 月時停止支援 Chrome 應用程式。請使用 \u003Ca href=\"https://chrome.google.com/webstore/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm\" target=\"_blank\">Chromebook 還原公用程式擴充功能\u003C/a>和相關\u003Ca href=\"http://www.google.com/chromeos/recovery\" target=\"_blank\">說明文件\u003C/a>復原裝置。"
+   },
+   "chrome_app_deprecation_message_on_hub": {
+      "message": "如 \u003Ca href=\"https://blog.chromium.org/2020/08/changes-to-chrome-app-support-timeline.html\" target=\"_blank\" tabindex=\"0\">Chromium 網誌\u003C/a>上的公告所示，Google 將於 2021 年 6 月時停止支援 Chrome 應用程式。請使用 \u003Ca href=\"https://chrome.google.com/webstore/detail/onhub-recovery-utility/fmgkgdalfapcmjnanilfcpkhkhedmpdm\" target=\"_blank\">OnHub 還原公用程式擴充功能\u003C/a>和相關\u003Ca href=\"https://support.google.com/onhub/answer/6274977\" target=\"_blank\">說明文件\u003C/a>復原裝置。"
+   },
+   "complete_bullet1": {
+      "message": "如要還原你的 Chromebook，請將還原媒體插入 Chromebook。"
+   },
+   "complete_bullet1_on_hub": {
+      "message": "拔除 OnHub 的電源線並將 USB 隨身碟插上裝置背部。按住重設按鈕並接上電源。持續按住重設按鈕約 15 秒，如果看到 USB 隨身碟的指示燈開始閃爍即可鬆手。"
+   },
+   "complete_bullet1_workspace_hardware": {
+      "message": "如要復原 Meet Compute System，請按照\u003Ca href=\"http://support.google.com/meethardware/answer/10562922#zippy=%2Cstep-enter-recovery-mode\" target=\"_blank\">復原 Google Meet 設備主機盒，步驟 3：進入復原模式\u003C/a>中的指示操作"
+   },
+   "complete_bullet2": {
+      "message": "還原後，你可以使用這項公用程式清除還原媒體。"
+   },
+   "complete_bullet2_on_hub": {
+      "message": "你的 OnHub 隨即會展開還原程序，這可能需要數分鐘的時間。你的 OnHub 還原後會隨即重新啟動。然後，請透過 Google On 應用程式設定 OnHub。"
+   },
+   "complete_bullet2_workspace_hardware": {
+      "message": "如要在完成時清除 USB 隨身碟，請啟動 Meet Compute System 還原公用程式，按一下 [設定]\u003Cb>\u003C/b>，然後按一下 [清除還原媒體]\u003Cb>\u003C/b>"
+   },
+   "complete_message": {
+      "message": "你現在可以移除還原媒體了。"
+   },
+   "complete_message_on_hub": {
+      "message": "你現在可以移除 USB 還原隨身碟了。"
+   },
+   "complete_message_workspace_hardware": {
+      "message": "你現在可以移除隨身碟"
+   },
+   "complete_title": {
+      "message": "成功！你的還原媒體已準備就緒"
+   },
+   "complete_title_on_hub": {
+      "message": "成功！你的 USB 還原隨身碟已準備就緒"
+   },
+   "complete_title_workspace_hardware": {
+      "message": "成功！你的 USB 還原隨身碟已準備就緒"
+   },
+   "completed": {
+      "message": "已完成"
+   },
+   "confirm_cancelled_message_html": {
+      "message": "作業取消。如要再試一次，請按一下 [立即建立]。\u003Cbr>\u003Cbr>如要清除還原媒體，請按一下右上角的齒輪圖示。"
+   },
+   "confirm_cancelled_message_html_on_hub": {
+      "message": "作業取消。如要再試一次，請按一下 [立即建立]。\u003Cbr>\u003Cbr>如要清除 USB 還原隨身碟，請按一下右上角的齒輪圖示。"
+   },
+   "confirm_cancelled_message_html_workspace_hardware": {
+      "message": "作業取消。如要再試一次，請按一下 [立即建立]。\u003Cbr>\u003Cbr>如要清除 USB 還原隨身碟，請按一下右上角的齒輪圖示。"
+   },
+   "confirm_hide_advanced_settings_message": {
+      "message": "隱藏進階設定"
+   },
+   "confirm_message_html": {
+      "message": "\u003Cb>重要事項：\u003C/b>還原媒體中的所有資料和分割區都會遭到刪除。"
+   },
+   "confirm_message_html_on_hub": {
+      "message": "\u003Cb>重要事項：\u003C/b>USB 還原隨身碟中的所有資料和分割區都會遭到刪除。"
+   },
+   "confirm_message_html_workspace_hardware": {
+      "message": "\u003Cb>重要事項：\u003C/b>隨身碟中的所有內容都會遭到刪除"
+   },
+   "confirm_show_advanced_settings_message": {
+      "message": "顯示進階設定"
+   },
+   "confirm_title": {
+      "message": "建立復原映像檔"
+   },
+   "continue_button_text": {
+      "message": "繼續"
+   },
+   "create_another_button_text": {
+      "message": "建立另一個"
+   },
+   "create_now_button_text": {
+      "message": "立即建立"
+   },
+   "dev_app_description": {
+      "message": "Chromebook 還原公用程式開發人員版。"
+   },
+   "dev_app_description_on_hub": {
+      "message": "OnHub 還原公用程式開發人員版。"
+   },
+   "dev_app_description_workspace_hardware": {
+      "message": "Meet Compute System 還原公用程式開發人員版。"
+   },
+   "dev_app_name": {
+      "message": "Chromebook 還原公用程式開發人員版"
+   },
+   "dev_app_name_on_hub": {
+      "message": "OnHub 還原公用程式開發人員版"
+   },
+   "dev_app_name_workspace_hardware": {
+      "message": "Meet Compute System 還原公用程式開發人員版"
+   },
+   "done_button_text": {
+      "message": "完成"
+   },
+   "erase_complete_bullet1": {
+      "message": "你現在可以將 USB 隨身碟或 SD 卡格式化。"
+   },
+   "erase_complete_bullet1_on_hub": {
+      "message": "你現在可以將 USB 隨身碟格式化。"
+   },
+   "erase_complete_bullet1_workspace_hardware": {
+      "message": "你現在可以將 USB 隨身碟格式化。"
+   },
+   "erase_complete_bullet2": {
+      "message": "使用作業系統提供的格式化工具執行格式化。"
+   },
+   "erase_complete_title": {
+      "message": "你的還原媒體已清除完畢。"
+   },
+   "erase_complete_title_on_hub": {
+      "message": "你的 USB 還原隨身碟已清除完畢。"
+   },
+   "erase_complete_title_workspace_hardware": {
+      "message": "你的 USB 還原隨身碟已清除完畢。"
+   },
+   "erase_confirm_message": {
+      "message": "還原媒體中的還原映像檔和所有分割區都會遭到清除。"
+   },
+   "erase_confirm_message_on_hub": {
+      "message": "USB 還原隨身碟中的還原映像檔和所有分割區都會遭到清除。"
+   },
+   "erase_confirm_message_workspace_hardware": {
+      "message": "USB 還原隨身碟中的還原映像檔和所有分割區都會遭到清除。"
+   },
+   "erase_now_button_text": {
+      "message": "立即清除"
+   },
+   "erase_progress_text": {
+      "message": "請勿移除還原媒體。"
+   },
+   "erase_progress_text_on_hub": {
+      "message": "請勿移除 USB 還原隨身碟。"
+   },
+   "erase_progress_text_workspace_hardware": {
+      "message": "請勿移除 USB 還原隨身碟。"
+   },
+   "erase_progress_title": {
+      "message": "正在清除你的還原媒體"
+   },
+   "erase_progress_title_on_hub": {
+      "message": "正在清除你的 USB 還原隨身碟"
+   },
+   "erase_progress_title_workspace_hardware": {
+      "message": "正在清除你的 USB 還原隨身碟"
+   },
+   "erase_select_target_detecting": {
+      "message": "偵測中"
+   },
+   "erase_select_target_high_capacity_warning_html": {
+      "message": "\u003Cb>警告：\u003C/b>這是正確的磁碟嗎？"
+   },
+   "erase_select_target_no_devices_found": {
+      "message": "找不到 USB 隨身碟或 SD 卡"
+   },
+   "erase_select_target_no_devices_found_on_hub": {
+      "message": "找不到 USB 隨身碟"
+   },
+   "erase_select_target_no_devices_found_workspace_hardware": {
+      "message": "找不到 USB 隨身碟"
+   },
+   "erase_select_target_select_device": {
+      "message": "選取你要清除的還原媒體。"
+   },
+   "erase_select_target_select_device_on_hub": {
+      "message": "選取你要清除的 USB 還原隨身碟。"
+   },
+   "erase_select_target_select_device_placeholder": {
+      "message": "選取"
+   },
+   "erase_select_target_select_device_workspace_hardware": {
+      "message": "選取你要清除的 USB 還原隨身碟。"
+   },
+   "erase_title": {
+      "message": "清除還原媒體"
+   },
+   "erase_title_on_hub": {
+      "message": "清除 USB 還原隨身碟"
+   },
+   "erase_title_workspace_hardware": {
+      "message": "清除 USB 還原隨身碟"
+   },
+   "errmsg_please_try_again": {
+      "message": "請再試一次。"
+   },
+   "errmsg_recovery_config_download_failure": {
+      "message": "無法下載設定檔，目前只能使用離線功能。"
+   },
+   "get_started_button_text": {
+      "message": "開始使用"
+   },
+   "gigabyte_abbreviation": {
+      "message": "GB"
+   },
+   "go_back_button_text": {
+      "message": "返回"
+   },
+   "hours_remaining": {
+      "message": "還剩 $1 小時。",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "hwid_invalid_model": {
+      "message": "型號無效，請檢查你輸入的資訊是否正確。"
+   },
+   "hwid_keep_typing": {
+      "message": "目前還找不到相符的型號，請輸入更多資訊。"
+   },
+   "hwid_keep_typing_workspace_hardware": {
+      "message": "尚未找到型號"
+   },
+   "hwid_match_found": {
+      "message": "找到相符項目"
+   },
+   "hwid_match_found_and_checksum_verified": {
+      "message": "找到完全相符的型號名稱"
+   },
+   "learn_more_link_text": {
+      "message": "瞭解詳情"
+   },
+   "learn_more_link_url": {
+      "message": "http://www.google.com/chromeos/recovery"
+   },
+   "learn_more_link_url_on_hub": {
+      "message": "https://support.google.com/onhub/answer/6274977"
+   },
+   "learn_more_link_url_workspace_hardware": {
+      "message": "http://support.google.com/meethardware/answer/10562922"
+   },
+   "loading_config_text": {
+      "message": "準備中..."
+   },
+   "menu_item_erase_recovery_media": {
+      "message": "清除還原媒體"
+   },
+   "menu_item_erase_recovery_media_on_hub": {
+      "message": "清除 USB 還原隨身碟"
+   },
+   "menu_item_erase_recovery_media_workspace_hardware": {
+      "message": "清除 USB 還原隨身碟"
+   },
+   "menu_item_send_feedback": {
+      "message": "提供意見"
+   },
+   "menu_item_use_local_image": {
+      "message": "使用本機映像檔"
+   },
+   "minutes_remaining": {
+      "message": "還剩 $1 分鐘。",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "of": {
+      "message": "/"
+   },
+   "recovery_channel_beta": {
+      "message": "Beta 版"
+   },
+   "recovery_channel_dev": {
+      "message": "開發版"
+   },
+   "recovery_channel_ltc": {
+      "message": "長期支援候選版 (僅限 Enterprise)"
+   },
+   "recovery_channel_lts": {
+      "message": "長期支援版 (僅限 Enterprise)"
+   },
+   "recovery_channel_stable": {
+      "message": "穩定版"
+   },
+   "seconds_remaining": {
+      "message": "還剩 $1 秒。",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "select_channel_placeholder": {
+      "message": "選取復原版本"
+   },
+   "select_image_select_by_hwid_link_text": {
+      "message": "直接輸入型號"
+   },
+   "select_image_select_from_list_link_text": {
+      "message": "從清單中選取型號"
+   },
+   "select_image_select_manufacturer_placeholder": {
+      "message": "選取製造商"
+   },
+   "select_image_select_product_placeholder": {
+      "message": "選取產品"
+   },
+   "select_image_select_product_placeholder_on_hub": {
+      "message": "選取機型"
+   },
+   "select_image_select_product_placeholder_workspace_hardware": {
+      "message": "選取機型"
+   },
+   "select_image_text": {
+      "message": "請輸入你要還原的 Chromebook 型號。你可以在還原畫面上找到型號資訊。"
+   },
+   "select_image_text_on_hub": {
+      "message": "請輸入你的 OnHub 型號。"
+   },
+   "select_image_text_workspace_hardware": {
+      "message": "請輸入 Meet Compute System 的型號"
+   },
+   "select_image_this_chromebooks_model_number": {
+      "message": "這台 Chromebook 的型號是"
+   },
+   "select_image_this_chromebooks_model_number_on_hub": {
+      "message": "這台 OnHub 的型號是"
+   },
+   "select_image_this_chromebooks_model_number_workspace_hardware": {
+      "message": "這台 Meet Compute System 的型號是"
+   },
+   "select_image_title": {
+      "message": "識別你的 Chromebook"
+   },
+   "select_image_title_on_hub": {
+      "message": "識別你的 OnHub"
+   },
+   "select_image_title_workspace_hardware": {
+      "message": "識別你的 Meet Compute System"
+   },
+   "select_target_detecting": {
+      "message": "偵測中"
+   },
+   "select_target_high_capacity_warning_html": {
+      "message": "\u003Cb>警告：\u003C/b>這是正確的媒體嗎？"
+   },
+   "select_target_high_capacity_warning_html_on_hub": {
+      "message": "\u003Cb>警告：\u003C/b>這是正確的 USB 隨身碟嗎？"
+   },
+   "select_target_high_capacity_warning_html_workspace_hardware": {
+      "message": "\u003Cb>警告：\u003C/b>這是正確的 USB 隨身碟嗎？"
+   },
+   "select_target_low_capacity_error": {
+      "message": "你的媒體容量不可低於 8GB。"
+   },
+   "select_target_low_capacity_error_on_hub": {
+      "message": "你的 USB 隨身碟容量不可低於 8GB。"
+   },
+   "select_target_low_capacity_error_workspace_hardware": {
+      "message": "你的 USB 隨身碟容量不可低於 8GB。"
+   },
+   "select_target_no_devices_found": {
+      "message": "找不到 USB 隨身碟或 SD 卡"
+   },
+   "select_target_no_devices_found_on_hub": {
+      "message": "找不到 USB 隨身碟"
+   },
+   "select_target_no_devices_found_workspace_hardware": {
+      "message": "找不到 USB 隨身碟"
+   },
+   "select_target_select_device": {
+      "message": "選取你要使用的媒體。"
+   },
+   "select_target_select_device_on_hub": {
+      "message": "選取你要使用的 USB 隨身碟。"
+   },
+   "select_target_select_device_placeholder": {
+      "message": "選取"
+   },
+   "select_target_select_device_workspace_hardware": {
+      "message": "選取你要使用的 USB 隨身碟。"
+   },
+   "select_target_title": {
+      "message": "插入你的 USB 隨身碟或 SD 卡"
+   },
+   "select_target_title_on_hub": {
+      "message": "插入你的 USB 隨身碟"
+   },
+   "select_target_title_workspace_hardware": {
+      "message": "插入你的 USB 隨身碟"
+   },
+   "stage_complete": {
+      "message": "已完成"
+   },
+   "stage_download": {
+      "message": "下載中"
+   },
+   "stage_downloadverify": {
+      "message": "正在驗證下載作業"
+   },
+   "stage_unpack": {
+      "message": "正在解除封裝"
+   },
+   "stage_unzip": {
+      "message": "正在解除封裝"
+   },
+   "stage_verify": {
+      "message": "驗證中"
+   },
+   "stage_verifydownload": {
+      "message": "正在驗證下載作業"
+   },
+   "stage_verifywrite": {
+      "message": "驗證中"
+   },
+   "stage_write": {
+      "message": "正在寫入"
+   },
+   "step": {
+      "message": "步驟"
+   },
+   "unsupported_text": {
+      "message": "很抱歉，我們目前不支援你的平台。如需詳細資訊，請前往 \u003Ca href=\"http://www.google.com/chromeos/recovery\" target=\"_blank\">Chromebook 說明中心\u003C/a>。"
+   },
+   "unsupported_text_mac": {
+      "message": "很抱歉，我們在 Mac 上僅支援 M37 以上版本。請將你的 Chrome 更新至 M37 (可能需要\u003Ca href=\"https://support.google.com/chromebook/answer/1086915\" target=\"_blank\">切換至 Beta 版\u003C/a>)。"
+   },
+   "unsupported_text_on_hub": {
+      "message": "很抱歉，我們目前不支援你的平台。如需詳細資訊，請前往 \u003Ca href=\"https://support.google.com/onhub/answer/6274977\" target=\"_blank\">OnHub 說明中心\u003C/a>。"
+   },
+   "unsupported_title": {
+      "message": "目前不支援你的平台"
+   },
+   "unsupported_title_linux": {
+      "message": "目前不支援 Linux"
+   },
+   "unsupported_title_mac": {
+      "message": "目前不支援 Mac"
+   },
+   "unsupported_title_win": {
+      "message": "目前不支援 Windows"
+   },
+   "usupported_text_workspace_hardware": {
+      "message": "很抱歉，目前不支援你的平台。詳情請參閱\u003Ca href=\"http://support.google.com/meethardware/answer/10562922\" target=\"_blank\"> Google Meet 設備說明中心\u003C/a>。"
+   },
+   "warning_offline": {
+      "message": "裝置處於離線狀態，目前只能使用離線功能。"
+   },
+   "welcome_text": {
+      "message": "請備妥 8GB 以上的 USB 隨身碟或 SD 卡 (其中的資料可完全清除)。"
+   },
+   "welcome_text_on_hub": {
+      "message": "請備妥 8GB 以上的 USB 隨身碟 (其中的資料可完全清除)。"
+   },
+   "welcome_text_workspace_hardware": {
+      "message": "請備妥 8GB 以上的 USB 隨身碟 (其中的資料可完全清除)。如果你的裝置具有 SD 卡插槽，你也可以使用 SD 卡。"
+   },
+   "welcome_title": {
+      "message": "為你的 Chromebook 建立還原媒體"
+   },
+   "welcome_title_on_hub": {
+      "message": "為你的 OnHub 建立 USB 還原隨身碟"
+   },
+   "welcome_title_workspace_hardware": {
+      "message": "為你的 Meet Compute System 建立 USB 還原隨身碟"
+   },
+   "write_message": {
+      "message": "請勿移除還原媒體。"
+   },
+   "write_message_on_hub": {
+      "message": "請勿移除 USB 還原隨身碟。"
+   },
+   "write_message_workspace_hardware": {
+      "message": "請不要移除 USB 隨身碟。"
+   },
+   "write_title": {
+      "message": "正在建立復原映像檔"
+   }
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title i18n-text="extName">Chrono Download Manager</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="google" value="notranslate" />
+  
+  <script type="text/javascript" src="../libs/jquery-2.1.0.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="../fonts/md-icons.css">
+  <link rel="stylesheet" type="text/css" href="../fonts/md.css">
+  <link rel="stylesheet" type="text/css" href="../libs/mdl/material.indigo-lime.min.css">
+  <link rel="preload" href="../fonts/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="../fonts/CWB0XYA8bzo0kSThX0UTuA.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="../fonts/KFOlCnqEu92Fr1MmEU9fBBc4.woff2" as="font" type="font/woff2" crossorigin>
+  
+<script type="text/javascript" src="pop.min.js"></script>
+<link rel="stylesheet" type="text/css" href="pop.min.css">
+
+</head>
+<body>
+<div id="tot_wrap">
+  <div id="header_wrap">
+    <img width=24 height=24 src="../icons/logo/24.png" style="margin:0 6px">
+    <span style="padding-left:3px;font: 28px tahoma,Roboto;">
+      Chrono
+    </span>
+
+    <div class="buttons">
+      <a href="https://chrome.google.com/webstore/detail/chrono-download-manager/mciiogijehkdemklbdcbfkefimifhecn/reviews" target="_blank" id="toolbtn_rate" i18n-title="btnRate" class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons" style="font-size:19px;color:#333">thumb_up</i>
+      </a>
+
+      <button id="toolbtn_clear" i18n-title="tipBtnClear" class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons" style="font-size:22px;color:#333">delete_sweep</i>
+      </button>
+
+      <ul id="dropdown-clear" for="toolbtn_clear" tabindex="-1" class="mdl-menu mdl-menu--bottom-right mdl-js-menu">
+        <li class="mdl-menu__line-item">
+          <label for="cb_clear_file" class="mdl-checkbox mdl-js-checkbox">
+            <input class="mdl-checkbox__input" type="checkbox" id="cb_clear_file" />
+            <span class="mdl-checkbox__label" i18n-text="optItemClearRemoveFile">Remove file from disk</span>
+          </label>
+        </li>
+        <li class="mdl-menu__divider"></li>
+        <li class="mdl-menu__item"><a i18n-text="btnClearRemoved" id="btn_clear_fmissing">Clear File Missing</a></li>
+        <li class="mdl-menu__item"><a i18n-text="btnClearFinished" id="btn_clear_finished">Clear finished</a></li>
+        <li class="mdl-menu__item"><a i18n-text="btnClearFailed" id="btn_clear_failed">Clear interrupted</a></li>
+        <li class="mdl-menu__item"><a i18n-text="btnClearAll" id="btn_clear_all">Clear both</a></li>
+      </ul>
+
+      <button id="toolbtn_options" i18n-title="titleOptions" class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons" style="font-size:22px;color:#333">settings</i>
+      </button>
+
+      <button id="toolbtn_list" i18n-title="tipBtnPopSniffer" class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons" style="font-size:22px;color:#333">find_in_page</i>
+      </button>
+    </div>
+  </div>
+
+  <div id="dlist_container">
+    <div id="dlist_wrap"></div>
+    <div class="shadow_holder"></div>
+    <div id="remove_menu_holder" class="mdlx-menu-holder">
+    </div>
+    <ul id="dropdown-remove" for="remove_menu_holder" tabindex="-1" class="mdl-menu mdl-menu--auto-position mdl-js-menu">
+      <li class="mdl-menu__panel mdl-menu__multi-line-item">
+        <label for="cb_no_confirm" class="mdl-checkbox mdl-js-checkbox">
+          <input class="mdl-checkbox__input" type="checkbox" id="cb_no_confirm" />
+          <span class="mdl-checkbox__label" i18n-text="optionDontAsk">Don't ask again</span>
+        </label>
+      </li>
+      <li class="mdl-menu__divider"></li>
+      <li class="mdl-menu__item"><a i18n-text="btnPopRemoveList" id="btn_rem_list">Remove from list</a></li>
+      <li class="mdl-menu__item"><a i18n-text="btnPopRemoveFile" id="btn_rem_file">And delete file</a></li>
+    </ul>
+  </div>
+
+  <div id="hidden_container" class="force_hide">
+    <div id="dlist_action_container" class="slide-ele slide-anim--up">
+      <button class="mdl-button mdl-js-button mdl-button--icon" i18n-title="tipBtnOpenFolder" id="dlist_btn_folder">
+        <i class="material-icons">folder_open</i>
+      </button>
+
+      <button id="dlist_btn_start" class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons ditem_action-start">play_arrow</i>    
+      </button>
+      <button id="dlist_btn_restart" class="mdl-button mdl-js-button mdl-button--icon" i18n-title="tipBtnRestart">
+        <i class="material-icons">replay</i> 
+      </button>
+      <button id="dlist_btn_remove" class="mdl-button mdl-js-button mdl-button--icon" i18n-title="tipBtnDelete">
+        <i class="material-icons">close</i> 
+      </button>
+    </div>
+  </div>
+
+  <button id="dlist_btn_manager" i18n-text="btnOpenManager">Open Manager</button>
+    
+  <div class="mdl-toast">
+    <div class="mdl-toast--content"></div>
+  </div>
+</div>
+	
+</body>
+</html>

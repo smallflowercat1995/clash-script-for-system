@@ -1,0 +1,532 @@
+.nzipp-content{
+	font-family:LatoWeb,Arial;
+	padding-top:105px
+}
+.mobile .nzipp-content{
+	padding-top:0
+}
+.nzipp.campaign-button{
+	background-color:#00c0a6;
+	border-radius:2px;
+	box-sizing:border-box;
+	color:#fff;
+	cursor:pointer;
+	display:inline-block;
+	font-family:LatoWebBold,Arial;
+	font-size:18px;
+	height:48px;
+	line-height:48px;
+	min-width:180px;
+	padding:0 15px;
+	text-align:center;
+	-webkit-transition:box-shadow .2s ease-in-out;
+	transition:box-shadow .2s ease-in-out
+}
+body:not(.mobile) .nzipp.campaign-button:hover{
+	box-shadow:0 0 0 4px rgba(0, 191, 165, .3)
+}
+.nzipp.campaign-button i,.nzipp.campaign-button span{
+	display:inline-block;
+	vertical-align:top
+}
+.nzipp.campaign-button i{
+	margin:11px 0 0 8px
+}
+.campaign-sprite,i.campaign-sprite{
+	background-image:url(../images/mega/bottom-page/nzipp/campaign-sprite.png?v=874523f513336ac0);
+	background-repeat:no-repeat
+}
+.campaign-sprite.triangle{
+	background-position:-59px 2px;
+	height:18px;
+	width:18px
+}
+.campaign-label{
+	cursor:pointer;
+	display:table;
+	margin:0 0 24px;
+	position:relative
+}
+.campaign-label .wrap{
+	background-color:#fff;
+	border-radius:3px;
+	box-shadow:0 1px 2px 0 rgba(0, 0, 0, .15);
+	height:16px;
+	margin:2px 0 0;
+	position:absolute;
+	width:16px
+}
+.campaign-label .wrap:before{
+	border-radius:inherit;
+	box-shadow:0 0 0 1px rgba(0, 0, 0, .05);
+	content:"";
+	height:100%;
+	position:absolute;
+	width:100%
+}
+.campaign-label .wrap.checkbox{
+	background-position:-27px 1px
+}
+.campaign-label .wrap.checkbox.checked{
+	background-color:#f24a4f;
+	background-position:3px 1px
+}
+.campaign-label .wrap.radio{
+	border-radius:100%
+}
+.campaign-label .wrap.radio:after{
+	background-color:rgba(0, 0, 0, .05);
+	border-radius:100%;
+	content:"";
+	height:12px;
+	margin:2px;
+	position:absolute;
+	width:12px
+}
+.campaign-label .wrap.radio.checked:after{
+	background:#ff333a;
+	background:linear-gradient(180deg, #ff333a 0, #d90007)
+}
+.campaign-label .wrap input{
+	height:100%;
+	margin:0;
+	opacity:0;
+	padding:0;
+	position:absolute;
+	width:100%
+}
+.campaign-label .label-txt{
+	color:#373737;
+	display:inline-block;
+	float:none;
+	font-size:18px;
+	line-height:21px;
+	margin:0 0 0 40px
+}
+.campaign-label .checked+.label-txt{
+	color:#000
+}
+.campaign-textarea{
+	-moz-appearance:none;
+	-webkit-appearance:none;
+	font-size:18px;
+	height:134px;
+	line-height:22px;
+	padding:18px 25px;
+	resize:none
+}
+.campaign-inputfield,.campaign-textarea{
+	border:1px solid #d7d7d7;
+	border-radius:4px;
+	box-shadow:none;
+	box-sizing:border-box;
+	font-family:LatoWeb,Arial;
+	outline:none;
+	width:100%
+}
+.campaign-inputfield{
+	color:#000;
+	font-size:14px;
+	line-height:32px;
+	padding:0 10px;
+	width:calc(100% - 40px)
+}
+.campaign-error{
+	box-sizing:border-box;
+	color:#d90007;
+	font-family:LatoWebBold,Arial;
+	font-size:12px;
+	line-height:18px;
+	opacity:0;
+	padding:0 0 0 25px;
+	position:absolute;
+	-webkit-transition:opacity .2s ease-in-out,visibiliy .2s ease-in-out;
+	transition:opacity .2s ease-in-out,visibiliy .2s ease-in-out;
+	visibility:hidden;
+	width:100%
+}
+.campaign-error.visible{
+	opacity:1;
+	visibility:visible
+}
+.campaign-error i{
+	display:block;
+	left:0;
+	position:absolute;
+	top:0
+}
+.nzipp-landing.top-bl{
+	background-color:#ed5564;
+	color:#fff;
+	display:table;
+	height:362px;
+	position:relative;
+	width:100%
+}
+.nzipp-landing.top-bg{
+	background-image:url(../images/mega/bottom-page/nzipp/nzipp1.jpg?v=5982d9a30abb3aee);
+	background-position:0 100%;
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:100%;
+	left:50%;
+	position:absolute;
+	top:0;
+	width:50%
+}
+.photo .nzipp-landing.top-bg{
+	background-image:url(../images/mega/bottom-page/nzipp/nzipp2.jpg?v=d4ea4a44a171ae6b)
+}
+.nzipp-landing.top-info{
+	padding:46px 0;
+	position:relative;
+	text-align:left;
+	width:50%
+}
+.nzipp-landing.top-info.photographer,.photo .nzipp-landing.top-info.member{
+	display:none
+}
+.photo .nzipp-landing.top-info.photographer{
+	display:block
+}
+.nzipp-landing.top-header{
+	font-family:var(--text-font-family-second-regular);
+	font-size:36px;
+	line-height:44px
+}
+.nzipp-landing.top-subheader{
+	font-family:var(--text-font-family-second-regular);
+	font-size:28px;
+	line-height:42px;
+	padding:20px 0
+}
+.nzipp-landing.top-details{
+	font-size:16px;
+	line-height:24px;
+	max-width:442px
+}
+.nzipp-landing.campaign-info{
+	color:#000;
+	font-size:24px;
+	line-height:36px;
+	padding:45px 0 0
+}
+.nzipp.campaign-button.landing{
+	background-color:#ed5564;
+	margin:34px 0 0;
+	min-width:192px
+}
+body:not(.mobile) .nzipp.campaign-button.landing:hover{
+	box-shadow:0 0 0 4px rgba(237, 85, 100, .2)
+}
+.nzipp-landing.img03{
+	box-sizing:border-box;
+	margin:45px 0 0;
+	max-width:450px;
+	padding:0 0 0 40px;
+	width:100%
+}
+.nzipp-interview.top-bl{
+	background-color:#00c0a6;
+	color:#fff;
+	min-height:240px
+}
+.nzipp-interview.top-header{
+	font-family:var(--text-font-family-second-regular);
+	font-size:36px;
+	line-height:44px;
+	padding:62px 0;
+	text-align:left
+}
+.nzipp-interview.form-content{
+	box-sizing:border-box;
+	margin:0 auto;
+	max-width:850px;
+	min-height:456px;
+	padding:60px 0;
+	position:relative;
+	text-align:left
+}
+.nzipp-interview.header{
+	color:#000;
+	font-size:18px;
+	line-height:24px;
+	padding:0 0 30px
+}
+.nzipp .mega-input.title-ontop{
+	margin-bottom:40px
+}
+.nzipp .mega-input.title-ontop.halfSize-l,.nzipp .mega-input.title-ontop.halfSize-r{
+	width:47%
+}
+.nzipp-interview.progress{
+	background-color:#d8d8d8;
+	border-radius:3px;
+	font-size:0;
+	height:6px;
+	margin:38px 0 0;
+	overflow:hidden;
+	white-space:nowrap
+}
+.nzipp-interview.progress span{
+	border-left:2px solid #fff;
+	box-sizing:border-box;
+	display:inline-block;
+	height:6px;
+	-webkit-transition:background-color .2s ease-in-out;
+	transition:background-color .2s ease-in-out;
+	vertical-align:top;
+	width:8.333333%
+}
+.nzipp-interview.progress span:first-child{
+	border:0
+}
+.nzipp-interview.progress span.active{
+	background-color:#00c0a6
+}
+.nzipp-interview.progress-info{
+	color:#373737;
+	font-size:18px;
+	line-height:22px;
+	padding:18px 0 0;
+	text-align:left
+}
+.nzipp-interview.progress-info.clone{
+	display:none;
+	font-size:12px;
+	padding:0 0 14px;
+	text-align:center
+}
+.nzipp .ui-selectmenu-button{
+	float:left;
+	font-family:LatoWeb,Arial;
+	font-size:14px;
+	margin:0
+}
+.nzipp-select,.nzipp.campaign-inputfield{
+	display:none;
+	margin:-3px 0 24px 40px;
+	max-width:150px
+}
+.active+.nzipp-select,.active+.nzipp.campaign-inputfield{
+	display:block
+}
+.mobile .nzipp-select select{
+	-moz-appearance:none;
+	-webkit-appearance:none;
+	background:hsla(0, 0%, 41.6%, .05);
+	background-image:none !important;
+	border:none;
+	border-radius:3px;
+	box-shadow:0 0 0 1px rgba(0, 0, 0, .05);
+	color:#666;
+	float:left;
+	font-size:14px;
+	height:32px;
+	line-height:32px;
+	margin:0;
+	outline:none;
+	width:100%
+}
+.nzipp.campaign-textarea{
+	display:none;
+	margin:-3px 0 24px 40px;
+	width:calc(100% - 40px)
+}
+.nzipp.campaign-textarea.visible,.nzipp.campaign-textarea:first-child{
+	display:block;
+	margin:12px 0 24px;
+	width:100%
+}
+.active+.nzipp.campaign-textarea{
+	display:block
+}
+.nzipp-interview-result{
+	box-sizing:border-box;
+	color:#000;
+	font-size:24px;
+	line-height:36px;
+	max-width:622px;
+	min-height:456px;
+	padding:60px 0;
+	text-align:left
+}
+.nzipp-interview-result:visited,.nzipp-interview-result a{
+	color:#000;
+	font-family:LatoWebBold,Arial;
+	text-decoration:underline
+}
+.nzipp .interview-result.error .success,.nzipp .interview-result .failed{
+	display:none
+}
+.nzipp .interview-result.error .failed{
+	display:block
+}
+.nzipp-result.img04{
+	float:right;
+	margin:50px -40px 50px 0;
+	max-height:100%;
+	max-width:528px
+}
+.nzipp-result.img04.clone{
+	display:none
+}
+@media only screen and (max-width:2280px){
+.nzipp-landing.top-bg{
+	left:40%;
+	width:60%
+}
+}
+@media only screen and (max-width:890px){
+.nzipp-landing.top-bg{
+	display:none
+}
+.nzipp-landing.top-info{
+	text-align:center;
+	width:auto
+}
+.nzipp-landing.top-details{
+	margin:auto
+}
+}
+@media only screen and (max-width:783px){
+.nzipp-landing.vertical-centered-cell{
+	height:auto
+}
+.nzipp-landing.top-header{
+	font-family:var(--text-font-family-second-light);
+	font-size:24px;
+	line-height:36px
+}
+.nzipp-landing.top-subheader{
+	box-sizing:border-box;
+	font-size:20px;
+	line-height:24px;
+	min-height:96px;
+	padding:8px 0 40px
+}
+.nzipp-landing.top-details{
+	font-size:14px;
+	line-height:21px;
+	padding-bottom:10px
+}
+.nzipp-landing.campaign-info{
+	font-size:20px;
+	line-height:30px;
+	padding:28px 0 0
+}
+.nzipp-content .inline-block.col-2{
+	text-align:center
+}
+.nzipp-landing.campaign-button{
+	margin:50px 0 0
+}
+.nzipp-landing.img03{
+	margin:55px 0 0;
+	padding:0
+}
+.nzipp-interview.top-bl{
+	min-height:176px
+}
+.nzipp-interview.top-header{
+	font-family:var(--text-font-family-second-light);
+	font-size:24px;
+	line-height:36px;
+	padding:30px 0
+}
+.nzipp-interview.form-content{
+	min-height:20px;
+	padding:32px 0 60px
+}
+.nzipp-interview.header{
+	font-size:16px;
+	padding:0 0 20px
+}
+.campaign-label{
+	margin:0 0 20px
+}
+.campaign-label .label-txt{
+	font-size:14px
+}
+.nzipp.campaign-button.interview{
+	float:none;
+	font-size:14px
+}
+.nzipp.campaign-button.interview i{
+	display:none;
+	font-family:LatoWeb,Arial
+}
+.nzipp-interview.progress,.nzipp-interview.progress-info{
+	display:none
+}
+.nzipp-interview.progress-info.clone{
+	display:block
+}
+.campaign-textarea{
+	font-size:14px;
+	height:85px;
+	line-height:17px;
+	padding:8px
+}
+.campaign-textarea:first-child{
+	height:114px
+}
+.nzipp-result.img04{
+	display:none;
+	float:none;
+	margin:0 0 36px;
+	max-width:264px;
+	width:100%
+}
+.nzipp-result.img04.clone{
+	display:inline-block
+}
+.interview-result .nzipp-interview.top-header{
+	font-size:24px;
+	line-height:36px;
+	padding:30px 0;
+	text-align:center
+}
+.nzipp-interview-result{
+	font-size:20px;
+	line-height:30px;
+	min-height:auto;
+	padding:28px 0;
+	text-align:center
+}
+}
+@media only screen and (max-width:625px){
+.nzipp-content{
+	padding-top:36px
+}
+.nzipp-interview.top-bl{
+	min-height:122px
+}
+.nzipp-interview.top-header{
+	font-size:16px;
+	line-height:24px;
+	padding:18px 0
+}
+.nzipp-interview.form-content{
+	padding:12px 0 38px
+}
+.nzipp-interview.header{
+	font-size:14px
+}
+.nzipp .mega-input.title-ontop.halfSize-l,.nzipp .mega-input.title-ontop.halfSize-r{
+	float:none;
+	margin-bottom:20px;
+	width:100%
+}
+}
+@media only screen and (max-width:500px){
+.nzipp-select,.nzipp .campaign-inputfield{
+	max-width:none
+}
+}
+@media only screen and (-o-min-device-pixel-ratio:3/2),only screen and (-webkit-min-device-pixel-ratio:1.5),only screen and (min--moz-device-pixel-ratio:1.5),only screen and (min-device-pixel-ratio:1.5){
+.campaign-sprite,i.campaign-sprite{
+	background-image:url(../images/mega/bottom-page/nzipp/campaign-sprite@2x.png?v=d3bd3bd8b36b2795);
+	background-size:75px auto
+}
+}

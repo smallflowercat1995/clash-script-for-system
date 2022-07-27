@@ -1,0 +1,1583 @@
+{
+   "CommonUi_LangPart_Abbreviation": {
+      "message": "Аббревиатуры"
+   },
+   "CommonUi_LangPart_Adjective": {
+      "message": "Прилагательные"
+   },
+   "CommonUi_LangPart_Adverb": {
+      "message": "Наречия"
+   },
+   "CommonUi_LangPart_Auxiliaryverb": {
+      "message": "Вспомогательные глаголы"
+   },
+   "CommonUi_LangPart_Conjunction": {
+      "message": "Союзы"
+   },
+   "CommonUi_LangPart_Interjection": {
+      "message": "Междометия"
+   },
+   "CommonUi_LangPart_Noun": {
+      "message": "Существительные"
+   },
+   "CommonUi_LangPart_Phrase": {
+      "message": "Фразы"
+   },
+   "CommonUi_LangPart_Preposition": {
+      "message": "Предлоги"
+   },
+   "CommonUi_LangPart_Pronoun": {
+      "message": "Местоимения"
+   },
+   "CommonUi_LangPart_Suffix": {
+      "message": "Суффиксы"
+   },
+   "CommonUi_LangPart_Transliteration": {
+      "message": "Транслитерация"
+   },
+   "CommonUi_LangPart_Verb": {
+      "message": "Глаголы"
+   },
+   "CommonUi_NoResults": {
+      "message": "Нет результатов"
+   },
+   "Common_Copied": {
+      "message": "Скопировано!"
+   },
+   "ContextMenu_FullPage": {
+      "message": "Перевести страницу на \u003C%=lang%>"
+   },
+   "Dict_DictionaryTab": {
+      "message": "Словарь"
+   },
+   "Dict_NotFoundCaption": {
+      "message": "Приносим извинения: мы работаем над расширением нашего словаря"
+   },
+   "Dict_NotFoundTitle": {
+      "message": "Не получилось найти определения"
+   },
+   "Dict_UpgradeToPro": {
+      "message": "Обновитесь до Pro для словаря"
+   },
+   "DotsButton_Added": {
+      "message": "Добавлено в \u003C%=wl%>"
+   },
+   "DotsButton_Copied": {
+      "message": "Перевод скопирован"
+   },
+   "DotsButton_OrigCopied": {
+      "message": "Оригинал скопирован"
+   },
+   "FullPage": {
+      "message": "Полностраничный перевод"
+   },
+   "FullPageDesc": {
+      "message": "Показывать иконку Mate в правом верхней углу на страницах на иностранном языке. Нажмите на эту иконку, чтобы перевести страницу на ваш язык."
+   },
+   "FullPageShowOriginal": {
+      "message": "Показать оригинал"
+   },
+   "FullPageTranslate": {
+      "message": "Перевести"
+   },
+   "FullPageTranslatedTo": {
+      "message": "Переведено на"
+   },
+   "FullPage_AlwaysTranslate": {
+      "message": "Всегда переводить {{page_lang_beautiful}} на {{target_lang_beautiful}}"
+   },
+   "FullPage_ChangeLanguage": {
+      "message": "Изменить язык"
+   },
+   "FullPage_ContextMenuOption": {
+      "message": "Открыть полностраничный перевод"
+   },
+   "FullPage_CurrentPageLang": {
+      "message": "Язык этой страницы: {{page_lang_beautiful}}"
+   },
+   "FullPage_NeverTranslate": {
+      "message": "Никогда не переводить {{page_lang_beautiful}}"
+   },
+   "FullPage_SwitchBackTo": {
+      "message": "Включить {{language}} обратно"
+   },
+   "FullPage_TranslateTo": {
+      "message": "Перевести на {{target_lang_beautiful}}"
+   },
+   "FullPage_WeTranslatedIt": {
+      "message": "Мы перевели эту страницу на {{language}}"
+   },
+   "History_AnotherDevice": {
+      "message": "На другом устройстве"
+   },
+   "History_Content_GoUpButton": {
+      "message": "Наверх"
+   },
+   "History_Content_List_OnEmpty": {
+      "message": "Здесь будет история ваших переводов"
+   },
+   "History_Export_OnlyProDesc": {
+      "message": "Приобретите Pro версию, чтобы экспортировать свою историю переводов в файл CSV"
+   },
+   "History_FullyBlockedOut": {
+      "message": "Обновитесь до Pro, чтобы иметь неограниченный доступ к истории переводов."
+   },
+   "History_InPopup": {
+      "message": "Во всплывающем окне"
+   },
+   "History_Options_DeleteMarked_1": {
+      "message": "Удалить"
+   },
+   "History_Options_DeleteMarked_2": {
+      "message": "отмечено"
+   },
+   "History_Options_SelectToDelete": {
+      "message": "отметить для удаления"
+   },
+   "History_Options_SelectToDelete_MarkAll": {
+      "message": "Отметить все"
+   },
+   "History_Options_SelectToDelete_UnmarkAll": {
+      "message": "Снять выделение"
+   },
+   "Ht_ConnectionError": {
+      "message": "Не удалось подключиться к платежному серверу. Платеж не был осуществлен. Повторите попытку позже или свяжитесь с нами по адресу support@matetranslate.com."
+   },
+   "Ht_EstPriceError": {
+      "message": "Произошла ошибка при расчете цены ... Повторите попытку позже или свяжитесь с нами по адресу support@matetranslate.com."
+   },
+   "Ht_InputPh": {
+      "message": "Укажите текст, который вы хотите перевести профессиональным переводчиком, здесь..."
+   },
+   "Ht_PoweredTU": {
+      "message": "С \u003Ca target=\"_blank\" href=\"https://textunited.com\">TextUnited\u003C/a>"
+   },
+   "Ht_Price": {
+      "message": "цена"
+   },
+   "Ht_PrivacyPolicy": {
+      "message": "Политика конфиденциальности"
+   },
+   "Ht_StripeDesc": {
+      "message": "с \u003C%=from%> на \u003C%=to%> (\u003C%=words%> слов)"
+   },
+   "IDB_Error": {
+      "message": "В вашем браузере отключено локальное хранилище Indexed DB"
+   },
+   "IDB_ErrorDesc": {
+      "message": "Для полноценной работы Mate Translate необходимо, чтобы в вашем браузере было включено локальное хранилище Indexed DB (база данных, в которой сохраняются все ваши переводы и Словарь).\u003Cbr>\u003Cbr>Скорее всего, ваш браузер сейчас работает в режиме Приватного просмотра, во время которого Indexed DB не работает (это известная \u003Ca href=\"https://bugzilla.mozilla.org/show_bug.cgi?id=781982\" target=\"_blank\">ошибка #781982\u003C/a> Firefox).\u003Cbr>\u003Cbr>Вы можете попробовать в настройках истории браузера \u003Ca href=\"about:preferences#privacy\" target=\"_blank\">about:preferences#privacy\u003C/a> отметить опцию \"Firefox будет запоминать историю\". Однако это не гарантирует того, что Indexed DB заработает. Или же вы можете связаться с Mozilla и попросить их как можно скорее исправить эту ошибку.\u003Cbr>\u003Cbr>Мы очень сожалеем о предоставляемых вам неудобствах, однако мы ничего не можем с этим поделать."
+   },
+   "Kernel_AppDescription": {
+      "message": "Универсальный переводчик для сайтов, выделенного текста и даже Netflix субтитров. Учите и переводите 103 языка. Быстрый и удобный. Доступен везде."
+   },
+   "Kernel_AppName": {
+      "message": "Mate Translate – переводчик и словарь"
+   },
+   "Kernel_Cancel": {
+      "message": "отмена"
+   },
+   "Kernel_ClearInput": {
+      "message": "Очистить поле ввода"
+   },
+   "Kernel_Context_Into": {
+      "message": "на"
+   },
+   "Kernel_HistoryTitle": {
+      "message": "История"
+   },
+   "Kernel_IPA": {
+      "message": "Фонетическая транслитерация"
+   },
+   "Kernel_Lang_Afrikaans": {
+      "message": "Африкаанс"
+   },
+   "Kernel_Lang_Albanian": {
+      "message": "Албанский"
+   },
+   "Kernel_Lang_Amharic": {
+      "message": "Амхарский"
+   },
+   "Kernel_Lang_Arabic": {
+      "message": "Арабский"
+   },
+   "Kernel_Lang_Armenian": {
+      "message": "Армянский"
+   },
+   "Kernel_Lang_Auto": {
+      "message": "Определять автомат."
+   },
+   "Kernel_Lang_Azerbaijani": {
+      "message": "Азербайджанский"
+   },
+   "Kernel_Lang_Basque": {
+      "message": "Баскский"
+   },
+   "Kernel_Lang_Belarusian": {
+      "message": "Белорусский"
+   },
+   "Kernel_Lang_Bengali": {
+      "message": "Бенгальский"
+   },
+   "Kernel_Lang_Bosnian": {
+      "message": "Боснийский"
+   },
+   "Kernel_Lang_Bulgarian": {
+      "message": "Болгарский"
+   },
+   "Kernel_Lang_Catalan": {
+      "message": "Каталанский"
+   },
+   "Kernel_Lang_Cebuano": {
+      "message": "Себуанский"
+   },
+   "Kernel_Lang_Chichewa": {
+      "message": "Чева"
+   },
+   "Kernel_Lang_ChineseSimplified": {
+      "message": "Китайский (упрощенный)"
+   },
+   "Kernel_Lang_ChineseTraditional": {
+      "message": "Китайский (традиционный)"
+   },
+   "Kernel_Lang_Corsican": {
+      "message": "Корсиканский"
+   },
+   "Kernel_Lang_Croatian": {
+      "message": "Хорватский"
+   },
+   "Kernel_Lang_Czech": {
+      "message": "Чешский"
+   },
+   "Kernel_Lang_Danish": {
+      "message": "Датский"
+   },
+   "Kernel_Lang_Dutch": {
+      "message": "Нидерландский"
+   },
+   "Kernel_Lang_English": {
+      "message": "Английский"
+   },
+   "Kernel_Lang_EnglishUS": {
+      "message": "Английский (США)"
+   },
+   "Kernel_Lang_Esperanto": {
+      "message": "Эсперанто"
+   },
+   "Kernel_Lang_Estonian": {
+      "message": "Эстонский"
+   },
+   "Kernel_Lang_Filipino": {
+      "message": "Филиппинский"
+   },
+   "Kernel_Lang_Finnish": {
+      "message": "Финский"
+   },
+   "Kernel_Lang_French": {
+      "message": "Французский"
+   },
+   "Kernel_Lang_Frisian": {
+      "message": "Фризский"
+   },
+   "Kernel_Lang_Galician": {
+      "message": "Галисийский"
+   },
+   "Kernel_Lang_Georgian": {
+      "message": "Грузинский"
+   },
+   "Kernel_Lang_German": {
+      "message": "Немецкий"
+   },
+   "Kernel_Lang_Greek": {
+      "message": "Греческий"
+   },
+   "Kernel_Lang_Gujarati": {
+      "message": "Гуджарати"
+   },
+   "Kernel_Lang_HaitianCreole": {
+      "message": "Креольский (гаити)"
+   },
+   "Kernel_Lang_Hausa": {
+      "message": "Хауса"
+   },
+   "Kernel_Lang_Hawaiian": {
+      "message": "Гавайский"
+   },
+   "Kernel_Lang_Hebrew": {
+      "message": "Иврит"
+   },
+   "Kernel_Lang_Hindi": {
+      "message": "Хинди"
+   },
+   "Kernel_Lang_Hmong": {
+      "message": "Хмонг"
+   },
+   "Kernel_Lang_Hungarian": {
+      "message": "Венгерский"
+   },
+   "Kernel_Lang_Icelandic": {
+      "message": "Исландский"
+   },
+   "Kernel_Lang_Igbo": {
+      "message": "Игбо"
+   },
+   "Kernel_Lang_Indonesian": {
+      "message": "Индонезийский"
+   },
+   "Kernel_Lang_Irish": {
+      "message": "Ирландский"
+   },
+   "Kernel_Lang_Italian": {
+      "message": "Итальянский"
+   },
+   "Kernel_Lang_Japanese": {
+      "message": "Японский"
+   },
+   "Kernel_Lang_Javanese": {
+      "message": "Яванский"
+   },
+   "Kernel_Lang_Kannada": {
+      "message": "Каннада"
+   },
+   "Kernel_Lang_Kazakh": {
+      "message": "Казахский"
+   },
+   "Kernel_Lang_Khmer": {
+      "message": "Кхмерский"
+   },
+   "Kernel_Lang_Korean": {
+      "message": "Корейский"
+   },
+   "Kernel_Lang_KurdishKurmanji": {
+      "message": "Курманджи"
+   },
+   "Kernel_Lang_Kyrgyz": {
+      "message": "Киргизский"
+   },
+   "Kernel_Lang_Lao": {
+      "message": "Лаосский"
+   },
+   "Kernel_Lang_Latin": {
+      "message": "Латинский"
+   },
+   "Kernel_Lang_Latvian": {
+      "message": "Латышский"
+   },
+   "Kernel_Lang_Lithuanian": {
+      "message": "Литовский"
+   },
+   "Kernel_Lang_Luxembourgish": {
+      "message": "Люксембургский"
+   },
+   "Kernel_Lang_Macedonian": {
+      "message": "Македонский"
+   },
+   "Kernel_Lang_Malagasy": {
+      "message": "Малагасийский"
+   },
+   "Kernel_Lang_Malay": {
+      "message": "Малайский"
+   },
+   "Kernel_Lang_Malayalam": {
+      "message": "Малаялам"
+   },
+   "Kernel_Lang_Maltese": {
+      "message": "Мальтийский"
+   },
+   "Kernel_Lang_Maori": {
+      "message": "Маори"
+   },
+   "Kernel_Lang_Marathi": {
+      "message": "Маратхи"
+   },
+   "Kernel_Lang_Mongolian": {
+      "message": "Монгольский"
+   },
+   "Kernel_Lang_MyanmarBurmese": {
+      "message": "Бирманский"
+   },
+   "Kernel_Lang_Nepali": {
+      "message": "Непальский"
+   },
+   "Kernel_Lang_Norwegian": {
+      "message": "Норвежский"
+   },
+   "Kernel_Lang_Pashto": {
+      "message": "Пушту"
+   },
+   "Kernel_Lang_Persian": {
+      "message": "Персидский"
+   },
+   "Kernel_Lang_Polish": {
+      "message": "Польский"
+   },
+   "Kernel_Lang_Portuguese": {
+      "message": "Португальский"
+   },
+   "Kernel_Lang_Punjabi": {
+      "message": "Панджаби"
+   },
+   "Kernel_Lang_Romanian": {
+      "message": "Румынский"
+   },
+   "Kernel_Lang_Russian": {
+      "message": "Русский"
+   },
+   "Kernel_Lang_Samoan": {
+      "message": "Самоанский"
+   },
+   "Kernel_Lang_ScotsGaelic": {
+      "message": "Шотландский (гэльский)"
+   },
+   "Kernel_Lang_Serbian": {
+      "message": "Сербский"
+   },
+   "Kernel_Lang_Sesotho": {
+      "message": "Сесото"
+   },
+   "Kernel_Lang_Shona": {
+      "message": "Шона"
+   },
+   "Kernel_Lang_Sindhi": {
+      "message": "Синдхи"
+   },
+   "Kernel_Lang_Sinhala": {
+      "message": "Сингальский"
+   },
+   "Kernel_Lang_Slovak": {
+      "message": "Словацкий"
+   },
+   "Kernel_Lang_Slovenian": {
+      "message": "Словенский"
+   },
+   "Kernel_Lang_Somali": {
+      "message": "Сомалийский"
+   },
+   "Kernel_Lang_Spanish": {
+      "message": "Испанский"
+   },
+   "Kernel_Lang_Sundanese": {
+      "message": "Суданский"
+   },
+   "Kernel_Lang_Swahili": {
+      "message": "Суахили"
+   },
+   "Kernel_Lang_Swedish": {
+      "message": "Шведский"
+   },
+   "Kernel_Lang_Tajik": {
+      "message": "Таджикский"
+   },
+   "Kernel_Lang_Tamil": {
+      "message": "Тамильский"
+   },
+   "Kernel_Lang_Telugu": {
+      "message": "Телугу"
+   },
+   "Kernel_Lang_Thai": {
+      "message": "Тайский"
+   },
+   "Kernel_Lang_Turkish": {
+      "message": "Турецкий"
+   },
+   "Kernel_Lang_Ukrainian": {
+      "message": "Украинский"
+   },
+   "Kernel_Lang_Urdu": {
+      "message": "Урду"
+   },
+   "Kernel_Lang_Uzbek": {
+      "message": "Узбекский"
+   },
+   "Kernel_Lang_Vietnamese": {
+      "message": "Вьетнамский"
+   },
+   "Kernel_Lang_Welsh": {
+      "message": "Валлийский"
+   },
+   "Kernel_Lang_Xhosa": {
+      "message": "Кхоса"
+   },
+   "Kernel_Lang_Yiddish": {
+      "message": "Идиш"
+   },
+   "Kernel_Lang_Yoruba": {
+      "message": "Йоруба"
+   },
+   "Kernel_Lang_Zulu": {
+      "message": "Зулу"
+   },
+   "Kernel_NoResults": {
+      "message": "Нет результатов"
+   },
+   "Kernel_Ok": {
+      "message": "OK"
+   },
+   "Kernel_PhrasebookTitle": {
+      "message": "Словарь"
+   },
+   "Kernel_RemoveCombination": {
+      "message": "удалить"
+   },
+   "Kernel_SearchPlaceholder": {
+      "message": "Поиск"
+   },
+   "Kernel_SettingsTitle": {
+      "message": "Настройки"
+   },
+   "Login_ByClicking": {
+      "message": "Нажав на 'Создать учетную запись', вы соглашаетесь с нашими \u003Cb>\u003Ca href=\"https://matetranslate.com/terms\">Правилами использования\u003C/a>\u003C/b> и \u003Cb>\u003Ca href=\"https://matetranslate.com/privacy\">Политикой конфиденциальности\u003C/a>\u003C/b>."
+   },
+   "Login_Continue": {
+      "message": "ПРОДОЛЖИТЬ"
+   },
+   "Login_ContinueWithout": {
+      "message": "Пропустить"
+   },
+   "Login_Create": {
+      "message": "Создать учетную запись"
+   },
+   "Login_Email": {
+      "message": "Введите ваш адрес электронной почты..."
+   },
+   "Login_Forgot": {
+      "message": "Забыли пароль?"
+   },
+   "Login_GDPR": {
+      "message": "\u003Cb>Вы смотрите на переводчик с лучшей в своем роде приватностью.\u003C/b> Мы никогда не собираем или продаем ваши данные. Читать нашу \u003Ca class=\"open-pp\" href=\"javascript:;\">политику приватности\u003C/a> одно удовольствие. Пожалуйста, примите ее, чтобы продолжить."
+   },
+   "Login_IReadAndAgree": {
+      "message": "Я согласен"
+   },
+   "Login_NewPassword": {
+      "message": "Новый пароль..."
+   },
+   "Login_NoAccountHead": {
+      "message": "У меня нет учетной записи"
+   },
+   "Login_NoAccountText": {
+      "message": "Если вы приобрели Pro версию, но не были в это время в системе и не завершили регистрацию по ссылке, которую мы отправили по электронной почте, указанной вами при оформлении заказа, то вам необходимо завершить регистрацию по ссылке из письма. После этого вы сможете войти в приложение."
+   },
+   "Login_NoRememberHead": {
+      "message": "Я не помню"
+   },
+   "Login_NoRememberText": {
+      "message": "Если вы не можете вспомнить адрес электронной почты, который вы использовали для проверки, попробуйте найти в своем почтовом ящике электронное письмо от нас с подтверждением покупки."
+   },
+   "Login_OrSignInWith": {
+      "message": "ИЛИ ВОЙДИТЕ С ПОМОЩЬЮ"
+   },
+   "Login_Password": {
+      "message": "Введите Ваш пароль..."
+   },
+   "Login_PasswordMin8": {
+      "message": "Ваш пароль должен состоять как минимум из 8 символов"
+   },
+   "Login_Promo": {
+      "message": "Зарегистрируйтесь в Mate, чтобы синхронизировать ваши данные между всеми устройствами!"
+   },
+   "Login_QuestionsHead": {
+      "message": "Есть вопросы?"
+   },
+   "Login_QuestionsText": {
+      "message": "Если вы все еще испытываете трудности, вы можете связаться с нами по адресу \u003Ca href=\"mailto:support@matetranslate.com?subject=Login Issues\">support@matetranslate.com\u003C/a>."
+   },
+   "Login_Restore": {
+      "message": "Чтобы восстановить Mate Translate Pro, войдите в учетную запись, с которой вы его приобрели. (\u003Ca href=\"javascript:;\" class=\"show-info\">не знаете как?\u003C/a>)"
+   },
+   "Login_SignIn": {
+      "message": "Войти в аккаунт"
+   },
+   "Login_SignUp": {
+      "message": "Регистрация"
+   },
+   "Login_Sync": {
+      "message": "Получите надежный бэкап ваших переводов и Словаря, а также мгновенную синхронизацию между всеми устройствами."
+   },
+   "Login_YourName": {
+      "message": "Ваше имя (необязательно)..."
+   },
+   "MatePro_Description": {
+      "message": "Переводите по-новому с Mate Pro! Заплатите один раз, используйте всегда."
+   },
+   "MatePro_Description_Safari": {
+      "message": "С Mate для Safari вам больше нет необходимости переключаться на другое окно для перевода. Переводите незнакомые слова и текст на любой странице!"
+   },
+   "MicAccess_HowToUnlock": {
+      "message": "Удалите \u003Cb>$id$\u003C/b> из заблокированного в исключениях микрофона. После этого \u003Cb>\u003Ca href=\"../public/mic_access.html\">нажмите здесь\u003C/a>\u003C/b>.",
+      "placeholders": {
+         "id": {
+            "content": "$1",
+            "example": "chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/"
+         }
+      }
+   },
+   "MicAccess_Note": {
+      "message": "Mate нужен доступ к микрофону, чтобы распознавать и переводить речь."
+   },
+   "MicAccess_PageTitle": {
+      "message": "Доступ к микрофону"
+   },
+   "MicAccess_Title": {
+      "message": "Микрофон"
+   },
+   "MicAccess_UnlockButton": {
+      "message": "разрешить в настройках контента"
+   },
+   "Options_TooltipSizePro": {
+      "message": "Обновитесь до Pro, чтобы менять размер всплывающего окна."
+   },
+   "Pb_AddButton": {
+      "message": "Добавить"
+   },
+   "Pb_EarlyAccess": {
+      "message": "попросить ранний доступ"
+   },
+   "Pb_Empty": {
+      "message": "Словарь пуст"
+   },
+   "Pb_EmptyWl_Text1": {
+      "message": "Храните тут слова, которые хотите выучить. Вы можете создавать разные списки, чтобы разбить слова по теме, дате и т.п."
+   },
+   "Pb_EmptyWl_Text2": {
+      "message": "Mate сохранит перевод, транскрипцию и синонимы самостоятельно."
+   },
+   "Pb_EmptyWl_Title2": {
+      "message": "Проще чем словарь"
+   },
+   "Pb_Empty_Button": {
+      "message": "создать список слов"
+   },
+   "Pb_Empty_Text1": {
+      "message": "Создавайте списки для слов, которые хотите выучить."
+   },
+   "Pb_Empty_Text2": {
+      "message": "Держите весь свой вокабуляр в одном месте!"
+   },
+   "Pb_Empty_Title": {
+      "message": "Что это?"
+   },
+   "Pb_EnterWordOrPhrase": {
+      "message": "Введите слово или фразу..."
+   },
+   "Pb_HowToAddPhrase": {
+      "message": "Добавляйте новые слова или фразы при помощи поля вверху"
+   },
+   "Pb_HowToCreateWordlist": {
+      "message": "Нажмите кнопку \"+\", чтобы создать новый список слов"
+   },
+   "Pb_Learn": {
+      "message": "Учить"
+   },
+   "Pb_LearnOnboardingDesc": {
+      "message": "Мы хотим оставить Mate хорошим для одной цели - переводов.\u003Cbr>\u003Cbr>Поэтому мы сделали Reji - очень простое и бесплатное приложение, чтобы учить слова, произношение и правописание. Вы можете экспортировать слова из Mate в Reji в один клик!"
+   },
+   "Pb_Loading": {
+      "message": "загрузка..."
+   },
+   "Pb_NewWlNote": {
+      "message": "Создавайте список слов для пары языков и добавляйте в него неограниченное количество фраз для изучения."
+   },
+   "Pb_NewWordlist": {
+      "message": "Новый список слов"
+   },
+   "Pb_NewWordlistName": {
+      "message": "Имя нового списка слов..."
+   },
+   "Pb_NoInternet": {
+      "message": "Ваше подключение к сети Интернет, кажется, отсутствует. Чтобы добавить новые фразы, вам необходимо подключиться к сети Интернет!"
+   },
+   "Pb_NotOnIOS": {
+      "message": "Не пользуетесь iOS? Нажмите, чтобы учить на \u003Ca class=\"show-android-form\" href=\"#\">Android\u003C/a> или прямо в \u003Ca class=\"show-chrome-form\" href=\"#\">браузере\u003C/a>."
+   },
+   "Pb_RejiAndroid": {
+      "message": "Reji для Android пока что недоступен. Мы активно работаем, чтобы запустить его поскорее. Можете оставить имейл, если хотите узнать о выходе в первую очередь:"
+   },
+   "Pb_RejiBrowser": {
+      "message": "Браузерная версия Reji пока что недоступна. Мы активно работаем, чтобы запустить ее поскорее. Можете оставить имейл, если хотите узнать о выходе в первую очередь:"
+   },
+   "Pb_SaveButton": {
+      "message": "Сохранить"
+   },
+   "Pb_ScanQR": {
+      "message": "Сосканируйте этот QR-код приложением камеры на вашем iPhone/iPad, чтобы открыть эти слова в Reji."
+   },
+   "Pb_SelectLearnLanguage": {
+      "message": "Какой язык вы учите?"
+   },
+   "Pb_SureToDeleteWordlist": {
+      "message": "Вы уверены, что хотите удалить этот список слов? Это действие не может быть отменено."
+   },
+   "Pb_WlEmpty": {
+      "message": "Список слов пуст"
+   },
+   "Phrasebook_FullyBlockedOut": {
+      "message": "Обновитесь до Pro, чтобы иметь неограниченный доступ к Словарю."
+   },
+   "Phrasebook_Phrases1": {
+      "message": "фраза"
+   },
+   "Phrasebook_Phrases2": {
+      "message": "фраз"
+   },
+   "Phrasebook_Phrases3": {
+      "message": "фразы"
+   },
+   "ProSplitTests_2_F1": {
+      "message": "Перевод речи"
+   },
+   "ProSplitTests_2_F2": {
+      "message": "История и Словарь"
+   },
+   "ProSplitTests_2_F3": {
+      "message": "Синонимы"
+   },
+   "ProSplitTests_2_F4": {
+      "message": "Произношение и артикли к существительным"
+   },
+   "ProSplitTests_2_F5": {
+      "message": "Темный режим и без рекламы"
+   },
+   "ProSplitTests_2_F6": {
+      "message": "Приоритетная поддержка"
+   },
+   "ProSplitTests_2_F7": {
+      "message": "Pro-версия на \u003Ca href=\"https://gikken.co/mate-translate/?ref=BrowserProBlock\">всех устройствах\u003C/a>"
+   },
+   "ProSplitTests_2_F8": {
+      "message": "Автоматический перевод сайтов"
+   },
+   "ProSplitTests_2_Pitch": {
+      "message": "Сделайте Mate еще более потрясающим с Pro-версией!\u003Cbr>Получите доступ ко всем премиум-функциям и перестаньте видеть рекламу."
+   },
+   "Pro_Articles": {
+      "message": "Артикли у существительных"
+   },
+   "Pro_Articles_Desc": {
+      "message": "Улучшите свою грамматику в немецком, французском, испанском, итальянском и португальском."
+   },
+   "Pro_Articles_Msg": {
+      "message": "Обновитесь до Pro, чтобы видеть артикли."
+   },
+   "Pro_ComesAlong": {
+      "message": " и не только:"
+   },
+   "Pro_DarkMode": {
+      "message": "Позаботьтесь о глазах, а также снизьте потребление электроэнергии, с новым темным режимом."
+   },
+   "Pro_DoubleClickFeature": {
+      "message": "Переводите слова на веб-страницах простым двойным кликом на них с помощью Mate Pro!"
+   },
+   "Pro_ExportFeature": {
+      "message": "Экспортируйте ваши переводы в CSV файл."
+   },
+   "Pro_FullPageTranslation": {
+      "message": "Обновитесь до Pro для автоматического перевода сайтов."
+   },
+   "Pro_IPA": {
+      "message": "Фонетическая транскрипция"
+   },
+   "Pro_IPA_Desc": {
+      "message": "Улучшите свое произношение!"
+   },
+   "Pro_IPA_Msg": {
+      "message": "Обновитесь до Pro, чтобы видеть транскрипцию."
+   },
+   "Pro_MainSettingsPitch": {
+      "message": "Мы добавили такие функции, чтобы Mate Pro стал вашей первой и последней инстанцией во всем, что касается переводов."
+   },
+   "Pro_NetflixPhrasebookSaving": {
+      "message": "Обновитесь до Pro, чтобы сохранять слова из Netflix."
+   },
+   "Pro_PhrasebookFeature": {
+      "message": "Получите доступ к личному Словарю. Синхронизируйте его (а также историю) с Mate \u003Cbr>на \u003Ca href=\"https://gikken.co/mate-translate/download/\" target=\"_blank\">всех устройствах\u003C/a>. Экспортируйте CSV, чтобы загрузить в другие приложения."
+   },
+   "Pro_STTFeature": {
+      "message": "Говорите на более чем \u003Ca href=\"https://gikken.co/mate-translate/languages\" target=\"_blank\">40 языках\u003C/a>, Mate ответит супербыстрым и точным переводом."
+   },
+   "Pro_ShortcutsFeature": {
+      "message": "Настройте горячие клавиши, чтобы переводить десять языков вместо одного (Shift+T)."
+   },
+   "Pro_SyncFeature": {
+      "message": "Синхронизируйте ваши переводы и Словарь между всеми устройствами."
+   },
+   "Pro_SynonymsPaywall": {
+      "message": "Обновитесь до Pro, чтобы увидеть все синонимы."
+   },
+   "Pro_UnlockMore": {
+      "message": "А также получите эти функции:"
+   },
+   "RejiAd": {
+      "message": "Наше новое приложение поможет вам легко улучшить ваш вокабуляр. Попробуйте!"
+   },
+   "SafariWall_Desc": {
+      "message": "Заплатите за Mate один раз и получите доступ ко всем функциям прямо в вашем браузере Safari."
+   },
+   "SafariWall_Feature1": {
+      "message": "Выделяйте слова на любой странице и тут же получайте их перевод"
+   },
+   "SafariWall_Feature2": {
+      "message": "Двойной щелчок на любом слове вызывает его перевод"
+   },
+   "SafariWall_Feature3": {
+      "message": "Сохраняйте слова для запоминания в своем личном Словаре"
+   },
+   "SafariWall_Feature4": {
+      "message": "Перевод 103 языков"
+   },
+   "SafariWall_Feature5": {
+      "message": "Изучайте произношение"
+   },
+   "SafariWall_Feature6": {
+      "message": "Синхронизируйте все свои переводы на всех своих устройствах"
+   },
+   "SafariWall_Title": {
+      "message": "Забудьте о переходе на сайты-переводчики!"
+   },
+   "Settings_21max": {
+      "message": "Вы можете создать максимум 21 сочетание клавиш..."
+   },
+   "Settings_Articles": {
+      "message": "Показывать артикли"
+   },
+   "Settings_Autoswap": {
+      "message": "Автоматически менять языки"
+   },
+   "Settings_Autoswap_Description": {
+      "message": "Языки будут автоматически заменены, если вы вводите текст на целевом языке вместо исходного языка, и наоборот."
+   },
+   "Settings_CP": {
+      "message": "Mate для других устройств"
+   },
+   "Settings_CPDesc": {
+      "message": "Mate доступен для iOS, Mac (в т.ч. расширение для Safari), Chrome, Firefox, Opera и Edge. История и Словарь будут синхронизироваться между всеми девайсами посредством вашего Мейт-аккаунта."
+   },
+   "Settings_CP_Get": {
+      "message": "скачать"
+   },
+   "Settings_Close": {
+      "message": "закрыть"
+   },
+   "Settings_Contacts": {
+      "message": "Остальное"
+   },
+   "Settings_CtxMenu": {
+      "message": "Контекстное меню"
+   },
+   "Settings_CtxMenuDesc": {
+      "message": "Показывать кнопку перевода в контекстном меню (правый клик). Работает для выделенного текста на сайтах."
+   },
+   "Settings_DarkMode": {
+      "message": "Красивый тёмный режим"
+   },
+   "Settings_DarkModeDesc": {
+      "message": "Позаботьтесь о глазах, а также снизьте потребление электроэнергии, с новым темным режимом."
+   },
+   "Settings_DataEraseError": {
+      "message": "Произошла непредвиденная ошибка, пожалуйста, попробуйте еще раз!"
+   },
+   "Settings_DataErased": {
+      "message": "Все ваши данные были удалены с серверов Mate!"
+   },
+   "Settings_DestLang": {
+      "message": "Целевой язык"
+   },
+   "Settings_Email": {
+      "message": "отправить нам письмо"
+   },
+   "Settings_EnableSync": {
+      "message": "Синхронизировать переводы и Словарь"
+   },
+   "Settings_EraseConfirm": {
+      "message": "Вы уверены? Данное действие удалит все ваши синхронизированные переводы и Словарь, находящиеся на наших серверах (локальные данные останутся нетронутыми). Данное действие не может быть отменено."
+   },
+   "Settings_EraseData": {
+      "message": "удалить все мои данные"
+   },
+   "Settings_EraseDataDesc": {
+      "message": "Согласно GDPR (Общему регламенту по защите данных в ЕС), вы можете запросить удаление ваших данных с серверов Mate."
+   },
+   "Settings_FBShare": {
+      "message": "поделиться в facebook"
+   },
+   "Settings_Facebook": {
+      "message": "наш facebook"
+   },
+   "Settings_HelpCenter": {
+      "message": "Справка"
+   },
+   "Settings_Interface_Autocorrection": {
+      "message": "Автоисправление"
+   },
+   "Settings_Interface_Autocorrection_Description": {
+      "message": "Mate автоматически исправит слова с ошибками."
+   },
+   "Settings_Interface_DevData": {
+      "message": "Предлагать локализованные версии сайтов"
+   },
+   "Settings_Interface_DevData_Description": {
+      "message": "Если какой-либо веб-сайт доступен на языке, на который вы пытаетесь перевести, Mate предложит вам использовать локализованную версию этого сайта."
+   },
+   "Settings_Interface_Human": {
+      "message": "Предложить немашинный перевод"
+   },
+   "Settings_Interface_InstantTranslation": {
+      "message": "Умный перевод"
+   },
+   "Settings_Interface_InstantTranslation_Description": {
+      "message": "Mate будет переводить текст, как только вы закончите печатать его."
+   },
+   "Settings_Interface_Save": {
+      "message": "Сохранить значение"
+   },
+   "Settings_Interface_Save_Description": {
+      "message": "Mate сохранит введенный текст во всплывающем окне при закрытии, и оно не будет пустым при повторном его открытии."
+   },
+   "Settings_Interface_ShowIPA": {
+      "message": "Показывать транскрипцию"
+   },
+   "Settings_Interface_ShowIPA_Description": {
+      "message": "Для некоторых языков Mate Translation покажет вам фонетическую транскрипцию для удобства чтения."
+   },
+   "Settings_Interface_ShowTranslit": {
+      "message": "Показывать транслитерацию"
+   },
+   "Settings_Interface_ShowTranslit_Description": {
+      "message": "Для нелатинских алфавитов Mate покажет вам латинскую транскрипцию перевода, чтобы было проще понять произношение."
+   },
+   "Settings_Legal": {
+      "message": "Правовое"
+   },
+   "Settings_Netflix": {
+      "message": "Переводить в субтитрах Netflix"
+   },
+   "Settings_NetflixDesc": {
+      "message": "Нажимайте на слова в субтитрах, чтобы увидеть мгновенный перевод."
+   },
+   "Settings_NetflixView": {
+      "message": "посмотреть сохраненные слова →"
+   },
+   "Settings_NewLine": {
+      "message": "для новой строки"
+   },
+   "Settings_Newsletter": {
+      "message": "наша рассылка"
+   },
+   "Settings_NoConsentPro": {
+      "message": "Согласно GDPR (закон ЕС о приватности) мы не можем принять ваш платеж, пока вы не согласитесь с нашей политикой конфиденциальности. Пожалуйста, оставьте согласие и перезагрузите эту страницу, чтобы продолжить покупку."
+   },
+   "Settings_NoProSync": {
+      "message": "Для синхронизации вам нужна про-версия"
+   },
+   "Settings_Or": {
+      "message": "/"
+   },
+   "Settings_PopupShortcuts": {
+      "message": "Горячие клавиши во всплывающем окне"
+   },
+   "Settings_PopupShortcutsDesc": {
+      "message": "Переводите текст в поле ввода сочетанием клавиш."
+   },
+   "Settings_PrefsTab": {
+      "message": "Окно"
+   },
+   "Settings_PrivacyPolicy": {
+      "message": "политика конфиденциальности"
+   },
+   "Settings_ProActivated": {
+      "message": "Готово! Про-версия включена."
+   },
+   "Settings_ProFeature8": {
+      "message": "Поддержка по имейлу"
+   },
+   "Settings_ProFeature8_Desc": {
+      "message": "Ради персонального подхода, детальных и быстрых ответов, мы сделали поддержку частью Mate Pro. Ответы на распространённые проблемы можно также найти в нашем \u003Ca href=\"https://help.gikken.co/hc/\" target=\"_blank\">Центре поддержки\u003C/a>."
+   },
+   "Settings_ProTab": {
+      "message": "Pro и синхрониз."
+   },
+   "Settings_Restore": {
+      "message": "восстановить покупку"
+   },
+   "Settings_RevokeConsent": {
+      "message": "я больше не согласен/а с правилами и условиями"
+   },
+   "Settings_RevokeConsentDesc": {
+      "message": "Если вы больше не согласны с нашей Политикой конфиденциальности или Правилами и Условиями, вы можете отозвать свое предыдущее согласие. Однако после этого вы не сможете больше использовать Mate."
+   },
+   "Settings_Share": {
+      "message": "Поделитесь Mate с друзьями"
+   },
+   "Settings_ShareDesc": {
+      "message": "Отправьте им ссылку или поделитесь в социальных сетях. Это будет нам огромной поддержкой!"
+   },
+   "Settings_ShareText": {
+      "message": "Mate – универсальный переводчик для {{platform}}, Mac и iOS. Изучайте и переводите 103 языка. Быстрый и удобный. Доступен везде."
+   },
+   "Settings_ShortcutClick": {
+      "message": "нажмите сюда, а затем нажмите нужные клавиши..."
+   },
+   "Settings_ShortcutMain": {
+      "message": "Главное сочетание клавиш"
+   },
+   "Settings_ShortcutSuppl": {
+      "message": "Дополнительные сочетания клавиш"
+   },
+   "Settings_SignOut": {
+      "message": "Выйти из аккаунта"
+   },
+   "Settings_SourceLang": {
+      "message": "Исходный язык"
+   },
+   "Settings_StayInTouch": {
+      "message": "Связаться с нами"
+   },
+   "Settings_SyncText": {
+      "message": "Синхронизируйте ваши переводы и Словарь между всеми устройствами."
+   },
+   "Settings_TWShare": {
+      "message": "поделиться в twitter"
+   },
+   "Settings_ToS": {
+      "message": "правила и условия"
+   },
+   "Settings_ToTranslate": {
+      "message": "перевести"
+   },
+   "Settings_Tooltip": {
+      "message": "Размер всплывающего окна"
+   },
+   "Settings_TooltipBig": {
+      "message": "большое"
+   },
+   "Settings_TooltipDesc": {
+      "message": "Какого размера должно быть окошко перевода на страницах."
+   },
+   "Settings_TooltipMedium": {
+      "message": "среднее"
+   },
+   "Settings_TooltipSmall": {
+      "message": "маленькое"
+   },
+   "Settings_TranslateSelection": {
+      "message": "Перевод по выделению"
+   },
+   "Settings_TranslateSelectionDesc": {
+      "message": "Выделяйте текст на сайтах, чтобы появилась кнопка мгновенного перевода."
+   },
+   "Settings_Translation_History": {
+      "message": "История переводов"
+   },
+   "Settings_Translation_History_Description": {
+      "message": "Будет сохраняться история переводов, доступная к просмотру и экспорту в любое время."
+   },
+   "Settings_Translation_KeyCombos": {
+      "message": "На странице"
+   },
+   "Settings_Translation_KeyCombos_Description": {
+      "message": "Перевод выделенного текста на сайтах горячими клавишами (не работает в PDF документах)."
+   },
+   "Settings_Twitter": {
+      "message": "наш twitter"
+   },
+   "Settings_UsageReset": {
+      "message": "Этот счетчик обнулится \u003Cb>\u003C%=reset_date%>\u003C/b>"
+   },
+   "Settings_UsageTitle": {
+      "message": "Ваше использование за месяц"
+   },
+   "Settings_Website": {
+      "message": "Наш веб-сайт"
+   },
+   "Settings_YouAreSignedIn": {
+      "message": "Вы вошли как"
+   },
+   "Settings_YouPro": {
+      "message": "У вас Pro-версия!"
+   },
+   "Settings_YouUsed": {
+      "message": "вы использовали"
+   },
+   "ShareOnVK": {
+      "message": "поделиться вконтакте"
+   },
+   "ShareViaEmail": {
+      "message": "поделиться по почте"
+   },
+   "SignUp_Name": {
+      "message": "Имя (необязательно)"
+   },
+   "SignUp_Password": {
+      "message": "Пароль (минимум 8 символов)"
+   },
+   "Sponsorship_Bar": {
+      "message": "Пользуйтесь Мейтом на полную с аккаунтом!"
+   },
+   "Sponsorship_DismissPro": {
+      "message": "Обновитесь до Pro, чтобы скрыть рекламу."
+   },
+   "Sub_48hNotificationBodyAnnual": {
+      "message": "Скоро с вашего аккаунта будет списана ежегодная подписка Mate Pro в размере {{amount}}."
+   },
+   "Sub_48hNotificationBodyMonthly": {
+      "message": "Скоро с вашего аккаунта будет списана ежемесячная подписка Mate Pro в размере {{amount}}."
+   },
+   "Sub_48hNotificationLabel": {
+      "message": "\u003Cb>Никаких рисков.\u003C/b> Вы получите уведомление за 48 часов до первого платежа."
+   },
+   "Sub_48hNotificationTitle": {
+      "message": "Как проходит ваш пробный период Mate?"
+   },
+   "Sub_ApplyForStudentDiscount": {
+      "message": "Получить скидку для студентов"
+   },
+   "Sub_Cancel": {
+      "message": "Отменить подписку"
+   },
+   "Sub_ChangePaymentMethod": {
+      "message": "Сменить метод оплаты"
+   },
+   "Sub_ComingSoon": {
+      "message": "уже скоро"
+   },
+   "Sub_CouldNotGetPayLink": {
+      "message": "Не получилось загрузить страницу оплаты. Попробуйте еще раз или свяжитесь с нами на support@matetranslate.com"
+   },
+   "Sub_CrossPlatformProComingSoon": {
+      "message": "Мы работаем над тем, чтобы Mate Pro был доступен на всех платформах в рамках одной подписки.\n\nВы уже можете пользоваться Mate Pro в расширениях для любого браузера. Просто войдите в свой аккаунт Mate на другом устройстве. Приложения для iOS и Mac пока нужно купить на App Store.\n\nКак временное решение, напишите нам на hello@gikken.co и приложите чек после того, как подпишитесь на Mate Pro. Мы поможем вам скачать приложения бесплатно.\n\nПриносим глубочайшие извинения за временные неудобства."
+   },
+   "Sub_DueAfterTrial": {
+      "message": "\u003Cspan class=\"price-due\">\u003C/span> по истечении пробного периода"
+   },
+   "Sub_FAQ": {
+      "message": "Часто задаваемые вопросы"
+   },
+   "Sub_FinishCreatingAccount": {
+      "message": "Закончить регистрацию"
+   },
+   "Sub_FreeTrialVerificationCharge": {
+      "message": "Paddle может списать $1 с вашего счета, чтобы верифицировать банковскую карту. Деньги сразу же вернутся на счет. Пробный период полностью бесплатный."
+   },
+   "Sub_LegacyUsersDisclaimer": {
+      "message": "Теперь для новых пользователей Mate Pro доступен только по подписке. Но так как вы уже раньше купили Pro-версию, вы получаете ее без дополнительных платежей, раз и навсегда! Спасибо, что поддерживали нас с самого начала \u003C3"
+   },
+   "Sub_Month": {
+      "message": "/месяц"
+   },
+   "Sub_MoreInlineInfo": {
+      "message": "Узнать больше"
+   },
+   "Sub_NextBilling": {
+      "message": "Следующий платеж: {{next_amount_billed}} {{next_billing_date}}"
+   },
+   "Sub_NoNotifPermissionAlert": {
+      "message": "Без разрешения на показ уведомлений мы не сможем напомнить вам о предстоящем платеже... С другой стороны, вы всегда можете проверить его дату прямо здесь, в настройках."
+   },
+   "Sub_PleaseCreateAccount": {
+      "message": "Теперь закончите регистрацию аккаунта Mate. Просто следуйте инструкции, которую мы выслали на \u003Cb>{{email}}\u003C/b>. Так мы сможем подтвердить вашу подписку. На все уйдет не больше минуты!"
+   },
+   "Sub_PleaseSignBackIn": {
+      "message": "Пожалуйста, войдите в аккаунт, зарегистрированный на \u003Cb>{{email}}\u003C/b>.\u003Cbr>По-другому мы не можем подтвердить вашу подписку."
+   },
+   "Sub_ProStatusForLegacyUsers": {
+      "message": "У вас безлимитный пожизненный доступ к Mate Pro"
+   },
+   "Sub_PurchasedBefore": {
+      "message": "Уже купили Pro-версию?"
+   },
+   "Sub_Resubscribe": {
+      "message": "Подписаться снова"
+   },
+   "Sub_Savings": {
+      "message": "сэкономьте {{savings}}%"
+   },
+   "Sub_ScrewSubscription": {
+      "message": "Не хотите подписываться?"
+   },
+   "Sub_StatusFetchError": {
+      "message": "Не найдены данные о статусе подписки."
+   },
+   "Sub_StatusFetchTryAgain": {
+      "message": "Попробуйте еще раз."
+   },
+   "Sub_SubscribeNow": {
+      "message": "Подписаться"
+   },
+   "Sub_TryFreeCTA": {
+      "message": "\u003Cspan class=\"trial-days\">\u003C/span> дней бесплатно"
+   },
+   "Sub_WhenCancelled": {
+      "message": "Вы отменили подписку, но Mate Pro останется доступен до {{sub_ends_on}}. Чтобы продолжить пользоваться Mate Pro после этой даты, вы можете снова подписаться."
+   },
+   "Sub_WhenTrialing": {
+      "message": "Пробный период заканчивается {{next_billing_date}}, с вас будет списано {{next_amount_billed}}"
+   },
+   "Sub_Year": {
+      "message": "/год"
+   },
+   "Sub_YouAreAlmostInTheFamily": {
+      "message": "У вас (почти) есть Mate Pro!"
+   },
+   "Sub_YouAreInTheFamily": {
+      "message": "У вас есть Mate Pro!"
+   },
+   "Sync_FailedError": {
+      "message": "Не удалось синхронизировать. Попробуйте заново или обратитесь к нам на support@matetranslate.com."
+   },
+   "Sync_NetworkError": {
+      "message": "Кажется, что нет подключения к сети Интернет. Пожалуйста, подключитесь к сети Интернет и попробуйте провести синхронизацию снова."
+   },
+   "Sync_NoItemsError": {
+      "message": "Нечего синхронизировать..."
+   },
+   "Sync_NotSignedInError": {
+      "message": "Чтобы синхронизировать свою историю и Словарь, вам необходимо войти в вашу учетную запись."
+   },
+   "TD_AddPB": {
+      "message": "Добавить в Словарь"
+   },
+   "TD_Copy": {
+      "message": "Копировать"
+   },
+   "TD_Create": {
+      "message": "Создать новый список слов..."
+   },
+   "TD_NoWordlists": {
+      "message": "Новый список слов для "
+   },
+   "There_Is_Localised_Site": {
+      "message": "Показать локализованную версию сайта"
+   },
+   "There_Is_Localised_Site_Desc": {
+      "message": "Существует локализованная версия этого веб-сайта"
+   },
+   "Tooltip_DisableDoubleClick": {
+      "message": "Не переводить по двойному нажатию"
+   },
+   "Tooltip_DisableDoubleClickDesc": {
+      "message": "Вы больше не будете видеть окно перевода по двойному нажатию на слово."
+   },
+   "Tooltip_DisableSelection": {
+      "message": "Не показывать плавающую кнопку"
+   },
+   "Tooltip_DisableSelectionDesc": {
+      "message": "Вы больше не будете видеть плавающую кнопку перевода при выделении текста."
+   },
+   "Tooltip_InlineOptionDisabled": {
+      "message": "Вы можете включить это в настройках"
+   },
+   "Tour_Agree": {
+      "message": "Нажмите на кнопку внизу, чтобы согласиться с нашими \u003Cb>правилами пользования\u003C/b> и начать переводить с Mate."
+   },
+   "Tour_AutoFPOption": {
+      "message": "Предлагать переводить сайты"
+   },
+   "Tour_DoubleClick": {
+      "message": "Перевод по двойному клику"
+   },
+   "Tour_DoubleClickDesc": {
+      "message": "Щелкайте дважды на словах на сайтах, чтобы перевести."
+   },
+   "Tour_DoubleClickOption": {
+      "message": "Перевод по двойному клику"
+   },
+   "Tour_GotIt": {
+      "message": "ок, все понятно"
+   },
+   "Tour_HowToSelect": {
+      "message": "Выделите любое слово или текст на любой веб-странице и нажмите Shift+T, чтобы его перевести."
+   },
+   "Tour_Important": {
+      "message": "Это очень важно!"
+   },
+   "Tour_ImportantSub": {
+      "message": "Эта страница покажет вам, как пользоваться \u003Cb>Mate Translate\u003C/b>"
+   },
+   "Tour_ImportantText": {
+      "message": "Потратьте всего 40 секунд, чтобы просмотреть ее"
+   },
+   "Tour_Langs": {
+      "message": "На какой язык вы хотите переводить?"
+   },
+   "Tour_LangsDesc": {
+      "message": "Выберите язык, на который вы хотите переводить:"
+   },
+   "Tour_LangsSupported": {
+      "message": "просмотр поддерживаемых языков "
+   },
+   "Tour_MacUser": {
+      "message": "Я пользовался Mate для Mac"
+   },
+   "Tour_NoShiftT": {
+      "message": "Mate не может переводить выделенный текст на этой странице и в PDF из-за технических органичений в \u003C%=browser%>.\u003Cbr>\u003Cbr>Попробуйте это на другой странице. Например, \u003Ca href='https://reji.me' target='_blank'>тут\u003C/a>."
+   },
+   "Tour_PDF": {
+      "message": "Перевод в PDF"
+   },
+   "Tour_PDFDesc": {
+      "message": "Выделяйте текст в PDF-файлах, нажимайте правую кнопку и переводите."
+   },
+   "Tour_PDFNote": {
+      "message": "Плавающая кнопка и Shift+T не работают в PDFs из-за технических ограничений."
+   },
+   "Tour_PP": {
+      "message": "Наша Политика конфиденциальности"
+   },
+   "Tour_PPDesc": {
+      "message": "Начав использовать Mate Translate, вы тем самым соглашаетесь с нашей \u003Cb>\u003Ca target=\"_blank\" href=\"https://matetranslate.com/privacy\">Политикой конфиденциальности\u003C/a>\u003C/b> и \u003Cb>\u003Ca target=\"_blank\" href=\"https://matetranslate.com/terms\">Правилами использования\u003C/a>\u003C/b>."
+   },
+   "Tour_Pages": {
+      "message": "Переводите страницы целиком"
+   },
+   "Tour_PagesDesc": {
+      "message": "Все сайты на вашем языке. Автоматически."
+   },
+   "Tour_Phrasebook": {
+      "message": "Ваш персональный Словарь"
+   },
+   "Tour_PhrasebookCreate": {
+      "message": "Создать свой первый список слов"
+   },
+   "Tour_PhrasebookDesc": {
+      "message": "Сохраните все слова, которые вы хотите запомнить в разговорник в Mate."
+   },
+   "Tour_PhrasebookFeature": {
+      "message": "Сохраняйте все слова, которые вам необходимо запомнить, в одном месте!"
+   },
+   "Tour_PhrasebookLaunch": {
+      "message": "открыть разговорник"
+   },
+   "Tour_ProCTA": {
+      "message": "Купив \u003Cb>Mate Pro\u003C/b>, вы также получите доступ к следующим функциям:"
+   },
+   "Tour_ProFeature1": {
+      "message": "Неограниченный Словарь"
+   },
+   "Tour_ProFeature2": {
+      "message": "Перевод голоса"
+   },
+   "Tour_ProFeature3": {
+      "message": "Горячие клавиши"
+   },
+   "Tour_ProFeature4": {
+      "message": "Словарь + синхронизация"
+   },
+   "Tour_ProFeature5": {
+      "message": "Перевод посредством двойного клика по слову"
+   },
+   "Tour_ProFeature6": {
+      "message": "Темный режим"
+   },
+   "Tour_ProUpgradedSuccessfully": {
+      "message": "Закройте эту страницу и наслаждайтесь интернетом без языковых барьеров!"
+   },
+   "Tour_Ready": {
+      "message": "Мы соблюдаем \u003Ca href=\"https://ru.wikipedia.org/wiki/%D0%9E%D0%B1%D1%89%D0%B8%D0%B9_%D1%80%D0%B5%D0%B3%D0%BB%D0%B0%D0%BC%D0%B5%D0%BD%D1%82_%D0%BF%D0%BE_%D0%B7%D0%B0%D1%89%D0%B8%D1%82%D0%B5_%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85\" target=\"_blank\">GDRP\u003C/a>!"
+   },
+   "Tour_SafariGet": {
+      "message": "купить mate за $price$",
+      "placeholders": {
+         "price": {
+            "content": "$1",
+            "example": "9.99$"
+         }
+      }
+   },
+   "Tour_SelectAndTranslate": {
+      "message": "Выделяйте и переводите"
+   },
+   "Tour_Selected": {
+      "message": "Переводите текст на сайтах"
+   },
+   "Tour_SelectedDesc": {
+      "message": "С помощью двойного клика, выделения или Shift+T."
+   },
+   "Tour_ShortcutsFeature": {
+      "message": " Создавайте более 20 комбинаций клавиш быстрого перевода для различных языков и используйте их для перевода слов на веб-страницах!"
+   },
+   "Tour_Start": {
+      "message": "начать бесплатно"
+   },
+   "Tour_Sync": {
+      "message": "Синхронизация данных на всех устройствах"
+   },
+   "Tour_SyncDesc": {
+      "message": "Ваша история переводов и разговорник будут синхронизированы на всех ваших устройствах."
+   },
+   "Tour_SyncSignIn": {
+      "message": "Войдите для синхронизации"
+   },
+   "Tour_Title": {
+      "message": "Добро пожаловать в Mate Translate"
+   },
+   "Tour_TranslationsFeature": {
+      "message": "Переводите столько сколько вам нужно.."
+   },
+   "Tour_UhHuh": {
+      "message": "Ух-ах!"
+   },
+   "Tour_Unlock": {
+      "message": "Mate Pro"
+   },
+   "Tour_UnlockDesc": {
+      "message": "Доступ ко всем премиум-функциям и никакой рекламы."
+   },
+   "Tour_UnlockDescSafari": {
+      "message": "Купите пожизненную версию, чтобы всегда иметь надежного помощника по переводу в Сафари."
+   },
+   "Tour_UnlockSafari": {
+      "message": "Ваш надежный переводчик в Сафари"
+   },
+   "Trial_Days": {
+      "message": "дн"
+   },
+   "Trial_Expired": {
+      "message": "Тестовый период истек"
+   },
+   "Trial_Expires": {
+      "message": "Тестовый период истекает через \u003C%=days%> дн"
+   },
+   "Trial_PurchaseDesc": {
+      "message": "Купите Pro единожды и используйте Mate в Safari всегда."
+   },
+   "Trial_Start": {
+      "message": "начать тестовый период"
+   },
+   "Trial_UseAndPay": {
+      "message": "Используйте Mate бесплатно 7 дней, потом он стоит $price$ единоразово.",
+      "placeholders": {
+         "price": {
+            "content": "$1",
+            "example": "9.99$"
+         }
+      }
+   },
+   "Usage_YouUsedPopup": {
+      "message": "вы использовали used \u003Cspan class=\"used-trans\">0\u003C/span>/\u003Cspan class=\"max-trans\">500\u003C/span> переводов"
+   },
+   "Usage_YouUsedTooltip": {
+      "message": "вы использовали \u003Cspan class=\"\u003C%=prefix%>used-trans\">0\u003C/span>/\u003Cspan class=\"\u003C%=prefix%>max-trans\">500\u003C/span> переводов"
+   },
+   "Window_AntiWarBanner": {
+      "message": "🇺🇦 Мы против войны с Украиной 🇺🇦"
+   },
+   "Window_CannotTranslatePDF": {
+      "message": "К сожалению, мы не можем переводить выделенный текст в PDF. Технические ограничения {{browser}}..."
+   },
+   "Window_CannotTranslatePDFChrome": {
+      "message": "Пожалуйста, используйте контекстное меню, чтобы перевести выделенный в PDF текст. Технические ограничения Chrome..."
+   },
+   "Window_Content_AllLang": {
+      "message": "Все"
+   },
+   "Window_Content_RecentlyUsedLang": {
+      "message": "Недавно использованные"
+   },
+   "Window_Content_TextareaPlaceholder": {
+      "message": "Перевести ..."
+   },
+   "Window_DoYouKnowSomeone": {
+      "message": "Вы знаете человека, кому, как вам кажется, Mate был бы полезен?"
+   },
+   "Window_DoYouLike": {
+      "message": "Вам нравится Mate?"
+   },
+   "Window_DoYouLikeDesc": {
+      "message": "Вы думаете, мы можем сделать что-то лучше, или Mate и так близок к идеалу?"
+   },
+   "Window_DontAutocorrect": {
+      "message": "Не автоисправлять"
+   },
+   "Window_Improve": {
+      "message": "могло бы быть лучше"
+   },
+   "Window_LearnMoreAboutPro": {
+      "message": "Узнайте больше о Pro версии"
+   },
+   "Window_Love": {
+      "message": "нравится"
+   },
+   "Window_MateFreeDesc": {
+      "message": "Чтобы разблокировать все новые функции, вам необходимо приобрести Pro версию."
+   },
+   "Window_MateProDesc": {
+      "message": "Чтобы включить синхронизацию истории и Словаря, нужно создать аккаунт."
+   },
+   "Window_Mw_LaterButton": {
+      "message": "Напомните мне позже"
+   },
+   "Window_Mw_NeverButton": {
+      "message": "Никогда не напоминайте мне"
+   },
+   "Window_Mw_NotChromeNotNow": {
+      "message": "Не сейчас"
+   },
+   "Window_Mw_RateButton": {
+      "message": "Оценить сейчас"
+   },
+   "Window_Mw_RateTitle": {
+      "message": "Оцените Mate"
+   },
+   "Window_Mw_UpgradeButton": {
+      "message": "Стать Pro за $price$",
+      "placeholders": {
+         "price": {
+            "content": "$1",
+            "example": "9.99$"
+         }
+      }
+   },
+   "Window_NetflixFeatureDesc": {
+      "message": "Переводите и учите слова в субтитрах Netflix. Кликайте на слово, чтобы перевести его и сохранить для дальнейшего изучения."
+   },
+   "Window_NewFeature": {
+      "message": "Новая функция!"
+   },
+   "Window_No": {
+      "message": "нет"
+   },
+   "Window_Offline": {
+      "message": "Нет Интернета"
+   },
+   "Window_OfflineDesc": {
+      "message": "Не получается перевести, потому что нет Интернета"
+   },
+   "Window_Pro": {
+      "message": ""
+   },
+   "Window_ProBannerAds": {
+      "message": "Обновитесь до Pro, чтобы открыть новые функции."
+   },
+   "Window_QuickQuestion": {
+      "message": "Один вопрос..."
+   },
+   "Window_RateUsDesc": {
+      "message": "Могли бы вы оставить нам оценку в App Store? Это займет несколько секунд, и мы были бы очень благодарны."
+   },
+   "Window_SendFeedback": {
+      "message": "расскажите нам"
+   },
+   "Window_SendFeedbackDesc": {
+      "message": "Дайте нам знать, как сделать Mate лучше."
+   },
+   "Window_Share": {
+      "message": "Расскажите кому-нибудь о Mate"
+   },
+   "Window_ShareDesc": {
+      "message": "Вы окажете нам огромную поддержку, если посоветуете Mate другу или коллеге!"
+   },
+   "Window_Shortcut": {
+      "message": "Нажимайте Ctrl+T, чтобы открыть это окно быстрее."
+   },
+   "Window_TranslationCopied": {
+      "message": "Перевод скопирован!"
+   },
+   "Window_UnpinPro": {
+      "message": "Обновитесь до Pro, чтобы откреплять окно."
+   },
+   "Window_WriteUs": {
+      "message": "напишите нам имейл"
+   },
+   "Window_Yes": {
+      "message": "да"
+   }
+}
