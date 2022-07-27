@@ -3,10 +3,10 @@ clear
 
 killall clash-linux-armv8
 killall tail
-
+PWD=`pwd`
 rm -rfv "*.log"
 echo "开始吧小老弟！"
-echo "当前目录`pwd`"
+echo "当前目录${PWD}"
 mkdir -p ".config/clash"
 cp -r -v Country.mmdb ".config/clash/"
 
