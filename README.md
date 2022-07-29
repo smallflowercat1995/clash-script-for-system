@@ -3,7 +3,7 @@ Clash virtual private network technology script adapted to various systems
 
     clash内核依赖于：
     https://github.com/Dreamacro/clash
-    感谢
+    感谢 Dreamacro 大佬
 
 ## 描述
 这个项目主要是自用 clash 内核工具方便自己学习新知识，主要是为了学习！！！不要想太多  
